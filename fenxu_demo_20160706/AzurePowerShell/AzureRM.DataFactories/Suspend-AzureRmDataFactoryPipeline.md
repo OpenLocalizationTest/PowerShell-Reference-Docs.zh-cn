@@ -174,5 +174,3 @@ Keywords: azure, azurerm, arm, resource, management, manager, data, factories
 
 [Set-AzureRmDataFactoryPipelineActivePeriod]()
 
-[]()
-
