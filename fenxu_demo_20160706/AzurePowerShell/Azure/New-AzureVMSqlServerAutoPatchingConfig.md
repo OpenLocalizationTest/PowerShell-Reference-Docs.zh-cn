@@ -1,12 +1,11 @@
 ---
-external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
+external help file: 
 online version: 
 schema: 2.0.0
 ---
 
 # New-AzureVMSqlServerAutoPatchingConfig
 ## SYNOPSIS
-Creates a configuration object for virtual machine automatic patching.
 
 ## SYNTAX
 
@@ -17,30 +16,20 @@ New-AzureVMSqlServerAutoPatchingConfig [-Enable] [-DayOfWeek <String>] [-Mainten
 ```
 
 ## DESCRIPTION
-The New-AzureVMSqlServerAutoPatchingConfig cmdlet creates a configuration object for virtual machine automatic patching.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Create a configuration object to configure automatic patching  --------------------------
+### --------------------------  1:  --------------------------
 @{paragraph=PS C:\\\>}
 
 ```
-PS C:\>$APS = New-AzureVMSqlServerAutoPatchingConfig -Enable -DayOfWeek "Thursday" -MaintenanceWindowStartingHour 11 -MaintenanceWindowDuration 120 -PatchCategory "Important"
-          Enable                        : True
-          DayOfWeek                     : Thursday
-          MaintenanceWindowStartingHour : 11
-          MaintenanceWindowDuration     : 120
-          PatchCategory                 : Important
+PS C:\>
 ```
-
-This command creates configuration object that can be used to configure automatic patching using Set-AzureVMSqlServerExtension.
 
 ## PARAMETERS
 
 ### -Enable
-Indicates that automated patching for the virtual machine is enabled.
-If you enable automated patching the cmdlet will put Windows Update into interactive mode.
-If you disable automated patching, Windows Update settings will not change.
+@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -55,18 +44,7 @@ Accept wildcard characters: False
 ```
 
 ### -DayOfWeek
-Specifies the day of the week when updates should be installed.
-
-The acceptable values for this parameter are:
-
--- Sunday
--- Monday
--- Tuesday
--- Wednesday
--- Thursday
--- Friday
--- Saturday
--- Everyday
+@{Text=}
 
 ```yaml
 Type: String
@@ -81,8 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -MaintenanceWindowStartingHour
-Specifies the hour of the day when maintenance window starts.
-This time defines when updates start installing and is rounded to the hour.
+@{Text=}
 
 ```yaml
 Type: Int32
@@ -97,9 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -MaintenanceWindowDuration
-Specifies the duration of the maintenance window.
-Automated patching will avoid performing an action that can impact a machine availability outside of that window.
-Only 30 minutes increments are allowed.
+@{Text=}
 
 ```yaml
 Type: Int32
@@ -114,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -PatchCategory
-Specifies whether important updates should be included.
+@{Text=}
 
 ```yaml
 Type: String
@@ -162,16 +137,7 @@ Accept wildcard characters: False
 
 ## OUTPUTS
 
-### AutoPatchingSettings
-This cmdlet returns object contains settings for automated patching.
-
 ## NOTES
 
 ## RELATED LINKS
-
-[Set-AzureVMSqlServerExtension]()
-
-[Remove-AzureVMSqlServerExtension]()
-
-[Set-AzureVMSqlServerExtension]()
 

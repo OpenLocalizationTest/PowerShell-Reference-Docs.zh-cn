@@ -1,5 +1,5 @@
 ---
-external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
+external help file: 
 online version: 
 schema: 2.0.0
 ---
@@ -10,21 +10,23 @@ schema: 2.0.0
 ## SYNTAX
 
 ```
-New-AzureVMSqlServerKeyVaultCredentialConfig [-Enable] [[-CredentialName] <String>]
- [[-AzureKeyVaultUrl] <String>] [[-ServicePrincipalName] <String>] [[-ServicePrincipalSecret] <SecureString>]
- [-Profile <AzureSMProfile>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+New-AzureVMSqlServerKeyVaultCredentialConfig [-Enable] [-CredentialName <String>] [-AzureKeyVaultUrl <String>]
+ [-ServicePrincipalName <String>] [-ServicePrincipalSecret <SecureString>] [-Profile <AzureSMProfile>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
 ## DESCRIPTION
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  Example 1: Create Key Vault Credential settings to enable AKV  --------------------------
+@{paragraph=PS C:\\\>}
+
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>New-AzureVMSqlServerKeyVaultCredentialConfig -ResourceGroupName "Rg1" -Enable -CredentialName "mycred1" -AzureKeyVaultUrl "https://contosokeyvault.vault.azure.net/" -ServicePrincipalName "fde2b411-33d5-4e11-af04eb07b669ccf2" -ServicePrincipalSecret "9VTJSQwzlFepD8XODnzy8n2V01Jd8dAjwm/azF1XDKM="
 ```
 
-{{ Add example description here }}
+The New-AzureVMSqlServerKeyVaultCredentialConfig cmdlet creates a configuration object for the Azure Key Vault Integration feature.
 
 ## PARAMETERS
 
@@ -37,8 +39,8 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 0
-Default value: 
+Position: Named
+Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
@@ -52,8 +54,8 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 0
-Default value: 
+Position: Named
+Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
@@ -67,8 +69,8 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 0
-Default value: 
+Position: Named
+Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
@@ -82,8 +84,8 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 0
-Default value: 
+Position: Named
+Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
@@ -97,24 +99,9 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 0
-Default value: 
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Profile
-@{Text=}
-
-```yaml
-Type: AzureSMProfile
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
 Position: Named
-Default value: 
-Accept pipeline input: False
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -140,6 +127,21 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: iv
+
+Required: False
+Position: Named
+Default value: 
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Profile
+In-memory profile.
+
+```yaml
+Type: AzureSMProfile
+Parameter Sets: (All)
+Aliases: 
 
 Required: False
 Position: Named

@@ -1,21 +1,29 @@
 ---
-external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-help.xml
+external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
 ---
 
-# Add-AzureApplicationGatewaySslCertificate
+# Remove-AzureRmServerManagementSession
 ## SYNOPSIS
+Closes a Server Management Session
 
 ## SYNTAX
 
+### ByName
 ```
-Add-AzureApplicationGatewaySslCertificate [-Name] <String> [-CertificateName] <String> [-Password] <String>
- [-CertificateFile] <String> [-Profile <AzureSMProfile>] [-InformationAction <ActionPreference>]
- [-InformationVariable <String>]
+Remove-AzureRmServerManagementSession [-ResourceGroupName] <String> [-NodeName] <String>
+ [-SessionName] <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+```
+
+### ByObject
+```
+Remove-AzureRmServerManagementSession [[-SessionName] <String>] [-Session] <Session>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
 ## DESCRIPTION
+Closes an Azure Server Management Session
 
 ## EXAMPLES
 
@@ -28,12 +36,12 @@ PS C:\> {{ Add example code here }}
 
 ## PARAMETERS
 
-### -Name
-@{Text=}
+### -ResourceGroupName
+The name of the resource group in which to close the session.
 
 ```yaml
 Type: String
-Parameter Sets: (All)
+Parameter Sets: ByName
 Aliases: 
 
 Required: True
@@ -43,12 +51,12 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -CertificateName
-@{Text=}
+### -NodeName
+The name of the node on which to close the session
 
 ```yaml
 Type: String
-Parameter Sets: (All)
+Parameter Sets: ByName
 Aliases: 
 
 Required: True
@@ -58,46 +66,28 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Password
-@{Text=}
+### -SessionName
+The session name to close.
 
 ```yaml
 Type: String
-Parameter Sets: (All)
+Parameter Sets: ByName
 Aliases: 
 
 Required: True
 Position: 2
 Default value: 
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
-
-### -CertificateFile
-@{Text=}
 
 ```yaml
 Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 3
-Default value: 
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Profile
-@{Text=}
-
-```yaml
-Type: AzureSMProfile
-Parameter Sets: (All)
+Parameter Sets: ByObject
 Aliases: 
 
 Required: False
-Position: Named
+Position: 2
 Default value: 
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -130,6 +120,23 @@ Required: False
 Position: Named
 Default value: 
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Session
+The Session to close.
+
+May be used instead of specifying ResourceGroupName, NodeName and SessionName.
+
+```yaml
+Type: Session
+Parameter Sets: ByObject
+Aliases: 
+
+Required: True
+Position: 0
+Default value: 
+Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 

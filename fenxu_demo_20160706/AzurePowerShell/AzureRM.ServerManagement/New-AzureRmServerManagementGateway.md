@@ -1,21 +1,22 @@
 ---
-external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-help.xml
+external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
 ---
 
-# Add-AzureApplicationGatewaySslCertificate
+# New-AzureRmServerManagementGateway
 ## SYNOPSIS
+Creates a new Server Management Gateway
 
 ## SYNTAX
 
 ```
-Add-AzureApplicationGatewaySslCertificate [-Name] <String> [-CertificateName] <String> [-Password] <String>
- [-CertificateFile] <String> [-Profile <AzureSMProfile>] [-InformationAction <ActionPreference>]
- [-InformationVariable <String>]
+New-AzureRmServerManagementGateway [-ResourceGroupName] <String> [-GatewayName] <String> [-Location] <String>
+ [-AutoUpgrade] [-Tags <Hashtable>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
 ## DESCRIPTION
+Creates a new Azure Server Management Gateway
 
 ## EXAMPLES
 
@@ -28,8 +29,8 @@ PS C:\> {{ Add example code here }}
 
 ## PARAMETERS
 
-### -Name
-@{Text=}
+### -ResourceGroupName
+The name of the resource group in which to create the gateway.
 
 ```yaml
 Type: String
@@ -43,8 +44,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -CertificateName
-@{Text=}
+### -GatewayName
+The name of the gateway to create.
 
 ```yaml
 Type: String
@@ -58,8 +59,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Password
-@{Text=}
+### -Location
+The Location in which to create the gateway.
 
 ```yaml
 Type: String
@@ -73,33 +74,34 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -CertificateFile
-@{Text=}
+### -AutoUpgrade
+If specified, the gateway will auto upgrade itself when a new version is released.
 
 ```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 3
-Default value: 
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Profile
-@{Text=}
-
-```yaml
-Type: AzureSMProfile
+Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
 Position: Named
 Default value: 
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Tags
+Specifies tags as key-value pairs.
+You can use tags to identify a Gateway from other Azure resources.
+
+```yaml
+Type: Hashtable
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: 
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
