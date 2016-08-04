@@ -13,7 +13,8 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+		"AzureCli": "Content"
       },
       "build_entry_point": "docs",
       "customized_template_paths": ["azurecli/azurecli"]
