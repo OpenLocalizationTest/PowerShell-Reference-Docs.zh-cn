@@ -16,7 +16,8 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "breadcrumb.json"
         ],
         "exclude": [
           "**/obj/**",
@@ -27,7 +28,9 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+        "breadcrumb_path": "/fenxu_demo_20160706/breadcrumb.json"
+    },
     "fileMetadata": {},
     "template": [
       null
