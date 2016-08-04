@@ -1,11 +1,11 @@
-- name Index
-  href: index.md
+- name: Index
+  href: Index.md
 - name: Add-Member
   uid: Add-Member
 - name: Add-Type
-  href: Add-Type
--name: New-Object
-  href: New-Object
+  uid: Add-Type
+- name: New-Object
+  uid: New-Object
 - name: AzurePowerShell
   href: AzurePowerShell/
   homepage: AzurePowerShell/Azure/Azure.md
