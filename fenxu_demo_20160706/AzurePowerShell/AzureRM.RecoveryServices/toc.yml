@@ -1,0 +1,16 @@
+- name: AzureRM
+  href: AzureRM.RecoveryServices.md
+- name: Get-AzureRmRecoveryServicesBackupProperties
+  href: Get-AzureRmRecoveryServicesBackupProperties.md
+- name: Get-AzureRmRecoveryServicesVault
+  href: Get-AzureRmRecoveryServicesVault.md
+- name: Get-AzureRmRecoveryServicesVaultSettingsFile
+  href: Get-AzureRmRecoveryServicesVaultSettingsFile.md
+- name: New-AzureRmRecoveryServicesVault
+  href: New-AzureRmRecoveryServicesVault.md
+- name: Remove-AzureRmRecoveryServicesVault
+  href: Remove-AzureRmRecoveryServicesVault.md
+- name: Set-AzureRmRecoveryServicesBackupProperties
+  href: Set-AzureRmRecoveryServicesBackupProperties.md
+- name: Set-AzureRmRecoveryServicesVaultContext
+  href: Set-AzureRmRecoveryServicesVaultContext.md

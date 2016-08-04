@@ -1,0 +1,16 @@
+- name: AzureRM
+  href: AzureRM.MachineLearning.md
+- name: Export-AzureRmMlWebService
+  href: Export-AzureRmMlWebService.md
+- name: Get-AzureRmMlWebService
+  href: Get-AzureRmMlWebService.md
+- name: Get-AzureRmMlWebServiceKeys
+  href: Get-AzureRmMlWebServiceKeys.md
+- name: Import-AzureRmMlWebService
+  href: Import-AzureRmMlWebService.md
+- name: New-AzureRmMlWebService
+  href: New-AzureRmMlWebService.md
+- name: Remove-AzureRmMlWebService
+  href: Remove-AzureRmMlWebService.md
+- name: Update-AzureRmMlWebService
+  href: Update-AzureRmMlWebService.md
