@@ -14,7 +14,7 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content",
-		"AzureCli": "Content"
+        "AzureCli": "Content"
       },
       "build_entry_point": "docs",
       "customized_template_paths": ["azurecli/azurecli"]

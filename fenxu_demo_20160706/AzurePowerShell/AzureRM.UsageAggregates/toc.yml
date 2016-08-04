@@ -1,5 +1,0 @@
-- name: AzureRM.UsageAggregates
-  href: AzureRM.UsageAggregates.md
-  items:
-    - name: Get-UsageAggregates
-      href: Get-UsageAggregates.md

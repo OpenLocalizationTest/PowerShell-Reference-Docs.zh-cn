@@ -1,9 +1,0 @@
-- name: AzureRM
-  href: AzureRM.md
-  items:
-    - name: Import-AzureRM
-      href: Import-AzureRM.md
-    - name: Uninstall-AzureRM
-      href: Uninstall-AzureRM.md
-    - name: Update-AzureRM
-      href: Update-AzureRM.md
