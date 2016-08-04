@@ -1,24 +1,25 @@
-- name: AzureRM
+- name: AzureRM.RedisCache
   href: AzureRM.RedisCache.md
-- name: Export-AzureRmRedisCache
-  href: Export-AzureRmRedisCache.md
-- name: Get-AzureRmRedisCache
-  href: Get-AzureRmRedisCache.md
-- name: Get-AzureRmRedisCacheKey
-  href: Get-AzureRmRedisCacheKey.md
-- name: Import-AzureRmRedisCache
-  href: Import-AzureRmRedisCache.md
-- name: New-AzureRmRedisCache
-  href: New-AzureRmRedisCache.md
-- name: New-AzureRmRedisCacheKey
-  href: New-AzureRmRedisCacheKey.md
-- name: Remove-AzureRmRedisCache
-  href: Remove-AzureRmRedisCache.md
-- name: Remove-AzureRmRedisCacheDiagnostics
-  href: Remove-AzureRmRedisCacheDiagnostics.md
-- name: Reset-AzureRmRedisCache
-  href: Reset-AzureRmRedisCache.md
-- name: Set-AzureRmRedisCache
-  href: Set-AzureRmRedisCache.md
-- name: Set-AzureRmRedisCacheDiagnostics
-  href: Set-AzureRmRedisCacheDiagnostics.md
+  items:
+    - name: Export-AzureRmRedisCache
+      href: Export-AzureRmRedisCache.md
+    - name: Get-AzureRmRedisCache
+      href: Get-AzureRmRedisCache.md
+    - name: Get-AzureRmRedisCacheKey
+      href: Get-AzureRmRedisCacheKey.md
+    - name: Import-AzureRmRedisCache
+      href: Import-AzureRmRedisCache.md
+    - name: New-AzureRmRedisCache
+      href: New-AzureRmRedisCache.md
+    - name: New-AzureRmRedisCacheKey
+      href: New-AzureRmRedisCacheKey.md
+    - name: Remove-AzureRmRedisCache
+      href: Remove-AzureRmRedisCache.md
+    - name: Remove-AzureRmRedisCacheDiagnostics
+      href: Remove-AzureRmRedisCacheDiagnostics.md
+    - name: Reset-AzureRmRedisCache
+      href: Reset-AzureRmRedisCache.md
+    - name: Set-AzureRmRedisCache
+      href: Set-AzureRmRedisCache.md
+    - name: Set-AzureRmRedisCacheDiagnostics
+      href: Set-AzureRmRedisCacheDiagnostics.md

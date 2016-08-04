@@ -1,40 +1,41 @@
-- name: AzureRM
+- name: AzureRM.NotificationHubs
   href: AzureRM.NotificationHubs.md
-- name: Get-AzureRmNotificationHub
-  href: Get-AzureRmNotificationHub.md
-- name: Get-AzureRmNotificationHubAuthorizationRules
-  href: Get-AzureRmNotificationHubAuthorizationRules.md
-- name: Get-AzureRmNotificationHubListKeys
-  href: Get-AzureRmNotificationHubListKeys.md
-- name: Get-AzureRmNotificationHubPNSCredentials
-  href: Get-AzureRmNotificationHubPNSCredentials.md
-- name: Get-AzureRmNotificationHubsNamespace
-  href: Get-AzureRmNotificationHubsNamespace.md
-- name: Get-AzureRmNotificationHubsNamespaceAuthorizationRules
-  href: Get-AzureRmNotificationHubsNamespaceAuthorizationRules.md
-- name: Get-AzureRmNotificationHubsNamespaceListKeys
-  href: Get-AzureRmNotificationHubsNamespaceListKeys.md
-- name: New-AzureRmNotificationHub
-  href: New-AzureRmNotificationHub.md
-- name: New-AzureRmNotificationHubAuthorizationRules
-  href: New-AzureRmNotificationHubAuthorizationRules.md
-- name: New-AzureRmNotificationHubsNamespace
-  href: New-AzureRmNotificationHubsNamespace.md
-- name: New-AzureRmNotificationHubsNamespaceAuthorizationRules
-  href: New-AzureRmNotificationHubsNamespaceAuthorizationRules.md
-- name: Remove-AzureRmNotificationHub
-  href: Remove-AzureRmNotificationHub.md
-- name: Remove-AzureRmNotificationHubAuthorizationRules
-  href: Remove-AzureRmNotificationHubAuthorizationRules.md
-- name: Remove-AzureRmNotificationHubsNamespace
-  href: Remove-AzureRmNotificationHubsNamespace.md
-- name: Remove-AzureRmNotificationHubsNamespaceAuthorizationRules
-  href: Remove-AzureRmNotificationHubsNamespaceAuthorizationRules.md
-- name: Set-AzureRmNotificationHub
-  href: Set-AzureRmNotificationHub.md
-- name: Set-AzureRmNotificationHubAuthorizationRules
-  href: Set-AzureRmNotificationHubAuthorizationRules.md
-- name: Set-AzureRmNotificationHubsNamespace
-  href: Set-AzureRmNotificationHubsNamespace.md
-- name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
-  href: Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+  items:
+    - name: Get-AzureRmNotificationHub
+      href: Get-AzureRmNotificationHub.md
+    - name: Get-AzureRmNotificationHubAuthorizationRules
+      href: Get-AzureRmNotificationHubAuthorizationRules.md
+    - name: Get-AzureRmNotificationHubListKeys
+      href: Get-AzureRmNotificationHubListKeys.md
+    - name: Get-AzureRmNotificationHubPNSCredentials
+      href: Get-AzureRmNotificationHubPNSCredentials.md
+    - name: Get-AzureRmNotificationHubsNamespace
+      href: Get-AzureRmNotificationHubsNamespace.md
+    - name: Get-AzureRmNotificationHubsNamespaceAuthorizationRules
+      href: Get-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+    - name: Get-AzureRmNotificationHubsNamespaceListKeys
+      href: Get-AzureRmNotificationHubsNamespaceListKeys.md
+    - name: New-AzureRmNotificationHub
+      href: New-AzureRmNotificationHub.md
+    - name: New-AzureRmNotificationHubAuthorizationRules
+      href: New-AzureRmNotificationHubAuthorizationRules.md
+    - name: New-AzureRmNotificationHubsNamespace
+      href: New-AzureRmNotificationHubsNamespace.md
+    - name: New-AzureRmNotificationHubsNamespaceAuthorizationRules
+      href: New-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+    - name: Remove-AzureRmNotificationHub
+      href: Remove-AzureRmNotificationHub.md
+    - name: Remove-AzureRmNotificationHubAuthorizationRules
+      href: Remove-AzureRmNotificationHubAuthorizationRules.md
+    - name: Remove-AzureRmNotificationHubsNamespace
+      href: Remove-AzureRmNotificationHubsNamespace.md
+    - name: Remove-AzureRmNotificationHubsNamespaceAuthorizationRules
+      href: Remove-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+    - name: Set-AzureRmNotificationHub
+      href: Set-AzureRmNotificationHub.md
+    - name: Set-AzureRmNotificationHubAuthorizationRules
+      href: Set-AzureRmNotificationHubAuthorizationRules.md
+    - name: Set-AzureRmNotificationHubsNamespace
+      href: Set-AzureRmNotificationHubsNamespace.md
+    - name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
+      href: Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md

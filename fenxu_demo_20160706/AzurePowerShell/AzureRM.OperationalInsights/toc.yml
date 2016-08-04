@@ -1,46 +1,47 @@
-- name: AzureRM
+- name: AzureRM.OperationalInsights
   href: AzureRM.OperationalInsights.md
-- name: Get-AzureRmOperationalInsightsIntelligencePacks
-  href: Get-AzureRmOperationalInsightsIntelligencePacks.md
-- name: Get-AzureRmOperationalInsightsLinkTargets
-  href: Get-AzureRmOperationalInsightsLinkTargets.md
-- name: Get-AzureRmOperationalInsightsSavedSearch
-  href: Get-AzureRmOperationalInsightsSavedSearch.md
-- name: Get-AzureRmOperationalInsightsSavedSearchResults
-  href: Get-AzureRmOperationalInsightsSavedSearchResults.md
-- name: Get-AzureRmOperationalInsightsSchema
-  href: Get-AzureRmOperationalInsightsSchema.md
-- name: Get-AzureRmOperationalInsightsSearchResults
-  href: Get-AzureRmOperationalInsightsSearchResults.md
-- name: Get-AzureRmOperationalInsightsStorageInsight
-  href: Get-AzureRmOperationalInsightsStorageInsight.md
-- name: Get-AzureRmOperationalInsightsWorkspace
-  href: Get-AzureRmOperationalInsightsWorkspace.md
-- name: Get-AzureRmOperationalInsightsWorkspaceManagementGroups
-  href: Get-AzureRmOperationalInsightsWorkspaceManagementGroups.md
-- name: Get-AzureRmOperationalInsightsWorkspaceSharedKeys
-  href: Get-AzureRmOperationalInsightsWorkspaceSharedKeys.md
-- name: Get-AzureRmOperationalInsightsWorkspaceUsage
-  href: Get-AzureRmOperationalInsightsWorkspaceUsage.md
-- name: New-AzureRmOperationalInsightsComputerGroup
-  href: New-AzureRmOperationalInsightsComputerGroup.md
-- name: New-AzureRmOperationalInsightsSavedSearch
-  href: New-AzureRmOperationalInsightsSavedSearch.md
-- name: New-AzureRmOperationalInsightsStorageInsight
-  href: New-AzureRmOperationalInsightsStorageInsight.md
-- name: New-AzureRmOperationalInsightsWorkspace
-  href: New-AzureRmOperationalInsightsWorkspace.md
-- name: Remove-AzureRmOperationalInsightsSavedSearch
-  href: Remove-AzureRmOperationalInsightsSavedSearch.md
-- name: Remove-AzureRmOperationalInsightsStorageInsight
-  href: Remove-AzureRmOperationalInsightsStorageInsight.md
-- name: Remove-AzureRmOperationalInsightsWorkspace
-  href: Remove-AzureRmOperationalInsightsWorkspace.md
-- name: Set-AzureRmOperationalInsightsIntelligencePack
-  href: Set-AzureRmOperationalInsightsIntelligencePack.md
-- name: Set-AzureRmOperationalInsightsSavedSearch
-  href: Set-AzureRmOperationalInsightsSavedSearch.md
-- name: Set-AzureRmOperationalInsightsStorageInsight
-  href: Set-AzureRmOperationalInsightsStorageInsight.md
-- name: Set-AzureRmOperationalInsightsWorkspace
-  href: Set-AzureRmOperationalInsightsWorkspace.md
+  items:
+    - name: Get-AzureRmOperationalInsightsIntelligencePacks
+      href: Get-AzureRmOperationalInsightsIntelligencePacks.md
+    - name: Get-AzureRmOperationalInsightsLinkTargets
+      href: Get-AzureRmOperationalInsightsLinkTargets.md
+    - name: Get-AzureRmOperationalInsightsSavedSearch
+      href: Get-AzureRmOperationalInsightsSavedSearch.md
+    - name: Get-AzureRmOperationalInsightsSavedSearchResults
+      href: Get-AzureRmOperationalInsightsSavedSearchResults.md
+    - name: Get-AzureRmOperationalInsightsSchema
+      href: Get-AzureRmOperationalInsightsSchema.md
+    - name: Get-AzureRmOperationalInsightsSearchResults
+      href: Get-AzureRmOperationalInsightsSearchResults.md
+    - name: Get-AzureRmOperationalInsightsStorageInsight
+      href: Get-AzureRmOperationalInsightsStorageInsight.md
+    - name: Get-AzureRmOperationalInsightsWorkspace
+      href: Get-AzureRmOperationalInsightsWorkspace.md
+    - name: Get-AzureRmOperationalInsightsWorkspaceManagementGroups
+      href: Get-AzureRmOperationalInsightsWorkspaceManagementGroups.md
+    - name: Get-AzureRmOperationalInsightsWorkspaceSharedKeys
+      href: Get-AzureRmOperationalInsightsWorkspaceSharedKeys.md
+    - name: Get-AzureRmOperationalInsightsWorkspaceUsage
+      href: Get-AzureRmOperationalInsightsWorkspaceUsage.md
+    - name: New-AzureRmOperationalInsightsComputerGroup
+      href: New-AzureRmOperationalInsightsComputerGroup.md
+    - name: New-AzureRmOperationalInsightsSavedSearch
+      href: New-AzureRmOperationalInsightsSavedSearch.md
+    - name: New-AzureRmOperationalInsightsStorageInsight
+      href: New-AzureRmOperationalInsightsStorageInsight.md
+    - name: New-AzureRmOperationalInsightsWorkspace
+      href: New-AzureRmOperationalInsightsWorkspace.md
+    - name: Remove-AzureRmOperationalInsightsSavedSearch
+      href: Remove-AzureRmOperationalInsightsSavedSearch.md
+    - name: Remove-AzureRmOperationalInsightsStorageInsight
+      href: Remove-AzureRmOperationalInsightsStorageInsight.md
+    - name: Remove-AzureRmOperationalInsightsWorkspace
+      href: Remove-AzureRmOperationalInsightsWorkspace.md
+    - name: Set-AzureRmOperationalInsightsIntelligencePack
+      href: Set-AzureRmOperationalInsightsIntelligencePack.md
+    - name: Set-AzureRmOperationalInsightsSavedSearch
+      href: Set-AzureRmOperationalInsightsSavedSearch.md
+    - name: Set-AzureRmOperationalInsightsStorageInsight
+      href: Set-AzureRmOperationalInsightsStorageInsight.md
+    - name: Set-AzureRmOperationalInsightsWorkspace
+      href: Set-AzureRmOperationalInsightsWorkspace.md

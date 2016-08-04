@@ -1,376 +1,377 @@
-- name: Add-AzureRmApplicationGatewayBackendAddressPool
-  href: Add-AzureRmApplicationGatewayBackendAddressPool.md
-- name: Add-AzureRmApplicationGatewayBackendHttpSettings
-  href: Add-AzureRmApplicationGatewayBackendHttpSettings.md
-- name: Add-AzureRmApplicationGatewayFrontendIPConfig
-  href: Add-AzureRmApplicationGatewayFrontendIPConfig.md
-- name: Add-AzureRmApplicationGatewayFrontendPort
-  href: Add-AzureRmApplicationGatewayFrontendPort.md
-- name: Add-AzureRmApplicationGatewayHttpListener
-  href: Add-AzureRmApplicationGatewayHttpListener.md
-- name: Add-AzureRmApplicationGatewayIPConfiguration
-  href: Add-AzureRmApplicationGatewayIPConfiguration.md
-- name: Add-AzureRmApplicationGatewayProbeConfig
-  href: Add-AzureRmApplicationGatewayProbeConfig.md
-- name: Add-AzureRmApplicationGatewayRequestRoutingRule
-  href: Add-AzureRmApplicationGatewayRequestRoutingRule.md
-- name: Add-AzureRmApplicationGatewaySslCertificate
-  href: Add-AzureRmApplicationGatewaySslCertificate.md
-- name: Add-AzureRmApplicationGatewayUrlPathMapConfig
-  href: Add-AzureRmApplicationGatewayUrlPathMapConfig.md
-- name: Add-AzureRmExpressRouteCircuitAuthorization
-  href: Add-AzureRmExpressRouteCircuitAuthorization.md
-- name: Add-AzureRmExpressRouteCircuitPeeringConfig
-  href: Add-AzureRmExpressRouteCircuitPeeringConfig.md
-- name: Add-AzureRmLoadBalancerBackendAddressPoolConfig
-  href: Add-AzureRmLoadBalancerBackendAddressPoolConfig.md
-- name: Add-AzureRmLoadBalancerFrontendIpConfig
-  href: Add-AzureRmLoadBalancerFrontendIpConfig.md
-- name: Add-AzureRmLoadBalancerInboundNatPoolConfig
-  href: Add-AzureRmLoadBalancerInboundNatPoolConfig.md
-- name: Add-AzureRmLoadBalancerInboundNatRuleConfig
-  href: Add-AzureRmLoadBalancerInboundNatRuleConfig.md
-- name: Add-AzureRmLoadBalancerProbeConfig
-  href: Add-AzureRmLoadBalancerProbeConfig.md
-- name: Add-AzureRmLoadBalancerRuleConfig
-  href: Add-AzureRmLoadBalancerRuleConfig.md
-- name: Add-AzureRmNetworkInterfaceIpConfig
-  href: Add-AzureRmNetworkInterfaceIpConfig.md
-- name: Add-AzureRmNetworkSecurityRuleConfig
-  href: Add-AzureRmNetworkSecurityRuleConfig.md
-- name: Add-AzureRmRouteConfig
-  href: Add-AzureRmRouteConfig.md
-- name: Add-AzureRmVirtualNetworkPeering
-  href: Add-AzureRmVirtualNetworkPeering.md
-- name: Add-AzureRmVirtualNetworkSubnetConfig
-  href: Add-AzureRmVirtualNetworkSubnetConfig.md
-- name: Add-AzureRmVpnClientRevokedCertificate
-  href: Add-AzureRmVpnClientRevokedCertificate.md
-- name: Add-AzureRmVpnClientRootCertificate
-  href: Add-AzureRmVpnClientRootCertificate.md
-- name: AzureRM
+- name: AzureRM.Network
   href: AzureRM.Network.md
-- name: Get-AzureRmApplicationGateway
-  href: Get-AzureRmApplicationGateway.md
-- name: Get-AzureRmApplicationGatewayBackendAddressPool
-  href: Get-AzureRmApplicationGatewayBackendAddressPool.md
-- name: Get-AzureRmApplicationGatewayBackendHttpSettings
-  href: Get-AzureRmApplicationGatewayBackendHttpSettings.md
-- name: Get-AzureRmApplicationGatewayFrontendIPConfig
-  href: Get-AzureRmApplicationGatewayFrontendIPConfig.md
-- name: Get-AzureRmApplicationGatewayFrontendPort
-  href: Get-AzureRmApplicationGatewayFrontendPort.md
-- name: Get-AzureRmApplicationGatewayHttpListener
-  href: Get-AzureRmApplicationGatewayHttpListener.md
-- name: Get-AzureRmApplicationGatewayIPConfiguration
-  href: Get-AzureRmApplicationGatewayIPConfiguration.md
-- name: Get-AzureRmApplicationGatewayProbeConfig
-  href: Get-AzureRmApplicationGatewayProbeConfig.md
-- name: Get-AzureRmApplicationGatewayRequestRoutingRule
-  href: Get-AzureRmApplicationGatewayRequestRoutingRule.md
-- name: Get-AzureRmApplicationGatewaySku
-  href: Get-AzureRmApplicationGatewaySku.md
-- name: Get-AzureRmApplicationGatewaySslCertificate
-  href: Get-AzureRmApplicationGatewaySslCertificate.md
-- name: Get-AzureRmApplicationGatewayUrlPathMapConfig
-  href: Get-AzureRmApplicationGatewayUrlPathMapConfig.md
-- name: Get-AzureRmExpressRouteCircuit
-  href: Get-AzureRmExpressRouteCircuit.md
-- name: Get-AzureRmExpressRouteCircuitARPTable
-  href: Get-AzureRmExpressRouteCircuitARPTable.md
-- name: Get-AzureRmExpressRouteCircuitAuthorization
-  href: Get-AzureRmExpressRouteCircuitAuthorization.md
-- name: Get-AzureRmExpressRouteCircuitPeeringConfig
-  href: Get-AzureRmExpressRouteCircuitPeeringConfig.md
-- name: Get-AzureRmExpressRouteCircuitRouteTable
-  href: Get-AzureRmExpressRouteCircuitRouteTable.md
-- name: Get-AzureRmExpressRouteCircuitRouteTableSummary
-  href: Get-AzureRmExpressRouteCircuitRouteTableSummary.md
-- name: Get-AzureRmExpressRouteCircuitStats
-  href: Get-AzureRmExpressRouteCircuitStats.md
-- name: Get-AzureRmExpressRouteServiceProvider
-  href: Get-AzureRmExpressRouteServiceProvider.md
-- name: Get-AzureRmLoadBalancer
-  href: Get-AzureRmLoadBalancer.md
-- name: Get-AzureRmLoadBalancerBackendAddressPoolConfig
-  href: Get-AzureRmLoadBalancerBackendAddressPoolConfig.md
-- name: Get-AzureRmLoadBalancerFrontendIpConfig
-  href: Get-AzureRmLoadBalancerFrontendIpConfig.md
-- name: Get-AzureRmLoadBalancerInboundNatPoolConfig
-  href: Get-AzureRmLoadBalancerInboundNatPoolConfig.md
-- name: Get-AzureRmLoadBalancerInboundNatRuleConfig
-  href: Get-AzureRmLoadBalancerInboundNatRuleConfig.md
-- name: Get-AzureRmLoadBalancerProbeConfig
-  href: Get-AzureRmLoadBalancerProbeConfig.md
-- name: Get-AzureRmLoadBalancerRuleConfig
-  href: Get-AzureRmLoadBalancerRuleConfig.md
-- name: Get-AzureRmLocalNetworkGateway
-  href: Get-AzureRmLocalNetworkGateway.md
-- name: Get-AzureRmNetworkInterface
-  href: Get-AzureRmNetworkInterface.md
-- name: Get-AzureRmNetworkInterfaceIpConfig
-  href: Get-AzureRmNetworkInterfaceIpConfig.md
-- name: Get-AzureRmNetworkSecurityGroup
-  href: Get-AzureRmNetworkSecurityGroup.md
-- name: Get-AzureRmNetworkSecurityRuleConfig
-  href: Get-AzureRmNetworkSecurityRuleConfig.md
-- name: Get-AzureRmPublicIpAddress
-  href: Get-AzureRmPublicIpAddress.md
-- name: Get-AzureRmRouteConfig
-  href: Get-AzureRmRouteConfig.md
-- name: Get-AzureRmRouteTable
-  href: Get-AzureRmRouteTable.md
-- name: Get-AzureRmVirtualNetwork
-  href: Get-AzureRmVirtualNetwork.md
-- name: Get-AzureRmVirtualNetworkGateway
-  href: Get-AzureRmVirtualNetworkGateway.md
-- name: Get-AzureRmVirtualNetworkGatewayConnection
-  href: Get-AzureRmVirtualNetworkGatewayConnection.md
-- name: Get-AzureRmVirtualNetworkGatewayConnectionSharedKey
-  href: Get-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
-- name: Get-AzureRmVirtualNetworkPeering
-  href: Get-AzureRmVirtualNetworkPeering.md
-- name: Get-AzureRmVirtualNetworkSubnetConfig
-  href: Get-AzureRmVirtualNetworkSubnetConfig.md
-- name: Get-AzureRmVpnClientPackage
-  href: Get-AzureRmVpnClientPackage.md
-- name: Get-AzureRmVpnClientRevokedCertificate
-  href: Get-AzureRmVpnClientRevokedCertificate.md
-- name: Get-AzureRmVpnClientRootCertificate
-  href: Get-AzureRmVpnClientRootCertificate.md
-- name: Move-AzureRmExpressRouteCircuit
-  href: Move-AzureRmExpressRouteCircuit.md
-- name: New-AzureRmApplicationGateway
-  href: New-AzureRmApplicationGateway.md
-- name: New-AzureRmApplicationGatewayBackendAddressPool
-  href: New-AzureRmApplicationGatewayBackendAddressPool.md
-- name: New-AzureRmApplicationGatewayBackendHttpSettings
-  href: New-AzureRmApplicationGatewayBackendHttpSettings.md
-- name: New-AzureRmApplicationGatewayFrontendIPConfig
-  href: New-AzureRmApplicationGatewayFrontendIPConfig.md
-- name: New-AzureRmApplicationGatewayFrontendPort
-  href: New-AzureRmApplicationGatewayFrontendPort.md
-- name: New-AzureRmApplicationGatewayHttpListener
-  href: New-AzureRmApplicationGatewayHttpListener.md
-- name: New-AzureRmApplicationGatewayIPConfiguration
-  href: New-AzureRmApplicationGatewayIPConfiguration.md
-- name: New-AzureRmApplicationGatewayPathRuleConfig
-  href: New-AzureRmApplicationGatewayPathRuleConfig.md
-- name: New-AzureRmApplicationGatewayProbeConfig
-  href: New-AzureRmApplicationGatewayProbeConfig.md
-- name: New-AzureRmApplicationGatewayRequestRoutingRule
-  href: New-AzureRmApplicationGatewayRequestRoutingRule.md
-- name: New-AzureRmApplicationGatewaySku
-  href: New-AzureRmApplicationGatewaySku.md
-- name: New-AzureRmApplicationGatewaySslCertificate
-  href: New-AzureRmApplicationGatewaySslCertificate.md
-- name: New-AzureRmApplicationGatewayUrlPathMapConfig
-  href: New-AzureRmApplicationGatewayUrlPathMapConfig.md
-- name: New-AzureRmExpressRouteCircuit
-  href: New-AzureRmExpressRouteCircuit.md
-- name: New-AzureRmExpressRouteCircuitAuthorization
-  href: New-AzureRmExpressRouteCircuitAuthorization.md
-- name: New-AzureRmExpressRouteCircuitPeeringConfig
-  href: New-AzureRmExpressRouteCircuitPeeringConfig.md
-- name: New-AzureRmLoadBalancer
-  href: New-AzureRmLoadBalancer.md
-- name: New-AzureRmLoadBalancerBackendAddressPoolConfig
-  href: New-AzureRmLoadBalancerBackendAddressPoolConfig.md
-- name: New-AzureRmLoadBalancerFrontendIpConfig
-  href: New-AzureRmLoadBalancerFrontendIpConfig.md
-- name: New-AzureRmLoadBalancerInboundNatPoolConfig
-  href: New-AzureRmLoadBalancerInboundNatPoolConfig.md
-- name: New-AzureRmLoadBalancerInboundNatRuleConfig
-  href: New-AzureRmLoadBalancerInboundNatRuleConfig.md
-- name: New-AzureRmLoadBalancerProbeConfig
-  href: New-AzureRmLoadBalancerProbeConfig.md
-- name: New-AzureRmLoadBalancerRuleConfig
-  href: New-AzureRmLoadBalancerRuleConfig.md
-- name: New-AzureRmLocalNetworkGateway
-  href: New-AzureRmLocalNetworkGateway.md
-- name: New-AzureRmNetworkInterface
-  href: New-AzureRmNetworkInterface.md
-- name: New-AzureRmNetworkInterfaceIpConfig
-  href: New-AzureRmNetworkInterfaceIpConfig.md
-- name: New-AzureRmNetworkSecurityGroup
-  href: New-AzureRmNetworkSecurityGroup.md
-- name: New-AzureRmNetworkSecurityRuleConfig
-  href: New-AzureRmNetworkSecurityRuleConfig.md
-- name: New-AzureRmPublicIpAddress
-  href: New-AzureRmPublicIpAddress.md
-- name: New-AzureRmRouteConfig
-  href: New-AzureRmRouteConfig.md
-- name: New-AzureRmRouteTable
-  href: New-AzureRmRouteTable.md
-- name: New-AzureRmVirtualNetwork
-  href: New-AzureRmVirtualNetwork.md
-- name: New-AzureRmVirtualNetworkGateway
-  href: New-AzureRmVirtualNetworkGateway.md
-- name: New-AzureRmVirtualNetworkGatewayConnection
-  href: New-AzureRmVirtualNetworkGatewayConnection.md
-- name: New-AzureRmVirtualNetworkGatewayIpConfig
-  href: New-AzureRmVirtualNetworkGatewayIpConfig.md
-- name: New-AzureRmVirtualNetworkSubnetConfig
-  href: New-AzureRmVirtualNetworkSubnetConfig.md
-- name: New-AzureRmVpnClientRevokedCertificate
-  href: New-AzureRmVpnClientRevokedCertificate.md
-- name: New-AzureRmVpnClientRootCertificate
-  href: New-AzureRmVpnClientRootCertificate.md
-- name: Remove-AzureRmApplicationGateway
-  href: Remove-AzureRmApplicationGateway.md
-- name: Remove-AzureRmApplicationGatewayBackendAddressPool
-  href: Remove-AzureRmApplicationGatewayBackendAddressPool.md
-- name: Remove-AzureRmApplicationGatewayBackendHttpSettings
-  href: Remove-AzureRmApplicationGatewayBackendHttpSettings.md
-- name: Remove-AzureRmApplicationGatewayFrontendIPConfig
-  href: Remove-AzureRmApplicationGatewayFrontendIPConfig.md
-- name: Remove-AzureRmApplicationGatewayFrontendPort
-  href: Remove-AzureRmApplicationGatewayFrontendPort.md
-- name: Remove-AzureRmApplicationGatewayHttpListener
-  href: Remove-AzureRmApplicationGatewayHttpListener.md
-- name: Remove-AzureRmApplicationGatewayIPConfiguration
-  href: Remove-AzureRmApplicationGatewayIPConfiguration.md
-- name: Remove-AzureRmApplicationGatewayProbeConfig
-  href: Remove-AzureRmApplicationGatewayProbeConfig.md
-- name: Remove-AzureRmApplicationGatewayRequestRoutingRule
-  href: Remove-AzureRmApplicationGatewayRequestRoutingRule.md
-- name: Remove-AzureRmApplicationGatewaySslCertificate
-  href: Remove-AzureRmApplicationGatewaySslCertificate.md
-- name: Remove-AzureRmApplicationGatewayUrlPathMapConfig
-  href: Remove-AzureRmApplicationGatewayUrlPathMapConfig.md
-- name: Remove-AzureRmExpressRouteCircuit
-  href: Remove-AzureRmExpressRouteCircuit.md
-- name: Remove-AzureRmExpressRouteCircuitAuthorization
-  href: Remove-AzureRmExpressRouteCircuitAuthorization.md
-- name: Remove-AzureRmExpressRouteCircuitPeeringConfig
-  href: Remove-AzureRmExpressRouteCircuitPeeringConfig.md
-- name: Remove-AzureRmLoadBalancer
-  href: Remove-AzureRmLoadBalancer.md
-- name: Remove-AzureRmLoadBalancerBackendAddressPoolConfig
-  href: Remove-AzureRmLoadBalancerBackendAddressPoolConfig.md
-- name: Remove-AzureRmLoadBalancerFrontendIpConfig
-  href: Remove-AzureRmLoadBalancerFrontendIpConfig.md
-- name: Remove-AzureRmLoadBalancerInboundNatPoolConfig
-  href: Remove-AzureRmLoadBalancerInboundNatPoolConfig.md
-- name: Remove-AzureRmLoadBalancerInboundNatRuleConfig
-  href: Remove-AzureRmLoadBalancerInboundNatRuleConfig.md
-- name: Remove-AzureRmLoadBalancerProbeConfig
-  href: Remove-AzureRmLoadBalancerProbeConfig.md
-- name: Remove-AzureRmLoadBalancerRuleConfig
-  href: Remove-AzureRmLoadBalancerRuleConfig.md
-- name: Remove-AzureRmLocalNetworkGateway
-  href: Remove-AzureRmLocalNetworkGateway.md
-- name: Remove-AzureRmNetworkInterface
-  href: Remove-AzureRmNetworkInterface.md
-- name: Remove-AzureRmNetworkInterfaceIpConfig
-  href: Remove-AzureRmNetworkInterfaceIpConfig.md
-- name: Remove-AzureRmNetworkSecurityGroup
-  href: Remove-AzureRmNetworkSecurityGroup.md
-- name: Remove-AzureRmNetworkSecurityRuleConfig
-  href: Remove-AzureRmNetworkSecurityRuleConfig.md
-- name: Remove-AzureRmPublicIpAddress
-  href: Remove-AzureRmPublicIpAddress.md
-- name: Remove-AzureRmRouteConfig
-  href: Remove-AzureRmRouteConfig.md
-- name: Remove-AzureRmRouteTable
-  href: Remove-AzureRmRouteTable.md
-- name: Remove-AzureRmVirtualNetwork
-  href: Remove-AzureRmVirtualNetwork.md
-- name: Remove-AzureRmVirtualNetworkGateway
-  href: Remove-AzureRmVirtualNetworkGateway.md
-- name: Remove-AzureRmVirtualNetworkGatewayConnection
-  href: Remove-AzureRmVirtualNetworkGatewayConnection.md
-- name: Remove-AzureRmVirtualNetworkGatewayDefaultSite
-  href: Remove-AzureRmVirtualNetworkGatewayDefaultSite.md
-- name: Remove-AzureRmVirtualNetworkPeering
-  href: Remove-AzureRmVirtualNetworkPeering.md
-- name: Remove-AzureRmVirtualNetworkSubnetConfig
-  href: Remove-AzureRmVirtualNetworkSubnetConfig.md
-- name: Remove-AzureRmVpnClientRevokedCertificate
-  href: Remove-AzureRmVpnClientRevokedCertificate.md
-- name: Remove-AzureRmVpnClientRootCertificate
-  href: Remove-AzureRmVpnClientRootCertificate.md
-- name: Reset-AzureRmVirtualNetworkGateway
-  href: Reset-AzureRmVirtualNetworkGateway.md
-- name: Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey
-  href: Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
-- name: Resize-AzureRmVirtualNetworkGateway
-  href: Resize-AzureRmVirtualNetworkGateway.md
-- name: Set-AzureRmApplicationGateway
-  href: Set-AzureRmApplicationGateway.md
-- name: Set-AzureRmApplicationGatewayBackendAddressPool
-  href: Set-AzureRmApplicationGatewayBackendAddressPool.md
-- name: Set-AzureRmApplicationGatewayBackendHttpSettings
-  href: Set-AzureRmApplicationGatewayBackendHttpSettings.md
-- name: Set-AzureRmApplicationGatewayFrontendIPConfig
-  href: Set-AzureRmApplicationGatewayFrontendIPConfig.md
-- name: Set-AzureRmApplicationGatewayFrontendPort
-  href: Set-AzureRmApplicationGatewayFrontendPort.md
-- name: Set-AzureRmApplicationGatewayHttpListener
-  href: Set-AzureRmApplicationGatewayHttpListener.md
-- name: Set-AzureRmApplicationGatewayIPConfiguration
-  href: Set-AzureRmApplicationGatewayIPConfiguration.md
-- name: Set-AzureRmApplicationGatewayProbeConfig
-  href: Set-AzureRmApplicationGatewayProbeConfig.md
-- name: Set-AzureRmApplicationGatewayRequestRoutingRule
-  href: Set-AzureRmApplicationGatewayRequestRoutingRule.md
-- name: Set-AzureRmApplicationGatewaySku
-  href: Set-AzureRmApplicationGatewaySku.md
-- name: Set-AzureRmApplicationGatewaySslCertificate
-  href: Set-AzureRmApplicationGatewaySslCertificate.md
-- name: Set-AzureRmApplicationGatewayUrlPathMapConfig
-  href: Set-AzureRmApplicationGatewayUrlPathMapConfig.md
-- name: Set-AzureRmExpressRouteCircuit
-  href: Set-AzureRmExpressRouteCircuit.md
-- name: Set-AzureRmExpressRouteCircuitPeeringConfig
-  href: Set-AzureRmExpressRouteCircuitPeeringConfig.md
-- name: Set-AzureRmLoadBalancer
-  href: Set-AzureRmLoadBalancer.md
-- name: Set-AzureRmLoadBalancerFrontendIpConfig
-  href: Set-AzureRmLoadBalancerFrontendIpConfig.md
-- name: Set-AzureRmLoadBalancerInboundNatPoolConfig
-  href: Set-AzureRmLoadBalancerInboundNatPoolConfig.md
-- name: Set-AzureRmLoadBalancerInboundNatRuleConfig
-  href: Set-AzureRmLoadBalancerInboundNatRuleConfig.md
-- name: Set-AzureRmLoadBalancerProbeConfig
-  href: Set-AzureRmLoadBalancerProbeConfig.md
-- name: Set-AzureRmLoadBalancerRuleConfig
-  href: Set-AzureRmLoadBalancerRuleConfig.md
-- name: Set-AzureRmLocalNetworkGateway
-  href: Set-AzureRmLocalNetworkGateway.md
-- name: Set-AzureRmNetworkInterface
-  href: Set-AzureRmNetworkInterface.md
-- name: Set-AzureRmNetworkInterfaceIpConfig
-  href: Set-AzureRmNetworkInterfaceIpConfig.md
-- name: Set-AzureRmNetworkSecurityGroup
-  href: Set-AzureRmNetworkSecurityGroup.md
-- name: Set-AzureRmNetworkSecurityRuleConfig
-  href: Set-AzureRmNetworkSecurityRuleConfig.md
-- name: Set-AzureRmPublicIpAddress
-  href: Set-AzureRmPublicIpAddress.md
-- name: Set-AzureRmRouteConfig
-  href: Set-AzureRmRouteConfig.md
-- name: Set-AzureRmRouteTable
-  href: Set-AzureRmRouteTable.md
-- name: Set-AzureRmVirtualNetwork
-  href: Set-AzureRmVirtualNetwork.md
-- name: Set-AzureRmVirtualNetworkGateway
-  href: Set-AzureRmVirtualNetworkGateway.md
-- name: Set-AzureRmVirtualNetworkGatewayConnection
-  href: Set-AzureRmVirtualNetworkGatewayConnection.md
-- name: Set-AzureRmVirtualNetworkGatewayConnectionSharedKey
-  href: Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
-- name: Set-AzureRmVirtualNetworkGatewayDefaultSite
-  href: Set-AzureRmVirtualNetworkGatewayDefaultSite.md
-- name: Set-AzureRmVirtualNetworkGatewayVpnClientConfig
-  href: Set-AzureRmVirtualNetworkGatewayVpnClientConfig.md
-- name: Set-AzureRmVirtualNetworkPeering
-  href: Set-AzureRmVirtualNetworkPeering.md
-- name: Set-AzureRmVirtualNetworkSubnetConfig
-  href: Set-AzureRmVirtualNetworkSubnetConfig.md
-- name: Start-AzureRmApplicationGateway
-  href: Start-AzureRmApplicationGateway.md
-- name: Stop-AzureRmApplicationGateway
-  href: Stop-AzureRmApplicationGateway.md
-- name: Test-AzureRmDnsAvailability
-  href: Test-AzureRmDnsAvailability.md
+  items:
+    - name: Add-AzureRmApplicationGatewayBackendAddressPool
+      href: Add-AzureRmApplicationGatewayBackendAddressPool.md
+    - name: Add-AzureRmApplicationGatewayBackendHttpSettings
+      href: Add-AzureRmApplicationGatewayBackendHttpSettings.md
+    - name: Add-AzureRmApplicationGatewayFrontendIPConfig
+      href: Add-AzureRmApplicationGatewayFrontendIPConfig.md
+    - name: Add-AzureRmApplicationGatewayFrontendPort
+      href: Add-AzureRmApplicationGatewayFrontendPort.md
+    - name: Add-AzureRmApplicationGatewayHttpListener
+      href: Add-AzureRmApplicationGatewayHttpListener.md
+    - name: Add-AzureRmApplicationGatewayIPConfiguration
+      href: Add-AzureRmApplicationGatewayIPConfiguration.md
+    - name: Add-AzureRmApplicationGatewayProbeConfig
+      href: Add-AzureRmApplicationGatewayProbeConfig.md
+    - name: Add-AzureRmApplicationGatewayRequestRoutingRule
+      href: Add-AzureRmApplicationGatewayRequestRoutingRule.md
+    - name: Add-AzureRmApplicationGatewaySslCertificate
+      href: Add-AzureRmApplicationGatewaySslCertificate.md
+    - name: Add-AzureRmApplicationGatewayUrlPathMapConfig
+      href: Add-AzureRmApplicationGatewayUrlPathMapConfig.md
+    - name: Add-AzureRmExpressRouteCircuitAuthorization
+      href: Add-AzureRmExpressRouteCircuitAuthorization.md
+    - name: Add-AzureRmExpressRouteCircuitPeeringConfig
+      href: Add-AzureRmExpressRouteCircuitPeeringConfig.md
+    - name: Add-AzureRmLoadBalancerBackendAddressPoolConfig
+      href: Add-AzureRmLoadBalancerBackendAddressPoolConfig.md
+    - name: Add-AzureRmLoadBalancerFrontendIpConfig
+      href: Add-AzureRmLoadBalancerFrontendIpConfig.md
+    - name: Add-AzureRmLoadBalancerInboundNatPoolConfig
+      href: Add-AzureRmLoadBalancerInboundNatPoolConfig.md
+    - name: Add-AzureRmLoadBalancerInboundNatRuleConfig
+      href: Add-AzureRmLoadBalancerInboundNatRuleConfig.md
+    - name: Add-AzureRmLoadBalancerProbeConfig
+      href: Add-AzureRmLoadBalancerProbeConfig.md
+    - name: Add-AzureRmLoadBalancerRuleConfig
+      href: Add-AzureRmLoadBalancerRuleConfig.md
+    - name: Add-AzureRmNetworkInterfaceIpConfig
+      href: Add-AzureRmNetworkInterfaceIpConfig.md
+    - name: Add-AzureRmNetworkSecurityRuleConfig
+      href: Add-AzureRmNetworkSecurityRuleConfig.md
+    - name: Add-AzureRmRouteConfig
+      href: Add-AzureRmRouteConfig.md
+    - name: Add-AzureRmVirtualNetworkPeering
+      href: Add-AzureRmVirtualNetworkPeering.md
+    - name: Add-AzureRmVirtualNetworkSubnetConfig
+      href: Add-AzureRmVirtualNetworkSubnetConfig.md
+    - name: Add-AzureRmVpnClientRevokedCertificate
+      href: Add-AzureRmVpnClientRevokedCertificate.md
+    - name: Add-AzureRmVpnClientRootCertificate
+      href: Add-AzureRmVpnClientRootCertificate.md
+    - name: Get-AzureRmApplicationGateway
+      href: Get-AzureRmApplicationGateway.md
+    - name: Get-AzureRmApplicationGatewayBackendAddressPool
+      href: Get-AzureRmApplicationGatewayBackendAddressPool.md
+    - name: Get-AzureRmApplicationGatewayBackendHttpSettings
+      href: Get-AzureRmApplicationGatewayBackendHttpSettings.md
+    - name: Get-AzureRmApplicationGatewayFrontendIPConfig
+      href: Get-AzureRmApplicationGatewayFrontendIPConfig.md
+    - name: Get-AzureRmApplicationGatewayFrontendPort
+      href: Get-AzureRmApplicationGatewayFrontendPort.md
+    - name: Get-AzureRmApplicationGatewayHttpListener
+      href: Get-AzureRmApplicationGatewayHttpListener.md
+    - name: Get-AzureRmApplicationGatewayIPConfiguration
+      href: Get-AzureRmApplicationGatewayIPConfiguration.md
+    - name: Get-AzureRmApplicationGatewayProbeConfig
+      href: Get-AzureRmApplicationGatewayProbeConfig.md
+    - name: Get-AzureRmApplicationGatewayRequestRoutingRule
+      href: Get-AzureRmApplicationGatewayRequestRoutingRule.md
+    - name: Get-AzureRmApplicationGatewaySku
+      href: Get-AzureRmApplicationGatewaySku.md
+    - name: Get-AzureRmApplicationGatewaySslCertificate
+      href: Get-AzureRmApplicationGatewaySslCertificate.md
+    - name: Get-AzureRmApplicationGatewayUrlPathMapConfig
+      href: Get-AzureRmApplicationGatewayUrlPathMapConfig.md
+    - name: Get-AzureRmExpressRouteCircuit
+      href: Get-AzureRmExpressRouteCircuit.md
+    - name: Get-AzureRmExpressRouteCircuitARPTable
+      href: Get-AzureRmExpressRouteCircuitARPTable.md
+    - name: Get-AzureRmExpressRouteCircuitAuthorization
+      href: Get-AzureRmExpressRouteCircuitAuthorization.md
+    - name: Get-AzureRmExpressRouteCircuitPeeringConfig
+      href: Get-AzureRmExpressRouteCircuitPeeringConfig.md
+    - name: Get-AzureRmExpressRouteCircuitRouteTable
+      href: Get-AzureRmExpressRouteCircuitRouteTable.md
+    - name: Get-AzureRmExpressRouteCircuitRouteTableSummary
+      href: Get-AzureRmExpressRouteCircuitRouteTableSummary.md
+    - name: Get-AzureRmExpressRouteCircuitStats
+      href: Get-AzureRmExpressRouteCircuitStats.md
+    - name: Get-AzureRmExpressRouteServiceProvider
+      href: Get-AzureRmExpressRouteServiceProvider.md
+    - name: Get-AzureRmLoadBalancer
+      href: Get-AzureRmLoadBalancer.md
+    - name: Get-AzureRmLoadBalancerBackendAddressPoolConfig
+      href: Get-AzureRmLoadBalancerBackendAddressPoolConfig.md
+    - name: Get-AzureRmLoadBalancerFrontendIpConfig
+      href: Get-AzureRmLoadBalancerFrontendIpConfig.md
+    - name: Get-AzureRmLoadBalancerInboundNatPoolConfig
+      href: Get-AzureRmLoadBalancerInboundNatPoolConfig.md
+    - name: Get-AzureRmLoadBalancerInboundNatRuleConfig
+      href: Get-AzureRmLoadBalancerInboundNatRuleConfig.md
+    - name: Get-AzureRmLoadBalancerProbeConfig
+      href: Get-AzureRmLoadBalancerProbeConfig.md
+    - name: Get-AzureRmLoadBalancerRuleConfig
+      href: Get-AzureRmLoadBalancerRuleConfig.md
+    - name: Get-AzureRmLocalNetworkGateway
+      href: Get-AzureRmLocalNetworkGateway.md
+    - name: Get-AzureRmNetworkInterface
+      href: Get-AzureRmNetworkInterface.md
+    - name: Get-AzureRmNetworkInterfaceIpConfig
+      href: Get-AzureRmNetworkInterfaceIpConfig.md
+    - name: Get-AzureRmNetworkSecurityGroup
+      href: Get-AzureRmNetworkSecurityGroup.md
+    - name: Get-AzureRmNetworkSecurityRuleConfig
+      href: Get-AzureRmNetworkSecurityRuleConfig.md
+    - name: Get-AzureRmPublicIpAddress
+      href: Get-AzureRmPublicIpAddress.md
+    - name: Get-AzureRmRouteConfig
+      href: Get-AzureRmRouteConfig.md
+    - name: Get-AzureRmRouteTable
+      href: Get-AzureRmRouteTable.md
+    - name: Get-AzureRmVirtualNetwork
+      href: Get-AzureRmVirtualNetwork.md
+    - name: Get-AzureRmVirtualNetworkGateway
+      href: Get-AzureRmVirtualNetworkGateway.md
+    - name: Get-AzureRmVirtualNetworkGatewayConnection
+      href: Get-AzureRmVirtualNetworkGatewayConnection.md
+    - name: Get-AzureRmVirtualNetworkGatewayConnectionSharedKey
+      href: Get-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
+    - name: Get-AzureRmVirtualNetworkPeering
+      href: Get-AzureRmVirtualNetworkPeering.md
+    - name: Get-AzureRmVirtualNetworkSubnetConfig
+      href: Get-AzureRmVirtualNetworkSubnetConfig.md
+    - name: Get-AzureRmVpnClientPackage
+      href: Get-AzureRmVpnClientPackage.md
+    - name: Get-AzureRmVpnClientRevokedCertificate
+      href: Get-AzureRmVpnClientRevokedCertificate.md
+    - name: Get-AzureRmVpnClientRootCertificate
+      href: Get-AzureRmVpnClientRootCertificate.md
+    - name: Move-AzureRmExpressRouteCircuit
+      href: Move-AzureRmExpressRouteCircuit.md
+    - name: New-AzureRmApplicationGateway
+      href: New-AzureRmApplicationGateway.md
+    - name: New-AzureRmApplicationGatewayBackendAddressPool
+      href: New-AzureRmApplicationGatewayBackendAddressPool.md
+    - name: New-AzureRmApplicationGatewayBackendHttpSettings
+      href: New-AzureRmApplicationGatewayBackendHttpSettings.md
+    - name: New-AzureRmApplicationGatewayFrontendIPConfig
+      href: New-AzureRmApplicationGatewayFrontendIPConfig.md
+    - name: New-AzureRmApplicationGatewayFrontendPort
+      href: New-AzureRmApplicationGatewayFrontendPort.md
+    - name: New-AzureRmApplicationGatewayHttpListener
+      href: New-AzureRmApplicationGatewayHttpListener.md
+    - name: New-AzureRmApplicationGatewayIPConfiguration
+      href: New-AzureRmApplicationGatewayIPConfiguration.md
+    - name: New-AzureRmApplicationGatewayPathRuleConfig
+      href: New-AzureRmApplicationGatewayPathRuleConfig.md
+    - name: New-AzureRmApplicationGatewayProbeConfig
+      href: New-AzureRmApplicationGatewayProbeConfig.md
+    - name: New-AzureRmApplicationGatewayRequestRoutingRule
+      href: New-AzureRmApplicationGatewayRequestRoutingRule.md
+    - name: New-AzureRmApplicationGatewaySku
+      href: New-AzureRmApplicationGatewaySku.md
+    - name: New-AzureRmApplicationGatewaySslCertificate
+      href: New-AzureRmApplicationGatewaySslCertificate.md
+    - name: New-AzureRmApplicationGatewayUrlPathMapConfig
+      href: New-AzureRmApplicationGatewayUrlPathMapConfig.md
+    - name: New-AzureRmExpressRouteCircuit
+      href: New-AzureRmExpressRouteCircuit.md
+    - name: New-AzureRmExpressRouteCircuitAuthorization
+      href: New-AzureRmExpressRouteCircuitAuthorization.md
+    - name: New-AzureRmExpressRouteCircuitPeeringConfig
+      href: New-AzureRmExpressRouteCircuitPeeringConfig.md
+    - name: New-AzureRmLoadBalancer
+      href: New-AzureRmLoadBalancer.md
+    - name: New-AzureRmLoadBalancerBackendAddressPoolConfig
+      href: New-AzureRmLoadBalancerBackendAddressPoolConfig.md
+    - name: New-AzureRmLoadBalancerFrontendIpConfig
+      href: New-AzureRmLoadBalancerFrontendIpConfig.md
+    - name: New-AzureRmLoadBalancerInboundNatPoolConfig
+      href: New-AzureRmLoadBalancerInboundNatPoolConfig.md
+    - name: New-AzureRmLoadBalancerInboundNatRuleConfig
+      href: New-AzureRmLoadBalancerInboundNatRuleConfig.md
+    - name: New-AzureRmLoadBalancerProbeConfig
+      href: New-AzureRmLoadBalancerProbeConfig.md
+    - name: New-AzureRmLoadBalancerRuleConfig
+      href: New-AzureRmLoadBalancerRuleConfig.md
+    - name: New-AzureRmLocalNetworkGateway
+      href: New-AzureRmLocalNetworkGateway.md
+    - name: New-AzureRmNetworkInterface
+      href: New-AzureRmNetworkInterface.md
+    - name: New-AzureRmNetworkInterfaceIpConfig
+      href: New-AzureRmNetworkInterfaceIpConfig.md
+    - name: New-AzureRmNetworkSecurityGroup
+      href: New-AzureRmNetworkSecurityGroup.md
+    - name: New-AzureRmNetworkSecurityRuleConfig
+      href: New-AzureRmNetworkSecurityRuleConfig.md
+    - name: New-AzureRmPublicIpAddress
+      href: New-AzureRmPublicIpAddress.md
+    - name: New-AzureRmRouteConfig
+      href: New-AzureRmRouteConfig.md
+    - name: New-AzureRmRouteTable
+      href: New-AzureRmRouteTable.md
+    - name: New-AzureRmVirtualNetwork
+      href: New-AzureRmVirtualNetwork.md
+    - name: New-AzureRmVirtualNetworkGateway
+      href: New-AzureRmVirtualNetworkGateway.md
+    - name: New-AzureRmVirtualNetworkGatewayConnection
+      href: New-AzureRmVirtualNetworkGatewayConnection.md
+    - name: New-AzureRmVirtualNetworkGatewayIpConfig
+      href: New-AzureRmVirtualNetworkGatewayIpConfig.md
+    - name: New-AzureRmVirtualNetworkSubnetConfig
+      href: New-AzureRmVirtualNetworkSubnetConfig.md
+    - name: New-AzureRmVpnClientRevokedCertificate
+      href: New-AzureRmVpnClientRevokedCertificate.md
+    - name: New-AzureRmVpnClientRootCertificate
+      href: New-AzureRmVpnClientRootCertificate.md
+    - name: Remove-AzureRmApplicationGateway
+      href: Remove-AzureRmApplicationGateway.md
+    - name: Remove-AzureRmApplicationGatewayBackendAddressPool
+      href: Remove-AzureRmApplicationGatewayBackendAddressPool.md
+    - name: Remove-AzureRmApplicationGatewayBackendHttpSettings
+      href: Remove-AzureRmApplicationGatewayBackendHttpSettings.md
+    - name: Remove-AzureRmApplicationGatewayFrontendIPConfig
+      href: Remove-AzureRmApplicationGatewayFrontendIPConfig.md
+    - name: Remove-AzureRmApplicationGatewayFrontendPort
+      href: Remove-AzureRmApplicationGatewayFrontendPort.md
+    - name: Remove-AzureRmApplicationGatewayHttpListener
+      href: Remove-AzureRmApplicationGatewayHttpListener.md
+    - name: Remove-AzureRmApplicationGatewayIPConfiguration
+      href: Remove-AzureRmApplicationGatewayIPConfiguration.md
+    - name: Remove-AzureRmApplicationGatewayProbeConfig
+      href: Remove-AzureRmApplicationGatewayProbeConfig.md
+    - name: Remove-AzureRmApplicationGatewayRequestRoutingRule
+      href: Remove-AzureRmApplicationGatewayRequestRoutingRule.md
+    - name: Remove-AzureRmApplicationGatewaySslCertificate
+      href: Remove-AzureRmApplicationGatewaySslCertificate.md
+    - name: Remove-AzureRmApplicationGatewayUrlPathMapConfig
+      href: Remove-AzureRmApplicationGatewayUrlPathMapConfig.md
+    - name: Remove-AzureRmExpressRouteCircuit
+      href: Remove-AzureRmExpressRouteCircuit.md
+    - name: Remove-AzureRmExpressRouteCircuitAuthorization
+      href: Remove-AzureRmExpressRouteCircuitAuthorization.md
+    - name: Remove-AzureRmExpressRouteCircuitPeeringConfig
+      href: Remove-AzureRmExpressRouteCircuitPeeringConfig.md
+    - name: Remove-AzureRmLoadBalancer
+      href: Remove-AzureRmLoadBalancer.md
+    - name: Remove-AzureRmLoadBalancerBackendAddressPoolConfig
+      href: Remove-AzureRmLoadBalancerBackendAddressPoolConfig.md
+    - name: Remove-AzureRmLoadBalancerFrontendIpConfig
+      href: Remove-AzureRmLoadBalancerFrontendIpConfig.md
+    - name: Remove-AzureRmLoadBalancerInboundNatPoolConfig
+      href: Remove-AzureRmLoadBalancerInboundNatPoolConfig.md
+    - name: Remove-AzureRmLoadBalancerInboundNatRuleConfig
+      href: Remove-AzureRmLoadBalancerInboundNatRuleConfig.md
+    - name: Remove-AzureRmLoadBalancerProbeConfig
+      href: Remove-AzureRmLoadBalancerProbeConfig.md
+    - name: Remove-AzureRmLoadBalancerRuleConfig
+      href: Remove-AzureRmLoadBalancerRuleConfig.md
+    - name: Remove-AzureRmLocalNetworkGateway
+      href: Remove-AzureRmLocalNetworkGateway.md
+    - name: Remove-AzureRmNetworkInterface
+      href: Remove-AzureRmNetworkInterface.md
+    - name: Remove-AzureRmNetworkInterfaceIpConfig
+      href: Remove-AzureRmNetworkInterfaceIpConfig.md
+    - name: Remove-AzureRmNetworkSecurityGroup
+      href: Remove-AzureRmNetworkSecurityGroup.md
+    - name: Remove-AzureRmNetworkSecurityRuleConfig
+      href: Remove-AzureRmNetworkSecurityRuleConfig.md
+    - name: Remove-AzureRmPublicIpAddress
+      href: Remove-AzureRmPublicIpAddress.md
+    - name: Remove-AzureRmRouteConfig
+      href: Remove-AzureRmRouteConfig.md
+    - name: Remove-AzureRmRouteTable
+      href: Remove-AzureRmRouteTable.md
+    - name: Remove-AzureRmVirtualNetwork
+      href: Remove-AzureRmVirtualNetwork.md
+    - name: Remove-AzureRmVirtualNetworkGateway
+      href: Remove-AzureRmVirtualNetworkGateway.md
+    - name: Remove-AzureRmVirtualNetworkGatewayConnection
+      href: Remove-AzureRmVirtualNetworkGatewayConnection.md
+    - name: Remove-AzureRmVirtualNetworkGatewayDefaultSite
+      href: Remove-AzureRmVirtualNetworkGatewayDefaultSite.md
+    - name: Remove-AzureRmVirtualNetworkPeering
+      href: Remove-AzureRmVirtualNetworkPeering.md
+    - name: Remove-AzureRmVirtualNetworkSubnetConfig
+      href: Remove-AzureRmVirtualNetworkSubnetConfig.md
+    - name: Remove-AzureRmVpnClientRevokedCertificate
+      href: Remove-AzureRmVpnClientRevokedCertificate.md
+    - name: Remove-AzureRmVpnClientRootCertificate
+      href: Remove-AzureRmVpnClientRootCertificate.md
+    - name: Reset-AzureRmVirtualNetworkGateway
+      href: Reset-AzureRmVirtualNetworkGateway.md
+    - name: Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey
+      href: Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
+    - name: Resize-AzureRmVirtualNetworkGateway
+      href: Resize-AzureRmVirtualNetworkGateway.md
+    - name: Set-AzureRmApplicationGateway
+      href: Set-AzureRmApplicationGateway.md
+    - name: Set-AzureRmApplicationGatewayBackendAddressPool
+      href: Set-AzureRmApplicationGatewayBackendAddressPool.md
+    - name: Set-AzureRmApplicationGatewayBackendHttpSettings
+      href: Set-AzureRmApplicationGatewayBackendHttpSettings.md
+    - name: Set-AzureRmApplicationGatewayFrontendIPConfig
+      href: Set-AzureRmApplicationGatewayFrontendIPConfig.md
+    - name: Set-AzureRmApplicationGatewayFrontendPort
+      href: Set-AzureRmApplicationGatewayFrontendPort.md
+    - name: Set-AzureRmApplicationGatewayHttpListener
+      href: Set-AzureRmApplicationGatewayHttpListener.md
+    - name: Set-AzureRmApplicationGatewayIPConfiguration
+      href: Set-AzureRmApplicationGatewayIPConfiguration.md
+    - name: Set-AzureRmApplicationGatewayProbeConfig
+      href: Set-AzureRmApplicationGatewayProbeConfig.md
+    - name: Set-AzureRmApplicationGatewayRequestRoutingRule
+      href: Set-AzureRmApplicationGatewayRequestRoutingRule.md
+    - name: Set-AzureRmApplicationGatewaySku
+      href: Set-AzureRmApplicationGatewaySku.md
+    - name: Set-AzureRmApplicationGatewaySslCertificate
+      href: Set-AzureRmApplicationGatewaySslCertificate.md
+    - name: Set-AzureRmApplicationGatewayUrlPathMapConfig
+      href: Set-AzureRmApplicationGatewayUrlPathMapConfig.md
+    - name: Set-AzureRmExpressRouteCircuit
+      href: Set-AzureRmExpressRouteCircuit.md
+    - name: Set-AzureRmExpressRouteCircuitPeeringConfig
+      href: Set-AzureRmExpressRouteCircuitPeeringConfig.md
+    - name: Set-AzureRmLoadBalancer
+      href: Set-AzureRmLoadBalancer.md
+    - name: Set-AzureRmLoadBalancerFrontendIpConfig
+      href: Set-AzureRmLoadBalancerFrontendIpConfig.md
+    - name: Set-AzureRmLoadBalancerInboundNatPoolConfig
+      href: Set-AzureRmLoadBalancerInboundNatPoolConfig.md
+    - name: Set-AzureRmLoadBalancerInboundNatRuleConfig
+      href: Set-AzureRmLoadBalancerInboundNatRuleConfig.md
+    - name: Set-AzureRmLoadBalancerProbeConfig
+      href: Set-AzureRmLoadBalancerProbeConfig.md
+    - name: Set-AzureRmLoadBalancerRuleConfig
+      href: Set-AzureRmLoadBalancerRuleConfig.md
+    - name: Set-AzureRmLocalNetworkGateway
+      href: Set-AzureRmLocalNetworkGateway.md
+    - name: Set-AzureRmNetworkInterface
+      href: Set-AzureRmNetworkInterface.md
+    - name: Set-AzureRmNetworkInterfaceIpConfig
+      href: Set-AzureRmNetworkInterfaceIpConfig.md
+    - name: Set-AzureRmNetworkSecurityGroup
+      href: Set-AzureRmNetworkSecurityGroup.md
+    - name: Set-AzureRmNetworkSecurityRuleConfig
+      href: Set-AzureRmNetworkSecurityRuleConfig.md
+    - name: Set-AzureRmPublicIpAddress
+      href: Set-AzureRmPublicIpAddress.md
+    - name: Set-AzureRmRouteConfig
+      href: Set-AzureRmRouteConfig.md
+    - name: Set-AzureRmRouteTable
+      href: Set-AzureRmRouteTable.md
+    - name: Set-AzureRmVirtualNetwork
+      href: Set-AzureRmVirtualNetwork.md
+    - name: Set-AzureRmVirtualNetworkGateway
+      href: Set-AzureRmVirtualNetworkGateway.md
+    - name: Set-AzureRmVirtualNetworkGatewayConnection
+      href: Set-AzureRmVirtualNetworkGatewayConnection.md
+    - name: Set-AzureRmVirtualNetworkGatewayConnectionSharedKey
+      href: Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
+    - name: Set-AzureRmVirtualNetworkGatewayDefaultSite
+      href: Set-AzureRmVirtualNetworkGatewayDefaultSite.md
+    - name: Set-AzureRmVirtualNetworkGatewayVpnClientConfig
+      href: Set-AzureRmVirtualNetworkGatewayVpnClientConfig.md
+    - name: Set-AzureRmVirtualNetworkPeering
+      href: Set-AzureRmVirtualNetworkPeering.md
+    - name: Set-AzureRmVirtualNetworkSubnetConfig
+      href: Set-AzureRmVirtualNetworkSubnetConfig.md
+    - name: Start-AzureRmApplicationGateway
+      href: Start-AzureRmApplicationGateway.md
+    - name: Stop-AzureRmApplicationGateway
+      href: Stop-AzureRmApplicationGateway.md
+    - name: Test-AzureRmDnsAvailability
+      href: Test-AzureRmDnsAvailability.md

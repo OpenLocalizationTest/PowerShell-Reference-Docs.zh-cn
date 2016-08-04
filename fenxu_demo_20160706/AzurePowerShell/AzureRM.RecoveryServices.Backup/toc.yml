@@ -1,42 +1,43 @@
-- name: AzureRM
+- name: AzureRM.RecoveryServices.Backup
   href: AzureRM.RecoveryServices.Backup.md
-- name: Backup-AzureRmRecoveryServicesBackupItem
-  href: Backup-AzureRmRecoveryServicesBackupItem.md
-- name: Disable-AzureRmRecoveryServicesBackupProtection
-  href: Disable-AzureRmRecoveryServicesBackupProtection.md
-- name: Enable-AzureRmRecoveryServicesBackupProtection
-  href: Enable-AzureRmRecoveryServicesBackupProtection.md
-- name: Get-AzureRmRecoveryServicesBackupContainer
-  href: Get-AzureRmRecoveryServicesBackupContainer.md
-- name: Get-AzureRmRecoveryServicesBackupItem
-  href: Get-AzureRmRecoveryServicesBackupItem.md
-- name: Get-AzureRmRecoveryServicesBackupJob
-  href: Get-AzureRmRecoveryServicesBackupJob.md
-- name: Get-AzureRmRecoveryServicesBackupJobDetails
-  href: Get-AzureRmRecoveryServicesBackupJobDetails.md
-- name: Get-AzureRmRecoveryServicesBackupManagementServer
-  href: Get-AzureRmRecoveryServicesBackupManagementServer.md
-- name: Get-AzureRmRecoveryServicesBackupProtectionPolicy
-  href: Get-AzureRmRecoveryServicesBackupProtectionPolicy.md
-- name: Get-AzureRmRecoveryServicesBackupRecoveryPoint
-  href: Get-AzureRmRecoveryServicesBackupRecoveryPoint.md
-- name: Get-AzureRmRecoveryServicesBackupRetentionPolicyObject
-  href: Get-AzureRmRecoveryServicesBackupRetentionPolicyObject.md
-- name: Get-AzureRmRecoveryServicesBackupSchedulePolicyObject
-  href: Get-AzureRmRecoveryServicesBackupSchedulePolicyObject.md
-- name: New-AzureRmRecoveryServicesBackupProtectionPolicy
-  href: New-AzureRmRecoveryServicesBackupProtectionPolicy.md
-- name: Remove-AzureRmRecoveryServicesBackupProtectionPolicy
-  href: Remove-AzureRmRecoveryServicesBackupProtectionPolicy.md
-- name: Restore-AzureRmRecoveryServicesBackupItem
-  href: Restore-AzureRmRecoveryServicesBackupItem.md
-- name: Set-AzureRmRecoveryServicesBackupProtectionPolicy
-  href: Set-AzureRmRecoveryServicesBackupProtectionPolicy.md
-- name: Stop-AzureRmRecoveryServicesBackupJob
-  href: Stop-AzureRmRecoveryServicesBackupJob.md
-- name: Unregister-AzureRmRecoveryServicesBackupContainer
-  href: Unregister-AzureRmRecoveryServicesBackupContainer.md
-- name: Unregister-AzureRmRecoveryServicesBackupManagementServer
-  href: Unregister-AzureRmRecoveryServicesBackupManagementServer.md
-- name: Wait-AzureRmRecoveryServicesBackupJob
-  href: Wait-AzureRmRecoveryServicesBackupJob.md
+  items:
+    - name: Backup-AzureRmRecoveryServicesBackupItem
+      href: Backup-AzureRmRecoveryServicesBackupItem.md
+    - name: Disable-AzureRmRecoveryServicesBackupProtection
+      href: Disable-AzureRmRecoveryServicesBackupProtection.md
+    - name: Enable-AzureRmRecoveryServicesBackupProtection
+      href: Enable-AzureRmRecoveryServicesBackupProtection.md
+    - name: Get-AzureRmRecoveryServicesBackupContainer
+      href: Get-AzureRmRecoveryServicesBackupContainer.md
+    - name: Get-AzureRmRecoveryServicesBackupItem
+      href: Get-AzureRmRecoveryServicesBackupItem.md
+    - name: Get-AzureRmRecoveryServicesBackupJob
+      href: Get-AzureRmRecoveryServicesBackupJob.md
+    - name: Get-AzureRmRecoveryServicesBackupJobDetails
+      href: Get-AzureRmRecoveryServicesBackupJobDetails.md
+    - name: Get-AzureRmRecoveryServicesBackupManagementServer
+      href: Get-AzureRmRecoveryServicesBackupManagementServer.md
+    - name: Get-AzureRmRecoveryServicesBackupProtectionPolicy
+      href: Get-AzureRmRecoveryServicesBackupProtectionPolicy.md
+    - name: Get-AzureRmRecoveryServicesBackupRecoveryPoint
+      href: Get-AzureRmRecoveryServicesBackupRecoveryPoint.md
+    - name: Get-AzureRmRecoveryServicesBackupRetentionPolicyObject
+      href: Get-AzureRmRecoveryServicesBackupRetentionPolicyObject.md
+    - name: Get-AzureRmRecoveryServicesBackupSchedulePolicyObject
+      href: Get-AzureRmRecoveryServicesBackupSchedulePolicyObject.md
+    - name: New-AzureRmRecoveryServicesBackupProtectionPolicy
+      href: New-AzureRmRecoveryServicesBackupProtectionPolicy.md
+    - name: Remove-AzureRmRecoveryServicesBackupProtectionPolicy
+      href: Remove-AzureRmRecoveryServicesBackupProtectionPolicy.md
+    - name: Restore-AzureRmRecoveryServicesBackupItem
+      href: Restore-AzureRmRecoveryServicesBackupItem.md
+    - name: Set-AzureRmRecoveryServicesBackupProtectionPolicy
+      href: Set-AzureRmRecoveryServicesBackupProtectionPolicy.md
+    - name: Stop-AzureRmRecoveryServicesBackupJob
+      href: Stop-AzureRmRecoveryServicesBackupJob.md
+    - name: Unregister-AzureRmRecoveryServicesBackupContainer
+      href: Unregister-AzureRmRecoveryServicesBackupContainer.md
+    - name: Unregister-AzureRmRecoveryServicesBackupManagementServer
+      href: Unregister-AzureRmRecoveryServicesBackupManagementServer.md
+    - name: Wait-AzureRmRecoveryServicesBackupJob
+      href: Wait-AzureRmRecoveryServicesBackupJob.md

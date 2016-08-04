@@ -1,5 +1,5 @@
 - name: Azure
-  href: Azure/
+  href: Azure
   homepage: Azure/Azure.md
 - name: Azure.Storage
   href: Azure.Storage/

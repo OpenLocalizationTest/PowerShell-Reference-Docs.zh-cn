@@ -1,52 +1,53 @@
-- name: Add-AzureRmAutoscaleSetting
-  href: Add-AzureRmAutoscaleSetting.md
-- name: Add-AzureRmLogAlertRule
-  href: Add-AzureRmLogAlertRule.md
-- name: Add-AzureRmLogProfile
-  href: Add-AzureRmLogProfile.md
-- name: Add-AzureRmMetricAlertRule
-  href: Add-AzureRmMetricAlertRule.md
-- name: Add-AzureRmWebtestAlertRule
-  href: Add-AzureRmWebtestAlertRule.md
-- name: AzureRM
+- name: AzureRM.Insights
   href: AzureRM.Insights.md
-- name: Get-AzureRmAlertHistory
-  href: Get-AzureRmAlertHistory.md
-- name: Get-AzureRmAlertRule
-  href: Get-AzureRmAlertRule.md
-- name: Get-AzureRmAutoscaleHistory
-  href: Get-AzureRmAutoscaleHistory.md
-- name: Get-AzureRmAutoscaleSetting
-  href: Get-AzureRmAutoscaleSetting.md
-- name: Get-AzureRmDiagnosticSetting
-  href: Get-AzureRmDiagnosticSetting.md
-- name: Get-AzureRmLog
-  href: Get-AzureRmLog.md
-- name: Get-AzureRmLogProfile
-  href: Get-AzureRmLogProfile.md
-- name: Get-AzureRmMetric
-  href: Get-AzureRmMetric.md
-- name: Get-AzureRmMetricDefinition
-  href: Get-AzureRmMetricDefinition.md
-- name: Get-AzureRmUsage
-  href: Get-AzureRmUsage.md
-- name: New-AzureRmAlertRuleEmail
-  href: New-AzureRmAlertRuleEmail.md
-- name: New-AzureRmAlertRuleWebhook
-  href: New-AzureRmAlertRuleWebhook.md
-- name: New-AzureRmAutoscaleNotification
-  href: New-AzureRmAutoscaleNotification.md
-- name: New-AzureRmAutoscaleProfile
-  href: New-AzureRmAutoscaleProfile.md
-- name: New-AzureRmAutoscaleRule
-  href: New-AzureRmAutoscaleRule.md
-- name: New-AzureRmAutoscaleWebhook
-  href: New-AzureRmAutoscaleWebhook.md
-- name: Remove-AzureRmAlertRule
-  href: Remove-AzureRmAlertRule.md
-- name: Remove-AzureRmAutoscaleSetting
-  href: Remove-AzureRmAutoscaleSetting.md
-- name: Remove-AzureRmLogProfile
-  href: Remove-AzureRmLogProfile.md
-- name: Set-AzureRmDiagnosticSetting
-  href: Set-AzureRmDiagnosticSetting.md
+  items:
+    - name: Add-AzureRmAutoscaleSetting
+      href: Add-AzureRmAutoscaleSetting.md
+    - name: Add-AzureRmLogAlertRule
+      href: Add-AzureRmLogAlertRule.md
+    - name: Add-AzureRmLogProfile
+      href: Add-AzureRmLogProfile.md
+    - name: Add-AzureRmMetricAlertRule
+      href: Add-AzureRmMetricAlertRule.md
+    - name: Add-AzureRmWebtestAlertRule
+      href: Add-AzureRmWebtestAlertRule.md
+    - name: Get-AzureRmAlertHistory
+      href: Get-AzureRmAlertHistory.md
+    - name: Get-AzureRmAlertRule
+      href: Get-AzureRmAlertRule.md
+    - name: Get-AzureRmAutoscaleHistory
+      href: Get-AzureRmAutoscaleHistory.md
+    - name: Get-AzureRmAutoscaleSetting
+      href: Get-AzureRmAutoscaleSetting.md
+    - name: Get-AzureRmDiagnosticSetting
+      href: Get-AzureRmDiagnosticSetting.md
+    - name: Get-AzureRmLog
+      href: Get-AzureRmLog.md
+    - name: Get-AzureRmLogProfile
+      href: Get-AzureRmLogProfile.md
+    - name: Get-AzureRmMetric
+      href: Get-AzureRmMetric.md
+    - name: Get-AzureRmMetricDefinition
+      href: Get-AzureRmMetricDefinition.md
+    - name: Get-AzureRmUsage
+      href: Get-AzureRmUsage.md
+    - name: New-AzureRmAlertRuleEmail
+      href: New-AzureRmAlertRuleEmail.md
+    - name: New-AzureRmAlertRuleWebhook
+      href: New-AzureRmAlertRuleWebhook.md
+    - name: New-AzureRmAutoscaleNotification
+      href: New-AzureRmAutoscaleNotification.md
+    - name: New-AzureRmAutoscaleProfile
+      href: New-AzureRmAutoscaleProfile.md
+    - name: New-AzureRmAutoscaleRule
+      href: New-AzureRmAutoscaleRule.md
+    - name: New-AzureRmAutoscaleWebhook
+      href: New-AzureRmAutoscaleWebhook.md
+    - name: Remove-AzureRmAlertRule
+      href: Remove-AzureRmAlertRule.md
+    - name: Remove-AzureRmAutoscaleSetting
+      href: Remove-AzureRmAutoscaleSetting.md
+    - name: Remove-AzureRmLogProfile
+      href: Remove-AzureRmLogProfile.md
+    - name: Set-AzureRmDiagnosticSetting
+      href: Set-AzureRmDiagnosticSetting.md

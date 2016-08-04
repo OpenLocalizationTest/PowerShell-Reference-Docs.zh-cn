@@ -1,162 +1,163 @@
-- name: AzureRM
+- name: AzureRM.Sql
   href: AzureRM.Sql.md
-- name: Get-AzureRmSqlCapability
-  href: Get-AzureRmSqlCapability.md
-- name: Get-AzureRmSqlDatabase
-  href: Get-AzureRmSqlDatabase.md
-- name: Get-AzureRmSqlDatabaseActivity
-  href: Get-AzureRmSqlDatabaseActivity.md
-- name: Get-AzureRmSqlDatabaseAuditingPolicy
-  href: Get-AzureRmSqlDatabaseAuditingPolicy.md
-- name: Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy
-  href: Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy.md
-- name: Get-AzureRmSqlDatabaseDataMaskingPolicy
-  href: Get-AzureRmSqlDatabaseDataMaskingPolicy.md
-- name: Get-AzureRmSqlDatabaseDataMaskingRule
-  href: Get-AzureRmSqlDatabaseDataMaskingRule.md
-- name: Get-AzureRmSqlDatabaseExpanded
-  href: Get-AzureRmSqlDatabaseExpanded.md
-- name: Get-AzureRmSqlDatabaseGeoBackup
-  href: Get-AzureRmSqlDatabaseGeoBackup.md
-- name: Get-AzureRmSqlDatabaseImportExportStatus
-  href: Get-AzureRmSqlDatabaseImportExportStatus.md
-- name: Get-AzureRmSqlDatabaseIndexRecommendations
-  href: Get-AzureRmSqlDatabaseIndexRecommendations.md
-- name: Get-AzureRmSqlDatabaseReplicationLink
-  href: Get-AzureRmSqlDatabaseReplicationLink.md
-- name: Get-AzureRmSqlDatabaseRestorePoints
-  href: Get-AzureRmSqlDatabaseRestorePoints.md
-- name: Get-AzureRmSqlDatabaseSecureConnectionPolicy
-  href: Get-AzureRmSqlDatabaseSecureConnectionPolicy.md
-- name: Get-AzureRmSqlDatabaseThreatDetectionPolicy
-  href: Get-AzureRmSqlDatabaseThreatDetectionPolicy.md
-- name: Get-AzureRmSqlDatabaseTransparentDataEncryption
-  href: Get-AzureRmSqlDatabaseTransparentDataEncryption.md
-- name: Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity
-  href: Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity.md
-- name: Get-AzureRmSqlDatabaseUpgradeHint
-  href: Get-AzureRmSqlDatabaseUpgradeHint.md
-- name: Get-AzureRmSqlDeletedDatabaseBackup
-  href: Get-AzureRmSqlDeletedDatabaseBackup.md
-- name: Get-AzureRmSqlElasticPool
-  href: Get-AzureRmSqlElasticPool.md
-- name: Get-AzureRmSqlElasticPoolActivity
-  href: Get-AzureRmSqlElasticPoolActivity.md
-- name: Get-AzureRmSqlElasticPoolDatabase
-  href: Get-AzureRmSqlElasticPoolDatabase.md
-- name: Get-AzureRmSqlElasticPoolRecommendation
-  href: Get-AzureRmSqlElasticPoolRecommendation.md
-- name: Get-AzureRmSqlServer
-  href: Get-AzureRmSqlServer.md
-- name: Get-AzureRmSqlServerActiveDirectoryAdministrator
-  href: Get-AzureRmSqlServerActiveDirectoryAdministrator.md
-- name: Get-AzureRmSqlServerAuditingPolicy
-  href: Get-AzureRmSqlServerAuditingPolicy.md
-- name: Get-AzureRmSqlServerBackupLongTermRetentionVault
-  href: Get-AzureRmSqlServerBackupLongTermRetentionVault.md
-- name: Get-AzureRmSqlServerCommunicationLink
-  href: Get-AzureRmSqlServerCommunicationLink.md
-- name: Get-AzureRmSqlServerDisasterRecoveryConfiguration
-  href: Get-AzureRmSqlServerDisasterRecoveryConfiguration.md
-- name: Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity
-  href: Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity.md
-- name: Get-AzureRmSqlServerFirewallRule
-  href: Get-AzureRmSqlServerFirewallRule.md
-- name: Get-AzureRmSqlServerServiceObjective
-  href: Get-AzureRmSqlServerServiceObjective.md
-- name: Get-AzureRmSqlServerUpgrade
-  href: Get-AzureRmSqlServerUpgrade.md
-- name: Get-AzureRmSqlServerUpgradeHint
-  href: Get-AzureRmSqlServerUpgradeHint.md
-- name: New-AzureRmSqlDatabase
-  href: New-AzureRmSqlDatabase.md
-- name: New-AzureRmSqlDatabaseCopy
-  href: New-AzureRmSqlDatabaseCopy.md
-- name: New-AzureRmSqlDatabaseDataMaskingRule
-  href: New-AzureRmSqlDatabaseDataMaskingRule.md
-- name: New-AzureRmSqlDatabaseExport
-  href: New-AzureRmSqlDatabaseExport.md
-- name: New-AzureRmSqlDatabaseImport
-  href: New-AzureRmSqlDatabaseImport.md
-- name: New-AzureRmSqlDatabaseSecondary
-  href: New-AzureRmSqlDatabaseSecondary.md
-- name: New-AzureRmSqlElasticPool
-  href: New-AzureRmSqlElasticPool.md
-- name: New-AzureRmSqlServer
-  href: New-AzureRmSqlServer.md
-- name: New-AzureRmSqlServerCommunicationLink
-  href: New-AzureRmSqlServerCommunicationLink.md
-- name: New-AzureRmSqlServerDisasterRecoveryConfiguration
-  href: New-AzureRmSqlServerDisasterRecoveryConfiguration.md
-- name: New-AzureRmSqlServerFirewallRule
-  href: New-AzureRmSqlServerFirewallRule.md
-- name: Remove-AzureRmSqlDatabase
-  href: Remove-AzureRmSqlDatabase.md
-- name: Remove-AzureRmSqlDatabaseAuditing
-  href: Remove-AzureRmSqlDatabaseAuditing.md
-- name: Remove-AzureRmSqlDatabaseDataMaskingRule
-  href: Remove-AzureRmSqlDatabaseDataMaskingRule.md
-- name: Remove-AzureRmSqlDatabaseSecondary
-  href: Remove-AzureRmSqlDatabaseSecondary.md
-- name: Remove-AzureRmSqlDatabaseThreatDetectionPolicy
-  href: Remove-AzureRmSqlDatabaseThreatDetectionPolicy.md
-- name: Remove-AzureRmSqlElasticPool
-  href: Remove-AzureRmSqlElasticPool.md
-- name: Remove-AzureRmSqlServer
-  href: Remove-AzureRmSqlServer.md
-- name: Remove-AzureRmSqlServerActiveDirectoryAdministrator
-  href: Remove-AzureRmSqlServerActiveDirectoryAdministrator.md
-- name: Remove-AzureRmSqlServerAuditing
-  href: Remove-AzureRmSqlServerAuditing.md
-- name: Remove-AzureRmSqlServerCommunicationLink
-  href: Remove-AzureRmSqlServerCommunicationLink.md
-- name: Remove-AzureRmSqlServerDisasterRecoveryConfiguration
-  href: Remove-AzureRmSqlServerDisasterRecoveryConfiguration.md
-- name: Remove-AzureRmSqlServerFirewallRule
-  href: Remove-AzureRmSqlServerFirewallRule.md
-- name: Restore-AzureRmSqlDatabase
-  href: Restore-AzureRmSqlDatabase.md
-- name: Resume-AzureRmSqlDatabase
-  href: Resume-AzureRmSqlDatabase.md
-- name: Set-AzureRmSqlDatabase
-  href: Set-AzureRmSqlDatabase.md
-- name: Set-AzureRmSqlDatabaseAuditingPolicy
-  href: Set-AzureRmSqlDatabaseAuditingPolicy.md
-- name: Set-AzureRmSqlDatabaseBackupLongTermRetentionPolicy
-  href: Set-AzureRmSqlDatabaseBackupLongTermRetentionPolicy.md
-- name: Set-AzureRmSqlDatabaseDataMaskingPolicy
-  href: Set-AzureRmSqlDatabaseDataMaskingPolicy.md
-- name: Set-AzureRmSqlDatabaseDataMaskingRule
-  href: Set-AzureRmSqlDatabaseDataMaskingRule.md
-- name: Set-AzureRmSqlDatabaseSecondary
-  href: Set-AzureRmSqlDatabaseSecondary.md
-- name: Set-AzureRmSqlDatabaseThreatDetectionPolicy
-  href: Set-AzureRmSqlDatabaseThreatDetectionPolicy.md
-- name: Set-AzureRmSqlDatabaseTransparentDataEncryption
-  href: Set-AzureRmSqlDatabaseTransparentDataEncryption.md
-- name: Set-AzureRmSqlElasticPool
-  href: Set-AzureRmSqlElasticPool.md
-- name: Set-AzureRmSqlServer
-  href: Set-AzureRmSqlServer.md
-- name: Set-AzureRmSqlServerActiveDirectoryAdministrator
-  href: Set-AzureRmSqlServerActiveDirectoryAdministrator.md
-- name: Set-AzureRmSqlServerAuditingPolicy
-  href: Set-AzureRmSqlServerAuditingPolicy.md
-- name: Set-AzureRmSqlServerBackupLongTermRetentionVault
-  href: Set-AzureRmSqlServerBackupLongTermRetentionVault.md
-- name: Set-AzureRmSqlServerDisasterRecoveryConfiguration
-  href: Set-AzureRmSqlServerDisasterRecoveryConfiguration.md
-- name: Set-AzureRmSqlServerFirewallRule
-  href: Set-AzureRmSqlServerFirewallRule.md
-- name: Start-AzureRmSqlDatabaseExecuteIndexRecommendation
-  href: Start-AzureRmSqlDatabaseExecuteIndexRecommendation.md
-- name: Start-AzureRmSqlServerUpgrade
-  href: Start-AzureRmSqlServerUpgrade.md
-- name: Stop-AzureRmSqlDatabaseExecuteIndexRecommendation
-  href: Stop-AzureRmSqlDatabaseExecuteIndexRecommendation.md
-- name: Stop-AzureRmSqlServerUpgrade
-  href: Stop-AzureRmSqlServerUpgrade.md
-- name: Suspend-AzureRmSqlDatabase
-  href: Suspend-AzureRmSqlDatabase.md
-- name: Use-AzureRmSqlServerAuditingPolicy
-  href: Use-AzureRmSqlServerAuditingPolicy.md
+  items:
+    - name: Get-AzureRmSqlCapability
+      href: Get-AzureRmSqlCapability.md
+    - name: Get-AzureRmSqlDatabase
+      href: Get-AzureRmSqlDatabase.md
+    - name: Get-AzureRmSqlDatabaseActivity
+      href: Get-AzureRmSqlDatabaseActivity.md
+    - name: Get-AzureRmSqlDatabaseAuditingPolicy
+      href: Get-AzureRmSqlDatabaseAuditingPolicy.md
+    - name: Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy
+      href: Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy.md
+    - name: Get-AzureRmSqlDatabaseDataMaskingPolicy
+      href: Get-AzureRmSqlDatabaseDataMaskingPolicy.md
+    - name: Get-AzureRmSqlDatabaseDataMaskingRule
+      href: Get-AzureRmSqlDatabaseDataMaskingRule.md
+    - name: Get-AzureRmSqlDatabaseExpanded
+      href: Get-AzureRmSqlDatabaseExpanded.md
+    - name: Get-AzureRmSqlDatabaseGeoBackup
+      href: Get-AzureRmSqlDatabaseGeoBackup.md
+    - name: Get-AzureRmSqlDatabaseImportExportStatus
+      href: Get-AzureRmSqlDatabaseImportExportStatus.md
+    - name: Get-AzureRmSqlDatabaseIndexRecommendations
+      href: Get-AzureRmSqlDatabaseIndexRecommendations.md
+    - name: Get-AzureRmSqlDatabaseReplicationLink
+      href: Get-AzureRmSqlDatabaseReplicationLink.md
+    - name: Get-AzureRmSqlDatabaseRestorePoints
+      href: Get-AzureRmSqlDatabaseRestorePoints.md
+    - name: Get-AzureRmSqlDatabaseSecureConnectionPolicy
+      href: Get-AzureRmSqlDatabaseSecureConnectionPolicy.md
+    - name: Get-AzureRmSqlDatabaseThreatDetectionPolicy
+      href: Get-AzureRmSqlDatabaseThreatDetectionPolicy.md
+    - name: Get-AzureRmSqlDatabaseTransparentDataEncryption
+      href: Get-AzureRmSqlDatabaseTransparentDataEncryption.md
+    - name: Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity
+      href: Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity.md
+    - name: Get-AzureRmSqlDatabaseUpgradeHint
+      href: Get-AzureRmSqlDatabaseUpgradeHint.md
+    - name: Get-AzureRmSqlDeletedDatabaseBackup
+      href: Get-AzureRmSqlDeletedDatabaseBackup.md
+    - name: Get-AzureRmSqlElasticPool
+      href: Get-AzureRmSqlElasticPool.md
+    - name: Get-AzureRmSqlElasticPoolActivity
+      href: Get-AzureRmSqlElasticPoolActivity.md
+    - name: Get-AzureRmSqlElasticPoolDatabase
+      href: Get-AzureRmSqlElasticPoolDatabase.md
+    - name: Get-AzureRmSqlElasticPoolRecommendation
+      href: Get-AzureRmSqlElasticPoolRecommendation.md
+    - name: Get-AzureRmSqlServer
+      href: Get-AzureRmSqlServer.md
+    - name: Get-AzureRmSqlServerActiveDirectoryAdministrator
+      href: Get-AzureRmSqlServerActiveDirectoryAdministrator.md
+    - name: Get-AzureRmSqlServerAuditingPolicy
+      href: Get-AzureRmSqlServerAuditingPolicy.md
+    - name: Get-AzureRmSqlServerBackupLongTermRetentionVault
+      href: Get-AzureRmSqlServerBackupLongTermRetentionVault.md
+    - name: Get-AzureRmSqlServerCommunicationLink
+      href: Get-AzureRmSqlServerCommunicationLink.md
+    - name: Get-AzureRmSqlServerDisasterRecoveryConfiguration
+      href: Get-AzureRmSqlServerDisasterRecoveryConfiguration.md
+    - name: Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity
+      href: Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity.md
+    - name: Get-AzureRmSqlServerFirewallRule
+      href: Get-AzureRmSqlServerFirewallRule.md
+    - name: Get-AzureRmSqlServerServiceObjective
+      href: Get-AzureRmSqlServerServiceObjective.md
+    - name: Get-AzureRmSqlServerUpgrade
+      href: Get-AzureRmSqlServerUpgrade.md
+    - name: Get-AzureRmSqlServerUpgradeHint
+      href: Get-AzureRmSqlServerUpgradeHint.md
+    - name: New-AzureRmSqlDatabase
+      href: New-AzureRmSqlDatabase.md
+    - name: New-AzureRmSqlDatabaseCopy
+      href: New-AzureRmSqlDatabaseCopy.md
+    - name: New-AzureRmSqlDatabaseDataMaskingRule
+      href: New-AzureRmSqlDatabaseDataMaskingRule.md
+    - name: New-AzureRmSqlDatabaseExport
+      href: New-AzureRmSqlDatabaseExport.md
+    - name: New-AzureRmSqlDatabaseImport
+      href: New-AzureRmSqlDatabaseImport.md
+    - name: New-AzureRmSqlDatabaseSecondary
+      href: New-AzureRmSqlDatabaseSecondary.md
+    - name: New-AzureRmSqlElasticPool
+      href: New-AzureRmSqlElasticPool.md
+    - name: New-AzureRmSqlServer
+      href: New-AzureRmSqlServer.md
+    - name: New-AzureRmSqlServerCommunicationLink
+      href: New-AzureRmSqlServerCommunicationLink.md
+    - name: New-AzureRmSqlServerDisasterRecoveryConfiguration
+      href: New-AzureRmSqlServerDisasterRecoveryConfiguration.md
+    - name: New-AzureRmSqlServerFirewallRule
+      href: New-AzureRmSqlServerFirewallRule.md
+    - name: Remove-AzureRmSqlDatabase
+      href: Remove-AzureRmSqlDatabase.md
+    - name: Remove-AzureRmSqlDatabaseAuditing
+      href: Remove-AzureRmSqlDatabaseAuditing.md
+    - name: Remove-AzureRmSqlDatabaseDataMaskingRule
+      href: Remove-AzureRmSqlDatabaseDataMaskingRule.md
+    - name: Remove-AzureRmSqlDatabaseSecondary
+      href: Remove-AzureRmSqlDatabaseSecondary.md
+    - name: Remove-AzureRmSqlDatabaseThreatDetectionPolicy
+      href: Remove-AzureRmSqlDatabaseThreatDetectionPolicy.md
+    - name: Remove-AzureRmSqlElasticPool
+      href: Remove-AzureRmSqlElasticPool.md
+    - name: Remove-AzureRmSqlServer
+      href: Remove-AzureRmSqlServer.md
+    - name: Remove-AzureRmSqlServerActiveDirectoryAdministrator
+      href: Remove-AzureRmSqlServerActiveDirectoryAdministrator.md
+    - name: Remove-AzureRmSqlServerAuditing
+      href: Remove-AzureRmSqlServerAuditing.md
+    - name: Remove-AzureRmSqlServerCommunicationLink
+      href: Remove-AzureRmSqlServerCommunicationLink.md
+    - name: Remove-AzureRmSqlServerDisasterRecoveryConfiguration
+      href: Remove-AzureRmSqlServerDisasterRecoveryConfiguration.md
+    - name: Remove-AzureRmSqlServerFirewallRule
+      href: Remove-AzureRmSqlServerFirewallRule.md
+    - name: Restore-AzureRmSqlDatabase
+      href: Restore-AzureRmSqlDatabase.md
+    - name: Resume-AzureRmSqlDatabase
+      href: Resume-AzureRmSqlDatabase.md
+    - name: Set-AzureRmSqlDatabase
+      href: Set-AzureRmSqlDatabase.md
+    - name: Set-AzureRmSqlDatabaseAuditingPolicy
+      href: Set-AzureRmSqlDatabaseAuditingPolicy.md
+    - name: Set-AzureRmSqlDatabaseBackupLongTermRetentionPolicy
+      href: Set-AzureRmSqlDatabaseBackupLongTermRetentionPolicy.md
+    - name: Set-AzureRmSqlDatabaseDataMaskingPolicy
+      href: Set-AzureRmSqlDatabaseDataMaskingPolicy.md
+    - name: Set-AzureRmSqlDatabaseDataMaskingRule
+      href: Set-AzureRmSqlDatabaseDataMaskingRule.md
+    - name: Set-AzureRmSqlDatabaseSecondary
+      href: Set-AzureRmSqlDatabaseSecondary.md
+    - name: Set-AzureRmSqlDatabaseThreatDetectionPolicy
+      href: Set-AzureRmSqlDatabaseThreatDetectionPolicy.md
+    - name: Set-AzureRmSqlDatabaseTransparentDataEncryption
+      href: Set-AzureRmSqlDatabaseTransparentDataEncryption.md
+    - name: Set-AzureRmSqlElasticPool
+      href: Set-AzureRmSqlElasticPool.md
+    - name: Set-AzureRmSqlServer
+      href: Set-AzureRmSqlServer.md
+    - name: Set-AzureRmSqlServerActiveDirectoryAdministrator
+      href: Set-AzureRmSqlServerActiveDirectoryAdministrator.md
+    - name: Set-AzureRmSqlServerAuditingPolicy
+      href: Set-AzureRmSqlServerAuditingPolicy.md
+    - name: Set-AzureRmSqlServerBackupLongTermRetentionVault
+      href: Set-AzureRmSqlServerBackupLongTermRetentionVault.md
+    - name: Set-AzureRmSqlServerDisasterRecoveryConfiguration
+      href: Set-AzureRmSqlServerDisasterRecoveryConfiguration.md
+    - name: Set-AzureRmSqlServerFirewallRule
+      href: Set-AzureRmSqlServerFirewallRule.md
+    - name: Start-AzureRmSqlDatabaseExecuteIndexRecommendation
+      href: Start-AzureRmSqlDatabaseExecuteIndexRecommendation.md
+    - name: Start-AzureRmSqlServerUpgrade
+      href: Start-AzureRmSqlServerUpgrade.md
+    - name: Stop-AzureRmSqlDatabaseExecuteIndexRecommendation
+      href: Stop-AzureRmSqlDatabaseExecuteIndexRecommendation.md
+    - name: Stop-AzureRmSqlServerUpgrade
+      href: Stop-AzureRmSqlServerUpgrade.md
+    - name: Suspend-AzureRmSqlDatabase
+      href: Suspend-AzureRmSqlDatabase.md
+    - name: Use-AzureRmSqlServerAuditingPolicy
+      href: Use-AzureRmSqlServerAuditingPolicy.md

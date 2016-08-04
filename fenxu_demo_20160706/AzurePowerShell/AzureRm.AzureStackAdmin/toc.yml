@@ -1,58 +1,59 @@
-- name: Add-AzureRMGalleryItem
-  href: Add-AzureRMGalleryItem.md
-- name: Add-AzureRMResourceProviderRegistration
-  href: Add-AzureRMResourceProviderRegistration.md
-- name: AzureRm
+- name: AzureRm.AzureStackAdmin
   href: AzureRm.AzureStackAdmin.md
-- name: Get-AzureRMGalleryItem
-  href: Get-AzureRMGalleryItem.md
-- name: Get-AzureRMManagedLocation
-  href: Get-AzureRMManagedLocation.md
-- name: Get-AzureRMManagedSubscription
-  href: Get-AzureRMManagedSubscription.md
-- name: Get-AzureRMOffer
-  href: Get-AzureRMOffer.md
-- name: Get-AzureRMPlan
-  href: Get-AzureRMPlan.md
-- name: Get-AzureRMResourceProviderRegistration
-  href: Get-AzureRMResourceProviderRegistration.md
-- name: Get-AzureRMTenantSubscription
-  href: Get-AzureRMTenantSubscription.md
-- name: Get-AzureStackToken
-  href: Get-AzureStackToken.md
-- name: New-AzureRMManagedLocation
-  href: New-AzureRMManagedLocation.md
-- name: New-AzureRMManagedSubscription
-  href: New-AzureRMManagedSubscription.md
-- name: New-AzureRMOffer
-  href: New-AzureRMOffer.md
-- name: New-AzureRMPlan
-  href: New-AzureRMPlan.md
-- name: New-AzureRMTenantSubscription
-  href: New-AzureRMTenantSubscription.md
-- name: Remove-AzureRMGalleryItem
-  href: Remove-AzureRMGalleryItem.md
-- name: Remove-AzureRMManagedLocation
-  href: Remove-AzureRMManagedLocation.md
-- name: Remove-AzureRMManagedSubscription
-  href: Remove-AzureRMManagedSubscription.md
-- name: Remove-AzureRMOffer
-  href: Remove-AzureRMOffer.md
-- name: Remove-AzureRMPlan
-  href: Remove-AzureRMPlan.md
-- name: Remove-AzureRMResourceProviderRegistration
-  href: Remove-AzureRMResourceProviderRegistration.md
-- name: Remove-AzureRMTenantSubscription
-  href: Remove-AzureRMTenantSubscription.md
-- name: Set-AzureRMManagedLocation
-  href: Set-AzureRMManagedLocation.md
-- name: Set-AzureRMManagedSubscription
-  href: Set-AzureRMManagedSubscription.md
-- name: Set-AzureRMOffer
-  href: Set-AzureRMOffer.md
-- name: Set-AzureRMPlan
-  href: Set-AzureRMPlan.md
-- name: Set-AzureRMResourceProviderRegistration
-  href: Set-AzureRMResourceProviderRegistration.md
-- name: Set-AzureRMTenantSubscription
-  href: Set-AzureRMTenantSubscription.md
+  items:
+    - name: Add-AzureRMGalleryItem
+      href: Add-AzureRMGalleryItem.md
+    - name: Add-AzureRMResourceProviderRegistration
+      href: Add-AzureRMResourceProviderRegistration.md
+    - name: Get-AzureRMGalleryItem
+      href: Get-AzureRMGalleryItem.md
+    - name: Get-AzureRMManagedLocation
+      href: Get-AzureRMManagedLocation.md
+    - name: Get-AzureRMManagedSubscription
+      href: Get-AzureRMManagedSubscription.md
+    - name: Get-AzureRMOffer
+      href: Get-AzureRMOffer.md
+    - name: Get-AzureRMPlan
+      href: Get-AzureRMPlan.md
+    - name: Get-AzureRMResourceProviderRegistration
+      href: Get-AzureRMResourceProviderRegistration.md
+    - name: Get-AzureRMTenantSubscription
+      href: Get-AzureRMTenantSubscription.md
+    - name: Get-AzureStackToken
+      href: Get-AzureStackToken.md
+    - name: New-AzureRMManagedLocation
+      href: New-AzureRMManagedLocation.md
+    - name: New-AzureRMManagedSubscription
+      href: New-AzureRMManagedSubscription.md
+    - name: New-AzureRMOffer
+      href: New-AzureRMOffer.md
+    - name: New-AzureRMPlan
+      href: New-AzureRMPlan.md
+    - name: New-AzureRMTenantSubscription
+      href: New-AzureRMTenantSubscription.md
+    - name: Remove-AzureRMGalleryItem
+      href: Remove-AzureRMGalleryItem.md
+    - name: Remove-AzureRMManagedLocation
+      href: Remove-AzureRMManagedLocation.md
+    - name: Remove-AzureRMManagedSubscription
+      href: Remove-AzureRMManagedSubscription.md
+    - name: Remove-AzureRMOffer
+      href: Remove-AzureRMOffer.md
+    - name: Remove-AzureRMPlan
+      href: Remove-AzureRMPlan.md
+    - name: Remove-AzureRMResourceProviderRegistration
+      href: Remove-AzureRMResourceProviderRegistration.md
+    - name: Remove-AzureRMTenantSubscription
+      href: Remove-AzureRMTenantSubscription.md
+    - name: Set-AzureRMManagedLocation
+      href: Set-AzureRMManagedLocation.md
+    - name: Set-AzureRMManagedSubscription
+      href: Set-AzureRMManagedSubscription.md
+    - name: Set-AzureRMOffer
+      href: Set-AzureRMOffer.md
+    - name: Set-AzureRMPlan
+      href: Set-AzureRMPlan.md
+    - name: Set-AzureRMResourceProviderRegistration
+      href: Set-AzureRMResourceProviderRegistration.md
+    - name: Set-AzureRMTenantSubscription
+      href: Set-AzureRMTenantSubscription.md

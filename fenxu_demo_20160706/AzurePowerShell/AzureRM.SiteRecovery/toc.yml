@@ -1,92 +1,93 @@
-- name: AzureRM
+- name: AzureRM.SiteRecovery
   href: AzureRM.SiteRecovery.md
-- name: Edit-AzureRmSiteRecoveryRecoveryPlan
-  href: Edit-AzureRmSiteRecoveryRecoveryPlan.md
-- name: Get-AzureRmSiteRecoveryJob
-  href: Get-AzureRmSiteRecoveryJob.md
-- name: Get-AzureRmSiteRecoveryNetwork
-  href: Get-AzureRmSiteRecoveryNetwork.md
-- name: Get-AzureRmSiteRecoveryNetworkMapping
-  href: Get-AzureRmSiteRecoveryNetworkMapping.md
-- name: Get-AzureRmSiteRecoveryPolicy
-  href: Get-AzureRmSiteRecoveryPolicy.md
-- name: Get-AzureRmSiteRecoveryProtectionContainer
-  href: Get-AzureRmSiteRecoveryProtectionContainer.md
-- name: Get-AzureRmSiteRecoveryProtectionEntity
-  href: Get-AzureRmSiteRecoveryProtectionEntity.md
-- name: Get-AzureRmSiteRecoveryRecoveryPlan
-  href: Get-AzureRmSiteRecoveryRecoveryPlan.md
-- name: Get-AzureRmSiteRecoveryServer
-  href: Get-AzureRmSiteRecoveryServer.md
-- name: Get-AzureRmSiteRecoverySite
-  href: Get-AzureRmSiteRecoverySite.md
-- name: Get-AzureRmSiteRecoveryStorageClassification
-  href: Get-AzureRmSiteRecoveryStorageClassification.md
-- name: Get-AzureRmSiteRecoveryStorageClassificationMapping
-  href: Get-AzureRmSiteRecoveryStorageClassificationMapping.md
-- name: Get-AzureRmSiteRecoveryVault
-  href: Get-AzureRmSiteRecoveryVault.md
-- name: Get-AzureRmSiteRecoveryVaultSettings
-  href: Get-AzureRmSiteRecoveryVaultSettings.md
-- name: Get-AzureRmSiteRecoveryVaultSettingsFile
-  href: Get-AzureRmSiteRecoveryVaultSettingsFile.md
-- name: Get-AzureRmSiteRecoveryVM
-  href: Get-AzureRmSiteRecoveryVM.md
-- name: Import-AzureRmSiteRecoveryVaultSettingsFile
-  href: Import-AzureRmSiteRecoveryVaultSettingsFile.md
-- name: New-AzureRmSiteRecoveryNetworkMapping
-  href: New-AzureRmSiteRecoveryNetworkMapping.md
-- name: New-AzureRmSiteRecoveryPolicy
-  href: New-AzureRmSiteRecoveryPolicy.md
-- name: New-AzureRmSiteRecoveryRecoveryPlan
-  href: New-AzureRmSiteRecoveryRecoveryPlan.md
-- name: New-AzureRmSiteRecoverySite
-  href: New-AzureRmSiteRecoverySite.md
-- name: New-AzureRmSiteRecoveryStorageClassificationMapping
-  href: New-AzureRmSiteRecoveryStorageClassificationMapping.md
-- name: New-AzureRmSiteRecoveryVault
-  href: New-AzureRmSiteRecoveryVault.md
-- name: Remove-AzureRmSiteRecoveryNetworkMapping
-  href: Remove-AzureRmSiteRecoveryNetworkMapping.md
-- name: Remove-AzureRmSiteRecoveryPolicy
-  href: Remove-AzureRmSiteRecoveryPolicy.md
-- name: Remove-AzureRmSiteRecoveryRecoveryPlan
-  href: Remove-AzureRmSiteRecoveryRecoveryPlan.md
-- name: Remove-AzureRmSiteRecoveryServer
-  href: Remove-AzureRmSiteRecoveryServer.md
-- name: Remove-AzureRmSiteRecoverySite
-  href: Remove-AzureRmSiteRecoverySite.md
-- name: Remove-AzureRmSiteRecoveryStorageClassificationMapping
-  href: Remove-AzureRmSiteRecoveryStorageClassificationMapping.md
-- name: Remove-AzureRmSiteRecoveryVault
-  href: Remove-AzureRmSiteRecoveryVault.md
-- name: Restart-AzureRmSiteRecoveryJob
-  href: Restart-AzureRmSiteRecoveryJob.md
-- name: Resume-AzureRmSiteRecoveryJob
-  href: Resume-AzureRmSiteRecoveryJob.md
-- name: Set-AzureRmSiteRecoveryProtectionEntity
-  href: Set-AzureRmSiteRecoveryProtectionEntity.md
-- name: Set-AzureRmSiteRecoveryVaultSettings
-  href: Set-AzureRmSiteRecoveryVaultSettings.md
-- name: Set-AzureRmSiteRecoveryVM
-  href: Set-AzureRmSiteRecoveryVM.md
-- name: Start-AzureRmSiteRecoveryCommitFailoverJob
-  href: Start-AzureRmSiteRecoveryCommitFailoverJob.md
-- name: Start-AzureRmSiteRecoveryPlannedFailoverJob
-  href: Start-AzureRmSiteRecoveryPlannedFailoverJob.md
-- name: Start-AzureRmSiteRecoveryPolicyAssociationJob
-  href: Start-AzureRmSiteRecoveryPolicyAssociationJob.md
-- name: Start-AzureRmSiteRecoveryPolicyDissociationJob
-  href: Start-AzureRmSiteRecoveryPolicyDissociationJob.md
-- name: Start-AzureRmSiteRecoveryTestFailoverJob
-  href: Start-AzureRmSiteRecoveryTestFailoverJob.md
-- name: Start-AzureRmSiteRecoveryUnplannedFailoverJob
-  href: Start-AzureRmSiteRecoveryUnplannedFailoverJob.md
-- name: Stop-AzureRmSiteRecoveryJob
-  href: Stop-AzureRmSiteRecoveryJob.md
-- name: Update-AzureRmSiteRecoveryProtectionDirection
-  href: Update-AzureRmSiteRecoveryProtectionDirection.md
-- name: Update-AzureRmSiteRecoveryRecoveryPlan
-  href: Update-AzureRmSiteRecoveryRecoveryPlan.md
-- name: Update-AzureRmSiteRecoveryServer
-  href: Update-AzureRmSiteRecoveryServer.md
+  items:
+    - name: Edit-AzureRmSiteRecoveryRecoveryPlan
+      href: Edit-AzureRmSiteRecoveryRecoveryPlan.md
+    - name: Get-AzureRmSiteRecoveryJob
+      href: Get-AzureRmSiteRecoveryJob.md
+    - name: Get-AzureRmSiteRecoveryNetwork
+      href: Get-AzureRmSiteRecoveryNetwork.md
+    - name: Get-AzureRmSiteRecoveryNetworkMapping
+      href: Get-AzureRmSiteRecoveryNetworkMapping.md
+    - name: Get-AzureRmSiteRecoveryPolicy
+      href: Get-AzureRmSiteRecoveryPolicy.md
+    - name: Get-AzureRmSiteRecoveryProtectionContainer
+      href: Get-AzureRmSiteRecoveryProtectionContainer.md
+    - name: Get-AzureRmSiteRecoveryProtectionEntity
+      href: Get-AzureRmSiteRecoveryProtectionEntity.md
+    - name: Get-AzureRmSiteRecoveryRecoveryPlan
+      href: Get-AzureRmSiteRecoveryRecoveryPlan.md
+    - name: Get-AzureRmSiteRecoveryServer
+      href: Get-AzureRmSiteRecoveryServer.md
+    - name: Get-AzureRmSiteRecoverySite
+      href: Get-AzureRmSiteRecoverySite.md
+    - name: Get-AzureRmSiteRecoveryStorageClassification
+      href: Get-AzureRmSiteRecoveryStorageClassification.md
+    - name: Get-AzureRmSiteRecoveryStorageClassificationMapping
+      href: Get-AzureRmSiteRecoveryStorageClassificationMapping.md
+    - name: Get-AzureRmSiteRecoveryVault
+      href: Get-AzureRmSiteRecoveryVault.md
+    - name: Get-AzureRmSiteRecoveryVaultSettings
+      href: Get-AzureRmSiteRecoveryVaultSettings.md
+    - name: Get-AzureRmSiteRecoveryVaultSettingsFile
+      href: Get-AzureRmSiteRecoveryVaultSettingsFile.md
+    - name: Get-AzureRmSiteRecoveryVM
+      href: Get-AzureRmSiteRecoveryVM.md
+    - name: Import-AzureRmSiteRecoveryVaultSettingsFile
+      href: Import-AzureRmSiteRecoveryVaultSettingsFile.md
+    - name: New-AzureRmSiteRecoveryNetworkMapping
+      href: New-AzureRmSiteRecoveryNetworkMapping.md
+    - name: New-AzureRmSiteRecoveryPolicy
+      href: New-AzureRmSiteRecoveryPolicy.md
+    - name: New-AzureRmSiteRecoveryRecoveryPlan
+      href: New-AzureRmSiteRecoveryRecoveryPlan.md
+    - name: New-AzureRmSiteRecoverySite
+      href: New-AzureRmSiteRecoverySite.md
+    - name: New-AzureRmSiteRecoveryStorageClassificationMapping
+      href: New-AzureRmSiteRecoveryStorageClassificationMapping.md
+    - name: New-AzureRmSiteRecoveryVault
+      href: New-AzureRmSiteRecoveryVault.md
+    - name: Remove-AzureRmSiteRecoveryNetworkMapping
+      href: Remove-AzureRmSiteRecoveryNetworkMapping.md
+    - name: Remove-AzureRmSiteRecoveryPolicy
+      href: Remove-AzureRmSiteRecoveryPolicy.md
+    - name: Remove-AzureRmSiteRecoveryRecoveryPlan
+      href: Remove-AzureRmSiteRecoveryRecoveryPlan.md
+    - name: Remove-AzureRmSiteRecoveryServer
+      href: Remove-AzureRmSiteRecoveryServer.md
+    - name: Remove-AzureRmSiteRecoverySite
+      href: Remove-AzureRmSiteRecoverySite.md
+    - name: Remove-AzureRmSiteRecoveryStorageClassificationMapping
+      href: Remove-AzureRmSiteRecoveryStorageClassificationMapping.md
+    - name: Remove-AzureRmSiteRecoveryVault
+      href: Remove-AzureRmSiteRecoveryVault.md
+    - name: Restart-AzureRmSiteRecoveryJob
+      href: Restart-AzureRmSiteRecoveryJob.md
+    - name: Resume-AzureRmSiteRecoveryJob
+      href: Resume-AzureRmSiteRecoveryJob.md
+    - name: Set-AzureRmSiteRecoveryProtectionEntity
+      href: Set-AzureRmSiteRecoveryProtectionEntity.md
+    - name: Set-AzureRmSiteRecoveryVaultSettings
+      href: Set-AzureRmSiteRecoveryVaultSettings.md
+    - name: Set-AzureRmSiteRecoveryVM
+      href: Set-AzureRmSiteRecoveryVM.md
+    - name: Start-AzureRmSiteRecoveryCommitFailoverJob
+      href: Start-AzureRmSiteRecoveryCommitFailoverJob.md
+    - name: Start-AzureRmSiteRecoveryPlannedFailoverJob
+      href: Start-AzureRmSiteRecoveryPlannedFailoverJob.md
+    - name: Start-AzureRmSiteRecoveryPolicyAssociationJob
+      href: Start-AzureRmSiteRecoveryPolicyAssociationJob.md
+    - name: Start-AzureRmSiteRecoveryPolicyDissociationJob
+      href: Start-AzureRmSiteRecoveryPolicyDissociationJob.md
+    - name: Start-AzureRmSiteRecoveryTestFailoverJob
+      href: Start-AzureRmSiteRecoveryTestFailoverJob.md
+    - name: Start-AzureRmSiteRecoveryUnplannedFailoverJob
+      href: Start-AzureRmSiteRecoveryUnplannedFailoverJob.md
+    - name: Stop-AzureRmSiteRecoveryJob
+      href: Stop-AzureRmSiteRecoveryJob.md
+    - name: Update-AzureRmSiteRecoveryProtectionDirection
+      href: Update-AzureRmSiteRecoveryProtectionDirection.md
+    - name: Update-AzureRmSiteRecoveryRecoveryPlan
+      href: Update-AzureRmSiteRecoveryRecoveryPlan.md
+    - name: Update-AzureRmSiteRecoveryServer
+      href: Update-AzureRmSiteRecoveryServer.md

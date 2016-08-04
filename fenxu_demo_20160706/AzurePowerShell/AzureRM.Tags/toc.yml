@@ -1,8 +1,9 @@
-- name: AzureRM
+- name: AzureRM.Tags
   href: AzureRM.Tags.md
-- name: Get-AzureRmTag
-  href: Get-AzureRmTag.md
-- name: New-AzureRmTag
-  href: New-AzureRmTag.md
-- name: Remove-AzureRmTag
-  href: Remove-AzureRmTag.md
+  items:
+    - name: Get-AzureRmTag
+      href: Get-AzureRmTag.md
+    - name: New-AzureRmTag
+      href: New-AzureRmTag.md
+    - name: Remove-AzureRmTag
+      href: Remove-AzureRmTag.md

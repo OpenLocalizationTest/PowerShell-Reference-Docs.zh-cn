@@ -2,10 +2,85 @@
   href: Index.md
 - name: Add-Member
   uid: Add-Member
-- name: Add-Type
   uid: Add-Type
 - name: New-Object
   uid: New-Object
 - name: AzurePowerShell
-  href: AzurePowerShell/
-  homepage: AzurePowerShell/Azure/Azure.md
+  href: Index.md
+  items:
+    - name: Azure
+      href: AzurePowerShell/Azure/Azure.md
+    - name: Azure.Storage
+      href: AzurePowerShell/Azure.Storage/Azure.Storage.md
+    - name: AzureRM
+      href: AzurePowerShell/AzureRM/AzureRM.md
+    - name: AzureRm.ApiManagement
+      href: AzurePowerShell/AzureRm.ApiManagement/AzureRm.ApiManagement.md
+    - name: AzureRm.Automation
+      href: AzurePowerShell/AzureRm.Automation/AzureRm.Automation.md
+    - name: AzureRm.AzureStackAdmin
+      href: AzurePowerShell/AzureRm.AzureStackAdmin/AzureRm.AzureStackAdmin.md
+    - name: AzureRm.AzureStackStorage
+      href: AzurePowerShell/AzureRm.AzureStackStorage/AzureRm.AzureStackStorage.md
+    - name: AzureRM.Backup
+      href: AzurePowerShell/AzureRM.Backup/AzureRM.Backup.md
+    - name: AzureRM.Batch
+      href: AzurePowerShell/AzureRM.Batch/AzureRM.Batch.md
+    - name: AzureRM.Cdn
+      href: AzurePowerShell/AzureRM.Cdn/AzureRM.Cdn.md
+    - name: AzureRM.Compute
+      href: AzurePowerShell/AzureRM.Compute/AzureRM.Compute.md
+    - name: AzureRM.DataFactories
+      href: AzurePowerShell/AzureRM.DataFactories/AzureRM.DataFactories.md
+    - name: AzureRM.DataLakeAnalytics
+      href: AzurePowerShell/AzureRM.DataLakeAnalytics/AzureRM.DataLakeAnalytics.md
+    - name: AzureRM.DataLakeStore
+      href: AzurePowerShell/AzureRM.DataLakeStore/AzureRM.DataLakeStore.md
+    - name: AzureRM.DevTestLabs
+      href: AzurePowerShell/AzureRM.DevTestLabs/AzureRM.DevTestLabs.md
+    - name: AzureRM.Dns
+      href: AzurePowerShell/AzureRM.Dns/AzureRM.Dns.md
+    - name: AzureRM.HDInsight
+      href: AzurePowerShell/AzureRM.HDInsight/AzureRM.HDInsight.md
+    - name: AzureRM.Insights
+      href: AzurePowerShell/AzureRM.Insights/AzureRM.Insights.md
+    - name: AzureRM.KeyVault
+      href: AzurePowerShell/AzureRM.KeyVault/AzureRM.KeyVault.md
+    - name: AzureRM.LogicApp
+      href: AzurePowerShell/AzureRM.LogicApp/AzureRM.LogicApp.md
+    - name: AzureRM.MachineLearning
+      href: AzurePowerShell/AzureRM.MachineLearning/AzureRM.MachineLearning.md
+    - name: AzureRM.Network
+      href: AzurePowerShell/AzureRM.Network/AzureRM.Network.md
+    - name: AzureRM.NotificationHubs
+      href: AzurePowerShell/AzureRM.NotificationHubs/AzureRM.NotificationHubs.md
+    - name: AzureRM.OperationalInsights
+      href: AzurePowerShell/AzureRM.OperationalInsights/AzureRM.OperationalInsights.md
+    - name: AzureRM.Profile
+      href: AzurePowerShell/AzureRM.Profile/AzureRM.Profile.md
+    - name: AzureRM.RecoveryServices
+      href: AzurePowerShell/AzureRM.RecoveryServices/AzureRM.RecoveryServices.md
+    - name: AzureRM.RecoveryServices.Backup
+      href: AzurePowerShell/AzureRM.RecoveryServices.Backup/AzureRM.RecoveryServices.Backup.md
+    - name: AzureRM.RedisCache
+      href: AzurePowerShell/AzureRM.RedisCache/AzureRM.RedisCache.md
+    - name: AzureRM.Resources
+      href: AzurePowerShell/AzureRM.Resources/AzureRM.Resources.md
+    - name: AzureRM.ServerManagement
+      href: AzurePowerShell/AzureRM.ServerManagement/AzureRM.ServerManagement.md
+    - name: AzureRM.SiteRecovery
+      href: AzurePowerShell/AzureRM.SiteRecovery/AzureRM.SiteRecovery.md
+    - name: AzureRM.Sql
+      href: AzurePowerShell/AzureRM.Sql/AzureRM.Sql.md
+    - name: AzureRM.Storage
+      href: AzurePowerShell/AzureRM.Storage/AzureRM.Storage.md
+    - name: AzureRM.StreamAnalytics
+      href: AzurePowerShell/AzureRM.StreamAnalytics/AzureRM.StreamAnalytics.md
+    - name: AzureRM.Tags
+      href: AzurePowerShell/AzureRM.Tags/AzureRM.Tags.md
+    - name: AzureRM.TrafficManager
+      href: AzurePowerShell/AzureRM.TrafficManager/AzureRM.TrafficManager.md
+    - name: AzureRM.UsageAggregates
+      href: AzurePowerShell/AzureRM.UsageAggregates/AzureRM.UsageAggregates.md
+    - name: AzureRM.Websites
+      href: AzurePowerShell/AzureRM.Websites/AzureRM.Websites.md
