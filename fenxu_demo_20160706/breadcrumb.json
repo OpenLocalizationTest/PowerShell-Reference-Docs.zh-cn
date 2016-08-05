@@ -6,7 +6,14 @@
 				"href" : "/fenxu_demo_20160706/",
 				"homepage" : "/fenxu_demo_20160706/index",
 				"toc_title" : "Azure PowerShell",
-				"level" : 2
+				"level" : 2,
+				"children" : [{
+						"href" : "/fenxu_demo_20160706/azurepowershell/",
+						"homepage" : "/fenxu_demo_20160706/azurepowershell/azure/azure",
+						"toc_title" : "Reference",
+						"level" : 3
+					}
+				]
 			}
 		]
 	}
