@@ -8,21 +8,6 @@ Locale: en-US
 
 # AzureRM Module
 ## Description
-Manually Enter Description Here
-
-## AzureRM Cmdlets
-### [Import-AzureRM](Import-AzureRM.md)
-Manually Enter Import-AzureRM Description Here
-
-### [Uninstall-AzureRM](Uninstall-AzureRM.md)
-Manually Enter Uninstall-AzureRM Description Here
-
-### [Update-AzureRM](Update-AzureRM.md)
-Manually Enter Update-AzureRM Description Here
-
-
-# AzureRM Module
-## Description
 {{Manually Enter Description Here}}
 
 ## AzureRM Cmdlets

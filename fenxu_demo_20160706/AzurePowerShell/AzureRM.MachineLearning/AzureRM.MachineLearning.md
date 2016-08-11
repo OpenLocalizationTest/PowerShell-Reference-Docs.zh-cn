@@ -8,33 +8,6 @@ Locale: en-US
 
 # AzureRM.MachineLearning Module
 ## Description
-Manually Enter Description Here
-
-## AzureRM.MachineLearning Cmdlets
-### [Export-AzureRmMlWebService](Export-AzureRmMlWebService.md)
-Manually Enter Export-AzureRmMlWebService Description Here
-
-### [Get-AzureRmMlWebService](Get-AzureRmMlWebService.md)
-Manually Enter Get-AzureRmMlWebService Description Here
-
-### [Get-AzureRmMlWebServiceKeys](Get-AzureRmMlWebServiceKeys.md)
-Manually Enter Get-AzureRmMlWebServiceKeys Description Here
-
-### [Import-AzureRmMlWebService](Import-AzureRmMlWebService.md)
-Manually Enter Import-AzureRmMlWebService Description Here
-
-### [New-AzureRmMlWebService](New-AzureRmMlWebService.md)
-Manually Enter New-AzureRmMlWebService Description Here
-
-### [Remove-AzureRmMlWebService](Remove-AzureRmMlWebService.md)
-Manually Enter Remove-AzureRmMlWebService Description Here
-
-### [Update-AzureRmMlWebService](Update-AzureRmMlWebService.md)
-Manually Enter Update-AzureRmMlWebService Description Here
-
-
-# AzureRM.MachineLearning Module
-## Description
 {{Manually Enter Description Here}}
 
 ## AzureRM.MachineLearning Cmdlets

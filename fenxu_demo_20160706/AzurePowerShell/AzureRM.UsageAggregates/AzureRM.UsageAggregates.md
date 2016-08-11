@@ -8,15 +8,6 @@ Locale: en-US
 
 # AzureRM.UsageAggregates Module
 ## Description
-Manually Enter Description Here
-
-## AzureRM.UsageAggregates Cmdlets
-### [Get-UsageAggregates](Get-UsageAggregates.md)
-Manually Enter Get-UsageAggregates Description Here
-
-
-# AzureRM.UsageAggregates Module
-## Description
 {{Manually Enter Description Here}}
 
 ## AzureRM.UsageAggregates Cmdlets

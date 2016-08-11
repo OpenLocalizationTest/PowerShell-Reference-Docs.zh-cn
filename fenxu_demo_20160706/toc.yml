@@ -11,16 +11,14 @@
       href: AzurePowerShell/AzureRm.ApiManagement/AzureRm.ApiManagement.md
     - name: AzureRm.Automation
       href: AzurePowerShell/AzureRm.Automation/AzureRm.Automation.md
-    - name: AzureRm.AzureStackAdmin
-      href: AzurePowerShell/AzureRm.AzureStackAdmin/AzureRm.AzureStackAdmin.md
-    - name: AzureRm.AzureStackStorage
-      href: AzurePowerShell/AzureRm.AzureStackStorage/AzureRm.AzureStackStorage.md
     - name: AzureRM.Backup
       href: AzurePowerShell/AzureRM.Backup/AzureRM.Backup.md
     - name: AzureRM.Batch
       href: AzurePowerShell/AzureRM.Batch/AzureRM.Batch.md
     - name: AzureRM.Cdn
       href: AzurePowerShell/AzureRM.Cdn/AzureRM.Cdn.md
+    - name: AzureRM.CognitiveServices
+      href: AzurePowerShell/AzureRM.CognitiveServices/AzureRM.CognitiveServices.md
     - name: AzureRM.Compute
       href: AzurePowerShell/AzureRM.Compute/AzureRM.Compute.md
     - name: AzureRM.DataFactories
@@ -43,12 +41,16 @@
       href: AzurePowerShell/AzureRM.LogicApp/AzureRM.LogicApp.md
     - name: AzureRM.MachineLearning
       href: AzurePowerShell/AzureRM.MachineLearning/AzureRM.MachineLearning.md
+    - name: AzureRM.Media
+      href: AzurePowerShell/AzureRM.Media/AzureRM.Media.md
     - name: AzureRM.Network
       href: AzurePowerShell/AzureRM.Network/AzureRM.Network.md
     - name: AzureRM.NotificationHubs
       href: AzurePowerShell/AzureRM.NotificationHubs/AzureRM.NotificationHubs.md
     - name: AzureRM.OperationalInsights
       href: AzurePowerShell/AzureRM.OperationalInsights/AzureRM.OperationalInsights.md
+    - name: AzureRM.PowerBIEmbedded
+      href: AzurePowerShell/AzureRM.PowerBIEmbedded/AzureRM.PowerBIEmbedded.md
     - name: AzureRM.Profile
       href: AzurePowerShell/AzureRM.Profile/AzureRM.Profile.md
     - name: AzureRM.RecoveryServices
@@ -59,6 +61,8 @@
       href: AzurePowerShell/AzureRM.RedisCache/AzureRM.RedisCache.md
     - name: AzureRM.Resources
       href: AzurePowerShell/AzureRM.Resources/AzureRM.Resources.md
+    - name: AzureRM.Scheduler
+      href: AzurePowerShell/AzureRM.Scheduler/AzureRM.Scheduler.md
     - name: AzureRM.ServerManagement
       href: AzurePowerShell/AzureRM.ServerManagement/AzureRM.ServerManagement.md
     - name: AzureRM.SiteRecovery

@@ -8,39 +8,6 @@ Locale: en-US
 
 # AzureRM.Storage Module
 ## Description
-Manually Enter Description Here
-
-## AzureRM.Storage Cmdlets
-### [Get-AzureRmStorageAccount](Get-AzureRmStorageAccount.md)
-Manually Enter Get-AzureRmStorageAccount Description Here
-
-### [Get-AzureRmStorageAccountKey](Get-AzureRmStorageAccountKey.md)
-Manually Enter Get-AzureRmStorageAccountKey Description Here
-
-### [Get-AzureRmStorageAccountNameAvailability](Get-AzureRmStorageAccountNameAvailability.md)
-Manually Enter Get-AzureRmStorageAccountNameAvailability Description Here
-
-### [Get-AzureRmStorageUsage](Get-AzureRmStorageUsage.md)
-Manually Enter Get-AzureRmStorageUsage Description Here
-
-### [New-AzureRmStorageAccount](New-AzureRmStorageAccount.md)
-Manually Enter New-AzureRmStorageAccount Description Here
-
-### [New-AzureRmStorageAccountKey](New-AzureRmStorageAccountKey.md)
-Manually Enter New-AzureRmStorageAccountKey Description Here
-
-### [Remove-AzureRmStorageAccount](Remove-AzureRmStorageAccount.md)
-Manually Enter Remove-AzureRmStorageAccount Description Here
-
-### [Set-AzureRmCurrentStorageAccount](Set-AzureRmCurrentStorageAccount.md)
-Manually Enter Set-AzureRmCurrentStorageAccount Description Here
-
-### [Set-AzureRmStorageAccount](Set-AzureRmStorageAccount.md)
-Manually Enter Set-AzureRmStorageAccount Description Here
-
-
-# AzureRM.Storage Module
-## Description
 {{Manually Enter Description Here}}
 
 ## AzureRM.Storage Cmdlets
