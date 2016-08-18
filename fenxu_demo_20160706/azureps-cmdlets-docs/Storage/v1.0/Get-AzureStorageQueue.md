@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 4b1216b7-40c6-418b-806e-63302d8ba4a1
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -108,4 +109,5 @@ Accept wildcard characters: False
 [New-AzureStorageQueue](4b1216b7-40c6-418b-806e-63302d8ba4a1)
 
 [Remove-AzureStorageQueue](265824d1-e3d4-4bd4-bc11-466c2100ed3a)
+
 

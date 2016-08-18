@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 29c40d46-86c3-4f67-94f7-484371fdfba5
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -404,4 +405,5 @@ Accept wildcard characters: False
 ## RELATED LINKS
 
 [Set-AzureSchedulerStorageQueueJob](29c40d46-86c3-4f67-94f7-484371fdfba5)
+
 

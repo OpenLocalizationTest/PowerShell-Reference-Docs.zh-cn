@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: 73a4a9ba-477c-41e6-9193-2be97182e07d
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -133,4 +134,5 @@ Accept wildcard characters: False
 [New-AzureRmAutomationSchedule](36c11dd3-5843-49d2-8baa-9f5aa737d345)
 
 [Set-AzureRmAutomationSchedule](2d34dc26-ead0-49f0-9e1a-9d4a81712616)
+
 

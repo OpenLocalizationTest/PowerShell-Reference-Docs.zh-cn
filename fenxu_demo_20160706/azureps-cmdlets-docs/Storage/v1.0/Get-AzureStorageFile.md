@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 7e23b9f6-5f66-49a3-beb8-e2639c5234d7
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -215,4 +216,5 @@ Accept wildcard characters: False
 [Remove-AzureStorageFile](c9eb0c34-12ba-4978-85b5-f52c71e9ddf3)
 
 [Set-AzureStorageFileContent](cd2e0aa7-3259-4aa5-8494-c432063d34e7)
+
 

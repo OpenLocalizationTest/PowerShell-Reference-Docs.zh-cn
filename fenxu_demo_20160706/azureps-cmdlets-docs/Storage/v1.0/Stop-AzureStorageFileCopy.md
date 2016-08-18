@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -221,4 +222,5 @@ Accept wildcard characters: False
 [New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
 [Start-AzureStorageFileCopy](66445d9f-72a9-44e3-9f1b-72ec0888357a)
+
 

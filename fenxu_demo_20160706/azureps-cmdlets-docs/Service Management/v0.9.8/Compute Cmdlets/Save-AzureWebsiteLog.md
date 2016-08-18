@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -103,4 +104,5 @@ Accept wildcard characters: False
 [Get-AzureWebsiteDeployment](245ccf61-fa3e-41c8-98f7-0022e8f2ef3a)
 
 [Restore-AzureWebsiteDeployment](05b24030-ff70-48d2-8bed-d17d0451d4ca)
+
 

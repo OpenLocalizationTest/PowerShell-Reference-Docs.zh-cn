@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -115,4 +116,5 @@ By default, Get-AzureWebHostingPlan returns an array of WebHostingPlan objects.
 ## NOTES
 
 ## RELATED LINKS
+
 

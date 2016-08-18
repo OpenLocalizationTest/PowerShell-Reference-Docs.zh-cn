@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -55,4 +56,5 @@ Accept wildcard characters: False
 ## RELATED LINKS
 
 [Enable-AzureServiceProjectRemoteDesktop](8d3f7f43-f8f6-4ecf-b8be-7c69cd10cde7)
+
 

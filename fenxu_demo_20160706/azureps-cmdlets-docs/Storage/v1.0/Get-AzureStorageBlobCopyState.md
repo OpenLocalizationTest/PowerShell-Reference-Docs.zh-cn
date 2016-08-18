@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 606cb5d3-e7fd-4647-b980-329334abc795
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -223,4 +224,5 @@ Accept wildcard characters: False
 [Start-AzureStorageBlobCopy](606cb5d3-e7fd-4647-b980-329334abc795)
 
 [Stop-AzureStorageBlobCopy](c75b9de9-597d-4986-980e-10e49eeef4a7)
+
 

@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 0c2a5092-db45-4ce7-b39b-d1e499b4a867
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -146,4 +147,5 @@ Accept wildcard characters: False
 [New-AzureWebsiteJob](89c77daa-24fd-4b27-b624-3486fe642722)
 
 [Remove-AzureWebsiteJob](e25091a2-2472-4674-978c-ec1522631bc1)
+
 

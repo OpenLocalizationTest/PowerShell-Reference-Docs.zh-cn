@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: ea872c93-797e-49a5-8e97-640a56aadceb
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -133,4 +134,5 @@ This cmdlet returns an array of **PSCORSRule** objects which represent the CORS 
 [Remove-AzureStorageCORSRule](ea872c93-797e-49a5-8e97-640a56aadceb)
 
 [Set-AzureStorageCORSRule](fd109b34-042a-4157-b0c1-2cbf29894b52)
+
 

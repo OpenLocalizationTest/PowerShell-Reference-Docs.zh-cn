@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 671aeec8-b7f9-49c5-866f-da84f189ab5b
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -144,4 +145,5 @@ Accept wildcard characters: False
 [Remove-AzureStorageShareStoredAccessPolicy](af46a7c9-dd40-4d0d-9950-56f661dada33)
 
 [Set-AzureStorageShareStoredAccessPolicy](738f47b7-e244-40b1-9b2e-3b6f4e348c8f)
+
 

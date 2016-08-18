@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: f08d2de2-a276-439c-b9a8-ee187a8c334e
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -205,4 +206,5 @@ Accept wildcard characters: False
 [New-AzureStorageShareSASToken](07c8ad4e-7a32-4407-9120-1432126b7376)
 
 [New-AzureStorageTableSASToken](abee1cab-f04a-400e-8fb1-caed1ee02ee7)
+
 

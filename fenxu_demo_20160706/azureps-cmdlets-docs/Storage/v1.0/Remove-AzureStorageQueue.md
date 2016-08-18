@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: a89aa1b2-cabd-4048-a84d-2b37da287c05
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -140,4 +141,5 @@ Accept wildcard characters: False
 [Get-AzureStorageQueue](a89aa1b2-cabd-4048-a84d-2b37da287c05)
 
 [New-AzureStorageQueue](4b1216b7-40c6-418b-806e-63302d8ba4a1)
+
 

@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: e41c8823-9e6a-4535-b90c-0e2de7634c47
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -92,4 +93,5 @@ Accept wildcard characters: False
 [Resume-AzureRmAutomationJob](4b289017-5b98-45bc-87c4-86b08e1ac322)
 
 [Stop-AzureRmAutomationJob](1b580598-1087-4a10-9bc3-747ec5d7604a)
+
 

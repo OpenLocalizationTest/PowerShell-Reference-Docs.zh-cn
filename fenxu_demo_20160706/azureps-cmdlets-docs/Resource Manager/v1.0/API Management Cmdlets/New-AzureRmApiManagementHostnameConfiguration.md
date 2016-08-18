@@ -2,6 +2,7 @@
 external help file: RMAzure_Apimanagement.xml
 online version: 2a7ef835-586c-4e86-a243-3cc0e9623d71
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -72,4 +73,5 @@ Accept wildcard characters: False
 [Import-AzureRmApiManagementHostnameCertificate](2a7ef835-586c-4e86-a243-3cc0e9623d71)
 
 [Set-AzureRmApiManagementHostnames](dd997f04-b85b-409c-8c69-a5e659c768e3)
+
 

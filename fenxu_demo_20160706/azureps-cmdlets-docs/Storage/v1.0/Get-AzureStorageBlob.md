@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 15371eb7-da6a-4b26-bbda-b59a2eeedb1d
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -245,4 +246,5 @@ SYNOPSIS
 [Remove-AzureStorageBlob](fddc1b9e-caf4-47d7-a6b2-a2b2bb50113a)
 
 [Set-AzureStorageBlobContent](c3d50900-70d6-44af-b939-abe86fcf89e6)
+
 

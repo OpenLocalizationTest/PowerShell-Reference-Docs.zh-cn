@@ -2,6 +2,7 @@
 external help file: RMAzure_Apimanagement.xml
 online version: 6df0b014-03b0-47aa-9d34-9d0fceee2247
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -151,4 +152,5 @@ The cmdlet writes updated **PsApiManagement** instance to pipeline.
 [Update-AzureRmApiManagementRegion](bf37a79f-38a4-433e-b847-beb564ad781c)
 
 [Update-AzureRmApiManagementDeployment](166e3bd3-929d-4213-aebc-411e2e8f50a2)
+
 

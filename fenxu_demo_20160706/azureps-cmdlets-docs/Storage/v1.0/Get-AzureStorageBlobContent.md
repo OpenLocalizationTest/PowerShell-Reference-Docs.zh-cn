@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: c3d50900-70d6-44af-b939-abe86fcf89e6
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -284,4 +285,5 @@ If the blob name is invalid for local computer, this cmdlet autoresolves it, if 
 [Get-AzureStorageBlob](74bc4494-be41-4493-9939-e51e61dd09e6)
 
 [Remove-AzureStorageBlob](fddc1b9e-caf4-47d7-a6b2-a2b2bb50113a)
+
 

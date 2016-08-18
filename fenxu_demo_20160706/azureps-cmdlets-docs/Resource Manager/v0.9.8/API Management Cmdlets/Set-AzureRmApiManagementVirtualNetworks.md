@@ -2,6 +2,7 @@
 external help file: RMAzure_Apimanagement.xml
 online version: ec96b443-15bf-4b19-b518-decb18c64749
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -100,4 +101,5 @@ Accept wildcard characters: False
 ## RELATED LINKS
 
 [New-AzureRmApiManagementVirtualNetwork](ec96b443-15bf-4b19-b518-decb18c64749)
+
 

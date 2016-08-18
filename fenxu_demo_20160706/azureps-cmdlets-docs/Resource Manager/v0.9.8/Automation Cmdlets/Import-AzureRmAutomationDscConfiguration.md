@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: 091cd841-4aaf-45de-a8f2-6f973fb9c91b
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -196,4 +197,5 @@ Accept wildcard characters: False
 [Export-AzureRmAutomationDscConfiguration](091cd841-4aaf-45de-a8f2-6f973fb9c91b)
 
 [Get-AzureRmAutomationDscConfiguration](cd411497-be17-46f7-8708-519f02312553)
+
 

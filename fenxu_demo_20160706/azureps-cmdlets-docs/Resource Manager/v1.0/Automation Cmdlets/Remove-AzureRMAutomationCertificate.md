@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: 7e2d3105-ae14-40c6-a715-57d63c178cde
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -118,4 +119,5 @@ Accept wildcard characters: False
 [New-AzureRmAutomationCertificate](4316d596-2954-42e8-905f-840853dab7d5)
 
 [Set-AzureRmAutomationCertificate](77502783-0006-4288-917f-26f265ccfcbe)
+
 

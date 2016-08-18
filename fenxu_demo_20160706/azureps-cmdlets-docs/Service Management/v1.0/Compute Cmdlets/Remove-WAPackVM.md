@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 4b060a7d-da50-45ff-adb6-bcba63faa90b
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -154,4 +155,5 @@ Accept wildcard characters: False
 [Stop-WAPackVM](7f3e6c33-2196-4e24-95fd-e5763c6f7402)
 
 [Suspend-WAPackVM](d8041113-5a71-447d-9bbe-dc6405aa6029)
+
 

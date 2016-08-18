@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -75,4 +76,5 @@ Accept wildcard characters: False
 [New-AzureStoreAddOn](a293ef75-d822-4392-8af4-1bb50d0461f6)
 
 [Set-AzureStoreAddOn](545b82f5-330f-48c7-b2b1-d6a1c630ac28)
+
 

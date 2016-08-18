@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: 19472f94-5827-4878-a17a-d7bb10932861
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -133,4 +134,5 @@ Accept wildcard characters: False
 [Register-AzureRmAutomationDscNode](a6f623a1-2e69-4ea2-828b-ab63d285a009)
 
 [Set-AzureRmAutomationDscNode](68da8fba-38df-4255-91e8-513635163d57)
+
 

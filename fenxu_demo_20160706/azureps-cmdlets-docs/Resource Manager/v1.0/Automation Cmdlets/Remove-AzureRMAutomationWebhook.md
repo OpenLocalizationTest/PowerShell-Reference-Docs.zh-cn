@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: 048bf33a-0bc1-4433-92e0-bd906f6edb8d
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -121,4 +122,5 @@ Accept wildcard characters: False
 [New-AzureRmAutomationWebhook](cca289e3-4c75-48af-9f25-f99b0c6965c4)
 
 [Set-AzureRmAutomationWebhook](b2f5cd9e-5886-4ccc-89ea-9e66e5c67818)
+
 

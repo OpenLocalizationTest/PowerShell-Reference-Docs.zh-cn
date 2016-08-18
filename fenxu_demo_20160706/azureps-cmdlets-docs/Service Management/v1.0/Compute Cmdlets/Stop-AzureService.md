@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -104,4 +105,5 @@ Accept wildcard characters: False
 [Remove-AzureService](19376209-6c0d-46e0-ad98-b8e2f13c0893)
 
 [Start-AzureService](56e58937-4763-467c-a98c-c89ae4326e84)
+
 

@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -41,4 +42,5 @@ This example gets the location of the Service Bus.
 ## RELATED LINKS
 
 [Get-AzureSBNamespace](1d1be2c9-46f9-4413-8766-77361f7f4116)
+
 

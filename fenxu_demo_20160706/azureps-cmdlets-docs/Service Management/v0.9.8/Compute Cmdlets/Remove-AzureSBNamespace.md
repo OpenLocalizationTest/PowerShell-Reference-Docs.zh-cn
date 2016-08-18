@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -116,4 +117,5 @@ Accept wildcard characters: False
 ## RELATED LINKS
 
 [New-AzureSBNamespace](456cf667-2f12-42f0-9e88-050ff7900244)
+
 

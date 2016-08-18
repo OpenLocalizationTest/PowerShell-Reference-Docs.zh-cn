@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -111,4 +112,5 @@ Accept wildcard characters: False
 [Add-AzureWorkerRole](77af980e-7b69-46b9-af3c-6d586710eff8)
 
 [New-AzureRoleTemplate](03fbb075-4258-4eb3-a5d1-3ae0f599e361)
+
 

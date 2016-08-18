@@ -2,6 +2,7 @@
 external help file: RMAzure_Apimanagement.xml
 online version: b3b67164-7adf-4fe3-87ab-51dcd46ed084
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -135,4 +136,5 @@ Accept wildcard characters: False
 [New-AzureRmApiManagement](6b5595ca-246e-4381-a37e-24dfae307109)
 
 [Remove-AzureRmApiManagement](9a2c4617-9870-4d9c-92fa-2af03211d931)
+
 

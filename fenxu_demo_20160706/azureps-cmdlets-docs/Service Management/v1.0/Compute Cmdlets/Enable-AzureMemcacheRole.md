@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -106,4 +107,5 @@ Accept wildcard characters: False
 [Add-AzureNodeWebRole](72be1e83-84e2-49fc-aa52-b3d3dd0490a3)
 
 [Add-AzurePHPWebRole](6dd8d854-912d-4281-977c-ff3ec15ccf51)
+
 

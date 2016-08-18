@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: http://go.microsoft.com/fwlink/?LinkId=324179
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -101,4 +102,5 @@ Accept wildcard characters: False
 ## RELATED LINKS
 
 [How to use Azure PowerShell for Media Services](http://go.microsoft.com/fwlink/?LinkId=324179)
+
 

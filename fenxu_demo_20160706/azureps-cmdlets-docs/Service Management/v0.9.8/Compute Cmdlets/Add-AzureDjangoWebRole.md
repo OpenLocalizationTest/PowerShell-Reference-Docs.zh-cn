@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -96,4 +97,5 @@ This example adds the required files and configuration for new web role to the c
 ## RELATED LINKS
 
 [New-AzureServiceProject](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
+
 

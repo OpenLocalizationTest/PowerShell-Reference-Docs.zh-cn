@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 3e60e1c8-7421-4762-befc-5c8974f684c4
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -148,4 +149,5 @@ Accept wildcard characters: False
 [Remove-AzureSBAuthorizationRule](7d4951b1-15ff-4fa4-9122-36538eee9cbe)
 
 [Set-AzureSBAuthorizationRule](c199f0d5-8f84-4106-ac4b-afc2192d1218)
+
 

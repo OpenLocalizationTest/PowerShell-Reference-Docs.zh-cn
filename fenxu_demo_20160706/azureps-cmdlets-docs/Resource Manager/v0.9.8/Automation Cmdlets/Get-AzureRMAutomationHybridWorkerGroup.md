@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: a6f623a1-2e69-4ea2-828b-ab63d285a009
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -105,4 +106,5 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+
 

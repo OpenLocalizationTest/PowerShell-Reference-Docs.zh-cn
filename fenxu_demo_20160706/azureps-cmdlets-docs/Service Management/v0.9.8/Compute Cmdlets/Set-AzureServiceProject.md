@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 4c0c0966-919e-49a6-9d38-c3c97355e281
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -121,4 +122,5 @@ node-dev, php-dev, python-dev
 [Set-AzureServiceProjectRole](80fb7e11-389d-4341-9568-e1a1bc1789df)
 
 [New-AzureServiceProject](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
+
 

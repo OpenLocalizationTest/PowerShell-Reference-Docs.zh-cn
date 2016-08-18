@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -159,4 +160,5 @@ Specifies the size of the virtual machine.
 ## RELATED LINKS
 
 [Set-AzureServiceProject](c3baa783-e57a-46bd-abe4-6d06130eaaf0)
+
 

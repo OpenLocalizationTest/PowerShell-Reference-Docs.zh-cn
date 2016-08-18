@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 74bc4494-be41-4493-9939-e51e61dd09e6
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -281,4 +282,5 @@ Accept wildcard characters: False
 [Get-AzureStorageBlobContent](15371eb7-da6a-4b26-bbda-b59a2eeedb1d)
 
 [Set-AzureStorageBlobContent](c3d50900-70d6-44af-b939-abe86fcf89e6)
+
 

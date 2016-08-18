@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: c9ec226d-3a4f-49d1-9b9f-df9d57bdfa43
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -119,4 +120,5 @@ Accept wildcard characters: False
 [New-AzureRmAutomationAccount](1a996e7a-1de8-4533-a39a-c17cf1ab18fd)
 
 [Remove-AzureRmAutomationAccount](2a126e99-39dd-4c00-b2a6-bf6495d64345)
+
 

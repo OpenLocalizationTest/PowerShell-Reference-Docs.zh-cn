@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: aaed4c39-d209-4663-b058-b480553ee6a9
 schema: 2.0.0
+source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
@@ -176,4 +177,5 @@ Accept wildcard characters: False
 [Get-AzureSchedulerJob](aaed4c39-d209-4663-b058-b480553ee6a9)
 
 [Get-AzureSchedulerJobCollection](1f6e64a2-021e-4ad7-93a4-9e1138607f01)
+
 
