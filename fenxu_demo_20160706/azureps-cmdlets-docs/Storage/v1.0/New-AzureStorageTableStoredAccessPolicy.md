@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: a1536004-87a3-48a2-ad18-bf3fe95908c9
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureStorageTableStoredAccessPolicy

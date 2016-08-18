@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: d6ee400f-4a92-4f2f-83bb-70188bb2000d
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Start-AzureWebsiteJob

@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: 03d80a68-8443-42e0-87bc-5d0e22ac3a57
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureRmAutomationJobOutputRecord

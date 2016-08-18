@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: cca289e3-4c75-48af-9f25-f99b0c6965c4
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureRMAutomationWebhook

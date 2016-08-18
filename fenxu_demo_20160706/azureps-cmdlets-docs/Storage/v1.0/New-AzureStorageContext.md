@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 74bc4494-be41-4493-9939-e51e61dd09e6
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureStorageContext

@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: bb736406-8b48-4bdf-b67b-0c928e674c7d
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureSchedulerStorageQueueJob

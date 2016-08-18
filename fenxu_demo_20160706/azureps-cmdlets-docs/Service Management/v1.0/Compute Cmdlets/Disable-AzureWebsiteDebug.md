@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 7d8b6162-ecd4-4b7e-8f17-1e63b6d47fbf
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Disable-AzureWebsiteDebug

@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 36ff9a70-74d8-4b37-9962-c01b531c9a01
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureStorageTable

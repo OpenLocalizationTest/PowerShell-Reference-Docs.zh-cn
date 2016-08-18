@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: 34edfa3b-7ef9-4aab-bb17-5ea725a22ed4
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureRMAutomationScheduledRunbook

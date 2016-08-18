@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 5e8a9e67-ad04-4430-b057-a63cfb99585e
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-AzureStorageTable

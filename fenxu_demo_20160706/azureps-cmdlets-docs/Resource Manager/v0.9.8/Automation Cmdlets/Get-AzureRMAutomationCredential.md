@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: 2e0b5b0e-df2b-4747-bb42-8e6b94f397e0
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureRMAutomationCredential

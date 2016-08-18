@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 15371eb7-da6a-4b26-bbda-b59a2eeedb1d
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureStorageBlobContent

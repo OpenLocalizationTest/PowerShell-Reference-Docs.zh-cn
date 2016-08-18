@@ -2,6 +2,7 @@
 external help file: RMAzure_Apimanagement.xml
 online version: b3b67164-7adf-4fe3-87ab-51dcd46ed084
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Restore-AzureRmApiManagement

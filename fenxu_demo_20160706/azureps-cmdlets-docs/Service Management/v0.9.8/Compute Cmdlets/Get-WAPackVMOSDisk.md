@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 4b060a7d-da50-45ff-adb6-bcba63faa90b
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-WAPackVMOSDisk

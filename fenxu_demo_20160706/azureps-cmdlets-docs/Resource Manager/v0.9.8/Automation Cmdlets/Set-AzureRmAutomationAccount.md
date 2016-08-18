@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: c9ec226d-3a4f-49d1-9b9f-df9d57bdfa43
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureRmAutomationAccount

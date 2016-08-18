@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 07ab8d50-c6de-45f1-8576-99b76f798bca
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureSBAuthorizationRule

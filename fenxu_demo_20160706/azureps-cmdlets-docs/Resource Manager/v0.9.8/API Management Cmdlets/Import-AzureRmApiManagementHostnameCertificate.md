@@ -2,6 +2,7 @@
 external help file: RMAzure_Apimanagement.xml
 online version: 73f73a6f-470c-4dd6-95c4-a1302fabb0dd
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Import-AzureRmApiManagementHostnameCertificate

@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 7e23b9f6-5f66-49a3-beb8-e2639c5234d7
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureStorageFile

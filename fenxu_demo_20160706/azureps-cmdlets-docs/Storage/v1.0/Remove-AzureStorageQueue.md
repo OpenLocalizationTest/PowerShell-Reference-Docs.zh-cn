@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: a89aa1b2-cabd-4048-a84d-2b37da287c05
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-AzureStorageQueue

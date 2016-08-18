@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: http://go.microsoft.com/FWLink/p/?LinkID=311700
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Disable-AzureWebsiteApplicationDiagnostic

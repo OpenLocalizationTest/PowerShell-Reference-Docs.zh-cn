@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 4880a1a4-c947-4310-8317-0a837b8acb7f
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-AzureStorageContainer

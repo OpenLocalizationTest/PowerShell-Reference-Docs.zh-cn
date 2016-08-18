@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: ac55e6be-eb22-4b33-afac-beb371fbbd32
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureSchedulerJobCollection

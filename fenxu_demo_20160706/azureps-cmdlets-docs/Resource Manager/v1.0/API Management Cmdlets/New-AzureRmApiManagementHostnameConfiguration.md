@@ -2,6 +2,7 @@
 external help file: RMAzure_Apimanagement.xml
 online version: 2a7ef835-586c-4e86-a243-3cc0e9623d71
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureRmApiManagementHostnameConfiguration

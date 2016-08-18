@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 59b6d8fb-70ff-4b9e-b6af-e303e1451dbb
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureStorageServiceMetricsProperty

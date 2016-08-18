@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 1f74deb4-e9b0-4aeb-8e13-b1554a4ebbec
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-WAPackVM

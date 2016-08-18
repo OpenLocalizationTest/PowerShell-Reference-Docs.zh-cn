@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 00a693d9-52d2-4c9b-9d7b-e476ca51a610
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureStorageContainerStoredAccessPolicy

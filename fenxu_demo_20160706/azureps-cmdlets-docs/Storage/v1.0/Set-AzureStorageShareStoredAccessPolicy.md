@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: d3ad790c-c75f-4243-b128-7c778422ac64
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureStorageShareStoredAccessPolicy

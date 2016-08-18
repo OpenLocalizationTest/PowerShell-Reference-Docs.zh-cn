@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 4b1216b7-40c6-418b-806e-63302d8ba4a1
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureStorageQueue

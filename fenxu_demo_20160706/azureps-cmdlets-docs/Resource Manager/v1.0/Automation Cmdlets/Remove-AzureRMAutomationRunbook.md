@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: 614eee0d-f18e-4843-bed6-6cf43db59f75
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-AzureRMAutomationRunbook

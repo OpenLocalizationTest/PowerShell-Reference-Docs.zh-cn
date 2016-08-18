@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: cbd50659-1e44-425c-9b97-a58be040e3b9
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Start-AzureRmAutomationDscCompilationJob

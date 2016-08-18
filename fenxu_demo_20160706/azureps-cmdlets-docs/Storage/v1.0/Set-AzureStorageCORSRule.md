@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: accfb0fd-ad3a-4415-abce-a98b8073e82b
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureStorageCORSRule

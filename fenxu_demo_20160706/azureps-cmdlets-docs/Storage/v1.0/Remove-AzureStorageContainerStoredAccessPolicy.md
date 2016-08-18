@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 511d9eb1-959a-4343-b3ef-c6f21998947c
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-AzureStorageContainerStoredAccessPolicy

@@ -2,6 +2,7 @@
 external help file: RMAzure_Storage.xml
 online version: 64a4e0c7-905e-406b-afb7-1723afcee9e8
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureStorageQueueStoredAccessPolicy

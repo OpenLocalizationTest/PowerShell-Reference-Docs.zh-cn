@@ -2,6 +2,7 @@
 external help file: SMAzure_Compute.xml
 online version: 4c0c0966-919e-49a6-9d38-c3c97355e281
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureServiceProject

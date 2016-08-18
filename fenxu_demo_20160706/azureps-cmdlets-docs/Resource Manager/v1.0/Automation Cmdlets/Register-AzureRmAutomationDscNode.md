@@ -2,6 +2,7 @@
 external help file: RMAzure_Automation.xml
 online version: 19472f94-5827-4878-a17a-d7bb10932861
 schema: 2.0.0
+source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Register-AzureRmAutomationDscNode
