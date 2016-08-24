@@ -6,20 +6,20 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageBlobSASToken
-## SYNOPSIS
-Generates an SAS token for an azure_2 storage blob.
+# Xxx$XxxxxXxxxxxxXxxxXXXXxxxx
+## XXXXXXXX
+Xxxxxxxxx xx XXX xxxxx xxx xx xxxxx$0 xxxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageBlobSASToken [-Container] <String> [-Blob] <String> [-Context <AzureStorageContext>]
  [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>] [-Permission <String>]
  [-Protocol <Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]>] [-StartTime <DateTime]>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageBlobSASToken [-Container] <String> [-Blob] <String> [-Context <AzureStorageContext>]
  [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>]
@@ -27,7 +27,7 @@ New-AzureStorageBlobSASToken [-Container] <String> [-Blob] <String> [-Context <A
  -Policy <String>
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageBlobSASToken [-Context <AzureStorageContext>] [-ExpiryTime <DateTime]>] [-FullUri]
  [-IPAddressOrRange <String>] [-Permission <String>]
@@ -35,38 +35,38 @@ New-AzureStorageBlobSASToken [-Context <AzureStorageContext>] [-ExpiryTime <Date
  -CloudBlob <CloudBlob>
 ```
 
-### UNNAMED_PARAMETER_SET_4
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageBlobSASToken [-Context <AzureStorageContext>] [-ExpiryTime <DateTime]>] [-FullUri]
  [-IPAddressOrRange <String>] [-Protocol <Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]>]
  [-StartTime <DateTime]>] -CloudBlob <CloudBlob> -Policy <String>
 ```
 
-## DESCRIPTION
-The **New-AzureStorageBlobSASToken** cmdlet generates a Shared Access Signature (SAS) token for an azure_2 storage blob.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxXXXXxxxx$$ xxxxxx xxxxxxxxx x Xxxxxx Xxxxxx Xxxxxxxxx $XXX$ xxxxx xxx xx xxxxx$0 xxxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Generate a blob SAS token with full blob permission
+### Xxxxxxx 0$ Xxxxxxxx x xxxx XXX xxxxx xxxx xxxx xxxx xxxxxxxxxx
 ```
 PS C:\>New-AzureStorageBlobSASToken -Container "ContainerName" -Blob "BlobName" -Permission rwd
 ```
 
-This example generates a blob SAS token with full blob permission.
+Xxxx xxxxxxx xxxxxxxxx x xxxx XXX xxxxx xxxx xxxx xxxx xxxxxxxxxx.
 
-### Example 2: Generate a blob SAS token with life time
+### Xxxxxxx 0$ Xxxxxxxx x xxxx XXX xxxxx xxxx xxxx xxxx
 ```
 PS C:\> $StartTime = Get-Date
 PS C:\> $EndTime = $startTime.AddHours(2.0)
 PS C:\> New-AzureStorageBlobSASToken -Container "ContainerName" -Blob "BlobName" -Permission rwd -StartTime $StartTime -ExpiryTime $EndTime
 ```
 
-This example generates a blob SAS token with life time.
+Xxxx xxxxxxx xxxxxxxxx x xxxx XXX xxxxx xxxx xxxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Blob
-Specifies the storage blob name.
+### $Xxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xxxx.
 
 ```yaml
 Type: String
@@ -80,9 +80,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CloudBlob
-Specifies the **CloudBlob** object.
-To obtain a **CloudBlob** object, use the Get-AzureStorageBlob cmdlet.
+### $XxxxxXxxx
+Xxxxxxxxx xxx $$XxxxxXxxx$$ xxxxxx.
+Xx xxxxxx x $$XxxxxXxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
 ```yaml
 Type: CloudBlob
@@ -96,8 +96,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Container
-Specifies the storage container name.
+### $Xxxxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -111,8 +111,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies the storage context.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -126,8 +126,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-Specifies when the shared access signature expires.
+### $XxxxxxXxxx
+Xxxxxxxxx xxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: DateTime]
@@ -141,8 +141,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FullUri
-Indicates that this cmdlet return the full blob URI and the shared access signature token.
+### $XxxxXxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxx xxx xxxx xxxx XXX xxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -156,8 +156,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -IPAddressOrRange
-@{Text=}
+### $XXXxxxxxxXxXxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -171,8 +171,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Permission
-Specifies the permissions for a storage blob.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxxx xxx x xxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -186,8 +186,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-Specifies an azure_2 Stored Access Policy.
+### $Xxxxxx
+Xxxxxxxxx xx xxxxx$0 Xxxxxx Xxxxxx Xxxxxx.
 
 ```yaml
 Type: String
@@ -201,8 +201,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Protocol
-@{Text=}
+### $Xxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]
@@ -216,8 +216,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies the time at which the shared access signature becomes valid.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: DateTime]
@@ -231,16 +231,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageBlob](74bc4494-be41-4493-9939-e51e61dd09e6)
+[Xxx$XxxxxXxxxxxxXxxx](74bc4494-be41-4493-9939-e51e61dd09e6)
 
-[New-AzureStorageContainerSASToken](dc3564e2-9ede-4901-8d62-f49017a03281)
+[Xxx$XxxxxXxxxxxxXxxxxxxxxXXXXxxxx](dc3564e2-9ede-4901-8d62-f49017a03281)
 
 

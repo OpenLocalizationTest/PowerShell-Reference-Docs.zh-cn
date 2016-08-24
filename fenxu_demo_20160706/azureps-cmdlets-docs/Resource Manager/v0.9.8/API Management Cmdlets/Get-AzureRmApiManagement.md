@@ -6,45 +6,45 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureRmApiManagement
-## SYNOPSIS
-Gets a list or a particular API Management Service description.
+# Xxx$XxxxxXxXxxXxxxxxxxxx
+## XXXXXXXX
+Xxxx x xxxx xx x xxxxxxxxxx XXX Xxxxxxxxxx Xxxxxxx xxxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRmApiManagement -Name <String> -ResourceGroupName <String>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRmApiManagement -ResourceGroupName <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmApiManagement** cmdlet gets a list of all API Management services under subscription or specified resource group or a particular API Management.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxXxxxxxxxxx$$ xxxxxx xxxx x xxxx xx xxx XXX Xxxxxxxxxx xxxxxxxx xxxxx xxxxxxxxxxxx xx xxxxxxxxx xxxxxxxx xxxxx xx x xxxxxxxxxx XXX Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all API Management services
+### Xxxxxxx 0$ Xxx xxx XXX Xxxxxxxxxx xxxxxxxx
 ```
 PS C:\>Get-AzureRmApiManagement
 ```
 
-This command gets all API Management services within a subscription.
+Xxxx xxxxxxx xxxx xxx XXX Xxxxxxxxxx xxxxxxxx xxxxxx x xxxxxxxxxxxx.
 
-### Example 2: Get all API Management services by a specific name
+### Xxxxxxx 0$ Xxx xxx XXX Xxxxxxxxxx xxxxxxxx xx x xxxxxxxx xxxx
 ```
 PS C:\>Get-AzureRmApiManagement -ResourceGroupName "ContosoGroup" -Name "ContosoApi"
 ```
 
-This command gets all API Management service by name.
+Xxxx xxxxxxx xxxx xxx XXX Xxxxxxxxxx xxxxxxx xx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Name
-Specifies the name of API Management service.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx XXX Xxxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -58,8 +58,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group under in which this cmdlet gets the API Management service.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxxxx xx xxxxx xxxx xxxxxx xxxx xxx XXX Xxxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -85,20 +85,20 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Backup-AzureRmApiManagement](b3b67164-7adf-4fe3-87ab-51dcd46ed084)
+[Xxxxxx$XxxxxXxXxxXxxxxxxxxx](b3b67164-7adf-4fe3-87ab-51dcd46ed084)
 
-[New-AzureRmApiManagement](6b5595ca-246e-4381-a37e-24dfae307109)
+[Xxx$XxxxxXxXxxXxxxxxxxxx](6b5595ca-246e-4381-a37e-24dfae307109)
 
-[Remove-AzureRmApiManagement](9a2c4617-9870-4d9c-92fa-2af03211d931)
+[Xxxxxx$XxxxxXxXxxXxxxxxxxxx](9a2c4617-9870-4d9c-92fa-2af03211d931)
 
-[Restore-AzureRmApiManagement](b0ff412d-269a-472f-8d79-9c0b9f0ebac2)
+[Xxxxxxx$XxxxxXxXxxXxxxxxxxxx](b0ff412d-269a-472f-8d79-9c0b9f0ebac2)
 
 

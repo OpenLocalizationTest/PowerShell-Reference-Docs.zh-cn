@@ -4,57 +4,57 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293994
 schema: 2.0.0
 ---
 
-# New-TimeSpan
-## SYNOPSIS
-Creates a TimeSpan object.
+# Xxx$XxxxXxxx
+## XXXXXXXX
+Xxxxxxx x XxxxXxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### Date (Default)
+### Xxxx $Xxxxxxx$
 ```
 New-TimeSpan [[-Start] <DateTime>] [[-End] <DateTime>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### Time
+### Xxxx
 ```
 New-TimeSpan [-Days <Int32>] [-Hours <Int32>] [-Minutes <Int32>] [-Seconds <Int32>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The New-TimeSpan cmdlet creates a TimeSpan object that represents a time interval You can use a TimeSpan object to add or subtract time from DateTime objects.
+## XXXXXXXXXXX
+Xxx Xxx$XxxxXxxx xxxxxx xxxxxxx x XxxxXxxx xxxxxx xxxx xxxxxxxxxx x xxxx xxxxxxxx Xxx xxx xxx x XxxxXxxx xxxxxx xx xxx xx xxxxxxxx xxxx xxxx XxxxXxxx xxxxxxx.
 
-Without parameters, a "New-Timespan" command returns a timespan object that represents a time interval of zero.
+Xxxxxxx xxxxxxxxxx$ x $Xxx$Xxxxxxxx$ xxxxxxx xxxxxxx x xxxxxxxx xxxxxx xxxx xxxxxxxxxx x xxxx xxxxxxxx xx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$timespan = new-timespan -hour 1 -minute 25
 ```
 
-This command creates a TimeSpan object with a duration of 1 hour and 25 minutes and stores it in a variable named $timespan.
-It displays a representation of the TimeSpan object.
+Xxxx xxxxxxx xxxxxxx x XxxxXxxx xxxxxx xxxx x xxxxxxxx xx 0 xxxx xxx 00 xxxxxxx xxx xxxxxx xx xx x xxxxxxxx xxxxx $xxxxxxxx.
+Xx xxxxxxxx x xxxxxxxxxxxxxx xx xxx XxxxXxxx xxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>new-timespan -end (get-date -year 2010 -month 1 -day 1)
 ```
 
-This example creates a new TimeSpan object that represents the interval between the time that the command is run and January 1, 2010.
+Xxxx xxxxxxx xxxxxxx x xxx XxxxXxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxxx xxxxxxx xxx xxxx xxxx xxx xxxxxxx xx xxx xxx Xxxxxxx 0$ 0000.
 
-This command does not require the Start parameter, because the default value of the Start parameter is the current date and time.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxx Xxxxx xxxxxxxxx$ xxxxxxx xxx xxxxxxx xxxxx xx xxx Xxxxx xxxxxxxxx xx xxx xxxxxxx xxxx xxx xxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$90days = new-timespan -days 90
 PS C:\>(get-date) + $90days
 ```
 
-These commands return the date that is 90 days after the current date.
+Xxxxx xxxxxxxx xxxxxx xxx xxxx xxxx xx 00 xxxx xxxxx xxx xxxxxxx xxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>dir $pshome\en-us\about_remote.help.txt | new-timespan
 
@@ -75,17 +75,17 @@ TotalMilliseconds : 27813562312.7728
 PS C:\>new-timespan -start (dir $pshome\en-us\about_remote.help.txt).lastwritetime
 ```
 
-This command tells you how long it has been since the about_remote.help.txt file was last updated.
-You can use this command format on any file, and on any other object that has a LastWriteTime property.
+Xxxx xxxxxxx xxxxx xxx xxx xxxx xx xxx xxxx xxxxx xxx xxxxx$xxxxxx.xxxx.xxx xxxx xxx xxxx xxxxxxx.
+Xxx xxx xxx xxxx xxxxxxx xxxxxx xx xxx xxxx$ xxx xx xxx xxxxx xxxxxx xxxx xxx x XxxxXxxxxXxxx xxxxxxxx.
 
-This command works because the Start parameter of New-TimeSpan has an alias of LastWriteTime.
-When you pipe an object that has a LastWriteTime property to New-TimeSpan, Windows PowerShell uses the value of the LastWriteTime property as the value of the Start parameter.
+Xxxx xxxxxxx xxxxx xxxxxxx xxx Xxxxx xxxxxxxxx xx Xxx$XxxxXxxx xxx xx xxxxx xx XxxxXxxxxXxxx.
+Xxxx xxx xxxx xx xxxxxx xxxx xxx x XxxxXxxxxXxxx xxxxxxxx xx Xxx$XxxxXxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxx xx xxx XxxxXxxxxXxxx xxxxxxxx xx xxx xxxxx xx xxx Xxxxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Days
-Indicates the days in the time span.
-The default is 0.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxx.
+Xxx xxxxxxx xx 0.
 
 ```yaml
 Type: Int32
@@ -99,9 +99,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -End
-Indicates the end of a time span.
-The default is the current date and time.
+### $Xxx
+Xxxxxxxxx xxx xxx xx x xxxx xxxx.
+Xxx xxxxxxx xx xxx xxxxxxx xxxx xxx xxxx.
 
 ```yaml
 Type: DateTime
@@ -115,9 +115,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Hours
-Indicates the hours in the time span.
-The default is zero.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx xx xxx xxxx xxxx.
+Xxx xxxxxxx xx xxxx.
 
 ```yaml
 Type: Int32
@@ -131,8 +131,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -147,8 +147,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -162,9 +162,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Minutes
-Indicates the minutes in the time span.
-The default is 0.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxx xxxx xxxx.
+Xxx xxxxxxx xx 0.
 
 ```yaml
 Type: Int32
@@ -178,9 +178,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Seconds
-Indicates the length of the time span in seconds.
-The default is 0.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxx xx xxx xxxx xxxx xx xxxxxxx.
+Xxx xxxxxxx xx 0.
 
 ```yaml
 Type: Int32
@@ -194,13 +194,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Start
-Indicates the start of a time span.
-Enter a string that represents the date and time, such as "3/15/09" or a DateTime object, such as one from a Get-Date command. 
-The default is the current date and time.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx xx x xxxx xxxx.
+Xxxxx x xxxxxx xxxx xxxxxxxxxx xxx xxxx xxx xxxx$ xxxx xx $0$00$00$ xx x XxxxXxxx xxxxxx$ xxxx xx xxx xxxx x Xxx$Xxxx xxxxxxx. Xxx xxxxxxx xx xxx xxxxxxx xxxx xxx xxxx.
 
-You can use Start or its alias, LastWriteTime.
-The LastWriteTime alias lets you pipe objects that have a LastWriteTime property, such as files in the file system (System.Io.FileIO), to the Start parameter of New-TimeSpan.
+Xxx xxx xxx Xxxxx xx xxx xxxxx$ XxxxXxxxxXxxx.
+Xxx XxxxXxxxxXxxx xxxxx xxxx xxx xxxx xxxxxxx xxxx xxxx x XxxxXxxxxXxxx xxxxxxxx$ xxxx xx xxxxx xx xxx xxxx xxxxxx $Xxxxxx.Xx.XxxxXX$$ xx xxx Xxxxx xxxxxxxxx xx Xxx$XxxxXxxx.
 
 ```yaml
 Type: DateTime
@@ -214,21 +213,21 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.DateTime
-You can pipe a DateTime object that represents that start time to New-TimeSpan.
+### Xxxxxx.XxxxXxxx
+Xxx xxx xxxx x XxxxXxxx xxxxxx xxxx xxxxxxxxxx xxxx xxxxx xxxx xx Xxx$XxxxXxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.TimeSpan
-New-TimeSpan returns an object that represents the time span.
+### Xxxxxx.XxxxXxxx
+Xxx$XxxxXxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxx xxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-Date]()
+[Xxx$Xxxx]()
 
-[Set-Date]()
+[Xxx$Xxxx]()
 

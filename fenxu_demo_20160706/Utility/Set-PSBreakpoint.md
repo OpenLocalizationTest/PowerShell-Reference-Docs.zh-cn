@@ -4,55 +4,54 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294013
 schema: 2.0.0
 ---
 
-# Set-PSBreakpoint
-## SYNOPSIS
-Sets a breakpoint on a line, command, or variable.
+# Xxx$XXXxxxxxxxxx
+## XXXXXXXX
+Xxxx x xxxxxxxxxx xx x xxxx$ xxxxxxx$ xx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### Line (Default)
+### Xxxx $Xxxxxxx$
 ```
 Set-PSBreakpoint [-Action <ScriptBlock>] [[-Column] <Int32>] [-Line] <Int32[]> [-Script] <String[]>
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Command
+### Xxxxxxx
 ```
 Set-PSBreakpoint [-Action <ScriptBlock>] -Command <String[]> [[-Script] <String[]>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Variable
+### Xxxxxxxx
 ```
 Set-PSBreakpoint [-Action <ScriptBlock>] [[-Script] <String[]>] -Variable <String[]>
  [-Mode <VariableAccessMode>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Set-PSBreakpoint cmdlet sets a breakpoint in a script or in any command run in the current session. 
-You can use Set-PSBreakpoint to set a breakpoint before executing a script or running a command, or during debugging, when stopped at another breakpoint.
+## XXXXXXXXXXX
+Xxx Xxx$XXXxxxxxxxxx xxxxxx xxxx x xxxxxxxxxx xx x xxxxxx xx xx xxx xxxxxxx xxx xx xxx xxxxxxx xxxxxxx. Xxx xxx xxx Xxx$XXXxxxxxxxxx xx xxx x xxxxxxxxxx xxxxxx xxxxxxxxx x xxxxxx xx xxxxxxx x xxxxxxx$ xx xxxxxx xxxxxxxxx$ xxxx xxxxxxx xx xxxxxxx xxxxxxxxxx.
 
-Note: Set-PSBreakpoint cannot set a breakpoint on a remote computer.
-To debug a script on a remote computer, copy the script to the local computer and then debug it locally.
+Xxxx$ Xxx$XXXxxxxxxxxx xxxxxx xxx x xxxxxxxxxx xx x xxxxxx xxxxxxxx.
+Xx xxxxx x xxxxxx xx x xxxxxx xxxxxxxx$ xxxx xxx xxxxxx xx xxx xxxxx xxxxxxxx xxx xxxx xxxxx xx xxxxxxx.
 
-Each Set-PSBreakpoint command creates one of the following three types of breakpoints:
+Xxxx Xxx$XXXxxxxxxxxx xxxxxxx xxxxxxx xxx xx xxx xxxxxxxxx xxxxx xxxxx xx xxxxxxxxxxx$
 
--- Line breakpoint:  Sets breakpoints at particular line and column coordinates.
--- Command breakpoint:  Sets breakpoints on commands and functions.
--- Variable breakpoint: Sets breakpoints on variables.
+$$ Xxxx xxxxxxxxxx$  Xxxx xxxxxxxxxxx xx xxxxxxxxxx xxxx xxx xxxxxx xxxxxxxxxxx.
+$$ Xxxxxxx xxxxxxxxxx$  Xxxx xxxxxxxxxxx xx xxxxxxxx xxx xxxxxxxxx.
+$$ Xxxxxxxx xxxxxxxxxx$ Xxxx xxxxxxxxxxx xx xxxxxxxxx.
 
-You can set a breakpoint on multiple lines, commands, or variables in a single Set-PSBreakpoint command, but each Set-PSBreakpoint command sets only one type of breakpoint.
+Xxx xxx xxx x xxxxxxxxxx xx xxxxxxxx xxxxx$ xxxxxxxx$ xx xxxxxxxxx xx x xxxxxx Xxx$XXXxxxxxxxxx xxxxxxx$ xxx xxxx Xxx$XXXxxxxxxxxx xxxxxxx xxxx xxxx xxx xxxx xx xxxxxxxxxx.
 
-At a breakpoint, Windows PowerShell temporarily stops executing and gives control to the debugger.
-The command prompt changes to "DBG\>", and a set of debugger commands become available for use.
-However, you can use the Action parameter to specify an alternate response, such as conditions for the breakpoint or instructions to perform additional tasks such as logging or diagnostics.
+Xx x xxxxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxxxxxxxx xxxxx xxxxxxxxx xxx xxxxx xxxxxxx xx xxx xxxxxxxx.
+Xxx xxxxxxx xxxxxx xxxxxxx xx $XXX$$$$ xxx x xxx xx xxxxxxxx xxxxxxxx xxxxxx xxxxxxxxx xxx xxx.
+Xxxxxxx$ xxx xxx xxx xxx Xxxxxx xxxxxxxxx xx xxxxxxx xx xxxxxxxxx xxxxxxxx$ xxxx xx xxxxxxxxxx xxx xxx xxxxxxxxxx xx xxxxxxxxxxxx xx xxxxxxx xxxxxxxxxx xxxxx xxxx xx xxxxxxx xx xxxxxxxxxxx.
 
-The Set-PSBreakpoint cmdlet is one of several cmdlets designed for debugging Windows PowerShell scripts.
-For more information about the Windows PowerShell debugger, see about_Debuggers.
+Xxx Xxx$XXXxxxxxxxxx xxxxxx xx xxx xx xxxxxxx xxxxxxx xxxxxxxx xxx xxxxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxx$ xxx xxxxx$Xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-psbreakpoint -script sample.ps1 -line 5
 Column     : 0
@@ -65,12 +64,12 @@ Script     : C:\ps-test\sample.ps1
 ScriptName : C:\ps-test\sample.ps1
 ```
 
-This command sets a breakpoint at line 5 in the Sample.ps1 script.
-As a result, when the script runs, execution stops immediately before line 5 would execute.
+Xxxx xxxxxxx xxxx x xxxxxxxxxx xx xxxx 0 xx xxx Xxxxxx.xx0 xxxxxx.
+Xx x xxxxxx$ xxxx xxx xxxxxx xxxx$ xxxxxxxxx xxxxx xxxxxxxxxxx xxxxxx xxxx 0 xxxxx xxxxxxx.
 
-When you set a new breakpoint by line number, the Set-PSBreakpoint cmdlet generates a line breakpoint object (System.Management.Automation.LineBreakpoint) that includes the breakpoint ID and hit count, as shown in the following sample output.
+Xxxx xxx xxx x xxx xxxxxxxxxx xx xxxx xxxxxx$ xxx Xxx$XXXxxxxxxxxx xxxxxx xxxxxxxxx x xxxx xxxxxxxxxx xxxxxx $Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxXxxxxxxxxx$ xxxx xxxxxxxx xxx xxxxxxxxxx XX xxx xxx xxxxx$ xx xxxxx xx xxx xxxxxxxxx xxxxxx xxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-psbreakpoint -command Increment -script sample.ps1
 Command    : Increment
@@ -82,42 +81,42 @@ Script     : C:\ps-test\sample.ps1
 ScriptName : C:\ps-test\sample.ps1
 ```
 
-This command creates a command breakpoint on the Increment function in the Sample.ps1 cmdlet.
-The script stops executing immediately before each call to the specified function.
+Xxxx xxxxxxx xxxxxxx x xxxxxxx xxxxxxxxxx xx xxx Xxxxxxxxx xxxxxxxx xx xxx Xxxxxx.xx0 xxxxxx.
+Xxx xxxxxx xxxxx xxxxxxxxx xxxxxxxxxxx xxxxxx xxxx xxxx xx xxx xxxxxxxxx xxxxxxxx.
 
-The result is a command breakpoint object.
-Before the script runs, the value of the HitCount property is 0.
+Xxx xxxxxx xx x xxxxxxx xxxxxxxxxx xxxxxx.
+Xxxxxx xxx xxxxxx xxxx$ xxx xxxxx xx xxx XxxXxxxx xxxxxxxx xx 0.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-psbreakpoint -script sample.ps1 -variable Server -Mode ReadWrite
 ```
 
-This command sets a breakpoint on the Server variable in the Sample.ps1 script.
-It uses the Mode parameter with a value of ReadWrite to stop execution when the value of the variable is read and just before the value changes.
+Xxxx xxxxxxx xxxx x xxxxxxxxxx xx xxx Xxxxxx xxxxxxxx xx xxx Xxxxxx.xx0 xxxxxx.
+Xx xxxx xxx Xxxx xxxxxxxxx xxxx x xxxxx xx XxxxXxxxx xx xxxx xxxxxxxxx xxxx xxx xxxxx xx xxx xxxxxxxx xx xxxx xxx xxxx xxxxxx xxx xxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-psbreakpoint -script Sample.ps1 -command "write*"
 ```
 
-This command sets a breakpoint on every command in the Sample.ps1 script that begins with "write", such as "write-host".
+Xxxx xxxxxxx xxxx x xxxxxxxxxx xx xxxxx xxxxxxx xx xxx Xxxxxx.xx0 xxxxxx xxxx xxxxxx xxxx $xxxxx$$ xxxx xx $xxxxx$xxxx$.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-psbreakpoint -script test.ps1 -command DiskTest `
 -action { if ($disk -gt 2) { break } }
 ```
 
-This command stops execution at the DiskTest function in the Test.ps1 script only when the value of the $disk variable is greater than 2.
+Xxxx xxxxxxx xxxxx xxxxxxxxx xx xxx XxxxXxxx xxxxxxxx xx xxx Xxxx.xx0 xxxxxx xxxx xxxx xxx xxxxx xx xxx $xxxx xxxxxxxx xx xxxxxxx xxxx 0.
 
-It uses the Set-PSBreakpoint cmdlet to set a command breakpoint on the DiskTest function.
-The value of the action is a script block that tests the value of the $disk variable in the function.
+Xx xxxx xxx Xxx$XXXxxxxxxxxx xxxxxx xx xxx x xxxxxxx xxxxxxxxxx xx xxx XxxxXxxx xxxxxxxx.
+Xxx xxxxx xx xxx xxxxxx xx x xxxxxx xxxxx xxxx xxxxx xxx xxxxx xx xxx $xxxx xxxxxxxx xx xxx xxxxxxxx.
 
-The action uses the BREAK keyword to stop execution if the condition is met.
-The alternative (and the default) is CONTINUE.
+Xxx xxxxxx xxxx xxx XXXXX xxxxxxx xx xxxx xxxxxxxxx xx xxx xxxxxxxxx xx xxx.
+Xxx xxxxxxxxxxx $xxx xxx xxxxxxx$ xx XXXXXXXX.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-psbreakpoint -command checklog
 
@@ -138,11 +137,11 @@ DEBUG:  Function breakpoint on 'prompt:Checklog'
 PS C:\>>>
 ```
 
-This command sets a breakpoint on the CheckLog function.
-Because the command does not specify a script, the breakpoint is set on anything that runs in the current session.
-The debugger breaks when the function is called, not when it is declared.
+Xxxx xxxxxxx xxxx x xxxxxxxxxx xx xxx XxxxxXxx xxxxxxxx.
+Xxxxxxx xxx xxxxxxx xxxx xxx xxxxxxx x xxxxxx$ xxx xxxxxxxxxx xx xxx xx xxxxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxxxxxxx xxxxxx xxxx xxx xxxxxxxx xx xxxxxx$ xxx xxxx xx xx xxxxxxxx.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-psbreakpoint -script sample.ps1 -line 1, 14, 19 -column 2 -action {&(log.ps1)}
 
@@ -174,24 +173,24 @@ Script     : C:\ps-test\sample.ps1
 ScriptName : C:\ps-test\sample.ps1
 ```
 
-This command sets three line breakpoints in the Sample.ps1 script.
-It sets one breakpoint at column 2 on each of the lines specified in the script.
-The action specified in the Action parameter applies to all breakpoints.
+Xxxx xxxxxxx xxxx xxxxx xxxx xxxxxxxxxxx xx xxx Xxxxxx.xx0 xxxxxx.
+Xx xxxx xxx xxxxxxxxxx xx xxxxxx 0 xx xxxx xx xxx xxxxx xxxxxxxxx xx xxx xxxxxx.
+Xxx xxxxxx xxxxxxxxx xx xxx Xxxxxx xxxxxxxxx xxxxxxx xx xxx xxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Action
-Specifies commands that run at each breakpoint instead of breaking.
-Enter a script block that contains the commands.
-You can use this parameter to set conditional breakpoints or to perform other tasks, such as testing or logging.
+### $Xxxxxx
+Xxxxxxxxx xxxxxxxx xxxx xxx xx xxxx xxxxxxxxxx xxxxxxx xx xxxxxxxx.
+Xxxxx x xxxxxx xxxxx xxxx xxxxxxxx xxx xxxxxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxx xxxxxxxxxxx xxxxxxxxxxx xx xx xxxxxxx xxxxx xxxxx$ xxxx xx xxxxxxx xx xxxxxxx.
 
-If this parameter is omitted, or no action is specified, execution stops at the breakpoint, and the debugger starts.
+Xx xxxx xxxxxxxxx xx xxxxxxx$ xx xx xxxxxx xx xxxxxxxxx$ xxxxxxxxx xxxxx xx xxx xxxxxxxxxx$ xxx xxx xxxxxxxx xxxxxx.
 
-When the Action parameter is used, the Action script block runs at each breakpoint.
-Execution does not stop unless the script block includes the Break keyword.
-If you use the Continue keyword in the script block, execution resumes until the next breakpoint.
+Xxxx xxx Xxxxxx xxxxxxxxx xx xxxx$ xxx Xxxxxx xxxxxx xxxxx xxxx xx xxxx xxxxxxxxxx.
+Xxxxxxxxx xxxx xxx xxxx xxxxxx xxx xxxxxx xxxxx xxxxxxxx xxx Xxxxx xxxxxxx.
+Xx xxx xxx xxx Xxxxxxxx xxxxxxx xx xxx xxxxxx xxxxx$ xxxxxxxxx xxxxxxx xxxxx xxx xxxx xxxxxxxxxx.
 
-For more information, see about_Script_Blocks, about_Break, and about_Continue.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx$Xxxxxx$ xxxxx$Xxxxx$ xxx xxxxx$Xxxxxxxx.
 
 ```yaml
 Type: ScriptBlock
@@ -205,17 +204,17 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Column
-Specifies the column number of the column in the script file on which execution stops.
-Enter only one column number.
-The default is column 1.
+### $Xxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxx xx xxx xxxxxx xx xxx xxxxxx xxxx xx xxxxx xxxxxxxxx xxxxx.
+Xxxxx xxxx xxx xxxxxx xxxxxx.
+Xxx xxxxxxx xx xxxxxx 0.
 
-The Column value is used with the value of the Line parameter to specify the breakpoint.
-If the Line parameter specifies multiple lines, the Column parameter sets a breakpoint at the specified column on each of the specified lines.
-Windows PowerShell stops executing before the statement or expression that includes the character at the specified line and column position.
+Xxx Xxxxxx xxxxx xx xxxx xxxx xxx xxxxx xx xxx Xxxx xxxxxxxxx xx xxxxxxx xxx xxxxxxxxxx.
+Xx xxx Xxxx xxxxxxxxx xxxxxxxxx xxxxxxxx xxxxx$ xxx Xxxxxx xxxxxxxxx xxxx x xxxxxxxxxx xx xxx xxxxxxxxx xxxxxx xx xxxx xx xxx xxxxxxxxx xxxxx.
+Xxxxxxx XxxxxXxxxx xxxxx xxxxxxxxx xxxxxx xxx xxxxxxxxx xx xxxxxxxxxx xxxx xxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxxx xxxx xxx xxxxxx xxxxxxxx.
 
-Columns are counted from the top left margin beginning with column number 1 (not 0).
-If you specify a column that does not exist in the script, an error is not declared, but the breakpoint is never executed.
+Xxxxxxx xxx xxxxxxx xxxx xxx xxx xxxx xxxxxx xxxxxxxxx xxxx xxxxxx xxxxxx 0 $xxx 0$.
+Xx xxx xxxxxxx x xxxxxx xxxx xxxx xxx xxxxx xx xxx xxxxxx$ xx xxxxx xx xxx xxxxxxxx$ xxx xxx xxxxxxxxxx xx xxxxx xxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -229,13 +228,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Command
-Sets a command breakpoint.
-Enter cmdlet names, such as "Get-Process" or function names.
-Wildcards are permitted.
+### $Xxxxxxx
+Xxxx x xxxxxxx xxxxxxxxxx.
+Xxxxx xxxxxx xxxxx$ xxxx xx $Xxx$Xxxxxxx$ xx xxxxxxxx xxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
 
-Execution stops just before each instance of each command is executed.
-If the command is a function, execution stops each time the function is called and at each BEGIN, PROCESS, and END section.
+Xxxxxxxxx xxxxx xxxx xxxxxx xxxx xxxxxxxx xx xxxx xxxxxxx xx xxxxxxxx.
+Xx xxx xxxxxxx xx x xxxxxxxx$ xxxxxxxxx xxxxx xxxx xxxx xxx xxxxxxxx xx xxxxxx xxx xx xxxx XXXXX$ XXXXXXX$ xxx XXX xxxxxxx.
 
 ```yaml
 Type: String[]
@@ -249,14 +248,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-If this parameter is omitted, or no action is specified, execution stops at the breakpoint, and the debugger starts.
+### $XxxxxxxxxxxXxxxxx
+Xx xxxx xxxxxxxxx xx xxxxxxx$ xx xx xxxxxx xx xxxxxxxxx$ xxxxxxxxx xxxxx xx xxx xxxxxxxxxx$ xxx xxx xxxxxxxx xxxxxx.
 
-When the Action parameter is used, the Action script block runs at each breakpoint.
-Execution does not stop unless the script block includes the Break keyword.
-If you use the Continue keyword in the script block, execution resumes until the next breakpoint.
+Xxxx xxx Xxxxxx xxxxxxxxx xx xxxx$ xxx Xxxxxx xxxxxx xxxxx xxxx xx xxxx xxxxxxxxxx.
+Xxxxxxxxx xxxx xxx xxxx xxxxxx xxx xxxxxx xxxxx xxxxxxxx xxx Xxxxx xxxxxxx.
+Xx xxx xxx xxx Xxxxxxxx xxxxxxx xx xxx xxxxxx xxxxx$ xxxxxxxxx xxxxxxx xxxxx xxx xxxx xxxxxxxxxx.
 
-For more information, see about_Script_Blocks, about_Break, and about_Continue.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx$Xxxxxx$ xxxxx$Xxxxx$ xxx xxxxx$Xxxxxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -271,14 +270,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-If this parameter is omitted, or no action is specified, execution stops at the breakpoint, and the debugger starts.
+### $XxxxxxxxxxxXxxxxxxx
+Xx xxxx xxxxxxxxx xx xxxxxxx$ xx xx xxxxxx xx xxxxxxxxx$ xxxxxxxxx xxxxx xx xxx xxxxxxxxxx$ xxx xxx xxxxxxxx xxxxxx.
 
-When the Action parameter is used, the Action script block runs at each breakpoint.
-Execution does not stop unless the script block includes the Break keyword.
-If you use the Continue keyword in the script block, execution resumes until the next breakpoint.
+Xxxx xxx Xxxxxx xxxxxxxxx xx xxxx$ xxx Xxxxxx xxxxxx xxxxx xxxx xx xxxx xxxxxxxxxx.
+Xxxxxxxxx xxxx xxx xxxx xxxxxx xxx xxxxxx xxxxx xxxxxxxx xxx Xxxxx xxxxxxx.
+Xx xxx xxx xxx Xxxxxxxx xxxxxxx xx xxx xxxxxx xxxxx$ xxxxxxxxx xxxxxxx xxxxx xxx xxxx xxxxxxxxxx.
 
-For more information, see about_Script_Blocks, about_Break, and about_Continue.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx$Xxxxxx$ xxxxx$Xxxxx$ xxx xxxxx$Xxxxxxxx.
 
 ```yaml
 Type: String
@@ -292,14 +291,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Line
-Sets a line breakpoint in a script.
-Enter one or more line numbers, separated by commas.
-Windows PowerShell stops immediately before executing the statement that begins on each of the specified lines.
+### $Xxxx
+Xxxx x xxxx xxxxxxxxxx xx x xxxxxx.
+Xxxxx xxx xx xxxx xxxx xxxxxxx$ xxxxxxxxx xx xxxxxx.
+Xxxxxxx XxxxxXxxxx xxxxx xxxxxxxxxxx xxxxxx xxxxxxxxx xxx xxxxxxxxx xxxx xxxxxx xx xxxx xx xxx xxxxxxxxx xxxxx.
 
-Lines are counted from the top left margin of the script file beginning with line number 1 (not 0).
-If you specify a blank line, execution stops before the next non-blank line.
-If the line is out of range, the breakpoint is never hit.
+Xxxxx xxx xxxxxxx xxxx xxx xxx xxxx xxxxxx xx xxx xxxxxx xxxx xxxxxxxxx xxxx xxxx xxxxxx 0 $xxx 0$.
+Xx xxx xxxxxxx x xxxxx xxxx$ xxxxxxxxx xxxxx xxxxxx xxx xxxx xxx$xxxxx xxxx.
+Xx xxx xxxx xx xxx xx xxxxx$ xxx xxxxxxxxxx xx xxxxx xxx.
 
 ```yaml
 Type: Int32[]
@@ -313,18 +312,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Mode
-Determines the mode of access that triggers variable breakpoints.
-The default is Write.
+### $Xxxx
+Xxxxxxxxxx xxx xxxx xx xxxxxx xxxx xxxxxxxx xxxxxxxx xxxxxxxxxxx.
+Xxx xxxxxxx xx Xxxxx.
 
-This parameter is valid only when the Variable parameter is used in the command.
-The mode applies to all breakpoints set in the command.
+Xxxx xxxxxxxxx xx xxxxx xxxx xxxx xxx Xxxxxxxx xxxxxxxxx xx xxxx xx xxx xxxxxxx.
+Xxx xxxx xxxxxxx xx xxx xxxxxxxxxxx xxx xx xxx xxxxxxx.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- Write: Stops execution immediately before a new value is written to the variable.
---  Read: Stops execution when the variable is read, that is, when its value is accessed, either to be assigned, displayed, or used. In read mode, execution does not stop when the value of the variable changes.
---  ReadWrite: Stops execution when the variable is read or written.
+$$ Xxxxx$ Xxxxx xxxxxxxxx xxxxxxxxxxx xxxxxx x xxx xxxxx xx xxxxxxx xx xxx xxxxxxxx.
+$$  Xxxx$ Xxxxx xxxxxxxxx xxxx xxx xxxxxxxx xx xxxx$ xxxx xx$ xxxx xxx xxxxx xx xxxxxxxx$ xxxxxx xx xx xxxxxxxx$ xxxxxxxxx$ xx xxxx. Xx xxxx xxxx$ xxxxxxxxx xxxx xxx xxxx xxxx xxx xxxxx xx xxx xxxxxxxx xxxxxxx.
+$$  XxxxXxxxx$ Xxxxx xxxxxxxxx xxxx xxx xxxxxxxx xx xxxx xx xxxxxxx.
 
 ```yaml
 Type: VariableAccessMode
@@ -339,14 +338,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Script
-Sets a breakpoint in each of the specified script files.
-Enter the paths and file names of one or more script files.
-If the files are in the current directory, you can omit the path.
-Wildcards are permitted.
+### $Xxxxxx
+Xxxx x xxxxxxxxxx xx xxxx xx xxx xxxxxxxxx xxxxxx xxxxx.
+Xxxxx xxx xxxxx xxx xxxx xxxxx xx xxx xx xxxx xxxxxx xxxxx.
+Xx xxx xxxxx xxx xx xxx xxxxxxx xxxxxxxxx$ xxx xxx xxxx xxx xxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
 
-By default, variable breakpoints and command breakpoints are set on any command that runs in the current session.
-This parameter is required only when setting a line breakpoint.
+Xx xxxxxxx$ xxxxxxxx xxxxxxxxxxx xxx xxxxxxx xxxxxxxxxxx xxx xxx xx xxx xxxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx xxxx xxxx xxxxxxx x xxxx xxxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -372,12 +371,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Variable
-Sets a variable breakpoint.
-Enter a comma-separated list of variables without dollar signs ($).
+### $Xxxxxxxx
+Xxxx x xxxxxxxx xxxxxxxxxx.
+Xxxxx x xxxxx$xxxxxxxxx xxxx xx xxxxxxxxx xxxxxxx xxxxxx xxxxx $$$.
 
-Use the Mode parameters to determine the mode of access that triggers the breakpoints.
-The default mode, Write, stops execution just before a new value is written to the variable.
+Xxx xxx Xxxx xxxxxxxxxx xx xxxxxxxxx xxx xxxx xx xxxxxx xxxx xxxxxxxx xxx xxxxxxxxxxx.
+Xxx xxxxxxx xxxx$ Xxxxx$ xxxxx xxxxxxxxx xxxx xxxxxx x xxx xxxxx xx xxxxxxx xx xxx xxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -391,35 +390,35 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to Set-PSBreakpoint.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx Xxx$XXXxxxxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### Breakpoint object (System.Management.Automation.LineBreakpoint, System.Management.Automation.VariableBreakpoint, System.Management.Automation.CommandBreakpoint)
-Set-PSBreakpoint returns an object that represents each breakpoint that it sets.
+### Xxxxxxxxxx xxxxxx $Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxXxxxxxxxxx$ Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxxxxXxxxxxxxxx$ Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxxxXxxxxxxxxx$
+Xxx$XXXxxxxxxxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxxx xxxxxxxxxx xxxx xx xxxx.
 
-## NOTES
-Set-PSBreakpoint cannot set a breakpoint on a remote computer.
-To debug a script on a remote computer, copy the script to the local computer and then debug it locally.
+## XXXXX
+Xxx$XXXxxxxxxxxx xxxxxx xxx x xxxxxxxxxx xx x xxxxxx xxxxxxxx.
+Xx xxxxx x xxxxxx xx x xxxxxx xxxxxxxx$ xxxx xxx xxxxxx xx xxx xxxxx xxxxxxxx xxx xxxx xxxxx xx xxxxxxx.
 
-When you set a breakpoint on more than one line, command, or variable, Set-PSBreakpoint generates a breakpoint object for each entry.
+Xxxx xxx xxx x xxxxxxxxxx xx xxxx xxxx xxx xxxx$ xxxxxxx$ xx xxxxxxxx$ Xxx$XXXxxxxxxxxx xxxxxxxxx x xxxxxxxxxx xxxxxx xxx xxxx xxxxx.
 
-When setting a breakpoint on a function or variable at the command prompt, you can set the breakpoint before or after you create the function or variable.
+Xxxx xxxxxxx x xxxxxxxxxx xx x xxxxxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxx$ xxx xxx xxx xxx xxxxxxxxxx xxxxxx xx xxxxx xxx xxxxxx xxx xxxxxxxx xx xxxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Disable-PSBreakpoint]()
+[Xxxxxxx$XXXxxxxxxxxx]()
 
-[Enable-PSBreakpoint]()
+[Xxxxxx$XXXxxxxxxxxx]()
 
-[Get-PSBreakpoint]()
+[Xxx$XXXxxxxxxxxx]()
 
-[Get-PSCallStack]()
+[Xxx$XXXxxxXxxxx]()
 
-[Remove-PSBreakpoint]()
+[Xxxxxx$XXXxxxxxxxxx]()
 
-[about_Debuggers]()
+[xxxxx$Xxxxxxxxx]()
 

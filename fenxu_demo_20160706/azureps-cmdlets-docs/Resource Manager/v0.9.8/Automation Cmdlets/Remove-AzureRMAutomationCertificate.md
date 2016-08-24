@@ -6,33 +6,33 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureRMAutomationCertificate
-## SYNOPSIS
-Removes an Automation certificate.
+# Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxx
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureRMAutomationCertificate [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureRmAutomationCertificate** cmdlet removes a certificate from azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx$$ xxxxxx xxxxxxx x xxxxxxxxxxx xxxx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a certificate
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxxxxx
 ```
 PS C:\>Remove-AzureRmAutomationCertificate -AutomationAccountName "Contoso17" -Name "Cert01" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command removes a certificate named Cert01 in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxxxxx xxxxx Xxxx00 xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account for which this cmdlet removes a certificate.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -46,8 +46,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the certificate that this cmdlet removes.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -61,8 +61,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet removes a certificate.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -76,8 +76,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -91,8 +91,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -106,18 +106,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationCertificate](7e2d3105-ae14-40c6-a715-57d63c178cde)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx](7e2d3105-ae14-40c6-a715-57d63c178cde)
 
-[New-AzureRmAutomationCertificate](4316d596-2954-42e8-905f-840853dab7d5)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx](4316d596-2954-42e8-905f-840853dab7d5)
 
-[Set-AzureRmAutomationCertificate](77502783-0006-4288-917f-26f265ccfcbe)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx](77502783-0006-4288-917f-26f265ccfcbe)
 
 

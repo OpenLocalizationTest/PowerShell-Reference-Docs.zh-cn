@@ -6,37 +6,37 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureRmAutomationAccount
-## SYNOPSIS
-Creates an Automation account.
+# Xxx$XxxxxXxXxxxxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureRmAutomationAccount [-ResourceGroupName] <String> [-Name] <String> [-Location] <String> [-Plan]
  [-Tags <IDictionary>]
 ```
 
-## DESCRIPTION
-The **New-AzureRmAutomationAccount** cmdlet creates an azure_2 Automation account in a resource group.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx xx x xxxxxxxx xxxxx.
 
-An Automation account is a container for Automation resources that is isolated from the resources of other Automation accounts.
-Automation resources include runbooks, Desired State Configuration (DSC) configurations, jobs, and assets.
+Xx Xxxxxxxxxx xxxxxxx xx x xxxxxxxxx xxx Xxxxxxxxxx xxxxxxxxx xxxx xx xxxxxxxx xxxx xxx xxxxxxxxx xx xxxxx Xxxxxxxxxx xxxxxxxx.
+Xxxxxxxxxx xxxxxxxxx xxxxxxx xxxxxxxx$ Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxxxxxxxxxxxx$ xxxx$ xxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create an automation account
+### Xxxxxxx 0$ Xxxxxx xx xxxxxxxxxx xxxxxxx
 ```
 PS C:\> New-AzureRmAutomationAccount -Name "ContosoAutomationAccount" -Location "East US" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command creates a new automation account named ContosoAutomationAccount in the East US region.
+Xxxx xxxxxxx xxxxxxx x xxx xxxxxxxxxx xxxxxxx xxxxx XxxxxxxXxxxxxxxxxXxxxxxx xx xxx Xxxx XX xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Location
-Specifies the location in which this cmdlet creates the Automation account.
-To obtain valid locations, use the Get-AzureRMLocation cmdlet.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xx xxxxx xxxx xxxxxx xxxxxxx xxx Xxxxxxxxxx xxxxxxx.
+Xx xxxxxx xxxxx xxxxxxxxx$ xxx xxx Xxx$XxxxxXXXxxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -50,8 +50,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies a name for the Automation account.
+### $Xxxx
+Xxxxxxxxx x xxxx xxx xxx Xxxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -65,12 +65,11 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Plan
-Specifies the plan for the Automation account.
-Valid values are: 
+### $Xxxx
+Xxxxxxxxx xxx xxxx xxx xxx Xxxxxxxxxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Basic 
--- Free
+$$ Xxxxx $$ Xxxx
 
 ```yaml
 Type: SwitchParameter
@@ -85,8 +84,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group to which this cmdlet adds an Automation account.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xx xxxxx xxxx xxxxxx xxxx xx Xxxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -100,8 +99,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Tags
-Specifies tags for the Automation account.
+### $Xxxx
+Xxxxxxxxx xxxx xxx xxx Xxxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: IDictionary
@@ -115,18 +114,18 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationAccount](c9ec226d-3a4f-49d1-9b9f-df9d57bdfa43)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](c9ec226d-3a4f-49d1-9b9f-df9d57bdfa43)
 
-[Remove-AzureRmAutomationAccount](2a126e99-39dd-4c00-b2a6-bf6495d64345)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](2a126e99-39dd-4c00-b2a6-bf6495d64345)
 
-[Set-AzureRmAutomationAccount](7e2254d6-c3c3-4ec5-8f7d-a3a2a6f24969)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](7e2254d6-c3c3-4ec5-8f7d-a3a2a6f24969)
 
 

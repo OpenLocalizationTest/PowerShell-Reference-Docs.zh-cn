@@ -4,75 +4,75 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293974
 schema: 2.0.0
 ---
 
-# Get-Random
-## SYNOPSIS
-Gets a random number, or selects objects randomly from a collection.
+# Xxx$Xxxxxx
+## XXXXXXXX
+Xxxx x xxxxxx xxxxxx$ xx xxxxxxx xxxxxxx xxxxxxxx xxxx x xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### RandomNumberParameterSet (Default)
+### XxxxxxXxxxxxXxxxxxxxxXxx $Xxxxxxx$
 ```
 Get-Random [-SetSeed <Int32>] [[-Maximum] <Object>] [-Minimum <Object>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### RandomListItemParameterSet
+### XxxxxxXxxxXxxxXxxxxxxxxXxx
 ```
 Get-Random [-SetSeed <Int32>] [-InputObject] <Object[]> [-Count <Int32>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-Random cmdlet gets a randomly selected number.
-If you submit a collection of objects to Get-Random, it gets one or more randomly selected objects from the collection.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxxx xxxxxx xxxx x xxxxxxxx xxxxxxxx xxxxxx.
+Xx xxx xxxxxx x xxxxxxxxxx xx xxxxxxx xx Xxx$Xxxxxx$ xx xxxx xxx xx xxxx xxxxxxxx xxxxxxxx xxxxxxx xxxx xxx xxxxxxxxxx.
 
-Without parameters or input, a Get-Random command returns a randomly selected 32-bit unsigned integer between 0 (zero) and Int32.MaxValue (0x7FFFFFFF, 2,147,483,647).
+Xxxxxxx xxxxxxxxxx xx xxxxx$ x Xxx$Xxxxxx xxxxxxx xxxxxxx x xxxxxxxx xxxxxxxx 00$xxx xxxxxxxx xxxxxxx xxxxxxx 0 $xxxx$ xxx Xxx00.XxxXxxxx $0x0XXXXXXX$ 0$000$000$000$.
 
-You can use the parameters of Get-Random to specify a seed number, minimum and maximum values, and the number of objects returned from a submitted collection.
+Xxx xxx xxx xxx xxxxxxxxxx xx Xxx$Xxxxxx xx xxxxxxx x xxxx xxxxxx$ xxxxxxx xxx xxxxxxx xxxxxx$ xxx xxx xxxxxx xx xxxxxxx xxxxxxxx xxxx x xxxxxxxxx xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Random
 3951433
 ```
 
-This command gets a random integer between 0 (zero) and Int32.MaxValue.
+Xxxx xxxxxxx xxxx x xxxxxx xxxxxxx xxxxxxx 0 $xxxx$ xxx Xxx00.XxxXxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Random -Maximum 100
 47
 ```
 
-This command gets a random integer between 0 (zero) and 99.
+Xxxx xxxxxxx xxxx x xxxxxx xxxxxxx xxxxxxx 0 $xxxx$ xxx 00.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Random -Minimum -100 -Maximum 100
 56
 ```
 
-This command gets a random integer between -100 and 99.
+Xxxx xxxxxxx xxxx x xxxxxx xxxxxxx xxxxxxx $000 xxx 00.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Random -Minimum 10.7 -Maximum 20.93
 18.08467273887
 ```
 
-This command gets a random floating-point number greater than or equal to 10.7 and less than 20.92.
+Xxxx xxxxxxx xxxx x xxxxxx xxxxxxxx$xxxxx xxxxxx xxxxxxx xxxx xx xxxxx xx 00.0 xxx xxxx xxxx 00.00.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Random -InputObject 1, 2, 3, 5, 8, 13
 8
 ```
 
-This command gets a randomly selected number from the specified array.
+Xxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx xxxxxx xxxx xxx xxxxxxxxx xxxxx.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Random -InputObject 1, 2, 3, 5, 8, 13 -Count 3
 3
@@ -80,9 +80,9 @@ PS C:\>Get-Random -InputObject 1, 2, 3, 5, 8, 13 -Count 3
 13
 ```
 
-This command gets three randomly selected numbers in random order from the array.
+Xxxx xxxxxxx xxxx xxxxx xxxxxxxx xxxxxxxx xxxxxxx xx xxxxxx xxxxx xxxx xxx xxxxx.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Random -InputObject 1, 2, 3, 5, 8, 13 -Count ([int]::MaxValue)
 2
@@ -93,20 +93,20 @@ PS C:\>Get-Random -InputObject 1, 2, 3, 5, 8, 13 -Count ([int]::MaxValue)
 13
 ```
 
-This command returns the entire collection in random order.
-The value of the Count parameter is the MaxValue static property of integers.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxx xxxxxxxxxx xx xxxxxx xxxxx.
+Xxx xxxxx xx xxx Xxxxx xxxxxxxxx xx xxx XxxXxxxx xxxxxx xxxxxxxx xx xxxxxxxx.
 
-To return an entire collection in random order, enter any number that is greater than or equal to the number of objects in the collection.
+Xx xxxxxx xx xxxxxx xxxxxxxxxx xx xxxxxx xxxxx$ xxxxx xxx xxxxxx xxxx xx xxxxxxx xxxx xx xxxxx xx xxx xxxxxx xx xxxxxxx xx xxx xxxxxxxxxx.
 
-### -------------------------- EXAMPLE 8 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Random -InputObject "red", "yellow", "blue"
 yellow
 ```
 
-This command returns a random value from a non-numeric collection.
+Xxxx xxxxxxx xxxxxxx x xxxxxx xxxxx xxxx x xxx$xxxxxxx xxxxxxxxxx.
 
-### -------------------------- EXAMPLE 9 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | Get-Random
 
@@ -115,16 +115,16 @@ Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName
 144           4     2080        488    36     0.48   3164 wmiprvse
 ```
 
-This command gets a randomly selected process from the collection of processes on the computer.
+Xxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx xxxxxxx xxxx xxx xxxxxxxxxx xx xxxxxxxxx xx xxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 10 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 00 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Content Servers.txt | Get-Random -Count (Get-Content Servers.txt).Count | foreach {Invoke-Command -ComputerName $_ -Command 'Get-Process PowerShell'}
 ```
 
-This command runs a command on a series of remote computers in random order.
+Xxxx xxxxxxx xxxx x xxxxxxx xx x xxxxxx xx xxxxxx xxxxxxxxx xx xxxxxx xxxxx.
 
-### -------------------------- EXAMPLE 11 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 00 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Random -Maximum 100 -SetSeed 23
 
@@ -166,27 +166,27 @@ PS C:\>Get-Random -Maximum 100
 46
 ```
 
-This example shows the effect of using the SetSeed parameter.
-Because SetSeed produces non-random behavior, it is typically used only to reproduce results, such as when debugging or analyzing a script.
+Xxxx xxxxxxx xxxxx xxx xxxxxx xx xxxxx xxx XxxXxxx xxxxxxxxx.
+Xxxxxxx XxxXxxx xxxxxxxx xxx$xxxxxx xxxxxxxx$ xx xx xxxxxxxxx xxxx xxxx xx xxxxxxxxx xxxxxxx$ xxxx xx xxxx xxxxxxxxx xx xxxxxxxxx x xxxxxx.
 
-### -------------------------- EXAMPLE 12 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 00 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$files = dir -Path C:\* -Recurse
 PS C:\>$sample = $files | Get-Random -Count 50
 ```
 
-These commands get a randomly selected sample of 50 files from the C: drive of the local computer.
+Xxxxx xxxxxxxx xxx x xxxxxxxx xxxxxxxx xxxxxx xx 00 xxxxx xxxx xxx X$ xxxxx xx xxx xxxxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 13 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 00 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Random 10001
 7600
 ```
 
-This command gets a random integer less than 10001.
-Because the Maximum parameter has position 1, you can omit the parameter name when the value is the first or only unnamed parameter in the command.
+Xxxx xxxxxxx xxxx x xxxxxx xxxxxxx xxxx xxxx 00000.
+Xxxxxxx xxx Xxxxxxx xxxxxxxxx xxx xxxxxxxx 0$ xxx xxx xxxx xxx xxxxxxxxx xxxx xxxx xxx xxxxx xx xxx xxxxx xx xxxx xxxxxxx xxxxxxxxx xx xxx xxxxxxx.
 
-### -------------------------- EXAMPLE 14 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 00 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Random -Minimum ([Int64]::MinValue)3738173363251507200
 PS C:\>Get-Random -Minimum ([Int32]::MaxValue)
@@ -196,18 +196,18 @@ Minimum (2147483647) cannot be greater than or equal to Maximum (2147483647).
     + FullyQualifiedErrorId : MinGreaterThanOrEqualMax,Microsoft.PowerShell.Commands.GetRandomCommand
 ```
 
-These commands attempt to get randomly generated 64-bit numbers.
+Xxxxx xxxxxxxx xxxxxxx xx xxx xxxxxxxx xxxxxxxxx 00$xxx xxxxxxx.
 
-The first command succeeds, but the second command fails.
-When the value of Minimum is a 32-bit integer, the default value of Maximum is Int32.MaxValues.
-The command fails because the value of Maximum must be greater than the value of Minimum.
+Xxx xxxxx xxxxxxx xxxxxxxx$ xxx xxx xxxxxx xxxxxxx xxxxx.
+Xxxx xxx xxxxx xx Xxxxxxx xx x 00$xxx xxxxxxx$ xxx xxxxxxx xxxxx xx Xxxxxxx xx Xxx00.XxxXxxxxx.
+Xxx xxxxxxx xxxxx xxxxxxx xxx xxxxx xx Xxxxxxx xxxx xx xxxxxxx xxxx xxx xxxxx xx Xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Count
-Determines how many objects are returned.
-The default is 1.
-If the value of Count exceeds the number of objects in the collection, Get-Random returns all of the objects in random order.
+### $Xxxxx
+Xxxxxxxxxx xxx xxxx xxxxxxx xxx xxxxxxxx.
+Xxx xxxxxxx xx 0.
+Xx xxx xxxxx xx Xxxxx xxxxxxx xxx xxxxxx xx xxxxxxx xx xxx xxxxxxxxxx$ Xxx$Xxxxxx xxxxxxx xxx xx xxx xxxxxxx xx xxxxxx xxxxx.
 
 ```yaml
 Type: Int32
@@ -221,8 +221,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -237,8 +237,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -252,11 +252,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies a collection of objects.
-Get-Random gets randomly selected objects in random order from the collection.
-Enter the objects, a variable that contains the objects, or a command or expression that gets the objects.
-You can also pipe a collection of objects to Get-Random.
+### $XxxxxXxxxxx
+Xxxxxxxxx x xxxxxxxxxx xx xxxxxxx.
+Xxx$Xxxxxx xxxx xxxxxxxx xxxxxxxx xxxxxxx xx xxxxxx xxxxx xxxx xxx xxxxxxxxxx.
+Xxxxx xxx xxxxxxx$ x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
+Xxx xxx xxxx xxxx x xxxxxxxxxx xx xxxxxxx xx Xxx$Xxxxxx.
 
 ```yaml
 Type: Object[]
@@ -270,21 +270,21 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Maximum
-Specifies a maximum value for the random number.
-Get-Random returns a value that is less than the maximum (not equal).
-Enter a 32-bit integer or a double-precision floating-point number, or an object that can be converted to an integer or double, such as a numeric string ("100").
-On a 64-bit computer, you can also enter a 64-bit integer.
+### $Xxxxxxx
+Xxxxxxxxx x xxxxxxx xxxxx xxx xxx xxxxxx xxxxxx.
+Xxx$Xxxxxx xxxxxxx x xxxxx xxxx xx xxxx xxxx xxx xxxxxxx $xxx xxxxx$.
+Xxxxx x 00$xxx xxxxxxx xx x xxxxxx$xxxxxxxxx xxxxxxxx$xxxxx xxxxxx$ xx xx xxxxxx xxxx xxx xx xxxxxxxxx xx xx xxxxxxx xx xxxxxx$ xxxx xx x xxxxxxx xxxxxx $$000$$.
+Xx x 00$xxx xxxxxxxx$ xxx xxx xxxx xxxxx x 00$xxx xxxxxxx.
 
-The value of Maximum must be greater than (not equal to) the value of Minimum.
+Xxx xxxxx xx Xxxxxxx xxxx xx xxxxxxx xxxx $xxx xxxxx xx$ xxx xxxxx xx Xxxxxxx.
 
-If the value of Maximum or Minimum is a floating-point number, Get-Random returns a randomly selected floating-point number.
-If the value of Minimum is a double (a floating-point number), the default value of Maximum is Double.MaxValue.
-Otherwise, the default value is Int32.MaxValue.
+Xx xxx xxxxx xx Xxxxxxx xx Xxxxxxx xx x xxxxxxxx$xxxxx xxxxxx$ Xxx$Xxxxxx xxxxxxx x xxxxxxxx xxxxxxxx xxxxxxxx$xxxxx xxxxxx.
+Xx xxx xxxxx xx Xxxxxxx xx x xxxxxx $x xxxxxxxx$xxxxx xxxxxx$$ xxx xxxxxxx xxxxx xx Xxxxxxx xx Xxxxxx.XxxXxxxx.
+Xxxxxxxxx$ xxx xxxxxxx xxxxx xx Xxx00.XxxXxxxx.
 
-On a 64-bit computer, if the value of Minimum is a 32-bit integer, the  default value of Maximum is Int32.MaxValue.
-If the value of Minimum is a double (a floating-point number), the default value of Maximum is Double.MaxValue.
-Otherwise, the default value is Int64.MaxValue.
+Xx x 00$xxx xxxxxxxx$ xx xxx xxxxx xx Xxxxxxx xx x 00$xxx xxxxxxx$ xxx  xxxxxxx xxxxx xx Xxxxxxx xx Xxx00.XxxXxxxx.
+Xx xxx xxxxx xx Xxxxxxx xx x xxxxxx $x xxxxxxxx$xxxxx xxxxxx$$ xxx xxxxxxx xxxxx xx Xxxxxxx xx Xxxxxx.XxxXxxxx.
+Xxxxxxxxx$ xxx xxxxxxx xxxxx xx Xxx00.XxxXxxxx.
 
 ```yaml
 Type: Object
@@ -298,14 +298,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Minimum
-Specifies a minimum value for the random number.
-Enter a 32-bit integer or a double-precision floating-point number, or an object that can be converted to an integer or double, such as a numeric string ("100").
-On a 64-bit computer, you can enter a 64-bit integer.
-The default value is 0 (zero).
+### $Xxxxxxx
+Xxxxxxxxx x xxxxxxx xxxxx xxx xxx xxxxxx xxxxxx.
+Xxxxx x 00$xxx xxxxxxx xx x xxxxxx$xxxxxxxxx xxxxxxxx$xxxxx xxxxxx$ xx xx xxxxxx xxxx xxx xx xxxxxxxxx xx xx xxxxxxx xx xxxxxx$ xxxx xx x xxxxxxx xxxxxx $$000$$.
+Xx x 00$xxx xxxxxxxx$ xxx xxx xxxxx x 00$xxx xxxxxxx.
+Xxx xxxxxxx xxxxx xx 0 $xxxx$.
 
-The value of Minimum must be less than (not equal to) the value of Maximum.
-If the value of Maximum or Minimum is a floating-point number, Get-Random returns a randomly selected floating-point number.
+Xxx xxxxx xx Xxxxxxx xxxx xx xxxx xxxx $xxx xxxxx xx$ xxx xxxxx xx Xxxxxxx.
+Xx xxx xxxxx xx Xxxxxxx xx Xxxxxxx xx x xxxxxxxx$xxxxx xxxxxx$ Xxx$Xxxxxx xxxxxxx x xxxxxxxx xxxxxxxx xxxxxxxx$xxxxx xxxxxx.
 
 ```yaml
 Type: Object
@@ -319,14 +319,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SetSeed
-Specifies a seed value for the random number generator.
-This seed value is used for the current command and for all subsequent Get-Random commands in the current session until you use SetSeed again or close the session.
-You cannot reset the seed to its default, clock-based value.
+### $XxxXxxx
+Xxxxxxxxx x xxxx xxxxx xxx xxx xxxxxx xxxxxx xxxxxxxxx.
+Xxxx xxxx xxxxx xx xxxx xxx xxx xxxxxxx xxxxxxx xxx xxx xxx xxxxxxxxxx Xxx$Xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxx xxxxx xxx xxx XxxXxxx xxxxx xx xxxxx xxx xxxxxxx.
+Xxx xxxxxx xxxxx xxx xxxx xx xxx xxxxxxx$ xxxxx$xxxxx xxxxx.
 
-The SetSeed parameter is not required.
-By default, Get-Random uses the system clock to generate a seed value.
-Because SetSeed results in non-random behavior, it is typically used only when trying to reproduce behavior, such as when debugging or analyzing a script that includes Get-Random commands.
+Xxx XxxXxxx xxxxxxxxx xx xxx xxxxxxxx.
+Xx xxxxxxx$ Xxx$Xxxxxx xxxx xxx xxxxxx xxxxx xx xxxxxxxx x xxxx xxxxx.
+Xxxxxxx XxxXxxx xxxxxxx xx xxx$xxxxxx xxxxxxxx$ xx xx xxxxxxxxx xxxx xxxx xxxx xxxxxx xx xxxxxxxxx xxxxxxxx$ xxxx xx xxxx xxxxxxxxx xx xxxxxxxxx x xxxxxx xxxx xxxxxxxx Xxx$Xxxxxx xxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -340,22 +340,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Object
-You can pipe one or more objects to Get-Random.
-Get-Random selects values randomly from the piped objects.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx xxx xx xxxx xxxxxxx xx Xxx$Xxxxxx.
+Xxx$Xxxxxx xxxxxxx xxxxxx xxxxxxxx xxxx xxx xxxxx xxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Int32, System.Int64, System.Double
-Get-Random returns an integer or floating-point number, or an object selected randomly from a submitted collection.
+### Xxxxxx.Xxx00$ Xxxxxx.Xxx00$ Xxxxxx.Xxxxxx
+Xxx$Xxxxxx xxxxxxx xx xxxxxxx xx xxxxxxxx$xxxxx xxxxxx$ xx xx xxxxxx xxxxxxxx xxxxxxxx xxxx x xxxxxxxxx xxxxxxxxxx.
 
-## NOTES
-Get-Random sets a default seed for each session based on the system time clock when the session starts.
+## XXXXX
+Xxx$Xxxxxx xxxx x xxxxxxx xxxx xxx xxxx xxxxxxx xxxxx xx xxx xxxxxx xxxx xxxxx xxxx xxx xxxxxxx xxxxxx.
 
-Beginning in Windows PowerShell 3.0, Get-Random supports 64-bit integers.
-In Windows PowerShell 2.0, all values are cast to System.Int32.
+Xxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0$ Xxx$Xxxxxx xxxxxxxx 00$xxx xxxxxxxx.
+Xx Xxxxxxx XxxxxXxxxx 0.0$ xxx xxxxxx xxx xxxx xx Xxxxxx.Xxx00.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 

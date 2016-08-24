@@ -6,11 +6,11 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureRMAutomationWebhook
-## SYNOPSIS
-Creates a webhook for an Automation runbook.
+# Xxx$XxxxxXXXxxxxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxxx xxx xx Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureRMAutomationWebhook [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
@@ -18,41 +18,41 @@ New-AzureRMAutomationWebhook [-ResourceGroupName] <String> [-AutomationAccountNa
  [-Parameters <IDictionary>] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **New-AzureRmAutomationWebhook** cmdlet creates a webhook for an azure_2 Automation runbook.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxx x xxxxxxx xxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx.
 
-Be sure to save the webhook URL that this cmdlet returns, because it cannot be retrieved again.
+Xx xxxx xx xxxx xxx xxxxxxx XXX xxxx xxxx xxxxxx xxxxxxx$ xxxxxxx xx xxxxxx xx xxxxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a webhook
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx
 ```
 PS C:\>$Webhook = New-AzureRmAutomationWebhook -Name "Webhook06" -IsEnabled $True -ExpiryTime "10/2/2016" -RunbookName "ContosoRunbook" -ResourceGroup "ResourceGroup01" -AutomationAccountName "AutomationAccount01" -Force
 ```
 
-This command creates a webhook named Webhook06 for the runbook named ContosoRunbook in the Automation account named AutomationAccount01.
-The command stores the webhook in the $Webhook variable.
-The webhook is enabled.
-The webhook expires at the specified time.
-This command does not provide any values for webhook parameters.
-This command specifies the *Force* parameter.
-Therefore, it does not prompt you for confirmation.
+Xxxx xxxxxxx xxxxxxx x xxxxxxx xxxxx Xxxxxxx00 xxx xxx xxxxxxx xxxxx XxxxxxxXxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx XxxxxxxxxxXxxxxxx00.
+Xxx xxxxxxx xxxxxx xxx xxxxxxx xx xxx $Xxxxxxx xxxxxxxx.
+Xxx xxxxxxx xx xxxxxxx.
+Xxx xxxxxxx xxxxxxx xx xxx xxxxxxxxx xxxx.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxx xxxxxx xxx xxxxxxx xxxxxxxxxx.
+Xxxx xxxxxxx xxxxxxxxx xxx $Xxxxx$ xxxxxxxxx.
+Xxxxxxxxx$ xx xxxx xxx xxxxxx xxx xxx xxxxxxxxxxxx.
 
-### Example 2: Create a webhook with parameters
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxxx xxxxxxxxxx
 ```
 PS C:\>$Params = @{"StringParam"="Hello World";"IntegerParam"=32}
 PS C:\> $Webhook = New-AzureRmAutomationWebhook -Name "Webhook11" -Parameters $Params -IsEnabled $True -ExpiryTime "10/2/2016" -RunbookName "ContosoRunbook" -ResourceGroup "ResourceGroup01" -AutomationAccountName "AutomationAccount01" -Force
 ```
 
-The first command creates a dictionary of parameters, and stores them in the $Params variable.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxxxxxxx xx xxxxxxxxxx$ xxx xxxxxx xxxx xx xxx $Xxxxxx xxxxxxxx.
 
-The second command creates a webhook named Webhook11 for the runbook named ContosoRunbook in the Automation account named AutomationAccount01.
-The command assigns the parameters in $Params to the webhook.
+Xxx xxxxxx xxxxxxx xxxxxxx x xxxxxxx xxxxx Xxxxxxx00 xxx xxx xxxxxxx xxxxx XxxxxxxXxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx XxxxxxxxxxXxxxxxx00.
+Xxx xxxxxxx xxxxxxx xxx xxxxxxxxxx xx $Xxxxxx xx xxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of an Automation account in which this cmdlet creates a webhook.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -66,9 +66,9 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-Specifies the expiry time for the webhook as a **DateTimeOffset** object.
-You can specify a string or a **DateTime** that can be converted to a valid **DateTimeOffset**.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxxxx xxxx xxx xxx xxxxxxx xx x $$XxxxXxxxXxxxxx$$ xxxxxx.
+Xxx xxx xxxxxxx x xxxxxx xx x $$XxxxXxxx$$ xxxx xxx xx xxxxxxxxx xx x xxxxx $$XxxxXxxxXxxxxx$$.
 
 ```yaml
 Type: DateTimeOffset
@@ -82,8 +82,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-ps_force
+### $Xxxxx
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -97,8 +97,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -IsEnabled
-Specifies whether the webhook is enabled.
+### $XxXxxxxxx
+Xxxxxxxxx xxxxxxx xxx xxxxxxx xx xxxxxxx.
 
 ```yaml
 Type: Boolean
@@ -112,8 +112,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies a name for the webhook.
+### $Xxxx
+Xxxxxxxxx x xxxx xxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -127,11 +127,11 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Parameters
-Specifies a dictionary of key/value pairs.
-The keys are the runbook parameter names.
-The values are the runbook parameter values.
-When the runbook starts in response to a webhook, these parameters are passed to the runbook.
+### $Xxxxxxxxxx
+Xxxxxxxxx x xxxxxxxxxx xx xxx$xxxxx xxxxx.
+Xxx xxxx xxx xxx xxxxxxx xxxxxxxxx xxxxx.
+Xxx xxxxxx xxx xxx xxxxxxx xxxxxxxxx xxxxxx.
+Xxxx xxx xxxxxxx xxxxxx xx xxxxxxxx xx x xxxxxxx$ xxxxx xxxxxxxxxx xxx xxxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: IDictionary
@@ -145,8 +145,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet creates a webhook.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -160,8 +160,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -RunbookName
-Specifies the name of the runbook to associate to the webhook.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xx xxxxxxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -175,8 +175,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -190,8 +190,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -205,18 +205,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationWebhook](048bf33a-0bc1-4433-92e0-bd906f6edb8d)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](048bf33a-0bc1-4433-92e0-bd906f6edb8d)
 
-[Remove-AzureRmAutomationWebhook](8dadbd54-8df1-4b9e-b853-97893e3ad73a)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](8dadbd54-8df1-4b9e-b853-97893e3ad73a)
 
-[Set-AzureRmAutomationWebhook](b2f5cd9e-5886-4ccc-89ea-9e66e5c67818)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](b2f5cd9e-5886-4ccc-89ea-9e66e5c67818)
 
 

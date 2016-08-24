@@ -6,34 +6,34 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureServiceProjectRoleRuntime
-## SYNOPSIS
-Get the runtimes available to install in a role.
+# Xxx$XxxxxXxxxxxxXxxxxxxXxxxXxxxxxx
+## XXXXXXXX
+Xxx xxx xxxxxxxx xxxxxxxxx xx xxxxxxx xx x xxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureServiceProjectRoleRuntime [[-Runtime] <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-Gets the runtimes available to install in a role.
+Xxxx xxx xxxxxxxx xxxxxxxxx xx xxxxxxx xx x xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Runtime
-The name of the runtime.
-If a runtime specified, only the specific versions of that runtime available to install in your role in Windows Azure will be returned.
+### $Xxxxxxx
+Xxx xxxx xx xxx xxxxxxx.
+Xx x xxxxxxx xxxxxxxxx$ xxxx xxx xxxxxxxx xxxxxxxx xx xxxx xxxxxxx xxxxxxxxx xx xxxxxxx xx xxxx xxxx xx Xxxxxxx Xxxxx xxxx xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -47,20 +47,20 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Add-AzureNodeWebRole](72be1e83-84e2-49fc-aa52-b3d3dd0490a3)
+[Xxx$XxxxxXxxxXxxXxxx](72be1e83-84e2-49fc-aa52-b3d3dd0490a3)
 
-[Add-AzureNodeWorkerRole](97649579-ead5-45c6-8bb3-e718c007e771)
+[Xxx$XxxxxXxxxXxxxxxXxxx](97649579-ead5-45c6-8bb3-e718c007e771)
 
-[Set-AzureServiceProjectRole](80fb7e11-389d-4341-9568-e1a1bc1789df)
+[Xxx$XxxxxXxxxxxxXxxxxxxXxxx](80fb7e11-389d-4341-9568-e1a1bc1789df)
 
-[Set-AzureServiceProject](c3baa783-e57a-46bd-abe4-6d06130eaaf0)
+[Xxx$XxxxxXxxxxxxXxxxxxx](c3baa783-e57a-46bd-abe4-6d06130eaaf0)
 
 

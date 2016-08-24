@@ -6,33 +6,33 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureRMAutomationConnection
-## SYNOPSIS
-Removes an Automation connection.
+# Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureRMAutomationConnection [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-Force] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureRmAutomationConnection** cmdlet removes a connection from azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx$$ xxxxxx xxxxxxx x xxxxxxxxxx xxxx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a connection
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxxxx
 ```
 PS C:\>Remove-AzureRmAutomationConnection -AutomationAccountName "Contoso17" -Name "ContosoConnection" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command removes a certificate named ContosoConnection in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the automation account for which this cmdlet removes a connection.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -46,8 +46,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-ps_force
+### $Xxxxx
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -61,8 +61,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the connection that this cmdlet removes.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -76,8 +76,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet removes a connection.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -91,8 +91,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -106,8 +106,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -121,16 +121,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationConnection](68f56d1c-23a9-4cb5-8fe8-c3a1e7c2ac1a)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](68f56d1c-23a9-4cb5-8fe8-c3a1e7c2ac1a)
 
-[New-AzureRmAutomationConnection](7fed73b4-73cf-4642-8e10-167ea6158372)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](7fed73b4-73cf-4642-8e10-167ea6158372)
 
 

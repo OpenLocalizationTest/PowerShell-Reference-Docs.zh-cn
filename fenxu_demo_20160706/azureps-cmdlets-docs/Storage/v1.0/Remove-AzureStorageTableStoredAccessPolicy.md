@@ -6,34 +6,34 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureStorageTableStoredAccessPolicy
-## SYNOPSIS
-Removes a stored access policy from an azure_2 storage table.
+# Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxx xxxxxx xxxxxx xxxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureStorageTableStoredAccessPolicy [-Table] <String> [-Policy] <String>
  [-Context <AzureStorageContext>] [-Force] [-PassThru] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureStorageTableStoredAccessPolicy** cmdlet removes a stored access policy from an azure_2 storage table.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx$$ xxxxxx xxxxxxx x xxxxxx xxxxxx xxxxxx xxxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a stored access policy from a storage table
+### Xxxxxxx 0$ Xxxxxx x xxxxxx xxxxxx xxxxxx xxxx x xxxxxxx xxxxx
 ```
 PS C:\>Remove-AzureStorageTableStoredAccessPolicy -Table "MyTable" -Policy "Policy05"
 ```
 
-This command removes policy named Policy05 from storage table named MyTable.
+Xxxx xxxxxxx xxxxxxx xxxxxx xxxxx Xxxxxx00 xxxx xxxxxxx xxxxx xxxxx XxXxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -47,8 +47,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-ps_force
+### $Xxxxx
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -62,9 +62,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Indicates that this cmdlet returns a **Boolean** that reflects the success of the operation.
-By default, this cmdlet does not return a value.
+### $XxxxXxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx x $$Xxxxxxx$$ xxxx xxxxxxxx xxx xxxxxxx xx xxx xxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx x xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -78,8 +78,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-Specifies the stored access policy, which includes the permissions for this SAS token.
+### $Xxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxx xxxxxx$ xxxxx xxxxxxxx xxx xxxxxxxxxxx xxx xxxx XXX xxxxx.
 
 ```yaml
 Type: String
@@ -93,8 +93,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Table
-Specifies the azure_2 table name.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxx xxxx.
 
 ```yaml
 Type: String
@@ -108,8 +108,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -123,8 +123,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -138,20 +138,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageTableStoredAccessPolicy](a1536004-87a3-48a2-ad18-bf3fe95908c9)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](a1536004-87a3-48a2-ad18-bf3fe95908c9)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[New-AzureStorageTableStoredAccessPolicy](27f043ca-0c6b-4952-afd7-a2e12e73b402)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](27f043ca-0c6b-4952-afd7-a2e12e73b402)
 
-[Set-AzureStorageTableStoredAccessPolicy](cd4016e4-c0aa-4963-beb7-144a5bd2d619)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](cd4016e4-c0aa-4963-beb7-144a5bd2d619)
 
 

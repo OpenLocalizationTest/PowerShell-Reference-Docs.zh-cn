@@ -6,39 +6,39 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-WAPackVNet
-## SYNOPSIS
+# Xxx$XXXxxxXXxx
+## XXXXXXXX
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-WAPackVNet [-ID] <Guid>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-WAPackVNet [-Name] <String>
 ```
 
-## DESCRIPTION
+## XXXXXXXXXXX
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 PS C:\>
 ```
 
-### 2:
+### 0$
 ```
 PS C:\>
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ID
-@{Text=}
+### $XX
+$$Xxxx$$
 
 ```yaml
 Type: Guid
@@ -52,8 +52,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-@{Text=}
+### $Xxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -67,12 +67,12 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 

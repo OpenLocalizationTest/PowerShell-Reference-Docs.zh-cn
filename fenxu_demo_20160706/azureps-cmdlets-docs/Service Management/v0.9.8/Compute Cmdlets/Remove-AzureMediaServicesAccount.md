@@ -6,33 +6,33 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureMediaServicesAccount
-## SYNOPSIS
-Removes the specified Azure Media Services account.
+# Xxxxxx$XxxxxXxxxxXxxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx xxx xxxxxxxxx Xxxxx Xxxxx Xxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureMediaServicesAccount [-Name] <String> [-Force] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Remove-AzureMediaServicesAccount cmdlet removes a Media Services account.
+Xxx Xxxxxx$XxxxxXxxxxXxxxxxxxXxxxxxx xxxxxx xxxxxxx x Xxxxx Xxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Delete a Media Services account
+### 0$ Xxxxxx x Xxxxx Xxxxxxxx xxxxxxx
 ```
 PS C:\> Remove-AzureMediaServicesAccount -Name "mediaservicesaccount" -Force
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Force
-If the â€"Force switch is specified, the deletion is not confirmed.
+### $Xxxxx
+Xx xxx $$$Xxxxx xxxxxx xx xxxxxxxxx$ xxx xxxxxxxx xx xxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -46,8 +46,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-The Media Services account name.
+### $Xxxx
+Xxx Xxxxx Xxxxxxxx xxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -61,8 +61,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -76,10 +76,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -93,14 +93,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[How to use Azure PowerShell for Media Services](http://go.microsoft.com/fwlink/?LinkId=324179)
+[Xxx xx xxx Xxxxx XxxxxXxxxx xxx Xxxxx Xxxxxxxx](http://go.microsoft.com/fwlink/?LinkId=324179)
 
 

@@ -6,11 +6,11 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureStorageShareStoredAccessPolicy
-## SYNOPSIS
-Removes a stored access policy from a Storage share.
+# Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxx xxxxxx xxxxxx xxxx x Xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureStorageShareStoredAccessPolicy [-ShareName] <String> [-Policy] <String>
@@ -19,37 +19,22 @@ Remove-AzureStorageShareStoredAccessPolicy [-ShareName] <String> [-Policy] <Stri
  [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureStorageShareStoredAccessPolicy** cmdlet removes a stored access policy from an azure_2 Storage share.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx$$ xxxxxx xxxxxxx x xxxxxx xxxxxx xxxxxx xxxx xx xxxxx$0 Xxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a stored access policy from an Azure Storage share
+### Xxxxxxx 0$ Xxxxxx x xxxxxx xxxxxx xxxxxx xxxx xx Xxxxx Xxxxxxx xxxxx
 ```
 PS C:\>Remove-AzureStorageShareStoredAccessPolicy -ShareName "ContosoShare" -Policy "GeneralPolicy"
 ```
 
-This command removes a stored access policy named GeneralPolicy from ContosoShare.
+Xxxx xxxxxxx xxxxxxx x xxxxxx xxxxxx xxxxxx xxxxx XxxxxxxXxxxxx xxxx XxxxxxxXxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-@{Text=}
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -63,8 +48,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-@{Text=}
+### $XxxxxxxxxxXxxxXxxxx
+$$Xxxx$$
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: AzureStorageContext
@@ -78,8 +78,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-@{Text=}
+### $Xxxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -93,8 +93,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-@{Text=}
+### $XxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -108,8 +108,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-@{Text=}
+### $Xxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -123,8 +123,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -138,8 +138,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ShareName
-Specifies the Storage share name for which this cmdlet removes a policy.
+### $XxxxxXxxx
+Xxxxxxxxx xxx Xxxxxxx xxxxx xxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxx.
 
 ```yaml
 Type: String
@@ -153,8 +153,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -168,8 +168,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -183,20 +183,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageShareStoredAccessPolicy](d3ad790c-c75f-4243-b128-7c778422ac64)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](d3ad790c-c75f-4243-b128-7c778422ac64)
 
-[New-AzureStorageShareStoredAccessPolicy](d5b956f0-92ca-4246-9860-dfa96f17ed8a)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](d5b956f0-92ca-4246-9860-dfa96f17ed8a)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Set-AzureStorageShareStoredAccessPolicy](738f47b7-e244-40b1-9b2e-3b6f4e348c8f)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](738f47b7-e244-40b1-9b2e-3b6f4e348c8f)
 
 

@@ -6,61 +6,61 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureRmAutomationDscNodeConfiguration
-## SYNOPSIS
-Gets metadata for DSC node configurations in Automation.
+# Xxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxxxxxxxx
+## XXXXXXXX
+Xxxx xxxxxxxx xxx XXX xxxx xxxxxxxxxxxxxx xx Xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRmAutomationDscNodeConfiguration [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-RollupStatus]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRmAutomationDscNodeConfiguration [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  -Name <String>
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRmAutomationDscNodeConfiguration [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-RollupStatus] -ConfigurationName <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationDscNodeConfiguration** cmdlet gets metadata for APS Desired State Configuration (DSC) node configurations in azure_2 Automation.
-Automation stores DSC node configuration as a Managed Object Format (MOF) configuration document.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxxxxxxxx$$ xxxxxx xxxx xxxxxxxx xxx XXX Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxx xxxxxxxxxxxxxx xx xxxxx$0 Xxxxxxxxxx.
+Xxxxxxxxxx xxxxxx XXX xxxx xxxxxxxxxxxxx xx x Xxxxxxx Xxxxxx Xxxxxx $XXX$ xxxxxxxxxxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all DSC node configurations
+### Xxxxxxx 0$ Xxx xxx XXX xxxx xxxxxxxxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationDscNodeConfiguration -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17"
 ```
 
-This command gets metadata for all DSC node configurations in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxxxxxxx xxx xxx XXX xxxx xxxxxxxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 2: Get all DSC node configurations for a DSC configuration
+### Xxxxxxx 0$ Xxx xxx XXX xxxx xxxxxxxxxxxxxx xxx x XXX xxxxxxxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationDscNodeConfiguration -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17" -ConfigurationName "ContosoConfiguration"
 ```
 
-This command gets metadata for all DSC node configurations in the Automation account named Contoso17 that the DSC configuration named ContosoConfiguration generated.
+Xxxx xxxxxxx xxxx xxxxxxxx xxx xxx XXX xxxx xxxxxxxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00 xxxx xxx XXX xxxxxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxxxxx xxxxxxxxx.
 
-### Example 3: Get a DSC node configuration by name
+### Xxxxxxx 0$ Xxx x XXX xxxx xxxxxxxxxxxxx xx xxxx
 ```
 PS C:\>Get-AzureRmAutomationDscNodeConfiguration -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17" -Name "ContosoConfiguration.webserver"
 ```
 
-This command gets metadata for a DSC node configuration with the name ContosoConfiguration.webserver in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxxxxxxx xxx x XXX xxxx xxxxxxxxxxxxx xxxx xxx xxxx XxxxxxxXxxxxxxxxxxxx.xxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of an Automation account that contains the DSC node configurations for which this cmdlet gets metadata.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxxx xxxxxxxx xxx XXX xxxx xxxxxxxxxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -74,8 +74,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ConfigurationName
-Specifies the name of DSC configuration for which this cmdlet gets node configuration metadata.
+### $XxxxxxxxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx XXX xxxxxxxxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxx xxxxxxxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -89,8 +89,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the DSC node configuration for which this cmdlet gets metadata.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx XXX xxxx xxxxxxxxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -104,9 +104,9 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group.
-This cmdlet gets metadata for DSC node configurations in the resource group that this parameter specifies.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx.
+Xxxx xxxxxx xxxx xxxxxxxx xxx XXX xxxx xxxxxxxxxxxxxx xx xxx xxxxxxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -120,12 +120,11 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -RollupStatus
-Specifies the rollup status of DSC node configurations that this cmdlet gets.
-Valid values are: 
+### $XxxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxx xx XXX xxxx xxxxxxxxxxxxxx xxxx xxxx xxxxxx xxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Bad 
--- Good
+$$ Xxx $$ Xxxx
 
 ```yaml
 Type: SwitchParameter
@@ -140,14 +139,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Import-AzureRmAutomationDscNodeConfiguration](0ef99c72-89fd-478d-850e-50ed5a0aba17)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxxxxxxxx](0ef99c72-89fd-478d-850e-50ed5a0aba17)
 
 

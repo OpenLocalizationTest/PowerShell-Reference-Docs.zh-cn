@@ -4,43 +4,43 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294009
 schema: 2.0.0
 ---
 
-# Select-Xml
-## SYNOPSIS
-Finds text in an XML string or document.
+# Xxxxxx$Xxx
+## XXXXXXXX
+Xxxxx xxxx xx xx XXX xxxxxx xx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### Xml (Default)
+### Xxx $Xxxxxxx$
 ```
 Select-Xml [-Xml] <XmlNode[]> [-XPath] <String> [-Namespace <Hashtable>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Path
+### Xxxx
 ```
 Select-Xml [-Path] <String[]> [-XPath] <String> [-Namespace <Hashtable>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### LiteralPath
+### XxxxxxxXxxx
 ```
 Select-Xml -LiteralPath <String[]> [-XPath] <String> [-Namespace <Hashtable>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Content
+### Xxxxxxx
 ```
 Select-Xml -Content <String[]> [-XPath] <String> [-Namespace <Hashtable>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Select-Xml cmdlet lets you use XPath queries to search for text in XML strings and documents.
-Enter an XPath query, and use the Content, Path, or Xml parameter to specify the XML to be searched.
+## XXXXXXXXXXX
+Xxx Xxxxxx$Xxx xxxxxx xxxx xxx xxx XXxxx xxxxxxx xx xxxxxx xxx xxxx xx XXX xxxxxxx xxx xxxxxxxxx.
+Xxxxx xx XXxxx xxxxx$ xxx xxx xxx Xxxxxxx$ Xxxx$ xx Xxx xxxxxxxxx xx xxxxxxx xxx XXX xx xx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\> $Path = "$pshome\Types.ps1xml"
 PS C:\>$XPath = "/Types/Type/Members/AliasProperty"
@@ -65,35 +65,35 @@ Name                 __Class
 Namespace            ModuleName
 ```
 
-This example gets the alias properties in the Types.ps1xml.
-(For information about this file, see about_Types.ps1xml.)
+Xxxx xxxxxxx xxxx xxx xxxxx xxxxxxxxxx xx xxx Xxxxx.xx0xxx.
+$Xxx xxxxxxxxxxx xxxxx xxxx xxxx$ xxx xxxxx$Xxxxx.xx0xxx.$
 
-The first command saves the path to the Types.ps1xml file in the $Path variable.
+Xxx xxxxx xxxxxxx xxxxx xxx xxxx xx xxx Xxxxx.xx0xxx xxxx xx xxx $Xxxx xxxxxxxx.
 
-The second command saves the XML path to the AliasProperty node in the $XPath variable.
+Xxx xxxxxx xxxxxxx xxxxx xxx XXX xxxx xx xxx XxxxxXxxxxxxx xxxx xx xxx $XXxxx xxxxxxxx.
 
-The third command uses the Select-Xml cmdlet to get the AliasProperty nodes that are identified by the XPath statement from the Types.ps1xml file.
-The command uses a pipeline operator to send the AliasProperty nodes to the Select-Object cmdlet.
-The ExpandProperty parameter expands the Node object and returns its Name and ReferencedMemberName properties.
+Xxx xxxxx xxxxxxx xxxx xxx Xxxxxx$Xxx xxxxxx xx xxx xxx XxxxxXxxxxxxx xxxxx xxxx xxx xxxxxxxxxx xx xxx XXxxx xxxxxxxxx xxxx xxx Xxxxx.xx0xxx xxxx.
+Xxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx xx xxxx xxx XxxxxXxxxxxxx xxxxx xx xxx Xxxxxx$Xxxxxx xxxxxx.
+Xxx XxxxxxXxxxxxxx xxxxxxxxx xxxxxxx xxx Xxxx xxxxxx xxx xxxxxxx xxx Xxxx xxx XxxxxxxxxxXxxxxxXxxx xxxxxxxxxx.
 
-The result shows the Name and ReferencedMemberName of each alias property in the Types.ps1xml file.
-For example, there is a Count property that is an alias of the Length property.
+Xxx xxxxxx xxxxx xxx Xxxx xxx XxxxxxxxxxXxxxxxXxxx xx xxxx xxxxx xxxxxxxx xx xxx Xxxxx.xx0xxx xxxx.
+Xxx xxxxxxx$ xxxxx xx x Xxxxx xxxxxxxx xxxx xx xx xxxxx xx xxx Xxxxxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>[xml]$Types = Get-Content $pshome\Types.ps1xml
 PS C:\>Select-Xml -Xml $Types -XPath "//MethodName"
 ```
 
-This example shows how to use the XML parameter to provide an XML document to the Select-Xml cmdlet.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx XXX xxxxxxxxx xx xxxxxxx xx XXX xxxxxxxx xx xxx Xxxxxx$Xxx xxxxxx.
 
-The first command uses the Get-Content cmdlet to get the content of the Types.ps1xml file and save it in the $Types variable.
-The "\[xml\]" casts the variable as an XML object.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxx xx xxx Xxxxx.xx0xxx xxxx xxx xxxx xx xx xxx $Xxxxx xxxxxxxx.
+Xxx $$$xxx$$$ xxxxx xxx xxxxxxxx xx xx XXX xxxxxx.
 
-The second command uses the Select-Xml cmdlet to get the MethodName nodes in the Types.ps1xml file.
-The command uses the Xml parameter to specify the XML content in the $Types variable and the XPath parameter to specify the path to the MethodName node.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxx$Xxx xxxxxx xx xxx xxx XxxxxxXxxx xxxxx xx xxx Xxxxx.xx0xxx xxxx.
+Xxx xxxxxxx xxxx xxx Xxx xxxxxxxxx xx xxxxxxx xxx XXX xxxxxxx xx xxx $Xxxxx xxxxxxxx xxx xxx XXxxx xxxxxxxxx xx xxxxxxx xxx xxxx xx xxx XxxxxxXxxx xxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 The first command creates a hash table that represents the XML namespace that is used for the help files and saves it in the $Namespace variable.
 PS C:\>$Namespace = @{command="http://schemas.microsoft.com/maml/dev/command/2004/10"; maml="http://schemas.microsoft.com/maml/2004/10"; dev="http://schemas.microsoft.com/maml/dev/2004/10"}
@@ -119,10 +119,10 @@ Checkpoint-Computer     C:\Windows\system32\WindowsPowerShell\v1.0\en-us\Microso
 ...
 ```
 
-This example shows how to use the Select-Xml cmdlet to search the Windows PowerShell XML-based cmdlet help files.
-In this example, we'll search for the cmdlet name that serves as a title for each help file and the path to the help file.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx Xxxxxx$Xxx xxxxxx xx xxxxxx xxx Xxxxxxx XxxxxXxxxx XXX$xxxxx xxxxxx xxxx xxxxx.
+Xx xxxx xxxxxxx$ xx$xx xxxxxx xxx xxx xxxxxx xxxx xxxx xxxxxx xx x xxxxx xxx xxxx xxxx xxxx xxx xxx xxxx xx xxx xxxx xxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 The first command saves a here-string that contains XML in the $xml variable. (For more information about here-strings, see about_Quoting_Rules.)
 PS C:\>$xml = @"
@@ -158,9 +158,9 @@ Fr.Book1.com
 Pl.Book1.com
 ```
 
-This example shows two different ways to send XML to the Select-Xml cmdlet.
+Xxxx xxxxxxx xxxxx xxx xxxxxxxxx xxxx xx xxxx XXX xx xxx Xxxxxx$Xxx xxxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 The first command creates a hash table for the default namespace the that snippet XML files use and assigns it to the $SnippetNamespace variable. The hash table value is the XMLNS schema URI in the snippet XML. The hash table key name, "snip," is arbitrary. You can use any name that is not reserved, but you cannot use "xmlns."
 PS C:\>$SnippetNamespace = @{snip="http://schemas.microsoft.com/PowerShell/Snippets"}
@@ -169,15 +169,15 @@ The second command uses the Select-Xml cmdlet to get the content of the Title el
 PS C:\>Select-Xml -Path $home\Documents\WindowsPowerShell\Snippets -Namespace $SnippetNamespace -XPath "//snip:Title" | foreach {$_.Node.Innerxml}
 ```
 
-This example shows how to use the Select-Xml cmdlet with XML documents that use the default "xmlns" namespace.
-The example gets the titles of Windows PowerShell ISE user-created snippet files.
-For information about snippets, see New-IseSnippet.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx Xxxxxx$Xxx xxxxxx xxxx XXX xxxxxxxxx xxxx xxx xxx xxxxxxx $xxxxx$ xxxxxxxxx.
+Xxx xxxxxxx xxxx xxx xxxxxx xx Xxxxxxx XxxxxXxxxx XXX xxxx$xxxxxxx xxxxxxx xxxxx.
+Xxx xxxxxxxxxxx xxxxx xxxxxxxx$ xxx Xxx$XxxXxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Content
-Specifies a string that contains the XML to search.
-You can also pipe strings to Select-Xml.
+### $Xxxxxxx
+Xxxxxxxxx x xxxxxx xxxx xxxxxxxx xxx XXX xx xxxxxx.
+Xxx xxx xxxx xxxx xxxxxxx xx Xxxxxx$Xxx.
 
 ```yaml
 Type: String[]
@@ -191,8 +191,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -207,8 +207,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -222,13 +222,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Namespace
-Specifies a hash table of the namespaces used in the XML.
-Use the format @{\<namespaceName\> = \<namespaceValue\>}.
+### $Xxxxxxxxx
+Xxxxxxxxx x xxxx xxxxx xx xxx xxxxxxxxxx xxxx xx xxx XXX.
+Xxx xxx xxxxxx $$$$xxxxxxxxxXxxx$$ $ $$xxxxxxxxxXxxxx$$$.
 
-When the XML uses the default namespace, which begins with "xmlns", use an arbitrary key for the namespace name.
-You cannot use "xmlns".
-In the XPath statement, prefix each node name with the namespace name and a colon, such as "//namespaceName:Node".
+Xxxx xxx XXX xxxx xxx xxxxxxx xxxxxxxxx$ xxxxx xxxxxx xxxx $xxxxx$$ xxx xx xxxxxxxxx xxx xxx xxx xxxxxxxxx xxxx.
+Xxx xxxxxx xxx $xxxxx$.
+Xx xxx XXxxx xxxxxxxxx$ xxxxxx xxxx xxxx xxxx xxxx xxx xxxxxxxxx xxxx xxx x xxxxx$ xxxx xx $$$xxxxxxxxxXxxx$Xxxx$.
 
 ```yaml
 Type: Hashtable
@@ -242,9 +242,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the path and file names of the XML files to search.
-Wildcard characters are permitted.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xxx xxxx xxxxx xx xxx XXX xxxxx xx xxxxxx.
+Xxxxxxxx xxxxxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -258,10 +258,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -XPath
-Specifies an XPath search query.
-The query language is case-sensitive.
-This parameter is required.
+### $XXxxx
+Xxxxxxxxx xx XXxxx xxxxxx xxxxx.
+Xxx xxxxx xxxxxxxx xx xxxx$xxxxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -275,11 +275,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Xml
-Specifies one or more XML nodes.
+### $Xxx
+Xxxxxxxxx xxx xx xxxx XXX xxxxx.
 
-An XML document will be processed as a collection of XML nodes.
-If you pipe an XML document to Select-Xml, each document node will be searched separately as it comes through the pipeline.
+Xx XXX xxxxxxxx xxxx xx xxxxxxxxx xx x xxxxxxxxxx xx XXX xxxxx.
+Xx xxx xxxx xx XXX xxxxxxxx xx Xxxxxx$Xxx$ xxxx xxxxxxxx xxxx xxxx xx xxxxxxxx xxxxxxxxxx xx xx xxxxx xxxxxxx xxx xxxxxxxx.
 
 ```yaml
 Type: XmlNode[]
@@ -293,12 +293,12 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -LiteralPath
-Specifies the paths and file names of the XML files to search.
-Unlike Path, the value of the LiteralPath parameter is used exactly as it is typed.
-No characters are interpreted as wildcards.
-If the path includes escape characters, enclose it in single quotation marks.
-Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxxx xxx xxxx xxxxx xx xxx XXX xxxxx xx xxxxxx.
+Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
+Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
+Xx xxx xxxx xxxxxxxx xxxxxx xxxxxxxxxx$ xxxxxxx xx xx xxxxxx xxxxxxxxx xxxxx.
+Xxxxxx xxxxxxxxx xxxxx xxxx Xxxxxxx XxxxxXxxxx xxx xx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -312,21 +312,21 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String or System.Xml.XmlNode
-You can pipe a path or XML node to Select-Xml.
+### Xxxxxx.Xxxxxx xx Xxxxxx.Xxx.XxxXxxx
+Xxx xxx xxxx x xxxx xx XXX xxxx xx Xxxxxx$Xxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.PowerShell.Commands.SelectXmlInfo
+### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxxXxxXxxx
 
-## NOTES
-XPath is a standard language that is designed to identify parts of an XML document.
-For more information about the XPath language, see the "Selection Filters" section of the "Event Selection" topic in the MSDN (Microsoft Developer Network) library at http://go.microsoft.com/fwlink/?LinkId=143608.
-And, see "XPath Reference" in the MSDN library at http://go.microsoft.com/fwlink/?LinkId=143609.
+## XXXXX
+XXxxx xx x xxxxxxxx xxxxxxxx xxxx xx xxxxxxxx xx xxxxxxxx xxxxx xx xx XXX xxxxxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxx XXxxx xxxxxxxx$ xxx xxx $Xxxxxxxxx Xxxxxxx$ xxxxxxx xx xxx $Xxxxx Xxxxxxxxx$ xxxxx xx xxx XXXX $Xxxxxxxxx Xxxxxxxxx Xxxxxxx$ xxxxxxx xx xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000.
+Xxx$ xxx $XXxxx Xxxxxxxxx$ xx xxx XXXX xxxxxxx xx xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[ConvertTo-Xml]()
+[XxxxxxxXx$Xxx]()
 

@@ -4,38 +4,38 @@ online version: http://go.microsoft.com/fwlink/?LinkID=623621
 schema: 2.0.0
 ---
 
-# Import-PowerShellDataFile
-## SYNOPSIS
-{{Fill in the Synopsis}}
+# Xxxxxx$XxxxxXxxxxXxxxXxxx
+## XXXXXXXX
+$$Xxxx xx xxx Xxxxxxxx$$
 
-## SYNTAX
+## XXXXXX
 
-### ByPath (Default)
+### XxXxxx $Xxxxxxx$
 ```
 Import-PowerShellDataFile [[-Path] <String[]>]
 ```
 
-### ByLiteralPath
+### XxXxxxxxxXxxx
 ```
 Import-PowerShellDataFile [-LiteralPath <String[]>]
 ```
 
-## DESCRIPTION
-{{Fill in the Description}}
+## XXXXXXXXXXX
+$$Xxxx xx xxx Xxxxxxxxxxx$$
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 PS C:\> {{ Add example code here }}
 ```
 
-{{ Add example description here }}
+$$ Xxx xxxxxxx xxxxxxxxxxx xxxx $$
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -LiteralPath
-{{Fill LiteralPath Description}}
+### $XxxxxxxXxxx
+$$Xxxx XxxxxxxXxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: String[]
@@ -49,8 +49,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Path
-{{Fill Path Description}}
+### $Xxxx
+$$Xxxx Xxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: String[]
@@ -64,19 +64,19 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String[]
-
-
-## OUTPUTS
-
-### System.Collections.Hashtable
+### Xxxxxx.Xxxxxx$$
 
 
-## NOTES
+## XXXXXXX
 
-## RELATED LINKS
+### Xxxxxx.Xxxxxxxxxxx.Xxxxxxxxx
 
-[http://go.microsoft.com/fwlink/?LinkID=623621](http://go.microsoft.com/fwlink/?LinkID=623621)
+
+## XXXXX
+
+## XXXXXXX XXXXX
+
+[xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000](http://go.microsoft.com/fwlink/?LinkID=623621)
 

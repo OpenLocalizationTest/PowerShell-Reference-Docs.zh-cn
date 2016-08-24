@@ -6,63 +6,63 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureRMAutomationConnection
-## SYNOPSIS
-Gets an Automation connection.
+# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx
+## XXXXXXXX
+Xxxx xx Xxxxxxxxxx xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRMAutomationConnection [-ResourceGroupName] <String> [-AutomationAccountName] <String>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRMAutomationConnection [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String>
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRMAutomationConnection [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-ConnectionTypeName] <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationConnection** cmdlet gets one or more azure_2 Automation connections.
-By default, this cmdlet retrieves all connections.
-Specify the name of a connection to get a specific connection.
-Specify the connection type name to get all connections of a specific type.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx$$ xxxxxx xxxx xxx xx xxxx xxxxx$0 Xxxxxxxxxx xxxxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxxxxxxx xxx xxxxxxxxxxx.
+Xxxxxxx xxx xxxx xx x xxxxxxxxxx xx xxx x xxxxxxxx xxxxxxxxxx.
+Xxxxxxx xxx xxxxxxxxxx xxxx xxxx xx xxx xxx xxxxxxxxxxx xx x xxxxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all connections
+### Xxxxxxx 0$ Xxx xxx xxxxxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationConnection -ResourceGroupName "ResourceGroup01" -AutomationAccountName "Contoso17"
 ```
 
-This command gets metadata for all connections in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxxxxxxx xxx xxx xxxxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 2: Get all connections of a type
+### Xxxxxxx 0$ Xxx xxx xxxxxxxxxxx xx x xxxx
 ```
 PS C:\>Get-AzureRmAutomationConnection -ResourceGroupName "ResourceGroup01" -AutomationAccountName "Contoso17" -ConnectionTypeName "SqlServer"
 ```
 
-This command gets metadata for connections in the Automation account named Contoso17.
-This command gets connections of the type SqlServer.
+Xxxx xxxxxxx xxxx xxxxxxxx xxx xxxxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
+Xxxx xxxxxxx xxxx xxxxxxxxxxx xx xxx xxxx XxxXxxxxx.
 
-### Example 3: Get a connection
+### Xxxxxxx 0$ Xxx x xxxxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationConnection -ResourceGroupName "ResourceGroup01" -AutomationAccountName "Contoso17" -Name "ContosoConnection"
 ```
 
-This command gets metadata for the connection named ContosoConnection.
+Xxxx xxxxxxx xxxx xxxxxxxx xxx xxx xxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account for which this cmdlet gets connections.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -76,8 +76,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ConnectionTypeName
-Specifies the name of a connection type for which this cmdlet retrieves connections.
+### $XxxxxxxxxxXxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxxxx xxxx xxx xxxxx xxxx xxxxxx xxxxxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -91,8 +91,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of a connection that this cmdlet retrieves.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxxxx xxxx xxxx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -106,8 +106,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet gets connections.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -121,18 +121,18 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.Azure.Commands.Automation.Model.Connection
+### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.Xxxxxxxxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureRmAutomationConnection](7fed73b4-73cf-4642-8e10-167ea6158372)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](7fed73b4-73cf-4642-8e10-167ea6158372)
 
-[Remove-AzureRmAutomationConnection](76dc3b3d-2dd3-49ad-a28c-afbfc754e020)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](76dc3b3d-2dd3-49ad-a28c-afbfc754e020)
 
 

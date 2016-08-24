@@ -6,33 +6,33 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureRMAutomationRunbook
-## SYNOPSIS
-Modifies a runbook.
+# Xxx$XxxxxXXXxxxxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxxx x xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureRMAutomationRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  [-Description <String>] [-LogProgress <Boolean]>] [-LogVerbose <Boolean]>] [-Tags <IDictionary>]
 ```
 
-## DESCRIPTION
-The **Set-AzureRmAutomationRunbook** cmdlet modifies the configuration of an azure_2 Automation runbook in APS.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxxx xxx xxxxxxxxxxxxx xx xx xxxxx$0 Xxxxxxxxxx xxxxxxx xx XXX.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Enable verbose logging for a runbook
+### Xxxxxxx 0$ Xxxxxx xxxxxxx xxxxxxx xxx x xxxxxxx
 ```
 PS C:\>Set-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbook02" -LogVerbose $True -ResourceGroupName "ResourceGroup01"
 ```
 
-This command enables verbose logging for the jobs of the specified runbook in the azure_2 Automation account named Contoso17.
+Xxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxx xxx xxxx xx xxx xxxxxxxxx xxxxxxx xx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account in which this cmdlet modifies a runbook.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -46,8 +46,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Description
-Specifies a description for the runbook.
+### $Xxxxxxxxxxx
+Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -61,8 +61,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -LogProgress
-Specifies whether the runbook logs progress.
+### $XxxXxxxxxxx
+Xxxxxxxxx xxxxxxx xxx xxxxxxx xxxx xxxxxxxx.
 
 ```yaml
 Type: Boolean]
@@ -76,8 +76,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -LogVerbose
-Specifies whether logging includes detailed information.
+### $XxxXxxxxxx
+Xxxxxxxxx xxxxxxx xxxxxxx xxxxxxxx xxxxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: Boolean]
@@ -91,8 +91,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the runbook that this cmdlet modifies.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -106,8 +106,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet modifies a runbook.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -121,8 +121,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Tags
-Specifies a dictionary of tags to replace the current tags of the modified runbook.
+### $Xxxx
+Xxxxxxxxx x xxxxxxxxxx xx xxxx xx xxxxxxx xxx xxxxxxx xxxx xx xxx xxxxxxxx xxxxxxx.
 
 ```yaml
 Type: IDictionary
@@ -136,30 +136,30 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.Azure.Commands.Automation.Model.Runbook
+### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.Xxxxxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Export-AzureRmAutomationRunbook](614eee0d-f18e-4843-bed6-6cf43db59f75)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](614eee0d-f18e-4843-bed6-6cf43db59f75)
 
-[Get-AzureRmAutomationRunbook](71da0434-5c0f-498f-91f2-f09117dfa7ca)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](71da0434-5c0f-498f-91f2-f09117dfa7ca)
 
-[Import-AzureRmAutomationRunbook](6e05b8c0-5782-4580-b4e3-778e951be608)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](6e05b8c0-5782-4580-b4e3-778e951be608)
 
-[New-AzureRmAutomationRunbook](c0de19b6-68a5-46b0-8575-88f229fd2494)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](c0de19b6-68a5-46b0-8575-88f229fd2494)
 
-[New-AzureRmAutomationRunbook](c0de19b6-68a5-46b0-8575-88f229fd2494)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](c0de19b6-68a5-46b0-8575-88f229fd2494)
 
-[Publish-AzureRmAutomationRunbook](68a3d64a-280b-4285-b588-72c7a8c25942)
+[Xxxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](68a3d64a-280b-4285-b588-72c7a8c25942)
 
-[Remove-AzureRmAutomationRunbook](073fedf2-2bbd-4173-946a-b79f88dc3c92)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](073fedf2-2bbd-4173-946a-b79f88dc3c92)
 
-[Start-AzureRmAutomationRunbook](5c86545a-93dd-4b3c-96b2-fa6ed740448d)
+[Xxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](5c86545a-93dd-4b3c-96b2-fa6ed740448d)
 
 

@@ -6,35 +6,35 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Restart-AzureWebsite
-## SYNOPSIS
-Stops and then restarts the specified website.
+# Xxxxxxx$XxxxxXxxxxxx
+## XXXXXXXX
+Xxxxx xxx xxxx xxxxxxxx xxx xxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Restart-AzureWebsite [[-Name] <String>] [-PassThru] [-Slot <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Restart-AzureWebsite cmdlet stops and then restarts the specified website.
+Xxx Xxxxxxx$XxxxxXxxxxxx xxxxxx xxxxx xxx xxxx xxxxxxxx xxx xxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Restart a website
+### 0$ Xxxxxxx x xxxxxxx
 ```
 PS C:\>Restart-AzureWebsite â€"Name MyWebsite
 ```
 
-This example restarts a website named MyWebsite.
+Xxxx xxxxxxx xxxxxxxx x xxxxxxx xxxxx XxXxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Name
-Specifies the name of the Azure website to restart.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxx xxxxxxx xx xxxxxxx.
 
 ```yaml
 Type: String
@@ -48,8 +48,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-@{Text=}
+### $XxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -63,8 +63,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Slot
-Specifies the slot name of the website.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -78,20 +78,20 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
-[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
+[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
 
-[Start-AzureWebsite](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
+[Xxxxx$XxxxxXxxxxxx](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
 
-[Remove-AzureWebsite](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
+[Xxxxxx$XxxxxXxxxxxx](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
 
 

@@ -4,30 +4,30 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293951
 schema: 2.0.0
 ---
 
-# ConvertTo-Json
-## SYNOPSIS
-Converts an object to a JSON-formatted string
+# XxxxxxxXx$Xxxx
+## XXXXXXXX
+Xxxxxxxx xx xxxxxx xx x XXXX$xxxxxxxxx xxxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 ConvertTo-Json [-InputObject] <Object> [-Depth <Int32>] [-Compress] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The ConvertTo-Json cmdlet converts any object to a string in JavaScript Object Notation (JSON) format.
-The properties are converted to field names, the field values are converted to property values, and the methods are removed.
+## XXXXXXXXXXX
+Xxx XxxxxxxXx$Xxxx xxxxxx xxxxxxxx xxx xxxxxx xx x xxxxxx xx XxxxXxxxxx Xxxxxx Xxxxxxxx $XXXX$ xxxxxx.
+Xxx xxxxxxxxxx xxx xxxxxxxxx xx xxxxx xxxxx$ xxx xxxxx xxxxxx xxx xxxxxxxxx xx xxxxxxxx xxxxxx$ xxx xxx xxxxxxx xxx xxxxxxx.
 
-You can then use the ConvertFrom-Json cmdlet to convert a JSON-formatted string to a JSON object, which is easily managed in Windows PowerShell.
+Xxx xxx xxxx xxx xxx XxxxxxxXxxx$Xxxx xxxxxx xx xxxxxxx x XXXX$xxxxxxxxx xxxxxx xx x XXXX xxxxxx$ xxxxx xx xxxxxx xxxxxxx xx Xxxxxxx XxxxxXxxxx.
 
-Many web sites use JSON instead of XML to serialize data for communication between servers and web-based apps.
+Xxxx xxx xxxxx xxx XXXX xxxxxxx xx XXX xx xxxxxxxxx xxxx xxx xxxxxxxxxxxxx xxxxxxx xxxxxxx xxx xxx$xxxxx xxxx.
 
-This cmdlet is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 PS C:\>(Get-UICulture).Calendar | ConvertTo-Json
 
@@ -54,18 +54,18 @@ PS C:\>(Get-UICulture).Calendar | ConvertTo-Json
 }
 ```
 
-This command uses the ConvertTo-Json cmdlet to convert a GregorianCalendar object to a JSON-formatted string.
+Xxxx xxxxxxx xxxx xxx XxxxxxxXx$Xxxx xxxxxx xx xxxxxxx x XxxxxxxxxXxxxxxxx xxxxxx xx x XXXX$xxxxxxxxx xxxxxx.
 
-### Example 2
+### Xxxxxxx 0
 ```
 PS C:\>@{Account="User01";Domain="Domain01";Admin="True"} | ConvertTo-Json - Compress
 {"Admin":"True","Account":"User01","Domain":"Domain01"}
 ```
 
-This command shows the effect of using the Compress parameter of ConvertTo-Json.
-The compression affects only the appearance of the string, not its validity.
+Xxxx xxxxxxx xxxxx xxx xxxxxx xx xxxxx xxx Xxxxxxxx xxxxxxxxx xx XxxxxxxXx$Xxxx.
+Xxx xxxxxxxxxxx xxxxxxx xxxx xxx xxxxxxxxxx xx xxx xxxxxx$ xxx xxx xxxxxxxx.
 
-### Example 3
+### Xxxxxxx 0
 ```
 The first command uses the ConvertTo-Json cmdlet to convert a System.DateTime object from the Get-Date cmdlet to a JSON-formatted string. The command uses the Select-Object cmdlet to get all (*) of the properties of the DateTime object.The output shows the JSON string that ConvertTo-Json returned.
 PS C:\>Get-Date | Select-Object -Property * | ConvertTo-Json
@@ -168,20 +168,20 @@ TimeOfDay   : @{Ticks=723914009002; Days=0; Hours=20; Milliseconds=400;
 Year        : 2012
 ```
 
-This command shows how to use the ConvertTo-Json and ConvertFrom-Json cmdlet to convert an object to a JSON string and a JSON object.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx XxxxxxxXx$Xxxx xxx XxxxxxxXxxx$Xxxx xxxxxx xx xxxxxxx xx xxxxxx xx x XXXX xxxxxx xxx x XXXX xxxxxx.
 
-### Example 4
+### Xxxxxxx 0
 ```
 PS C:\>$JsonSecurityHelp = Get-Content $pshome\Modules\Microsoft.PowerShell.Security\en-US\Microsoft.PowerShell.Security.dll-Help.xml | ConvertTo-Json
 ```
 
-This command uses the ConvertTo-Json cmdlet to convert a Windows PowerShell help file from XML format to JSON format.
-You can use a command like this to use the help topic content in a web service application.
+Xxxx xxxxxxx xxxx xxx XxxxxxxXx$Xxxx xxxxxx xx xxxxxxx x Xxxxxxx XxxxxXxxxx xxxx xxxx xxxx XXX xxxxxx xx XXXX xxxxxx.
+Xxx xxx xxx x xxxxxxx xxxx xxxx xx xxx xxx xxxx xxxxx xxxxxxx xx x xxx xxxxxxx xxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Compress
-Omits white space and indented formatting in the output string.
+### $Xxxxxxxx
+Xxxxx xxxxx xxxxx xxx xxxxxxxx xxxxxxxxxx xx xxx xxxxxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -195,9 +195,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Depth
-Specifies how many levels of contained objects are included in the JSON representation.
-The default value is 2.
+### $Xxxxx
+Xxxxxxxxx xxx xxxx xxxxxx xx xxxxxxxxx xxxxxxx xxx xxxxxxxx xx xxx XXXX xxxxxxxxxxxxxx.
+Xxx xxxxxxx xxxxx xx 0.
 
 ```yaml
 Type: Int32
@@ -211,8 +211,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -227,8 +227,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -242,14 +242,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the objects to convert to JSON format.
-Enter a variable that contains the objects, or type a command or expression that gets the objects.
-You can also pipe an object to ConvertTo-Json.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxxxxxx xx XXXX xxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
+Xxx xxx xxxx xxxx xx xxxxxx xx XxxxxxxXx$Xxxx.
 
-The InputObject parameter is required, but its value can be null ($null) or an empty string.
-When the input object is $null, ConvertTo-Json does not generate any output.
-When the input object is an empty string, ConvertTo-Json returns an empty string.
+Xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxxxx$ xxx xxx xxxxx xxx xx xxxx $$xxxx$ xx xx xxxxx xxxxxx.
+Xxxx xxx xxxxx xxxxxx xx $xxxx$ XxxxxxxXx$Xxxx xxxx xxx xxxxxxxx xxx xxxxxx.
+Xxxx xxx xxxxx xxxxxx xx xx xxxxx xxxxxx$ XxxxxxxXx$Xxxx xxxxxxx xx xxxxx xxxxxx.
 
 ```yaml
 Type: Object
@@ -263,25 +263,25 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Object
-You can pipe any object to ConvertTo-Json.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx xxx xxxxxx xx XxxxxxxXx$Xxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.String
+### Xxxxxx.Xxxxxx
 
-## NOTES
-The ConvertTo-Json cmdlet is implemented by using the JavaScriptSerializer class (http://msdn.microsoft.com/en-us/library/system.web.script.serialization.javascriptserializer(VS.100).aspx).
+## XXXXX
+Xxx XxxxxxxXx$Xxxx xxxxxx xx xxxxxxxxxxx xx xxxxx xxx XxxxXxxxxxXxxxxxxxxx xxxxx $xxxx$$$xxxx.xxxxxxxxx.xxx$xx$xx$xxxxxxx$xxxxxx.xxx.xxxxxx.xxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxx$XX.000$.xxxx$.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[An Introduction to JavaScript Object Notation (JSON) in JavaScript and .NET]()
+[Xx Xxxxxxxxxxxx xx XxxxXxxxxx Xxxxxx Xxxxxxxx $XXXX$ xx XxxxXxxxxx xxx .XXX]()
 
-[ConvertFrom-Json]()
+[XxxxxxxXxxx$Xxxx]()
 
-[Invoke-WebRequest]()
+[Xxxxxx$XxxXxxxxxx]()
 
-[Invoke-RestMethod]()
+[Xxxxxx$XxxxXxxxxx]()
 

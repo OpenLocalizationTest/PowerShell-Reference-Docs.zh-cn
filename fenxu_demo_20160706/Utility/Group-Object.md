@@ -4,50 +4,50 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293980
 schema: 2.0.0
 ---
 
-# Group-Object
-## SYNOPSIS
-Groups objects that contain the same value for specified properties.
+# Xxxxx$Xxxxxx
+## XXXXXXXX
+Xxxxxx xxxxxxx xxxx xxxxxxx xxx xxxx xxxxx xxx xxxxxxxxx xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Group-Object [-NoElement] [-AsHashTable] [-AsString] [-InputObject <PSObject>] [[-Property] <Object[]>]
  [-Culture <String>] [-CaseSensitive] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Group-Object cmdlet displays objects in groups based on the value of a specified property.
-Group-Object returns a table with one row for each property value and a column that displays the number of items with that value.
+## XXXXXXXXXXX
+Xxx Xxxxx$Xxxxxx xxxxxx xxxxxxxx xxxxxxx xx xxxxxx xxxxx xx xxx xxxxx xx x xxxxxxxxx xxxxxxxx.
+Xxxxx$Xxxxxx xxxxxxx x xxxxx xxxx xxx xxx xxx xxxx xxxxxxxx xxxxx xxx x xxxxxx xxxx xxxxxxxx xxx xxxxxx xx xxxxx xxxx xxxx xxxxx.
 
-If you specify more than one property, Group-Object first groups them by the values of the first property, and then, within each property group, it groups by the value of the next property.
+Xx xxx xxxxxxx xxxx xxxx xxx xxxxxxxx$ Xxxxx$Xxxxxx xxxxx xxxxxx xxxx xx xxx xxxxxx xx xxx xxxxx xxxxxxxx$ xxx xxxx$ xxxxxx xxxx xxxxxxxx xxxxx$ xx xxxxxx xx xxx xxxxx xx xxx xxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-childitem *.doc | group-object -property length
 ```
 
-This command gets the files in the current location that have a .doc extension and groups them by size.
+Xxxx xxxxxxx xxxx xxx xxxxx xx xxx xxxxxxx xxxxxxxx xxxx xxxx x .xxx xxxxxxxxx xxx xxxxxx xxxx xx xxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-childitem | sort-object -property extension | group-object -property extension
 ```
 
-This command gets the files in the current location, sorts them by file name extension, and then groups them by file name extension.
-Note that the files are sorted before they are grouped.
+Xxxx xxxxxxx xxxx xxx xxxxx xx xxx xxxxxxx xxxxxxxx$ xxxxx xxxx xx xxxx xxxx xxxxxxxxx$ xxx xxxx xxxxxx xxxx xx xxxx xxxx xxxxxxxxx.
+Xxxx xxxx xxx xxxxx xxx xxxxxx xxxxxx xxxx xxx xxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>1..35 | group-object -property {$_ % 2},{$_ % 3}
 ```
 
-This example shows how to use script blocks as the value of the Property parameter.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxxxxx xxxxxx xx xxx xxxxx xx xxx Xxxxxxxx xxxxxxxxx.
 
-This command displays the integers from 1 to 35, grouped by the remainder left when they are divided by 2 or 3.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxx xxxx 0 xx 00$ xxxxxxx xx xxx xxxxxxxxx xxxx xxxx xxxx xxx xxxxxxx xx 0 xx 0.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$events = get-eventlog -logname system -newest 1000
 PS C:\>$events | group-object -property eventID
@@ -59,16 +59,16 @@ Count Name                      Group
 1 Warning                   {System.Diagnostics.EventLogEntry}
 ```
 
-These commands display the 1,000 most recent entries in the System event log, grouped by Event ID.
+Xxxxx xxxxxxxx xxxxxxx xxx 0$000 xxxx xxxxxx xxxxxxx xx xxx Xxxxxx xxxxx xxx$ xxxxxxx xx Xxxxx XX.
 
-The first command uses the Get-EventLog cmdlet to retrieve the events and the assignment operator (=) to save them in the $events variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XxxxxXxx xxxxxx xx xxxxxxxx xxx xxxxxx xxx xxx xxxxxxxxxx xxxxxxxx $$$ xx xxxx xxxx xx xxx $xxxxxx xxxxxxxx.
 
-The second command uses a pipeline operator (|) to send the events in the $events variable to the Group-Object cmdlet.
-The command uses the Property parameter to specify that the events should be grouped according to the value of their EventID property.
+Xxx xxxxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxx xx xxx $xxxxxx xxxxxxxx xx xxx Xxxxx$Xxxxxx xxxxxx.
+Xxx xxxxxxx xxxx xxx Xxxxxxxx xxxxxxxxx xx xxxxxxx xxxx xxx xxxxxx xxxxxx xx xxxxxxx xxxxxxxxx xx xxx xxxxx xx xxxxx XxxxxXX xxxxxxxx.
 
-In the output, the Count column represents the number of entries in each group, the Name column represents the EventID values that define a group, and the Group column represents the objects in each group.
+Xx xxx xxxxxx$ xxx Xxxxx xxxxxx xxxxxxxxxx xxx xxxxxx xx xxxxxxx xx xxxx xxxxx$ xxx Xxxx xxxxxx xxxxxxxxxx xxx XxxxxXX xxxxxx xxxx xxxxxx x xxxxx$ xxx xxx Xxxxx xxxxxx xxxxxxxxxx xxx xxxxxxx xx xxxx xxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | group-object -property priorityclass
 
@@ -89,33 +89,33 @@ Count Name
 2 BelowNormal
 ```
 
-This example demonstrates the effect of the NoElement parameter.
-These commands group the processes on the computer by priority class.
+Xxxx xxxxxxx xxxxxxxxxxxx xxx xxxxxx xx xxx XxXxxxxxx xxxxxxxxx.
+Xxxxx xxxxxxxx xxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xx xxxxxxxx xxxxx.
 
-The first command uses the Get-Process cmdlet to get the processes on the computer.
-It uses a pipeline operator (|) to send the results to Group-Object, which groups the objects by the value of the PriorityClass property of the process.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxxxx xx xxx xxxxxxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xx Xxxxx$Xxxxxx$ xxxxx xxxxxx xxx xxxxxxx xx xxx xxxxx xx xxx XxxxxxxxXxxxx xxxxxxxx xx xxx xxxxxxx.
 
-The second command is identical to the first, except that it uses the NoElement parameter to eliminate the members of the group from the output.
-The result is a table with only the count and property value name.
+Xxx xxxxxx xxxxxxx xx xxxxxxxxx xx xxx xxxxx$ xxxxxx xxxx xx xxxx xxx XxXxxxxxx xxxxxxxxx xx xxxxxxxxx xxx xxxxxxx xx xxx xxxxx xxxx xxx xxxxxx.
+Xxx xxxxxx xx x xxxxx xxxx xxxx xxx xxxxx xxx xxxxxxxx xxxxx xxxx.
 
-The results are shown in the following sample output.
+Xxx xxxxxxx xxx xxxxx xx xxx xxxxxxxxx xxxxxx xxxxxx.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-eventlog -logname system -newest 1000 | group-object -property {$_.TimeWritten - $_.TimeGenerated}
 ```
 
-This command demonstrates how to provide the value of the Property parameter as a script block.
+Xxxx xxxxxxx xxxxxxxxxxxx xxx xx xxxxxxx xxx xxxxx xx xxx Xxxxxxxx xxxxxxxxx xx x xxxxxx xxxxx.
 
-This command displays the most recent 1,000 entries from the system event log, grouped according to the time between when they were generated and when they were written to the log.
+Xxxx xxxxxxx xxxxxxxx xxx xxxx xxxxxx 0$000 xxxxxxx xxxx xxx xxxxxx xxxxx xxx$ xxxxxxx xxxxxxxxx xx xxx xxxx xxxxxxx xxxx xxxx xxxx xxxxxxxxx xxx xxxx xxxx xxxx xxxxxxx xx xxx xxx.
 
-The command uses the Get-EventLog cmdlet to get the event log entries.
-It uses a pipeline operator (|) to send the entries to the Group-Object cmdlet.
-The value of the Property parameter is specified as a script block (an expression in braces).
-The result of evaluating the script block is the time between when the log entry was generated and when it was written to the log.
-That value is used to group the 1,000 most recent events.
+Xxx xxxxxxx xxxx xxx Xxx$XxxxxXxx xxxxxx xx xxx xxx xxxxx xxx xxxxxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xx xxx Xxxxx$Xxxxxx xxxxxx.
+Xxx xxxxx xx xxx Xxxxxxxx xxxxxxxxx xx xxxxxxxxx xx x xxxxxx xxxxx $xx xxxxxxxxxx xx xxxxxx$.
+Xxx xxxxxx xx xxxxxxxxxx xxx xxxxxx xxxxx xx xxx xxxx xxxxxxx xxxx xxx xxx xxxxx xxx xxxxxxxxx xxx xxxx xx xxx xxxxxxx xx xxx xxx.
+Xxxx xxxxx xx xxxx xx xxxxx xxx 0$000 xxxx xxxxxx xxxxxx.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-childitem | group-object extension -noelement
 
@@ -135,12 +135,12 @@ Count Name
 2 .bat
 ```
 
-This command groups the items in the current directory by file name extension.
-It uses the NoElement parameter to omit the members of the group.
+Xxxx xxxxxxx xxxxxx xxx xxxxx xx xxx xxxxxxx xxxxxxxxx xx xxxx xxxx xxxxxxxxx.
+Xx xxxx xxx XxXxxxxxx xxxxxxxxx xx xxxx xxx xxxxxxx xx xxx xxxxx.
 
-The results are shown in the following sample output.
+Xxx xxxxxxx xxx xxxxx xx xxx xxxxxxxxx xxxxxx xxxxxx.
 
-### -------------------------- EXAMPLE 8 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>"a", "b", "c", "c", "d" | get-unique
 a
@@ -164,20 +164,20 @@ Count Name
 2 wmiprvse
 ```
 
-This example shows how to find the unique and non-unique (repeated) property values in a collection.
+Xxxx xxxxxxx xxxxx xxx xx xxxx xxx xxxxxx xxx xxx$xxxxxx $xxxxxxxx$ xxxxxxxx xxxxxx xx x xxxxxxxxxx.
 
-The first command gets the unique elements of an array by piping the array to the Get-Unique cmdlet.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxx xxxxxxxx xx xx xxxxx xx xxxxxx xxx xxxxx xx xxx Xxx$Xxxxxx xxxxxx.
 
-The second command gets the non-unique elements of an array.
-It pipes the array to the Group-Object cmdlet, which groups the objects by value.
-The resulting groups are piped to the Where-Object cmdlet, which selects objects with groups with more than one member.
+Xxx xxxxxx xxxxxxx xxxx xxx xxx$xxxxxx xxxxxxxx xx xx xxxxx.
+Xx xxxxx xxx xxxxx xx xxx Xxxxx$Xxxxxx xxxxxx$ xxxxx xxxxxx xxx xxxxxxx xx xxxxx.
+Xxx xxxxxxxxx xxxxxx xxx xxxxx xx xxx Xxxxx$Xxxxxx xxxxxx$ xxxxx xxxxxxx xxxxxxx xxxx xxxxxx xxxx xxxx xxxx xxx xxxxxx.
 
-The third command shows a practical use for this technique.
-It uses the same method to find processes on the computer that have the same process name.
+Xxx xxxxx xxxxxxx xxxxx x xxxxxxxxx xxx xxx xxxx xxxxxxxxx.
+Xx xxxx xxx xxxx xxxxxx xx xxxx xxxxxxxxx xx xxx xxxxxxxx xxxx xxxx xxx xxxx xxxxxxx xxxx.
 
-The results are shown in the following sample output.
+Xxx xxxxxxx xxx xxxxx xx xxx xxxxxxxxx xxxxxx xxxxxx.
 
-### -------------------------- EXAMPLE 9 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = get-command get-*, set-* -type cmdlet | group-object -property verb -ashashtable -asstring
 PS C:\>$a
@@ -197,29 +197,28 @@ Cmdlet          Get-PSDrive          Get-PSDrive [[-Name] <String[]>] [-Scope <S
 ...
 ```
 
-This example uses the AsHashTable and AsString parameters to return the groups in a hash table, that is, as a collection of key-value pairs.
+Xxxx xxxxxxx xxxx xxx XxXxxxXxxxx xxx XxXxxxxx xxxxxxxxxx xx xxxxxx xxx xxxxxx xx x xxxx xxxxx$ xxxx xx$ xx x xxxxxxxxxx xx xxx$xxxxx xxxxx.
 
-In the resulting hash table, each property value is a key, and the group elements are the values.
-Because each key is a property of the hash table object, you can use dot notation to display the values.
+Xx xxx xxxxxxxxx xxxx xxxxx$ xxxx xxxxxxxx xxxxx xx x xxx$ xxx xxx xxxxx xxxxxxxx xxx xxx xxxxxx.
+Xxxxxxx xxxx xxx xx x xxxxxxxx xx xxx xxxx xxxxx xxxxxx$ xxx xxx xxx xxx xxxxxxxx xx xxxxxxx xxx xxxxxx.
 
-The first command gets the Get and Set cmdlets in the session, groups them by verb, returns the groups as a hash table, and saves the hash table in the $a variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx xxx Xxx xxxxxxx xx xxx xxxxxxx$ xxxxxx xxxx xx xxxx$ xxxxxxx xxx xxxxxx xx x xxxx xxxxx$ xxx xxxxx xxx xxxx xxxxx xx xxx $x xxxxxxxx.
 
-The second command displays the hash table in $a.
-There are two key-value pairs, one for the Get cmdlets and one for the Set cmdlets.
+Xxx xxxxxx xxxxxxx xxxxxxxx xxx xxxx xxxxx xx $x.
+Xxxxx xxx xxx xxx$xxxxx xxxxx$ xxx xxx xxx Xxx xxxxxxx xxx xxx xxx xxx Xxx xxxxxxx.
 
-The third command uses dot notation to display the values of the Get key in $a.
-The values are CmdletInfo object.
-The AsString parameter does not convert the objects in the groups to strings.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxxx xx xxxxxxx xxx xxxxxx xx xxx Xxx xxx xx $x.
+Xxx xxxxxx xxx XxxxxxXxxx xxxxxx.
+Xxx XxXxxxxx xxxxxxxxx xxxx xxx xxxxxxx xxx xxxxxxx xx xxx xxxxxx xx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AsHashTable
-Returns the group as a hash table. 
-The keys of the hash table are the property values by which the objects are grouped.
-The values of the hash table are the objects that have that property value.
+### $XxXxxxXxxxx
+Xxxxxxx xxx xxxxx xx x xxxx xxxxx. Xxx xxxx xx xxx xxxx xxxxx xxx xxx xxxxxxxx xxxxxx xx xxxxx xxx xxxxxxx xxx xxxxxxx.
+Xxx xxxxxx xx xxx xxxx xxxxx xxx xxx xxxxxxx xxxx xxxx xxxx xxxxxxxx xxxxx.
 
-By itself, the AsHashTable parameter returns each hash table in which each key is an instance of the grouped object.
-When used with the  AsString parameter, the keys in the hash table are strings.
+Xx xxxxxx$ xxx XxXxxxXxxxx xxxxxxxxx xxxxxxx xxxx xxxx xxxxx xx xxxxx xxxx xxx xx xx xxxxxxxx xx xxx xxxxxxx xxxxxx.
+Xxxx xxxx xxxx xxx  XxXxxxxx xxxxxxxxx$ xxx xxxx xx xxx xxxx xxxxx xxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -233,10 +232,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -AsString
-Converts the hash table keys to strings.
-By default, the hash table keys are instances of the grouped object.
-This parameter is valid only when used with the AsHashTable parameter.
+### $XxXxxxxx
+Xxxxxxxx xxx xxxx xxxxx xxxx xx xxxxxxx.
+Xx xxxxxxx$ xxx xxxx xxxxx xxxx xxx xxxxxxxxx xx xxx xxxxxxx xxxxxx.
+Xxxx xxxxxxxxx xx xxxxx xxxx xxxx xxxx xxxx xxx XxXxxxXxxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -250,9 +249,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CaseSensitive
-Makes the grouping case-sensitive.
-Without this parameter, the property values of objects in a group might have different cases.
+### $XxxxXxxxxxxxx
+Xxxxx xxx xxxxxxxx xxxx$xxxxxxxxx.
+Xxxxxxx xxxx xxxxxxxxx$ xxx xxxxxxxx xxxxxx xx xxxxxxx xx x xxxxx xxxxx xxxx xxxxxxxxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -266,8 +265,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Culture
-Specifies the culture to use when comparing strings.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxx xxxx xxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -281,9 +280,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-By itself, the AsHashTable parameter returns each hash table in which each key is an instance of the grouped object.
-When used with the  AsString parameter, the keys in the hash table are strings.
+### $XxxxxxxxxxxXxxxxx
+Xx xxxxxx$ xxx XxXxxxXxxxx xxxxxxxxx xxxxxxx xxxx xxxx xxxxx xx xxxxx xxxx xxx xx xx xxxxxxxx xx xxx xxxxxxx xxxxxx.
+Xxxx xxxx xxxx xxx  XxXxxxxx xxxxxxxxx$ xxx xxxx xx xxx xxxx xxxxx xxx xxxxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -298,9 +297,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-By itself, the AsHashTable parameter returns each hash table in which each key is an instance of the grouped object.
-When used with the  AsString parameter, the keys in the hash table are strings.
+### $XxxxxxxxxxxXxxxxxxx
+Xx xxxxxx$ xxx XxXxxxXxxxx xxxxxxxxx xxxxxxx xxxx xxxx xxxxx xx xxxxx xxxx xxx xx xx xxxxxxxx xx xxx xxxxxxx xxxxxx.
+Xxxx xxxx xxxx xxx  XxXxxxxx xxxxxxxxx$ xxx xxxx xx xxx xxxx xxxxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -314,14 +313,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the objects to group.
-Enter a variable that contains the objects, or type a command or expression that gets the objects.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
-When you use the InputObject parameter to submit a collection of objects to Group-Object, Group-Object receives one object that represents the collection.
-As a result, it creates a single group with that object as its member.
+Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxx x xxxxxxxxxx xx xxxxxxx xx Xxxxx$Xxxxxx$ Xxxxx$Xxxxxx xxxxxxxx xxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxxxxx.
+Xx x xxxxxx$ xx xxxxxxx x xxxxxx xxxxx xxxx xxxx xxxxxx xx xxx xxxxxx.
 
-To group the objects in a collection, pipe the objects to Group-Object.
+Xx xxxxx xxx xxxxxxx xx x xxxxxxxxxx$ xxxx xxx xxxxxxx xx Xxxxx$Xxxxxx.
 
 ```yaml
 Type: PSObject
@@ -335,8 +334,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -NoElement
-Omits the members of a group from the results.
+### $XxXxxxxxx
+Xxxxx xxx xxxxxxx xx x xxxxx xxxx xxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -350,12 +349,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Property
-Specifies the properties for grouping.
-The objects are arranged into groups based on the value of the specified property.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxx xxx xxxxxxxx.
+Xxx xxxxxxx xxx xxxxxxxx xxxx xxxxxx xxxxx xx xxx xxxxx xx xxx xxxxxxxxx xxxxxxxx.
 
-The value of the Property parameter can be a new calculated property.
-To create a calculated, property, create a hash table with an Expression key that specifies a string or script block value.
+Xxx xxxxx xx xxx Xxxxxxxx xxxxxxxxx xxx xx x xxx xxxxxxxxxx xxxxxxxx.
+Xx xxxxxx x xxxxxxxxxx$ xxxxxxxx$ xxxxxx x xxxx xxxxx xxxx xx Xxxxxxxxxx xxx xxxx xxxxxxxxx x xxxxxx xx xxxxxx xxxxx xxxxx.
 
 ```yaml
 Type: Object[]
@@ -369,27 +368,27 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any object to Group-Object
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xx Xxxxx$Xxxxxx
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.PowerShell.Commands.GroupInfo or System.Collections.Hashtable
-When you use the AsHashTable parameter, Group-Object returns a hash table.
-Otherwise, it returns a GroupInfo object.
+### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxXxxx xx Xxxxxx.Xxxxxxxxxxx.Xxxxxxxxx
+Xxxx xxx xxx xxx XxXxxxXxxxx xxxxxxxxx$ Xxxxx$Xxxxxx xxxxxxx x xxxx xxxxx.
+Xxxxxxxxx$ xx xxxxxxx x XxxxxXxxx xxxxxx.
 
-## NOTES
-You can also use the GroupBy parameter of the formatting cmdlets (such as Format-Table \[m2\] and Format-List \[m2\]) to group objects.
-Unlike Group-Object, which creates a single table with a row for each property value, the GroupBy parameters create a table for each property value with a row for each item that has the property value.
+## XXXXX
+Xxx xxx xxxx xxx xxx XxxxxXx xxxxxxxxx xx xxx xxxxxxxxxx xxxxxxx $xxxx xx Xxxxxx$Xxxxx $$x0$$ xxx Xxxxxx$Xxxx $$x0$$$ xx xxxxx xxxxxxx.
+Xxxxxx Xxxxx$Xxxxxx$ xxxxx xxxxxxx x xxxxxx xxxxx xxxx x xxx xxx xxxx xxxxxxxx xxxxx$ xxx XxxxxXx xxxxxxxxxx xxxxxx x xxxxx xxx xxxx xxxxxxxx xxxxx xxxx x xxx xxx xxxx xxxx xxxx xxx xxx xxxxxxxx xxxxx.
 
-Group-Object does not require that the objects being grouped be of the same Microsoft .NET Framework type.
-When grouping objects of different .NET Framework types, Group-Object uses the following rules:
+Xxxxx$Xxxxxx xxxx xxx xxxxxxx xxxx xxx xxxxxxx xxxxx xxxxxxx xx xx xxx xxxx Xxxxxxxxx .XXX Xxxxxxxxx xxxx.
+Xxxx xxxxxxxx xxxxxxx xx xxxxxxxxx .XXX Xxxxxxxxx xxxxx$ Xxxxx$Xxxxxx xxxx xxx xxxxxxxxx xxxxx$
 
--- Same Property Names and Types: If the objects have a property with the specified name, and the property values have the same .NET Framework type, the property values are grouped by using the same rules that would be used for objects of the same type.
--- Same Property Names, Different Types: If the objects have a property with the specified name, but the property values have a different .NET Framework type in different objects, Group-Object uses the .NET Framework type of the first occurrence of the property as the .NET Framework type for that property group. When an object has a property with a different type, the property value is converted to the type for that group. If the type conversion fails, the object is not included in the group.
--- Missing Properties: Objects that do not have a specified property are considered ungroupable. Ungroupable objects appear in the final GroupInfo object output in a group named AutomationNull.Value.
+$$ Xxxx Xxxxxxxx Xxxxx xxx Xxxxx$ Xx xxx xxxxxxx xxxx x xxxxxxxx xxxx xxx xxxxxxxxx xxxx$ xxx xxx xxxxxxxx xxxxxx xxxx xxx xxxx .XXX Xxxxxxxxx xxxx$ xxx xxxxxxxx xxxxxx xxx xxxxxxx xx xxxxx xxx xxxx xxxxx xxxx xxxxx xx xxxx xxx xxxxxxx xx xxx xxxx xxxx.
+$$ Xxxx Xxxxxxxx Xxxxx$ Xxxxxxxxx Xxxxx$ Xx xxx xxxxxxx xxxx x xxxxxxxx xxxx xxx xxxxxxxxx xxxx$ xxx xxx xxxxxxxx xxxxxx xxxx x xxxxxxxxx .XXX Xxxxxxxxx xxxx xx xxxxxxxxx xxxxxxx$ Xxxxx$Xxxxxx xxxx xxx .XXX Xxxxxxxxx xxxx xx xxx xxxxx xxxxxxxxxx xx xxx xxxxxxxx xx xxx .XXX Xxxxxxxxx xxxx xxx xxxx xxxxxxxx xxxxx. Xxxx xx xxxxxx xxx x xxxxxxxx xxxx x xxxxxxxxx xxxx$ xxx xxxxxxxx xxxxx xx xxxxxxxxx xx xxx xxxx xxx xxxx xxxxx. Xx xxx xxxx xxxxxxxxxx xxxxx$ xxx xxxxxx xx xxx xxxxxxxx xx xxx xxxxx.
+$$ Xxxxxxx Xxxxxxxxxx$ Xxxxxxx xxxx xx xxx xxxx x xxxxxxxxx xxxxxxxx xxx xxxxxxxxxx xxxxxxxxxxx. Xxxxxxxxxxx xxxxxxx xxxxxx xx xxx xxxxx XxxxxXxxx xxxxxx xxxxxx xx x xxxxx xxxxx XxxxxxxxxxXxxx.Xxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 

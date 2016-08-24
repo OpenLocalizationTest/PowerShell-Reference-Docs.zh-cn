@@ -4,91 +4,91 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293953
 schema: 2.0.0
 ---
 
-# Disable-PSBreakpoint
-## SYNOPSIS
-Disables the breakpoints in the current console.
+# Xxxxxxx$XXXxxxxxxxxx
+## XXXXXXXX
+Xxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### Breakpoint (Default)
+### Xxxxxxxxxx $Xxxxxxx$
 ```
 Disable-PSBreakpoint [-PassThru] [-Breakpoint] <Breakpoint[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### Id
+### Xx
 ```
 Disable-PSBreakpoint [-PassThru] [-Id] <Int32[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Disable-PSBreakpoint cmdlet disables breakpoints, which assures that they are not hit when the script runs.
-You can use it to disable all breakpoints, or you can specify breakpoints by submitting breakpoint objects or breakpoint IDs.
+## XXXXXXXXXXX
+Xxx Xxxxxxx$XXXxxxxxxxxx xxxxxx xxxxxxxx xxxxxxxxxxx$ xxxxx xxxxxxx xxxx xxxx xxx xxx xxx xxxx xxx xxxxxx xxxx.
+Xxx xxx xxx xx xx xxxxxxx xxx xxxxxxxxxxx$ xx xxx xxx xxxxxxx xxxxxxxxxxx xx xxxxxxxxxx xxxxxxxxxx xxxxxxx xx xxxxxxxxxx XXx.
 
-Technically, this cmdlet changes the value of the Enabled property of a breakpoint object to False.
-To re-enable a breakpoint, use the Enable-PSBreakpoint cmdlet.
-Breakpoints are enabled by default when you create them by using the Set-PSBreakpoint cmdlet.
+Xxxxxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx xx x xxxxxxxxxx xxxxxx xx Xxxxx.
+Xx xx$xxxxxx x xxxxxxxxxx$ xxx xxx Xxxxxx$XXXxxxxxxxxx xxxxxx.
+Xxxxxxxxxxx xxx xxxxxxx xx xxxxxxx xxxx xxx xxxxxx xxxx xx xxxxx xxx Xxx$XXXxxxxxxxxx xxxxxx.
 
-A breakpoint is a point in a script where execution stops temporarily so that you can examine the instructions in the script.
-Disable-PSBreakpoint is one of several cmdlets designed for debugging Windows PowerShell scripts.
-For more information about the Windows PowerShell debugger, see about_Debuggers.
+X xxxxxxxxxx xx x xxxxx xx x xxxxxx xxxxx xxxxxxxxx xxxxx xxxxxxxxxxx xx xxxx xxx xxx xxxxxxx xxx xxxxxxxxxxxx xx xxx xxxxxx.
+Xxxxxxx$XXXxxxxxxxxx xx xxx xx xxxxxxx xxxxxxx xxxxxxxx xxx xxxxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxx$ xxx xxxxx$Xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$b = set-psbreakpoint -script sample.ps1 -variable name
 PS C:\>$b | disable-psbreakpoint
 ```
 
-These commands disable a newly-created breakpoint.
+Xxxxx xxxxxxxx xxxxxxx x xxxxx$xxxxxxx xxxxxxxxxx.
 
-The first command uses the Set-PSBreakpoint cmdlet to create a breakpoint on the Name variable in the Sample.ps1 script.
-Then, it saves the breakpoint object in the $b variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XXXxxxxxxxxx xxxxxx xx xxxxxx x xxxxxxxxxx xx xxx Xxxx xxxxxxxx xx xxx Xxxxxx.xx0 xxxxxx.
+Xxxx$ xx xxxxx xxx xxxxxxxxxx xxxxxx xx xxx $x xxxxxxxx.
 
-The second command uses the Disable-PSBreakpoint cmdlet to disable the new breakpoint.
-It uses a pipeline operator (|) to send the breakpoint object in $b to the Disable-PSBreakpoint cmdlet.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxxx$XXXxxxxxxxxx xxxxxx xx xxxxxxx xxx xxx xxxxxxxxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxxxxx xxxxxx xx $x xx xxx Xxxxxxx$XXXxxxxxxxxx xxxxxx.
 
-As a result of this command, the value of the Enabled property of the breakpoint object in $b is False.
+Xx x xxxxxx xx xxxx xxxxxxx$ xxx xxxxx xx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxxxxxx xxxxxx xx $x xx Xxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>disable-psbreakpoint -id 0
 ```
 
-This command disables the breakpoint with breakpoint ID 0.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxxxx xxxx xxxxxxxxxx XX 0.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>disable-psbreakpoint -breakpoint ($b = set-psbreakpoint -script sample.ps1 -line 5)
 PS C:\>$b
 ```
 
-This command creates a new breakpoint that is disabled until you enable it.
+Xxxx xxxxxxx xxxxxxx x xxx xxxxxxxxxx xxxx xx xxxxxxxx xxxxx xxx xxxxxx xx.
 
-It uses the Disable-PSBreakpoint cmdlet to disable the breakpoint.
-The value of the Breakpoint parameter is a Set-PSBreakpoint command that sets a new breakpoint, generates a breakpoint object, and saves the object in the $b variable.
+Xx xxxx xxx Xxxxxxx$XXXxxxxxxxxx xxxxxx xx xxxxxxx xxx xxxxxxxxxx.
+Xxx xxxxx xx xxx Xxxxxxxxxx xxxxxxxxx xx x Xxx$XXXxxxxxxxxx xxxxxxx xxxx xxxx x xxx xxxxxxxxxx$ xxxxxxxxx x xxxxxxxxxx xxxxxx$ xxx xxxxx xxx xxxxxx xx xxx $x xxxxxxxx.
 
-Cmdlet parameters that take objects as their values can accept a variable that contains the object or a command that gets or generates the object.
-In this case, because Set-PSBreakpoint generates a breakpoint object, it can be used as the value of the Breakpoint parameter.
+Xxxxxx xxxxxxxxxx xxxx xxxx xxxxxxx xx xxxxx xxxxxx xxx xxxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxx xx x xxxxxxx xxxx xxxx xx xxxxxxxxx xxx xxxxxx.
+Xx xxxx xxxx$ xxxxxxx Xxx$XXXxxxxxxxxx xxxxxxxxx x xxxxxxxxxx xxxxxx$ xx xxx xx xxxx xx xxx xxxxx xx xxx Xxxxxxxxxx xxxxxxxxx.
 
-The second command displays the breakpoint object in the value of the $b variable.
+Xxx xxxxxx xxxxxxx xxxxxxxx xxx xxxxxxxxxx xxxxxx xx xxx xxxxx xx xxx $x xxxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-psbreakpoint | disable-psbreakpoint
 ```
 
-This command disables all breakpoints in the current console.
-You can abbreviate this command as: "gbp | dbp".
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxx xxxxxxxxxx xxxx xxxxxxx xx$ $xxx $ xxx$.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Breakpoint
-Specifies the breakpoints to disable.
-Enter a variable that contains breakpoint objects or a command that gets breakpoint objects, such as a Get-PSBreakpoint command.
-You can also pipe breakpoint objects to the Disable-PSBreakpoint cmdlet.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxxxxxxxxx xxxxxxx xx x xxxxxxx xxxx xxxx xxxxxxxxxx xxxxxxx$ xxxx xx x Xxx$XXXxxxxxxxxx xxxxxxx.
+Xxx xxx xxxx xxxx xxxxxxxxxx xxxxxxx xx xxx Xxxxxxx$XXXxxxxxxxxx xxxxxx.
 
 ```yaml
 Type: Breakpoint[]
@@ -102,10 +102,10 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Id
-Disables the breakpoints with the specified breakpoint IDs.
-Enter the IDs or a variable that contains the IDs.
-You cannot pipe IDs to Disable-PSBreakpoint.
+### $Xx
+Xxxxxxxx xxx xxxxxxxxxxx xxxx xxx xxxxxxxxx xxxxxxxxxx XXx.
+Xxxxx xxx XXx xx x xxxxxxxx xxxx xxxxxxxx xxx XXx.
+Xxx xxxxxx xxxx XXx xx Xxxxxxx$XXXxxxxxxxxx.
 
 ```yaml
 Type: Int32[]
@@ -119,8 +119,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -135,8 +135,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -150,9 +150,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Returns an object representing the enabled breakpoints.
-By default, this cmdlet does not generate any output.
+### $XxxxXxxx
+Xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxxxxx xxxxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -166,8 +166,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -181,10 +181,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -198,30 +198,30 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.Breakpoint
-You can pipe a breakpoint object to Disable-PSBreakpoint.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxxx
+Xxx xxx xxxx x xxxxxxxxxx xxxxxx xx Xxxxxxx$XXXxxxxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None or System.Management.Automation.Breakpoint
-When you use the PassThru parameter, Disable-PSBreakpoint returns an object that represents the disabled breakpoint.
-Otherwise, this cmdlet does not generate any output.
+### Xxxx xx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxxx
+Xxxx xxx xxx xxx XxxxXxxx xxxxxxxxx$ Xxxxxxx$XXXxxxxxxxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxxx xxxxxxxxxx.
+Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Enable-PSBreakpoint]()
+[Xxxxxx$XXXxxxxxxxxx]()
 
-[Get-PSBreakpoint]()
+[Xxx$XXXxxxxxxxxx]()
 
-[Get-PSCallStack]()
+[Xxx$XXXxxxXxxxx]()
 
-[Remove-PSBreakpoint]()
+[Xxxxxx$XXXxxxxxxxxx]()
 
-[Set-PSBreakpoint]()
+[Xxx$XXXxxxxxxxxx]()
 
-[about_Debuggers]()
+[xxxxx$Xxxxxxxxx]()
 

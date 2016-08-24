@@ -6,33 +6,33 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureRMAutomationRunbook
-## SYNOPSIS
-Removes a runbook.
+# Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureRMAutomationRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-Force] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureRmAutomationRunbook** cmdlet removes a runbook from azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxx x xxxxxxx xxxx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a runbook
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx
 ```
 PS C:\>Remove-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbook03" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command removes the runbook named Runbook03 in the azure_2 Automation account named Contoso17.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxx xxxxx Xxxxxxx00 xx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account in which this cmdlet removes a runbook.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -46,8 +46,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-ps_force
+### $Xxxxx
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -61,8 +61,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the runbook that this cmdlet removes.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -76,8 +76,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet publishes a runbook.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -91,8 +91,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -106,8 +106,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -121,28 +121,28 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Export-AzureRmAutomationRunbook](614eee0d-f18e-4843-bed6-6cf43db59f75)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](614eee0d-f18e-4843-bed6-6cf43db59f75)
 
-[Get-AzureRmAutomationRunbook](71da0434-5c0f-498f-91f2-f09117dfa7ca)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](71da0434-5c0f-498f-91f2-f09117dfa7ca)
 
-[Import-AzureRmAutomationRunbook](6e05b8c0-5782-4580-b4e3-778e951be608)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](6e05b8c0-5782-4580-b4e3-778e951be608)
 
-[New-AzureRmAutomationRunbook](c0de19b6-68a5-46b0-8575-88f229fd2494)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](c0de19b6-68a5-46b0-8575-88f229fd2494)
 
-[New-AzureRmAutomationRunbook](c0de19b6-68a5-46b0-8575-88f229fd2494)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](c0de19b6-68a5-46b0-8575-88f229fd2494)
 
-[Publish-AzureRmAutomationRunbook](68a3d64a-280b-4285-b588-72c7a8c25942)
+[Xxxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](68a3d64a-280b-4285-b588-72c7a8c25942)
 
-[Set-AzureRmAutomationRunbook](80b64633-ceab-4609-bb58-e11ab99e9c35)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](80b64633-ceab-4609-bb58-e11ab99e9c35)
 
-[Start-AzureRmAutomationRunbook](5c86545a-93dd-4b3c-96b2-fa6ed740448d)
+[Xxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](5c86545a-93dd-4b3c-96b2-fa6ed740448d)
 
 

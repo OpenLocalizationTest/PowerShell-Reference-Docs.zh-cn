@@ -4,49 +4,49 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293976
 schema: 2.0.0
 ---
 
-# Get-TypeData
-## SYNOPSIS
-Gets the extended type data in the current session.
+# Xxx$XxxxXxxx
+## XXXXXXXX
+Xxxx xxx xxxxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-TypeData [[-TypeName] <String[]>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-TypeData cmdlet gets the extended type data in the current session.
-This includes type data that was added to the session by Types.ps1xml file and dynamic type data that was added by using the parameter of the Update-TypeData cmdlet.
+## XXXXXXXXXXX
+Xxx Xxx$XxxxXxxx xxxxxx xxxx xxx xxxxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xxxx xxxxxxxx xxxx xxxx xxxx xxx xxxxx xx xxx xxxxxxx xx Xxxxx.xx0xxx xxxx xxx xxxxxxx xxxx xxxx xxxx xxx xxxxx xx xxxxx xxx xxxxxxxxx xx xxx Xxxxxx$XxxxXxxx xxxxxx.
 
-You can use the extended type data that Get-TypeData returns to examine the type data in the session and send it to the Update-TypeData and Remove-TypeData cmdlets.
+Xxx xxx xxx xxx xxxxxxxx xxxx xxxx xxxx Xxx$XxxxXxxx xxxxxxx xx xxxxxxx xxx xxxx xxxx xx xxx xxxxxxx xxx xxxx xx xx xxx Xxxxxx$XxxxXxxx xxx Xxxxxx$XxxxXxxx xxxxxxx.
 
-Extended type data adds properties and methods to objects in Windows PowerShell.
-You can use the added properties and methods in the same ways that you would use the properties and methods that are defined in the object type.
-However, when writing scripts, be aware that the added properties and methods might not be present in every Windows PowerShell session.
+Xxxxxxxx xxxx xxxx xxxx xxxxxxxxxx xxx xxxxxxx xx xxxxxxx xx Xxxxxxx XxxxxXxxxx.
+Xxx xxx xxx xxx xxxxx xxxxxxxxxx xxx xxxxxxx xx xxx xxxx xxxx xxxx xxx xxxxx xxx xxx xxxxxxxxxx xxx xxxxxxx xxxx xxx xxxxxxx xx xxx xxxxxx xxxx.
+Xxxxxxx$ xxxx xxxxxxx xxxxxxx$ xx xxxxx xxxx xxx xxxxx xxxxxxxxxx xxx xxxxxxx xxxxx xxx xx xxxxxxx xx xxxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
 
-For more information about Types.ps1xml files, see about_Types.ps1xml (http://go.microsoft.com/fwlink/?LinkID=113274).
-For more information about dynamic type data that the Update-TypeData cmdlet adds, see Update-TypeData.
+Xxx xxxx xxxxxxxxxxx xxxxx Xxxxx.xx0xxx xxxxx$ xxx xxxxx$Xxxxx.xx0xxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
+Xxx xxxx xxxxxxxxxxx xxxxx xxxxxxx xxxx xxxx xxxx xxx Xxxxxx$XxxxXxxx xxxxxx xxxx$ xxx Xxxxxx$XxxxXxxx.
 
-This cmdlet is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 PS C:\>Get-TypeData
 ```
 
-This command gets all extended type data in the current session.
+Xxxx xxxxxxx xxxx xxx xxxxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
-### Example 2
+### Xxxxxxx 0
 ```
 PS C:\>"*Eventing*" | Get-TypeData
 TypeName                                                              Members--------                                                              -------System.Diagnostics.Eventing.Reader.EventLogConfiguration              {}System.Diagnostics.Eventing.Reader.EventLogRecord                    {}System.Diagnostics.Eventing.Reader.ProviderMetadata                   {[ProviderName, System.Management.Automation.Runspaces.AliasProper...
 ```
 
-This command gets all types in the current session that have names that contain "Eventing".
+Xxxx xxxxxxx xxxx xxx xxxxx xx xxx xxxxxxx xxxxxxx xxxx xxxx xxxxx xxxx xxxxxxx $Xxxxxxxx$.
 
-### 1:
+### 0$
 ```
 PS C:\>(Get-TypeData *EventLogEntry*).Members.EventID
 GetScriptBlock                     SetScriptBlock                                               IsHidden Name
@@ -55,9 +55,9 @@ GetScriptBlock                     SetScriptBlock                               
 $this.get_EventID() -band 0xFFFF                                                                   False EventID
 ```
 
-This command gets the script block that creates the value of the EventID property of EventLogEntry objects.
+Xxxx xxxxxxx xxxx xxx xxxxxx xxxxx xxxx xxxxxxx xxx xxxxx xx xxx XxxxxXX xxxxxxxx xx XxxxxXxxXxxxx xxxxxxx.
 
-### Example 3
+### Xxxxxxx 0
 ```
 PS C:\>(Get-TypeData -TypeName System.DateTime).Members["DateTime"].GetScriptBlock
 if ((& { Set-StrictMode -Version 1; $this.DisplayHint }) -ieq  "Date")                    
@@ -74,19 +74,19 @@ else
 }
 ```
 
-This command gets the script block that defines the DateTime property of System.DateTime objects in Windows PowerShell.
+Xxxx xxxxxxx xxxx xxx xxxxxx xxxxx xxxx xxxxxxx xxx XxxxXxxx xxxxxxxx xx Xxxxxx.XxxxXxxx xxxxxxx xx Xxxxxxx XxxxxXxxxx.
 
-The command uses the Get-TypeData cmdlet to get the extended type data for the System.DataTime type.
-The command gets the Members property of the TypeData object.
+Xxx xxxxxxx xxxx xxx Xxx$XxxxXxxx xxxxxx xx xxx xxx xxxxxxxx xxxx xxxx xxx xxx Xxxxxx.XxxxXxxx xxxx.
+Xxx xxxxxxx xxxx xxx Xxxxxxx xxxxxxxx xx xxx XxxxXxxx xxxxxx.
 
-The Members property contains  a hash table of properties and methods that are defined by extended type data.
-Each key in the Members hash table is a property or method name and each value is the definition of the property or method value.
+Xxx Xxxxxxx xxxxxxxx xxxxxxxx  x xxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxx xxx xxxxxxx xx xxxxxxxx xxxx xxxx.
+Xxxx xxx xx xxx Xxxxxxx xxxx xxxxx xx x xxxxxxxx xx xxxxxx xxxx xxx xxxx xxxxx xx xxx xxxxxxxxxx xx xxx xxxxxxxx xx xxxxxx xxxxx.
 
-The command gets the DateTime key in Members and its GetScriptBlock property value.
+Xxx xxxxxxx xxxx xxx XxxxXxxx xxx xx Xxxxxxx xxx xxx XxxXxxxxxXxxxx xxxxxxxx xxxxx.
 
-The output shows the script block that creates the value of the DateTime property of every System.DateTime object in Windows PowerShell.
+Xxx xxxxxx xxxxx xxx xxxxxx xxxxx xxxx xxxxxxx xxx xxxxx xx xxx XxxxXxxx xxxxxxxx xx xxxxx Xxxxxx.XxxxXxxx xxxxxx xx Xxxxxxx XxxxxXxxxx.
 
-### Example 4
+### Xxxxxxx 0
 ```
 PS C:\>dir $pshome\*types.ps1xml -Recurse | Select-String "EventLogEntry"
 C:\WINDOWS\System32\WindowsPowerShell\v1.0\DotNetTypes.format.ps1xml:180: 
@@ -101,17 +101,17 @@ C:\WINDOWS\System32\WindowsPowerShell\v1.0\types.ps1xml:433:
 <Name>System.Diagnostics.EventLogEntry</Name>
 ```
 
-This command finds the Types.ps1xml file that added extended type data for the EventLogEntry type to the session.
-This command uses the Get-ChildItem cmdlet (alias = "dir") to perform a recursive search for Types.ps1xml files in the Windows PowerShell installation directory ($pshome) and its subdirectories.
-The command sends the Types.ps1xml files to the Select-String cmdlet, which does a full-text search for the "EventLogEntry" type name in the files and returns the matches.
+Xxxx xxxxxxx xxxxx xxx Xxxxx.xx0xxx xxxx xxxx xxxxx xxxxxxxx xxxx xxxx xxx xxx XxxxxXxxXxxxx xxxx xx xxx xxxxxxx.
+Xxxx xxxxxxx xxxx xxx Xxx$XxxxxXxxx xxxxxx $xxxxx $ $xxx$$ xx xxxxxxx x xxxxxxxxx xxxxxx xxx Xxxxx.xx0xxx xxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxxxxx xxxxxxxxx $$xxxxxx$ xxx xxx xxxxxxxxxxxxxx.
+Xxx xxxxxxx xxxxx xxx Xxxxx.xx0xxx xxxxx xx xxx Xxxxxx$Xxxxxx xxxxxx$ xxxxx xxxx x xxxx$xxxx xxxxxx xxx xxx $XxxxxXxxXxxxx$ xxxx xxxx xx xxx xxxxx xxx xxxxxxx xxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-Enter type names or a name patterns.
-Full names (or name patterns with wildcard characters) are required, even for types in the System namespace.
-Wildcards are supported and the parameter name (-TypeName) is optional.
-You can also pipe type names to Get-TypeData.
+### $XxxxxxxxxxxXxxxxx
+Xxxxx xxxx xxxxx xx x xxxx xxxxxxxx.
+Xxxx xxxxx $xx xxxx xxxxxxxx xxxx xxxxxxxx xxxxxxxxxx$ xxx xxxxxxxx$ xxxx xxx xxxxx xx xxx Xxxxxx xxxxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx xxx xxx xxxxxxxxx xxxx $$XxxxXxxx$ xx xxxxxxxx.
+Xxx xxx xxxx xxxx xxxx xxxxx xx Xxx$XxxxXxxx.
 
 ```yaml
 Type: ActionPreference
@@ -126,11 +126,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-Enter type names or a name patterns.
-Full names (or name patterns with wildcard characters) are required, even for types in the System namespace.
-Wildcards are supported and the parameter name (-TypeName) is optional.
-You can also pipe type names to Get-TypeData.
+### $XxxxxxxxxxxXxxxxxxx
+Xxxxx xxxx xxxxx xx x xxxx xxxxxxxx.
+Xxxx xxxxx $xx xxxx xxxxxxxx xxxx xxxxxxxx xxxxxxxxxx$ xxx xxxxxxxx$ xxxx xxx xxxxx xx xxx Xxxxxx xxxxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx xxx xxx xxxxxxxxx xxxx $$XxxxXxxx$ xx xxxxxxxx.
+Xxx xxx xxxx xxxx xxxx xxxxx xx Xxx$XxxxXxxx.
 
 ```yaml
 Type: String
@@ -144,14 +144,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TypeName
-Gets type data only for the types with the specified names.
-By default, Get-TypeData gets all types in the session.
+### $XxxxXxxx
+Xxxx xxxx xxxx xxxx xxx xxx xxxxx xxxx xxx xxxxxxxxx xxxxx.
+Xx xxxxxxx$ Xxx$XxxxXxxx xxxx xxx xxxxx xx xxx xxxxxxx.
 
-Enter type names or a name patterns.
-Full names (or name patterns with wildcard characters) are required, even for types in the System namespace.
-Wildcards are supported and the parameter name (-TypeName) is optional.
-You can also pipe type names to Get-TypeData.
+Xxxxx xxxx xxxxx xx x xxxx xxxxxxxx.
+Xxxx xxxxx $xx xxxx xxxxxxxx xxxx xxxxxxxx xxxxxxxxxx$ xxx xxxxxxxx$ xxxx xxx xxxxx xx xxx Xxxxxx xxxxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx xxx xxx xxxxxxxxx xxxx $$XxxxXxxx$ xx xxxxxxxx.
+Xxx xxx xxxx xxxx xxxx xxxxx xx Xxx$XxxxXxxx.
 
 ```yaml
 Type: String[]
@@ -165,24 +165,24 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
-You can pipe type names to Get-TypeData.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx xxxx xxxxx xx Xxx$XxxxXxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.Runspaces.TypeData
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxx.XxxxXxxx
 
-## NOTES
-Get-TypeData gets only the extended type data in the current session.
-It does not get extended type data that is on the computer, but has not been added to the current session, such as extended types that are defined in modules that have not been imported into the current session.
+## XXXXX
+Xxx$XxxxXxxx xxxx xxxx xxx xxxxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxxx xxx xxx xxxxxxxx xxxx xxxx xxxx xx xx xxx xxxxxxxx$ xxx xxx xxx xxxx xxxxx xx xxx xxxxxxx xxxxxxx$ xxxx xx xxxxxxxx xxxxx xxxx xxx xxxxxxx xx xxxxxxx xxxx xxxx xxx xxxx xxxxxxxx xxxx xxx xxxxxxx xxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[about_Types.ps1xml]()
+[xxxxx$Xxxxx.xx0xxx]()
 
-[Remove-TypeData]()
+[Xxxxxx$XxxxXxxx]()
 
-[Update-TypeData]()
+[Xxxxxx$XxxxXxxx]()
 

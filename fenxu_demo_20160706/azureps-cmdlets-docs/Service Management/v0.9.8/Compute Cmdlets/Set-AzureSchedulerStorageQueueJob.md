@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureSchedulerStorageQueueJob
-## SYNOPSIS
-Updates a scheduler job that has a storage action.
+# Xxx$XxxxxXxxxxxxxxXxxxxxxXxxxxXxx
+## XXXXXXXX
+Xxxxxxx x xxxxxxxxx xxx xxxx xxx x xxxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureSchedulerStorageQueueJob [-Location] <String> [[-Interval] <Int32>] [[-Frequency] <String>]
  [[-EndTime] <DateTime>] [[-ExecutionCount] <Int32>] [[-JobState] <String>] [[-ErrorActionMethod] <String>]
@@ -23,42 +23,42 @@ Set-AzureSchedulerStorageQueueJob [-Location] <String> [[-Interval] <Int32>] [[-
  [[-StorageQueueMessage] <String>] [[-StartTime] <DateTime>] [-PassThru]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureSchedulerStorageQueueJob [[-Interval] <Int32>] [[-Frequency] <String>] [[-EndTime] <DateTime>]
  [[-ExecutionCount] <Int32>] [[-JobState] <String>] [[-ErrorActionHeaders] <Hashtable>] [-PassThru]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Set-AzureSchedulerStorageQueueJob cmdlet updates a scheduler job that has an Azure Storage action.
+Xxx Xxx$XxxxxXxxxxxxxxXxxxxxxXxxxxXxx xxxxxx xxxxxxx x xxxxxxxxx xxx xxxx xxx xx Xxxxx Xxxxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Update a Storage queue message
+### Xxxxxxx 0$ Xxxxxx x Xxxxxxx xxxxx xxxxxxx
 ```
 PS C:\>Set-AzureSchedulerStorageQueueJob -Location "North Central US" -JobCollectionName "JobCollection01 -JobName "Job12" -StorageQueueMessage "Updated message"
 ```
 
-This command updates the queue message for the Storage job named Job12.
-The command specifies the job collection name and the location.
+Xxxx xxxxxxx xxxxxxx xxx xxxxx xxxxxxx xxx xxx Xxxxxxx xxx xxxxx Xxx00.
+Xxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxxxxx xxxx xxx xxx xxxxxxxx.
 
-### Example 2: Enable a Storage queue job
+### Xxxxxxx 0$ Xxxxxx x Xxxxxxx xxxxx xxx
 ```
 PS C:\>Set-AzureSchedulerStorageQueueJob -Location "North Central US" -JobCollectionName "JobCollection02" -JobName "Job16" -JobState "Enabled"
 ```
 
-This command enables the job named Job16.
-The command changes the state of the job to Enabled by specifying that value for the JobState parameter.
+Xxxx xxxxxxx xxxxxxx xxx xxx xxxxx Xxx00.
+Xxx xxxxxxx xxxxxxx xxx xxxxx xx xxx xxx xx Xxxxxxx xx xxxxxxxxxx xxxx xxxxx xxx xxx XxxXxxxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -EndTime
-Specifies a time, as a DateTime object, for the scheduler to stop initiating the job.
-To obtain a DateTime object, use the Get-Date cmdlet.
-For more information, type Get-Help Get-Date.
+### $XxxXxxx
+Xxxxxxxxx x xxxx$ xx x XxxxXxxx xxxxxx$ xxx xxx xxxxxxxxx xx xxxx xxxxxxxxxx xxx xxx.
+Xx xxxxxx x XxxxXxxx xxxxxx$ xxx xxx Xxx$Xxxx xxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxxx Xxx$Xxxx Xxx$Xxxx.
 
 ```yaml
 Type: DateTime
@@ -72,8 +72,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ErrorActionHeaders
-Specifies headers as a hash table.
+### $XxxxxXxxxxxXxxxxxx
+Xxxxxxxxx xxxxxxx xx x xxxx xxxxx.
 
 ```yaml
 Type: Hashtable
@@ -87,15 +87,11 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ErrorActionMethod
-Specifies the method for HTTP and HTTPS action types.
-Valid values are: 
+### $XxxxxXxxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxx xxx XXXX xxx XXXXX xxxxxx xxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- GET
--- PUT
--- POST
--- HEAD
--- DELETE
+$$ XXX $$ XXX $$ XXXX $$ XXXX $$ XXXXXX
 
 ```yaml
 Type: String
@@ -109,8 +105,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ErrorActionQueueMessageBody
-Specifies the body for Storage job actions.
+### $XxxxxXxxxxxXxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xxx Xxxxxxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -124,8 +120,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ErrorActionRequestBody
-Specifies the body for PUT and POST job actions.
+### $XxxxxXxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xxx XXX xxx XXXX xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -139,8 +135,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ErrorActionSASToken
-Specifies the Shared Access Signature (SAS) token for the Storage queue.
+### $XxxxxXxxxxxXXXXxxxx
+Xxxxxxxxx xxx Xxxxxx Xxxxxx Xxxxxxxxx $XXX$ xxxxx xxx xxx Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -154,8 +150,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ErrorActionStorageAccount
-Specifies the name of the Storage account.
+### $XxxxxXxxxxxXxxxxxxXxxxxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -169,8 +165,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ErrorActionStorageQueue
-Specifies the name of the Storage queue.
+### $XxxxxXxxxxxXxxxxxxXxxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -184,8 +180,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ErrorActionURI
-Specifies the URI for the error job action.
+### $XxxxxXxxxxxXXX
+Xxxxxxxxx xxx XXX xxx xxx xxxxx xxx xxxxxx.
 
 ```yaml
 Type: Uri
@@ -199,9 +195,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ExecutionCount
-Specifies the number occurrences of a job that run.
-By default, a job recurs indefinitely.
+### $XxxxxxxxxXxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxxxxxxx xx x xxx xxxx xxx.
+Xx xxxxxxx$ x xxx xxxxxx xxxxxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -215,8 +211,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Frequency
-Specifies the maximum frequency for this scheduler job.
+### $Xxxxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxx xxxxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -230,8 +226,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Interval
-Specifies the interval of recurrence at the frequency specified by using the Frequency parameter.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xx xxxxxxxxxx xx xxx xxxxxxxxx xxxxxxxxx xx xxxxx xxx Xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -245,8 +241,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -JobCollectionName
-Specifies the name of the collection to contain the scheduler job.
+### $XxxXxxxxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxx xx xxxxxxx xxx xxxxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -260,8 +256,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -JobName
-Specifies the name of the scheduler job to update.
+### $XxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxx xxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -275,8 +271,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -JobState
-Specifies the state for the scheduler job.
+### $XxxXxxxx
+Xxxxxxxxx xxx xxxxx xxx xxx xxxxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -290,21 +286,11 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Location
-Specifies the name of the location that hosts the cloud service.
-Valid values are: 
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxxx xxx xxxxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Anywhere Asia
--- Anywhere Europe
--- Anywhere US
--- East Asia
--- East US
--- North Central US
--- North Europe
--- South Central US
--- Southeast Asia
--- West Europe
--- West US
+$$ Xxxxxxxx Xxxx $$ Xxxxxxxx Xxxxxx $$ Xxxxxxxx XX $$ Xxxx Xxxx $$ Xxxx XX $$ Xxxxx Xxxxxxx XX $$ Xxxxx Xxxxxx $$ Xxxxx Xxxxxxx XX $$ Xxxxxxxxx Xxxx $$ Xxxx Xxxxxx $$ Xxxx XX
 
 ```yaml
 Type: String
@@ -318,9 +304,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Indicates that this cmdlet returns an object representing the item on which it operates.
-By default, this cmdlet does not generate any output.
+### $XxxxXxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxx xx xxxxx xx xxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -334,8 +320,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SASToken
-Specifies the SAS token for the Storage queue.
+### $XXXXxxxx
+Xxxxxxxxx xxx XXX xxxxx xxx xxx Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -349,8 +335,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies a time, as a DateTime object, for the job to start.
+### $XxxxxXxxx
+Xxxxxxxxx x xxxx$ xx x XxxxXxxx xxxxxx$ xxx xxx xxx xx xxxxx.
 
 ```yaml
 Type: DateTime
@@ -364,8 +350,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StorageQueueAccount
-Specifies the Storage account name.
+### $XxxxxxxXxxxxXxxxxxx
+Xxxxxxxxx xxx Xxxxxxx xxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -379,8 +365,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -StorageQueueMessage
-Specifies the queue message for the Storage job.
+### $XxxxxxxXxxxxXxxxxxx
+Xxxxxxxxx xxx xxxxx xxxxxxx xxx xxx Xxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -394,8 +380,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StorageQueueName
-Specifies the name of the Storage queue.
+### $XxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -409,14 +395,14 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureSchedulerStorageQueueJob](bb736406-8b48-4bdf-b67b-0c928e674c7d)
+[Xxx$XxxxxXxxxxxxxxXxxxxxxXxxxxXxx](bb736406-8b48-4bdf-b67b-0c928e674c7d)
 
 

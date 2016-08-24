@@ -4,38 +4,38 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294019
 schema: 2.0.0
 ---
 
-# Tee-Object
-## SYNOPSIS
-Saves command output in a file or variable and also sends it down the pipeline.
+# Xxx$Xxxxxx
+## XXXXXXXX
+Xxxxx xxxxxxx xxxxxx xx x xxxx xx xxxxxxxx xxx xxxx xxxxx xx xxxx xxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### File (Default)
+### Xxxx $Xxxxxxx$
 ```
 Tee-Object [-InputObject <PSObject>] [-FilePath] <String> [-Append] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### LiteralFile
+### XxxxxxxXxxx
 ```
 Tee-Object [-InputObject <PSObject>] -LiteralPath <String> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### Variable
+### Xxxxxxxx
 ```
 Tee-Object [-InputObject <PSObject>] -Variable <String> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Tee-Object cmdlet redirects output, that is, it sends the output of a command in two directions (like the letter "T").
-It stores the output in a file or variable and also sends it down the pipeline.
-If Tee-Object is the last command in the pipeline, the command output is displayed at the prompt.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxxx xxxxxx xxxxxxxxx xxxxxx$ xxxx xx$ xx xxxxx xxx xxxxxx xx x xxxxxxx xx xxx xxxxxxxxxx $xxxx xxx xxxxxx $X$$.
+Xx xxxxxx xxx xxxxxx xx x xxxx xx xxxxxxxx xxx xxxx xxxxx xx xxxx xxx xxxxxxxx.
+Xx Xxx$Xxxxxx xx xxx xxxx xxxxxxx xx xxx xxxxxxxx$ xxx xxxxxxx xxxxxx xx xxxxxxxxx xx xxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | tee-object -filepath C:\Test1\testfile2.txt
 
@@ -48,10 +48,10 @@ Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)    Id ProcessName
 ...
 ```
 
-This command gets a list of the processes running on the computer and sends the result to a file.
-Because a second path is not specified, the processes are also displayed in the console.
+Xxxx xxxxxxx xxxx x xxxx xx xxx xxxxxxxxx xxxxxxx xx xxx xxxxxxxx xxx xxxxx xxx xxxxxx xx x xxxx.
+Xxxxxxx x xxxxxx xxxx xx xxx xxxxxxxxx$ xxx xxxxxxxxx xxx xxxx xxxxxxxxx xx xxx xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process notepad | tee-object -variable proc | select-object processname,handles
 
@@ -63,27 +63,27 @@ notepad                                  38
 notepad                                  38
 ```
 
-This command gets a list of the processes running on the computer and sends the result to a variable named "proc".
-It then pipes the resulting objects along to Select-Object, which selects the ProcessName and Handles property.
-Note that the $proc variable includes the default information returned by Get-Process.
+Xxxx xxxxxxx xxxx x xxxx xx xxx xxxxxxxxx xxxxxxx xx xxx xxxxxxxx xxx xxxxx xxx xxxxxx xx x xxxxxxxx xxxxx $xxxx$.
+Xx xxxx xxxxx xxx xxxxxxxxx xxxxxxx xxxxx xx Xxxxxx$Xxxxxx$ xxxxx xxxxxxx xxx XxxxxxxXxxx xxx Xxxxxxx xxxxxxxx.
+Xxxx xxxx xxx $xxxx xxxxxxxx xxxxxxxx xxx xxxxxxx xxxxxxxxxxx xxxxxxxx xx Xxx$Xxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-childitem -path D: -file -system -recurse | tee-object -file c:\test\AllSystemFiles.txt -append | out-file c:\test\NewSystemFiles.txt
 ```
 
-This command saves a list of system files in a two log files, a cumulative file and a current file.
+Xxxx xxxxxxx xxxxx x xxxx xx xxxxxx xxxxx xx x xxx xxx xxxxx$ x xxxxxxxxxx xxxx xxx x xxxxxxx xxxx.
 
-The command uses the Get-ChildItem cmdlet to do a recursive search for system files on the D: drive.
-A pipeline operator (|) sends the list to Tee-Object, which appends the list to the AllSystemFiles.txt file and passes the list down the pipeline to the Out-File cmdlet, which saves the list in the NewSystemFiles.txt file.
+Xxx xxxxxxx xxxx xxx Xxx$XxxxxXxxx xxxxxx xx xx x xxxxxxxxx xxxxxx xxx xxxxxx xxxxx xx xxx X$ xxxxx.
+X xxxxxxxx xxxxxxxx $$$ xxxxx xxx xxxx xx Xxx$Xxxxxx$ xxxxx xxxxxxx xxx xxxx xx xxx XxxXxxxxxXxxxx.xxx xxxx xxx xxxxxx xxx xxxx xxxx xxx xxxxxxxx xx xxx Xxx$Xxxx xxxxxx$ xxxxx xxxxx xxx xxxx xx xxx XxxXxxxxxXxxxx.xxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Append
-Appends the output to the specified file.
-Without this parameter, the new content replaces any existing content in the file without warning.
+### $Xxxxxx
+Xxxxxxx xxx xxxxxx xx xxx xxxxxxxxx xxxx.
+Xxxxxxx xxxx xxxxxxxxx$ xxx xxx xxxxxxx xxxxxxxx xxx xxxxxxxx xxxxxxx xx xxx xxxx xxxxxxx xxxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: SwitchParameter
@@ -97,9 +97,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FilePath
-Saves the object in the specified file.
-Wildcard characters are permitted, but must resolve to a single file.
+### $XxxxXxxx
+Xxxxx xxx xxxxxx xx xxx xxxxxxxxx xxxx.
+Xxxxxxxx xxxxxxxxxx xxx xxxxxxxxx$ xxx xxxx xxxxxxx xx x xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -113,8 +113,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-This parameter is introduced in Windows PowerShell 3.0.
+### $XxxxxxxxxxxXxxxxx
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: ActionPreference
@@ -129,8 +129,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-This parameter is introduced in Windows PowerShell 3.0.
+### $XxxxxxxxxxxXxxxxxxx
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: String
@@ -144,13 +144,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the object to be saved and displayed.
-Enter a variable that contains the objects or type a command or expression that gets the objects.
-You can also pipe an object to Tee-Object.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxx xx xx xxxxx xxx xxxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
+Xxx xxx xxxx xxxx xx xxxxxx xx Xxx$Xxxxxx.
 
-When you use the InputObject parameter with Tee-Object, instead of piping command results to Tee-Object, the InputObject value-even if the value is a collection that is the result of a command, such as -InputObject (Get-Process)-is treated as a single object.
-Because InputObject cannot return individual properties from an array or collection of objects, it is recommended that if you use Tee-Object to perform operations on a collection of objects for those objects that have specific values in defined properties, you use Tee-Object in the pipeline, as shown in the examples in this topic.
+Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xxxx Xxx$Xxxxxx$ xxxxxxx xx xxxxxx xxxxxxx xxxxxxx xx Xxx$Xxxxxx$ xxx XxxxxXxxxxx xxxxx$xxxx xx xxx xxxxx xx x xxxxxxxxxx xxxx xx xxx xxxxxx xx x xxxxxxx$ xxxx xx $XxxxxXxxxxx $Xxx$Xxxxxxx$$xx xxxxxxx xx x xxxxxx xxxxxx.
+Xxxxxxx XxxxxXxxxxx xxxxxx xxxxxx xxxxxxxxxx xxxxxxxxxx xxxx xx xxxxx xx xxxxxxxxxx xx xxxxxxx$ xx xx xxxxxxxxxxx xxxx xx xxx xxx Xxx$Xxxxxx xx xxxxxxx xxxxxxxxxx xx x xxxxxxxxxx xx xxxxxxx xxx xxxxx xxxxxxx xxxx xxxx xxxxxxxx xxxxxx xx xxxxxxx xxxxxxxxxx$ xxx xxx Xxx$Xxxxxx xx xxx xxxxxxxx$ xx xxxxx xx xxx xxxxxxxx xx xxxx xxxxx.
 
 ```yaml
 Type: PSObject
@@ -164,9 +164,9 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Variable
-Saves the object in the specified variable.
-Enter a variable name without the preceding dollar sign ($).
+### $Xxxxxxxx
+Xxxxx xxx xxxxxx xx xxx xxxxxxxxx xxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxx xxx xxxxxxxxx xxxxxx xxxx $$$.
 
 ```yaml
 Type: String
@@ -180,12 +180,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -LiteralPath
-Saves the object in the specified file.
-Unlike FilePath, the value of the LiteralPath parameter is used exactly as it is typed.
-No characters are interpreted as wildcards.
-If the path includes escape characters, enclose it in single quotation marks.
-Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.
+### $XxxxxxxXxxx
+Xxxxx xxx xxxxxx xx xxx xxxxxxxxx xxxx.
+Xxxxxx XxxxXxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
+Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
+Xx xxx xxxx xxxxxxxx xxxxxx xxxxxxxxxx$ xxxxxxx xx xx xxxxxx xxxxxxxxx xxxxx.
+Xxxxxx xxxxxxxxx xxxxx xxxx Xxxxxxx XxxxxXxxxx xxx xx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -199,26 +199,26 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe objects to Tee-Object.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxxxxxx xx Xxx$Xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.PSObject
-Tee-Object returns the object that it redirects.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx$Xxxxxx xxxxxxx xxx xxxxxx xxxx xx xxxxxxxxx.
 
-## NOTES
-You can also use the Out-File cmdlet or the redirection operator, both of which save the output in a file but do not send it down the pipeline.
+## XXXXX
+Xxx xxx xxxx xxx xxx Xxx$Xxxx xxxxxx xx xxx xxxxxxxxxxx xxxxxxxx$ xxxx xx xxxxx xxxx xxx xxxxxx xx x xxxx xxx xx xxx xxxx xx xxxx xxx xxxxxxxx.
 
-Tee-Object uses Unicode encoding when it writes to files.
-As a result, the output might not be formatted properly in files with a different encoding.
-To specify the encoding, use the Out-File cmdlet.
+Xxx$Xxxxxx xxxx Xxxxxxx xxxxxxxx xxxx xx xxxxxx xx xxxxx.
+Xx x xxxxxx$ xxx xxxxxx xxxxx xxx xx xxxxxxxxx xxxxxxxx xx xxxxx xxxx x xxxxxxxxx xxxxxxxx.
+Xx xxxxxxx xxx xxxxxxxx$ xxx xxx Xxx$Xxxx xxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Select-Object]()
+[Xxxxxx$Xxxxxx]()
 
-[about_Redirection]()
+[xxxxx$Xxxxxxxxxxx]()
 

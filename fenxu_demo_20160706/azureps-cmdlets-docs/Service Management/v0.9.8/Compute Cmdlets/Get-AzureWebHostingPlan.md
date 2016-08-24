@@ -6,31 +6,31 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureWebHostingPlan
-## SYNOPSIS
-Gets Azure web hosting plans in the current subscription.
+# Xxx$XxxxxXxxXxxxxxxXxxx
+## XXXXXXXX
+Xxxx Xxxxx xxx xxxxxxx xxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureWebHostingPlan [[-WebSpaceName] <String>] [[-Name] <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Get-AzureWebHostingPlan cmdlet gets the Azure web hosting plans in the current subscription.
+Xxx Xxx$XxxxxXxxXxxxxxxXxxx xxxxxx xxxx xxx Xxxxx xxx xxxxxxx xxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
 
-By default, Get-AzureWebHostingPlan gets all Azure hosting plans in the current subscription and returns an object that provides basic information about the plans.
-When you use the WebSpace and Name parameters, Get-AzureWebHostingPlan returns a specific hosting plan object.
+Xx xxxxxxx$ Xxx$XxxxxXxxXxxxxxxXxxx xxxx xxx Xxxxx xxxxxxx xxxxx xx xxx xxxxxxx xxxxxxxxxxxx xxx xxxxxxx xx xxxxxx xxxx xxxxxxxx xxxxx xxxxxxxxxxx xxxxx xxx xxxxx.
+Xxxx xxx xxx xxx XxxXxxxx xxx Xxxx xxxxxxxxxx$ Xxx$XxxxxXxxXxxxxxxXxxx xxxxxxx x xxxxxxxx xxxxxxx xxxx xxxxxx.
 
-To find the current subscription, use the Current parameter of the Get-AzureSubscription cmdlet.
-To change the current subscription, use the Select-AzureSubscription cmdlet.
+Xx xxxx xxx xxxxxxx xxxxxxxxxxxx$ xxx xxx Xxxxxxx xxxxxxxxx xx xxx Xxx$XxxxxXxxxxxxxxxxx xxxxxx.
+Xx xxxxxx xxx xxxxxxx xxxxxxxxxxxx$ xxx xxx Xxxxxx$XxxxxXxxxxxxxxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all web hosting plans in a subscription
+### Xxxxxxx 0$ Xxx xxx xxx xxxxxxx xxxxx xx x xxxxxxxxxxxx
 ```
 PS C:\>Get-AzureWebHostingPlan 
 Name : Default1 
@@ -50,9 +50,9 @@ CurrentNumberOfWorkers : 0
 Status : Ready
 ```
 
-This command gets all Azure web hosting plans in the current subscription.
+Xxxx xxxxxxx xxxx xxx Xxxxx xxx xxxxxxx xxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
 
-### Example 2: Get a specific web hosting plan in a subscription
+### Xxxxxxx 0$ Xxx x xxxxxxxx xxx xxxxxxx xxxx xx x xxxxxxxxxxxx
 ```
 PS C:\>Get-AzureWebHostingPlan -WebSpaceName "westeuropewebspace" -Name "Default0" 
 Name : Default0 
@@ -65,14 +65,14 @@ Status : Ready
 WebSpace : westeuropewebspace
 ```
 
-This command gets the web hosting plan named Default0 in the webspace named westeuropewebspace in the current subscription.
+Xxxx xxxxxxx xxxx xxx xxx xxxxxxx xxxx xxxxx Xxxxxxx0 xx xxx xxxxxxxx xxxxx xxxxxxxxxxxxxxxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Name
-Specifies the name of a plan in the subscription.
-By default, this cmdlet gets all plans in the current subscription.
-This parameter does not support wildcard characters.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxx xx xxx xxxxxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
+Xxxx xxxxxxxxx xxxx xxx xxxxxxx xxxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -86,10 +86,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -WebSpaceName
-Specifies the name of a webspace in the subscription.
-By default, this cmdlet gets all websites in the specified webspace.
-This parameter does not support wildcard characters.
+### $XxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xx xxx xxxxxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxxx.
+Xxxx xxxxxxxxx xxxx xxx xxxxxxx xxxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -103,18 +103,18 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
 ### 
-You can pass input to this cmdlet by property name, but not by value.
+Xxx xxx xxxx xxxxx xx xxxx xxxxxx xx xxxxxxxx xxxx$ xxx xxx xx xxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.WindowsAzure.Commands.Utilities.Websites.Services.WebEntities.WebHostingPlan
-By default, Get-AzureWebHostingPlan returns an array of WebHostingPlan objects.
+### Xxxxxxxxx.XxxxxxxXxxxx.Xxxxxxxx.Xxxxxxxxx.Xxxxxxxx.Xxxxxxxx.XxxXxxxxxxx.XxxXxxxxxxXxxx
+Xx xxxxxxx$ Xxx$XxxxxXxxXxxxxxxXxxx xxxxxxx xx xxxxx xx XxxXxxxxxxXxxx xxxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 

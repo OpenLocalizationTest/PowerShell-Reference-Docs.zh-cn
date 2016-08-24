@@ -6,33 +6,33 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureRMAutomationCredential
-## SYNOPSIS
-Removes an Automation credential.
+# Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureRMAutomationCredential [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureRmAutomationCredential** cmdlet removes a credential from azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx$$ xxxxxx xxxxxxx x xxxxxxxxxx xxxx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a credential
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxxxx
 ```
 PS C:\>Remove-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -Name "ContosoCredential" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command removes a credential named ContosoCredential in the azure_2 Automation account named Contoso17.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxx xx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account from which this cmdlet removes a credential.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -46,8 +46,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the credential that this cmdlet removes.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -61,8 +61,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet removes a credential.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -76,8 +76,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -91,8 +91,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -106,18 +106,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationCredential](ea09d4b6-ff25-4b91-b957-328222844689)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](ea09d4b6-ff25-4b91-b957-328222844689)
 
-[New-AzureRmAutomationCredential](2e0b5b0e-df2b-4747-bb42-8e6b94f397e0)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](2e0b5b0e-df2b-4747-bb42-8e6b94f397e0)
 
-[Set-AzureRmAutomationCredential](f0f039fd-2b0b-4993-8408-471e0f7ad10b)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](f0f039fd-2b0b-4993-8408-471e0f7ad10b)
 
 

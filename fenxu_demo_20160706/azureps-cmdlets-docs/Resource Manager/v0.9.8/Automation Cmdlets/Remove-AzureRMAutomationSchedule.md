@@ -6,33 +6,33 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureRMAutomationSchedule
-## SYNOPSIS
-Deletes an Automation schedule.
+# Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxx
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureRMAutomationSchedule [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-Force] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureRmAutomationSchedule** cmdlet deletes a schedule from azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxx$$ xxxxxx xxxxxxx x xxxxxxxx xxxx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a schedule
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxx
 ```
 PS C:\>Remove-AzureRmAutomationSchedule -AutomationAccountName "Contoso17" -Name "Schedule01" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command modifies the description of the schedule named Schedule01.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxxxxx xxxxx Xxxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of an Automation account for which this cmdlet modifies a schedule.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxxx.
 
 ```yaml
 Type: String
@@ -46,8 +46,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-ps_force
+### $Xxxxx
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -61,8 +61,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name for the schedule that this cmdlet removes.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xxx xxx xxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -76,8 +76,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet removes a schedule.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxx.
 
 ```yaml
 Type: String
@@ -91,8 +91,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -106,8 +106,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -121,18 +121,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationSchedule](73a4a9ba-477c-41e6-9193-2be97182e07d)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](73a4a9ba-477c-41e6-9193-2be97182e07d)
 
-[New-AzureRmAutomationSchedule](36c11dd3-5843-49d2-8baa-9f5aa737d345)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](36c11dd3-5843-49d2-8baa-9f5aa737d345)
 
-[Set-AzureRmAutomationSchedule](2d34dc26-ead0-49f0-9e1a-9d4a81712616)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](2d34dc26-ead0-49f0-9e1a-9d4a81712616)
 
 

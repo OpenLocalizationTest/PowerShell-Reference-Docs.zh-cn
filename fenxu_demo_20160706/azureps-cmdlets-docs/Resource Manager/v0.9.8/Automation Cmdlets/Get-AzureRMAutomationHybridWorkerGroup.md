@@ -6,54 +6,54 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureRMAutomationHybridWorkerGroup
-## SYNOPSIS
-Gets hybrid runbook worker groups.
+# Xxx$XxxxxXXXxxxxxxxxxXxxxxxXxxxxxXxxxx
+## XXXXXXXX
+Xxxx xxxxxx xxxxxxx xxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRMAutomationHybridWorkerGroup [-ResourceGroupName] <String> [-AutomationAccountName] <String>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRMAutomationHybridWorkerGroup [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [[-Name] <String>]
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationHybridWorkerGroup** cmdlet gets azure_2 Automation hybrid runbook worker groups.
-To get a specific group, specify its name.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxXxxxxxXxxxx$$ xxxxxx xxxx xxxxx$0 Xxxxxxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx.
+Xx xxx x xxxxxxxx xxxxx$ xxxxxxx xxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all hybrid runbook worker groups
+### Xxxxxxx 0$ Xxx xxx xxxxxx xxxxxxx xxxxxx xxxxxx
 ```
 PS C:\>Get-AzureRMAutomationHybridWorkerGroup -ResourceGroupName "ResourceGroupName01" -AutomationAccountName "Contoso17"
 ```
 
-This command gets all hybrid runbook worker groups in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxx xxxxxx xxxxxxx xxxxxx xxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 2: Get a single hybrid runbook worker group
+### Xxxxxxx 0$ Xxx x xxxxxx xxxxxx xxxxxxx xxxxxx xxxxx
 ```
 PS C:\>Get-AzureRMAutomationHybridWorkerGroup -ResourceGroupName "ResourceGroupName01" -AutomationAccountName "Contoso17" -Name "HybridRunbookWorkerGroup01"
 ```
 
-This command gets the hybrid runbook worker group named HybridRunbookWorkerGroup01 in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxx xxxxxx xxxxxxx xxxxxx xxxxx xxxxx XxxxxxXxxxxxxXxxxxxXxxxx00 xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 3: Get the workers in a hybrid runbook worker group
+### Xxxxxxx 0$ Xxx xxx xxxxxxx xx x xxxxxx xxxxxxx xxxxxx xxxxx
 ```
 PS C:\>(Get-AzureRMAutomationHybridWorker -ResourceGroupName ResourceGroupName01 -AutomationAccountName Contoso17 -Name "HybridRunbookWorkerGroup01" ).RunbookWorker
 ```
 
-This command gets the hybrid runbook workers in the hybrid runbook worker group named HybridRunbookWorkerGroup01 in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxx xxxxxx xxxxxxx xxxxxxx xx xxx xxxxxx xxxxxxx xxxxxx xxxxx xxxxx XxxxxxXxxxxxxXxxxxxXxxxx00 xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of an Automation account.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -67,8 +67,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the hybrid runbook worker group name.
+### $Xxxx
+Xxxxxxxxx xxx xxxxxx xxxxxxx xxxxxx xxxxx xxxx.
 
 ```yaml
 Type: String
@@ -82,8 +82,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -97,14 +97,14 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.Azure.Commands.Automation.Model.HybridRunbookWorker
+### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.XxxxxxXxxxxxxXxxxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 

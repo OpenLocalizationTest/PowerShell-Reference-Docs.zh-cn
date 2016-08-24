@@ -6,41 +6,41 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageTable
-## SYNOPSIS
-Creates a storage table.
+# Xxx$XxxxxXxxxxxxXxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureStorageTable [-Name] <String> [-Context <AzureStorageContext>]
 ```
 
-## DESCRIPTION
-The **New-AzureStorageTable** cmdlet creates a storage table associated with the storage account in azure_2.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxx$$ xxxxxx xxxxxxx x xxxxxxx xxxxx xxxxxxxxxx xxxx xxx xxxxxxx xxxxxxx xx xxxxx$0.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create an azure storage table
+### Xxxxxxx 0$ Xxxxxx xx xxxxx xxxxxxx xxxxx
 ```
 PS C:\>New-AzureStorageTable -Name "tableabc"
 ```
 
-This command creates a storage table with a name of tableabc.
+Xxxx xxxxxxx xxxxxxx x xxxxxxx xxxxx xxxx x xxxx xx xxxxxxxx.
 
-### Example 2: Create multiple azure storage tables
+### Xxxxxxx 0$ Xxxxxx xxxxxxxx xxxxx xxxxxxx xxxxxx
 ```
 PS C:\>"table1 table2 table3".split() | New-AzureStorageTable
 ```
 
-This command creates multiple tables.
-It uses the **Split** method of the .NET **String** class and then passes the names on the pipeline.
+Xxxx xxxxxxx xxxxxxx xxxxxxxx xxxxxx.
+Xx xxxx xxx $$Xxxxx$$ xxxxxx xx xxx .XXX $$Xxxxxx$$ xxxxx xxx xxxx xxxxxx xxx xxxxx xx xxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies the storage context.
-To create it, you can use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxx.
+Xx xxxxxx xx$ xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -54,8 +54,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies a name for the new table.
+### $Xxxx
+Xxxxxxxxx x xxxx xxx xxx xxx xxxxx.
 
 ```yaml
 Type: String
@@ -69,16 +69,16 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageTable](5e8a9e67-ad04-4430-b057-a63cfb99585e)
+[Xxx$XxxxxXxxxxxxXxxxx](5e8a9e67-ad04-4430-b057-a63cfb99585e)
 
-[Remove-AzureStorageTable](f287198d-609e-4ac1-9221-9ce5453a732e)
+[Xxxxxx$XxxxxXxxxxxxXxxxx](f287198d-609e-4ac1-9221-9ce5453a732e)
 
 

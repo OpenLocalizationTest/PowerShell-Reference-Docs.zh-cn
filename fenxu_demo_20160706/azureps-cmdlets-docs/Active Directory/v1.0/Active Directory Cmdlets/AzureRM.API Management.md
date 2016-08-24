@@ -8,54 +8,54 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# AzureRM.API Management Module
-## Description
-{{Manually Enter Description Here}}
+# XxxxxXX.XXX Xxxxxxxxxx Xxxxxx
+## Xxxxxxxxxxx
+$$Xxxxxxxx Xxxxx Xxxxxxxxxxx Xxxx$$
 
-## AzureRM.API Management Cmdlets
-### [Add-AzureRmApiManagementRegion](Add-AzureRmApiManagementRegion.md)
-{{Manually Enter Add-AzureRmApiManagementRegion Description Here}}
+## XxxxxXX.XXX Xxxxxxxxxx Xxxxxxx
+### [Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxx](Add-AzureRmApiManagementRegion.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Backup-AzureRmApiManagement](Backup-AzureRmApiManagement.md)
-{{Manually Enter Backup-AzureRmApiManagement Description Here}}
+### [Xxxxxx$XxxxxXxXxxXxxxxxxxxx](Backup-AzureRmApiManagement.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRmApiManagementSsoToken](Get-AzureRmApiManagementSsoToken.md)
-{{Manually Enter Get-AzureRmApiManagementSsoToken Description Here}}
+### [Xxx$XxxxxXxXxxXxxxxxxxxxXxxXxxxx](Get-AzureRmApiManagementSsoToken.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxXxxxxxxxxxXxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRmApiManagement](Get-AzureRmApiManagement.md)
-{{Manually Enter Get-AzureRmApiManagement Description Here}}
+### [Xxx$XxxxxXxXxxXxxxxxxxxx](Get-AzureRmApiManagement.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Import-AzureRmApiManagementHostnameCertificate](Import-AzureRmApiManagementHostnameCertificate.md)
-{{Manually Enter Import-AzureRmApiManagementHostnameCertificate Description Here}}
+### [Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxx](Import-AzureRmApiManagementHostnameCertificate.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRmApiManagementHostnameConfiguration](New-AzureRmApiManagementHostnameConfiguration.md)
-{{Manually Enter New-AzureRmApiManagementHostnameConfiguration Description Here}}
+### [Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx](New-AzureRmApiManagementHostnameConfiguration.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRmApiManagementVirtualNetwork](New-AzureRmApiManagementVirtualNetwork.md)
-{{Manually Enter New-AzureRmApiManagementVirtualNetwork Description Here}}
+### [Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxXxxxxxx](New-AzureRmApiManagementVirtualNetwork.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRmApiManagement](New-AzureRmApiManagement.md)
-{{Manually Enter New-AzureRmApiManagement Description Here}}
+### [Xxx$XxxxxXxXxxXxxxxxxxxx](New-AzureRmApiManagement.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRmApiManagementRegion](Remove-AzureRmApiManagementRegion.md)
-{{Manually Enter Remove-AzureRmApiManagementRegion Description Here}}
+### [Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxx](Remove-AzureRmApiManagementRegion.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRmApiManagement](Remove-AzureRmApiManagement.md)
-{{Manually Enter Remove-AzureRmApiManagement Description Here}}
+### [Xxxxxx$XxxxxXxXxxXxxxxxxxxx](Remove-AzureRmApiManagement.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Restore-AzureRmApiManagement](Restore-AzureRmApiManagement.md)
-{{Manually Enter Restore-AzureRmApiManagement Description Here}}
+### [Xxxxxxx$XxxxxXxXxxXxxxxxxxxx](Restore-AzureRmApiManagement.md)
+$$Xxxxxxxx Xxxxx Xxxxxxx$XxxxxXxXxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureRmApiManagementHostnames](Set-AzureRmApiManagementHostnames.md)
-{{Manually Enter Set-AzureRmApiManagementHostnames Description Here}}
+### [Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxx](Set-AzureRmApiManagementHostnames.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureRmApiManagementVirtualNetworks](Set-AzureRmApiManagementVirtualNetworks.md)
-{{Manually Enter Set-AzureRmApiManagementVirtualNetworks Description Here}}
+### [Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxXxxxxxxx](Set-AzureRmApiManagementVirtualNetworks.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Update-AzureRmApiManagementDeployment](Update-AzureRmApiManagementDeployment.md)
-{{Manually Enter Update-AzureRmApiManagementDeployment Description Here}}
+### [Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxxx](Update-AzureRmApiManagementDeployment.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Update-AzureRmApiManagementRegion](Update-AzureRmApiManagementRegion.md)
-{{Manually Enter Update-AzureRmApiManagementRegion Description Here}}
+### [Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxx](Update-AzureRmApiManagementRegion.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
 

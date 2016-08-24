@@ -4,39 +4,39 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293949
 schema: 2.0.0
 ---
 
-# ConvertTo-Csv
-## SYNOPSIS
-Converts objects into a series of comma-separated value (CSV) variable-length strings.
+# XxxxxxxXx$Xxx
+## XXXXXXXX
+Xxxxxxxx xxxxxxx xxxx x xxxxxx xx xxxxx$xxxxxxxxx xxxxx $XXX$ xxxxxxxx$xxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### Delimiter (Default)
+### Xxxxxxxxx $Xxxxxxx$
 ```
 ConvertTo-Csv [-InputObject] <PSObject> [[-Delimiter] <Char>] [-NoTypeInformation]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### UseCulture
+### XxxXxxxxxx
 ```
 ConvertTo-Csv [-InputObject] <PSObject> [-UseCulture] [-NoTypeInformation]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The ConvertTo-CSV cmdlet returns a series of comma-separated (CSV) strings that represents the objects that you submit.
-You can then use the ConvertFrom-CSV cmdlet to re-create objects from the CSV strings.
-The resulting objects are CSV versions of the original objects that consist of string representations of the property values and no methods.
+## XXXXXXXXXXX
+Xxx XxxxxxxXx$XXX xxxxxx xxxxxxx x xxxxxx xx xxxxx$xxxxxxxxx $XXX$ xxxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xxxx xxx xxxxxx.
+Xxx xxx xxxx xxx xxx XxxxxxxXxxx$XXX xxxxxx xx xx$xxxxxx xxxxxxx xxxx xxx XXX xxxxxxx.
+Xxx xxxxxxxxx xxxxxxx xxx XXX xxxxxxxx xx xxx xxxxxxxx xxxxxxx xxxx xxxxxxx xx xxxxxx xxxxxxxxxxxxxxx xx xxx xxxxxxxx xxxxxx xxx xx xxxxxxx.
 
-You can also use the T:Microsoft.PowerShell.Commands.Export-Csv and T:Microsoft.PowerShell.Commands.Import-Csv cmdlets to convert objects to CSV strings (and back).
-Export-CSV is the same as ConvertTo-CSV, except that it saves the CSV strings in a file.
+Xxx xxx xxxx xxx xxx X$Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.Xxxxxx$Xxx xxx X$Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.Xxxxxx$Xxx xxxxxxx xx xxxxxxx xxxxxxx xx XXX xxxxxxx $xxx xxxx$.
+Xxxxxx$XXX xx xxx xxxx xx XxxxxxxXx$XXX$ xxxxxx xxxx xx xxxxx xxx XXX xxxxxxx xx x xxxx.
 
-You can use the parameters of the ConvertTo-CSV cmdlet to specify a delimiter other than a comma or to direct ConvertTo-CSV to use the default delimiter for the current culture.
+Xxx xxx xxx xxx xxxxxxxxxx xx xxx XxxxxxxXx$XXX xxxxxx xx xxxxxxx x xxxxxxxxx xxxxx xxxx x xxxxx xx xx xxxxxx XxxxxxxXx$XXX xx xxx xxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxx xxxxxxx.
 
-For more information, see Export-CSV, and see the Notes section.
+Xxx xxxx xxxxxxxxxxx$ xxx Xxxxxx$XXX$ xxx xxx xxx Xxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process powershell | convertto-csv
 #TYPE System.Diagnostics.Process
@@ -59,46 +59,46 @@ cs.ProcessModuleCollection","21692","21692","63197184","63197184","320080","3200
 00225","00:00:03.3072212","597544960","597544960","False",,,,"60399616","60399616",,
 ```
 
-This command converts a single process object to CSV format.
-The command uses the Get-Process cmdlet to get the PowerShell process on the local computer.
-It uses a pipeline operator (|) to send the command to the ConvertTo-CSV cmdlet, which converts it to a series of comma-separated strings.
+Xxxx xxxxxxx xxxxxxxx x xxxxxx xxxxxxx xxxxxx xx XXX xxxxxx.
+Xxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx XxxxxXxxxx xxxxxxx xx xxx xxxxx xxxxxxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xx xxx XxxxxxxXx$XXX xxxxxx$ xxxxx xxxxxxxx xx xx x xxxxxx xx xxxxx$xxxxxxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$date = get-date
 PS C:\>convertto-csv -inputobject $date -delimiter ";" -notypeinformation
 ```
 
-This example converts a date object to CSV format.
+Xxxx xxxxxxx xxxxxxxx x xxxx xxxxxx xx XXX xxxxxx.
 
-The first command uses the Get-Date cmdlet to get the current date.
-It saves it in the $date variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxx xxxxxx xx xxx xxx xxxxxxx xxxx.
+Xx xxxxx xx xx xxx $xxxx xxxxxxxx.
 
-The second command uses the ConvertTo-CSV cmdlet to convert the DateTime object in the $date variable to CSV format.
-The command uses the InputObject parameter to specify the object to be converted.
-It uses the Delimiter parameter to specify the delimiter that separates the object properties.
-It uses the NoTypeInformation parameter to suppress the #TYPE string.
+Xxx xxxxxx xxxxxxx xxxx xxx XxxxxxxXx$XXX xxxxxx xx xxxxxxx xxx XxxxXxxx xxxxxx xx xxx $xxxx xxxxxxxx xx XXX xxxxxx.
+Xxx xxxxxxx xxxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxx xx xx xxxxxxxxx.
+Xx xxxx xxx Xxxxxxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxxxxx xxxx xxxxxxxxx xxx xxxxxx xxxxxxxxxx.
+Xx xxxx xxx XxXxxxXxxxxxxxxxx xxxxxxxxx xx xxxxxxxx xxx $XXXX xxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-eventlog -log "windows powershell" | convertto-csv -useculture
 ```
 
-This command converts the Windows PowerShell event log on the local computer to a series of CSV strings.
+Xxxx xxxxxxx xxxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxxx xxx xx xxx xxxxx xxxxxxxx xx x xxxxxx xx XXX xxxxxxx.
 
-The command uses the Get-EventLog cmdlet to get the events in the Windows PowerShell log.
-A pipeline operator (|) sends the events to the ConvertTo-CSV cmdlet, which converts the events to CSV format.
-The command uses the UseCulture parameter, which uses the list separator for the current culture as the delimiter.
+Xxx xxxxxxx xxxx xxx Xxx$XxxxxXxx xxxxxx xx xxx xxx xxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxx.
+X xxxxxxxx xxxxxxxx $$$ xxxxx xxx xxxxxx xx xxx XxxxxxxXx$XXX xxxxxx$ xxxxx xxxxxxxx xxx xxxxxx xx XXX xxxxxx.
+Xxx xxxxxxx xxxx xxx XxxXxxxxxx xxxxxxxxx$ xxxxx xxxx xxx xxxx xxxxxxxxx xxx xxx xxxxxxx xxxxxxx xx xxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Delimiter
-Specifies a delimiter to separate the property values.
-The default is a comma (,).
-Enter a character, such as a colon (:).
+### $Xxxxxxxxx
+Xxxxxxxxx x xxxxxxxxx xx xxxxxxxx xxx xxxxxxxx xxxxxx.
+Xxx xxxxxxx xx x xxxxx $$$.
+Xxxxx x xxxxxxxxx$ xxxx xx x xxxxx $$$.
 
-To specify a semicolon (;), enclose it in quotation marks.
-Otherwise, it will be interpreted as the command delimiter.
+Xx xxxxxxx x xxxxxxxxx $$$$ xxxxxxx xx xx xxxxxxxxx xxxxx.
+Xxxxxxxxx$ xx xxxx xx xxxxxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: Char
@@ -112,9 +112,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-To specify a semicolon (;), enclose it in quotation marks.
-Otherwise, it will be interpreted as the command delimiter.
+### $XxxxxxxxxxxXxxxxx
+Xx xxxxxxx x xxxxxxxxx $$$$ xxxxxxx xx xx xxxxxxxxx xxxxx.
+Xxxxxxxxx$ xx xxxx xx xxxxxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -129,9 +129,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-To specify a semicolon (;), enclose it in quotation marks.
-Otherwise, it will be interpreted as the command delimiter.
+### $XxxxxxxxxxxXxxxxxxx
+Xx xxxxxxx x xxxxxxxxx $$$$ xxxxxxx xx xx xxxxxxxxx xxxxx.
+Xxxxxxxxx$ xx xxxx xx xxxxxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -145,10 +145,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the objects to export as CSV strings.
-Enter a variable that contains the objects or type a command or expression that gets the objects.
-You can also pipe objects to ConvertTo-CSV.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxxxxx xx XXX xxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
+Xxx xxx xxxx xxxx xxxxxxx xx XxxxxxxXx$XXX.
 
 ```yaml
 Type: PSObject
@@ -162,9 +162,9 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -NoTypeInformation
-Omits the type information header from the output.
-By default, the string in the output contains "#TYPE " followed by the fully-qualified name of the object type.
+### $XxXxxxXxxxxxxxxxx
+Xxxxx xxx xxxx xxxxxxxxxxx xxxxxx xxxx xxx xxxxxx.
+Xx xxxxxxx$ xxx xxxxxx xx xxx xxxxxx xxxxxxxx $$XXXX $ xxxxxxxx xx xxx xxxxx$xxxxxxxxx xxxx xx xxx xxxxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -178,12 +178,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -UseCulture
-Uses the list separator for the current culture as the data delimiter.
-The default is a comma (,).
+### $XxxXxxxxxx
+Xxxx xxx xxxx xxxxxxxxx xxx xxx xxxxxxx xxxxxxx xx xxx xxxx xxxxxxxxx.
+Xxx xxxxxxx xx x xxxxx $$$.
 
-This parameter is very useful in scripts that are being distributed to users worldwide.
-To find the list separator for a culture, use the following command: (Get-Culture).TextInfo.ListSeparator.
+Xxxx xxxxxxxxx xx xxxx xxxxxx xx xxxxxxx xxxx xxx xxxxx xxxxxxxxxxx xx xxxxx xxxxxxxxx.
+Xx xxxx xxx xxxx xxxxxxxxx xxx x xxxxxxx$ xxx xxx xxxxxxxxx xxxxxxx$ $Xxx$Xxxxxxx$.XxxxXxxx.XxxxXxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -197,36 +197,36 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any object that has an Extended Type System (ETS) adapter to ConvertTo-CSV.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xxxx xxx xx Xxxxxxxx Xxxx Xxxxxx $XXX$ xxxxxxx xx XxxxxxxXx$XXX.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.String
-The CSV output is returned as a collection of strings.
+### Xxxxxx.Xxxxxx
+Xxx XXX xxxxxx xx xxxxxxxx xx x xxxxxxxxxx xx xxxxxxx.
 
-## NOTES
-In CSV format, each object is represented by a comma-separated list of its property value.
-The property values are converted to strings (by using the ToString() method of the object), so they are generally represented by the name of the property value.
-ConvertTo-CSV does not export the methods of the object.
+## XXXXX
+Xx XXX xxxxxx$ xxxx xxxxxx xx xxxxxxxxxxx xx x xxxxx$xxxxxxxxx xxxx xx xxx xxxxxxxx xxxxx.
+Xxx xxxxxxxx xxxxxx xxx xxxxxxxxx xx xxxxxxx $xx xxxxx xxx XxXxxxxx$$ xxxxxx xx xxx xxxxxx$$ xx xxxx xxx xxxxxxxxx xxxxxxxxxxx xx xxx xxxx xx xxx xxxxxxxx xxxxx.
+XxxxxxxXx$XXX xxxx xxx xxxxxx xxx xxxxxxx xx xxx xxxxxx.
 
-The format of the resulting CSV strings is as follows:
+Xxx xxxxxx xx xxx xxxxxxxxx XXX xxxxxxx xx xx xxxxxxx$
 
--- The first string consists of '#TYPE ' followed by the fully-qualified name of the object type, such as #TYPE System.Diagnostics.Process. To suppress this string, use the NoTypeInformation parameter.
--- The next string represents the column headers. It contains a comma-separated list of the names of all the properties of the first object.
--- The remaining strings consist of comma-separated lists of the property values of each object.
+$$ Xxx xxxxx xxxxxx xxxxxxxx xx $$XXXX $ xxxxxxxx xx xxx xxxxx$xxxxxxxxx xxxx xx xxx xxxxxx xxxx$ xxxx xx $XXXX Xxxxxx.Xxxxxxxxxxx.Xxxxxxx. Xx xxxxxxxx xxxx xxxxxx$ xxx xxx XxXxxxXxxxxxxxxxx xxxxxxxxx.
+$$ Xxx xxxx xxxxxx xxxxxxxxxx xxx xxxxxx xxxxxxx. Xx xxxxxxxx x xxxxx$xxxxxxxxx xxxx xx xxx xxxxx xx xxx xxx xxxxxxxxxx xx xxx xxxxx xxxxxx.
+$$ Xxx xxxxxxxxx xxxxxxx xxxxxxx xx xxxxx$xxxxxxxxx xxxxx xx xxx xxxxxxxx xxxxxx xx xxxx xxxxxx.
 
-When you submit multiple objects to ConvertTo-CSV, ConvertTo-CSV orders the strings based on the properties of the first object that you submit.
-If the remaining objects do not have one of the specified properties, the property value of that object is null, as represented by two consecutive commas.
-If the remaining objects have additional properties, those property values are ignored.
+Xxxx xxx xxxxxx xxxxxxxx xxxxxxx xx XxxxxxxXx$XXX$ XxxxxxxXx$XXX xxxxxx xxx xxxxxxx xxxxx xx xxx xxxxxxxxxx xx xxx xxxxx xxxxxx xxxx xxx xxxxxx.
+Xx xxx xxxxxxxxx xxxxxxx xx xxx xxxx xxx xx xxx xxxxxxxxx xxxxxxxxxx$ xxx xxxxxxxx xxxxx xx xxxx xxxxxx xx xxxx$ xx xxxxxxxxxxx xx xxx xxxxxxxxxxx xxxxxx.
+Xx xxx xxxxxxxxx xxxxxxx xxxx xxxxxxxxxx xxxxxxxxxx$ xxxxx xxxxxxxx xxxxxx xxx xxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[ConvertFrom-Csv]()
+[XxxxxxxXxxx$Xxx]()
 
-[Export-Csv]()
+[Xxxxxx$Xxx]()
 
-[Import-Csv]()
+[Xxxxxx$Xxx]()
 

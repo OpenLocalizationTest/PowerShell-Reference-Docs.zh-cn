@@ -4,65 +4,65 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294020
 schema: 2.0.0
 ---
 
-# Trace-Command
-## SYNOPSIS
-Configures and starts a trace of the specified expression or command.
+# Xxxxx$Xxxxxxx
+## XXXXXXXX
+Xxxxxxxxxx xxx xxxxxx x xxxxx xx xxx xxxxxxxxx xxxxxxxxxx xx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### expressionSet (Default)
+### xxxxxxxxxxXxx $Xxxxxxx$
 ```
 Trace-Command [-InputObject <PSObject>] [-Name] <String[]> [[-Option] <PSTraceSourceOptions>]
  [-Expression] <ScriptBlock> [-ListenerOption <TraceOptions>] [-FilePath <String>] [-Force] [-Debugger]
  [-PSHost] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### commandSet
+### xxxxxxxXxx
 ```
 Trace-Command [-InputObject <PSObject>] [-Name] <String[]> [[-Option] <PSTraceSourceOptions>]
  [-Command] <String> [-ArgumentList <Object[]>] [-ListenerOption <TraceOptions>] [-FilePath <String>] [-Force]
  [-Debugger] [-PSHost] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Trace-Command cmdlet configures and starts a trace of the specified expression or command.
-It works like Set-TraceSource, except that it applies only to the specified command.
+## XXXXXXXXXXX
+Xxx Xxxxx$Xxxxxxx xxxxxx xxxxxxxxxx xxx xxxxxx x xxxxx xx xxx xxxxxxxxx xxxxxxxxxx xx xxxxxxx.
+Xx xxxxx xxxx Xxx$XxxxxXxxxxx$ xxxxxx xxxx xx xxxxxxx xxxx xx xxx xxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>trace-command -name metadata,parameterbinding,cmdlet -expression {get-process notepad} -pshost
 ```
 
-This command starts a trace of metadata processing, parameter binding, and cmdlet creation and destruction of the "get-process notepad" expression.
-It uses the Name parameter to specify the trace sources, the Expression parameter to specify the command, and the PSHost parameter to send the output to the console.
-Because it does not specify any tracing options or listener options, the command uses the defaults, "All" for the tracing options, and "None" for the listener options.
+Xxxx xxxxxxx xxxxxx x xxxxx xx xxxxxxxx xxxxxxxxxx$ xxxxxxxxx xxxxxxx$ xxx xxxxxx xxxxxxxx xxx xxxxxxxxxxx xx xxx $xxx$xxxxxxx xxxxxxx$ xxxxxxxxxx.
+Xx xxxx xxx Xxxx xxxxxxxxx xx xxxxxxx xxx xxxxx xxxxxxx$ xxx Xxxxxxxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxxx$ xxx xxx XXXxxx xxxxxxxxx xx xxxx xxx xxxxxx xx xxx xxxxxxx.
+Xxxxxxx xx xxxx xxx xxxxxxx xxx xxxxxxx xxxxxxx xx xxxxxxxx xxxxxxx$ xxx xxxxxxx xxxx xxx xxxxxxxx$ $Xxx$ xxx xxx xxxxxxx xxxxxxx$ xxx $Xxxx$ xxx xxx xxxxxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = "i*"
 PS C:\>trace-command parameterbinding {get-alias $input} -pshost -inputobject $a
 ```
 
-These commands trace the actions of the ParameterBinding operations of Windows PowerShell while it processes a Get-Alias expression that takes input from the pipeline.
+Xxxxx xxxxxxxx xxxxx xxx xxxxxxx xx xxx XxxxxxxxxXxxxxxx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx xxxxx xx xxxxxxxxx x Xxx$Xxxxx xxxxxxxxxx xxxx xxxxx xxxxx xxxx xxx xxxxxxxx.
 
-In Trace-Command, the InputObject parameter passes an object to the expression that is being processed during the trace.
+Xx Xxxxx$Xxxxxxx$ xxx XxxxxXxxxxx xxxxxxxxx xxxxxx xx xxxxxx xx xxx xxxxxxxxxx xxxx xx xxxxx xxxxxxxxx xxxxxx xxx xxxxx.
 
-The first command stores the string "i*" in the $a variable.
-The second command uses the Trace-Command cmdlet with the ParameterBinding trace source.
-The PSHost parameter sends the output to the console.
+Xxx xxxxx xxxxxxx xxxxxx xxx xxxxxx $x$$ xx xxx $x xxxxxxxx.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxx$Xxxxxxx xxxxxx xxxx xxx XxxxxxxxxXxxxxxx xxxxx xxxxxx.
+Xxx XXXxxx xxxxxxxxx xxxxx xxx xxxxxx xx xxx xxxxxxx.
 
-The expression being processed is "get-alias $input", where the $input variable is associated with the InputObject parameter.
-The InputObject parameter passes the variable $a to the expression.
-In effect, the command being processed during the trace is "get-alias -inputobject $a" or "$a | get-alias".
+Xxx xxxxxxxxxx xxxxx xxxxxxxxx xx $xxx$xxxxx $xxxxx$$ xxxxx xxx $xxxxx xxxxxxxx xx xxxxxxxxxx xxxx xxx XxxxxXxxxxx xxxxxxxxx.
+Xxx XxxxxXxxxxx xxxxxxxxx xxxxxx xxx xxxxxxxx $x xx xxx xxxxxxxxxx.
+Xx xxxxxx$ xxx xxxxxxx xxxxx xxxxxxxxx xxxxxx xxx xxxxx xx $xxx$xxxxx $xxxxxxxxxxx $x$ xx $$x $ xxx$xxxxx$.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ArgumentList
-Specifies the parameters and parameter values for the command being traced.
-The alias for ArgumentList is Args.
-This feature is especially useful for debugging dynamic parameters.
+### $XxxxxxxxXxxx
+Xxxxxxxxx xxx xxxxxxxxxx xxx xxxxxxxxx xxxxxx xxx xxx xxxxxxx xxxxx xxxxxx.
+Xxx xxxxx xxx XxxxxxxxXxxx xx Xxxx.
+Xxxx xxxxxxx xx xxxxxxxxxx xxxxxx xxx xxxxxxxxx xxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: Object[]
@@ -76,8 +76,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Command
-Specifies a command that is being processed during the trace.
+### $Xxxxxxx
+Xxxxxxxxx x xxxxxxx xxxx xx xxxxx xxxxxxxxx xxxxxx xxx xxxxx.
 
 ```yaml
 Type: String
@@ -91,10 +91,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Debugger
-Sends the trace output to the debugger.
-You can view the output in any user-mode or kernel mode debugger or in Visual Studio.
-This parameter also selects the default trace listener.
+### $Xxxxxxxx
+Xxxxx xxx xxxxx xxxxxx xx xxx xxxxxxxx.
+Xxx xxx xxxx xxx xxxxxx xx xxx xxxx$xxxx xx xxxxxx xxxx xxxxxxxx xx xx Xxxxxx Xxxxxx.
+Xxxx xxxxxxxxx xxxx xxxxxxx xxx xxxxxxx xxxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -108,9 +108,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Expression
-Specifies the expression that is being processed during the trace.
-Enclose the expression in braces ({}).
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxx xxxx xx xxxxx xxxxxxxxx xxxxxx xxx xxxxx.
+Xxxxxxx xxx xxxxxxxxxx xx xxxxxx $$$$.
 
 ```yaml
 Type: ScriptBlock
@@ -124,9 +124,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FilePath
-Sends the trace output to the specified file.
-This parameter also selects the file trace listener.
+### $XxxxXxxx
+Xxxxx xxx xxxxx xxxxxx xx xxx xxxxxxxxx xxxx.
+Xxxx xxxxxxxxx xxxx xxxxxxx xxx xxxx xxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -140,10 +140,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Allows the cmdlet to append trace information to a read-only file.
-Used with the FilePath parameter.
-Even using the Force parameter, the cmdlet cannot override security restrictions.
+### $Xxxxx
+Xxxxxx xxx xxxxxx xx xxxxxx xxxxx xxxxxxxxxxx xx x xxxx$xxxx xxxx.
+Xxxx xxxx xxx XxxxXxxx xxxxxxxxx.
+Xxxx xxxxx xxx Xxxxx xxxxxxxxx$ xxx xxxxxx xxxxxx xxxxxxxx xxxxxxxx xxxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -157,8 +157,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -173,8 +173,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -188,10 +188,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Provides input to the expression that is being processed during the trace.
+### $XxxxxXxxxxx
+Xxxxxxxx xxxxx xx xxx xxxxxxxxxx xxxx xx xxxxx xxxxxxxxx xxxxxx xxx xxxxx.
 
-You can enter a variable that represents the input that the expression accepts, or pass an object through the pipeline.
+Xxx xxx xxxxx x xxxxxxxx xxxx xxxxxxxxxx xxx xxxxx xxxx xxx xxxxxxxxxx xxxxxxx$ xx xxxx xx xxxxxx xxxxxxx xxx xxxxxxxx.
 
 ```yaml
 Type: PSObject
@@ -205,12 +205,12 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -ListenerOption
-Adds optional data to the prefix of each trace message in the output.
-The valid values are None, LogicalOperationStack, DateTime, Timestamp, ProcessId, ThreadId, and Callstack.
-"None" is the default.
+### $XxxxxxxxXxxxxx
+Xxxx xxxxxxxx xxxx xx xxx xxxxxx xx xxxx xxxxx xxxxxxx xx xxx xxxxxx.
+Xxx xxxxx xxxxxx xxx Xxxx$ XxxxxxxXxxxxxxxxXxxxx$ XxxxXxxx$ Xxxxxxxxx$ XxxxxxxXx$ XxxxxxXx$ xxx Xxxxxxxxx.
+$Xxxx$ xx xxx xxxxxxx.
 
-To specify multiple options, separate them with commas, but with no spaces, and enclose them in quotation marks, such as "ProcessID,ThreadID".
+Xx xxxxxxx xxxxxxxx xxxxxxx$ xxxxxxxx xxxx xxxx xxxxxx$ xxx xxxx xx xxxxxx$ xxx xxxxxxx xxxx xx xxxxxxxxx xxxxx$ xxxx xx $XxxxxxxXX$XxxxxxXX$.
 
 ```yaml
 Type: TraceOptions
@@ -225,11 +225,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Determines which Windows PowerShell components are traced.
-Enter the name of the trace source of each component.
-Wildcards are permitted.
-To find the trace sources on your computer, type "Get-TraceSource".
+### $Xxxx
+Xxxxxxxxxx xxxxx Xxxxxxx XxxxxXxxxx xxxxxxxxxx xxx xxxxxx.
+Xxxxx xxx xxxx xx xxx xxxxx xxxxxx xx xxxx xxxxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
+Xx xxxx xxx xxxxx xxxxxxx xx xxxx xxxxxxxx$ xxxx $Xxx$XxxxxXxxxxx$.
 
 ```yaml
 Type: String[]
@@ -243,19 +243,17 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Option
-Determines the type of events that are traced.
+### $Xxxxxx
+Xxxxxxxxxx xxx xxxx xx xxxxxx xxxx xxx xxxxxx.
 
-The valid values are None, Constructor, Dispose, Finalizer, Method, Property, Delegates, Events, Exception, Lock, Error, Errors, Warning, Verbose, WriteLine, Data, Scope, ExecutionFlow, Assert, and All.
-"All" is the default.
+Xxx xxxxx xxxxxx xxx Xxxx$ Xxxxxxxxxxx$ Xxxxxxx$ Xxxxxxxxx$ Xxxxxx$ Xxxxxxxx$ Xxxxxxxxx$ Xxxxxx$ Xxxxxxxxx$ Xxxx$ Xxxxx$ Xxxxxx$ Xxxxxxx$ Xxxxxxx$ XxxxxXxxx$ Xxxx$ Xxxxx$ XxxxxxxxxXxxx$ Xxxxxx$ xxx Xxx.
+$Xxx$ xx xxx xxxxxxx.
 
-The following values are combinations of other values:
+Xxx xxxxxxxxx xxxxxx xxx xxxxxxxxxxxx xx xxxxx xxxxxx$
 
--- ExecutionFlow: (Constructor, Dispose, Finalizer, Method, Delegates, Events, and Scope)
--- Data: (Constructor, Dispose, Finalizer, Property, Verbose, and WriteLine)
--- Errors: (Error and Exception).
+$$ XxxxxxxxxXxxx$ $Xxxxxxxxxxx$ Xxxxxxx$ Xxxxxxxxx$ Xxxxxx$ Xxxxxxxxx$ Xxxxxx$ xxx Xxxxx$ $$ Xxxx$ $Xxxxxxxxxxx$ Xxxxxxx$ Xxxxxxxxx$ Xxxxxxxx$ Xxxxxxx$ xxx XxxxxXxxx$ $$ Xxxxxx$ $Xxxxx xxx Xxxxxxxxx$.
 
-To specify multiple options, separate them with commas, but with no spaces, and enclose them in quotation marks, such as "Constructor,Dispose".
+Xx xxxxxxx xxxxxxxx xxxxxxx$ xxxxxxxx xxxx xxxx xxxxxx$ xxx xxxx xx xxxxxx$ xxx xxxxxxx xxxx xx xxxxxxxxx xxxxx$ xxxx xx $Xxxxxxxxxxx$Xxxxxxx$.
 
 ```yaml
 Type: PSTraceSourceOptions
@@ -269,9 +267,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PSHost
-Sends the trace output to the Windows PowerShell host.
-This parameter also selects the PSHost trace listener.
+### $XXXxxx
+Xxxxx xxx xxxxx xxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxx.
+Xxxx xxxxxxxxx xxxx xxxxxxx xxx XXXxxx xxxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -285,41 +283,41 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe objects that represent input to the expression to Trace-Command.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxxxxxx xxxx xxxxxxxxx xxxxx xx xxx xxxxxxxxxx xx Xxxxx$Xxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.PSObject
-Returns the command trace in the debug stream.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxxxxxx xxx xxxxxxx xxxxx xx xxx xxxxx xxxxxx.
 
-## NOTES
-Tracing is a method that developers use to debug and refine programs.
-When tracing, the program generates detailed messages about each step in its internal processing.
+## XXXXX
+Xxxxxxx xx x xxxxxx xxxx xxxxxxxxxx xxx xx xxxxx xxx xxxxxx xxxxxxxx.
+Xxxx xxxxxxx$ xxx xxxxxxx xxxxxxxxx xxxxxxxx xxxxxxxx xxxxx xxxx xxxx xx xxx xxxxxxxx xxxxxxxxxx.
 
-The Windows PowerShell tracing cmdlets are designed to help Windows PowerShell developers, but they are available to all users.
-They let you monitor nearly every aspect of the functionality of the shell.
+Xxx Xxxxxxx XxxxxXxxxx xxxxxxx xxxxxxx xxx xxxxxxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxxxxx$ xxx xxxx xxx xxxxxxxxx xx xxx xxxxx.
+Xxxx xxx xxx xxxxxxx xxxxxx xxxxx xxxxxx xx xxx xxxxxxxxxxxxx xx xxx xxxxx.
 
-To find the Windows PowerShell components that are enabled for tracing, type "Get-Help Get-TraceSource."
+Xx xxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxxx xxxx xxx xxxxxxx xxx xxxxxxx$ xxxx $Xxx$Xxxx Xxx$XxxxxXxxxxx.$
 
-A "trace source" is the part of each Windows PowerShell component that manages tracing and generates trace messages for the component.
-To trace a component, you identify its trace source.
+X $xxxxx xxxxxx$ xx xxx xxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxxxx xxxx xxxxxxx xxxxxxx xxx xxxxxxxxx xxxxx xxxxxxxx xxx xxx xxxxxxxxx.
+Xx xxxxx x xxxxxxxxx$ xxx xxxxxxxx xxx xxxxx xxxxxx.
 
-A "trace listener" receives the output of the trace and displays it to the user.
-You can elect to send the trace data to a user-mode or kernel-mode debugger, to the host or console, to a file, or to a custom listener derived from the System.Diagnostics.TraceListener class.
+X $xxxxx xxxxxxxx$ xxxxxxxx xxx xxxxxx xx xxx xxxxx xxx xxxxxxxx xx xx xxx xxxx.
+Xxx xxx xxxxx xx xxxx xxx xxxxx xxxx xx x xxxx$xxxx xx xxxxxx$xxxx xxxxxxxx$ xx xxx xxxx xx xxxxxxx$ xx x xxxx$ xx xx x xxxxxx xxxxxxxx xxxxxxx xxxx xxx Xxxxxx.Xxxxxxxxxxx.XxxxxXxxxxxxx xxxxx.
 
-When you use the Command parameter set, Windows PowerShell processes the command just as it would be processed in a pipeline.
-For example, command discovery is not repeated for each incoming object.
+Xxxx xxx xxx xxx Xxxxxxx xxxxxxxxx xxx$ Xxxxxxx XxxxxXxxxx xxxxxxxxx xxx xxxxxxx xxxx xx xx xxxxx xx xxxxxxxxx xx x xxxxxxxx.
+Xxx xxxxxxx$ xxxxxxx xxxxxxxxx xx xxx xxxxxxxx xxx xxxx xxxxxxxx xxxxxx.
 
-The names of the Name, Expression, Option, and Command parameters are optional.
-If you omit the parameter names, the unnamed parameter values must appear in this order: Name, Expression, Option or Name, Command,-Option .
-If you include the parameter names, the parameters can appear in any order.
+Xxx xxxxx xx xxx Xxxx$ Xxxxxxxxxx$ Xxxxxx$ xxx Xxxxxxx xxxxxxxxxx xxx xxxxxxxx.
+Xx xxx xxxx xxx xxxxxxxxx xxxxx$ xxx xxxxxxx xxxxxxxxx xxxxxx xxxx xxxxxx xx xxxx xxxxx$ Xxxx$ Xxxxxxxxxx$ Xxxxxx xx Xxxx$ Xxxxxxx$$Xxxxxx .
+Xx xxx xxxxxxx xxx xxxxxxxxx xxxxx$ xxx xxxxxxxxxx xxx xxxxxx xx xxx xxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-TraceSource]()
+[Xxx$XxxxxXxxxxx]()
 
-[Set-TraceSource]()
+[Xxx$XxxxxXxxxxx]()
 

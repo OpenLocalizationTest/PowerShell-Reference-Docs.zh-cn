@@ -6,33 +6,33 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageServiceMetricsProperty
-## SYNOPSIS
-Gets metrics properties for the azure_2 Storage service.
+# Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx
+## XXXXXXXX
+Xxxx xxxxxxx xxxxxxxxxx xxx xxx xxxxx$0 Xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureStorageServiceMetricsProperty [-ServiceType] [-MetricsType] [-Context <AzureStorageContext>]
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageServiceMetricsProperty** cmdlet gets metrics properties for the azure_2 Storage service.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx$$ xxxxxx xxxx xxxxxxx xxxxxxxxxx xxx xxx xxxxx$0 Xxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get metrics properties for the Blob service
+### Xxxxxxx 0$ Xxx xxxxxxx xxxxxxxxxx xxx xxx Xxxx xxxxxxx
 ```
 C:\PS>Get-AzureStorageServiceMetricsProperty -ServiceType Blob -MetricsType Hour
 ```
 
-This command gets metrics properties for blob storage for the Hour metrics type.
+Xxxx xxxxxxx xxxx xxxxxxx xxxxxxxxxx xxx xxxx xxxxxxx xxx xxx Xxxx xxxxxxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -46,10 +46,10 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -MetricsType
-Specifies a metrics type.
-This cmdlet gets the azure_2 Storage service metrics properties for the metrics type that this parameter specifies.
-psdx_paramvalues Hour and Minute.
+### $XxxxxxxXxxx
+Xxxxxxxxx x xxxxxxx xxxx.
+Xxxx xxxxxx xxxx xxx xxxxx$0 Xxxxxxx xxxxxxx xxxxxxx xxxxxxxxxx xxx xxx xxxxxxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+xxxx$xxxxxxxxxxx Xxxx xxx Xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -64,17 +64,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServiceType
-Specifies the storage service type.
-This cmdlet gets the metrics properties for the type that this parameter specifies.
-psdx_paramvalues
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxx xxxx.
+Xxxx xxxxxx xxxx xxx xxxxxxx xxxxxxxxxx xxx xxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+xxxx$xxxxxxxxxxx
 
--- Blob 
--- Table
--- Queue
--- File 
+$$ Xxxx $$ Xxxxx $$ Xxxxx $$ Xxxx 
 
-The value of File is not currently supported.
+Xxx xxxxx xx Xxxx xx xxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -89,16 +86,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Set-AzureStorageServiceMetricsProperty](ae9762aa-8104-4bb4-a3e5-ec3b3ce748a5)
+[Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx](ae9762aa-8104-4bb4-a3e5-ec3b3ce748a5)
 
 

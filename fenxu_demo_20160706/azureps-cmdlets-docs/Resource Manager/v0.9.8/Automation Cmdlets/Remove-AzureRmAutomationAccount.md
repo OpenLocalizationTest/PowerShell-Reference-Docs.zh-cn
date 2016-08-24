@@ -6,34 +6,34 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureRmAutomationAccount
-## SYNOPSIS
-Removes an Automation account.
+# Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureRmAutomationAccount [-ResourceGroupName] <String> [-Name] <String> [-Force] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureRmAutomationAccount** cmdlet removes an azure_2 Automation account from a resource group.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxx x xxxxxxxx xxxxx.
 
-For more information about Automation accounts, see the New-AzureRmAutomationAccount cmdlet.
+Xxx xxxx xxxxxxxxxxx xxxxx Xxxxxxxxxx xxxxxxxx$ xxx xxx Xxx$XxxxxXxXxxxxxxxxxXxxxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove an automation account
+### Xxxxxxx 0$ Xxxxxx xx xxxxxxxxxx xxxxxxx
 ```
 PS C:\>Remove-AzureRmAutomationAccount -Name "ContosoAutomationAccount" -Force -ResourceGroupName "ResourceGroup01"
 ```
 
-This command removes an automation account named ContosoAutomationAccount without prompting for user validation.
+Xxxx xxxxxxx xxxxxxx xx xxxxxxxxxx xxxxxxx xxxxx XxxxxxxXxxxxxxxxxXxxxxxx xxxxxxx xxxxxxxxx xxx xxxx xxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Force
-ps_force
+### $Xxxxx
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -47,8 +47,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the Automation account that this cmdlet removes.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -62,8 +62,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group from which this cmdlet removes an Automation account.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxxx xxxxx xxxx xxxxxx xxxxxxx xx Xxxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -77,8 +77,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -92,8 +92,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -107,18 +107,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationAccount](c9ec226d-3a4f-49d1-9b9f-df9d57bdfa43)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](c9ec226d-3a4f-49d1-9b9f-df9d57bdfa43)
 
-[New-AzureRmAutomationAccount](1a996e7a-1de8-4533-a39a-c17cf1ab18fd)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](1a996e7a-1de8-4533-a39a-c17cf1ab18fd)
 
-[Set-AzureRmAutomationAccount](7e2254d6-c3c3-4ec5-8f7d-a3a2a6f24969)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](7e2254d6-c3c3-4ec5-8f7d-a3a2a6f24969)
 
 

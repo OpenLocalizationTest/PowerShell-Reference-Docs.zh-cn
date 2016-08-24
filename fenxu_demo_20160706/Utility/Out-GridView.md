@@ -4,145 +4,144 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293997
 schema: 2.0.0
 ---
 
-# Out-GridView
-## SYNOPSIS
-Sends output to an interactive table in a separate window.
+# Xxx$XxxxXxxx
+## XXXXXXXX
+Xxxxx xxxxxx xx xx xxxxxxxxxxx xxxxx xx x xxxxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### PassThru (Default)
+### XxxxXxxx $Xxxxxxx$
 ```
 Out-GridView [-InputObject <PSObject>] [-Title <String>] [-PassThru] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### Wait
+### Xxxx
 ```
 Out-GridView [-InputObject <PSObject>] [-Title <String>] [-Wait] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### OutputMode
+### XxxxxxXxxx
 ```
 Out-GridView [-InputObject <PSObject>] [-Title <String>] [-OutputMode <OutputModeOption>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Out-GridView cmdlet sends the output from a command to a grid view window where the output is displayed in an interactive table.
+## XXXXXXXXXXX
+Xxx Xxx$XxxxXxxx xxxxxx xxxxx xxx xxxxxx xxxx x xxxxxxx xx x xxxx xxxx xxxxxx xxxxx xxx xxxxxx xx xxxxxxxxx xx xx xxxxxxxxxxx xxxxx.
 
-Because this cmdlet requires a user interface, it does not work on Server Core installations of Windows Server.
+Xxxxxxx xxxx xxxxxx xxxxxxxx x xxxx xxxxxxxxx$ xx xxxx xxx xxxx xx Xxxxxx Xxxx xxxxxxxxxxxxx xx Xxxxxxx Xxxxxx.
 
-You can use the following features of the table to examine your data:
+Xxx xxx xxx xxx xxxxxxxxx xxxxxxxx xx xxx xxxxx xx xxxxxxx xxxx xxxx$
 
--- Hide, Show, and Reorder Columns: To hide, show, or reorder a column, right-click a column header and then click "Select Columns."
--- Sort. To sort the data, click a column header. Click again to toggle from ascending to descending order.
--- Quick Filter. Use the "Filter" box at the top of the window to search the text in the table. You can search for text in a particular column, search for literals, and search for multiple words.
--- Criteria Filter. Use the "Add criteria" drop-down menu to create rules to filter the data. This is very useful for very large data sets, such as event logs.
--- Copy and paste. To copy rows of data from Out-GridView, press CTRL+C (copy). You can paste the data into any text or spreadsheet program.
+$$ Xxxx$ Xxxx$ xxx Xxxxxxx Xxxxxxx$ Xx xxxx$ xxxx$ xx xxxxxxx x xxxxxx$ xxxxx$xxxxx x xxxxxx xxxxxx xxx xxxx xxxxx $Xxxxxx Xxxxxxx.$
+$$ Xxxx. Xx xxxx xxx xxxx$ xxxxx x xxxxxx xxxxxx. Xxxxx xxxxx xx xxxxxx xxxx xxxxxxxxx xx xxxxxxxxxx xxxxx.
+$$ Xxxxx Xxxxxx. Xxx xxx $Xxxxxx$ xxx xx xxx xxx xx xxx xxxxxx xx xxxxxx xxx xxxx xx xxx xxxxx. Xxx xxx xxxxxx xxx xxxx xx x xxxxxxxxxx xxxxxx$ xxxxxx xxx xxxxxxxx$ xxx xxxxxx xxx xxxxxxxx xxxxx.
+$$ Xxxxxxxx Xxxxxx. Xxx xxx $Xxx xxxxxxxx$ xxxx$xxxx xxxx xx xxxxxx xxxxx xx xxxxxx xxx xxxx. Xxxx xx xxxx xxxxxx xxx xxxx xxxxx xxxx xxxx$ xxxx xx xxxxx xxxx.
+$$ Xxxx xxx xxxxx. Xx xxxx xxxx xx xxxx xxxx Xxx$XxxxXxxx$ xxxxx XXXX$X $xxxx$. Xxx xxx xxxxx xxx xxxx xxxx xxx xxxx xx xxxxxxxxxxx xxxxxxx.
 
-For instructions for using these features, type "Get-Help Out-GridView -Full" and see "How to Use the Grid View Window Features" in the NOTES section.
+Xxx xxxxxxxxxxxx xxx xxxxx xxxxx xxxxxxxx$ xxxx $Xxx$Xxxx Xxx$XxxxXxxx $Xxxx$ xxx xxx $Xxx xx Xxx xxx Xxxx Xxxx Xxxxxx Xxxxxxxx$ xx xxx XXXXX xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Process | Out-GridView
 ```
 
-This command gets the processes running on the local computer and sends them to a grid view window.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxx xxxxxxx xx xxx xxxxx xxxxxxxx xxx xxxxx xxxx xx x xxxx xxxx xxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$p = Get-Process
 PS C:\>$p | Out-GridView
 ```
 
-This command also gets the processes running on the local computer and sends them to a grid view window.
+Xxxx xxxxxxx xxxx xxxx xxx xxxxxxxxx xxxxxxx xx xxx xxxxx xxxxxxxx xxx xxxxx xxxx xx x xxxx xxxx xxxxxx.
 
-The first command uses the Get-Process cmdlet to get the processes on the computer and then saves the process objects in the $p variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxxxx xx xxx xxxxxxxx xxx xxxx xxxxx xxx xxxxxxx xxxxxxx xx xxx $x xxxxxxxx.
 
-The second command uses a pipeline operator to send the $p variable to Out-GridView.
+Xxx xxxxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx xx xxxx xxx $x xxxxxxxx xx Xxx$XxxxXxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Process | Select-Object -Property Name, WorkingSet, PeakWorkingSet | Sort-Object -Property WorkingSet -Descending | Out-GridView
 ```
 
-This command displays a formatted table in a grid view window.
+Xxxx xxxxxxx xxxxxxxx x xxxxxxxxx xxxxx xx x xxxx xxxx xxxxxx.
 
-It uses the Get-Process cmdlet to get the processes on the computer.
+Xx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxxxx xx xxx xxxxxxxx.
 
-Then, it uses a pipeline operator (|) to send the process objects to the Select-Object cmdlet.
-The command uses the Property parameter of Select-Object to select the Name, WorkingSet, and PeakWorkingSet properties to be displayed in the table.
+Xxxx$ xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xxxxxxx xx xxx Xxxxxx$Xxxxxx xxxxxx.
+Xxx xxxxxxx xxxx xxx Xxxxxxxx xxxxxxxxx xx Xxxxxx$Xxxxxx xx xxxxxx xxx Xxxx$ XxxxxxxXxx$ xxx XxxxXxxxxxxXxx xxxxxxxxxx xx xx xxxxxxxxx xx xxx xxxxx.
 
-Another pipeline operator sends the filtered objects to the Sort-Object cmdlet, which sorts them in descending order by the value of the WorkingSet property.
+Xxxxxxx xxxxxxxx xxxxxxxx xxxxx xxx xxxxxxxx xxxxxxx xx xxx Xxxx$Xxxxxx xxxxxx$ xxxxx xxxxx xxxx xx xxxxxxxxxx xxxxx xx xxx xxxxx xx xxx XxxxxxxXxx xxxxxxxx.
 
-The final part of the command uses a pipeline operator (|) to send the formatted table to Out-GridView.
+Xxx xxxxx xxxx xx xxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxxxx xxxxx xx Xxx$XxxxXxxx.
 
-You can now use the features of the grid view to search, sort, and filter the data.
+Xxx xxx xxx xxx xxx xxxxxxxx xx xxx xxxx xxxx xx xxxxxx$ xxxx$ xxx xxxxxx xxx xxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>($a = Get-ChildItem -Path $pshome -Recurse) | Out-GridView
 ```
 
-This command saves its output in a variable and sends it to Out-GridView.
+Xxxx xxxxxxx xxxxx xxx xxxxxx xx x xxxxxxxx xxx xxxxx xx xx Xxx$XxxxXxxx.
 
-The command uses the Get-ChildItem cmdlet to get the files in the Windows PowerShell installation directory and its subdirectories.
-The path to the installation directory is saved in the $pshome automatic variable.
+Xxx xxxxxxx xxxx xxx Xxx$XxxxxXxxx xxxxxx xx xxx xxx xxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxxxxx xxxxxxxxx xxx xxx xxxxxxxxxxxxxx.
+Xxx xxxx xx xxx xxxxxxxxxxxx xxxxxxxxx xx xxxxx xx xxx $xxxxxx xxxxxxxxx xxxxxxxx.
 
-The command uses the assignment operator (=) to save the output in the $a variable and the pipeline operator (|) to send the output to Out-GridView.
+Xxx xxxxxxx xxxx xxx xxxxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxx xx xxx $x xxxxxxxx xxx xxx xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxx xx Xxx$XxxxXxxx.
 
-The parentheses in the command establish the order of operations.
-As a result, the output from the Get-ChildItem command is saved in the $a variable before it is sent to Out-GridView.
+Xxx xxxxxxxxxxx xx xxx xxxxxxx xxxxxxxxx xxx xxxxx xx xxxxxxxxxx.
+Xx x xxxxxx$ xxx xxxxxx xxxx xxx Xxx$XxxxxXxxx xxxxxxx xx xxxxx xx xxx $x xxxxxxxx xxxxxx xx xx xxxx xx Xxx$XxxxXxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Process -ComputerName Server01| ogv -Title "Processes - Server01"
 ```
 
-This command displays the processes that are running on the Server01 computer in a grid view window.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxxx xxxx xxx xxxxxxx xx xxx Xxxxxx00 xxxxxxxx xx x xxxx xxxx xxxxxx.
 
-The command uses "ogv," which is the built-in alias for the Out-GridView cmdlet, it uses the Title parameter to specify the window title.
+Xxx xxxxxxx xxxx $xxx$$ xxxxx xx xxx xxxxx$xx xxxxx xxx xxx Xxx$XxxxXxxx xxxxxx$ xx xxxx xxx Xxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxx xxxxx.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Invoke-Command -ComputerName S1, S2, S3 -ScriptBlock {Get-Culture} | Out-GridView
 ```
 
-This example shows the correct format for sending data collected from remote computers to the Out-GridView cmdlet.
+Xxxx xxxxxxx xxxxx xxx xxxxxxx xxxxxx xxx xxxxxxx xxxx xxxxxxxxx xxxx xxxxxx xxxxxxxxx xx xxx Xxx$XxxxXxxx xxxxxx.
 
-The command uses the Invoke-Command cmdlet to run a Get-Culture command on three remote computers.
-It uses a pipeline operator to send the data that is returned to the Out-GridView cmdlet.
+Xxx xxxxxxx xxxx xxx Xxxxxx$Xxxxxxx xxxxxx xx xxx x Xxx$Xxxxxxx xxxxxxx xx xxxxx xxxxxx xxxxxxxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx xx xxxx xxx xxxx xxxx xx xxxxxxxx xx xxx Xxx$XxxxXxxx xxxxxx.
 
-Notice that the script block that contains the commands that are run remotely does not include the Out-GridView command.
-If it did, the command would fail when it tried to open a grid view window on each of the remote computers.
+Xxxxxx xxxx xxx xxxxxx xxxxx xxxx xxxxxxxx xxx xxxxxxxx xxxx xxx xxx xxxxxxxx xxxx xxx xxxxxxx xxx Xxx$XxxxXxxx xxxxxxx.
+Xx xx xxx$ xxx xxxxxxx xxxxx xxxx xxxx xx xxxxx xx xxxx x xxxx xxxx xxxxxx xx xxxx xx xxx xxxxxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Process | Out-GridView -PassThru | Export-Csv -Path .\ProcessLog.csv
 ```
 
-This command lets you select multiple processes from the Out-GridView window.
-The processes that you select are passed to the Export-Csv command and written to the ProcessLog.csv file.
+Xxxx xxxxxxx xxxx xxx xxxxxx xxxxxxxx xxxxxxxxx xxxx xxx Xxx$XxxxXxxx xxxxxx.
+Xxx xxxxxxxxx xxxx xxx xxxxxx xxx xxxxxx xx xxx Xxxxxx$Xxx xxxxxxx xxx xxxxxxx xx xxx XxxxxxxXxx.xxx xxxx.
 
-The command uses the PassThru parameter of Out-GridView, which lets you send multiple items down the pipeline.
-The PassThru parameter is equivalent to using the Multiple value of the OutputMode parameter.
+Xxx xxxxxxx xxxx xxx XxxxXxxx xxxxxxxxx xx Xxx$XxxxXxxx$ xxxxx xxxx xxx xxxx xxxxxxxx xxxxx xxxx xxx xxxxxxxx.
+Xxx XxxxXxxx xxxxxxxxx xx xxxxxxxxxx xx xxxxx xxx Xxxxxxxx xxxxx xx xxx XxxxxxXxxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 8 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Powershell.exe -Command "Get-Service | Out-GridView -Wait"
 ```
 
-This command shows how to use the Wait parameter of Out-GridView to create a Windows shortcut to the Out-GridView window.
-Without the Wait parameter, Windows PowerShell would exit as soon as the Out-GridView window opened, which would close the Out-GridView window almost immediately.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx Xxxx xxxxxxxxx xx Xxx$XxxxXxxx xx xxxxxx x Xxxxxxx xxxxxxxx xx xxx Xxx$XxxxXxxx xxxxxx.
+Xxxxxxx xxx Xxxx xxxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxx xxxx xx xxxx xx xxx Xxx$XxxxXxxx xxxxxx xxxxxx$ xxxxx xxxxx xxxxx xxx Xxx$XxxxXxxx xxxxxx xxxxxx xxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-When you use the InputObject parameter to send a collection (more than one) of objects to Out-GridView, Out-GridView treats the collection as one collection object, and it displays one row that represents the collection. 
-To display the each object in the collection, use a pipeline operator (|) to send objects to Out-GridView.
+### $XxxxxxxxxxxXxxxxx
+Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxx x xxxxxxxxxx $xxxx xxxx xxx$ xx xxxxxxx xx Xxx$XxxxXxxx$ Xxx$XxxxXxxx xxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xxxxxx$ xxx xx xxxxxxxx xxx xxx xxxx xxxxxxxxxx xxx xxxxxxxxxx. Xx xxxxxxx xxx xxxx xxxxxx xx xxx xxxxxxxxxx$ xxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxxxxxx xx Xxx$XxxxXxxx.
 
 ```yaml
 Type: ActionPreference
@@ -157,9 +156,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-When you use the InputObject parameter to send a collection (more than one) of objects to Out-GridView, Out-GridView treats the collection as one collection object, and it displays one row that represents the collection. 
-To display the each object in the collection, use a pipeline operator (|) to send objects to Out-GridView.
+### $XxxxxxxxxxxXxxxxxxx
+Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxx x xxxxxxxxxx $xxxx xxxx xxx$ xx xxxxxxx xx Xxx$XxxxXxxx$ Xxx$XxxxXxxx xxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xxxxxx$ xxx xx xxxxxxxx xxx xxx xxxx xxxxxxxxxx xxx xxxxxxxxxx. Xx xxxxxxx xxx xxxx xxxxxx xx xxx xxxxxxxxxx$ xxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxxxxxx xx Xxx$XxxxXxxx.
 
 ```yaml
 Type: String
@@ -173,11 +171,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Accepts input for Out-GridView.
+### $XxxxxXxxxxx
+Xxxxxxx xxxxx xxx Xxx$XxxxXxxx.
 
-When you use the InputObject parameter to send a collection (more than one) of objects to Out-GridView, Out-GridView treats the collection as one collection object, and it displays one row that represents the collection. 
-To display the each object in the collection, use a pipeline operator (|) to send objects to Out-GridView.
+Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxx x xxxxxxxxxx $xxxx xxxx xxx$ xx xxxxxxx xx Xxx$XxxxXxxx$ Xxx$XxxxXxxx xxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xxxxxx$ xxx xx xxxxxxxx xxx xxx xxxx xxxxxxxxxx xxx xxxxxxxxxx. Xx xxxxxxx xxx xxxx xxxxxx xx xxx xxxxxxxxxx$ xxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxxxxxx xx Xxx$XxxxXxxx.
 
 ```yaml
 Type: PSObject
@@ -191,10 +188,10 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Title
-Specifies the text that appears in the title bar of the Out-GridView window.
+### $Xxxxx
+Xxxxxxxxx xxx xxxx xxxx xxxxxxx xx xxx xxxxx xxx xx xxx Xxx$XxxxXxxx xxxxxx.
 
-By default, the title bar displays the command that invokes Out-GridView.
+Xx xxxxxxx$ xxx xxxxx xxx xxxxxxxx xxx xxxxxxx xxxx xxxxxxx Xxx$XxxxXxxx.
 
 ```yaml
 Type: String
@@ -208,18 +205,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -OutputMode
-Send items from the interactive window down the pipeline as input to other commands.
-By default, this cmdlet does not generate any output.
-To send items from the interactive window down the pipeline, click to select the items and then click OK.
+### $XxxxxxXxxx
+Xxxx xxxxx xxxx xxx xxxxxxxxxxx xxxxxx xxxx xxx xxxxxxxx xx xxxxx xx xxxxx xxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
+Xx xxxx xxxxx xxxx xxx xxxxxxxxxxx xxxxxx xxxx xxx xxxxxxxx$ xxxxx xx xxxxxx xxx xxxxx xxx xxxx xxxxx XX.
 
-The values of this parameter determine how many items you can send down the pipeline.
+Xxx xxxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx xxxx xxxxx xxx xxx xxxx xxxx xxx xxxxxxxx.
 
--- None:  No items. This is the default value.
--- Single:  Zero items or one item. Use this value when the next command can take only one input object.
--- Multiple:  Zero, one, or many items.  Use this value when the next command can take multiple input objects. This value is equivalent to the Passthru parameter.
+$$ Xxxx$  Xx xxxxx. Xxxx xx xxx xxxxxxx xxxxx.
+$$ Xxxxxx$  Xxxx xxxxx xx xxx xxxx. Xxx xxxx xxxxx xxxx xxx xxxx xxxxxxx xxx xxxx xxxx xxx xxxxx xxxxxx.
+$$ Xxxxxxxx$  Xxxx$ xxx$ xx xxxx xxxxx.  Xxx xxxx xxxxx xxxx xxx xxxx xxxxxxx xxx xxxx xxxxxxxx xxxxx xxxxxxx. Xxxx xxxxx xx xxxxxxxxxx xx xxx Xxxxxxxx xxxxxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: OutputModeOption
@@ -234,15 +231,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Sends items from the interactive window down the pipeline as input to other commands.
-By default, this cmdlet does not generate any output.
-This parameter is equivalent to using the Multiple value of the OutputMode parameter.
+### $XxxxXxxx
+Xxxxx xxxxx xxxx xxx xxxxxxxxxxx xxxxxx xxxx xxx xxxxxxxx xx xxxxx xx xxxxx xxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx xxxxx xxx Xxxxxxxx xxxxx xx xxx XxxxxxXxxx xxxxxxxxx.
 
-To send items from the interactive window down the pipeline, click to select the items and then click OK.
-Shift-click and Ctrl-click are supported.
+Xx xxxx xxxxx xxxx xxx xxxxxxxxxxx xxxxxx xxxx xxx xxxxxxxx$ xxxxx xx xxxxxx xxx xxxxx xxx xxxx xxxxx XX.
+Xxxxx$xxxxx xxx Xxxx$xxxxx xxx xxxxxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: SwitchParameter
@@ -256,14 +253,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Wait
-Suppresses the command prompt and prevents Windows PowerShell from closing until the  Out-GridView window is closed.
-By default, the command prompt returns when the Out-GridView window opens.
+### $Xxxx
+Xxxxxxxxxx xxx xxxxxxx xxxxxx xxx xxxxxxxx Xxxxxxx XxxxxXxxxx xxxx xxxxxxx xxxxx xxx  Xxx$XxxxXxxx xxxxxx xx xxxxxx.
+Xx xxxxxxx$ xxx xxxxxxx xxxxxx xxxxxxx xxxx xxx Xxx$XxxxXxxx xxxxxx xxxxx.
 
-This feature lets you use the Out-GridView cmdlets in Windows shortcuts.
-When Out-GridView is used in a shortcut without the Wait parameter, the Out-GridView window appears only momentarily before Windows PowerShell closes.
+Xxxx xxxxxxx xxxx xxx xxx xxx Xxx$XxxxXxxx xxxxxxx xx Xxxxxxx xxxxxxxxx.
+Xxxx Xxx$XxxxXxxx xx xxxx xx x xxxxxxxx xxxxxxx xxx Xxxx xxxxxxxxx$ xxx Xxx$XxxxXxxx xxxxxx xxxxxxx xxxx xxxxxxxxxxx xxxxxx Xxxxxxx XxxxxXxxxx xxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: SwitchParameter
@@ -277,189 +274,189 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can send any object to Out-GridView.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xx Xxx$XxxxXxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-Out-GridView does not return any objects.
+### Xxxx
+Xxx$XxxxXxxx xxxx xxx xxxxxx xxx xxxxxxx.
 
-## NOTES
-In Windows PowerShell 2.0, the Out-GridView cmdlet is installed by default on client versions of Windows, but is an optional feature on Server versions of Windows.
-In Windows PowerShell 3.0, it is installed on all systems by default.
-However, if you turn off or remove the Windows PowerShell ISE feature, the Out-GridView cmdlet is also turned off or removed.
+## XXXXX
+Xx Xxxxxxx XxxxxXxxxx 0.0$ xxx Xxx$XxxxXxxx xxxxxx xx xxxxxxxxx xx xxxxxxx xx xxxxxx xxxxxxxx xx Xxxxxxx$ xxx xx xx xxxxxxxx xxxxxxx xx Xxxxxx xxxxxxxx xx Xxxxxxx.
+Xx Xxxxxxx XxxxxXxxxx 0.0$ xx xx xxxxxxxxx xx xxx xxxxxxx xx xxxxxxx.
+Xxxxxxx$ xx xxx xxxx xxx xx xxxxxx xxx Xxxxxxx XxxxxXxxxx XXX xxxxxxx$ xxx Xxx$XxxxXxxx xxxxxx xx xxxx xxxxxx xxx xx xxxxxxx.
 
-You cannot use a remote command to open a grid view window on another computer.
+Xxx xxxxxx xxx x xxxxxx xxxxxxx xx xxxx x xxxx xxxx xxxxxx xx xxxxxxx xxxxxxxx.
 
-The command output that you send to Out-GridView cannot be formatted, such as by using the Format-Table or Format-Wide cmdlets.
-To select properties, use the Select-Object cmdlet.
+Xxx xxxxxxx xxxxxx xxxx xxx xxxx xx Xxx$XxxxXxxx xxxxxx xx xxxxxxxxx$ xxxx xx xx xxxxx xxx Xxxxxx$Xxxxx xx Xxxxxx$Xxxx xxxxxxx.
+Xx xxxxxx xxxxxxxxxx$ xxx xxx Xxxxxx$Xxxxxx xxxxxx.
 
-Deserialized output from remote commands might not be formatted correctly in the grid view window.
+Xxxxxxxxxxxx xxxxxx xxxx xxxxxx xxxxxxxx xxxxx xxx xx xxxxxxxxx xxxxxxxxx xx xxx xxxx xxxx xxxxxx.
 
-KEYBOARD SHORTCUTS FOR OUT-GRIDVIEW
+XXXXXXXX XXXXXXXXX XXX XXX$XXXXXXXX
 
 -----------------------------------
 
-By using the following keyboard shortcuts, you can perform many tasks quickly.
+Xx xxxxx xxx xxxxxxxxx xxxxxxxx xxxxxxxxx$ xxx xxx xxxxxxx xxxx xxxxx xxxxxxx.
 
-Use this key:     To perform this action:
+Xxx xxxx xxx$     Xx xxxxxxx xxxx xxxxxx$
 
 -------------     ----------------------------------------------------------------
 
-TAB               Moves the cursor from the Filter box to the Add criteria menu to the table and back.
+XXX               Xxxxx xxx xxxxxx xxxx xxx Xxxxxx xxx xx xxx Xxx xxxxxxxx xxxx xx xxx xxxxx xxx xxxx.
 
-UP ARROW          Move up one row.
-Will move to column headers.
+XX XXXXX          Xxxx xx xxx xxx.
+Xxxx xxxx xx xxxxxx xxxxxxx.
 
-DOWN ARROW        Move down one row.
+XXXX XXXXX        Xxxx xxxx xxx xxx.
 
-LEFT ARROW        In column header row, move left one column.
+XXXX XXXXX        Xx xxxxxx xxxxxx xxx$ xxxx xxxx xxx xxxxxx.
 
-RIGHT ARROW       In column header row, move right one column.
+XXXXX XXXXX       Xx xxxxxx xxxxxx xxx$ xxxx xxxxx xxx xxxxxx.
 
-CONTEXT MENU KEY  In column header row, displays the "Select Columns" option.
+XXXXXXX XXXX XXX  Xx xxxxxx xxxxxx xxx$ xxxxxxxx xxx $Xxxxxx Xxxxxxx$ xxxxxx.
 
-ENTER or SPACEBAR In column header row, sort column data (toggle A-Z, Z-A).
+XXXXX xx XXXXXXXX Xx xxxxxx xxxxxx xxx$ xxxx xxxxxx xxxx $xxxxxx X$X$ X$X$.
 
-HOW TO USE THE GRID VIEW WINDOW FEATURES
+XXX XX XXX XXX XXXX XXXX XXXXXX XXXXXXXX
 
 ----------------------------------------
 
-The following topics explain how to use the features of the window that Out-GridView displays.
+Xxx xxxxxxxxx xxxxxx xxxxxxx xxx xx xxx xxx xxxxxxxx xx xxx xxxxxx xxxx Xxx$XxxxXxxx xxxxxxxx.
 
-How to Hide, Show, and Reorder Columns
+Xxx xx Xxxx$ Xxxx$ xxx Xxxxxxx Xxxxxxx
 
 --------------------------------------
 
-To hide or show a column:
+Xx xxxx xx xxxx x xxxxxx$
 
 1.
-Right click any column header and click "Select Columns".
+Xxxxx xxxxx xxx xxxxxx xxxxxx xxx xxxxx $Xxxxxx Xxxxxxx$.
 
 2.
-In the "Select Columns" dialog box, use the arrow keys to move the columns between the "Selected columns" to the "Available columns" boxes.
-Only columns in the "Selected Columns" box appear in the grid view window.
+Xx xxx $Xxxxxx Xxxxxxx$ xxxxxx xxx$ xxx xxx xxxxx xxxx xx xxxx xxx xxxxxxx xxxxxxx xxx $Xxxxxxxx xxxxxxx$ xx xxx $Xxxxxxxxx xxxxxxx$ xxxxx.
+Xxxx xxxxxxx xx xxx $Xxxxxxxx Xxxxxxx$ xxx xxxxxx xx xxx xxxx xxxx xxxxxx.
 
-To reorder columns:
+Xx xxxxxxx xxxxxxx$
 
--- Drag and drop the column into the desired location.
-- or-
+$$ Xxxx xxx xxxx xxx xxxxxx xxxx xxx xxxxxxx xxxxxxxx.
+- xx$
 
 1.
-Right click any column header and click "Select Columns".
+Xxxxx xxxxx xxx xxxxxx xxxxxx xxx xxxxx $Xxxxxx Xxxxxxx$.
 
 2.
-In the "Select Columns" dialog box, use the "Move up" and "Move down" buttons to reorder the columns.
-Columns at the top of the list appear to the left of columns at the bottom of the list in the grid view window.
+Xx xxx $Xxxxxx Xxxxxxx$ xxxxxx xxx$ xxx xxx $Xxxx xx$ xxx $Xxxx xxxx$ xxxxxxx xx xxxxxxx xxx xxxxxxx.
+Xxxxxxx xx xxx xxx xx xxx xxxx xxxxxx xx xxx xxxx xx xxxxxxx xx xxx xxxxxx xx xxx xxxx xx xxx xxxx xxxx xxxxxx.
 
-How to Sort Table Data
+Xxx xx Xxxx Xxxxx Xxxx
 
 ----------------------
--- To sort the data, click a column header.
--- To change the sort order, click the column header again. Each time you click the same header, the sort order toggles between ascending to descending order. The current order is indicated by a triangle in the column header.
+$$ Xx xxxx xxx xxxx$ xxxxx x xxxxxx xxxxxx.
+$$ Xx xxxxxx xxx xxxx xxxxx$ xxxxx xxx xxxxxx xxxxxx xxxxx. Xxxx xxxx xxx xxxxx xxx xxxx xxxxxx$ xxx xxxx xxxxx xxxxxxx xxxxxxx xxxxxxxxx xx xxxxxxxxxx xxxxx. Xxx xxxxxxx xxxxx xx xxxxxxxxx xx x xxxxxxxx xx xxx xxxxxx xxxxxx.
 
-How to Select Table Data
+Xxx xx Xxxxxx Xxxxx Xxxx
 
 ------------------------
--- To select a row, click the row or use the up or down arrow to navigate to the row.
--- To select all rows (except for the header row), press CTRL+A.
--- To select consecutive rows, press and hold the SHIFT key while clicking the rows or using the arrow keys.
--- To select nonconsecutive rows, press the CTRL key and click to add a row to the selection.
+$$ Xx xxxxxx x xxx$ xxxxx xxx xxx xx xxx xxx xx xx xxxx xxxxx xx xxxxxxxx xx xxx xxx.
+$$ Xx xxxxxx xxx xxxx $xxxxxx xxx xxx xxxxxx xxx$$ xxxxx XXXX$X.
+$$ Xx xxxxxx xxxxxxxxxxx xxxx$ xxxxx xxx xxxx xxx XXXXX xxx xxxxx xxxxxxxx xxx xxxx xx xxxxx xxx xxxxx xxxx.
+$$ Xx xxxxxx xxxxxxxxxxxxxx xxxx$ xxxxx xxx XXXX xxx xxx xxxxx xx xxx x xxx xx xxx xxxxxxxxx.
 
-You cannot select columns, and you cannot select the entire column header row.
+Xxx xxxxxx xxxxxx xxxxxxx$ xxx xxx xxxxxx xxxxxx xxx xxxxxx xxxxxx xxxxxx xxx.
 
-How to Copy Rows
+Xxx xx Xxxx Xxxx
 
 ----------------------
--- To copy one or more rows from the table, select the rows and then press CTRL+C.
+$$ Xx xxxx xxx xx xxxx xxxx xxxx xxx xxxxx$ xxxxxx xxx xxxx xxx xxxx xxxxx XXXX$X.
 
-You can paste the data into any text or spreadsheet program.
-You cannot copy columns or parts of rows and you cannot copy the column header row.
+Xxx xxx xxxxx xxx xxxx xxxx xxx xxxx xx xxxxxxxxxxx xxxxxxx.
+Xxx xxxxxx xxxx xxxxxxx xx xxxxx xx xxxx xxx xxx xxxxxx xxxx xxx xxxxxx xxxxxx xxx.
 
-How to Search in the Table  (Quick Filter)
+Xxx xx Xxxxxx xx xxx Xxxxx  $Xxxxx Xxxxxx$
 
 ---------------------------------
 
-Use the "Filter" box to search for data in the table.
-When you type in the box, only items that include the typed text appear in the table.
+Xxx xxx $Xxxxxx$ xxx xx xxxxxx xxx xxxx xx xxx xxxxx.
+Xxxx xxx xxxx xx xxx xxx$ xxxx xxxxx xxxx xxxxxxx xxx xxxxx xxxx xxxxxx xx xxx xxxxx.
 
--- Search for text. To search for text in the table, in the "Filter" box, type the text to find.
--- Search for multiple words. To search for multiple words in the table, type the words separated by spaces. Out-GridView displays rows that include all of the words (logical AND).
--- Search for literal phrases. To search for phrases that include spaces or special characters, enclose the phrase in quotation marks. Out-GridView displays rows that include an exact match for the phrase.
--- Search in columns. To search for text in one or more columns, use the following format:
+$$ Xxxxxx xxx xxxx. Xx xxxxxx xxx xxxx xx xxx xxxxx$ xx xxx $Xxxxxx$ xxx$ xxxx xxx xxxx xx xxxx.
+$$ Xxxxxx xxx xxxxxxxx xxxxx. Xx xxxxxx xxx xxxxxxxx xxxxx xx xxx xxxxx$ xxxx xxx xxxxx xxxxxxxxx xx xxxxxx. Xxx$XxxxXxxx xxxxxxxx xxxx xxxx xxxxxxx xxx xx xxx xxxxx $xxxxxxx XXX$.
+$$ Xxxxxx xxx xxxxxxx xxxxxxx. Xx xxxxxx xxx xxxxxxx xxxx xxxxxxx xxxxxx xx xxxxxxx xxxxxxxxxx$ xxxxxxx xxx xxxxxx xx xxxxxxxxx xxxxx. Xxx$XxxxXxxx xxxxxxxx xxxx xxxx xxxxxxx xx xxxxx xxxxx xxx xxx xxxxxx.
+$$ Xxxxxx xx xxxxxxx. Xx xxxxxx xxx xxxx xx xxx xx xxxx xxxxxxx$ xxx xxx xxxxxxxxx xxxxxx$
 
-\<column\>:\<text\> \[\<column\>:\<text\>\] ...
+\<xxxxxx$$$$$xxxx$$ $$$$xxxxxx$$$$$xxxx$$$$ ...
 
-For example, to find "Net" in the DisplayName column, in the "Filter" box, type:
+Xxx xxxxxxx$ xx xxxx $Xxx$ xx xxx XxxxxxxXxxx xxxxxx$ xx xxx $Xxxxxx$ xxx$ xxxx$
 
-displayname:net
+xxxxxxxxxxx$xxx
 
-To find rows with "Net" in the DisplayName and Name columns, in the "Filter" box, type:
+Xx xxxx xxxx xxxx $Xxx$ xx xxx XxxxxxxXxxx xxx Xxxx xxxxxxx$ xx xxx $Xxxxxx$ xxx$ xxxx$
 
-displayname:net  name:net
+xxxxxxxxxxx$xxx  xxxx$xxx
 
--- Turn off search. To display the entire table again, click the red X button in the top right corner of the "Filter" box or delete the text from the Filter box.
+$$ Xxxx xxx xxxxxx. Xx xxxxxxx xxx xxxxxx xxxxx xxxxx$ xxxxx xxx xxx X xxxxxx xx xxx xxx xxxxx xxxxxx xx xxx $Xxxxxx$ xxx xx xxxxxx xxx xxxx xxxx xxx Xxxxxx xxx.
 
-Use Criteria to Filter the Table
+Xxx Xxxxxxxx xx Xxxxxx xxx Xxxxx
 
 --------------------------------
 
-You can use rules or "criteria" to determine which items are displayed in the table.
-Items appear only when they satisfy all of the criteria that you establish.
-The available criteria are determined by the properties of the objects displayed in the grid view window and the .NET Framework types of those properties.
+Xxx xxx xxx xxxxx xx $xxxxxxxx$ xx xxxxxxxxx xxxxx xxxxx xxx xxxxxxxxx xx xxx xxxxx.
+Xxxxx xxxxxx xxxx xxxx xxxx xxxxxxx xxx xx xxx xxxxxxxx xxxx xxx xxxxxxxxx.
+Xxx xxxxxxxxx xxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xx xxx xxxxxxx xxxxxxxxx xx xxx xxxx xxxx xxxxxx xxx xxx .XXX Xxxxxxxxx xxxxx xx xxxxx xxxxxxxxxx.
 
-Each criterion has the following format:
+Xxxx xxxxxxxxx xxx xxx xxxxxxxxx xxxxxx$
 
-\<column\> \<operator\> \<value\>
+\<xxxxxx$$ $$xxxxxxxx$$ $$xxxxx\>
 
-Criteria for different properties are connected by AND.
-Criteria for the same property are connected by OR.
-You cannot change the logical connectors.
+Xxxxxxxx xxx xxxxxxxxx xxxxxxxxxx xxx xxxxxxxxx xx XXX.
+Xxxxxxxx xxx xxx xxxx xxxxxxxx xxx xxxxxxxxx xx XX.
+Xxx xxxxxx xxxxxx xxx xxxxxxx xxxxxxxxxx.
 
-The criteria only affects the display.
-It does not delete items from the table.
+Xxx xxxxxxxx xxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxx xxxxxx xxxxx xxxx xxx xxxxx.
 
-How to Add Criteria
+Xxx xx Xxx Xxxxxxxx
 
 ---------------------------
 
 1.
-To display the "Add criteria" menu button, in the upper right corner of the window, click the "Expand" arrow.
+Xx xxxxxxx xxx $Xxx xxxxxxxx$ xxxx xxxxxx$ xx xxx xxxxx xxxxx xxxxxx xx xxx xxxxxx$ xxxxx xxx $Xxxxxx$ xxxxx.
 
 2.
-Click the "Add Criteria" menu button.
+Xxxxx xxx $Xxx Xxxxxxxx$ xxxx xxxxxx.
 
 3.
-Click to select columns (properties).
-You can select one or many properties.
+Xxxxx xx xxxxxx xxxxxxx $xxxxxxxxxx$.
+Xxx xxx xxxxxx xxx xx xxxx xxxxxxxxxx.
 
 4.
-When you are finished selecting properties, click the Add button.
+Xxxx xxx xxx xxxxxxxx xxxxxxxxx xxxxxxxxxx$ xxxxx xxx Xxx xxxxxx.
 
 5.
-To cancel the additions, click Cancel.
+Xx xxxxxx xxx xxxxxxxxx$ xxxxx Xxxxxx.
 
 6.
-To add more criteria, click the Add Criteria button again.
+Xx xxx xxxx xxxxxxxx$ xxxxx xxx Xxx Xxxxxxxx xxxxxx xxxxx.
 
-How to Edit a Criterion
+Xxx xx Xxxx x Xxxxxxxxx
 
 --------------------
--- To change an operator, click the blue operator value, and then click to select a different
+$$ Xx xxxxxx xx xxxxxxxx$ xxxxx xxx xxxx xxxxxxxx xxxxx$ xxx xxxx xxxxx xx xxxxxx x xxxxxxxxx
 
-operator from the drop-down list.
+xxxxxxxx xxxx xxx xxxx$xxxx xxxx.
 
--- To enter or change a value, type a value in the value box. If you enter a value that is not valid, a circular X icon appears. To remove it, change the value.
--- To create an OR statement, add a criteria with the same property.
+$$ Xx xxxxx xx xxxxxx x xxxxx$ xxxx x xxxxx xx xxx xxxxx xxx. Xx xxx xxxxx x xxxxx xxxx xx xxx xxxxx$ x xxxxxxxx X xxxx xxxxxxx. Xx xxxxxx xx$ xxxxxx xxx xxxxx.
+$$ Xx xxxxxx xx XX xxxxxxxxx$ xxx x xxxxxxxx xxxx xxx xxxx xxxxxxxx.
 
-How to Delete Criteria
+Xxx xx Xxxxxx Xxxxxxxx
 
 -------------------------
--- To delete selected criteria, click the red X beside each criterion.
--- To delete all criteria, click the "Clear All" button.
+$$ Xx xxxxxx xxxxxxxx xxxxxxxx$ xxxxx xxx xxx X xxxxxx xxxx xxxxxxxxx.
+$$ Xx xxxxxx xxx xxxxxxxx$ xxxxx xxx $Xxxxx Xxx$ xxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 

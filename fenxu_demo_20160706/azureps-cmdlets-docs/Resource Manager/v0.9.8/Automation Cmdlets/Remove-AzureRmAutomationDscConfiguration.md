@@ -6,31 +6,31 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureRmAutomationDscConfiguration
-## SYNOPSIS
-Removes DSC configurations from Automation.
+# Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx
+## XXXXXXXX
+Xxxxxxx XXX xxxxxxxxxxxxxx xxxx Xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureRmAutomationDscConfiguration [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-Force] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureRmAutomationDscConfiguration** cmdlet removes APS Desired State Configuration (DSC) configurations from azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx$$ xxxxxx xxxxxxx XXX Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxxxxxxxxxxxx xxxx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account that contains DSC configurations that this cmdlet removes.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxxxxx XXX xxxxxxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -44,8 +44,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-ps_force
+### $Xxxxx
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -59,8 +59,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the DSC configuration that this cmdlet removes.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx XXX xxxxxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -74,8 +74,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet gets DSC configurations.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxx XXX xxxxxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -89,8 +89,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -104,8 +104,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -119,18 +119,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Export-AzureRmAutomationDscConfiguration](091cd841-4aaf-45de-a8f2-6f973fb9c91b)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](091cd841-4aaf-45de-a8f2-6f973fb9c91b)
 
-[Get-AzureRmAutomationDscConfiguration](cd411497-be17-46f7-8708-519f02312553)
+[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](cd411497-be17-46f7-8708-519f02312553)
 
-[Import-AzureRmAutomationDscConfiguration](9e316628-0101-4da8-8a9f-843f8442e52d)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](9e316628-0101-4da8-8a9f-843f8442e52d)
 
 

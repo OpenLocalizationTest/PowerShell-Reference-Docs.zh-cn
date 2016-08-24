@@ -6,37 +6,37 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureServiceProject
-## SYNOPSIS
-Creates the required files and configuration (sometimes referred to as scaffolding) for a new service.
+# Xxx$XxxxxXxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx $xxxxxxxxx xxxxxxxx xx xx xxxxxxxxxxx$ xxx x xxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureServiceProject [-ServiceName] <String>
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The New-AzureServiceProject cmdlet creates the required files and configuration for a new Azure service in the current directory.
+Xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx xxxxxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx xxx x xxx Xxxxx xxxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 PS C:\>New-AzureServiceProject MyService1
 ```
 
-This example creates scaffolding for a new Azure service named â€œMyService1â€ in the current directory.
+Xxxx xxxxxxx xxxxxxx xxxxxxxxxxx xxx x xxx Xxxxx xxxxxxx xxxxx $$$XxXxxxxxx0$$$ xx xxx xxxxxxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ServiceName
-Specifies the name of the service.
-It determines the first section of the hostname for your service (for example, name.cloudapp.net), and the directory that will contain your service.
-The name can contain only letters, digits, and the dash character (-).
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx.
+Xx xxxxxxxxxx xxx xxxxx xxxxxxx xx xxx xxxxxxxx xxx xxxx xxxxxxx $xxx xxxxxxx$ xxxx.xxxxxxxx.xxx$$ xxx xxx xxxxxxxxx xxxx xxxx xxxxxxx xxxx xxxxxxx.
+Xxx xxxx xxx xxxxxxx xxxx xxxxxxx$ xxxxxx$ xxx xxx xxxx xxxxxxxxx $$$.
 
 ```yaml
 Type: String
@@ -50,20 +50,20 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Add-AzureNodeWebRole](72be1e83-84e2-49fc-aa52-b3d3dd0490a3)
+[Xxx$XxxxxXxxxXxxXxxx](72be1e83-84e2-49fc-aa52-b3d3dd0490a3)
 
-[Add-AzureNodeWorkerRole](97649579-ead5-45c6-8bb3-e718c007e771)
+[Xxx$XxxxxXxxxXxxxxxXxxx](97649579-ead5-45c6-8bb3-e718c007e771)
 
-[Set-AzureServiceProject](c3baa783-e57a-46bd-abe4-6d06130eaaf0)
+[Xxx$XxxxxXxxxxxxXxxxxxx](c3baa783-e57a-46bd-abe4-6d06130eaaf0)
 
-[Set-AzureServiceProjectRole](80fb7e11-389d-4341-9568-e1a1bc1789df)
+[Xxx$XxxxxXxxxxxxXxxxxxxXxxx](80fb7e11-389d-4341-9568-e1a1bc1789df)
 
 

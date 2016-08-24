@@ -8,192 +8,192 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# AzureRM.Storage Module
-## Description
-{{Manually Enter Description Here}}
+# XxxxxXX.Xxxxxxx Xxxxxx
+## Xxxxxxxxxxx
+$$Xxxxxxxx Xxxxx Xxxxxxxxxxx Xxxx$$
 
-## AzureRM.Storage Cmdlets
-### [Get-AzureStorageBlobContent](Get-AzureStorageBlobContent.md)
-{{Manually Enter Get-AzureStorageBlobContent Description Here}}
+## XxxxxXX.Xxxxxxx Xxxxxxx
+### [Xxx$XxxxxXxxxxxxXxxxXxxxxxx](Get-AzureStorageBlobContent.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageBlobCopyState](Get-AzureStorageBlobCopyState.md)
-{{Manually Enter Get-AzureStorageBlobCopyState Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx](Get-AzureStorageBlobCopyState.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageBlob](Get-AzureStorageBlob.md)
-{{Manually Enter Get-AzureStorageBlob Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxx](Get-AzureStorageBlob.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageContainerStoredAccessPolicy](Get-AzureStorageContainerStoredAccessPolicy.md)
-{{Manually Enter Get-AzureStorageContainerStoredAccessPolicy Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxxxXxxxxxXxxxxxXxxxxx](Get-AzureStorageContainerStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageContainer](Get-AzureStorageContainer.md)
-{{Manually Enter Get-AzureStorageContainer Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxxx](Get-AzureStorageContainer.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageCORSRule](Get-AzureStorageCORSRule.md)
-{{Manually Enter Get-AzureStorageCORSRule Description Here}}
+### [Xxx$XxxxxXxxxxxxXXXXXxxx](Get-AzureStorageCORSRule.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXXXXXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageFileContent](Get-AzureStorageFileContent.md)
-{{Manually Enter Get-AzureStorageFileContent Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxXxxxxxx](Get-AzureStorageFileContent.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageFileCopyState](Get-AzureStorageFileCopyState.md)
-{{Manually Enter Get-AzureStorageFileCopyState Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx](Get-AzureStorageFileCopyState.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageFile](Get-AzureStorageFile.md)
-{{Manually Enter Get-AzureStorageFile Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxx](Get-AzureStorageFile.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageQueueStoredAccessPolicy](Get-AzureStorageQueueStoredAccessPolicy.md)
-{{Manually Enter Get-AzureStorageQueueStoredAccessPolicy Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](Get-AzureStorageQueueStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageQueue](Get-AzureStorageQueue.md)
-{{Manually Enter Get-AzureStorageQueue Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxx](Get-AzureStorageQueue.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageServiceLoggingProperty](Get-AzureStorageServiceLoggingProperty.md)
-{{Manually Enter Get-AzureStorageServiceLoggingProperty Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx](Get-AzureStorageServiceLoggingProperty.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageServiceMetricsProperty](Get-AzureStorageServiceMetricsProperty.md)
-{{Manually Enter Get-AzureStorageServiceMetricsProperty Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx](Get-AzureStorageServiceMetricsProperty.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageShareStoredAccessPolicy](Get-AzureStorageShareStoredAccessPolicy.md)
-{{Manually Enter Get-AzureStorageShareStoredAccessPolicy Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](Get-AzureStorageShareStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageShare](Get-AzureStorageShare.md)
-{{Manually Enter Get-AzureStorageShare Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxx](Get-AzureStorageShare.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageTableStoredAccessPolicy](Get-AzureStorageTableStoredAccessPolicy.md)
-{{Manually Enter Get-AzureStorageTableStoredAccessPolicy Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](Get-AzureStorageTableStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStorageTable](Get-AzureStorageTable.md)
-{{Manually Enter Get-AzureStorageTable Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxx](Get-AzureStorageTable.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageAccountSASToken](New-AzureStorageAccountSASToken.md)
-{{Manually Enter New-AzureStorageAccountSASToken Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxXXXXxxxx](New-AzureStorageAccountSASToken.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxXXXXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageBlobSASToken](New-AzureStorageBlobSASToken.md)
-{{Manually Enter New-AzureStorageBlobSASToken Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxXXXXxxxx](New-AzureStorageBlobSASToken.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxXXXXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageContainerSASToken](New-AzureStorageContainerSASToken.md)
-{{Manually Enter New-AzureStorageContainerSASToken Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxxxXXXXxxxx](New-AzureStorageContainerSASToken.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxxxXXXXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageContainerStoredAccessPolicy](New-AzureStorageContainerStoredAccessPolicy.md)
-{{Manually Enter New-AzureStorageContainerStoredAccessPolicy Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxxxXxxxxxXxxxxxXxxxxx](New-AzureStorageContainerStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageContainer](New-AzureStorageContainer.md)
-{{Manually Enter New-AzureStorageContainer Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxxx](New-AzureStorageContainer.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageContext](New-AzureStorageContext.md)
-{{Manually Enter New-AzureStorageContext Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxx](New-AzureStorageContext.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageDirectory](New-AzureStorageDirectory.md)
-{{Manually Enter New-AzureStorageDirectory Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxxx](New-AzureStorageDirectory.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageFileSASToken](New-AzureStorageFileSASToken.md)
-{{Manually Enter New-AzureStorageFileSASToken Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxXXXXxxxx](New-AzureStorageFileSASToken.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxXXXXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageQueueSASToken](New-AzureStorageQueueSASToken.md)
-{{Manually Enter New-AzureStorageQueueSASToken Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx](New-AzureStorageQueueSASToken.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageQueueStoredAccessPolicy](New-AzureStorageQueueStoredAccessPolicy.md)
-{{Manually Enter New-AzureStorageQueueStoredAccessPolicy Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](New-AzureStorageQueueStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageQueue](New-AzureStorageQueue.md)
-{{Manually Enter New-AzureStorageQueue Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxx](New-AzureStorageQueue.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageShareSASToken](New-AzureStorageShareSASToken.md)
-{{Manually Enter New-AzureStorageShareSASToken Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx](New-AzureStorageShareSASToken.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageShareStoredAccessPolicy](New-AzureStorageShareStoredAccessPolicy.md)
-{{Manually Enter New-AzureStorageShareStoredAccessPolicy Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](New-AzureStorageShareStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageShare](New-AzureStorageShare.md)
-{{Manually Enter New-AzureStorageShare Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxx](New-AzureStorageShare.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageTableSASToken](New-AzureStorageTableSASToken.md)
-{{Manually Enter New-AzureStorageTableSASToken Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx](New-AzureStorageTableSASToken.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageTableStoredAccessPolicy](New-AzureStorageTableStoredAccessPolicy.md)
-{{Manually Enter New-AzureStorageTableStoredAccessPolicy Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](New-AzureStorageTableStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStorageTable](New-AzureStorageTable.md)
-{{Manually Enter New-AzureStorageTable Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxx](New-AzureStorageTable.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureStorageBlob](Remove-AzureStorageBlob.md)
-{{Manually Enter Remove-AzureStorageBlob Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxx](Remove-AzureStorageBlob.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureStorageContainerStoredAccessPolicy](Remove-AzureStorageContainerStoredAccessPolicy.md)
-{{Manually Enter Remove-AzureStorageContainerStoredAccessPolicy Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxxxxxxxXxxxxxXxxxxxXxxxxx](Remove-AzureStorageContainerStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxxxxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureStorageContainer](Remove-AzureStorageContainer.md)
-{{Manually Enter Remove-AzureStorageContainer Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxxxxxxx](Remove-AzureStorageContainer.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureStorageCORSRule](Remove-AzureStorageCORSRule.md)
-{{Manually Enter Remove-AzureStorageCORSRule Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXXXXXxxx](Remove-AzureStorageCORSRule.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXXXXXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureStorageDirectory](Remove-AzureStorageDirectory.md)
-{{Manually Enter Remove-AzureStorageDirectory Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxxxxxxx](Remove-AzureStorageDirectory.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureStorageFile](Remove-AzureStorageFile.md)
-{{Manually Enter Remove-AzureStorageFile Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxx](Remove-AzureStorageFile.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureStorageQueueStoredAccessPolicy](Remove-AzureStorageQueueStoredAccessPolicy.md)
-{{Manually Enter Remove-AzureStorageQueueStoredAccessPolicy Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](Remove-AzureStorageQueueStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureStorageQueue](Remove-AzureStorageQueue.md)
-{{Manually Enter Remove-AzureStorageQueue Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxxx](Remove-AzureStorageQueue.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureStorageShareStoredAccessPolicy](Remove-AzureStorageShareStoredAccessPolicy.md)
-{{Manually Enter Remove-AzureStorageShareStoredAccessPolicy Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](Remove-AzureStorageShareStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureStorageShare](Remove-AzureStorageShare.md)
-{{Manually Enter Remove-AzureStorageShare Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxxx](Remove-AzureStorageShare.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureStorageTableStoredAccessPolicy](Remove-AzureStorageTableStoredAccessPolicy.md)
-{{Manually Enter Remove-AzureStorageTableStoredAccessPolicy Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](Remove-AzureStorageTableStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureStorageTable](Remove-AzureStorageTable.md)
-{{Manually Enter Remove-AzureStorageTable Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxxx](Remove-AzureStorageTable.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureStorageBlobContent](Set-AzureStorageBlobContent.md)
-{{Manually Enter Set-AzureStorageBlobContent Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxXxxxxxx](Set-AzureStorageBlobContent.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureStorageContainerAcl](Set-AzureStorageContainerAcl.md)
-{{Manually Enter Set-AzureStorageContainerAcl Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxxxXxx](Set-AzureStorageContainerAcl.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureStorageContainerStoredAccessPolicy](Set-AzureStorageContainerStoredAccessPolicy.md)
-{{Manually Enter Set-AzureStorageContainerStoredAccessPolicy Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxxxXxxxxxXxxxxxXxxxxx](Set-AzureStorageContainerStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureStorageCORSRule](Set-AzureStorageCORSRule.md)
-{{Manually Enter Set-AzureStorageCORSRule Description Here}}
+### [Xxx$XxxxxXxxxxxxXXXXXxxx](Set-AzureStorageCORSRule.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXXXXXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureStorageFileContent](Set-AzureStorageFileContent.md)
-{{Manually Enter Set-AzureStorageFileContent Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxXxxxxxx](Set-AzureStorageFileContent.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureStorageQueueStoredAccessPolicy](Set-AzureStorageQueueStoredAccessPolicy.md)
-{{Manually Enter Set-AzureStorageQueueStoredAccessPolicy Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](Set-AzureStorageQueueStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureStorageServiceLoggingProperty](Set-AzureStorageServiceLoggingProperty.md)
-{{Manually Enter Set-AzureStorageServiceLoggingProperty Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx](Set-AzureStorageServiceLoggingProperty.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureStorageServiceMetricsProperty](Set-AzureStorageServiceMetricsProperty.md)
-{{Manually Enter Set-AzureStorageServiceMetricsProperty Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx](Set-AzureStorageServiceMetricsProperty.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureStorageShareQuota](Set-AzureStorageShareQuota.md)
-{{Manually Enter Set-AzureStorageShareQuota Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxXxxxx](Set-AzureStorageShareQuota.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureStorageShareStoredAccessPolicy](Set-AzureStorageShareStoredAccessPolicy.md)
-{{Manually Enter Set-AzureStorageShareStoredAccessPolicy Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](Set-AzureStorageShareStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureStorageTableStoredAccessPolicy](Set-AzureStorageTableStoredAccessPolicy.md)
-{{Manually Enter Set-AzureStorageTableStoredAccessPolicy Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](Set-AzureStorageTableStoredAccessPolicy.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Start-AzureStorageBlobCopy](Start-AzureStorageBlobCopy.md)
-{{Manually Enter Start-AzureStorageBlobCopy Description Here}}
+### [Xxxxx$XxxxxXxxxxxxXxxxXxxx](Start-AzureStorageBlobCopy.md)
+$$Xxxxxxxx Xxxxx Xxxxx$XxxxxXxxxxxxXxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Start-AzureStorageFileCopy](Start-AzureStorageFileCopy.md)
-{{Manually Enter Start-AzureStorageFileCopy Description Here}}
+### [Xxxxx$XxxxxXxxxxxxXxxxXxxx](Start-AzureStorageFileCopy.md)
+$$Xxxxxxxx Xxxxx Xxxxx$XxxxxXxxxxxxXxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Stop-AzureStorageBlobCopy](Stop-AzureStorageBlobCopy.md)
-{{Manually Enter Stop-AzureStorageBlobCopy Description Here}}
+### [Xxxx$XxxxxXxxxxxxXxxxXxxx](Stop-AzureStorageBlobCopy.md)
+$$Xxxxxxxx Xxxxx Xxxx$XxxxxXxxxxxxXxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Stop-AzureStorageFileCopy](Stop-AzureStorageFileCopy.md)
-{{Manually Enter Stop-AzureStorageFileCopy Description Here}}
+### [Xxxx$XxxxxXxxxxxxXxxxXxxx](Stop-AzureStorageFileCopy.md)
+$$Xxxxxxxx Xxxxx Xxxx$XxxxxXxxxxxxXxxxXxxx Xxxxxxxxxxx Xxxx$$
 
 

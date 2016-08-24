@@ -6,37 +6,37 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureSBNamespace
-## SYNOPSIS
-Creates a namespace.
+# Xxx$XxxxxXXXxxxxxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureSBNamespace [-Name] <String> [[-Location] <String>] [[-CreateACSNamespace] <Boolean>] [-NamespaceType]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The New-AzureSBNamespace cmdlet creates a service namespace for use with Service Bus in Azure.
+Xxx Xxx$XxxxxXXXxxxxxxxx xxxxxx xxxxxxx x xxxxxxx xxxxxxxxx xxx xxx xxxx Xxxxxxx Xxx xx Xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Create a service namespace
+### 0$ Xxxxxx x xxxxxxx xxxxxxxxx
 ```
 PS C:\> New-AzureSBNamespace -name myNameSpace -Location East US PS C:\> New-AzureSBNamespace myNameSpace 'East US'
 ```
 
-The following examples create a service namespace for use with Service Bus in Azure.
-Both examples include the required parameter values, but only the first includes the parameter names.
-The second example can be used because both parameters are positional and their values are given in the required order.
+Xxx xxxxxxxxx xxxxxxxx xxxxxx x xxxxxxx xxxxxxxxx xxx xxx xxxx Xxxxxxx Xxx xx Xxxxx.
+Xxxx xxxxxxxx xxxxxxx xxx xxxxxxxx xxxxxxxxx xxxxxx$ xxx xxxx xxx xxxxx xxxxxxxx xxx xxxxxxxxx xxxxx.
+Xxx xxxxxx xxxxxxx xxx xx xxxx xxxxxxx xxxx xxxxxxxxxx xxx xxxxxxxxxx xxx xxxxx xxxxxx xxx xxxxx xx xxx xxxxxxxx xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -CreateACSNamespace
-Specifies whether to create an associated ACS namespace in addition to the service namespace.
+### $XxxxxxXXXXxxxxxxxx
+Xxxxxxxxx xxxxxxx xx xxxxxx xx xxxxxxxxxx XXX xxxxxxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: Boolean
@@ -50,8 +50,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Location
-Specifies a region for the new namespace.
+### $Xxxxxxxx
+Xxxxxxxxx x xxxxxx xxx xxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -65,8 +65,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies a name for the new namespace.
+### $Xxxx
+Xxxxxxxxx x xxxx xxx xxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -80,8 +80,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -NamespaceType
-Specify a whether to use the namespace for Messaging or Notification Hubs.
+### $XxxxxxxxxXxxx
+Xxxxxxx x xxxxxxx xx xxx xxx xxxxxxxxx xxx Xxxxxxxxx xx Xxxxxxxxxxxx Xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -96,14 +96,14 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Remove-AzureSBNamespace](d8478eeb-c378-4806-87e2-ca5732900c4f)
+[Xxxxxx$XxxxxXXXxxxxxxxx](d8478eeb-c378-4806-87e2-ca5732900c4f)
 
 

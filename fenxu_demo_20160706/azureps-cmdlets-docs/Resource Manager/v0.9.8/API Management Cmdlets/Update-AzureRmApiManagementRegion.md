@@ -6,33 +6,33 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Update-AzureRmApiManagementRegion
-## SYNOPSIS
-Updates existing deployment region in PsApiManagement instance.
+# Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxx
+## XXXXXXXX
+Xxxxxxx xxxxxxxx xxxxxxxxxx xxxxxx xx XxXxxXxxxxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Update-AzureRmApiManagementRegion [-VirtualNetwork <PsApiManagementVirtualNetwork>]
  -ApiManagement <PsApiManagement> -Capacity <Int32> -Location <String> [-Sku]
 ```
 
-## DESCRIPTION
-The **Update-AzureRmApiManagementRegion** cmdlet updates an existing instance of type **Microsoft.Azure.Commands.ApiManagement.Models.PsApiManagementRegion** in a collection of **AdditionalRegions** objects of a provided instance of type **Microsoft.Azure.Commands.ApiManagement.Models.PsApiManagement**.
-This cmdlet does not deploy anything but updates an instance of **PsApiManagement** in-memory.
-To update a deployment of an API Management use the modified **PsApiManagementInstance** to the Update-AzureRmApiManagementDeployment cmdlet.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxx$$ xxxxxx xxxxxxx xx xxxxxxxx xxxxxxxx xx xxxx $$Xxxxxxxxx.Xxxxx.Xxxxxxxx.XxxXxxxxxxxxx.Xxxxxx.XxXxxXxxxxxxxxxXxxxxx$$ xx x xxxxxxxxxx xx $$XxxxxxxxxxXxxxxxx$$ xxxxxxx xx x xxxxxxxx xxxxxxxx xx xxxx $$Xxxxxxxxx.Xxxxx.Xxxxxxxx.XxxXxxxxxxxxx.Xxxxxx.XxXxxXxxxxxxxxx$$.
+Xxxx xxxxxx xxxx xxx xxxxxx xxxxxxxx xxx xxxxxxx xx xxxxxxxx xx $$XxXxxXxxxxxxxxx$$ xx$xxxxxx.
+Xx xxxxxx x xxxxxxxxxx xx xx XXX Xxxxxxxxxx xxx xxx xxxxxxxx $$XxXxxXxxxxxxxxxXxxxxxxx$$ xx xxx Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ApiManagement
-Specifies the **PsApiManagement** instance to update an existing deployment region in.
+### $XxxXxxxxxxxxx
+Xxxxxxxxx xxx $$XxXxxXxxxxxxxxx$$ xxxxxxxx xx xxxxxx xx xxxxxxxx xxxxxxxxxx xxxxxx xx.
 
 ```yaml
 Type: PsApiManagement
@@ -46,8 +46,8 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -Capacity
-Specifies the new SKU capacity value for the deployment region.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxx XXX xxxxxxxx xxxxx xxx xxx xxxxxxxxxx xxxxxx.
 
 ```yaml
 Type: Int32
@@ -61,26 +61,12 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Location
-Specifies the location of the deployment region to update.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xx xxx xxxxxxxxxx xxxxxx xx xxxxxx.
 
-Valid values are: 
+Xxxxx xxxxxx xxx$ 
 
--- North Central US
--- South Central US
--- Central US
--- West Europe
--- North Europe
--- West US
--- East US
--- East US 2
--- Japan East
--- Japan West
--- Brazil South
--- Southeast Asia
--- East Asia
--- Australia East
--- Australia Southeast
+$$ Xxxxx Xxxxxxx XX $$ Xxxxx Xxxxxxx XX $$ Xxxxxxx XX $$ Xxxx Xxxxxx $$ Xxxxx Xxxxxx $$ Xxxx XX $$ Xxxx XX $$ Xxxx XX 0 $$ Xxxxx Xxxx $$ Xxxxx Xxxx $$ Xxxxxx Xxxxx $$ Xxxxxxxxx Xxxx $$ Xxxx Xxxx $$ Xxxxxxxxx Xxxx $$ Xxxxxxxxx Xxxxxxxxx
 
 ```yaml
 Type: String
@@ -94,14 +80,12 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Sku
-Specifies the new tier value for the deployment region.
+### $Xxx
+Xxxxxxxxx xxx xxx xxxx xxxxx xxx xxx xxxxxxxxxx xxxxxx.
 
-Valid values are: 
+Xxxxx xxxxxx xxx$ 
 
--- Developer
--- Standard
--- Premium
+$$ Xxxxxxxxx $$ Xxxxxxxx $$ Xxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -116,9 +100,9 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -VirtualNetwork
-Specifies a virtual network configuration for the deployment region.
-Passing $null will remove virtual network configuration for the region.
+### $XxxxxxxXxxxxxx
+Xxxxxxxxx x xxxxxxx xxxxxxx xxxxxxxxxxxxx xxx xxx xxxxxxxxxx xxxxxx.
+Xxxxxxx $xxxx xxxx xxxxxx xxxxxxx xxxxxxx xxxxxxxxxxxxx xxx xxx xxxxxx.
 
 ```yaml
 Type: PsApiManagementVirtualNetwork
@@ -132,18 +116,18 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Add-AzureRmApiManagementRegion](a6e4fc8a-f5c6-4f8e-8ed9-5ee80150b119)
+[Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxx](a6e4fc8a-f5c6-4f8e-8ed9-5ee80150b119)
 
-[Remove-AzureRmApiManagementRegion](6df0b014-03b0-47aa-9d34-9d0fceee2247)
+[Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxx](6df0b014-03b0-47aa-9d34-9d0fceee2247)
 
-[Update-AzureRmApiManagementDeployment](166e3bd3-929d-4213-aebc-411e2e8f50a2)
+[Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxxx](166e3bd3-929d-4213-aebc-411e2e8f50a2)
 
 

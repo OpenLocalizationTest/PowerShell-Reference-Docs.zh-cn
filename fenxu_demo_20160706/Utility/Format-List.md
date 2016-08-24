@@ -4,11 +4,11 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293961
 schema: 2.0.0
 ---
 
-# Format-List
-## SYNOPSIS
-Formats the output as a list of properties in which each property appears on a new line.
+# Xxxxxx$Xxxx
+## XXXXXXXX
+Xxxxxxx xxx xxxxxx xx x xxxx xx xxxxxxxxxx xx xxxxx xxxx xxxxxxxx xxxxxxx xx x xxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Format-List [[-Property] <Object[]>] [-GroupBy <Object>] [-View <String>] [-ShowError] [-DisplayError] [-Force]
@@ -16,72 +16,70 @@ Format-List [[-Property] <Object[]>] [-GroupBy <Object>] [-View <String>] [-Show
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Format-List cmdlet formats the output of a command as a list of properties in which each property is displayed on a separate line.
-You can use Format-List to format and display all or selected properties of an object as a list (format-list *).
+## XXXXXXXXXXX
+Xxx Xxxxxx$Xxxx xxxxxx xxxxxxx xxx xxxxxx xx x xxxxxxx xx x xxxx xx xxxxxxxxxx xx xxxxx xxxx xxxxxxxx xx xxxxxxxxx xx x xxxxxxxx xxxx.
+Xxx xxx xxx Xxxxxx$Xxxx xx xxxxxx xxx xxxxxxx xxx xx xxxxxxxx xxxxxxxxxx xx xx xxxxxx xx x xxxx $xxxxxx$xxxx $$.
 
-Because more space is available for each item in a list than in a table, Windows PowerShell displays more properties of the object in the list, and the property values are less likely to be truncated.
+Xxxxxxx xxxx xxxxx xx xxxxxxxxx xxx xxxx xxxx xx x xxxx xxxx xx x xxxxx$ Xxxxxxx XxxxxXxxxx xxxxxxxx xxxx xxxxxxxxxx xx xxx xxxxxx xx xxx xxxx$ xxx xxx xxxxxxxx xxxxxx xxx xxxx xxxxxx xx xx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-service | format-list
 ```
 
-This command formats information about services on the computer as a list.
-By default, the services are formatted as a table.
-The Get-Service cmdlet gets objects representing the services on the computer.
-The pipeline operator (|) passes the results through the pipeline to Format-List.
-Then, the Format-List command formats the service information in a list and sends it to the default output cmdlet for display.
+Xxxx xxxxxxx xxxxxxx xxxxxxxxxxx xxxxx xxxxxxxx xx xxx xxxxxxxx xx x xxxx.
+Xx xxxxxxx$ xxx xxxxxxxx xxx xxxxxxxxx xx x xxxxx.
+Xxx Xxx$Xxxxxxx xxxxxx xxxx xxxxxxx xxxxxxxxxxxx xxx xxxxxxxx xx xxx xxxxxxxx.
+Xxx xxxxxxxx xxxxxxxx $$$ xxxxxx xxx xxxxxxx xxxxxxx xxx xxxxxxxx xx Xxxxxx$Xxxx.
+Xxxx$ xxx Xxxxxx$Xxxx xxxxxxx xxxxxxx xxx xxxxxxx xxxxxxxxxxx xx x xxxx xxx xxxxx xx xx xxx xxxxxxx xxxxxx xxxxxx xxx xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = get-childitem $pshome\*.ps1xml
 PS C:\>format-list -InputObject $a
 ```
 
-These commands display information about the PS1XML files in the Windows PowerShell directory as a list.
+Xxxxx xxxxxxxx xxxxxxx xxxxxxxxxxx xxxxx xxx XX0XXX xxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxx xx x xxxx.
 
-The first command gets the objects representing the files and stores them in the $a variable.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxxxxxxx xxx xxxxx xxx xxxxxx xxxx xx xxx $x xxxxxxxx.
 
-The second command uses Format-List to format information about objects stored in $a.
-This command uses the InputObject parameter to pass the variable to Format-List, which then sends the formatted output to the default output cmdlet for display.
+Xxx xxxxxx xxxxxxx xxxx Xxxxxx$Xxxx xx xxxxxx xxxxxxxxxxx xxxxx xxxxxxx xxxxxx xx $x.
+Xxxx xxxxxxx xxxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxx xxx xxxxxxxx xx Xxxxxx$Xxxx$ xxxxx xxxx xxxxx xxx xxxxxxxxx xxxxxx xx xxx xxxxxxx xxxxxx xxxxxx xxx xxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | format-list -property name, basepriority, priorityclass
 ```
 
-This command displays the name, base priority, and priority class of each process on the computer.
-It uses the Get-Process cmdlet to get an object representing each process.
-The pipeline operator (|) passes the process objects through the pipeline to Format-List.
-Format-List formats the processes as a list of the specified properties.
-The "Property" parameter name is optional, so you can omit it.
+Xxxx xxxxxxx xxxxxxxx xxx xxxx$ xxxx xxxxxxxx$ xxx xxxxxxxx xxxxx xx xxxx xxxxxxx xx xxx xxxxxxxx.
+Xx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xx xxxxxx xxxxxxxxxxxx xxxx xxxxxxx.
+Xxx xxxxxxxx xxxxxxxx $$$ xxxxxx xxx xxxxxxx xxxxxxx xxxxxxx xxx xxxxxxxx xx Xxxxxx$Xxxx.
+Xxxxxx$Xxxx xxxxxxx xxx xxxxxxxxx xx x xxxx xx xxx xxxxxxxxx xxxxxxxxxx.
+Xxx $Xxxxxxxx$ xxxxxxxxx xxxx xx xxxxxxxx$ xx xxx xxx xxxx xx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process winlogon | format-list -property *
 ```
 
-This command displays all of the properties of the Winlogon process.
-It uses the Get-Process cmdlet to get an object representing the Winlogon process.
-The pipeline operator (|) passes the Winlogon process object through the pipeline to Format-List.
-The command uses the Property parameter to specify the properties and the * to indicate all properties.
-Because the name of the Property parameter is optional, you can omit it and type the command as: "format-list *".
-Format-List automatically sends the results to the default output cmdlet for display.
+Xxxx xxxxxxx xxxxxxxx xxx xx xxx xxxxxxxxxx xx xxx Xxxxxxxx xxxxxxx.
+Xx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xx xxxxxx xxxxxxxxxxxx xxx Xxxxxxxx xxxxxxx.
+Xxx xxxxxxxx xxxxxxxx $$$ xxxxxx xxx Xxxxxxxx xxxxxxx xxxxxx xxxxxxx xxx xxxxxxxx xx Xxxxxx$Xxxx.
+Xxx xxxxxxx xxxx xxx Xxxxxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxxxxxx xxx xxx $ xx xxxxxxxx xxx xxxxxxxxxx. Xxxxxxx xxx xxxx xx xxx Xxxxxxxx xxxxxxxxx xx xxxxxxxx$ xxx xxx xxxx xx xxx xxxx xxx xxxxxxx xx$ $xxxxxx$xxxx $$.
+Xxxxxx$Xxxx xxxxxxxxxxxxx xxxxx xxx xxxxxxx xx xxx xxxxxxx xxxxxx xxxxxx xxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -DisplayError
-Displays errors at the command line.
-This parameter is rarely used, but can be used as a debugging aid when you are formatting expressions in a Format-List command, and the expressions do not appear to be working.
-The following shows an example of the results of adding the DisplayError parameter with an expression.
+### $XxxxxxxXxxxx
+Xxxxxxxx xxxxxx xx xxx xxxxxxx xxxx.
+Xxxx xxxxxxxxx xx xxxxxx xxxx$ xxx xxx xx xxxx xx x xxxxxxxxx xxx xxxx xxx xxx xxxxxxxxxx xxxxxxxxxxx xx x Xxxxxx$Xxxx xxxxxxx$ xxx xxx xxxxxxxxxxx xx xxx xxxxxx xx xx xxxxxxx.
+Xxx xxxxxxxxx xxxxx xx xxxxxxx xx xxx xxxxxxx xx xxxxxx xxx XxxxxxxXxxxx xxxxxxxxx xxxx xx xxxxxxxxxx.
 
-PS \> Get-Date | Format-List DayOfWeek,{ $_ / $null } -ShowError
-DayOfWeek  $_ / $null
+XX $$ Xxx$Xxxx $ Xxxxxx$Xxxx XxxXxXxxx$$ $$ $ $xxxx $ $XxxxXxxxx XxxXxXxxx  $$ $ $xxxx
 --------- ------------
-Wednesday #ERR
+Xxxxxxxxx $XXX
 
 ```yaml
 Type: SwitchParameter
@@ -95,16 +93,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Expand
-Formats the collection object, as well as the objects in the collection.
-This parameter is designed to format objects that support the ICollection (System.Collections) interface.
-The default value is EnumOnly.
+### $Xxxxxx
+Xxxxxxx xxx xxxxxxxxxx xxxxxx$ xx xxxx xx xxx xxxxxxx xx xxx xxxxxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx xx xxxxxx xxxxxxx xxxx xxxxxxx xxx XXxxxxxxxxx $Xxxxxx.Xxxxxxxxxxx$ xxxxxxxxx.
+Xxx xxxxxxx xxxxx xx XxxxXxxx.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- EnumOnly: Displays the properties of the objects in the collection.
--- CoreOnly: Displays the properties of the collection object.
--- Both: Displays the properties of the collection object and the properties of objects in the collection.
+$$ XxxxXxxx$ Xxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxx xx xxx xxxxxxxxxx.
+$$ XxxxXxxx$ Xxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xxxxxx.
+$$ Xxxx$ Xxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xxxxxx xxx xxx xxxxxxxxxx xx xxxxxxx xx xxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -119,10 +117,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Directs the cmdlet to display all of the error information.
-Use with the DisplayError or ShowError parameters.
-By default, when an error object is written to the error or display streams, only some of the error information is displayed.
+### $Xxxxx
+Xxxxxxx xxx xxxxxx xx xxxxxxx xxx xx xxx xxxxx xxxxxxxxxxx.
+Xxx xxxx xxx XxxxxxxXxxxx xx XxxxXxxxx xxxxxxxxxx.
+Xx xxxxxxx$ xxxx xx xxxxx xxxxxx xx xxxxxxx xx xxx xxxxx xx xxxxxxx xxxxxxx$ xxxx xxxx xx xxx xxxxx xxxxxxxxxxx xx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -136,17 +134,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -GroupBy
-Formats the output in groups based on a shared property or value.
-Enter an expression or a property of the output.
+### $XxxxxXx
+Xxxxxxx xxx xxxxxx xx xxxxxx xxxxx xx x xxxxxx xxxxxxxx xx xxxxx.
+Xxxxx xx xxxxxxxxxx xx x xxxxxxxx xx xxx xxxxxx.
 
-The value of the GroupBy parameter can be a new calculated property.
-To create a calculated property, use a hash table.
-Valid keys are:
+Xxx xxxxx xx xxx XxxxxXx xxxxxxxxx xxx xx x xxx xxxxxxxxxx xxxxxxxx.
+Xx xxxxxx x xxxxxxxxxx xxxxxxxx$ xxx x xxxx xxxxx.
+Xxxxx xxxx xxx$
 
--- Name (or Label) \<string\>
--- Expression \<string\> or \<script block\>
--- FormatString \<string\>
+$$ Xxxx $xx Xxxxx$ $$xxxxxx$$$$$ Xxxxxxxxxx $$xxxxxx$$ xx $$xxxxxx xxxxx$$$$$ XxxxxxXxxxxx $$xxxxxx\>
 
 ```yaml
 Type: Object
@@ -160,11 +156,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-PS \> Get-Date | Format-List DayOfWeek,{ $_ / $null } -ShowError
-DayOfWeek  $_ / $null
+### $XxxxxxxxxxxXxxxxx
+XX $$ Xxx$Xxxx $ Xxxxxx$Xxxx XxxXxXxxx$$ $$ $ $xxxx $ $XxxxXxxxx XxxXxXxxx  $$ $ $xxxx
 --------- ------------
-Wednesday #ERR
+Xxxxxxxxx $XXX
 
 ```yaml
 Type: ActionPreference
@@ -179,11 +174,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-PS \> Get-Date | Format-List DayOfWeek,{ $_ / $null } -ShowError
-DayOfWeek  $_ / $null
+### $XxxxxxxxxxxXxxxxxxx
+XX $$ Xxx$Xxxx $ Xxxxxx$Xxxx XxxXxXxxx$$ $$ $ $xxxx $ $XxxxXxxxx XxxXxXxxx  $$ $ $xxxx
 --------- ------------
-Wednesday #ERR
+Xxxxxxxxx $XXX
 
 ```yaml
 Type: String
@@ -197,9 +191,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the objects to be formatted.
-Enter a variable that contains the objects or type a command or expression that gets the objects.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xx xxxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
 ```yaml
 Type: PSObject
@@ -213,21 +207,19 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Property
-Specifies the object properties that appear in the display and the order in which they appear.
-Wildcards are permitted.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxxxxxx xxxx xxxxxx xx xxx xxxxxxx xxx xxx xxxxx xx xxxxx xxxx xxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
 
-If you omit this parameter, the properties that appear in the display depend on the object being displayed.
-The parameter name ("Property") is optional.
-You cannot use the Property and View parameters in the same command.
+Xx xxx xxxx xxxx xxxxxxxxx$ xxx xxxxxxxxxx xxxx xxxxxx xx xxx xxxxxxx xxxxxx xx xxx xxxxxx xxxxx xxxxxxxxx.
+Xxx xxxxxxxxx xxxx $$Xxxxxxxx$$ xx xxxxxxxx.
+Xxx xxxxxx xxx xxx Xxxxxxxx xxx Xxxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 
-The value of the Property parameter can be a new calculated property.
-To create a calculated property, use a hash table.
-Valid keys are:
+Xxx xxxxx xx xxx Xxxxxxxx xxxxxxxxx xxx xx x xxx xxxxxxxxxx xxxxxxxx.
+Xx xxxxxx x xxxxxxxxxx xxxxxxxx$ xxx x xxxx xxxxx.
+Xxxxx xxxx xxx$
 
--- Name (or Label) \<string\>
--- Expression \<string\> or \<script block\>
--- FormatString \<string\>
+$$ Xxxx $xx Xxxxx$ $$xxxxxx$$$$$ Xxxxxxxxxx $$xxxxxx$$ xx $$xxxxxx xxxxx$$$$$ XxxxxxXxxxxx $$xxxxxx\>
 
 ```yaml
 Type: Object[]
@@ -241,19 +233,17 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ShowError
-Sends errors through the pipeline.
-This parameter is rarely used, but can be used as a debugging aid when you are formatting expressions in a Format-List command, and the expressions do not appear to be working.
-The following shows an example of the results of adding the ShowError parameter with an expression.
+### $XxxxXxxxx
+Xxxxx xxxxxx xxxxxxx xxx xxxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxx xxxx$ xxx xxx xx xxxx xx x xxxxxxxxx xxx xxxx xxx xxx xxxxxxxxxx xxxxxxxxxxx xx x Xxxxxx$Xxxx xxxxxxx$ xxx xxx xxxxxxxxxxx xx xxx xxxxxx xx xx xxxxxxx.
+Xxx xxxxxxxxx xxxxx xx xxxxxxx xx xxx xxxxxxx xx xxxxxx xxx XxxxXxxxx xxxxxxxxx xxxx xx xxxxxxxxxx.
 
-PS \> Get-Date | Format-List DayOfWeek,{ $_ / $null } -ShowError
-DayOfWeek  $_ / $null
+XX $$ Xxx$Xxxx $ Xxxxxx$Xxxx XxxXxXxxx$$ $$ $ $xxxx $ $XxxxXxxxx XxxXxXxxx  $$ $ $xxxx
 --------- ------------
-Wednesday
+Xxxxxxxxx
 
-Failed to evaluate expression " $_ / $null ".
-    + CategoryInfo          : InvalidArgument: (10/30/2013 2:28:07 PM:PSObject) \[\], RuntimeException
-    + FullyQualifiedErrorId : mshExpressionError
+Xxxxxx xx xxxxxxxx xxxxxxxxxx $ $$ $ $xxxx $.
+$ XxxxxxxxXxxx          $ XxxxxxxXxxxxxxx$ $00$00$0000 0$00$00 XX$XXXxxxxx$ $$$$$ XxxxxxxXxxxxxxxx $ XxxxxXxxxxxxxxXxxxxXx $ xxxXxxxxxxxxxXxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -267,8 +257,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -View
-Specifies the name of an alternate list format or "view." You cannot use the Property and View parameters in the same command.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xx xxxxxxxxx xxxx xxxxxx xx $xxxx.$ Xxx xxxxxx xxx xxx Xxxxxxxx xxx Xxxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -282,34 +272,34 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any object to Format-List.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xx Xxxxxx$Xxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.PowerShell.Commands.Internal.Format
-Format-List returns the format objects that represent the list.
+### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.Xxxxxxxx.Xxxxxx
+Xxxxxx$Xxxx xxxxxxx xxx xxxxxx xxxxxxx xxxx xxxxxxxxx xxx xxxx.
 
-## NOTES
-You can also refer to Format-List by its built-in alias, "FL".
-For more information, see about_Aliases.
+## XXXXX
+Xxx xxx xxxx xxxxx xx Xxxxxx$Xxxx xx xxx xxxxx$xx xxxxx$ $XX$.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx.
 
-The format cmdlets, such as Format-List, arrange the data to be displayed but do not display it.
-The data is displayed by the output features of Windows PowerShell and by the cmdlets that contain the Out verb (the Out cmdlets), such as Out-Host, Out-File, and Out-Printer.
+Xxx xxxxxx xxxxxxx$ xxxx xx Xxxxxx$Xxxx$ xxxxxxx xxx xxxx xx xx xxxxxxxxx xxx xx xxx xxxxxxx xx.
+Xxx xxxx xx xxxxxxxxx xx xxx xxxxxx xxxxxxxx xx Xxxxxxx XxxxxXxxxx xxx xx xxx xxxxxxx xxxx xxxxxxx xxx Xxx xxxx $xxx Xxx xxxxxxx$$ xxxx xx Xxx$Xxxx$ Xxx$Xxxx$ xxx Xxx$Xxxxxxx.
 
-If you do not use a format cmdlet, Windows PowerShell applies that default format for each object that it displays.
+Xx xxx xx xxx xxx x xxxxxx xxxxxx$ Xxxxxxx XxxxxXxxxx xxxxxxx xxxx xxxxxxx xxxxxx xxx xxxx xxxxxx xxxx xx xxxxxxxx.
 
-The GroupBy parameter assumes that the objects are sorted.
-Before using Format-Custom to group the objects, use Sort-Object to sort them.
+Xxx XxxxxXx xxxxxxxxx xxxxxxx xxxx xxx xxxxxxx xxx xxxxxx.
+Xxxxxx xxxxx Xxxxxx$Xxxxxx xx xxxxx xxx xxxxxxx$ xxx Xxxx$Xxxxxx xx xxxx xxxx.
 
-The View parameter lets you specify an alternate format for the table.
-You can use the views defined in the *.format.PS1XML files in the Windows PowerShell directory, or you can create your own views in new PS1XML files and use the Update-FormatData cmdlet to include them in Windows PowerShell.
+Xxx Xxxx xxxxxxxxx xxxx xxx xxxxxxx xx xxxxxxxxx xxxxxx xxx xxx xxxxx.
+Xxx xxx xxx xxx xxxxx xxxxxxx xx xxx $.xxxxxx.XX0XXX xxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxx$ xx xxx xxx xxxxxx xxxx xxx xxxxx xx xxx XX0XXX xxxxx xxx xxx xxx Xxxxxx$XxxxxxXxxx xxxxxx xx xxxxxxx xxxx xx Xxxxxxx XxxxxXxxxx.
 
-The alternate view for the View parameter must use the list format; if not, the command fails.
-If the alternate view is a table, use Format-Table.
-If the alternate view is neither a list nor a table, use Format-Custom.
+Xxx xxxxxxxxx xxxx xxx xxx Xxxx xxxxxxxxx xxxx xxx xxx xxxx xxxxxx$ xx xxx$ xxx xxxxxxx xxxxx.
+Xx xxx xxxxxxxxx xxxx xx x xxxxx$ xxx Xxxxxx$Xxxxx.
+Xx xxx xxxxxxxxx xxxx xx xxxxxxx x xxxx xxx x xxxxx$ xxx Xxxxxx$Xxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 

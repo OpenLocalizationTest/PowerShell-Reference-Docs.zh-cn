@@ -4,30 +4,30 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293989
 schema: 2.0.0
 ---
 
-# Measure-Command
-## SYNOPSIS
-Measures the time it takes to run script blocks and cmdlets.
+# Xxxxxxx$Xxxxxxx
+## XXXXXXXX
+Xxxxxxxx xxx xxxx xx xxxxx xx xxx xxxxxx xxxxxx xxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Measure-Command [-InputObject <PSObject>] [-Expression] <ScriptBlock> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Measure-Command cmdlet runs a script block or cmdlet internally, times the execution of the operation, and returns the execution time.
+## XXXXXXXXXXX
+Xxx Xxxxxxx$Xxxxxxx xxxxxx xxxx x xxxxxx xxxxx xx xxxxxx xxxxxxxxxx$ xxxxx xxx xxxxxxxxx xx xxx xxxxxxxxx$ xxx xxxxxxx xxx xxxxxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Measure-Command { Get-EventLog "windows powershell" }
 ```
 
-This command measures the time it takes to run a Get-EventLog command that gets the events in the Windows PowerShell event log.
+Xxxx xxxxxxx xxxxxxxx xxx xxxx xx xxxxx xx xxx x Xxx$XxxxxXxx xxxxxxx xxxx xxxx xxx xxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxx xxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 The first command measures the time it takes to process a recursive Get-ChildItem command that uses the Path parameter to get only .txt files in the C:\Windows directory and its subdirectories.
 PS C:\>Measure-Command {Get-ChildItem -Path C:\Windows\*.txt -Recurse}
@@ -61,14 +61,14 @@ TotalSeconds      : 1.1409189
 TotalMilliseconds : 1140.9189
 ```
 
-These commands show the value of using a provider-specific filter in Windows PowerShell commands.
+Xxxxx xxxxxxxx xxxx xxx xxxxx xx xxxxx x xxxxxxxx$xxxxxxxx xxxxxx xx Xxxxxxx XxxxxXxxxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Expression
-Specifies the expression that is being timed.
-Enclose the expression in braces ({}).
-The parameter name ("Expression") is optional.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxx xxxx xx xxxxx xxxxx.
+Xxxxxxx xxx xxxxxxxxxx xx xxxxxx $$$$.
+Xxx xxxxxxxxx xxxx $$Xxxxxxxxxx$$ xx xxxxxxxx.
 
 ```yaml
 Type: ScriptBlock
@@ -82,8 +82,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -98,8 +98,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -113,9 +113,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies objects representing the expressions to be measured.
-Enter a variable that contains the objects or type a command or expression that gets the objects.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxxxxxx xxxxxxxxxxxx xxx xxxxxxxxxxx xx xx xxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
 ```yaml
 Type: PSObject
@@ -129,26 +129,26 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe an object to Measure-Command.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xx xxxxxx xx Xxxxxxx$Xxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.TimeSpan
-Measure-Command returns a time span object that represents the result.
+### Xxxxxx.XxxxXxxx
+Xxxxxxx$Xxxxxxx xxxxxxx x xxxx xxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxx.
 
-## NOTES
-For more information, type "Get-Help Measure-Command -detailed".
-For technical information, type "Get-Help Measure-Command -full".
+## XXXXX
+Xxx xxxx xxxxxxxxxxx$ xxxx $Xxx$Xxxx Xxxxxxx$Xxxxxxx $xxxxxxxx$.
+Xxx xxxxxxxxx xxxxxxxxxxx$ xxxx $Xxx$Xxxx Xxxxxxx$Xxxxxxx $xxxx$.
 
-When specifying multiple values for a parameter, use commas to separate the values.
-For example, "\<parameter-name\> \<value1\>, \<value2\>".
+Xxxx xxxxxxxxxx xxxxxxxx xxxxxx xxx x xxxxxxxxx$ xxx xxxxxx xx xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx$ $$$xxxxxxxxx$xxxx$$ $$xxxxx0$$$ $$xxxxx0$$$.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Invoke-Command]()
+[Xxxxxx$Xxxxxxx]()
 
-[Trace-Command]()
+[Xxxxx$Xxxxxxx]()
 

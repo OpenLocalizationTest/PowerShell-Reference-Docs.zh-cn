@@ -6,56 +6,56 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStoreAddOn
-## SYNOPSIS
-Gets the available Azure Store add-ons.
+# Xxx$XxxxxXxxxxXxxXx
+## XXXXXXXX
+Xxxx xxx xxxxxxxxx Xxxxx Xxxxx xxx$xxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStoreAddOn [-ListAvailable] [[-Country] <String>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStoreAddOn [[-Name] <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-Gets all the available add-ons for purchasing from the Azure Store, or gets the existing add-on instances for the current subscription.
+Xxxx xxx xxx xxxxxxxxx xxx$xxx xxx xxxxxxxxxx xxxx xxx Xxxxx Xxxxx$ xx xxxx xxx xxxxxxxx xxx$xx xxxxxxxxx xxx xxx xxxxxxx xxxxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 PS C:\>Get-AzureStoreAddOn
 ```
 
-This example gets all purchased add-on instances for the current subscription.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxx xxx$xx xxxxxxxxx xxx xxx xxxxxxx xxxxxxxxxxxx.
 
-### Example 2
+### Xxxxxxx 0
 ```
 PS C:\>Get-AzureStoreAddOn -ListAvailable
 ```
 
-This example gets all the available add-ons for purchasing in United States from the Azure Store.
+Xxxx xxxxxxx xxxx xxx xxx xxxxxxxxx xxx$xxx xxx xxxxxxxxxx xx Xxxxxx Xxxxxx xxxx xxx Xxxxx Xxxxx.
 
-### Example 3
+### Xxxxxxx 0
 ```
 PS C:\>Get-AzureStoreAddOn -Name MyAddOn
 ```
 
-This example gets an add-on named MyAddOn from the purchased add-on instance in the current subscription.
+Xxxx xxxxxxx xxxx xx xxx$xx xxxxx XxXxxXx xxxx xxx xxxxxxxxx xxx$xx xxxxxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Country
-If specified, returns only the Azure Store add-on instances available in the specified country.
-The default is "US".
+### $Xxxxxxx
+Xx xxxxxxxxx$ xxxxxxx xxxx xxx Xxxxx Xxxxx xxx$xx xxxxxxxxx xxxxxxxxx xx xxx xxxxxxxxx xxxxxxx.
+Xxx xxxxxxx xx $XX$.
 
 ```yaml
 Type: String
@@ -69,8 +69,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ListAvailable
-If specified, gets available add-ons for purchasing from the Azure Store.
+### $XxxxXxxxxxxxx
+Xx xxxxxxxxx$ xxxx xxxxxxxxx xxx$xxx xxx xxxxxxxxxx xxxx xxx Xxxxx Xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -84,8 +84,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Returns the add-on that matches the specified name.
+### $Xxxx
+Xxxxxxx xxx xxx$xx xxxx xxxxxxx xxx xxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -99,18 +99,18 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureStoreAddOn](a293ef75-d822-4392-8af4-1bb50d0461f6)
+[Xxx$XxxxxXxxxxXxxXx](a293ef75-d822-4392-8af4-1bb50d0461f6)
 
-[Remove-AzureStoreAddOn](38bb8f09-dcc3-4356-b346-354dd186feca)
+[Xxxxxx$XxxxxXxxxxXxxXx](38bb8f09-dcc3-4356-b346-354dd186feca)
 
-[Set-AzureStoreAddOn](545b82f5-330f-48c7-b2b1-d6a1c630ac28)
+[Xxx$XxxxxXxxxxXxxXx](545b82f5-330f-48c7-b2b1-d6a1c630ac28)
 
 

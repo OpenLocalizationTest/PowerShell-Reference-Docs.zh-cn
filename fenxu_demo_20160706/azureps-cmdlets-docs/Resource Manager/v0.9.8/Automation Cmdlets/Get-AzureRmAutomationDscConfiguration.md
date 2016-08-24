@@ -6,46 +6,46 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureRmAutomationDscConfiguration
-## SYNOPSIS
-Gets DSC configurations from Automation.
+# Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx
+## XXXXXXXX
+Xxxx XXX xxxxxxxxxxxxxx xxxx Xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRmAutomationDscConfiguration [-ResourceGroupName] <String> [-AutomationAccountName] <String>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRmAutomationDscConfiguration [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationDscConfiguration** cmdlet gets APS Desired State Configuration (DSC) configurations from azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx$$ xxxxxx xxxx XXX Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxxxxxxxxxxxx xxxx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all DSC configurations
+### Xxxxxxx 0$ Xxx xxx XXX xxxxxxxxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationDscConfiguration -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17"
 ```
 
-This command gets metadata for all DSC configurations in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxxxxxxx xxx xxx XXX xxxxxxxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 2: Get a DSC configuration by name
+### Xxxxxxx 0$ Xxx x XXX xxxxxxxxxxxxx xx xxxx
 ```
 PS C:\>Get-AzureRmAutomationDscConfiguration -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17" -Name "ContosoConfiguration"
 ```
 
-This command gets metadata for a DSC configuration named MyConfiguration in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxxxxxxx xxx x XXX xxxxxxxxxxxxx xxxxx XxXxxxxxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account that contains DSC configurations that this cmdlet gets.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxxxxx XXX xxxxxxxxxxxxxx xxxx xxxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -59,8 +59,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the DSC configuration that this cmdlet gets.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx XXX xxxxxxxxxxxxx xxxx xxxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -74,8 +74,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet gets DSC configurations.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxx XXX xxxxxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -89,16 +89,16 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Export-AzureRmAutomationDscConfiguration](091cd841-4aaf-45de-a8f2-6f973fb9c91b)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](091cd841-4aaf-45de-a8f2-6f973fb9c91b)
 
-[Import-AzureRmAutomationDscConfiguration](9e316628-0101-4da8-8a9f-843f8442e52d)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](9e316628-0101-4da8-8a9f-843f8442e52d)
 
 

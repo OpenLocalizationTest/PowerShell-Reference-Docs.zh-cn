@@ -6,11 +6,11 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureStorageContainer
-## SYNOPSIS
-Removes the specified storage container.
+# Xxxxxx$XxxxxXxxxxxxXxxxxxxxx
+## XXXXXXXX
+Xxxxxxx xxx xxxxxxxxx xxxxxxx xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureStorageContainer [-Name] <String> [-ClientTimeoutPerRequest <Int32]>]
@@ -18,43 +18,24 @@ Remove-AzureStorageContainer [-Name] <String> [-ClientTimeoutPerRequest <Int32]>
  [-ServerTimeoutPerRequest <Int32]>] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureStorageContainer** cmdlet removes the specified storage container in azure_2.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxxxxxxXxxxxxxxx$$ xxxxxx xxxxxxx xxx xxxxxxxxx xxxxxxx xxxxxxxxx xx xxxxx$0.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a container
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxxx
 ```
 PS C:\>Remove-AzureStorageContainer â€"Name "MyTestContainer"
 ```
 
-This example removes a container named MyTestContainer.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxxx xxxxx XxXxxxXxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-Specifies the client-side time-out interval, in seconds, for one service request.
-If the previous call fails in the specified interval, this cmdlet retries the request.
-If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
-
-```yaml
-Type: Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-Specifies the maximum concurrent network calls.
-You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
-The specified value is an absolute count and is not multiplied by the core count.
-This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
-The default value is 10.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -68,9 +49,28 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies a context for the container you want to remove.
-You can use the New-AzureStorageContext cmdlet to create it.
+### $XxxxxxxxxxXxxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxxxxx xxx xxxx xxxxxx xxxxxxx xxxxxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxxx$ xxxx xx 000 xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx xxxxx xx 00.
+
+```yaml
+Type: Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+Xxxxxxxxx x xxxxxxx xxx xxx xxxxxxxxx xxx xxxx xx xxxxxx.
+Xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx xx xxxxxx xx.
 
 ```yaml
 Type: AzureStorageContext
@@ -84,8 +84,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-ps_force
+### $Xxxxx
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -99,8 +99,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the container to remove.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -114,9 +114,9 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Indicates that this cmdlet returns a **Boolean** that reflects the success of the operation.
-By default, this cmdlet does not return a value.
+### $XxxxXxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx x $$Xxxxxxx$$ xxxx xxxxxxxx xxx xxxxxxx xx xxx xxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx x xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -130,9 +130,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-Specifies the service side time-out interval, in seconds, for a request.
-If the specified interval elapses before the service processes the request, the storage service returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
+Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -146,8 +146,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -161,8 +161,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -176,16 +176,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageContainer](4880a1a4-c947-4310-8317-0a837b8acb7f)
+[Xxx$XxxxxXxxxxxxXxxxxxxxx](4880a1a4-c947-4310-8317-0a837b8acb7f)
 
-[New-AzureStorageContainer](f3da4bf0-aa3a-4853-a362-e3fc479688d6)
+[Xxx$XxxxxXxxxxxxXxxxxxxxx](f3da4bf0-aa3a-4853-a362-e3fc479688d6)
 
 

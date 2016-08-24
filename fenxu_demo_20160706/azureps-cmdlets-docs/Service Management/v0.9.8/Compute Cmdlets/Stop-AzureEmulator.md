@@ -6,34 +6,34 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Stop-AzureEmulator
-## SYNOPSIS
-Stops the compute emulator.
+# Xxxx$XxxxxXxxxxxxx
+## XXXXXXXX
+Xxxxx xxx xxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Stop-AzureEmulator [-PassThru]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Stop-AzureEmulator cmdlet stops the Azure compute emulator.
-Any services currently running in the emulator are removed.
+Xxx Xxxx$XxxxxXxxxxxxx xxxxxx xxxxx xxx Xxxxx xxxxxxx xxxxxxxx.
+Xxx xxxxxxxx xxxxxxxxx xxxxxxx xx xxx xxxxxxxx xxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 PS C:\>
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -PassThru
-@{Text=}
+### $XxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -47,14 +47,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Start-AzureEmulator](219045a4-a7b6-4c26-9e5f-8656fde0764b)
+[Xxxxx$XxxxxXxxxxxxx](219045a4-a7b6-4c26-9e5f-8656fde0764b)
 
 

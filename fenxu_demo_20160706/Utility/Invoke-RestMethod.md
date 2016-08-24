@@ -4,11 +4,11 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293987
 schema: 2.0.0
 ---
 
-# Invoke-RestMethod
-## SYNOPSIS
-Sends an HTTP or HTTPS request to a RESTful web service.
+# Xxxxxx$XxxxXxxxxx
+## XXXXXXXX
+Xxxxx xx XXXX xx XXXXX xxxxxxx xx x XXXXxxx xxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Invoke-RestMethod [-Method <WebRequestMethod>] [-UseBasicParsing] [-Uri] <Uri>
@@ -20,18 +20,18 @@ Invoke-RestMethod [-Method <WebRequestMethod>] [-UseBasicParsing] [-Uri] <Uri>
  [-PassThru] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Invoke-RestMethod cmdlet sends HTTP and HTTPS requests to Representational State Transfer (REST) web services that returns richly structured data.
+## XXXXXXXXXXX
+Xxx Xxxxxx$XxxxXxxxxx xxxxxx xxxxx XXXX xxx XXXXX xxxxxxxx xx Xxxxxxxxxxxxxxxx Xxxxx Xxxxxxxx $XXXX$ xxx xxxxxxxx xxxx xxxxxxx xxxxxx xxxxxxxxxx xxxx.
 
-Windows PowerShell formats the response based to the data type.
-For an RSS or ATOM feed, Windows PowerShell returns the Item or Entry XML nodes.
-For JavaScript Object Notation (JSON) or XML, Windows PowerShell converts (or deserializes) the content into objects.
+Xxxxxxx XxxxxXxxxx xxxxxxx xxx xxxxxxxx xxxxx xx xxx xxxx xxxx.
+Xxx xx XXX xx XXXX xxxx$ Xxxxxxx XxxxxXxxxx xxxxxxx xxx Xxxx xx Xxxxx XXX xxxxx.
+Xxx XxxxXxxxxx Xxxxxx Xxxxxxxx $XXXX$ xx XXX$ Xxxxxxx XxxxxXxxxx xxxxxxxx $xx xxxxxxxxxxxx$ xxx xxxxxxx xxxx xxxxxxx.
 
-This cmdlet is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 PS C:\>Invoke-RestMethod -Uri http://blogs.msdn.com/powershell/rss.aspx | Format-Table -Property Title, pubDate
 Title                                                                 pubDate-----------
@@ -50,10 +50,10 @@ A Few Deep Dive Abstracts                                             Sat, 05 Ma
 Reminder: Register for the PowerShell Deep Dive Conference & submi... Wed, 23 Feb 2011 17:55:45 GMT
 ```
 
-This command uses the Invoke-RestMethod cmdlet to get information from the Windows PowerShell Blog RSS feed.
-The command uses the Format-Table cmdlet to display the values of the Title and pubDate properties of each blog in a table.
+Xxxx xxxxxxx xxxx xxx Xxxxxx$XxxxXxxxxx xxxxxx xx xxx xxxxxxxxxxx xxxx xxx Xxxxxxx XxxxxXxxxx Xxxx XXX xxxx.
+Xxx xxxxxxx xxxx xxx Xxxxxx$Xxxxx xxxxxx xx xxxxxxx xxx xxxxxx xx xxx Xxxxx xxx xxxXxxx xxxxxxxxxx xx xxxx xxxx xx x xxxxx.
 
-### Example 2
+### Xxxxxxx 0
 ```
 PS C:\>$cred = Get-Credential
 
@@ -91,32 +91,29 @@ Supply values for the following parameters:
 {"preview":true,"offset":3,"result":{"sourcetype":"contoso4","count":"15277"}}
 ```
 
-In the following example, a user runs Invoke-RestMethod to perform a POST request on an intranet website in the user's organization.
+Xx xxx xxxxxxxxx xxxxxxx$ x xxxx xxxx Xxxxxx$XxxxXxxxxx xx xxxxxxx x XXXX xxxxxxx xx xx xxxxxxxx xxxxxxx xx xxx xxxx$x xxxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Body
-Specifies the body of the request.
-The body is the content of the request that follows the headers.
-You can also pipe a body value to Invoke-RestMethod.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx.
+Xxx xxxx xx xxx xxxxxxx xx xxx xxxxxxx xxxx xxxxxxx xxx xxxxxxx.
+Xxx xxx xxxx xxxx x xxxx xxxxx xx Xxxxxx$XxxxXxxxxx.
 
-The Body parameter can be used to specify a list of query parameters or specify the content of the response.
+Xxx Xxxx xxxxxxxxx xxx xx xxxx xx xxxxxxx x xxxx xx xxxxx xxxxxxxxxx xx xxxxxxx xxx xxxxxxx xx xxx xxxxxxxx.
 
-When the input is a GET request, and the body is an IDictionary (typically, a hash table), the body is added to the URI as query parameters.
-For other request types (such as POST), the body is set as the value of the request body in the standard name=value format.
+Xxxx xxx xxxxx xx x XXX xxxxxxx$ xxx xxx xxxx xx xx XXxxxxxxxxx $xxxxxxxxx$ x xxxx xxxxx$$ xxx xxxx xx xxxxx xx xxx XXX xx xxxxx xxxxxxxxxx.
+Xxx xxxxx xxxxxxx xxxxx $xxxx xx XXXX$$ xxx xxxx xx xxx xx xxx xxxxx xx xxx xxxxxxx xxxx xx xxx xxxxxxxx xxxx$xxxxx xxxxxx.
 
-When the body is a form, or it is the output of another Invoke-WebRequest call, Windows PowerShell sets the request content to the form fields.
+Xxxx xxx xxxx xx x xxxx$ xx xx xx xxx xxxxxx xx xxxxxxx Xxxxxx$XxxXxxxxxx xxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxxxx xxxxxxx xx xxx xxxx xxxxxx.
 
-For example:
+Xxx xxxxxxx$
 
-$r = Invoke-WebRequest http://website.com/login.aspx
-$r.Forms\[0\].Name = "MyName"
-$r.Forms\[0\].Password = "MyPassword"
-Invoke-RestMethod http://website.com/service.aspx -Body $r
+$x $ Xxxxxx$XxxXxxxxxx xxxx$$$xxxxxxx.xxx$xxxxx.xxxx $x.Xxxxx$$0$$.Xxxx $ $XxXxxx$ $x.Xxxxx$$0$$.Xxxxxxxx $ $XxXxxxxxxx$ Xxxxxx$XxxxXxxxxx xxxx$$$xxxxxxx.xxx$xxxxxxx.xxxx $Xxxx $x
 
-- or -
+- xx $
 
-Invoke-RestMethod http://website.com/service.aspx -Body $r.Forms\[0\]
+Xxxxxx$XxxxXxxxxx xxxx$$$xxxxxxx.xxx$xxxxxxx.xxxx $Xxxx $x.Xxxxx$$0\]
 
 ```yaml
 Type: Object
@@ -130,12 +127,12 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Certificate
-Specifies the client certificate that is used for a secure web request.
-Enter a variable that contains a certificate or a command or expression that gets the certificate.
+### $Xxxxxxxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxxxxxxx xxxx xx xxxx xxx x xxxxxx xxx xxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx x xxxxxxxxxxx xx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxxxxxx.
 
-To find a certificate, use Get-PfxCertificate or use the Get-ChildItem cmdlet in the Certificate (Cert:) drive.
-If the certificate is not valid or does not have sufficient authority, the command fails.
+Xx xxxx x xxxxxxxxxxx$ xxx Xxx$XxxXxxxxxxxxxx xx xxx xxx Xxx$XxxxxXxxx xxxxxx xx xxx Xxxxxxxxxxx $Xxxx$$ xxxxx.
+Xx xxx xxxxxxxxxxx xx xxx xxxxx xx xxxx xxx xxxx xxxxxxxxxx xxxxxxxxx$ xxx xxxxxxx xxxxx.
 
 ```yaml
 Type: X509Certificate
@@ -149,32 +146,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CertificateThumbprint
-Specifies the digital public key certificate (X509) of a user account that has permission to send the request.
-Enter the certificate thumbprint of the certificate.
+### $XxxxxxxxxxxXxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxx xxx xxxxxxxxxxx $X000$ xx x xxxx xxxxxxx xxxx xxx xxxxxxxxxx xx xxxx xxx xxxxxxx.
+Xxxxx xxx xxxxxxxxxxx xxxxxxxxxx xx xxx xxxxxxxxxxx.
 
-Certificates are used in client certificate-based authentication.
-They can be mapped only to local user accounts; they do not work with domain accounts.
+Xxxxxxxxxxxx xxx xxxx xx xxxxxx xxxxxxxxxxx$xxxxx xxxxxxxxxxxxxx.
+Xxxx xxx xx xxxxxx xxxx xx xxxxx xxxx xxxxxxxx$ xxxx xx xxx xxxx xxxx xxxxxx xxxxxxxx.
 
-To get a certificate thumbprint, use the Get-Item or Get-ChildItem command in the Windows PowerShell Cert: drive.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ContentType
-Specifies the content type of the web request.
-
-If this parameter is omitted and the request method is POST, Invoke-RestMethod sets the content type to "application/x-www-form-urlencoded".
-Otherwise, the content type is not specified in the call.
+Xx xxx x xxxxxxxxxxx xxxxxxxxxx$ xxx xxx Xxx$Xxxx xx Xxx$XxxxxXxxx xxxxxxx xx xxx Xxxxxxx XxxxxXxxxx Xxxx$ xxxxx.
 
 ```yaml
 Type: String
@@ -188,11 +167,29 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Credential
-Specifies a user account that has permission to send the request.
-The default is the current user.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xx xxx xxx xxxxxxx.
 
-Type a user name, such as "User01" or "Domain01\User01", or enter a PSCredential object, such as one generated by the Get-Credential cmdlet.
+Xx xxxx xxxxxxxxx xx xxxxxxx xxx xxx xxxxxxx xxxxxx xx XXXX$ Xxxxxx$XxxxXxxxxx xxxx xxx xxxxxxx xxxx xx $xxxxxxxxxxx$x$xxx$xxxx$xxxxxxxxxx$.
+Xxxxxxxxx$ xxx xxxxxxx xxxx xx xxx xxxxxxxxx xx xxx xxxx.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxxxxx
+Xxxxxxxxx x xxxx xxxxxxx xxxx xxx xxxxxxxxxx xx xxxx xxx xxxxxxx.
+Xxx xxxxxxx xx xxx xxxxxxx xxxx.
+
+Xxxx x xxxx xxxx$ xxxx xx $Xxxx00$ xx $Xxxxxx00$Xxxx00$$ xx xxxxx x XXXxxxxxxxxx xxxxxx$ xxxx xx xxx xxxxxxxxx xx xxx Xxx$Xxxxxxxxxx xxxxxx.
 
 ```yaml
 Type: PSCredential
@@ -206,10 +203,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DisableKeepAlive
-Sets the KeepAlive value in the HTTP header to False.
-By default, KeepAlive is True.
-KeepAlive establishes a persistent connection to the server to facilitate subsequent requests.
+### $XxxxxxxXxxxXxxxx
+Xxxx xxx XxxxXxxxx xxxxx xx xxx XXXX xxxxxx xx Xxxxx.
+Xx xxxxxxx$ XxxxXxxxx xx Xxxx.
+XxxxXxxxx xxxxxxxxxxx x xxxxxxxxxx xxxxxxxxxx xx xxx xxxxxx xx xxxxxxxxxx xxxxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -223,12 +220,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Headers
-Specifies the headers of the web request.
-Enter a hash table or dictionary.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxx xxx xxxxxxx.
+Xxxxx x xxxx xxxxx xx xxxxxxxxxx.
 
-To set UserAgent headers, use the UserAgent parameter.
-You cannot use this parameter to specify UserAgent or cookie headers.
+Xx xxx XxxxXxxxx xxxxxxx$ xxx xxx XxxxXxxxx xxxxxxxxx.
+Xxx xxxxxx xxx xxxx xxxxxxxxx xx xxxxxxx XxxxXxxxx xx xxxxxx xxxxxxx.
 
 ```yaml
 Type: IDictionary
@@ -242,11 +239,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InFile
-Gets the content of the web request from a file.
+### $XxXxxx
+Xxxx xxx xxxxxxx xx xxx xxx xxxxxxx xxxx x xxxx.
 
-Enter a path and file name.
-If you omit the path, the default is the current location.
+Xxxxx x xxxx xxx xxxx xxxx.
+Xx xxx xxxx xxx xxxx$ xxx xxxxxxx xx xxx xxxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -260,24 +257,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-The Body parameter can be used to specify a list of query parameters or specify the content of the response.
+### $XxxxxxxxxxxXxxxxx
+Xxx Xxxx xxxxxxxxx xxx xx xxxx xx xxxxxxx x xxxx xx xxxxx xxxxxxxxxx xx xxxxxxx xxx xxxxxxx xx xxx xxxxxxxx.
 
-When the input is a GET request, and the body is an IDictionary (typically, a hash table), the body is added to the URI as query parameters.
-For other request types (such as POST), the body is set as the value of the request body in the standard name=value format.
+Xxxx xxx xxxxx xx x XXX xxxxxxx$ xxx xxx xxxx xx xx XXxxxxxxxxx $xxxxxxxxx$ x xxxx xxxxx$$ xxx xxxx xx xxxxx xx xxx XXX xx xxxxx xxxxxxxxxx.
+Xxx xxxxx xxxxxxx xxxxx $xxxx xx XXXX$$ xxx xxxx xx xxx xx xxx xxxxx xx xxx xxxxxxx xxxx xx xxx xxxxxxxx xxxx$xxxxx xxxxxx.
 
-When the body is a form, or it is the output of another Invoke-WebRequest call, Windows PowerShell sets the request content to the form fields.
+Xxxx xxx xxxx xx x xxxx$ xx xx xx xxx xxxxxx xx xxxxxxx Xxxxxx$XxxXxxxxxx xxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxxxx xxxxxxx xx xxx xxxx xxxxxx.
 
-For example:
+Xxx xxxxxxx$
 
-$r = Invoke-WebRequest http://website.com/login.aspx
-$r.Forms\[0\].Name = "MyName"
-$r.Forms\[0\].Password = "MyPassword"
-Invoke-RestMethod http://website.com/service.aspx -Body $r
+$x $ Xxxxxx$XxxXxxxxxx xxxx$$$xxxxxxx.xxx$xxxxx.xxxx $x.Xxxxx$$0$$.Xxxx $ $XxXxxx$ $x.Xxxxx$$0$$.Xxxxxxxx $ $XxXxxxxxxx$ Xxxxxx$XxxxXxxxxx xxxx$$$xxxxxxx.xxx$xxxxxxx.xxxx $Xxxx $x
 
-- or -
+- xx $
 
-Invoke-RestMethod http://website.com/service.aspx -Body $r.Forms\[0\]
+Xxxxxx$XxxxXxxxxx xxxx$$$xxxxxxx.xxx$xxxxxxx.xxxx $Xxxx $x.Xxxxx$$0\]
 
 ```yaml
 Type: ActionPreference
@@ -292,24 +286,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-The Body parameter can be used to specify a list of query parameters or specify the content of the response.
+### $XxxxxxxxxxxXxxxxxxx
+Xxx Xxxx xxxxxxxxx xxx xx xxxx xx xxxxxxx x xxxx xx xxxxx xxxxxxxxxx xx xxxxxxx xxx xxxxxxx xx xxx xxxxxxxx.
 
-When the input is a GET request, and the body is an IDictionary (typically, a hash table), the body is added to the URI as query parameters.
-For other request types (such as POST), the body is set as the value of the request body in the standard name=value format.
+Xxxx xxx xxxxx xx x XXX xxxxxxx$ xxx xxx xxxx xx xx XXxxxxxxxxx $xxxxxxxxx$ x xxxx xxxxx$$ xxx xxxx xx xxxxx xx xxx XXX xx xxxxx xxxxxxxxxx.
+Xxx xxxxx xxxxxxx xxxxx $xxxx xx XXXX$$ xxx xxxx xx xxx xx xxx xxxxx xx xxx xxxxxxx xxxx xx xxx xxxxxxxx xxxx$xxxxx xxxxxx.
 
-When the body is a form, or it is the output of another Invoke-WebRequest call, Windows PowerShell sets the request content to the form fields.
+Xxxx xxx xxxx xx x xxxx$ xx xx xx xxx xxxxxx xx xxxxxxx Xxxxxx$XxxXxxxxxx xxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxxxx xxxxxxx xx xxx xxxx xxxxxx.
 
-For example:
+Xxx xxxxxxx$
 
-$r = Invoke-WebRequest http://website.com/login.aspx
-$r.Forms\[0\].Name = "MyName"
-$r.Forms\[0\].Password = "MyPassword"
-Invoke-RestMethod http://website.com/service.aspx -Body $r
+$x $ Xxxxxx$XxxXxxxxxx xxxx$$$xxxxxxx.xxx$xxxxx.xxxx $x.Xxxxx$$0$$.Xxxx $ $XxXxxx$ $x.Xxxxx$$0$$.Xxxxxxxx $ $XxXxxxxxxx$ Xxxxxx$XxxxXxxxxx xxxx$$$xxxxxxx.xxx$xxxxxxx.xxxx $Xxxx $x
 
-- or -
+- xx $
 
-Invoke-RestMethod http://website.com/service.aspx -Body $r.Forms\[0\]
+Xxxxxx$XxxxXxxxxx xxxx$$$xxxxxxx.xxx$xxxxxxx.xxxx $Xxxx $x.Xxxxx$$0\]
 
 ```yaml
 Type: String
@@ -323,10 +314,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -MaximumRedirection
-Determines how many times Windows PowerShell redirects a connection to an alternate Uniform Resource Identifier (URI) before the connection fails.
-The default value is 5.
-A value of 0 (zero) prevents all redirection.
+### $XxxxxxxXxxxxxxxxxx
+Xxxxxxxxxx xxx xxxx xxxxx Xxxxxxx XxxxxXxxxx xxxxxxxxx x xxxxxxxxxx xx xx xxxxxxxxx Xxxxxxx Xxxxxxxx Xxxxxxxxxx $XXX$ xxxxxx xxx xxxxxxxxxx xxxxx.
+Xxx xxxxxxx xxxxx xx 0.
+X xxxxx xx 0 $xxxx$ xxxxxxxx xxx xxxxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -340,9 +331,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Method
-Specifies the method used for the web request.
-Valid values are Default, Delete, Get, Head, Merge, Options, Patch, Post, Put, and Trace.
+### $Xxxxxx
+Xxxxxxxxx xxx xxxxxx xxxx xxx xxx xxx xxxxxxx.
+Xxxxx xxxxxx xxx Xxxxxxx$ Xxxxxx$ Xxx$ Xxxx$ Xxxxx$ Xxxxxxx$ Xxxxx$ Xxxx$ Xxx$ xxx Xxxxx.
 
 ```yaml
 Type: WebRequestMethod
@@ -357,13 +348,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -OutFile
-Saves the response body in the specified output file.
-Enter a path and file name.
-If you omit the path, the default is the current location.
+### $XxxXxxx
+Xxxxx xxx xxxxxxxx xxxx xx xxx xxxxxxxxx xxxxxx xxxx.
+Xxxxx x xxxx xxx xxxx xxxx.
+Xx xxx xxxx xxx xxxx$ xxx xxxxxxx xx xxx xxxxxxx xxxxxxxx.
 
-By default, Invoke-RestMethod returns the results to the pipeline.
-To send the results to a file and to the pipeline, use the Passthru parameter.
+Xx xxxxxxx$ Xxxxxx$XxxxXxxxxx xxxxxxx xxx xxxxxxx xx xxx xxxxxxxx.
+Xx xxxx xxx xxxxxxx xx x xxxx xxx xx xxx xxxxxxxx$ xxx xxx Xxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -377,9 +368,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Returns the results, in addition to writing them to a file.
-This parameter is valid only when the OutFile parameter is also used in the command.
+### $XxxxXxxx
+Xxxxxxx xxx xxxxxxx$ xx xxxxxxxx xx xxxxxxx xxxx xx x xxxx.
+Xxxx xxxxxxxxx xx xxxxx xxxx xxxx xxx XxxXxxx xxxxxxxxx xx xxxx xxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -393,9 +384,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Proxy
-Uses a proxy server for the request, rather than connecting directly to the Internet resource.
-Enter the URI of a network proxy server.
+### $Xxxxx
+Xxxx x xxxxx xxxxxx xxx xxx xxxxxxx$ xxxxxx xxxx xxxxxxxxxx xxxxxxxx xx xxx Xxxxxxxx xxxxxxxx.
+Xxxxx xxx XXX xx x xxxxxxx xxxxx xxxxxx.
 
 ```yaml
 Type: Uri
@@ -409,14 +400,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ProxyCredential
-Specifies a user account that has permission to use the proxy server that is specified by the Proxy parameter.
-The default is the current user.
+### $XxxxxXxxxxxxxxx
+Xxxxxxxxx x xxxx xxxxxxx xxxx xxx xxxxxxxxxx xx xxx xxx xxxxx xxxxxx xxxx xx xxxxxxxxx xx xxx Xxxxx xxxxxxxxx.
+Xxx xxxxxxx xx xxx xxxxxxx xxxx.
 
-Type a user name, such as "User01" or "Domain01\User01", or enter a PSCredential object, such as one generated by the Get-Credential cmdlet.
+Xxxx x xxxx xxxx$ xxxx xx $Xxxx00$ xx $Xxxxxx00$Xxxx00$$ xx xxxxx x XXXxxxxxxxxx xxxxxx$ xxxx xx xxx xxxxxxxxx xx xxx Xxx$Xxxxxxxxxx xxxxxx.
 
-This parameter is valid only when the Proxy parameter is also used in the command.
-You cannot use the ProxyCredential and ProxyUseDefaultCredentials parameters in the same command.
+Xxxx xxxxxxxxx xx xxxxx xxxx xxxx xxx Xxxxx xxxxxxxxx xx xxxx xxxx xx xxx xxxxxxx.
+Xxx xxxxxx xxx xxx XxxxxXxxxxxxxxx xxx XxxxxXxxXxxxxxxXxxxxxxxxxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 
 ```yaml
 Type: PSCredential
@@ -430,11 +421,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ProxyUseDefaultCredentials
-Uses the credentials of the current user to access the proxy server that is specified by the Proxy parameter.
+### $XxxxxXxxXxxxxxxXxxxxxxxxxx
+Xxxx xxx xxxxxxxxxxx xx xxx xxxxxxx xxxx xx xxxxxx xxx xxxxx xxxxxx xxxx xx xxxxxxxxx xx xxx Xxxxx xxxxxxxxx.
 
-This parameter is valid only when the Proxy parameter is also used in the command.
-You cannot use the ProxyCredential and ProxyUseDefaultCredentials parameters in the same command.
+Xxxx xxxxxxxxx xx xxxxx xxxx xxxx xxx Xxxxx xxxxxxxxx xx xxxx xxxx xx xxx xxxxxxx.
+Xxx xxxxxx xxx xxx XxxxxXxxxxxxxxx xxx XxxxxXxxXxxxxxxXxxxxxxxxxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -448,23 +439,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SessionVariable
-Creates a web request session and saves it in the value of the specified variable.
-Enter a variable name without the dollar sign ($) symbol.
+### $XxxxxxxXxxxxxxx
+Xxxxxxx x xxx xxxxxxx xxxxxxx xxx xxxxx xx xx xxx xxxxx xx xxx xxxxxxxxx xxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxx xxx xxxxxx xxxx $$$ xxxxxx.
 
-When you specify a session variable, Invoke-RestMethod creates a web request session object and assigns it to a variable with the specified name in your Windows PowerShell session.
-You can use the variable in your session as soon as the command completes.
+Xxxx xxx xxxxxxx x xxxxxxx xxxxxxxx$ Xxxxxx$XxxxXxxxxx xxxxxxx x xxx xxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xx xx x xxxxxxxx xxxx xxx xxxxxxxxx xxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xxx xxx xxx xxx xxxxxxxx xx xxxx xxxxxxx xx xxxx xx xxx xxxxxxx xxxxxxxxx.
 
-Unlike a remote session, the web request session is not a persistent connection.
-It is an object that contains information about the connection and the request, including cookies, credentials, the maximum redirection value, and the user agent string.
-You can use it to share state and data among web requests.
+Xxxxxx x xxxxxx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx xx xxx x xxxxxxxxxx xxxxxxxxxx.
+Xx xx xx xxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxxxxx xxx xxx xxxxxxx$ xxxxxxxxx xxxxxxx$ xxxxxxxxxxx$ xxx xxxxxxx xxxxxxxxxxx xxxxx$ xxx xxx xxxx xxxxx xxxxxx.
+Xxx xxx xxx xx xx xxxxx xxxxx xxx xxxx xxxxx xxx xxxxxxxx.
 
-To use the web request session in subsequent web requests, specify the session variable in the value of the WebSession parameter.
-Windows PowerShell uses the data in the web request session object when establishing the new connection.
-To override a value in the web request session, use a cmdlet parameter, such as UserAgent or Credential.
-Parameter values take precedence over values in the web request session.
+Xx xxx xxx xxx xxxxxxx xxxxxxx xx xxxxxxxxxx xxx xxxxxxxx$ xxxxxxx xxx xxxxxxx xxxxxxxx xx xxx xxxxx xx xxx XxxXxxxxxx xxxxxxxxx.
+Xxxxxxx XxxxxXxxxx xxxx xxx xxxx xx xxx xxx xxxxxxx xxxxxxx xxxxxx xxxx xxxxxxxxxxxx xxx xxx xxxxxxxxxx.
+Xx xxxxxxxx x xxxxx xx xxx xxx xxxxxxx xxxxxxx$ xxx x xxxxxx xxxxxxxxx$ xxxx xx XxxxXxxxx xx Xxxxxxxxxx.
+Xxxxxxxxx xxxxxx xxxx xxxxxxxxxx xxxx xxxxxx xx xxx xxx xxxxxxx xxxxxxx.
 
-You cannot use the SessionVariable and WebSession parameters in the same command.
+Xxx xxxxxx xxx xxx XxxxxxxXxxxxxxx xxx XxxXxxxxxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -478,13 +469,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TimeoutSec
-Specifies how long the request can be pending before it times out.
-Enter a value in seconds.
-The default value, 0, specifies an indefinite time-out.
+### $XxxxxxxXxx
+Xxxxxxxxx xxx xxxx xxx xxxxxxx xxx xx xxxxxxx xxxxxx xx xxxxx xxx.
+Xxxxx x xxxxx xx xxxxxxx.
+Xxx xxxxxxx xxxxx$ 0$ xxxxxxxxx xx xxxxxxxxxx xxxx$xxx.
 
-A Domain Name System (DNS) query can take up to 15 seconds to return or time out.
-If your request contains a host name that requires resolution, and you set TimeoutSec to a value greater than zero, but less than 15 seconds, it can take 15 seconds or more before a WebException is thrown, and your request times out.
+X Xxxxxx Xxxx Xxxxxx $XXX$ xxxxx xxx xxxx xx xx 00 xxxxxxx xx xxxxxx xx xxxx xxx.
+Xx xxxx xxxxxxx xxxxxxxx x xxxx xxxx xxxx xxxxxxxx xxxxxxxxxx$ xxx xxx xxx XxxxxxxXxx xx x xxxxx xxxxxxx xxxx xxxx$ xxx xxxx xxxx 00 xxxxxxx$ xx xxx xxxx 00 xxxxxxx xx xxxx xxxxxx x XxxXxxxxxxxx xx xxxxxx$ xxx xxxx xxxxxxx xxxxx xxx.
 
 ```yaml
 Type: Int32
@@ -498,9 +489,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TransferEncoding
-Specifies a value for the transfer-encoding HTTP response header.
-Valid values are Chunked, Compress, Deflate, GZip and Identity.
+### $XxxxxxxxXxxxxxxx
+Xxxxxxxxx x xxxxx xxx xxx xxxxxxxx$xxxxxxxx XXXX xxxxxxxx xxxxxx.
+Xxxxx xxxxxx xxx Xxxxxxx$ Xxxxxxxx$ Xxxxxxx$ XXxx xxx Xxxxxxxx.
 
 ```yaml
 Type: String
@@ -515,12 +506,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Uri
-Specifies the Uniform Resource Identifier (URI) of the Internet resource to which the web request is sent.
-This parameter supports HTTP, HTTPS, FTP, and FILE values.
+### $Xxx
+Xxxxxxxxx xxx Xxxxxxx Xxxxxxxx Xxxxxxxxxx $XXX$ xx xxx Xxxxxxxx xxxxxxxx xx xxxxx xxx xxx xxxxxxx xx xxxx.
+Xxxx xxxxxxxxx xxxxxxxx XXXX$ XXXXX$ XXX$ xxx XXXX xxxxxx.
 
-This parameter is required.
-The parameter name (-Uri) is optional.
+Xxxx xxxxxxxxx xx xxxxxxxx.
+Xxx xxxxxxxxx xxxx $$Xxx$ xx xxxxxxxx.
 
 ```yaml
 Type: Uri
@@ -534,8 +525,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -UseDefaultCredentials
-Uses the credentials of the current user to send the web request.
+### $XxxXxxxxxxXxxxxxxxxxx
+Xxxx xxx xxxxxxxxxxx xx xxx xxxxxxx xxxx xx xxxx xxx xxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -549,16 +540,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -UserAgent
-Specifies a user agent string for the web request.
+### $XxxxXxxxx
+Xxxxxxxxx x xxxx xxxxx xxxxxx xxx xxx xxx xxxxxxx.
 
-The default user agent is similar to "Mozilla/5.0 (Windows NT; Windows NT 6.1; en-US) WindowsPowerShell/3.0" with slight variations for each operating system and platform.
+Xxx xxxxxxx xxxx xxxxx xx xxxxxxx xx $Xxxxxxx$0.0 $Xxxxxxx XX$ Xxxxxxx XX 0.0$ xx$XX$ XxxxxxxXxxxxXxxxx$0.0$ xxxx xxxxxx xxxxxxxxxx xxx xxxx xxxxxxxxx xxxxxx xxx xxxxxxxx.
 
-To test a website with the standard user agent string that is used by most Internet browsers, use the properties of the PSUserAgent class, such as Chrome, FireFox, InternetExplorer, Opera, and Safari.
+Xx xxxx x xxxxxxx xxxx xxx xxxxxxxx xxxx xxxxx xxxxxx xxxx xx xxxx xx xxxx Xxxxxxxx xxxxxxxx$ xxx xxx xxxxxxxxxx xx xxx XXXxxxXxxxx xxxxx$ xxxx xx Xxxxxx$ XxxxXxx$ XxxxxxxxXxxxxxxx$ Xxxxx$ xxx Xxxxxx.
 
-For example, the following command uses the user agent string for Internet.
+Xxx xxxxxxx$ xxx xxxxxxxxx xxxxxxx xxxx xxx xxxx xxxxx xxxxxx xxx Xxxxxxxx.
 
-Invoke-WebRequest -Uri http://website.com/ -UserAgent (\[Microsoft.PowerShell.Commands.PSUserAgent\]::InternetExplorer)
+Xxxxxx$XxxXxxxxxx $Xxx xxxx$$$xxxxxxx.xxx$ $XxxxXxxxx $$$Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XXXxxxXxxxx$$$$XxxxxxxxXxxxxxxx$
 
 ```yaml
 Type: String
@@ -572,22 +563,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WebSession
-Specifies a web request session.
-Enter the variable name, including the dollar sign ($).
+### $XxxXxxxxxx
+Xxxxxxxxx x xxx xxxxxxx xxxxxxx.
+Xxxxx xxx xxxxxxxx xxxx$ xxxxxxxxx xxx xxxxxx xxxx $$$.
 
-To override a value in the web request session, use a cmdlet parameter, such as UserAgent or Credential.
-Parameter values take precedence over values in the web request session.
+Xx xxxxxxxx x xxxxx xx xxx xxx xxxxxxx xxxxxxx$ xxx x xxxxxx xxxxxxxxx$ xxxx xx XxxxXxxxx xx Xxxxxxxxxx.
+Xxxxxxxxx xxxxxx xxxx xxxxxxxxxx xxxx xxxxxx xx xxx xxx xxxxxxx xxxxxxx.
 
-Unlike a remote session, the web request session is not a persistent connection.
-It is an object that contains information about the connection and the request, including cookies, credentials, the maximum redirection value, and the user agent string.
-You can use it to share state and data among web requests.
+Xxxxxx x xxxxxx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx xx xxx x xxxxxxxxxx xxxxxxxxxx.
+Xx xx xx xxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxxxxx xxx xxx xxxxxxx$ xxxxxxxxx xxxxxxx$ xxxxxxxxxxx$ xxx xxxxxxx xxxxxxxxxxx xxxxx$ xxx xxx xxxx xxxxx xxxxxx.
+Xxx xxx xxx xx xx xxxxx xxxxx xxx xxxx xxxxx xxx xxxxxxxx.
 
-To create a web request session, enter a variable name (without a dollar sign) in the value of the SessionVariable parameter of an Invoke-RestMethod command.
-Invoke-RestMethod creates the session and saves it in the variable.
-In subsequent commands, use the variable as the value of the WebSession parameter.
+Xx xxxxxx x xxx xxxxxxx xxxxxxx$ xxxxx x xxxxxxxx xxxx $xxxxxxx x xxxxxx xxxx$ xx xxx xxxxx xx xxx XxxxxxxXxxxxxxx xxxxxxxxx xx xx Xxxxxx$XxxxXxxxxx xxxxxxx.
+Xxxxxx$XxxxXxxxxx xxxxxxx xxx xxxxxxx xxx xxxxx xx xx xxx xxxxxxxx.
+Xx xxxxxxxxxx xxxxxxxx$ xxx xxx xxxxxxxx xx xxx xxxxx xx xxx XxxXxxxxxx xxxxxxxxx.
 
-You cannot use the SessionVariable and WebSession parameters in the same command.
+Xxx xxxxxx xxx xxx XxxxxxxXxxxxxxx xxx XxxXxxxxxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 
 ```yaml
 Type: WebRequestSession
@@ -601,8 +592,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -UseBasicParsing
-{{Fill UseBasicParsing Description}}
+### $XxxXxxxxXxxxxxx
+$$Xxxx XxxXxxxxXxxxxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -616,26 +607,26 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Object
-You can pipe the body of a web request to Invoke-Rest-Method.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx xxx xxxx xx x xxx xxxxxxx xx Xxxxxx$Xxxx$Xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Xml.XmlDocument, Microsoft.PowerShell.Commands.HtmlWebResponseObject, System.String
-The output of the cmdlet depends upon the format of the content that is retrieved.
+### Xxxxxx.Xxx.XxxXxxxxxxx$ Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxXxxXxxxxxxxXxxxxx$ Xxxxxx.Xxxxxx
+Xxx xxxxxx xx xxx xxxxxx xxxxxxx xxxx xxx xxxxxx xx xxx xxxxxxx xxxx xx xxxxxxxxx.
 
-### PSObject
-If the request returns JSON strings, Invoke-RestMethod returns a PSObject that represents the strings.
+### XXXxxxxx
+Xx xxx xxxxxxx xxxxxxx XXXX xxxxxxx$ Xxxxxx$XxxxXxxxxx xxxxxxx x XXXxxxxx xxxx xxxxxxxxxx xxx xxxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[ConvertTo-Json]()
+[XxxxxxxXx$Xxxx]()
 
-[ConvertFrom-Json]()
+[XxxxxxxXxxx$Xxxx]()
 
-[Invoke-WebRequest]()
+[Xxxxxx$XxxXxxxxxx]()
 

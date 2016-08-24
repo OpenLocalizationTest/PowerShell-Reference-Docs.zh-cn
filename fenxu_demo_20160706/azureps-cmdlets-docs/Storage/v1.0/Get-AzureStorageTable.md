@@ -6,53 +6,53 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageTable
-## SYNOPSIS
-Lists the storage tables.
+# Xxx$XxxxxXxxxxxxXxxxx
+## XXXXXXXX
+Xxxxx xxx xxxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageTable [[-Name] <String>] [-Context <AzureStorageContext>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageTable [-Context <AzureStorageContext>] -Prefix <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageTable** cmdlet lists the storage tables associated with the storage account in azure_2.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxx$$ xxxxxx xxxxx xxx xxxxxxx xxxxxx xxxxxxxxxx xxxx xxx xxxxxxx xxxxxxx xx xxxxx$0.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: List all Azure Storage tables
+### Xxxxxxx 0$ Xxxx xxx Xxxxx Xxxxxxx xxxxxx
 ```
 PS C:\>Get-AzureStorageTable
 ```
 
-This command gets all storage tables for a Storage account.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxxxx xxx x Xxxxxxx xxxxxxx.
 
-### Example 2: List Azure Storage tables using a wildcard character
+### Xxxxxxx 0$ Xxxx Xxxxx Xxxxxxx xxxxxx xxxxx x xxxxxxxx xxxxxxxxx
 ```
 PS C:\>Get-AzureStorageTable -Name table*
 ```
 
-This command uses a wildcard character to get storage tables whose name starts with table.
+Xxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxxx xx xxx xxxxxxx xxxxxx xxxxx xxxx xxxxxx xxxx xxxxx.
 
-### Example 3: List Azure Storage tables using table name prefix
+### Xxxxxxx 0$ Xxxx Xxxxx Xxxxxxx xxxxxx xxxxx xxxxx xxxx xxxxxx
 ```
 PS C:\>Get-AzureStorageTable -Prefix "table"
 ```
 
-This command uses the *Prefix* parameter to get storage tables whose name starts with table.
+Xxxx xxxxxxx xxxx xxx $Xxxxxx$ xxxxxxxxx xx xxx xxxxxxx xxxxxx xxxxx xxxx xxxxxx xxxx xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies the storage context.
-To create it, you can use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxx.
+Xx xxxxxx xx$ xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -66,10 +66,10 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the table name.
-If the table name is empty, the cmdlet lists all the tables.
-Otherwise, it lists all tables that match the specified name or the regular name pattern.
+### $Xxxx
+Xxxxxxxxx xxx xxxxx xxxx.
+Xx xxx xxxxx xxxx xx xxxxx$ xxx xxxxxx xxxxx xxx xxx xxxxxx.
+Xxxxxxxxx$ xx xxxxx xxx xxxxxx xxxx xxxxx xxx xxxxxxxxx xxxx xx xxx xxxxxxx xxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -83,9 +83,9 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Prefix
-Specifies a prefix used in the name of the table or tables you want to get.
-You can use this to find all tables that start with the same string, such as table.
+### $Xxxxxx
+Xxxxxxxxx x xxxxxx xxxx xx xxx xxxx xx xxx xxxxx xx xxxxxx xxx xxxx xx xxx.
+Xxx xxx xxx xxxx xx xxxx xxx xxxxxx xxxx xxxxx xxxx xxx xxxx xxxxxx$ xxxx xx xxxxx.
 
 ```yaml
 Type: String
@@ -99,16 +99,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureStorageTable](36ff9a70-74d8-4b37-9962-c01b531c9a01)
+[Xxx$XxxxxXxxxxxxXxxxx](36ff9a70-74d8-4b37-9962-c01b531c9a01)
 
-[Remove-AzureStorageTable](f287198d-609e-4ac1-9221-9ce5453a732e)
+[Xxxxxx$XxxxxXxxxxxxXxxxx](f287198d-609e-4ac1-9221-9ce5453a732e)
 
 

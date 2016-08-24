@@ -6,57 +6,57 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-WAPackVMTemplate
-## SYNOPSIS
-Gets virtual machine templates.
+# Xxx$XXXxxxXXXxxxxxxx
+## XXXXXXXX
+Xxxx xxxxxxx xxxxxxx xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-WAPackVMTemplate [[-ID] <Guid>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-WAPackVMTemplate [[-Name] <String>]
 ```
 
-## DESCRIPTION
-These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
-This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+## XXXXXXXXXXX
+Xxxxx xxxxxx xxx xxxxxxxxxx xxx xxxx xx xxxxxxx xx xxx xxxxxx.
+Xxx xxx xxxxxxx xxxxxx$ xxx  Xxxxx XXXxxx Xxxxxxxxxxx$$$xxxx.xxxxxxxxx.xxx$xxxxxxx$xx000000.xxxx.
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.0 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxxx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xxxx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $xxx$xxxxxx xxxxx$.xxxxxxx.
 
-The Get-WAPackVMTemplate cmdlet gets virtual machine templates.
+Xxx Xxx$XXXxxxXXXxxxxxxx xxxxxx xxxx xxxxxxx xxxxxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get a virtual machine template by using a name
+### Xxxxxxx 0$ Xxx x xxxxxxx xxxxxxx xxxxxxxx xx xxxxx x xxxx
 ```
 PS C:\>Get-WAPackVMTemplate -Name "ContosoTemplate04"
 ```
 
-This command gets the virtual machine template named ContosoTemplate04.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx xxxxxxxx xxxxx XxxxxxxXxxxxxxx00.
 
-### Example 2: Get a virtual machine template by using an ID
+### Xxxxxxx 0$ Xxx x xxxxxxx xxxxxxx xxxxxxxx xx xxxxx xx XX
 ```
 PS C:\>Get-WAPackVMTemplate -Id 66242D17-189F-480D-87CF-8E1D749998C8
 ```
 
-This command gets the virtual machine template that has the specified ID.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx xxxxxxxx xxxx xxx xxx xxxxxxxxx XX.
 
-### Example 3: Get all virtual machine templates
+### Xxxxxxx 0$ Xxx xxx xxxxxxx xxxxxxx xxxxxxxxx
 ```
 PS C:\>Get-WAPackVMTemplate
 ```
 
-This command gets all the virtual machine templates.
+Xxxx xxxxxxx xxxx xxx xxx xxxxxxx xxxxxxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ID
-Specifies the unique ID of a template.
+### $XX
+Xxxxxxxxx xxx xxxxxx XX xx x xxxxxxxx.
 
 ```yaml
 Type: Guid
@@ -70,8 +70,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of a template.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx.
 
 ```yaml
 Type: String
@@ -85,14 +85,14 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-WAPackVM](4b060a7d-da50-45ff-adb6-bcba63faa90b)
+[Xxx$XXXxxxXX](4b060a7d-da50-45ff-adb6-bcba63faa90b)
 
 

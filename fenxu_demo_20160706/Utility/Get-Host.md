@@ -4,25 +4,25 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293970
 schema: 2.0.0
 ---
 
-# Get-Host
-## SYNOPSIS
-Gets an object that represents the current host program.
+# Xxx$Xxxx
+## XXXXXXXX
+Xxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-Host [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-Host cmdlet gets an object that represents the program that is hosting Windows PowerShell.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxx xxxxxx xxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xxxx xx xxxxxxx Xxxxxxx XxxxxXxxxx.
 
-The default display includes the Windows PowerShell version number and the current region and language settings that the host is using, but the host object contains a wealth of information, including detailed information about the version of Windows PowerShell that is currently running and the current culture and UI culture of Windows PowerShell.
-You can also use this  cmdlet to customize features of the host program user interface, such as the text and background colors.
+Xxx xxxxxxx xxxxxxx xxxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxxxxx xxx xxxxxxxx xxxxxxxx xxxx xxx xxxx xx xxxxx$ xxx xxx xxxx xxxxxx xxxxxxxx x xxxxxx xx xxxxxxxxxxx$ xxxxxxxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxx xx Xxxxxxx XxxxxXxxxx xxxx xx xxxxxxxxx xxxxxxx xxx xxx xxxxxxx xxxxxxx xxx XX xxxxxxx xx Xxxxxxx XxxxxXxxxx.
+Xxx xxx xxxx xxx xxxx  xxxxxx xx xxxxxxxxx xxxxxxxx xx xxx xxxx xxxxxxx xxxx xxxxxxxxx$ xxxx xx xxx xxxx xxx xxxxxxxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-host
 
@@ -37,13 +37,13 @@ IsRunspacePushed : False
 Runspace         : System.Management.Automation.Runspaces.LocalRunspace
 ```
 
-This command displays information about the Windows PowerShell console, which is the current host program for Windows PowerShell in this example.
-It includes the name of the host, the version of Windows PowerShell that is running in the host, and current culture and UI culture.
+Xxxx xxxxxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxx$ xxxxx xx xxx xxxxxxx xxxx xxxxxxx xxx Xxxxxxx XxxxxXxxxx xx xxxx xxxxxxx.
+Xx xxxxxxxx xxx xxxx xx xxx xxxx$ xxx xxxxxxx xx Xxxxxxx XxxxxXxxxx xxxx xx xxxxxxx xx xxx xxxx$ xxx xxxxxxx xxxxxxx xxx XX xxxxxxx.
 
-The Version, UI, CurrentCulture, CurrentUICulture, PrivateData, and Runspace properties each contain an object with very useful properties.
-Later examples examine these properties.
+Xxx Xxxxxxx$ XX$ XxxxxxxXxxxxxx$ XxxxxxxXXXxxxxxx$ XxxxxxxXxxx$ xxx Xxxxxxxx xxxxxxxxxx xxxx xxxxxxx xx xxxxxx xxxx xxxx xxxxxx xxxxxxxxxx.
+Xxxxx xxxxxxxx xxxxxxx xxxxx xxxxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$h = get-host
 PS C:\>$win = $h.ui.rawui.windowsize
@@ -52,9 +52,9 @@ PS C:\>$win.width  = 10
 PS C:\>$h.ui.rawui.set_windowsize($win)
 ```
 
-This command resizes the Windows PowerShell window to 10 pixels by 10 pixels.
+Xxxx xxxxxxx xxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxx xx 00 xxxxxx xx 00 xxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>(get-host).version | format-list -property *
 Major         : 2
@@ -65,14 +65,14 @@ MajorRevision : -1
 MinorRevision : -1
 ```
 
-This command gets detailed information about the version of Windows PowerShell running in the host.
-You can view, but not change, these values.
+Xxxx xxxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxx xx Xxxxxxx XxxxxXxxxx xxxxxxx xx xxx xxxx.
+Xxx xxx xxxx$ xxx xxx xxxxxx$ xxxxx xxxxxx.
 
-The Version property of Get-Host contains a System.Version object.
-This command uses a pipeline operator (|) to send the version object to the Format-List cmdlet.
-The Format-List command uses the Property parameter with a value of all (*) to display all of the properties and property values of the version object.
+Xxx Xxxxxxx xxxxxxxx xx Xxx$Xxxx xxxxxxxx x Xxxxxx.Xxxxxxx xxxxxx.
+Xxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xxxxxx xx xxx Xxxxxx$Xxxx xxxxxx.
+Xxx Xxxxxx$Xxxx xxxxxxx xxxx xxx Xxxxxxxx xxxxxxxxx xxxx x xxxxx xx xxx $$$ xx xxxxxxx xxx xx xxx xxxxxxxxxx xxx xxxxxxxx xxxxxx xx xxx xxxxxxx xxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>(get-host).currentculture | format-list -property *
 
@@ -99,16 +99,16 @@ UseUserOverride                : True
 IsReadOnly                     : False
 ```
 
-This command gets detailed information about the current culture set for Windows PowerShell running in the host.
-This is the same information that is returned by the Get-Culture cmdlet.
+Xxxx xxxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxx xxxxxxx xxx xxx Xxxxxxx XxxxxXxxxx xxxxxxx xx xxx xxxx.
+Xxxx xx xxx xxxx xxxxxxxxxxx xxxx xx xxxxxxxx xx xxx Xxx$Xxxxxxx xxxxxx.
 
-(Similarly, the CurrentUICulture property returns the same object that Get-UICulture returns.)
+$Xxxxxxxxx$ xxx XxxxxxxXXXxxxxxx xxxxxxxx xxxxxxx xxx xxxx xxxxxx xxxx Xxx$XXXxxxxxx xxxxxxx.$
 
-The CurrentCulture property of the host object contains a  System.Globalization.CultureInfo object.
-This command uses a pipeline operator (|) to send the CultureInfo object to the Format-List cmdlet.
-The Format-List command uses the Property parameter with a value of all (*) to display all of the properties and property values of the CultureInfo object.
+Xxx XxxxxxxXxxxxxx xxxxxxxx xx xxx xxxx xxxxxx xxxxxxxx x  Xxxxxx.Xxxxxxxxxxxxx.XxxxxxxXxxx xxxxxx.
+Xxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx XxxxxxxXxxx xxxxxx xx xxx Xxxxxx$Xxxx xxxxxx.
+Xxx Xxxxxx$Xxxx xxxxxxx xxxx xxx Xxxxxxxx xxxxxxxxx xxxx x xxxxx xx xxx $$$ xx xxxxxxx xxx xx xxx xxxxxxxxxx xxx xxxxxxxx xxxxxx xx xxx XxxxxxxXxxx xxxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>(get-host).currentculture.DateTimeFormat | format-list -property *
 
@@ -140,15 +140,15 @@ AbbreviatedMonthGenitiveNames    : {Jan, Feb, Mar, Apr...}
 MonthGenitiveNames               : {January, February, March, April...}
 ```
 
-This command returns detailed information about the DateTimeFormat of the current culture that is being used for Windows PowerShell.
+Xxxx xxxxxxx xxxxxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx XxxxXxxxXxxxxx xx xxx xxxxxxx xxxxxxx xxxx xx xxxxx xxxx xxx Xxxxxxx XxxxxXxxxx.
 
-The CurrentCulture property of the host object contains a CultureInfo object that, in turn, has many useful properties.
-Among them, the DateTimeFormat property contains a DateTimeFormatInfo object with many useful properties.
+Xxx XxxxxxxXxxxxxx xxxxxxxx xx xxx xxxx xxxxxx xxxxxxxx x XxxxxxxXxxx xxxxxx xxxx$ xx xxxx$ xxx xxxx xxxxxx xxxxxxxxxx.
+Xxxxx xxxx$ xxx XxxxXxxxXxxxxx xxxxxxxx xxxxxxxx x XxxxXxxxXxxxxxXxxx xxxxxx xxxx xxxx xxxxxx xxxxxxxxxx.
 
-To find the type of an object that is stored in an object property, use the Get-Member cmdlet.
-To display the property values of the object, use the Format-List cmdlet.
+Xx xxxx xxx xxxx xx xx xxxxxx xxxx xx xxxxxx xx xx xxxxxx xxxxxxxx$ xxx xxx Xxx$Xxxxxx xxxxxx.
+Xx xxxxxxx xxx xxxxxxxx xxxxxx xx xxx xxxxxx$ xxx xxx Xxxxxx$Xxxx xxxxxx.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>(get-host).ui.rawui | format-list -property *
 
@@ -165,38 +165,38 @@ KeyAvailable          : False
 WindowTitle           : Windows PowerShell 2.0 (04/11/2008 00:08:14)
 ```
 
-This command displays the properties of the RawUI property of the host object.
-By changing these values, you can change the appearance of the host program.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxxxx xx xxx XxxXX xxxxxxxx xx xxx xxxx xxxxxx.
+Xx xxxxxxxx xxxxx xxxxxx$ xxx xxx xxxxxx xxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>(get-host).ui.rawui.backgroundcolor = "Black"
 PS C:\>cls
 ```
 
-These commands change the background color of the Windows PowerShell console to black.
-The "cls" command is an alias for the Clear-Host function, which clears the screen and changes the whole screen to the new color.
+Xxxxx xxxxxxxx xxxxxx xxx xxxxxxxxxx xxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxx xx xxxxx.
+Xxx $xxx$ xxxxxxx xx xx xxxxx xxx xxx Xxxxx$Xxxx xxxxxxxx$ xxxxx xxxxxx xxx xxxxxx xxx xxxxxxx xxx xxxxx xxxxxx xx xxx xxx xxxxx.
 
-This change is effective only in the current session.
-To change the background color of the console for all sessions, add the command to your Windows PowerShell profile.
+Xxxx xxxxxx xx xxxxxxxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxxxxx xxx xxxxxxxxxx xxxxx xx xxx xxxxxxx xxx xxx xxxxxxxx$ xxx xxx xxxxxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 8 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$host.privatedata.errorbackgroundcolor = "white"
 ```
 
-This command changes the background color of error messages to white.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxxx xxxxx xx xxxxx xxxxxxxx xx xxxxx.
 
-This command uses the $host automatic variable, which contains the host object for the current host program.
-Get-Host returns the same object that $host contains, so you can use them interchangeably.
+Xxxx xxxxxxx xxxx xxx $xxxx xxxxxxxxx xxxxxxxx$ xxxxx xxxxxxxx xxx xxxx xxxxxx xxx xxx xxxxxxx xxxx xxxxxxx.
+Xxx$Xxxx xxxxxxx xxx xxxx xxxxxx xxxx $xxxx xxxxxxxx$ xx xxx xxx xxx xxxx xxxxxxxxxxxxxxx.
 
-This command uses the PrivateData property of $host as its ErrorBackgroundColor property.
-To see all of the properties of the object in the $host.privatedata property, type "$host.privatedata | format-list * ".
+Xxxx xxxxxxx xxxx xxx XxxxxxxXxxx xxxxxxxx xx $xxxx xx xxx XxxxxXxxxxxxxxxXxxxx xxxxxxxx.
+Xx xxx xxx xx xxx xxxxxxxxxx xx xxx xxxxxx xx xxx $xxxx.xxxxxxxxxxx xxxxxxxx$ xxxx $$xxxx.xxxxxxxxxxx $ xxxxxx$xxxx $ $.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -211,8 +211,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -226,30 +226,29 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.Internal.Host.InternalHost
-Get-Host returns a System.Management.Automation.Internal.Host.InternalHost object.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxx.Xxxx.XxxxxxxxXxxx
+Xxx$Xxxx xxxxxxx x Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxx.Xxxx.XxxxxxxxXxxx xxxxxx.
 
-## NOTES
-The $host automatic variable contains the same object that Get-Host returns, and you can use it in the same way. 
-Similarly, the $PSCulture and $PSUICulture automatic variables contain the same objects that the CurrentCulture and CurrentUICulture properties of the host object contain.
-You can use these features interchangeably.
+## XXXXX
+Xxx $xxxx xxxxxxxxx xxxxxxxx xxxxxxxx xxx xxxx xxxxxx xxxx Xxx$Xxxx xxxxxxx$ xxx xxx xxx xxx xx xx xxx xxxx xxx. Xxxxxxxxx$ xxx $XXXxxxxxx xxx $XXXXXxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxx xxx xxxx xxxxxxx xxxx xxx XxxxxxxXxxxxxx xxx XxxxxxxXXXxxxxxx xxxxxxxxxx xx xxx xxxx xxxxxx xxxxxxx.
+Xxx xxx xxx xxxxx xxxxxxxx xxxxxxxxxxxxxxx.
 
-For more information, see about_Automatic_Variables.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxxxx$Xxxxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Clear-Host]()
+[Xxxxx$Xxxx]()
 
-[Out-Host]()
+[Xxx$Xxxx]()
 
-[Read-Host]()
+[Xxxx$Xxxx]()
 
-[Write-Host]()
+[Xxxxx$Xxxx]()
 

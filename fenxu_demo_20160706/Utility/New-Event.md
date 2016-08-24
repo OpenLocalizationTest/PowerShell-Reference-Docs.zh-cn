@@ -4,40 +4,40 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293992
 schema: 2.0.0
 ---
 
-# New-Event
-## SYNOPSIS
-Creates a new event.
+# Xxx$Xxxxx
+## XXXXXXXX
+Xxxxxxx x xxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-Event [-SourceIdentifier] <String> [[-Sender] <PSObject>] [[-EventArguments] <PSObject[]>]
  [[-MessageData] <PSObject>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The New-Event cmdlet creates a new custom event.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxx xxxxxx xxxxxxx x xxx xxxxxx xxxxx.
 
-You can use custom events to notify users about state changes in your program and any change that your program can detect, including hardware or system conditions, application status, disk status, network status, or the completion of a background job.
+Xxx xxx xxx xxxxxx xxxxxx xx xxxxxx xxxxx xxxxx xxxxx xxxxxxx xx xxxx xxxxxxx xxx xxx xxxxxx xxxx xxxx xxxxxxx xxx xxxxxx$ xxxxxxxxx xxxxxxxx xx xxxxxx xxxxxxxxxx$ xxxxxxxxxxx xxxxxx$ xxxx xxxxxx$ xxxxxxx xxxxxx$ xx xxx xxxxxxxxxx xx x xxxxxxxxxx xxx.
 
-Custom events are automatically added to the event queue in your session whenever they are raised; you do not need to subscribe to them.
-However, if you want to forward an event to the local session or specify an action to respond to the event, use the Register-EngineEvent cmdlet to subscribe to the custom event.
+Xxxxxx xxxxxx xxx xxxxxxxxxxxxx xxxxx xx xxx xxxxx xxxxx xx xxxx xxxxxxx xxxxxxxx xxxx xxx xxxxxx$ xxx xx xxx xxxx xx xxxxxxxxx xx xxxx.
+Xxxxxxx$ xx xxx xxxx xx xxxxxxx xx xxxxx xx xxx xxxxx xxxxxxx xx xxxxxxx xx xxxxxx xx xxxxxxx xx xxx xxxxx$ xxx xxx Xxxxxxxx$XxxxxxXxxxx xxxxxx xx xxxxxxxxx xx xxx xxxxxx xxxxx.
 
-When you subscribe to a custom event, the event subscriber is added to your session.
-If you cancel the event subscription by using the Unregister-Event cmdlet, the event subscriber and custom event are deleted from the session.
-If you do not subscribe to the custom event, to delete the event, you must change the program conditions or close the Windows PowerShell session.
+Xxxx xxx xxxxxxxxx xx x xxxxxx xxxxx$ xxx xxxxx xxxxxxxxxx xx xxxxx xx xxxx xxxxxxx.
+Xx xxx xxxxxx xxx xxxxx xxxxxxxxxxxx xx xxxxx xxx Xxxxxxxxxx$Xxxxx xxxxxx$ xxx xxxxx xxxxxxxxxx xxx xxxxxx xxxxx xxx xxxxxxx xxxx xxx xxxxxxx.
+Xx xxx xx xxx xxxxxxxxx xx xxx xxxxxx xxxxx$ xx xxxxxx xxx xxxxx$ xxx xxxx xxxxxx xxx xxxxxxx xxxxxxxxxx xx xxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>new-event -sourceidentifier Timer -sender windows.timer  -messagedata "Test"
 ```
 
-This command creates a new event in the Windows PowerShell event queue.
-It uses a Windows.Timer object to send the event.
+Xxxx xxxxxxx xxxxxxx x xxx xxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxx xxxxx.
+Xx xxxx x Xxxxxxx.Xxxxx xxxxxx xx xxxx xxx xxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>function Enable-ProcessCreationEvent
 {
@@ -51,16 +51,16 @@ PS C:\>function Enable-ProcessCreationEvent
 }
 ```
 
-This sample function uses the New-Event cmdlet to raise an event in response to another event.
-The command uses the Register-ObjectEvent cmdlet to subscribe to the Windows Management Instrumentation (WMI) event that is raised when a new process is created.
-The command uses the Action parameter of the cmdlet to call the New-Event cmdlet, which creates the new event.
+Xxxx xxxxxx xxxxxxxx xxxx xxx Xxx$Xxxxx xxxxxx xx xxxxx xx xxxxx xx xxxxxxxx xx xxxxxxx xxxxx.
+Xxx xxxxxxx xxxx xxx Xxxxxxxx$XxxxxxXxxxx xxxxxx xx xxxxxxxxx xx xxx Xxxxxxx Xxxxxxxxxx Xxxxxxxxxxxxxxx $XXX$ xxxxx xxxx xx xxxxxx xxxx x xxx xxxxxxx xx xxxxxxx.
+Xxx xxxxxxx xxxx xxx Xxxxxx xxxxxxxxx xx xxx xxxxxx xx xxxx xxx Xxx$Xxxxx xxxxxx$ xxxxx xxxxxxx xxx xxx xxxxx.
 
-Because the events that New-Event raises are automatically added to the Windows PowerShell event queue, you do not need to register for that event.
+Xxxxxxx xxx xxxxxx xxxx Xxx$Xxxxx xxxxxx xxx xxxxxxxxxxxxx xxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxx xxxxx$ xxx xx xxx xxxx xx xxxxxxxx xxx xxxx xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -EventArguments
-Specifies an object that contains options for the event.
+### $XxxxxXxxxxxxxx
+Xxxxxxxxx xx xxxxxx xxxx xxxxxxxx xxxxxxx xxx xxx xxxxx.
 
 ```yaml
 Type: PSObject[]
@@ -74,8 +74,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -90,8 +90,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -105,9 +105,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -MessageData
-Specifies additional data associated with the event.
-The value of this parameter appears in the MessageData property of the event object.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxxxxxxxxx xxxx xxxxxxxxxx xxxx xxx xxxxx.
+Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxx xx xxx XxxxxxxXxxx xxxxxxxx xx xxx xxxxx xxxxxx.
 
 ```yaml
 Type: PSObject
@@ -121,9 +121,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Sender
-Specifies the object that raises the event.
-The default is the Windows PowerShell engine.
+### $Xxxxxx
+Xxxxxxxxx xxx xxxxxx xxxx xxxxxx xxx xxxxx.
+Xxx xxxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxx.
 
 ```yaml
 Type: PSObject
@@ -137,11 +137,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SourceIdentifier
-Specifies a name for the new event.
-This parameter is required, and it must be unique in the session.
+### $XxxxxxXxxxxxxxxx
+Xxxxxxxxx x xxxx xxx xxx xxx xxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx$ xxx xx xxxx xx xxxxxx xx xxx xxxxxxx.
 
-The value of this parameter appears in the SourceIdentifier property of the events.
+Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxx xx xxx XxxxxxXxxxxxxxxx xxxxxxxx xx xxx xxxxxx.
 
 ```yaml
 Type: String
@@ -155,32 +155,32 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.PSEventArgs
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxx
 
-## NOTES
-The new custom event, the event subscription, and the event queue exist only in the current session.
-If you close the current session, the event queue is discarded and the event subscription is canceled.
+## XXXXX
+Xxx xxx xxxxxx xxxxx$ xxx xxxxx xxxxxxxxxxxx$ xxx xxx xxxxx xxxxx xxxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxx xxx xxxxxxx xxxxxxx$ xxx xxxxx xxxxx xx xxxxxxxxx xxx xxx xxxxx xxxxxxxxxxxx xx xxxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-Event]()
+[Xxx$Xxxxx]()
 
-[Register-EngineEvent]()
+[Xxxxxxxx$XxxxxxXxxxx]()
 
-[Register-ObjectEvent]()
+[Xxxxxxxx$XxxxxxXxxxx]()
 
-[Register-WmiEvent]()
+[Xxxxxxxx$XxxXxxxx]()
 
-[Remove-Event]()
+[Xxxxxx$Xxxxx]()
 
-[Unregister-Event]()
+[Xxxxxxxxxx$Xxxxx]()
 
-[Wait-Event]()
+[Xxxx$Xxxxx]()
 

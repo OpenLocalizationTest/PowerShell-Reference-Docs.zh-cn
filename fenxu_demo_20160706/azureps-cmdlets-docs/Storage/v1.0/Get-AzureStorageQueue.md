@@ -6,53 +6,53 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageQueue
-## SYNOPSIS
-Lists storage queues.
+# Xxx$XxxxxXxxxxxxXxxxx
+## XXXXXXXX
+Xxxxx xxxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageQueue [[-Name] <String>] [-Context <AzureStorageContext>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageQueue [-Context <AzureStorageContext>] -Prefix <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageQueue** cmdlet lists storage queues associated with an azure_2 Storage account.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxx$$ xxxxxx xxxxx xxxxxxx xxxxxx xxxxxxxxxx xxxx xx xxxxx$0 Xxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: List all Azure Storage queues
+### Xxxxxxx 0$ Xxxx xxx Xxxxx Xxxxxxx xxxxxx
 ```
 PS C:\>Get-AzureStorageQueue
 ```
 
-This command gets a list of all storage queues for the current Storage account.
+Xxxx xxxxxxx xxxx x xxxx xx xxx xxxxxxx xxxxxx xxx xxx xxxxxxx Xxxxxxx xxxxxxx.
 
-### Example 2: List Azure Storage queues using a wildcard character
+### Xxxxxxx 0$ Xxxx Xxxxx Xxxxxxx xxxxxx xxxxx x xxxxxxxx xxxxxxxxx
 ```
 PS C:\>Get-AzureStorageQueue -Name queue*
 ```
 
-This command uses a wildcard character to get a list of storage queues whose name starts with queue.
+Xxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxxx xx xxx x xxxx xx xxxxxxx xxxxxx xxxxx xxxx xxxxxx xxxx xxxxx.
 
-### Example 3: List Azure Storage queues using queue name prefix
+### Xxxxxxx 0$ Xxxx Xxxxx Xxxxxxx xxxxxx xxxxx xxxxx xxxx xxxxxx
 ```
 PS C:\>Get-AzureStorageQueue -Prefix "queue"
 ```
 
-This example uses the *Prefix* parameter to get a list of storage queues whose name starts with queue.
+Xxxx xxxxxxx xxxx xxx $Xxxxxx$ xxxxxxxxx xx xxx x xxxx xx xxxxxxx xxxxxx xxxxx xxxx xxxxxx xxxx xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies the azure_2 storage context.
-You can create it by using the **New-AzureStorageContext** cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxxxx.
+Xxx xxx xxxxxx xx xx xxxxx xxx $$Xxx$XxxxxXxxxxxxXxxxxxx$$ xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -66,10 +66,10 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies a name.
-If no name is specified, the cmdlet gets a list of all the queues.
-If a full or partial name is specified, the cmdlet gets all queues that match the name pattern.
+### $Xxxx
+Xxxxxxxxx x xxxx.
+Xx xx xxxx xx xxxxxxxxx$ xxx xxxxxx xxxx x xxxx xx xxx xxx xxxxxx.
+Xx x xxxx xx xxxxxxx xxxx xx xxxxxxxxx$ xxx xxxxxx xxxx xxx xxxxxx xxxx xxxxx xxx xxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -83,8 +83,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Prefix
-Specifies a prefix used in the name of the queues you want to get.
+### $Xxxxxx
+Xxxxxxxxx x xxxxxx xxxx xx xxx xxxx xx xxx xxxxxx xxx xxxx xx xxx.
 
 ```yaml
 Type: String
@@ -98,16 +98,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureStorageQueue](4b1216b7-40c6-418b-806e-63302d8ba4a1)
+[Xxx$XxxxxXxxxxxxXxxxx](4b1216b7-40c6-418b-806e-63302d8ba4a1)
 
-[Remove-AzureStorageQueue](265824d1-e3d4-4bd4-bc11-466c2100ed3a)
+[Xxxxxx$XxxxxXxxxxxxXxxxx](265824d1-e3d4-4bd4-bc11-466c2100ed3a)
 
 

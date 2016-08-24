@@ -4,58 +4,58 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294003
 schema: 2.0.0
 ---
 
-# Remove-Event
-## SYNOPSIS
-Deletes events from the event queue.
+# Xxxxxx$Xxxxx
+## XXXXXXXX
+Xxxxxxx xxxxxx xxxx xxx xxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### BySource (Default)
+### XxXxxxxx $Xxxxxxx$
 ```
 Remove-Event [-SourceIdentifier] <String> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### ByIdentifier
+### XxXxxxxxxxxx
 ```
 Remove-Event [-EventIdentifier] <Int32> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Remove-Event cmdlet deletes events from the event queue in the current session.
+## XXXXXXXXXXX
+Xxx Xxxxxx$Xxxxx xxxxxx xxxxxxx xxxxxx xxxx xxx xxxxx xxxxx xx xxx xxxxxxx xxxxxxx.
 
-This cmdlet deletes only the events currently in the queue.
-To cancel event registrations or unsubscribe, use the Unregister-Event cmdlet.
+Xxxx xxxxxx xxxxxxx xxxx xxx xxxxxx xxxxxxxxx xx xxx xxxxx.
+Xx xxxxxx xxxxx xxxxxxxxxxxxx xx xxxxxxxxxxx$ xxx xxx Xxxxxxxxxx$Xxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>remove-event -sourceIdentifier "ProcessStarted"
 ```
 
-This command deletes events with a source identifier of "Process Started" from the event queue.
+Xxxx xxxxxxx xxxxxxx xxxxxx xxxx x xxxxxx xxxxxxxxxx xx $Xxxxxxx Xxxxxxx$ xxxx xxx xxxxx xxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>remove-event -eventIdentifier 30
 ```
 
-This command deletes the event with an event ID of 30 from the event queue.
+Xxxx xxxxxxx xxxxxxx xxx xxxxx xxxx xx xxxxx XX xx 00 xxxx xxx xxxxx xxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-event | remove-event
 ```
 
-This command deletes all events from the event queue.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxx xxxx xxx xxxxx xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -EventIdentifier
-Deletes only the event with the specified event identifier.
-An EventIdentifier or SourceIdentifier parameter is required in every command.
+### $XxxxxXxxxxxxxxx
+Xxxxxxx xxxx xxx xxxxx xxxx xxx xxxxxxxxx xxxxx xxxxxxxxxx.
+Xx XxxxxXxxxxxxxxx xx XxxxxxXxxxxxxxxx xxxxxxxxx xx xxxxxxxx xx xxxxx xxxxxxx.
 
 ```yaml
 Type: Int32
@@ -69,8 +69,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -85,8 +85,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -100,10 +100,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SourceIdentifier
-Deletes only the events with the specified source identifier.
-Wildcards are not permitted.
-An EventIdentifier or SourceIdentifier parameter is required in every command.
+### $XxxxxxXxxxxxxxxx
+Xxxxxxx xxxx xxx xxxxxx xxxx xxx xxxxxxxxx xxxxxx xxxxxxxxxx.
+Xxxxxxxxx xxx xxx xxxxxxxxx.
+Xx XxxxxXxxxxxxxxx xx XxxxxxXxxxxxxxxx xxxxxxxxx xx xxxxxxxx xx xxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -117,8 +117,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -132,10 +132,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -149,35 +149,35 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSEventArgs
-You can pipe events from Get-Event to Remove-Event.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxx
+Xxx xxx xxxx xxxxxx xxxx Xxx$Xxxxx xx Xxxxxx$Xxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-The cmdlet does not generate any output.
+### Xxxx
+Xxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
-Events, event subscriptions, and the event queue exist only in the current session.
-If you close the current session, the event queue is discarded and the event subscription is canceled.
+## XXXXX
+Xxxxxx$ xxxxx xxxxxxxxxxxxx$ xxx xxx xxxxx xxxxx xxxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxx xxx xxxxxxx xxxxxxx$ xxx xxxxx xxxxx xx xxxxxxxxx xxx xxx xxxxx xxxxxxxxxxxx xx xxxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-Event]()
+[Xxx$Xxxxx]()
 
-[New-Event]()
+[Xxx$Xxxxx]()
 
-[Register-EngineEvent]()
+[Xxxxxxxx$XxxxxxXxxxx]()
 
-[Register-ObjectEvent]()
+[Xxxxxxxx$XxxxxxXxxxx]()
 
-[Register-WmiEvent]()
+[Xxxxxxxx$XxxXxxxx]()
 
-[Remove-Event]()
+[Xxxxxx$Xxxxx]()
 
-[Unregister-Event]()
+[Xxxxxxxxxx$Xxxxx]()
 
-[Wait-Event]()
+[Xxxx$Xxxxx]()
 

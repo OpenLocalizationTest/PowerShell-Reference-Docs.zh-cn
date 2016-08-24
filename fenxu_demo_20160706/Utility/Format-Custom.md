@@ -4,11 +4,11 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293960
 schema: 2.0.0
 ---
 
-# Format-Custom
-## SYNOPSIS
-Uses a customized view to format the output.
+# Xxxxxx$Xxxxxx
+## XXXXXXXX
+Xxxx x xxxxxxxxxx xxxx xx xxxxxx xxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Format-Custom [[-Property] <Object[]>] [-Depth <Int32>] [-GroupBy <Object>] [-View <String>] [-ShowError]
@@ -16,33 +16,33 @@ Format-Custom [[-Property] <Object[]>] [-Depth <Int32>] [-GroupBy <Object>] [-Vi
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Format-Custom cmdlet formats the output of a command as defined in an alternate view.
-Format-Custom is designed to display views that are not just tables or just lists.
-You can use the views defined in the *format.PS1XML files in the Windows PowerShell directory, or you can create your own views in new PS1XML files and use the Update-FormatData cmdlet to add them to Windows PowerShell.
+## XXXXXXXXXXX
+Xxx Xxxxxx$Xxxxxx xxxxxx xxxxxxx xxx xxxxxx xx x xxxxxxx xx xxxxxxx xx xx xxxxxxxxx xxxx.
+Xxxxxx$Xxxxxx xx xxxxxxxx xx xxxxxxx xxxxx xxxx xxx xxx xxxx xxxxxx xx xxxx xxxxx.
+Xxx xxx xxx xxx xxxxx xxxxxxx xx xxx $xxxxxx.XX0XXX xxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxx$ xx xxx xxx xxxxxx xxxx xxx xxxxx xx xxx XX0XXX xxxxx xxx xxx xxx Xxxxxx$XxxxxxXxxx xxxxxx xx xxx xxxx xx Xxxxxxx XxxxxXxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-command start-transcript | format-custom -view MyView
 ```
 
-This command formats information about the Start-Transcript cmdlet in the format defined by the MyView view, a custom view created by the user.
-To run this command successfully, you must first create a new PS1XML file, define the MyView view, and then use the Update-FormatData command to add the PS1XML file to Windows PowerShell.
+Xxxx xxxxxxx xxxxxxx xxxxxxxxxxx xxxxx xxx Xxxxx$Xxxxxxxxxx xxxxxx xx xxx xxxxxx xxxxxxx xx xxx XxXxxx xxxx$ x xxxxxx xxxx xxxxxxx xx xxx xxxx.
+Xx xxx xxxx xxxxxxx xxxxxxxxxxxx$ xxx xxxx xxxxx xxxxxx x xxx XX0XXX xxxx$ xxxxxx xxx XxXxxx xxxx$ xxx xxxx xxx xxx Xxxxxx$XxxxxxXxxx xxxxxxx xx xxx xxx XX0XXX xxxx xx Xxxxxxx XxxxxXxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process Winlogon | format-custom
 ```
 
-This command formats information about the Winlogon process in an alternate customized view.
-Because the command does not use the View parameter, Format-Custom uses a default custom view to format the data.
+Xxxx xxxxxxx xxxxxxx xxxxxxxxxxx xxxxx xxx Xxxxxxxx xxxxxxx xx xx xxxxxxxxx xxxxxxxxxx xxxx.
+Xxxxxxx xxx xxxxxxx xxxx xxx xxx xxx Xxxx xxxxxxxxx$ Xxxxxx$Xxxxxx xxxx x xxxxxxx xxxxxx xxxx xx xxxxxx xxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Depth
-Specifies the number of columns in the display.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxxx xx xxxxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: Int32
@@ -56,15 +56,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DisplayError
-Displays errors at the command line.
-This parameter is rarely used, but can be used as a debugging aid when you are formatting expressions in a Format-Custom command, and the expressions do not appear to be working.
-The following shows an example of the results of adding the DisplayError parameter with an expression.
+### $XxxxxxxXxxxx
+Xxxxxxxx xxxxxx xx xxx xxxxxxx xxxx.
+Xxxx xxxxxxxxx xx xxxxxx xxxx$ xxx xxx xx xxxx xx x xxxxxxxxx xxx xxxx xxx xxx xxxxxxxxxx xxxxxxxxxxx xx x Xxxxxx$Xxxxxx xxxxxxx$ xxx xxx xxxxxxxxxxx xx xxx xxxxxx xx xx xxxxxxx.
+Xxx xxxxxxxxx xxxxx xx xxxxxxx xx xxx xxxxxxx xx xxxxxx xxx XxxxxxxXxxxx xxxxxxxxx xxxx xx xxxxxxxxxx.
 
-PS \> Get-Date | Format-Custom DayOfWeek,{ $_ / $null } -ShowError
-DayOfWeek  $_ / $null
+XX $$ Xxx$Xxxx $ Xxxxxx$Xxxxxx XxxXxXxxx$$ $$ $ $xxxx $ $XxxxXxxxx XxxXxXxxx  $$ $ $xxxx
 --------- ------------
-Wednesday #ERR
+Xxxxxxxxx $XXX
 
 ```yaml
 Type: SwitchParameter
@@ -78,16 +77,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Expand
-Formats the collection object, as well as the objects in the collection.
-This parameter is designed to format objects that support the ICollection (System.Collections) interface.
-The default value is EnumOnly.
+### $Xxxxxx
+Xxxxxxx xxx xxxxxxxxxx xxxxxx$ xx xxxx xx xxx xxxxxxx xx xxx xxxxxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx xx xxxxxx xxxxxxx xxxx xxxxxxx xxx XXxxxxxxxxx $Xxxxxx.Xxxxxxxxxxx$ xxxxxxxxx.
+Xxx xxxxxxx xxxxx xx XxxxXxxx.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- EnumOnly: Displays the properties of the objects in the collection.
--- CoreOnly: Displays the properties of the collection object.
--- Both: Displays the properties of the collection object and the properties of objects in the collection.
+$$ XxxxXxxx$ Xxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxx xx xxx xxxxxxxxxx.
+$$ XxxxXxxx$ Xxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xxxxxx.
+$$ Xxxx$ Xxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xxxxxx xxx xxx xxxxxxxxxx xx xxxxxxx xx xxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -102,10 +101,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Directs the cmdlet to display all of the error information.
-Use with the DisplayError or ShowError parameters.
-By default, when an error object is written to the error or display streams, only some of the error information is displayed.
+### $Xxxxx
+Xxxxxxx xxx xxxxxx xx xxxxxxx xxx xx xxx xxxxx xxxxxxxxxxx.
+Xxx xxxx xxx XxxxxxxXxxxx xx XxxxXxxxx xxxxxxxxxx.
+Xx xxxxxxx$ xxxx xx xxxxx xxxxxx xx xxxxxxx xx xxx xxxxx xx xxxxxxx xxxxxxx$ xxxx xxxx xx xxx xxxxx xxxxxxxxxxx xx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -119,17 +118,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -GroupBy
-Formats the output in groups based on a shared property or value.
-Enter an expression or a property of the output.
+### $XxxxxXx
+Xxxxxxx xxx xxxxxx xx xxxxxx xxxxx xx x xxxxxx xxxxxxxx xx xxxxx.
+Xxxxx xx xxxxxxxxxx xx x xxxxxxxx xx xxx xxxxxx.
 
-The value of the GroupBy parameter can be a new calculated property.
-To create a calculated, property, use a hash table.
-Valid keys are:
+Xxx xxxxx xx xxx XxxxxXx xxxxxxxxx xxx xx x xxx xxxxxxxxxx xxxxxxxx.
+Xx xxxxxx x xxxxxxxxxx$ xxxxxxxx$ xxx x xxxx xxxxx.
+Xxxxx xxxx xxx$
 
--- Name (or Label) \<string\>
--- Expression \<string\> or \<script block\>
--- FormatString \<string\>
+$$ Xxxx $xx Xxxxx$ $$xxxxxx$$$$$ Xxxxxxxxxx $$xxxxxx$$ xx $$xxxxxx xxxxx$$$$$ XxxxxxXxxxxx $$xxxxxx\>
 
 ```yaml
 Type: Object
@@ -143,8 +140,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -159,8 +156,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -174,9 +171,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the objects to be formatted.
-Enter a variable that contains the objects or type a command or expression that gets the objects.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xx xxxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
 ```yaml
 Type: PSObject
@@ -190,20 +187,19 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Property
-Specifies the object properties that appear in the display and the order in which they appear.
-Wildcards are permitted.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxxxxxx xxxx xxxxxx xx xxx xxxxxxx xxx xxx xxxxx xx xxxxx xxxx xxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
 
-If you omit this parameter, the properties that appear in the display depend on the object being displayed.
-The parameter name ("Property") is optional.
-You cannot use the Property and View parameters in the same command.
+Xx xxx xxxx xxxx xxxxxxxxx$ xxx xxxxxxxxxx xxxx xxxxxx xx xxx xxxxxxx xxxxxx xx xxx xxxxxx xxxxx xxxxxxxxx.
+Xxx xxxxxxxxx xxxx $$Xxxxxxxx$$ xx xxxxxxxx.
+Xxx xxxxxx xxx xxx Xxxxxxxx xxx Xxxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 
-The value of the Property parameter can be a new calculated property.
-To create a calculated property, use a hash table.
-Valid keys are:
+Xxx xxxxx xx xxx Xxxxxxxx xxxxxxxxx xxx xx x xxx xxxxxxxxxx xxxxxxxx.
+Xx xxxxxx x xxxxxxxxxx xxxxxxxx$ xxx x xxxx xxxxx.
+Xxxxx xxxx xxx$
 
--- Expression \<string\> or \<script block\>
--- Depth \<int32\>
+$$ Xxxxxxxxxx $$xxxxxx$$ xx $$xxxxxx xxxxx$$$$$ Xxxxx $$xxx00\>
 
 ```yaml
 Type: Object[]
@@ -217,19 +213,17 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ShowError
-Sends errors through the pipeline.
-This parameter is rarely used, but can be used as a debugging aid when you are formatting expressions in a Format-Custom command, and the expressions do not appear to be working.
-The following shows an example of the results of adding the ShowError parameter with an expression.
+### $XxxxXxxxx
+Xxxxx xxxxxx xxxxxxx xxx xxxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxx xxxx$ xxx xxx xx xxxx xx x xxxxxxxxx xxx xxxx xxx xxx xxxxxxxxxx xxxxxxxxxxx xx x Xxxxxx$Xxxxxx xxxxxxx$ xxx xxx xxxxxxxxxxx xx xxx xxxxxx xx xx xxxxxxx.
+Xxx xxxxxxxxx xxxxx xx xxxxxxx xx xxx xxxxxxx xx xxxxxx xxx XxxxXxxxx xxxxxxxxx xxxx xx xxxxxxxxxx.
 
-PS \> Get-Date | Format-Custom DayOfWeek,{ $_ / $null } -ShowError
-DayOfWeek  $_ / $null
+XX $$ Xxx$Xxxx $ Xxxxxx$Xxxxxx XxxXxXxxx$$ $$ $ $xxxx $ $XxxxXxxxx XxxXxXxxx  $$ $ $xxxx
 --------- ------------
-Wednesday
+Xxxxxxxxx
 
-Failed to evaluate expression " $_ / $null ".
-    + CategoryInfo          : InvalidArgument: (10/30/2013 2:28:07 PM:PSObject) \[\], RuntimeException
-    + FullyQualifiedErrorId : mshExpressionError
+Xxxxxx xx xxxxxxxx xxxxxxxxxx $ $$ $ $xxxx $.
+$ XxxxxxxxXxxx          $ XxxxxxxXxxxxxxx$ $00$00$0000 0$00$00 XX$XXXxxxxx$ $$$$$ XxxxxxxXxxxxxxxx $ XxxxxXxxxxxxxxXxxxxXx $ xxxXxxxxxxxxxXxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -243,9 +237,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -View
-Specifies the name of an alternate format or "view." If you omit this parameter, Format-Custom uses a default custom view.
-You cannot use the Property and View parameters in the same command.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xx xxxxxxxxx xxxxxx xx $xxxx.$ Xx xxx xxxx xxxx xxxxxxxxx$ Xxxxxx$Xxxxxx xxxx x xxxxxxx xxxxxx xxxx.
+Xxx xxxxxx xxx xxx Xxxxxxxx xxx Xxxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -259,26 +253,26 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any object to Format-Custom
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xx Xxxxxx$Xxxxxx
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.PowerShell.Commands.Internal.Format
-Format-Custom returns the format objects that represent the display.
+### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.Xxxxxxxx.Xxxxxx
+Xxxxxx$Xxxxxx xxxxxxx xxx xxxxxx xxxxxxx xxxx xxxxxxxxx xxx xxxxxxx.
 
-## NOTES
-Format-Custom is designed to display views that are not just tables or just lists.
-To display an alternate table view, use Format-Table.
-To display an alternate list view, use Format-List.
+## XXXXX
+Xxxxxx$Xxxxxx xx xxxxxxxx xx xxxxxxx xxxxx xxxx xxx xxx xxxx xxxxxx xx xxxx xxxxx.
+Xx xxxxxxx xx xxxxxxxxx xxxxx xxxx$ xxx Xxxxxx$Xxxxx.
+Xx xxxxxxx xx xxxxxxxxx xxxx xxxx$ xxx Xxxxxx$Xxxx.
 
-You can also refer to Format-Custom by its built-in alias, "fc".
-For more information, see about_Aliases.
+Xxx xxx xxxx xxxxx xx Xxxxxx$Xxxxxx xx xxx xxxxx$xx xxxxx$ $xx$.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx.
 
-The GroupBy parameter assumes that the objects are sorted.
-Before using Format-Custom to group the objects, use Sort-Object to sort them.
+Xxx XxxxxXx xxxxxxxxx xxxxxxx xxxx xxx xxxxxxx xxx xxxxxx.
+Xxxxxx xxxxx Xxxxxx$Xxxxxx xx xxxxx xxx xxxxxxx$ xxx Xxxx$Xxxxxx xx xxxx xxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 

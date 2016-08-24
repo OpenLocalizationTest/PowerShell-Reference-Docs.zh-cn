@@ -6,20 +6,20 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureStorageBlobContent
-## SYNOPSIS
-Uploads a local file to an azure_2 Storage blob.
+# Xxx$XxxxxXxxxxxxXxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxx xxxx xx xx xxxxx$0 Xxxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureStorageBlobContent [-File] <String> [-Container] <String> [-Blob <String>] [-BlobType]
  [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-Force]
  [-Metadata <Hashtable>] [-Properties <Hashtable>] [-ServerTimeoutPerRequest <Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureStorageBlobContent [-File] <String> [-Blob <String>] [-BlobType] [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-Force] [-Metadata <Hashtable>]
@@ -27,68 +27,68 @@ Set-AzureStorageBlobContent [-File] <String> [-Blob <String>] [-BlobType] [-Clie
  [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureStorageBlobContent [-File] <String> [-BlobType] [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-Force] [-Metadata <Hashtable>]
  [-Properties <Hashtable>] [-ServerTimeoutPerRequest <Int32]>] -CloudBlob <CloudBlob> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Set-AzureStorageBlobContent** cmdlet uploads a local file to an azure_2 Storage blob.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxXxxxxxx$$ xxxxxx xxxxxxx x xxxxx xxxx xx xx xxxxx$0 Xxxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Upload a named file
+### Xxxxxxx 0$ Xxxxxx x xxxxx xxxx
 ```
 PS C:\>Set-AzureStorageBlobContent -Container "ContosoUpload" -File ".\PlanningData" -Blob "Planning2015"
 ```
 
-This command uploads the file that is named PlanningData to a blob named Planning2015.
+Xxxx xxxxxxx xxxxxxx xxx xxxx xxxx xx xxxxx XxxxxxxxXxxx xx x xxxx xxxxx Xxxxxxxx0000.
 
-### Example 2: Upload all files under the current folder
+### Xxxxxxx 0$ Xxxxxx xxx xxxxx xxxxx xxx xxxxxxx xxxxxx
 ```
 PS C:\>Get-ChildItem -File -Recurse | Set-AzureStorageBlobContent -Container "ContosoUploads"
 ```
 
-This command uses the core powershell cmdlet Get-ChildItem to get all the files in the current folder and in subfolders, and then passes them to the current cmdlet by using the pipeline operator.
-The **Set-AzureStorageBlobContent** cmdlet uploads the files to the container named ContosoUploads.
+Xxxx xxxxxxx xxxx xxx xxxx xxxxxxxxxx xxxxxx Xxx$XxxxxXxxx xx xxx xxx xxx xxxxx xx xxx xxxxxxx xxxxxx xxx xx xxxxxxxxxx$ xxx xxxx xxxxxx xxxx xx xxx xxxxxxx xxxxxx xx xxxxx xxx xxxxxxxx xxxxxxxx.
+Xxx $$Xxx$XxxxxXxxxxxxXxxxXxxxxxx$$ xxxxxx xxxxxxx xxx xxxxx xx xxx xxxxxxxxx xxxxx XxxxxxxXxxxxxx.
 
-### Example 3: Overwrite an existing blob
+### Xxxxxxx 0$ Xxxxxxxxx xx xxxxxxxx xxxx
 ```
 PS C:\>Get-AzureStorageBlob -Container "ContosoUploads" -Blob "Planning2015" | Set-AzureStorageBlobContent -File "ContosoPlanning"
 ```
 
-This command gets the blob named Planning2015 in the ContosoUploads container by using the Get-AzureStorageBlob cmdlet, and then passes that blob to the current cmdlet.
-The command uploads the file that is named ContosoPlanning as Planning2015.
-This command does not specify the *Force* parameter.
-The command prompts you for confirmation.
-If you confirm the command, the cmdlet overwrites the existing blob.
+Xxxx xxxxxxx xxxx xxx xxxx xxxxx Xxxxxxxx0000 xx xxx XxxxxxxXxxxxxx xxxxxxxxx xx xxxxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx$ xxx xxxx xxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxx.
+Xxx xxxxxxx xxxxxxx xxx xxxx xxxx xx xxxxx XxxxxxxXxxxxxxx xx Xxxxxxxx0000.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx.
+Xxx xxxxxxx xxxxxxx xxx xxx xxxxxxxxxxxx.
+Xx xxx xxxxxxx xxx xxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxxxxxx xxxx.
 
-### Example 4: Upload a file to a container by using the pipeline
+### Xxxxxxx 0$ Xxxxxx x xxxx xx x xxxxxxxxx xx xxxxx xxx xxxxxxxx
 ```
 PS C:\>Get-AzureStorageContainer -Container "ContosoUpload*" | Set-AzureStorageBlobContent -File "ContosoPlanning" -Blob "Planning2015"
 ```
 
-This command gets the container that starts with the string ContosoUpload by using the **Get-AzureStorageContainer** cmdlet, and then passes that blob to the current cmdlet.
-The command uploads the file that is named ContosoPlanning as Planning2015.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxx xxxx xxxxxx xxxx xxx xxxxxx XxxxxxxXxxxxx xx xxxxx xxx $$Xxx$XxxxxXxxxxxxXxxxxxxxx$$ xxxxxx$ xxx xxxx xxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxx.
+Xxx xxxxxxx xxxxxxx xxx xxxx xxxx xx xxxxx XxxxxxxXxxxxxxx xx Xxxxxxxx0000.
 
-### Example 5: Upload a file and metadata
+### Xxxxxxx 0$ Xxxxxx x xxxx xxx xxxxxxxx
 ```
 PS C:\>$Metadata = @{"key" = "value"; "name" = "test"}
 PS C:\> Set-AzureStorageBlobContent -File "ContosoPlanning" -Container "ContosoUploads" -Metadata $Metadata
 ```
 
-The first command creates a hash table that contains metadata for a blob, and stores that hash table in the $Metadata variable.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxx xxxxx xxxx xxxxxxxx xxxxxxxx xxx x xxxx$ xxx xxxxxx xxxx xxxx xxxxx xx xxx $Xxxxxxxx xxxxxxxx.
 
-The second command uploads the file that is named ContosoPlanning to the container named ContosoUploads.
-The blob includes the metadata stored in $Metadata.
+Xxx xxxxxx xxxxxxx xxxxxxx xxx xxxx xxxx xx xxxxx XxxxxxxXxxxxxxx xx xxx xxxxxxxxx xxxxx XxxxxxxXxxxxxx.
+Xxx xxxx xxxxxxxx xxx xxxxxxxx xxxxxx xx $Xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Blob
-Specifies the name of a blob.
-This cmdlet uploads a file to the azure_2 Storage blob that this parameter specifies.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxx.
+Xxxx xxxxxx xxxxxxx x xxxx xx xxx xxxxx$0 Xxxxxxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -102,14 +102,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -BlobType
-Specifies the type for the blob that this cmdlet uploads.
-psdx_paramvalues
+### $XxxxXxxx
+Xxxxxxxxx xxx xxxx xxx xxx xxxx xxxx xxxx xxxxxx xxxxxxx.
+xxxx$xxxxxxxxxxx
 
--- Block
--- Page
+$$ Xxxxx $$ Xxxx
 
-The default value is Block.
+Xxx xxxxxxx xxxxx xx Xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -124,10 +123,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ClientTimeoutPerRequest
-Specifies the client-side time-out interval, in seconds, for one service request.
-If the previous call fails in the specified interval, this cmdlet retries the request.
-If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -141,9 +140,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CloudBlob
-Specifies a **CloudBlob** object.
-To obtain a **CloudBlob** object, use the Get-AzureStorageBlob cmdlet.
+### $XxxxxXxxx
+Xxxxxxxxx x $$XxxxxXxxx$$ xxxxxx.
+Xx xxxxxx x $$XxxxxXxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
 ```yaml
 Type: CloudBlob
@@ -157,10 +156,10 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -CloudBlobContainer
-Specifies a **CloudBlobContainer** object from the azure_2 Storage Client library.
-This cmdlet uploads content to a blob in the container that this parameter specifies.
-To obtain a **CloudBlobContainer** object, use the Get-AzureStorageContainer cmdlet.
+### $XxxxxXxxxXxxxxxxxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx xxxx xxx xxxxx$0 Xxxxxxx Xxxxxx xxxxxxx.
+Xxxx xxxxxx xxxxxxx xxxxxxx xx x xxxx xx xxx xxxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
 
 ```yaml
 Type: CloudBlobContainer
@@ -174,12 +173,12 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ConcurrentTaskCount
-Specifies the maximum concurrent network calls.
-You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
-The specified value is an absolute count and is not multiplied by the core count.
-This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
-The default value is 10.
+### $XxxxxxxxxxXxxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxxxxx xxx xxxx xxxxxx xxxxxxx xxxxxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxxx$ xxxx xx 000 xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx xxxxx xx 00.
 
 ```yaml
 Type: Int32]
@@ -193,9 +192,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Container
-Specifies the name of a container.
-This cmdlet uploads a file to a blob in the container that this parameter specifies.
+### $Xxxxxxxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxxx.
+Xxxx xxxxxx xxxxxxx x xxxx xx x xxxx xx xxx xxxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -209,9 +208,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -225,8 +224,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -File
-Specifies a local file path for a file to upload as blob content.
+### $Xxxx
+Xxxxxxxxx x xxxxx xxxx xxxx xxx x xxxx xx xxxxxx xx xxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -252,8 +251,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-Indicates that this cmdlet overwrites an existing blob without prompting you for confirmation.
+### $Xxxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxxxxx xx xxxxxxxx xxxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -267,8 +266,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Metadata
-Specifies metadata for the uploaded blob.
+### $Xxxxxxxx
+Xxxxxxxxx xxxxxxxx xxx xxx xxxxxxxx xxxx.
 
 ```yaml
 Type: Hashtable
@@ -282,8 +281,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Properties
-Specifies properties for the uploaded blob.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxxxxxxxxx xxx xxx xxxxxxxx xxxx.
 
 ```yaml
 Type: Hashtable
@@ -297,9 +296,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-Specifies the service side time-out interval, in seconds, for a request.
-If the specified interval elapses before the service processes the request, the storage service returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
+Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -313,8 +312,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -328,8 +327,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -343,18 +342,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageBlobContent](15371eb7-da6a-4b26-bbda-b59a2eeedb1d)
+[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](15371eb7-da6a-4b26-bbda-b59a2eeedb1d)
 
-[Get-AzureStorageBlob](74bc4494-be41-4493-9939-e51e61dd09e6)
+[Xxx$XxxxxXxxxxxxXxxx](74bc4494-be41-4493-9939-e51e61dd09e6)
 
-[Remove-AzureStorageBlob](fddc1b9e-caf4-47d7-a6b2-a2b2bb50113a)
+[Xxxxxx$XxxxxXxxxxxxXxxx](fddc1b9e-caf4-47d7-a6b2-a2b2bb50113a)
 
 

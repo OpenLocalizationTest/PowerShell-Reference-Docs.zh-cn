@@ -6,11 +6,11 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Import-AzureRMAutomationRunbook
-## SYNOPSIS
-Imports an Automation runbook.
+# Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Import-AzureRMAutomationRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
@@ -18,29 +18,29 @@ Import-AzureRMAutomationRunbook [-ResourceGroupName] <String> [-AutomationAccoun
  [-Name <System.String>] [-Published] [-Tags <IDictionary>] [-Type] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Import-AzureRmAutomationRunbook** cmdlet imports an azure_2 Automation runbook.
-Specify the path to a wps_2 script (.ps1 ) file to import for wps_2 and wps_2 Workflow runbooks, or to a graphical runbook (.graphrunbook) file for graphical runbooks.
-The name of the file becomes the name of the runbook.
-For wps_2 Workflow runbooks, the script must contain a single wps_2 Workflow definition that matches the name of the file.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx.
+Xxxxxxx xxx xxxx xx x xxx$0 xxxxxx $.xx0 $ xxxx xx xxxxxx xxx xxx$0 xxx xxx$0 Xxxxxxxx xxxxxxxx$ xx xx x xxxxxxxxx xxxxxxx $.xxxxxxxxxxxx$ xxxx xxx xxxxxxxxx xxxxxxxx.
+Xxx xxxx xx xxx xxxx xxxxxxx xxx xxxx xx xxx xxxxxxx.
+Xxx xxx$0 Xxxxxxxx xxxxxxxx$ xxx xxxxxx xxxx xxxxxxx x xxxxxx xxx$0 Xxxxxxxx xxxxxxxxxx xxxx xxxxxxx xxx xxxx xx xxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Import a runbook from a file
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxxx x xxxx
 ```
 PS C:\>$Tags = @{"tag01"='value01"; "tag02"="value02"}
 PS C:\> Import-AzureRmAutomationRunbook -Path .\GraphicalRunbook06.graphrunbook -Tags $Tags -ResourceGroup "ResourceGroup01" -AutomationAccountName "AutomationAccount01" -Type GraphicalPowershell
 ```
 
-The first command assigns two key/value pairs to the $Tags variable.
+Xxx xxxxx xxxxxxx xxxxxxx xxx xxx$xxxxx xxxxx xx xxx $Xxxx xxxxxxxx.
 
-The second command imports a graphical runbook called GraphicalRunbook06 into the Automation account named AutomationAccount01.
-The command also assigns the tags stored in $Tags.
+Xxx xxxxxx xxxxxxx xxxxxxx x xxxxxxxxx xxxxxxx xxxxxx XxxxxxxxxXxxxxxx00 xxxx xxx Xxxxxxxxxx xxxxxxx xxxxx XxxxxxxxxxXxxxxxx00.
+Xxx xxxxxxx xxxx xxxxxxx xxx xxxx xxxxxx xx $Xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account into which this cmdlet imports a runbook.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -54,8 +54,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Description
-Specifies a description for the imported runbook.
+### $Xxxxxxxxxxx
+Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -69,8 +69,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-ps_force
+### $Xxxxx
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -84,8 +84,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -LogProgress
-Specifies whether the runbook logs progress information.
+### $XxxXxxxxxxx
+Xxxxxxxxx xxxxxxx xxx xxxxxxx xxxx xxxxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: Boolean]
@@ -99,8 +99,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -LogVerbose
-Specifies whether the runbook logs detailed information.
+### $XxxXxxxxxx
+Xxxxxxxxx xxxxxxx xxx xxxxxxx xxxx xxxxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: Boolean]
@@ -114,8 +114,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the runbook that this cmdlet imports.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: System.String
@@ -129,8 +129,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the path of a .ps1 or .graphrunbook file that this cmdlet imports.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x .xx0 xx .xxxxxxxxxxxx xxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -144,8 +144,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Published
-Indicates that this cmdlet publishes the runbook that it imports.
+### $Xxxxxxxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxxxx xxx xxxxxxx xxxx xx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -159,8 +159,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet imports a runbook.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -174,8 +174,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Tags
-Specifies a dictionary of tags for the imported runbook.
+### $Xxxx
+Xxxxxxxxx x xxxxxxxxxx xx xxxx xxx xxx xxxxxxxx xxxxxxx.
 
 ```yaml
 Type: IDictionary
@@ -189,18 +189,14 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Type
-Specifies the type of runbook that this cmdlet creates.
-Valid values are: 
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxxxxxx xxxx xxxx xxxxxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- PowerShell
--- GraphicalPowerShell
--- PowerShellWorkflow
--- GraphicalPowerShellWorkflow
--- Graph 
+$$ XxxxxXxxxx $$ XxxxxxxxxXxxxxXxxxx $$ XxxxxXxxxxXxxxxxxx $$ XxxxxxxxxXxxxxXxxxxXxxxxxxx $$ Xxxxx 
 
-The value Graph is obsolete.
-It is equivalent to GraphicalPowerShellWorkflow.
+Xxx xxxxx Xxxxx xx xxxxxxxx.
+Xx xx xxxxxxxxxx xx XxxxxxxxxXxxxxXxxxxXxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -215,8 +211,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -230,8 +226,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -245,28 +241,28 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Export-AzureRmAutomationRunbook](614eee0d-f18e-4843-bed6-6cf43db59f75)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](614eee0d-f18e-4843-bed6-6cf43db59f75)
 
-[Get-AzureRmAutomationRunbook](71da0434-5c0f-498f-91f2-f09117dfa7ca)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](71da0434-5c0f-498f-91f2-f09117dfa7ca)
 
-[New-AzureRmAutomationRunbook](c0de19b6-68a5-46b0-8575-88f229fd2494)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](c0de19b6-68a5-46b0-8575-88f229fd2494)
 
-[New-AzureRmAutomationRunbook](c0de19b6-68a5-46b0-8575-88f229fd2494)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](c0de19b6-68a5-46b0-8575-88f229fd2494)
 
-[Publish-AzureRmAutomationRunbook](68a3d64a-280b-4285-b588-72c7a8c25942)
+[Xxxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](68a3d64a-280b-4285-b588-72c7a8c25942)
 
-[Remove-AzureRmAutomationRunbook](073fedf2-2bbd-4173-946a-b79f88dc3c92)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](073fedf2-2bbd-4173-946a-b79f88dc3c92)
 
-[Set-AzureRmAutomationRunbook](80b64633-ceab-4609-bb58-e11ab99e9c35)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](80b64633-ceab-4609-bb58-e11ab99e9c35)
 
-[Start-AzureRmAutomationRunbook](5c86545a-93dd-4b3c-96b2-fa6ed740448d)
+[Xxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](5c86545a-93dd-4b3c-96b2-fa6ed740448d)
 
 

@@ -6,41 +6,41 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureStorageQueue
-## SYNOPSIS
-Removes a storage queue.
+# Xxxxxx$XxxxxXxxxxxxXxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureStorageQueue [-Name] <String> [-Context <AzureStorageContext>] [-Force] [-PassThru] [-Confirm]
  [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureStorageQueue** cmdlet removes a storage queue.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxxxxxxXxxxx$$ xxxxxx xxxxxxx x xxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a storage queue by name
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxxxx xx xxxx
 ```
 PS C:\>Remove-AzureStorageQueue "ContosoQueue01"
 ```
 
-This command removes a queue named ContosoQueue01.
+Xxxx xxxxxxx xxxxxxx x xxxxx xxxxx XxxxxxxXxxxx00.
 
-### Example 2: Remove multiple storage queues
+### Xxxxxxx 0$ Xxxxxx xxxxxxxx xxxxxxx xxxxxx
 ```
 PS C:\>Get-AzureStorageQueue "Contoso*" | Remove-AzureStorageQueue
 ```
 
-This command removes all queues with names that start with Contoso.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxx xxxx xxxxx xxxx xxxxx xxxx Xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies the azure_2 storage context.
-To obtain the storage context, the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx xxx xxxxxxx xxxxxxx$ xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -54,8 +54,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-ps_force
+### $Xxxxx
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -69,8 +69,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the queue to remove.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -84,9 +84,9 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Indicates that this cmdlet returns a **Boolean** that reflects the success of the operation.
-By default, this cmdlet does not return a value.
+### $XxxxXxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx x $$Xxxxxxx$$ xxxx xxxxxxxx xxx xxxxxxx xx xxx xxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx x xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -100,8 +100,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -115,8 +115,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -130,16 +130,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageQueue](a89aa1b2-cabd-4048-a84d-2b37da287c05)
+[Xxx$XxxxxXxxxxxxXxxxx](a89aa1b2-cabd-4048-a84d-2b37da287c05)
 
-[New-AzureStorageQueue](4b1216b7-40c6-418b-806e-63302d8ba4a1)
+[Xxx$XxxxxXxxxxxxXxxxx](4b1216b7-40c6-418b-806e-63302d8ba4a1)
 
 

@@ -4,33 +4,33 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293968
 schema: 2.0.0
 ---
 
-# Get-EventSubscriber
-## SYNOPSIS
-Gets the event subscribers in the current session.
+# Xxx$XxxxxXxxxxxxxxx
+## XXXXXXXX
+Xxxx xxx xxxxx xxxxxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### BySource (Default)
+### XxXxxxxx $Xxxxxxx$
 ```
 Get-EventSubscriber [[-SourceIdentifier] <String>] [-Force] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### ById
+### XxXx
 ```
 Get-EventSubscriber [-SubscriptionId] <Int32> [-Force] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-EventSubscriber cmdlet gets the event subscribers in the current session.
+## XXXXXXXXXXX
+Xxx Xxx$XxxxxXxxxxxxxxx xxxxxx xxxx xxx xxxxx xxxxxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-When you subscribe to an event by using a Register event cmdlet, an event subscriber is added to your Windows PowerShell session, and the events to which you subscribed are added to your event queue whenever they are raised.
-To cancel an event subscription, delete the event subscriber by using the Unregister-Event cmdlet.
+Xxxx xxx xxxxxxxxx xx xx xxxxx xx xxxxx x Xxxxxxxx xxxxx xxxxxx$ xx xxxxx xxxxxxxxxx xx xxxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx$ xxx xxx xxxxxx xx xxxxx xxx xxxxxxxxxx xxx xxxxx xx xxxx xxxxx xxxxx xxxxxxxx xxxx xxx xxxxxx.
+Xx xxxxxx xx xxxxx xxxxxxxxxxxx$ xxxxxx xxx xxxxx xxxxxxxxxx xx xxxxx xxx Xxxxxxxxxx$Xxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$timer = New-Object Timers.Timer
 PS C:\>$timer | Get-Member -Type Event
@@ -58,19 +58,19 @@ SupportEvent     : False
 ForwardEvent     : False
 ```
 
-This example uses a Get-EventSubscriber command to get the event subscriber for a timer event.
+Xxxx xxxxxxx xxxx x Xxx$XxxxxXxxxxxxxxx xxxxxxx xx xxx xxx xxxxx xxxxxxxxxx xxx x xxxxx xxxxx.
 
-The first command uses the New-Object cmdlet to create an instance of a timer object.
-It saves the new timer object in the $timer variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxx xxxxxx xx xxxxxx xx xxxxxxxx xx x xxxxx xxxxxx.
+Xx xxxxx xxx xxx xxxxx xxxxxx xx xxx $xxxxx xxxxxxxx.
 
-The second command uses the Get-Member cmdlet to display the events that are available for timer objects.
-The command uses the Type parameter of the Get-Member cmdlet with a value of Event.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxx$Xxxxxx xxxxxx xx xxxxxxx xxx xxxxxx xxxx xxx xxxxxxxxx xxx xxxxx xxxxxxx.
+Xxx xxxxxxx xxxx xxx Xxxx xxxxxxxxx xx xxx Xxx$Xxxxxx xxxxxx xxxx x xxxxx xx Xxxxx.
 
-The third command uses the Register-ObjectEvent cmdlet to register for the Elapsed event on the timer object.
+Xxx xxxxx xxxxxxx xxxx xxx Xxxxxxxx$XxxxxxXxxxx xxxxxx xx xxxxxxxx xxx xxx Xxxxxxx xxxxx xx xxx xxxxx xxxxxx.
 
-The fourth command uses the Get-EventSubscriber cmdlet to get the event subscriber for the Elapsed event.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxx$XxxxxXxxxxxxxxx xxxxxx xx xxx xxx xxxxx xxxxxxxxxx xxx xxx Xxxxxxx xxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$timer  = New-Object Timers.Timer
 PS C:\>$timer.Interval = 500
@@ -107,40 +107,40 @@ PS C:\>& $subscriber.action.module {$random}
 23
 ```
 
-This example shows how to use the dynamic module in the PSEventJob object in the Action property of the event subscriber.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx xxxxxxx xxxxxx xx xxx XXXxxxxXxx xxxxxx xx xxx Xxxxxx xxxxxxxx xx xxx xxxxx xxxxxxxxxx.
 
-The first command uses the New-Object cmdlet to create a timer object.
-The second command sets the interval of the timer to 500 (milliseconds).
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxx xxxxxx xx xxxxxx x xxxxx xxxxxx.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxx xx 000 $xxxxxxxxxxxx$.
 
-The third command uses the Register-ObjectEvent cmdlet to register the Elapsed event of the timer object.
-The command includes an action that handles the event.
-Whenever the timer interval elapses, an event is raised and the commands in the action run.
-In this case, the Get-Random cmdlet generates a random number between 0 and 100 and saves it in the $random variable.
-The source identifier of the event is Timer.Random.
+Xxx xxxxx xxxxxxx xxxx xxx Xxxxxxxx$XxxxxxXxxxx xxxxxx xx xxxxxxxx xxx Xxxxxxx xxxxx xx xxx xxxxx xxxxxx.
+Xxx xxxxxxx xxxxxxxx xx xxxxxx xxxx xxxxxxx xxx xxxxx.
+Xxxxxxxx xxx xxxxx xxxxxxxx xxxxxxx$ xx xxxxx xx xxxxxx xxx xxx xxxxxxxx xx xxx xxxxxx xxx.
+Xx xxxx xxxx$ xxx Xxx$Xxxxxx xxxxxx xxxxxxxxx x xxxxxx xxxxxx xxxxxxx 0 xxx 000 xxx xxxxx xx xx xxx $xxxxxx xxxxxxxx.
+Xxx xxxxxx xxxxxxxxxx xx xxx xxxxx xx Xxxxx.Xxxxxx.
 
-When you use an Action parameter in a Register-ObjectEvent command, the command returns a PSEventJob object that represents the action.
+Xxxx xxx xxx xx Xxxxxx xxxxxxxxx xx x Xxxxxxxx$XxxxxxXxxxx xxxxxxx$ xxx xxxxxxx xxxxxxx x XXXxxxxXxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxx.
 
-The fourth command enables the timer.
+Xxx xxxxxx xxxxxxx xxxxxxx xxx xxxxx.
 
-The fifth command uses the Get-EventSubscriber cmdlet to get the event subscriber of the Timer.Random event.
-It saves the event subscriber object in the $subscriber variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XxxxxXxxxxxxxxx xxxxxx xx xxx xxx xxxxx xxxxxxxxxx xx xxx Xxxxx.Xxxxxx xxxxx.
+Xx xxxxx xxx xxxxx xxxxxxxxxx xxxxxx xx xxx $xxxxxxxxxx xxxxxxxx.
 
-The sixth command shows that the Action property of the event subscriber object contains a PSEventJob object.
-In fact, it contains the same PSEventJob object that the Register-ObjectEvent command returned.
+Xxx xxxxx xxxxxxx xxxxx xxxx xxx Xxxxxx xxxxxxxx xx xxx xxxxx xxxxxxxxxx xxxxxx xxxxxxxx x XXXxxxxXxx xxxxxx.
+Xx xxxx$ xx xxxxxxxx xxx xxxx XXXxxxxXxx xxxxxx xxxx xxx Xxxxxxxx$XxxxxxXxxxx xxxxxxx xxxxxxxx.
 
-The seventh command uses the Format-List cmdlet to display all of the properties of the PSEventJob object in the Action property in a list.
-The result reveal that the PSEventJob object has a Module property that contains a dynamic script module that implements the action.
+Xxx xxxxxxx xxxxxxx xxxx xxx Xxxxxx$Xxxx xxxxxx xx xxxxxxx xxx xx xxx xxxxxxxxxx xx xxx XXXxxxxXxx xxxxxx xx xxx Xxxxxx xxxxxxxx xx x xxxx.
+Xxx xxxxxx xxxxxx xxxx xxx XXXxxxxXxx xxxxxx xxx x Xxxxxx xxxxxxxx xxxx xxxxxxxx x xxxxxxx xxxxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxx.
 
-The remaining commands use the call operator (&) to invoke the command in the module and display the value of the $random variable.
-You can use the call operator to invoke any command in a module, including commands that are not exported.
-In this case, the commands show the random number that is being generated when the Elapsed event occurs.
+Xxx xxxxxxxxx xxxxxxxx xxx xxx xxxx xxxxxxxx $$$ xx xxxxxx xxx xxxxxxx xx xxx xxxxxx xxx xxxxxxx xxx xxxxx xx xxx $xxxxxx xxxxxxxx.
+Xxx xxx xxx xxx xxxx xxxxxxxx xx xxxxxx xxx xxxxxxx xx x xxxxxx$ xxxxxxxxx xxxxxxxx xxxx xxx xxx xxxxxxxx.
+Xx xxxx xxxx$ xxx xxxxxxxx xxxx xxx xxxxxx xxxxxx xxxx xx xxxxx xxxxxxxxx xxxx xxx Xxxxxxx xxxxx xxxxxx.
 
-For more information about modules, see about_Modules.
+Xxx xxxx xxxxxxxxxxx xxxxx xxxxxxx$ xxx xxxxx$Xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Force
-Gets all event subscribers, including subscribers for events that are hidden by using the SupportEvent parameter of Register-ObjectEvent, Register-WmiEvent, and Register-EngineEvent.
+### $Xxxxx
+Xxxx xxx xxxxx xxxxxxxxxxx$ xxxxxxxxx xxxxxxxxxxx xxx xxxxxx xxxx xxx xxxxxx xx xxxxx xxx XxxxxxxXxxxx xxxxxxxxx xx Xxxxxxxx$XxxxxxXxxxx$ Xxxxxxxx$XxxXxxxx$ xxx Xxxxxxxx$XxxxxxXxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -154,8 +154,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -170,8 +170,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -185,11 +185,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SourceIdentifier
-Gets only the event subscribers with the specified SourceIdentifier property value.
-By default, Get-EventSubscriber gets all event subscribers in the session.
-Wildcards are not permitted.
-This parameter is case-sensitive.
+### $XxxxxxXxxxxxxxxx
+Xxxx xxxx xxx xxxxx xxxxxxxxxxx xxxx xxx xxxxxxxxx XxxxxxXxxxxxxxxx xxxxxxxx xxxxx.
+Xx xxxxxxx$ Xxx$XxxxxXxxxxxxxxx xxxx xxx xxxxx xxxxxxxxxxx xx xxx xxxxxxx.
+Xxxxxxxxx xxx xxx xxxxxxxxx.
+Xxxx xxxxxxxxx xx xxxx$xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -203,9 +203,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -SubscriptionId
-Gets only the specified subscription identifier.
-By default, Get-EventSubscriber gets all event subscribers in the session.
+### $XxxxxxxxxxxxXx
+Xxxx xxxx xxx xxxxxxxxx xxxxxxxxxxxx xxxxxxxxxx.
+Xx xxxxxxx$ Xxx$XxxxxXxxxxxxxxx xxxx xxx xxxxx xxxxxxxxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: Int32
@@ -219,39 +219,39 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.PSEventSubscriber
-Get-EventSubscriber returns an object that represents each event subscriber.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxxxxxxxx
+Xxx$XxxxxXxxxxxxxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxxx xxxxx xxxxxxxxxx.
 
-## NOTES
-The New-Event cmdlet, which creates a custom event, does not generate a subscriber.
-Therefore, the Get-EventSubscriber cmdlet will not find a subscriber object for these events.
-However, if you use the Register-EngineEvent cmdlet to subscribe to a custom event (in order to forward the event or to specify an action), Get-EventSubscriber will find the subscriber that Register-EngineEvent generates.
+## XXXXX
+Xxx Xxx$Xxxxx xxxxxx$ xxxxx xxxxxxx x xxxxxx xxxxx$ xxxx xxx xxxxxxxx x xxxxxxxxxx.
+Xxxxxxxxx$ xxx Xxx$XxxxxXxxxxxxxxx xxxxxx xxxx xxx xxxx x xxxxxxxxxx xxxxxx xxx xxxxx xxxxxx.
+Xxxxxxx$ xx xxx xxx xxx Xxxxxxxx$XxxxxxXxxxx xxxxxx xx xxxxxxxxx xx x xxxxxx xxxxx $xx xxxxx xx xxxxxxx xxx xxxxx xx xx xxxxxxx xx xxxxxx$$ Xxx$XxxxxXxxxxxxxxx xxxx xxxx xxx xxxxxxxxxx xxxx Xxxxxxxx$XxxxxxXxxxx xxxxxxxxx.
 
-Events, event subscriptions, and the event queue exist only in the current session.
-If you close the current session, the event queue is discarded and the event subscription is canceled.
+Xxxxxx$ xxxxx xxxxxxxxxxxxx$ xxx xxx xxxxx xxxxx xxxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxx xxx xxxxxxx xxxxxxx$ xxx xxxxx xxxxx xx xxxxxxxxx xxx xxx xxxxx xxxxxxxxxxxx xx xxxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-Event]()
+[Xxx$Xxxxx]()
 
-[New-Event]()
+[Xxx$Xxxxx]()
 
-[Register-EngineEvent]()
+[Xxxxxxxx$XxxxxxXxxxx]()
 
-[Register-ObjectEvent]()
+[Xxxxxxxx$XxxxxxXxxxx]()
 
-[Register-WmiEvent]()
+[Xxxxxxxx$XxxXxxxx]()
 
-[Remove-Event]()
+[Xxxxxx$Xxxxx]()
 
-[Unregister-Event]()
+[Xxxxxxxxxx$Xxxxx]()
 
-[Wait-Event]()
+[Xxxx$Xxxxx]()
 

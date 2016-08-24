@@ -4,11 +4,11 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294011
 schema: 2.0.0
 ---
 
-# Set-Alias
-## SYNOPSIS
-Creates or changes an alias (alternate name) for a cmdlet or other command element in the current Windows PowerShell session.
+# Xxx$Xxxxx
+## XXXXXXXX
+Xxxxxxx xx xxxxxxx xx xxxxx $xxxxxxxxx xxxx$ xxx x xxxxxx xx xxxxx xxxxxxx xxxxxxx xx xxx xxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-Alias [-Name] <String> [-Value] <String> [-Description <String>] [-Option <ScopedItemOptions>] [-PassThru]
@@ -16,81 +16,81 @@ Set-Alias [-Name] <String> [-Value] <String> [-Description <String>] [-Option <S
  [-Confirm]
 ```
 
-## DESCRIPTION
-The Set-Alias cmdlet creates or changes an alias (alternate name) for a cmdlet or for a command element, such as a function, a script, a file, or other executable.
-You can also use Set-Alias to reassign a current alias to a new command, or to change any of the properties of an alias, such as its description.
-Unless you add the alias to the Windows PowerShell profile, the changes to an alias are lost when you exit the session or close Windows PowerShell.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxx xxxxxx xxxxxxx xx xxxxxxx xx xxxxx $xxxxxxxxx xxxx$ xxx x xxxxxx xx xxx x xxxxxxx xxxxxxx$ xxxx xx x xxxxxxxx$ x xxxxxx$ x xxxx$ xx xxxxx xxxxxxxxxx.
+Xxx xxx xxxx xxx Xxx$Xxxxx xx xxxxxxxx x xxxxxxx xxxxx xx x xxx xxxxxxx$ xx xx xxxxxx xxx xx xxx xxxxxxxxxx xx xx xxxxx$ xxxx xx xxx xxxxxxxxxxx.
+Xxxxxx xxx xxx xxx xxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxx$ xxx xxxxxxx xx xx xxxxx xxx xxxx xxxx xxx xxxx xxx xxxxxxx xx xxxxx Xxxxxxx XxxxxXxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-alias -name list -value get-childitem
 ```
 
-This command creates the alias "list" for the Get-ChildItem cmdlet.
-After you create the alias, you can use "list" in place of "Get-ChildItem" at the command line and in scripts.
+Xxxx xxxxxxx xxxxxxx xxx xxxxx $xxxx$ xxx xxx Xxx$XxxxxXxxx xxxxxx.
+Xxxxx xxx xxxxxx xxx xxxxx$ xxx xxx xxx $xxxx$ xx xxxxx xx $Xxx$XxxxxXxxx$ xx xxx xxxxxxx xxxx xxx xx xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-alias list get-location
 ```
 
-This command associates the alias "list" with the Get-Location cmdlet.
-If "list" is an alias for another cmdlet, this command changes its association so that it now is the alias only for Get-Location.
+Xxxx xxxxxxx xxxxxxxxxx xxx xxxxx $xxxx$ xxxx xxx Xxx$Xxxxxxxx xxxxxx.
+Xx $xxxx$ xx xx xxxxx xxx xxxxxxx xxxxxx$ xxxx xxxxxxx xxxxxxx xxx xxxxxxxxxxx xx xxxx xx xxx xx xxx xxxxx xxxx xxx Xxx$Xxxxxxxx.
 
-This command uses the same format as the command in the previous example, but it omits the optional parameter names, -Name and -Value.
-When you omit parameter names, the values of those parameters must appear in the specified order in the command.
-In this case, the value of -Name ("list") must be the first parameter and the value of -Value ("get-location") must be the second parameter.
+Xxxx xxxxxxx xxxx xxx xxxx xxxxxx xx xxx xxxxxxx xx xxx xxxxxxxx xxxxxxx$ xxx xx xxxxx xxx xxxxxxxx xxxxxxxxx xxxxx$ $Xxxx xxx $Xxxxx.
+Xxxx xxx xxxx xxxxxxxxx xxxxx$ xxx xxxxxx xx xxxxx xxxxxxxxxx xxxx xxxxxx xx xxx xxxxxxxxx xxxxx xx xxx xxxxxxx.
+Xx xxxx xxxx$ xxx xxxxx xx $Xxxx $$xxxx$$ xxxx xx xxx xxxxx xxxxxxxxx xxx xxx xxxxx xx $Xxxxx $$xxx$xxxxxxxx$$ xxxx xx xxx xxxxxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-alias scrub remove-item -option readonly -passthru | format-list
 ```
 
-This command associates the alias "scrub" with the Remove-Item cmdlet.
-It uses the "ReadOnly" option to prevent the alias from being deleted or assigned to another cmdlet.
+Xxxx xxxxxxx xxxxxxxxxx xxx xxxxx $xxxxx$ xxxx xxx Xxxxxx$Xxxx xxxxxx.
+Xx xxxx xxx $XxxxXxxx$ xxxxxx xx xxxxxxx xxx xxxxx xxxx xxxxx xxxxxxx xx xxxxxxxx xx xxxxxxx xxxxxx.
 
-The PassThru parameter directs Windows PowerShell to pass an object that represents the new alias through the pipeline to the Format-List cmdlet.
-If the PassThru parameter were omitted, there would be no output from this cmdlet to display (in a list or otherwise).
+Xxx XxxxXxxx xxxxxxxxx xxxxxxx Xxxxxxx XxxxxXxxxx xx xxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxx xxxxx xxxxxxx xxx xxxxxxxx xx xxx Xxxxxx$Xxxx xxxxxx.
+Xx xxx XxxxXxxx xxxxxxxxx xxxx xxxxxxx$ xxxxx xxxxx xx xx xxxxxx xxxx xxxx xxxxxx xx xxxxxxx $xx x xxxx xx xxxxxxxxx$.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Set-Alias np c:\windows\notepad.exe
 ```
 
-This command associates the alias, "np", with the executable file for Notepad.
-After the command completes, to open Notepad from the Windows PowerShell command line, just type "np".
+Xxxx xxxxxxx xxxxxxxxxx xxx xxxxx$ $xx$$ xxxx xxx xxxxxxxxxx xxxx xxx Xxxxxxx.
+Xxxxx xxx xxxxxxx xxxxxxxxx$ xx xxxx Xxxxxxx xxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxx xxxx$ xxxx xxxx $xx$.
 
-This example demonstrates that you can create aliases for executable files and elements other than cmdlets.
+Xxxx xxxxxxx xxxxxxxxxxxx xxxx xxx xxx xxxxxx xxxxxxx xxx xxxxxxxxxx xxxxx xxx xxxxxxxx xxxxx xxxx xxxxxxx.
 
-To make the command more generic, you can use the "Windir" environment variable (${env:windir}) to represent the C\Windows directory.
-The generic version of the command is "set-alias np ${env:windir}\notepad.exe".
+Xx xxxx xxx xxxxxxx xxxx xxxxxxx$ xxx xxx xxx xxx $Xxxxxx$ xxxxxxxxxxx xxxxxxxx $$$xxx$xxxxxx$$ xx xxxxxxxxx xxx X$Xxxxxxx xxxxxxxxx.
+Xxx xxxxxxx xxxxxxx xx xxx xxxxxxx xx $xxx$xxxxx xx $$xxx$xxxxxx$$xxxxxxx.xxx$.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>function CD32 {set-location c:\windows\system32}
 PS C:\>set-alias go cd32
 ```
 
-These commands show how to assign an alias to a command with parameters, or even to a pipeline of many commands.
+Xxxxx xxxxxxxx xxxx xxx xx xxxxxx xx xxxxx xx x xxxxxxx xxxx xxxxxxxxxx$ xx xxxx xx x xxxxxxxx xx xxxx xxxxxxxx.
 
-You can create an alias for a cmdlet, but you cannot create an alias for a command that consists of a cmdlet and its parameters.
-However, if you place the command in a function or a script, then you can create a useful function or script name and you can create one or more aliases for the function or script.
+Xxx xxx xxxxxx xx xxxxx xxx x xxxxxx$ xxx xxx xxxxxx xxxxxx xx xxxxx xxx x xxxxxxx xxxx xxxxxxxx xx x xxxxxx xxx xxx xxxxxxxxxx.
+Xxxxxxx$ xx xxx xxxxx xxx xxxxxxx xx x xxxxxxxx xx x xxxxxx$ xxxx xxx xxx xxxxxx x xxxxxx xxxxxxxx xx xxxxxx xxxx xxx xxx xxx xxxxxx xxx xx xxxx xxxxxxx xxx xxx xxxxxxxx xx xxxxxx.
 
-In this example, the user wants to create an alias for the command "set-location c:\windows\system32", where "set-location" is a cmdlet and "C:\Windows\System32" is the value of the Path parameter.
+Xx xxxx xxxxxxx$ xxx xxxx xxxxx xx xxxxxx xx xxxxx xxx xxx xxxxxxx $xxx$xxxxxxxx x$$xxxxxxx$xxxxxx00$$ xxxxx $xxx$xxxxxxxx$ xx x xxxxxx xxx $X$$Xxxxxxx$Xxxxxx00$ xx xxx xxxxx xx xxx Xxxx xxxxxxxxx.
 
-To do this, the first command creates a function called "CD32" that contains the Set-Location command.
+Xx xx xxxx$ xxx xxxxx xxxxxxx xxxxxxx x xxxxxxxx xxxxxx $XX00$ xxxx xxxxxxxx xxx Xxx$Xxxxxxxx xxxxxxx.
 
-The second command creates the alias "go" for the CD32 function.
-Then, to run the Set-Location command, the user can type either "CD32" or "go".
+Xxx xxxxxx xxxxxxx xxxxxxx xxx xxxxx $xx$ xxx xxx XX00 xxxxxxxx.
+Xxxx$ xx xxx xxx Xxx$Xxxxxxxx xxxxxxx$ xxx xxxx xxx xxxx xxxxxx $XX00$ xx $xx$.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Description
-Specifies a description of the alias.
-You can type any string.
-If the description includes spaces, enclose it quotation marks.
+### $Xxxxxxxxxxx
+Xxxxxxxxx x xxxxxxxxxxx xx xxx xxxxx.
+Xxx xxx xxxx xxx xxxxxx.
+Xx xxx xxxxxxxxxxx xxxxxxxx xxxxxx$ xxxxxxx xx xxxxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -104,10 +104,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Allows the cmdlet to set a read-only alias.
-Use the Option parameter to create a read-only alias.
-The Force parameter cannot set a constant alias.
+### $Xxxxx
+Xxxxxx xxx xxxxxx xx xxx x xxxx$xxxx xxxxx.
+Xxx xxx Xxxxxx xxxxxxxxx xx xxxxxx x xxxx$xxxx xxxxx.
+Xxx Xxxxx xxxxxxxxx xxxxxx xxx x xxxxxxxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -121,8 +121,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -137,8 +137,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -152,9 +152,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the new alias.
-You can use any alphanumeric characters in an alias, but the first character cannot be a number.
+### $Xxxx
+Xxxxxxxxx xxx xxx xxxxx.
+Xxx xxx xxx xxx xxxxxxxxxxxx xxxxxxxxxx xx xx xxxxx$ xxx xxx xxxxx xxxxxxxxx xxxxxx xx x xxxxxx.
 
 ```yaml
 Type: String
@@ -168,18 +168,17 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Option
-Sets the value of the Options property of the alias.
+### $Xxxxxx
+Xxxx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx xx xxx xxxxx.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- None: Sets no options. ("None" is the default.)
--- ReadOnly: Can be deleted. Cannot be not changed, except by using the Force parameter.
--- Constant: Cannot be deleted or changed.
--- Private: The alias is available only in the current scope.
--- AllScope: The alias is copied to any new scopes that are created.
+$$ Xxxx$ Xxxx xx xxxxxxx. $$Xxxx$ xx xxx xxxxxxx.$ $$ XxxxXxxx$ Xxx xx xxxxxxx. Xxxxxx xx xxx xxxxxxx$ xxxxxx xx xxxxx xxx Xxxxx xxxxxxxxx.
+$$ Xxxxxxxx$ Xxxxxx xx xxxxxxx xx xxxxxxx.
+$$ Xxxxxxx$ Xxx xxxxx xx xxxxxxxxx xxxx xx xxx xxxxxxx xxxxx.
+$$ XxxXxxxx$ Xxx xxxxx xx xxxxxx xx xxx xxx xxxxxx xxxx xxx xxxxxxx.
 
-To see the Options property of all aliases in the session, type "get-alias | format-table -property name, options -autosize".
+Xx xxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxxx xx xxx xxxxxxx$ xxxx $xxx$xxxxx $ xxxxxx$xxxxx $xxxxxxxx xxxx$ xxxxxxx $xxxxxxxx$.
 
 ```yaml
 Type: ScopedItemOptions
@@ -194,9 +193,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Returns an object representing the alias.
-By default, this cmdlet does not generate any output.
+### $XxxxXxxx
+Xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -210,11 +209,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Scope
-Specifies the scope in which this alias is valid.
-Valid values are "Global", "Local", or "Script", or a number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).
-"Local" is the default.
-For more information, see about_Scopes.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx xx xxxxx xxxx xxxxx xx xxxxx.
+Xxxxx xxxxxx xxx $Xxxxxx$$ $Xxxxx$$ xx $Xxxxxx$$ xx x xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxx $0 xxxxxxx xxx xxxxxx xx xxxxxx$ xxxxx 0 xx xxx xxxxxxx xxxxx xxx 0 xx xxx xxxxxx$.
+$Xxxxx$ xx xxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx.
 
 ```yaml
 Type: String
@@ -228,8 +227,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Value
-Specifies the name of the cmdlet or command element that is being aliased.
+### $Xxxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xx xxxxxxx xxxxxxx xxxx xx xxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -243,8 +242,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -258,10 +257,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -275,49 +274,49 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None or System.Management.Automation.AliasInfo
-When you use the PassThru parameter, Set-Alias generates a System.Management.Automation.AliasInfo object representing the alias.
-Otherwise, this cmdlet does not generate any output.
+### Xxxx xx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxXxxx
+Xxxx xxx xxx xxx XxxxXxxx xxxxxxxxx$ Xxx$Xxxxx xxxxxxxxx x Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxXxxx xxxxxx xxxxxxxxxxxx xxx xxxxx.
+Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
-An alias is an alternate name or nickname for a cmdlet or command element.
-To run the cmdlet, you can use its full name or any valid alias.
-For more information, see about_Aliases.
+## XXXXX
+Xx xxxxx xx xx xxxxxxxxx xxxx xx xxxxxxxx xxx x xxxxxx xx xxxxxxx xxxxxxx.
+Xx xxx xxx xxxxxx$ xxx xxx xxx xxx xxxx xxxx xx xxx xxxxx xxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx.
 
-To create a new alias, use Set-Alias or New-Alias.
-To delete an alias, use Remove-Item.
+Xx xxxxxx x xxx xxxxx$ xxx Xxx$Xxxxx xx Xxx$Xxxxx.
+Xx xxxxxx xx xxxxx$ xxx Xxxxxx$Xxxx.
 
-A cmdlet can have multiple aliases, but an alias can only be associated with one cmdlet at a time.
-If you use set-alias to associate the alias with a different cmdlet, it is no longer associated with the original cmdlet.
+X xxxxxx xxx xxxx xxxxxxxx xxxxxxx$ xxx xx xxxxx xxx xxxx xx xxxxxxxxxx xxxx xxx xxxxxx xx x xxxx.
+Xx xxx xxx xxx$xxxxx xx xxxxxxxxx xxx xxxxx xxxx x xxxxxxxxx xxxxxx$ xx xx xx xxxxxx xxxxxxxxxx xxxx xxx xxxxxxxx xxxxxx.
 
-You can create an alias for a cmdlet, but you cannot create an alias for a command with parameters and values.
-For example, you can create an alias for Set-Location, but you cannot create an alias for "Set-Location C:\Windows\System32".
-To create an alias for a command, create a function that includes the command, and then create an alias to the function.
+Xxx xxx xxxxxx xx xxxxx xxx x xxxxxx$ xxx xxx xxxxxx xxxxxx xx xxxxx xxx x xxxxxxx xxxx xxxxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx$ xxx xxx xxxxxx xx xxxxx xxx Xxx$Xxxxxxxx$ xxx xxx xxxxxx xxxxxx xx xxxxx xxx $Xxx$Xxxxxxxx X$$Xxxxxxx$Xxxxxx00$.
+Xx xxxxxx xx xxxxx xxx x xxxxxxx$ xxxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xxx xxxx xxxxxx xx xxxxx xx xxx xxxxxxxx.
 
-To save the aliases from a session and use them in a different session, add the set-alias command to your Windows PowerShell profile.
-Profiles do not exist by default.
-To create a profile in the path stored in the $profile variable, type "new-item -type file -force $profile".
-To see the value of the $profile variable, type "$profile".
+Xx xxxx xxx xxxxxxx xxxx x xxxxxxx xxx xxx xxxx xx x xxxxxxxxx xxxxxxx$ xxx xxx xxx$xxxxx xxxxxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xxxxxxxx xx xxx xxxxx xx xxxxxxx.
+Xx xxxxxx x xxxxxxx xx xxx xxxx xxxxxx xx xxx $xxxxxxx xxxxxxxx$ xxxx $xxx$xxxx $xxxx xxxx $xxxxx $xxxxxxx$.
+Xx xxx xxx xxxxx xx xxx $xxxxxxx xxxxxxxx$ xxxx $$xxxxxxx$.
 
-You can also save your aliases by using Export-Alias to copy the aliases from the session to a file, and then use Import-Alias to add them to the alias list for a new session.
+Xxx xxx xxxx xxxx xxxx xxxxxxx xx xxxxx Xxxxxx$Xxxxx xx xxxx xxx xxxxxxx xxxx xxx xxxxxxx xx x xxxx$ xxx xxxx xxx Xxxxxx$Xxxxx xx xxx xxxx xx xxx xxxxx xxxx xxx x xxx xxxxxxx.
 
-You can also refer to Set-Alias by its built-in alias, "sal".
-For more information, see about_Aliases.
+Xxx xxx xxxx xxxxx xx Xxx$Xxxxx xx xxx xxxxx$xx xxxxx$ $xxx$.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Export-Alias]()
+[Xxxxxx$Xxxxx]()
 
-[Get-Alias]()
+[Xxx$Xxxxx]()
 
-[Import-Alias]()
+[Xxxxxx$Xxxxx]()
 
-[New-Alias]()
+[Xxx$Xxxxx]()
 

@@ -6,57 +6,42 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageFileCopyState
-## SYNOPSIS
-Gets the state of a copy operation.
+# Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx
+## XXXXXXXX
+Xxxx xxx xxxxx xx x xxxx xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageFileCopyState [-ShareName] <String> [-FilePath] <String>
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
  [-Context <AzureStorageContext>] [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-WaitForComplete]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageFileCopyState [-File] <CloudFile> [-ClientTimeoutPerRequest <Nullable [System.Int32]>]
  [-ConcurrentTaskCount <Nullable [System.Int32]>] [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
  [-WaitForComplete]
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageFileCopyState** cmdlet gets the state of an azure_2 Storage file copy operation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx$$ xxxxxx xxxx xxx xxxxx xx xx xxxxx$0 Xxxxxxx xxxx xxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get the copy state by file name
+### Xxxxxxx 0$ Xxx xxx xxxx xxxxx xx xxxx xxxx
 ```
 PS C:\>Get-AzureStorageFileCopyState -ShareName "ContosoShare" -FilePath "ContosoFile"
 ```
 
-This command gets the state of the copy operation for a file that has the specified name.
+Xxxx xxxxxxx xxxx xxx xxxxx xx xxx xxxx xxxxxxxxx xxx x xxxx xxxx xxx xxx xxxxxxxxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-@{Text=}
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -70,8 +55,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-@{Text=}
+### $XxxxxxxxxxXxxxXxxxx
+$$Xxxx$$
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: AzureStorageContext
@@ -85,9 +85,9 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -File
-Specifies a **CloudFile** object.
-You can create a cloud file or obtain one by using the Get-AzureStorageFile cmdlet.
+### $Xxxx
+Xxxxxxxxx x $$XxxxxXxxx$$ xxxxxx.
+Xxx xxx xxxxxx x xxxxx xxxx xx xxxxxx xxx xx xxxxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
 ```yaml
 Type: CloudFile
@@ -101,8 +101,8 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -FilePath
-Specifies the path of the file relative to an azure_2 Storage share.
+### $XxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxxxxx xx xx xxxxx$0 Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -116,8 +116,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -131,8 +131,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ShareName
-Specifies the name of a share.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxx.
 
 ```yaml
 Type: String
@@ -146,8 +146,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WaitForComplete
-@{Text=}
+### $XxxxXxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -161,20 +161,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageFile](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
+[Xxx$XxxxxXxxxxxxXxxx](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Start-AzureStorageFileCopy](66445d9f-72a9-44e3-9f1b-72ec0888357a)
+[Xxxxx$XxxxxXxxxxxxXxxxXxxx](66445d9f-72a9-44e3-9f1b-72ec0888357a)
 
-[Stop-AzureStorageFileCopy](abc5a8cb-1151-4d5c-9230-d5c3a44f5a4c)
+[Xxxx$XxxxxXxxxxxxXxxxXxxx](abc5a8cb-1151-4d5c-9230-d5c3a44f5a4c)
 
 

@@ -4,35 +4,35 @@ online version:
 schema: 2.0.0
 ---
 
-# Wait-Debugger
-## SYNOPSIS
-Stops a script in the debugger before running the next statement in the script.
+# Xxxx$Xxxxxxxx
+## XXXXXXXX
+Xxxxx x xxxxxx xx xxx xxxxxxxx xxxxxx xxxxxxx xxx xxxx xxxxxxxxx xx xxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Wait-Debugger [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-This content is coming in a future release.
+## XXXXXXXXXXX
+Xxxx xxxxxxx xx xxxxxx xx x xxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 PS C:\>
 ```
 
-### 2:
+### 0$
 ```
 PS C:\>
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -47,8 +47,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -62,11 +62,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 

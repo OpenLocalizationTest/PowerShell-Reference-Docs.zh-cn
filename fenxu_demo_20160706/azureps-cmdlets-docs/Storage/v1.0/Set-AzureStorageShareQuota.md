@@ -6,57 +6,42 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureStorageShareQuota
-## SYNOPSIS
-Sets the storage capacity for a share.
+# Xxx$XxxxxXxxxxxxXxxxxXxxxx
+## XXXXXXXX
+Xxxx xxx xxxxxxx xxxxxxxx xxx x xxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureStorageShareQuota [-ShareName] <String> [-Quota] <Int32>
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
  [-Context <AzureStorageContext>] [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureStorageShareQuota [-Share] <CloudFileShare> [-Quota] <Int32>
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-## DESCRIPTION
-The **Set-AzureStorageShareQuota** cmdlet sets the storage capacity for a specified share.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxXxxxx$$ xxxxxx xxxx xxx xxxxxxx xxxxxxxx xxx x xxxxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Set the storage capacity of a share
+### Xxxxxxx 0$ Xxx xxx xxxxxxx xxxxxxxx xx x xxxxx
 ```
 PS C:\>Set-AzureStorageShareQuota -ShareName "ContosoShare01" -Quota 1024
 ```
 
-This command sets the storage capacity for a share named ContosoShare01 to 1024 GB.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxxx xxx x xxxxx xxxxx XxxxxxxXxxxx00 xx 0000 XX.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-@{Text=}
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -70,8 +55,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-@{Text=}
+### $XxxxxxxxxxXxxxXxxxx
+$$Xxxx$$
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: AzureStorageContext
@@ -85,8 +85,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Quota
-@{Text=}
+### $Xxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Int32
@@ -100,8 +100,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -115,9 +115,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Share
-Specifies a **CloudFileShare** object to represent the share for which this cmdlets sets a quota.
-To obtain a **CloudFileShare** object, use the Get-AzureStorageShare cmdlet.
+### $Xxxxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx xx xxxxxxxxx xxx xxxxx xxx xxxxx xxxx xxxxxxx xxxx x xxxxx.
+Xx xxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxx xxxxxx.
 
 ```yaml
 Type: CloudFileShare
@@ -131,8 +131,8 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -ShareName
-Specifies the name of the file share for which to set a quota.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx xxx xxxxx xx xxx x xxxxx.
 
 ```yaml
 Type: String
@@ -146,18 +146,18 @@ Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageFileContent](7e23b9f6-5f66-49a3-beb8-e2639c5234d7)
+[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](7e23b9f6-5f66-49a3-beb8-e2639c5234d7)
 
-[Get-AzureStorageShare](10a13c83-d545-4729-99f9-048c774f32d7)
+[Xxx$XxxxxXxxxxxxXxxxx](10a13c83-d545-4729-99f9-048c774f32d7)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
 

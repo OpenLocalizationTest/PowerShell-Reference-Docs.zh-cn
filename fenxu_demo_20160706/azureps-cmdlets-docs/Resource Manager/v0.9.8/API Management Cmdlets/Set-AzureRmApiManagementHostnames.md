@@ -6,18 +6,18 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureRmApiManagementHostnames
-## SYNOPSIS
-Sets a custom hostname configuration for an API Management service proxy or portal.
+# Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxx
+## XXXXXXXX
+Xxxx x xxxxxx xxxxxxxx xxxxxxxxxxxxx xxx xx XXX Xxxxxxxxxx xxxxxxx xxxxx xx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureRmApiManagementHostnames [-PassThru] -ApiManagement <PsApiManagement>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureRmApiManagementHostnames [-PassThru]
  [-PortalHostnameConfiguration <PsApiManagementHostnameConfiguration>]
@@ -25,19 +25,19 @@ Set-AzureRmApiManagementHostnames [-PassThru]
  -ResourceGroupName <String>
 ```
 
-## DESCRIPTION
-The **Set-AzureRmApiManagementHostnames** cmdlet applies a custom hostname configuration for an API Management service proxy or portal.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxx$$ xxxxxx xxxxxxx x xxxxxx xxxxxxxx xxxxxxxxxxxxx xxx xx XXX Xxxxxxxxxx xxxxxxx xxxxx xx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Set the custom hostname configuration for a proxy and portal
+### Xxxxxxx 0$ Xxx xxx xxxxxx xxxxxxxx xxxxxxxxxxxxx xxx x xxxxx xxx xxxxxx
 ```
 PS C:\>Set-AzureRmApiManagementHostnames -Name ContosoApi -ResourceGroupName Contoso -PortalHostnameConfiguration $portalHostnameConf -ProxyHostnameConfiguration $proxyHostnameConf
 ```
 
-This command sets the custom hostname configuration for proxy and portal.
+Xxxx xxxxxxx xxxx xxx xxxxxx xxxxxxxx xxxxxxxxxxxxx xxx xxxxx xxx xxxxxx.
 
-### Example 2: Configure a custom hostname for a proxy and portal
+### Xxxxxxx 0$ Xxxxxxxxx x xxxxxx xxxxxxxx xxx x xxxxx xxx xxxxxx
 ```
 PS C:\>Import-AzureRmApiManagementHostnameCertificate -Name ContosoApi -ResourceGroupName "Contoso" -HostnameType "Proxy" -PfxPath "C:\proxycert.pfx" -PfxPassword "CertSecret"
 PS C:\> Import-AzureRmApiManagementHostnameCertificate -Name "ContosoApi" -ResourceGroupName "Contoso" -HostnameType "Portal" -PfxPath "C:\portalcert.pfx" -PfxPassword "CertSecret"
@@ -46,13 +46,13 @@ PS C:\> $ProxyHostnameConf = New-AzureRmApiManagementHostnameConfiguration -Host
 PS C:\> Set-AzureRmApiManagementHostnames -Name "ContosoApi" -ResourceGroupName "Contoso" -PortalHostnameConfiguration $PortalHostnameConf -ProxyHostnameConfiguration $ProxyHostnameConf
 ```
 
-This example configures a custom hostname for proxy and portal.
-You need to import corresponding certificates and then apply the custom hostnames.
+Xxxx xxxxxxx xxxxxxxxxx x xxxxxx xxxxxxxx xxx xxxxx xxx xxxxxx.
+Xxx xxxx xx xxxxxx xxxxxxxxxxxxx xxxxxxxxxxxx xxx xxxx xxxxx xxx xxxxxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ApiManagement
-Specifies the **PsApiManagement** instance that this cmdlet gets the *PortalHostnameConfiguration* and *ProxyHostnameConfiguration* parameters from.
+### $XxxXxxxxxxxxx
+Xxxxxxxxx xxx $$XxXxxXxxxxxxxxx$$ xxxxxxxx xxxx xxxx xxxxxx xxxx xxx $XxxxxxXxxxxxxxXxxxxxxxxxxxx$ xxx $XxxxxXxxxxxxxXxxxxxxxxxxxx$ xxxxxxxxxx xxxx.
 
 ```yaml
 Type: PsApiManagement
@@ -66,8 +66,8 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the API Management instance.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx XXX Xxxxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -81,8 +81,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-passthru
+### $XxxxXxxx
+xxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -96,9 +96,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PortalHostnameConfiguration
-Specifies the custom portal hostname configuration.
-Passing $null to the cmdlet sets the default hostname.
+### $XxxxxxXxxxxxxxXxxxxxxxxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxx xxxxxxxx xxxxxxxxxxxxx.
+Xxxxxxx $xxxx xx xxx xxxxxx xxxx xxx xxxxxxx xxxxxxxx.
 
 ```yaml
 Type: PsApiManagementHostnameConfiguration
@@ -112,9 +112,9 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ProxyHostnameConfiguration
-Specifies the custom proxy hostname configuration.
-Passing $null sets the default hostname.
+### $XxxxxXxxxxxxxXxxxxxxxxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxx xxxxxxxx xxxxxxxxxxxxx.
+Xxxxxxx $xxxx xxxx xxx xxxxxxx xxxxxxxx.
 
 ```yaml
 Type: PsApiManagementHostnameConfiguration
@@ -128,8 +128,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group under which the API Management instance exists.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxxxx xxxxx xxx XXX Xxxxxxxxxx xxxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -143,16 +143,16 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Import-AzureRmApiManagementHostnameCertificate](2a7ef835-586c-4e86-a243-3cc0e9623d71)
+[Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxx](2a7ef835-586c-4e86-a243-3cc0e9623d71)
 
-[New-AzureRmApiManagementHostnameConfiguration](73f73a6f-470c-4dd6-95c4-a1302fabb0dd)
+[Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx](73f73a6f-470c-4dd6-95c4-a1302fabb0dd)
 
 

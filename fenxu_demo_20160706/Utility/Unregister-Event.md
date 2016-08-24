@@ -4,70 +4,70 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294022
 schema: 2.0.0
 ---
 
-# Unregister-Event
-## SYNOPSIS
-Cancels an event subscription.
+# Xxxxxxxxxx$Xxxxx
+## XXXXXXXX
+Xxxxxxx xx xxxxx xxxxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### BySource (Default)
+### XxXxxxxx $Xxxxxxx$
 ```
 Unregister-Event [-SourceIdentifier] <String> [-Force] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### ById
+### XxXx
 ```
 Unregister-Event [-SubscriptionId] <Int32> [-Force] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Unregister-Event cmdlet cancels an event subscription that was created by using the Register-EngineEvent, Register-ObjectEvent, or Register-WmiEvent cmdlet.
+## XXXXXXXXXXX
+Xxx Xxxxxxxxxx$Xxxxx xxxxxx xxxxxxx xx xxxxx xxxxxxxxxxxx xxxx xxx xxxxxxx xx xxxxx xxx Xxxxxxxx$XxxxxxXxxxx$ Xxxxxxxx$XxxxxxXxxxx$ xx Xxxxxxxx$XxxXxxxx xxxxxx.
 
-When an event subscription is canceled, the event subscriber is deleted from the session and the subscribed events are no longer added to the event queue.
-When you cancel a subscription to an event created by using the New-Event cmdlet, the new event is also deleted from the session.
+Xxxx xx xxxxx xxxxxxxxxxxx xx xxxxxxxx$ xxx xxxxx xxxxxxxxxx xx xxxxxxx xxxx xxx xxxxxxx xxx xxx xxxxxxxxxx xxxxxx xxx xx xxxxxx xxxxx xx xxx xxxxx xxxxx.
+Xxxx xxx xxxxxx x xxxxxxxxxxxx xx xx xxxxx xxxxxxx xx xxxxx xxx Xxx$Xxxxx xxxxxx$ xxx xxx xxxxx xx xxxx xxxxxxx xxxx xxx xxxxxxx.
 
-Unregister-Event does not delete events from the event queue.
-To delete events, use the Remove-Event cmdlet.
+Xxxxxxxxxx$Xxxxx xxxx xxx xxxxxx xxxxxx xxxx xxx xxxxx xxxxx.
+Xx xxxxxx xxxxxx$ xxx xxx Xxxxxx$Xxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>unregister-event -sourceIdentifier ProcessStarted
 ```
 
-This command cancels the event subscription that has a source identifier of "ProcessStarted".
+Xxxx xxxxxxx xxxxxxx xxx xxxxx xxxxxxxxxxxx xxxx xxx x xxxxxx xxxxxxxxxx xx $XxxxxxxXxxxxxx$.
 
-To find the source identifier of an event, use the Get-Event cmdlet.
-To find the source identifier of an event subscription, use the Get-EventSubscriber cmdlet.
+Xx xxxx xxx xxxxxx xxxxxxxxxx xx xx xxxxx$ xxx xxx Xxx$Xxxxx xxxxxx.
+Xx xxxx xxx xxxxxx xxxxxxxxxx xx xx xxxxx xxxxxxxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxxxx xxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>unregister-event -subscriptionId 2
 ```
 
-This command cancels the event subscription that has a subscription identifier of 2.
+Xxxx xxxxxxx xxxxxxx xxx xxxxx xxxxxxxxxxxx xxxx xxx x xxxxxxxxxxxx xxxxxxxxxx xx 0.
 
-To find the subscription identifier of an event subscription, use the Get-EventSubscriber cmdlet.
+Xx xxxx xxx xxxxxxxxxxxx xxxxxxxxxx xx xx xxxxx xxxxxxxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxxxx xxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-eventsubscriber -force | unregister-event -force
 ```
 
-This command cancels all event subscriptions in the session.
+Xxxx xxxxxxx xxxxxxx xxx xxxxx xxxxxxxxxxxxx xx xxx xxxxxxx.
 
-The command uses the Get-EventSubscriber cmdlet to get all event subscriber objects in the session, including the subscribers that are hidden by using the SupportEvent parameter of the event registration cmdlets.
+Xxx xxxxxxx xxxx xxx Xxx$XxxxxXxxxxxxxxx xxxxxx xx xxx xxx xxxxx xxxxxxxxxx xxxxxxx xx xxx xxxxxxx$ xxxxxxxxx xxx xxxxxxxxxxx xxxx xxx xxxxxx xx xxxxx xxx XxxxxxxXxxxx xxxxxxxxx xx xxx xxxxx xxxxxxxxxxxx xxxxxxx.
 
-It uses a pipeline operator (|) to send the subscriber objects to Unregister-Event, which deletes them from the session.
-To complete the task, the Force parameter is also required on Unregister-Event.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxxxxx xxxxxxx xx Xxxxxxxxxx$Xxxxx$ xxxxx xxxxxxx xxxx xxxx xxx xxxxxxx.
+Xx xxxxxxxx xxx xxxx$ xxx Xxxxx xxxxxxxxx xx xxxx xxxxxxxx xx Xxxxxxxxxx$Xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Force
-Cancels all event subscriptions, including subscriptions that were hidden by using the SupportEvent parameter of Register-ObjectEvent, Register-WmiEvent, and Register-EngineEvent.
+### $Xxxxx
+Xxxxxxx xxx xxxxx xxxxxxxxxxxxx$ xxxxxxxxx xxxxxxxxxxxxx xxxx xxxx xxxxxx xx xxxxx xxx XxxxxxxXxxxx xxxxxxxxx xx Xxxxxxxx$XxxxxxXxxxx$ Xxxxxxxx$XxxXxxxx$ xxx Xxxxxxxx$XxxxxxXxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -81,8 +81,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -97,8 +97,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -112,10 +112,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SourceIdentifier
-Cancels event subscriptions that have the specified source identifier.
+### $XxxxxxXxxxxxxxxx
+Xxxxxxx xxxxx xxxxxxxxxxxxx xxxx xxxx xxx xxxxxxxxx xxxxxx xxxxxxxxxx.
 
-A SourceIdentifier or SubscriptionId parameter must be included in every command.
+X XxxxxxXxxxxxxxxx xx XxxxxxxxxxxxXx xxxxxxxxx xxxx xx xxxxxxxx xx xxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -129,10 +129,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -SubscriptionId
-Cancels event subscriptions that have the specified subscription identifier.
+### $XxxxxxxxxxxxXx
+Xxxxxxx xxxxx xxxxxxxxxxxxx xxxx xxxx xxx xxxxxxxxx xxxxxxxxxxxx xxxxxxxxxx.
 
-A SourceIdentifier or SubscriptionId parameter must be included in every command.
+X XxxxxxXxxxxxxxxx xx XxxxxxxxxxxxXx xxxxxxxxx xxxx xx xxxxxxxx xx xxxxx xxxxxxx.
 
 ```yaml
 Type: Int32
@@ -146,8 +146,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -161,10 +161,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -178,40 +178,40 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSEventSubscriber
-You can pipe the output from Get-EventSubscriber to Unregister-Event.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxxxxxxxx
+Xxx xxx xxxx xxx xxxxxx xxxx Xxx$XxxxxXxxxxxxxxx xx Xxxxxxxxxx$Xxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-This cmdlet does not return any output.
+### Xxxx
+Xxxx xxxxxx xxxx xxx xxxxxx xxx xxxxxx.
 
-## NOTES
-Events, event subscriptions, and the event queue exist only in the current session.
-If you close the current session, the event queue is discarded and the event subscription is canceled.
+## XXXXX
+Xxxxxx$ xxxxx xxxxxxxxxxxxx$ xxx xxx xxxxx xxxxx xxxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxx xxx xxxxxxx xxxxxxx$ xxx xxxxx xxxxx xx xxxxxxxxx xxx xxx xxxxx xxxxxxxxxxxx xx xxxxxxxx.
 
-Unregister-Event cannot delete events created by using the New-Event cmdlet unless you have subscribed to the event by using the Register-EngineEvent cmdlet.
-To delete a custom event from the session, you must remove it programmatically or close the session.
+Xxxxxxxxxx$Xxxxx xxxxxx xxxxxx xxxxxx xxxxxxx xx xxxxx xxx Xxx$Xxxxx xxxxxx xxxxxx xxx xxxx xxxxxxxxxx xx xxx xxxxx xx xxxxx xxx Xxxxxxxx$XxxxxxXxxxx xxxxxx.
+Xx xxxxxx x xxxxxx xxxxx xxxx xxx xxxxxxx$ xxx xxxx xxxxxx xx xxxxxxxxxxxxxxxx xx xxxxx xxx xxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-Event]()
+[Xxx$Xxxxx]()
 
-[Get-EventSubscriber]()
+[Xxx$XxxxxXxxxxxxxxx]()
 
-[New-Event]()
+[Xxx$Xxxxx]()
 
-[Register-EngineEvent]()
+[Xxxxxxxx$XxxxxxXxxxx]()
 
-[Register-ObjectEvent]()
+[Xxxxxxxx$XxxxxxXxxxx]()
 
-[Register-WmiEvent]()
+[Xxxxxxxx$XxxXxxxx]()
 
-[Remove-Event]()
+[Xxxxxx$Xxxxx]()
 
-[Unregister-Event]()
+[Xxxxxxxxxx$Xxxxx]()
 
-[Wait-Event]()
+[Xxxx$Xxxxx]()
 

@@ -6,42 +6,42 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureRmApiManagementRegion
-## SYNOPSIS
-Removes an existing deployment region from PsApiManagement instance.
+# Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxx
+## XXXXXXXX
+Xxxxxxx xx xxxxxxxx xxxxxxxxxx xxxxxx xxxx XxXxxXxxxxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureRmApiManagementRegion -ApiManagement <PsApiManagement> -Location <String>
 ```
 
-## DESCRIPTION
-The **Remove-AzureRmApiManagementRegion** cmdlet removes instance of type **Microsoft.Azure.Commands.ApiManagement.Models.PsApiManagementRegion** from a collection of **AdditionalRegions** of provided the instance of type **Microsoft.Azure.Commands.ApiManagement.Models.PsApiManagement**.
-This cmdlet does not modify deployment by itself but updates the instance of **PsApiManagement** in-memory.
-To update a deployment of an API Management, pass the modified **PsApiManagementInstance** to **Update-AzureRmApiManagement**.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxx$$ xxxxxx xxxxxxx xxxxxxxx xx xxxx $$Xxxxxxxxx.Xxxxx.Xxxxxxxx.XxxXxxxxxxxxx.Xxxxxx.XxXxxXxxxxxxxxxXxxxxx$$ xxxx x xxxxxxxxxx xx $$XxxxxxxxxxXxxxxxx$$ xx xxxxxxxx xxx xxxxxxxx xx xxxx $$Xxxxxxxxx.Xxxxx.Xxxxxxxx.XxxXxxxxxxxxx.Xxxxxx.XxXxxXxxxxxxxxx$$.
+Xxxx xxxxxx xxxx xxx xxxxxx xxxxxxxxxx xx xxxxxx xxx xxxxxxx xxx xxxxxxxx xx $$XxXxxXxxxxxxxxx$$ xx$xxxxxx.
+Xx xxxxxx x xxxxxxxxxx xx xx XXX Xxxxxxxxxx$ xxxx xxx xxxxxxxx $$XxXxxXxxxxxxxxxXxxxxxxx$$ xx $$Xxxxxx$XxxxxXxXxxXxxxxxxxxx$$.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a region from a PsApiManagement instance
+### Xxxxxxx 0$ Xxxxxx x xxxxxx xxxx x XxXxxXxxxxxxxxx xxxxxxxx
 ```
 PS C:\>Remove-AzureRmApiManagementRegion -ApiManagement $ApiManagement -Location "East US"
 ```
 
-This command removes the region named East US from the **PsApiManagement** instance.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxx xxxxx Xxxx XX xxxx xxx $$XxXxxXxxxxxxxxx$$ xxxxxxxx.
 
-### Example 2: Remove a region from a PsApiManagement instance using a series of commands
+### Xxxxxxx 0$ Xxxxxx x xxxxxx xxxx x XxXxxXxxxxxxxxx xxxxxxxx xxxxx x xxxxxx xx xxxxxxxx
 ```
 PS C:\>Get-AzureRmApiManagement -ResourceGroupName "Contoso" -Name ContosoApi | Remove-AzureRmApiManagementRegion -Location "East US" | Update-AzureRmApiManagementDeployment
 ```
 
-This first command gets an instance of **PsApiManagement** from the resource group named Contoso named ContosoApi.
-The final command then removes the region named East US from that instance then updates the deployment.
+Xxxx xxxxx xxxxxxx xxxx xx xxxxxxxx xx $$XxXxxXxxxxxxxxx$$ xxxx xxx xxxxxxxx xxxxx xxxxx Xxxxxxx xxxxx XxxxxxxXxx.
+Xxx xxxxx xxxxxxx xxxx xxxxxxx xxx xxxxxx xxxxx Xxxx XX xxxx xxxx xxxxxxxx xxxx xxxxxxx xxx xxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ApiManagement
-Specifies the **PsApiManagement** instance that this cmdlet removes the additional deployment region from.
+### $XxxXxxxxxxxxx
+Xxxxxxxxx xxx $$XxXxxXxxxxxxxxx$$ xxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxxxxxxxxx xxxxxxxxxx xxxxxx xxxx.
 
 ```yaml
 Type: PsApiManagement
@@ -55,26 +55,12 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -Location
-Specifies the location of the region that this cmdlet removes.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xx xxx xxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
-Valid values are: 
+Xxxxx xxxxxx xxx$ 
 
--- North Central US
--- South Central US
--- Central US
--- West Europe
--- North Europe
--- West US
--- East US
--- East US 2
--- Japan East
--- Japan West
--- Brazil South
--- Southeast Asia
--- East Asia
--- Australia East
--- Australia Southeast
+$$ Xxxxx Xxxxxxx XX $$ Xxxxx Xxxxxxx XX $$ Xxxxxxx XX $$ Xxxx Xxxxxx $$ Xxxxx Xxxxxx $$ Xxxx XX $$ Xxxx XX $$ Xxxx XX 0 $$ Xxxxx Xxxx $$ Xxxxx Xxxx $$ Xxxxxx Xxxxx $$ Xxxxxxxxx Xxxx $$ Xxxx Xxxx $$ Xxxxxxxxx Xxxx $$ Xxxxxxxxx Xxxxxxxxx
 
 ```yaml
 Type: String
@@ -88,16 +74,16 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Add-AzureRmApiManagementRegion](a6e4fc8a-f5c6-4f8e-8ed9-5ee80150b119)
+[Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxx](a6e4fc8a-f5c6-4f8e-8ed9-5ee80150b119)
 
-[Update-AzureRmApiManagementRegion](bf37a79f-38a4-433e-b847-beb564ad781c)
+[Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxx](bf37a79f-38a4-433e-b847-beb564ad781c)
 
 

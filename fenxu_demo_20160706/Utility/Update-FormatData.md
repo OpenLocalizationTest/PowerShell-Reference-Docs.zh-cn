@@ -4,54 +4,54 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294023
 schema: 2.0.0
 ---
 
-# Update-FormatData
-## SYNOPSIS
-Updates the formatting data in the current session.
+# Xxxxxx$XxxxxxXxxx
+## XXXXXXXX
+Xxxxxxx xxx xxxxxxxxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Update-FormatData [[-AppendPath] <String[]>] [-PrependPath <String[]>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Update-FormatData cmdlet reloads the formatting data from formatting files into the current session.
-This cmdlet lets you update the formatting data without restarting Windows PowerShell.
+## XXXXXXXXXXX
+Xxx Xxxxxx$XxxxxxXxxx xxxxxx xxxxxxx xxx xxxxxxxxxx xxxx xxxx xxxxxxxxxx xxxxx xxxx xxx xxxxxxx xxxxxxx.
+Xxxx xxxxxx xxxx xxx xxxxxx xxx xxxxxxxxxx xxxx xxxxxxx xxxxxxxxxx Xxxxxxx XxxxxXxxxx.
 
-Without parameters, Update-FormatData reloads the formatting files that it loaded previously.
-You can use the parameters of Update-FormatData to add new formatting files to the session.
+Xxxxxxx xxxxxxxxxx$ Xxxxxx$XxxxxxXxxx xxxxxxx xxx xxxxxxxxxx xxxxx xxxx xx xxxxxx xxxxxxxxxx.
+Xxx xxx xxx xxx xxxxxxxxxx xx Xxxxxx$XxxxxxXxxx xx xxx xxx xxxxxxxxxx xxxxx xx xxx xxxxxxx.
 
-Formatting files are text files in XML format with the format.ps1xml file name extension.
-The formatting data in the files defines the display of Microsoft .NET Framework objects in the session.
+Xxxxxxxxxx xxxxx xxx xxxx xxxxx xx XXX xxxxxx xxxx xxx xxxxxx.xx0xxx xxxx xxxx xxxxxxxxx.
+Xxx xxxxxxxxxx xxxx xx xxx xxxxx xxxxxxx xxx xxxxxxx xx Xxxxxxxxx .XXX Xxxxxxxxx xxxxxxx xx xxx xxxxxxx.
 
-When Windows PowerShell starts, it loads the format data from the formatting files in the Windows PowerShell installation directory ($pshome) into the session.
-You can use Update-FormatData to reload the formatting data into the current session without restarting Windows PowerShell.
-This is useful when you have added or changed a formatting file, but do not want to interrupt the session.
+Xxxx Xxxxxxx XxxxxXxxxx xxxxxx$ xx xxxxx xxx xxxxxx xxxx xxxx xxx xxxxxxxxxx xxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxxxxx xxxxxxxxx $$xxxxxx$ xxxx xxx xxxxxxx.
+Xxx xxx xxx Xxxxxx$XxxxxxXxxx xx xxxxxx xxx xxxxxxxxxx xxxx xxxx xxx xxxxxxx xxxxxxx xxxxxxx xxxxxxxxxx Xxxxxxx XxxxxXxxxx.
+Xxxx xx xxxxxx xxxx xxx xxxx xxxxx xx xxxxxxx x xxxxxxxxxx xxxx$ xxx xx xxx xxxx xx xxxxxxxxx xxx xxxxxxx.
 
-For more information about formatting files in Windows PowerShell, see about_Format.ps1xml.
+Xxx xxxx xxxxxxxxxxx xxxxx xxxxxxxxxx xxxxx xx Xxxxxxx XxxxxXxxxx$ xxx xxxxx$Xxxxxx.xx0xxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>update-formatdata
 ```
 
-This command reloads the formatting files that it loaded previously.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxxx xxxxx xxxx xx xxxxxx xxxxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>update-formatdata -appendpath trace.format.ps1xml, log.format.ps1xml
 ```
 
-This command reloads the formatting files into the session, including two new files, Trace.format.ps1xml and Log.format.ps1xml.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxxx xxxxx xxxx xxx xxxxxxx$ xxxxxxxxx xxx xxx xxxxx$ Xxxxx.xxxxxx.xx0xxx xxx Xxx.xxxxxx.xx0xxx.
 
-Because the command uses the AppendPath parameter, the formatting data in the new files is loaded after the formatting data from the built-in files.
+Xxxxxxx xxx xxxxxxx xxxx xxx XxxxxxXxxx xxxxxxxxx$ xxx xxxxxxxxxx xxxx xx xxx xxx xxxxx xx xxxxxx xxxxx xxx xxxxxxxxxx xxxx xxxx xxx xxxxx$xx xxxxx.
 
-The AppendPath parameter is used because the new files contain formatting data for objects that are not referenced in the built-in files.
+Xxx XxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xxx xxx xxxxx xxxxxxx xxxxxxxxxx xxxx xxx xxxxxxx xxxx xxx xxx xxxxxxxxxx xx xxx xxxxx$xx xxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>update-formatdata -prependPath c:\test\NewFiles.format.ps1xml
 
@@ -60,26 +60,26 @@ PS C:\>update-formatdata -prependPath c:\test\NewFiles.format.ps1xml
 PS C:\>update-formatdata
 ```
 
-This example shows how to reload a formatting file after you have edited it.
+Xxxx xxxxxxx xxxxx xxx xx xxxxxx x xxxxxxxxxx xxxx xxxxx xxx xxxx xxxxxx xx.
 
-The first command adds the NewFiles.format.ps1xml file to the session.
-It uses the PrependPath parameter because the file contains formatting data for objects that are referenced in the built-in files.
+Xxx xxxxx xxxxxxx xxxx xxx XxxXxxxx.xxxxxx.xx0xxx xxxx xx xxx xxxxxxx.
+Xx xxxx xxx XxxxxxxXxxx xxxxxxxxx xxxxxxx xxx xxxx xxxxxxxx xxxxxxxxxx xxxx xxx xxxxxxx xxxx xxx xxxxxxxxxx xx xxx xxxxx$xx xxxxx.
 
-After adding the NewFiles.format.ps1xml file and testing it in these session, the author edits the file.
+Xxxxx xxxxxx xxx XxxXxxxx.xxxxxx.xx0xxx xxxx xxx xxxxxxx xx xx xxxxx xxxxxxx$ xxx xxxxxx xxxxx xxx xxxx.
 
-The second command uses the Update-FormatData cmdlet to reload the formatting files.
-Because the NewFiles.format.ps1xml file was previously loaded, Update-FormatData automatically reloads it without using parameters.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxx$XxxxxxXxxx xxxxxx xx xxxxxx xxx xxxxxxxxxx xxxxx.
+Xxxxxxx xxx XxxXxxxx.xxxxxx.xx0xxx xxxx xxx xxxxxxxxxx xxxxxx$ Xxxxxx$XxxxxxXxxx xxxxxxxxxxxxx xxxxxxx xx xxxxxxx xxxxx xxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AppendPath
-Adds the specified formatting files to the session.
-The files are loaded after Windows PowerShell loads the built-in formatting files.
+### $XxxxxxXxxx
+Xxxx xxx xxxxxxxxx xxxxxxxxxx xxxxx xx xxx xxxxxxx.
+Xxx xxxxx xxx xxxxxx xxxxx Xxxxxxx XxxxxXxxxx xxxxx xxx xxxxx$xx xxxxxxxxxx xxxxx.
 
-When formatting .NET objects, Windows PowerShell uses the first formatting definition that it finds for each .NET type.
-If you use the AppendPath parameter, Windows PowerShell searches the data from the built-in files before it encounters the formatting data that you are adding.
+Xxxx xxxxxxxxxx .XXX xxxxxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxx xxxxxxxxxx xxxxxxxxxx xxxx xx xxxxx xxx xxxx .XXX xxxx.
+Xx xxx xxx xxx XxxxxxXxxx xxxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxxxxx xxx xxxx xxxx xxx xxxxx$xx xxxxx xxxxxx xx xxxxxxxxxx xxx xxxxxxxxxx xxxx xxxx xxx xxx xxxxxx.
 
-Use this parameter to add a file that formats a .NET object that is not referenced in the built-in formatting files.
+Xxx xxxx xxxxxxxxx xx xxx x xxxx xxxx xxxxxxx x .XXX xxxxxx xxxx xx xxx xxxxxxxxxx xx xxx xxxxx$xx xxxxxxxxxx xxxxx.
 
 ```yaml
 Type: String[]
@@ -93,11 +93,11 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-When formatting .NET objects, Windows PowerShell uses the first formatting definition that it finds for each .NET type.
-If you use the AppendPath parameter, Windows PowerShell searches the data from the built-in files before it encounters the formatting data that you are adding.
+### $XxxxxxxxxxxXxxxxx
+Xxxx xxxxxxxxxx .XXX xxxxxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxx xxxxxxxxxx xxxxxxxxxx xxxx xx xxxxx xxx xxxx .XXX xxxx.
+Xx xxx xxx xxx XxxxxxXxxx xxxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxxxxx xxx xxxx xxxx xxx xxxxx$xx xxxxx xxxxxx xx xxxxxxxxxx xxx xxxxxxxxxx xxxx xxxx xxx xxx xxxxxx.
 
-Use this parameter to add a file that formats a .NET object that is not referenced in the built-in formatting files.
+Xxx xxxx xxxxxxxxx xx xxx x xxxx xxxx xxxxxxx x .XXX xxxxxx xxxx xx xxx xxxxxxxxxx xx xxx xxxxx$xx xxxxxxxxxx xxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -112,11 +112,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-When formatting .NET objects, Windows PowerShell uses the first formatting definition that it finds for each .NET type.
-If you use the AppendPath parameter, Windows PowerShell searches the data from the built-in files before it encounters the formatting data that you are adding.
+### $XxxxxxxxxxxXxxxxxxx
+Xxxx xxxxxxxxxx .XXX xxxxxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxx xxxxxxxxxx xxxxxxxxxx xxxx xx xxxxx xxx xxxx .XXX xxxx.
+Xx xxx xxx xxx XxxxxxXxxx xxxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxxxxx xxx xxxx xxxx xxx xxxxx$xx xxxxx xxxxxx xx xxxxxxxxxx xxx xxxxxxxxxx xxxx xxxx xxx xxx xxxxxx.
 
-Use this parameter to add a file that formats a .NET object that is not referenced in the built-in formatting files.
+Xxx xxxx xxxxxxxxx xx xxx x xxxx xxxx xxxxxxx x .XXX xxxxxx xxxx xx xxx xxxxxxxxxx xx xxx xxxxx$xx xxxxxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -130,14 +130,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PrependPath
-Adds the specified formatting files to the session.
-The files are loaded before Windows PowerShell loads the built-in formatting files.
+### $XxxxxxxXxxx
+Xxxx xxx xxxxxxxxx xxxxxxxxxx xxxxx xx xxx xxxxxxx.
+Xxx xxxxx xxx xxxxxx xxxxxx Xxxxxxx XxxxxXxxxx xxxxx xxx xxxxx$xx xxxxxxxxxx xxxxx.
 
-When formatting .NET objects, Windows PowerShell uses the first formatting definition that it finds for each .NET type.
-If you use the PrependPath parameter, Windows PowerShell searches the data from the files that you are adding before it encounters the formatting data from the built-in files.
+Xxxx xxxxxxxxxx .XXX xxxxxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxx xxxxxxxxxx xxxxxxxxxx xxxx xx xxxxx xxx xxxx .XXX xxxx.
+Xx xxx xxx xxx XxxxxxxXxxx xxxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxxxxx xxx xxxx xxxx xxx xxxxx xxxx xxx xxx xxxxxx xxxxxx xx xxxxxxxxxx xxx xxxxxxxxxx xxxx xxxx xxx xxxxx$xx xxxxx.
 
-Use this parameter to add a file that formats a .NET object that is also referenced in the built-in formatting files.
+Xxx xxxx xxxxxxxxx xx xxx x xxxx xxxx xxxxxxx x .XXX xxxxxx xxxx xx xxxx xxxxxxxxxx xx xxx xxxxx$xx xxxxxxxxxx xxxxx.
 
 ```yaml
 Type: String[]
@@ -151,8 +151,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -166,10 +166,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -183,20 +183,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
-You can pipe a string that contains the append path to Update-FormatData.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx xxx xxxxxx xxxx xx Xxxxxx$XxxxxxXxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-The cmdlet does not return any output.
+### Xxxx
+Xxx xxxxxx xxxx xxx xxxxxx xxx xxxxxx.
 
-## NOTES
-Update-FormatData also updates the formatting data for commands in the session that were imported from modules.
-If the formatting file for a module changes, you can run an Update-FormatData command to update the formatting data for imported commands.
-You do not need to import the module again.
+## XXXXX
+Xxxxxx$XxxxxxXxxx xxxx xxxxxxx xxx xxxxxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxxxx xxxx xxxx xxxxxxxx xxxx xxxxxxx.
+Xx xxx xxxxxxxxxx xxxx xxx x xxxxxx xxxxxxx$ xxx xxx xxx xx Xxxxxx$XxxxxxXxxx xxxxxxx xx xxxxxx xxx xxxxxxxxxx xxxx xxx xxxxxxxx xxxxxxxx.
+Xxx xx xxx xxxx xx xxxxxx xxx xxxxxx xxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 

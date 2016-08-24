@@ -6,34 +6,34 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureStorageQueueStoredAccessPolicy
-## SYNOPSIS
-Sets a stored access policy for an azure_2 storage queue.
+# Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx
+## XXXXXXXX
+Xxxx x xxxxxx xxxxxx xxxxxx xxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureStorageQueueStoredAccessPolicy [-Queue] <String> [-Policy] <String> [-Context <AzureStorageContext>]
  [-ExpiryTime <DateTime]>] [-NoExpiryTime] [-NoStartTime] [-Permission <String>] [-StartTime <DateTime]>]
 ```
 
-## DESCRIPTION
-The **Set-AzureStorageQueueStoredAccessPolicy** cmdlet sets a stored access policy for an azure_2 storage queue.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx$$ xxxxxx xxxx x xxxxxx xxxxxx xxxxxx xxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Set a stored access policy in the queue
+### Xxxxxxx 0$ Xxx x xxxxxx xxxxxx xxxxxx xx xxx xxxxx
 ```
 PS C:\> Set-AzureStorageQueueStoredAccessPolicy -Queue "MyQueue" -Policy "Policy07"
 ```
 
-This command sets an access policy named Policy07 for storage queue named MyQueue.
+Xxxx xxxxxxx xxxx xx xxxxxx xxxxxx xxxxx Xxxxxx00 xxx xxxxxxx xxxxx xxxxx XxXxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -47,8 +47,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-Specifies the time at which the stored access policy becomes invalid.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: DateTime]
@@ -62,8 +62,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NoExpiryTime
-Indicates that the access policy has no expiration date.
+### $XxXxxxxxXxxx
+Xxxxxxxxx xxxx xxx xxxxxx xxxxxx xxx xx xxxxxxxxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -77,8 +77,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NoStartTime
-Indicates that this cmdlet sets the start time to be $Null.
+### $XxXxxxxXxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxx xxxx xx xx $Xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -92,8 +92,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Permission
-Specifies the level of public access to this storage queue.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxx xx xxxxxx xxxxxx xx xxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -107,8 +107,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-Specifies a stored access policy, which includes the permissions for this SAS token.
+### $Xxxxxx
+Xxxxxxxxx x xxxxxx xxxxxx xxxxxx$ xxxxx xxxxxxxx xxx xxxxxxxxxxx xxx xxxx XXX xxxxx.
 
 ```yaml
 Type: String
@@ -122,8 +122,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Queue
-Specifies the azure_2 storage queue name.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxx xxxx.
 
 ```yaml
 Type: String
@@ -137,8 +137,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies the time at which the stored access policy becomes valid.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: DateTime]
@@ -152,18 +152,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageQueueStoredAccessPolicy](f5420030-d139-44d7-847b-86ae910b98cd)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](f5420030-d139-44d7-847b-86ae910b98cd)
 
-[New-AzureStorageQueueStoredAccessPolicy](64a4e0c7-905e-406b-afb7-1723afcee9e8)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](64a4e0c7-905e-406b-afb7-1723afcee9e8)
 
-[Remove-AzureStorageQueueStoredAccessPolicy](8d80d1be-2e66-4372-9d51-2afff62d011d)
+[Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](8d80d1be-2e66-4372-9d51-2afff62d011d)
 
 

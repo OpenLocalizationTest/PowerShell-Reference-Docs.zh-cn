@@ -6,74 +6,59 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageShare
-## SYNOPSIS
-Gets a list of file shares.
+# Xxx$XxxxxXxxxxxxXxxxx
+## XXXXXXXX
+Xxxx x xxxx xx xxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageShare [[-Prefix] <String>] [-ClientTimeoutPerRequest <Nullable [System.Int32]>]
  [-ConcurrentTaskCount <Nullable [System.Int32]>] [-Context <AzureStorageContext>]
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageShare [-Name] <String> [-ClientTimeoutPerRequest <Nullable [System.Int32]>]
  [-ConcurrentTaskCount <Nullable [System.Int32]>] [-Context <AzureStorageContext>]
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageShare** cmdlet gets a list of file shares for a storage account.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxx$$ xxxxxx xxxx x xxxx xx xxxx xxxxxx xxx x xxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get a file share
+### Xxxxxxx 0$ Xxx x xxxx xxxxx
 ```
 PS C:\>Get-AzureStorageShare -Name "ContosoShare06"
 ```
 
-This command gets the file share named ContosoShare06.
+Xxxx xxxxxxx xxxx xxx xxxx xxxxx xxxxx XxxxxxxXxxxx00.
 
-### Example 2: Get all file shares that begin with a string
+### Xxxxxxx 0$ Xxx xxx xxxx xxxxxx xxxx xxxxx xxxx x xxxxxx
 ```
 PS C:\>Get-AzureStorageShare -Prefix "Contoso"
 ```
 
-This command gets all file shares that have names that begin with Contoso.
+Xxxx xxxxxxx xxxx xxx xxxx xxxxxx xxxx xxxx xxxxx xxxx xxxxx xxxx Xxxxxxx.
 
-### Example 3: Get all file shares in a specified context
+### Xxxxxxx 0$ Xxx xxx xxxx xxxxxx xx x xxxxxxxxx xxxxxxx
 ```
 PS C:\>$Context = New-AzureStorageContext -Local
 PS C:\> Get-AzureStorageShare -Context $Context
 ```
 
-The first command uses the **New-AzureStorageContext** cmdlet to create a context by using the *Local* parameter, and then stores that context object in the $Context variable.
+Xxx xxxxx xxxxxxx xxxx xxx $$Xxx$XxxxxXxxxxxxXxxxxxx$$ xxxxxx xx xxxxxx x xxxxxxx xx xxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxx xxxxxx xxxx xxxxxxx xxxxxx xx xxx $Xxxxxxx xxxxxxxx.
 
-The second command gets the file shares for the context object stored in $Context.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxx xxxxxx xxx xxx xxxxxxx xxxxxx xxxxxx xx $Xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-@{Text=}
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -87,8 +72,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-@{Text=}
+### $XxxxxxxxxxXxxxXxxxx
+$$Xxxx$$
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: AzureStorageContext
@@ -102,9 +102,9 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the file share.
-This cmdlet gets the file share that this parameter specifies, or nothing if you specify the name of a file share that does not exist.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxx xxxx xxx xxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx$ xx xxxxxxx xx xxx xxxxxxx xxx xxxx xx x xxxx xxxxx xxxx xxxx xxx xxxxx.
 
 ```yaml
 Type: String
@@ -118,9 +118,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Prefix
-Specifies the prefix for file shares.
-This cmdlet gets file shares that match the prefix that this parameter specifies, or no file shares if no file shares match the specified prefix.
+### $Xxxxxx
+Xxxxxxxxx xxx xxxxxx xxx xxxx xxxxxx.
+Xxxx xxxxxx xxxx xxxx xxxxxx xxxx xxxxx xxx xxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx$ xx xx xxxx xxxxxx xx xx xxxx xxxxxx xxxxx xxx xxxxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -134,8 +134,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -149,16 +149,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureStorageShare](17c0253c-c7b6-4c78-92ce-77277e156396)
+[Xxx$XxxxxXxxxxxxXxxxx](17c0253c-c7b6-4c78-92ce-77277e156396)
 
-[Remove-AzureStorageShare](f9a0f4e1-3677-4786-bd84-d3645c61baca)
+[Xxxxxx$XxxxxXxxxxxxXxxxx](f9a0f4e1-3677-4786-bd84-d3645c61baca)
 
 

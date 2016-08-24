@@ -4,60 +4,60 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293956
 schema: 2.0.0
 ---
 
-# Export-Clixml
-## SYNOPSIS
-Creates an XML-based representation of an object or objects and stores it in a file.
+# Xxxxxx$Xxxxxx
+## XXXXXXXX
+Xxxxxxx xx XXX$xxxxx xxxxxxxxxxxxxx xx xx xxxxxx xx xxxxxxx xxx xxxxxx xx xx x xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### ByPath (Default)
+### XxXxxx $Xxxxxxx$
 ```
 Export-Clixml [-Depth <Int32>] [-Path] <String> -InputObject <PSObject> [-Force] [-NoClobber]
  [-Encoding <String>] [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf]
  [-Confirm]
 ```
 
-### ByLiteralPath
+### XxXxxxxxxXxxx
 ```
 Export-Clixml [-Depth <Int32>] -LiteralPath <String> -InputObject <PSObject> [-Force] [-NoClobber]
  [-Encoding <String>] [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf]
  [-Confirm]
 ```
 
-## DESCRIPTION
-The Export-CliXml cmdlet creates an XML-based representation of an object or objects and stores it in a file.
-You can then use the Import-CliXml cmdlet to re-create the saved object based on the contents of that file.
+## XXXXXXXXXXX
+Xxx Xxxxxx$XxxXxx xxxxxx xxxxxxx xx XXX$xxxxx xxxxxxxxxxxxxx xx xx xxxxxx xx xxxxxxx xxx xxxxxx xx xx x xxxx.
+Xxx xxx xxxx xxx xxx Xxxxxx$XxxXxx xxxxxx xx xx$xxxxxx xxx xxxxx xxxxxx xxxxx xx xxx xxxxxxxx xx xxxx xxxx.
 
-This cmdlet is similar to ConvertTo-XML, except that Export-CliXml stores the resulting XML in a file.
-ConvertTo-XML returns the XML, so you can continue to process it in Windows PowerShell.
+Xxxx xxxxxx xx xxxxxxx xx XxxxxxxXx$XXX$ xxxxxx xxxx Xxxxxx$XxxXxx xxxxxx xxx xxxxxxxxx XXX xx x xxxx.
+XxxxxxxXx$XXX xxxxxxx xxx XXX$ xx xxx xxx xxxxxxxx xx xxxxxxx xx xx Xxxxxxx XxxxxXxxxx.
 
-A valuable use of Export-CliXml is to export credentials and secure strings securely as XML.
-For an example of how to do this, see Example 3 in this topic.
+X xxxxxxxx xxx xx Xxxxxx$XxxXxx xx xx xxxxxx xxxxxxxxxxx xxx xxxxxx xxxxxxx xxxxxxxx xx XXX.
+Xxx xx xxxxxxx xx xxx xx xx xxxx$ xxx Xxxxxxx 0 xx xxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>"This is a test" | export-clixml sample.xml
 ```
 
-This command creates an XML file that stores a representation of the string, "This is a test".
+Xxxx xxxxxxx xxxxxxx xx XXX xxxx xxxx xxxxxx x xxxxxxxxxxxxxx xx xxx xxxxxx$ $Xxxx xx x xxxx$.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-acl C:\test.txt | export-clixml -Path fileacl.xml
 PS C:\>$fileacl = import-clixml fileacl.xml
 ```
 
-This example shows how to export an object to an XML file and then create an object by importing the XML from the file.
+Xxxx xxxxxxx xxxxx xxx xx xxxxxx xx xxxxxx xx xx XXX xxxx xxx xxxx xxxxxx xx xxxxxx xx xxxxxxxxx xxx XXX xxxx xxx xxxx.
 
-The first command uses the Get-ACL cmdlet to get the security descriptor of the Test.txt file.
-It uses a pipeline operator to pass the security descriptor to Export-Clixml, which stores an XML-based representation of the object in a file named FileACL.xml.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XXX xxxxxx xx xxx xxx xxxxxxxx xxxxxxxxxx xx xxx Xxxx.xxx xxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx xx xxxx xxx xxxxxxxx xxxxxxxxxx xx Xxxxxx$Xxxxxx$ xxxxx xxxxxx xx XXX$xxxxx xxxxxxxxxxxxxx xx xxx xxxxxx xx x xxxx xxxxx XxxxXXX.xxx.
 
-The second command uses the Import-Clixml cmdlet to create an object from the XML in the FileACL.xml file.
-Then, it saves the object in the $FileAcl variable.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxx$Xxxxxx xxxxxx xx xxxxxx xx xxxxxx xxxx xxx XXX xx xxx XxxxXXX.xxx xxxx.
+Xxxx$ xx xxxxx xxx xxxxxx xx xxx $XxxxXxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$credxmlpath = Join-Path (Split-Path $profile) TestScript.ps1.credential
 PS C:\>$credential | Export-CliXml $credPath
@@ -65,26 +65,26 @@ PS C:\>$credxmlpath = Join-Path (Split-Path $profile) TestScript.ps1.credential
 PS C:\>$credential = Import-CliXml $credxmlpath
 ```
 
-The Export-CliXml cmdlet encrypts credential objects by using the Windows Data Protection API.
-This ensures that only your user account can decrypt the contents of the credential object.
+Xxx Xxxxxx$XxxXxx xxxxxx xxxxxxxx xxxxxxxxxx xxxxxxx xx xxxxx xxx Xxxxxxx Xxxx Xxxxxxxxxx XXX.
+Xxxx xxxxxxx xxxx xxxx xxxx xxxx xxxxxxx xxx xxxxxxx xxx xxxxxxxx xx xxx xxxxxxxxxx xxxxxx.
 
-In this example, given a credential that you've stored in the $credential variable by running the Get-Credential cmdlet, you can run the Export-CliXml cmdlet to save the credential to disk.In the example, the file in which the credential is stored is represented by TestScript.ps1.credential.
-Replace TestScript with the name of the script with which you are loading the credential.
+Xx xxxx xxxxxxx$ xxxxx x xxxxxxxxxx xxxx xxx$xx xxxxxx xx xxx $xxxxxxxxxx xxxxxxxx xx xxxxxxx xxx Xxx$Xxxxxxxxxx xxxxxx$ xxx xxx xxx xxx Xxxxxx$XxxXxx xxxxxx xx xxxx xxx xxxxxxxxxx xx xxxx.Xx xxx xxxxxxx$ xxx xxxx xx xxxxx xxx xxxxxxxxxx xx xxxxxx xx xxxxxxxxxxx xx XxxxXxxxxx.xx0.xxxxxxxxxx.
+Xxxxxxx XxxxXxxxxx xxxx xxx xxxx xx xxx xxxxxx xxxx xxxxx xxx xxx xxxxxxx xxx xxxxxxxxxx.
 
-In the second command, pipe the credential object to Export-CliXml, and save it to the path, $credxmlpath, that you specified in the first command.
+Xx xxx xxxxxx xxxxxxx$ xxxx xxx xxxxxxxxxx xxxxxx xx Xxxxxx$XxxXxx$ xxx xxxx xx xx xxx xxxx$ $xxxxxxxxxxx$ xxxx xxx xxxxxxxxx xx xxx xxxxx xxxxxxx.
 
-To import the credential automatically into your script, run the final two commands.
-This time, you are running Import-CliXml to import the secured credential object into your script.
-This eliminates the risk of exposing plain-text passwords in your script.
+Xx xxxxxx xxx xxxxxxxxxx xxxxxxxxxxxxx xxxx xxxx xxxxxx$ xxx xxx xxxxx xxx xxxxxxxx.
+Xxxx xxxx$ xxx xxx xxxxxxx Xxxxxx$XxxXxx xx xxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxx xxxx xxxx xxxxxx.
+Xxxx xxxxxxxxxx xxx xxxx xx xxxxxxxx xxxxx$xxxx xxxxxxxxx xx xxxx xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Depth
-Specifies how many levels of contained objects are included in the XML representation.
-The default value is 2.
+### $Xxxxx
+Xxxxxxxxx xxx xxxx xxxxxx xx xxxxxxxxx xxxxxxx xxx xxxxxxxx xx xxx XXX xxxxxxxxxxxxxx.
+Xxx xxxxxxx xxxxx xx 0.
 
-The default value can be overridden for the object type in the Types.ps1xml files.
-For more information, see about_Types.ps1xml.
+Xxx xxxxxxx xxxxx xxx xx xxxxxxxxxx xxx xxx xxxxxx xxxx xx xxx Xxxxx.xx0xxx xxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxx.xx0xxx.
 
 ```yaml
 Type: Int32
@@ -98,10 +98,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Encoding
-Specifies the type of encoding for the target file.
-Valid values are ASCII, UTF8, UTF7, UTF32, Unicode, BigEndianUnicode, Default, and OEM.
-Unicode is the default.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxx xx xxxxxxxx xxx xxx xxxxxx xxxx.
+Xxxxx xxxxxx xxx XXXXX$ XXX0$ XXX0$ XXX00$ Xxxxxxx$ XxxXxxxxxXxxxxxx$ Xxxxxxx$ xxx XXX.
+Xxxxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -116,9 +116,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Causes the cmdlet to clear the read-only attribute of the output file if necessary. 
-The cmdlet will attempt to reset the read-only attribute when the command completes.
+### $Xxxxx
+Xxxxxx xxx xxxxxx xx xxxxx xxx xxxx$xxxx xxxxxxxxx xx xxx xxxxxx xxxx xx xxxxxxxxx. Xxx xxxxxx xxxx xxxxxxx xx xxxxx xxx xxxx$xxxx xxxxxxxxx xxxx xxx xxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -132,9 +131,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-The default value can be overridden for the object type in the Types.ps1xml files.
-For more information, see about_Types.ps1xml.
+### $XxxxxxxxxxxXxxxxx
+Xxx xxxxxxx xxxxx xxx xx xxxxxxxxxx xxx xxx xxxxxx xxxx xx xxx Xxxxx.xx0xxx xxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxx.xx0xxx.
 
 ```yaml
 Type: ActionPreference
@@ -149,9 +148,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-The default value can be overridden for the object type in the Types.ps1xml files.
-For more information, see about_Types.ps1xml.
+### $XxxxxxxxxxxXxxxxxxx
+Xxx xxxxxxx xxxxx xxx xx xxxxxxxxxx xxx xxx xxxxxx xxxx xx xxx Xxxxx.xx0xxx xxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxx.xx0xxx.
 
 ```yaml
 Type: String
@@ -165,10 +164,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the object to be converted.
-Enter a variable that contains the objects, or type a command or expression that gets the objects.
-You can also pipe objects to Export-Clixml.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxx xx xx xxxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
+Xxx xxx xxxx xxxx xxxxxxx xx Xxxxxx$Xxxxxx.
 
 ```yaml
 Type: PSObject
@@ -182,9 +181,9 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -NoClobber
-Ensures that the cmdlet does not overwrite the contents of an existing file.
-By default, if a file exists in the specified path, Export-Clixml overwrites the file without warning.
+### $XxXxxxxxx
+Xxxxxxx xxxx xxx xxxxxx xxxx xxx xxxxxxxxx xxx xxxxxxxx xx xx xxxxxxxx xxxx.
+Xx xxxxxxx$ xx x xxxx xxxxxx xx xxx xxxxxxxxx xxxx$ Xxxxxx$Xxxxxx xxxxxxxxxx xxx xxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -198,8 +197,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the path to the file where the XML representation of the object will be stored.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx xxx XXX xxxxxxxxxxxxxx xx xxx xxxxxx xxxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -213,12 +212,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -LiteralPath
-Specifies the path to the file where the XML representation of the object will be stored.
-Unlike Path, the value of the LiteralPath parameter is used exactly as it is typed.
-No characters are interpreted as wildcards.
-If the path includes escape characters, enclose it in single quotation marks.
-Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx xxx XXX xxxxxxxxxxxxxx xx xxx xxxxxx xxxx xx xxxxxx.
+Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
+Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
+Xx xxx xxxx xxxxxxxx xxxxxx xxxxxxxxxx$ xxxxxxx xx xx xxxxxx xxxxxxxxx xxxxx.
+Xxxxxx xxxxxxxxx xxxxx xxxx Xxxxxxx XxxxxXxxxx xxx xx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -232,8 +231,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -247,10 +246,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -264,29 +263,29 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any object to Export-Clixml.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xx Xxxxxx$Xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.IO.FileInfo
-Export-Clixml creates a file that contains the XML.
+### Xxxxxx.XX.XxxxXxxx
+Xxxxxx$Xxxxxx xxxxxxx x xxxx xxxx xxxxxxxx xxx XXX.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Use PowerShell to Pass Credentials to Legacy Systems]()
+[Xxx XxxxxXxxxx xx Xxxx Xxxxxxxxxxx xx Xxxxxx Xxxxxxx]()
 
-[Securely Store Credentials on Disk]()
+[Xxxxxxxx Xxxxx Xxxxxxxxxxx xx Xxxx]()
 
-[ConvertTo-Html]()
+[XxxxxxxXx$Xxxx]()
 
-[ConvertTo-Xml]()
+[XxxxxxxXx$Xxx]()
 
-[Export-Csv]()
+[Xxxxxx$Xxx]()
 
-[Import-Clixml]()
+[Xxxxxx$Xxxxxx]()
 

@@ -6,34 +6,34 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Export-AzureRmAutomationDscConfiguration
-## SYNOPSIS
-Exports a DSC configuration from Automation to a local file.
+# Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx
+## XXXXXXXX
+Xxxxxxx x XXX xxxxxxxxxxxxx xxxx Xxxxxxxxxx xx x xxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Export-AzureRmAutomationDscConfiguration [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Force] [-OutputFolder <String>] [-Slot] -Name <String> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Export-AzureRmAutomationDscConfiguration** cmdlet exports an APS Desired State Configuration (DSC) configuration from azure_2 Automation to a local file.
-The exported file has a .ps1 file name extension.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx$$ xxxxxx xxxxxxx xx XXX Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxxxxxxxxxxx xxxx xxxxx$0 Xxxxxxxxxx xx x xxxxx xxxx.
+Xxx xxxxxxxx xxxx xxx x .xx0 xxxx xxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Export the published version of a DSC configuration
+### Xxxxxxx 0$ Xxxxxx xxx xxxxxxxxx xxxxxxx xx x XXX xxxxxxxxxxxxx
 ```
 PS C:\>Export-AzureRmAutomationDscConfiguration -ResourceGroupName "ResourceGroup01" -AutomationAccountName "AutomationAccount01" -Name "Configuration01" -Slot Published -OutputFolder "C:\Users\PattiFuller\Desktop"
 ```
 
-This command exports the published version of a DSC configuration in Automation to the specified folder, which is the desktop.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxx xxxxxxx xx x XXX xxxxxxxxxxxxx xx Xxxxxxxxxx xx xxx xxxxxxxxx xxxxxx$ xxxxx xx xxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account that contains the DSC that this cmdlet exports.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxxxxx xxx XXX xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -47,8 +47,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-Indicates that this cmdlet replaces an existing local file with a new file that has the same name.
+### $Xxxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx xx xxxxxxxx xxxxx xxxx xxxx x xxx xxxx xxxx xxx xxx xxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -62,8 +62,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the DSC configuration that this cmdlet exports.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx XXX xxxxxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -77,8 +77,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -OutputFolder
-Specifies the output folder where this cmdlet exports the DSC configuration.
+### $XxxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxx xxxxx xxxx xxxxxx xxxxxxx xxx XXX xxxxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -92,8 +92,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet exports a DSC configuration.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x XXX xxxxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -107,14 +107,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Slot
-Specifies which version of the DSC configuration that this cmdlet exports.
-Valid values are: 
+### $Xxxx
+Xxxxxxxxx xxxxx xxxxxxx xx xxx XXX xxxxxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Draft
--- Published 
+$$ Xxxxx $$ Xxxxxxxxx 
 
-The default value is Published.
+Xxx xxxxxxx xxxxx xx Xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -129,8 +128,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -144,8 +143,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -159,16 +158,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationDscConfiguration](cd411497-be17-46f7-8708-519f02312553)
+[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](cd411497-be17-46f7-8708-519f02312553)
 
-[Import-AzureRmAutomationDscConfiguration](9e316628-0101-4da8-8a9f-843f8442e52d)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](9e316628-0101-4da8-8a9f-843f8442e52d)
 
 

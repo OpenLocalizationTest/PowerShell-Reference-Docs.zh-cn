@@ -4,89 +4,89 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293978
 schema: 2.0.0
 ---
 
-# Get-Unique
-## SYNOPSIS
-Returns unique items from a sorted list.
+# Xxx$Xxxxxx
+## XXXXXXXX
+Xxxxxxx xxxxxx xxxxx xxxx x xxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### AsString (Default)
+### XxXxxxxx $Xxxxxxx$
 ```
 Get-Unique [-InputObject <PSObject>] [-AsString] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### UniqueByType
+### XxxxxxXxXxxx
 ```
 Get-Unique [-InputObject <PSObject>] [-OnType] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-Unique cmdlet compares each item in a sorted list to the next item, eliminates duplicates, and returns only one instance of each item.
-The list must be sorted for the cmdlet to work properly.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxxx xxxxxx xxxxxxxx xxxx xxxx xx x xxxxxx xxxx xx xxx xxxx xxxx$ xxxxxxxxxx xxxxxxxxxx$ xxx xxxxxxx xxxx xxx xxxxxxxx xx xxxx xxxx.
+Xxx xxxx xxxx xx xxxxxx xxx xxx xxxxxx xx xxxx xxxxxxxx.
 
-Get-Unique is case-sensitive.
-As a result, strings that differ only in character casing are considered to be unique.
+Xxx$Xxxxxx xx xxxx$xxxxxxxxx.
+Xx x xxxxxx$ xxxxxxx xxxx xxxxxx xxxx xx xxxxxxxxx xxxxxx xxx xxxxxxxxxx xx xx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = $(foreach ($line in get-content C:\Test1\File1.txt) {$line.tolower().split(" ")}) | sort | get-unique
 PS C:\>$a.count
 ```
 
-These commands find the number of unique words in a text file.
+Xxxxx xxxxxxxx xxxx xxx xxxxxx xx xxxxxx xxxxx xx x xxxx xxxx.
 
-The first command gets the content of the File.txt file.
-It converts each line of text to lowercase letters and then splits each word onto a separate line at the space (" ").
-Then, it sorts the resulting list alphabetically (the default) and uses the Get-Unique cmdlet to eliminate any duplicate words.
-The results are stored in the $a variable.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxx xx xxx Xxxx.xxx xxxx.
+Xx xxxxxxxx xxxx xxxx xx xxxx xx xxxxxxxxx xxxxxxx xxx xxxx xxxxxx xxxx xxxx xxxx x xxxxxxxx xxxx xx xxx xxxxx $$ $$.
+Xxxx$ xx xxxxx xxx xxxxxxxxx xxxx xxxxxxxxxxxxxx $xxx xxxxxxx$ xxx xxxx xxx Xxx$Xxxxxx xxxxxx xx xxxxxxxxx xxx xxxxxxxxx xxxxx.
+Xxx xxxxxxx xxx xxxxxx xx xxx $x xxxxxxxx.
 
-The second command uses the Count property of the collection of strings in $a to determine how many items are in $a.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxx xxxxxxxx xx xxx xxxxxxxxxx xx xxxxxxx xx $x xx xxxxxxxxx xxx xxxx xxxxx xxx xx $x.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>1,1,1,1,12,23,4,5,4643,5,3,3,3,3,3,3,3 | sort-object | Get-Unique
 ```
 
-This command finds the unique members of the set of integers.
-The first command takes an array of integers typed at the command line, pipes them to the Sort-Object cmdlet to be sorted, and then pipes them to Get-Unique, which eliminates duplicate entries.
+Xxxx xxxxxxx xxxxx xxx xxxxxx xxxxxxx xx xxx xxx xx xxxxxxxx.
+Xxx xxxxx xxxxxxx xxxxx xx xxxxx xx xxxxxxxx xxxxx xx xxx xxxxxxx xxxx$ xxxxx xxxx xx xxx Xxxx$Xxxxxx xxxxxx xx xx xxxxxx$ xxx xxxx xxxxx xxxx xx Xxx$Xxxxxx$ xxxxx xxxxxxxxxx xxxxxxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-childitem | sort-object {$_.GetType()} |  unique -OnType
 ```
 
-This command uses the Get-ChildItem cmdlet to retrieve the contents of the local directory, which includes files and directories.
-The pipeline operator (|) sends the results to the Sort-Object cmdlet.
-The "$_.GetType()" statement applies the GetType method to each file or directory.
-Then, Sort-Object sorts the items by type.
-Another pipeline operator sends the results to Get-Unique.
-The OnType parameter directs Get-Unique to return only one object of each type.
+Xxxx xxxxxxx xxxx xxx Xxx$XxxxxXxxx xxxxxx xx xxxxxxxx xxx xxxxxxxx xx xxx xxxxx xxxxxxxxx$ xxxxx xxxxxxxx xxxxx xxx xxxxxxxxxxx.
+Xxx xxxxxxxx xxxxxxxx $$$ xxxxx xxx xxxxxxx xx xxx Xxxx$Xxxxxx xxxxxx.
+Xxx $$$.XxxXxxx$$$ xxxxxxxxx xxxxxxx xxx XxxXxxx xxxxxx xx xxxx xxxx xx xxxxxxxxx.
+Xxxx$ Xxxx$Xxxxxx xxxxx xxx xxxxx xx xxxx.
+Xxxxxxx xxxxxxxx xxxxxxxx xxxxx xxx xxxxxxx xx Xxx$Xxxxxx.
+Xxx XxXxxx xxxxxxxxx xxxxxxx Xxx$Xxxxxx xx xxxxxx xxxx xxx xxxxxx xx xxxx xxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | sort-object | select processname | get-unique -asstring
 ```
 
-This command gets the names of processes running on the computer with duplicates eliminated.
+Xxxx xxxxxxx xxxx xxx xxxxx xx xxxxxxxxx xxxxxxx xx xxx xxxxxxxx xxxx xxxxxxxxxx xxxxxxxxxx.
 
-The Get-Process command gets all of the processes on the computer.
-The pipeline operator (|) passes the result to Sort-Object, which, by default, sorts the processes alphabetically by ProcessName.
-The results are piped to the Select-Object cmdlet, which selects only the values of the ProcessName property of each object.
-The results are then piped to Get-Unique to eliminate duplicates.
+Xxx Xxx$Xxxxxxx xxxxxxx xxxx xxx xx xxx xxxxxxxxx xx xxx xxxxxxxx.
+Xxx xxxxxxxx xxxxxxxx $$$ xxxxxx xxx xxxxxx xx Xxxx$Xxxxxx$ xxxxx$ xx xxxxxxx$ xxxxx xxx xxxxxxxxx xxxxxxxxxxxxxx xx XxxxxxxXxxx.
+Xxx xxxxxxx xxx xxxxx xx xxx Xxxxxx$Xxxxxx xxxxxx$ xxxxx xxxxxxx xxxx xxx xxxxxx xx xxx XxxxxxxXxxx xxxxxxxx xx xxxx xxxxxx.
+Xxx xxxxxxx xxx xxxx xxxxx xx Xxx$Xxxxxx xx xxxxxxxxx xxxxxxxxxx.
 
-The AsString parameter tells Get-Unique to treat the ProcessName values as strings.
-Without this parameter, Get-Unique treats the ProcessName values as objects and returns only one instance of the object, that is, the first process name in the list.
+Xxx XxXxxxxx xxxxxxxxx xxxxx Xxx$Xxxxxx xx xxxxx xxx XxxxxxxXxxx xxxxxx xx xxxxxxx.
+Xxxxxxx xxxx xxxxxxxxx$ Xxx$Xxxxxx xxxxxx xxx XxxxxxxXxxx xxxxxx xx xxxxxxx xxx xxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxxx$ xxxx xx$ xxx xxxxx xxxxxxx xxxx xx xxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AsString
-Treats the data as a string.
-Without this parameter, data is treated as an object, so when you submit a collection of objects of the same type to Get-Unique, such as a collection of files, it returns just one (the first).
-You can use this parameter to find the unique values of object properties, such as the file names.
+### $XxXxxxxx
+Xxxxxx xxx xxxx xx x xxxxxx.
+Xxxxxxx xxxx xxxxxxxxx$ xxxx xx xxxxxxx xx xx xxxxxx$ xx xxxx xxx xxxxxx x xxxxxxxxxx xx xxxxxxx xx xxx xxxx xxxx xx Xxx$Xxxxxx$ xxxx xx x xxxxxxxxxx xx xxxxx$ xx xxxxxxx xxxx xxx $xxx xxxxx$.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxx xxx xxxxxx xxxxxx xx xxxxxx xxxxxxxxxx$ xxxx xx xxx xxxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -100,8 +100,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -116,8 +116,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -131,12 +131,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Accepts input for Get-Unique.
-Enter a variable that contains the objects or type a command or expression that gets the objects.
+### $XxxxxXxxxxx
+Xxxxxxx xxxxx xxx Xxx$Xxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
-Get-Unique treats the input submitted by using InputObject as a collection; it does not enumerate individual items in the collection.
-Because the collection is a single item, input submitted by using InputObject is always returned unchanged.
+Xxx$Xxxxxx xxxxxx xxx xxxxx xxxxxxxxx xx xxxxx XxxxxXxxxxx xx x xxxxxxxxxx$ xx xxxx xxx xxxxxxxxx xxxxxxxxxx xxxxx xx xxx xxxxxxxxxx.
+Xxxxxxx xxx xxxxxxxxxx xx x xxxxxx xxxx$ xxxxx xxxxxxxxx xx xxxxx XxxxxXxxxxx xx xxxxxx xxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: PSObject
@@ -150,8 +150,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -OnType
-Returns only one object of each type.
+### $XxXxxx
+Xxxxxxx xxxx xxx xxxxxx xx xxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -165,26 +165,26 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any type of object to Get-Unique.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxx xx xxxxxx xx Xxx$Xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.PSObject
-The type of object that Get-Unique returns is determined by the input.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxxx xx xxxxxx xxxx Xxx$Xxxxxx xxxxxxx xx xxxxxxxxxx xx xxx xxxxx.
 
-## NOTES
-You can also refer to Get-Unique by its built-in alias, "gu".
-For more information, see about_Aliases.
+## XXXXX
+Xxx xxx xxxx xxxxx xx Xxx$Xxxxxx xx xxx xxxxx$xx xxxxx$ $xx$.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx.
 
-To sort a list, use Sort-Object.
-You can also use the Unique parameter of Sort-Object to find the unique items in a list.
+Xx xxxx x xxxx$ xxx Xxxx$Xxxxxx.
+Xxx xxx xxxx xxx xxx Xxxxxx xxxxxxxxx xx Xxxx$Xxxxxx xx xxxx xxx xxxxxx xxxxx xx x xxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Select-Object]()
+[Xxxxxx$Xxxxxx]()
 
-[Sort-Object]()
+[Xxxx$Xxxxxx]()
 

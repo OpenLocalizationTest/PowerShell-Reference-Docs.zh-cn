@@ -6,41 +6,41 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureStorageTable
-## SYNOPSIS
-Removes a storage table.
+# Xxxxxx$XxxxxXxxxxxxXxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureStorageTable [-Name] <String> [-Context <AzureStorageContext>] [-Force] [-PassThru] [-Confirm]
  [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureStorageTable** cmdlet removes one or more storage tables from a storage account in azure_2.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxxxxxxXxxxx$$ xxxxxx xxxxxxx xxx xx xxxx xxxxxxx xxxxxx xxxx x xxxxxxx xxxxxxx xx xxxxx$0.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a table
+### Xxxxxxx 0$ Xxxxxx x xxxxx
 ```
 PS C:\>Remove-AzureStorageTable -Name "TableABC"
 ```
 
-This command removes a table.
+Xxxx xxxxxxx xxxxxxx x xxxxx.
 
-### Example 2: Remove several tables
+### Xxxxxxx 0$ Xxxxxx xxxxxxx xxxxxx
 ```
 PS C:\>Get-AzureStorageTable table* | Remove-AzureStorageTable
 ```
 
-This example uses a wildcard character with the *Name* parameter to get all tables that match the pattern table and then passes the result on the pipeline to remove the tables.
+Xxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxxx xxxx xxx $Xxxx$ xxxxxxxxx xx xxx xxx xxxxxx xxxx xxxxx xxx xxxxxxx xxxxx xxx xxxx xxxxxx xxx xxxxxx xx xxx xxxxxxxx xx xxxxxx xxx xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies the azure_2 storage context.
-You can create it by using the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxxxx.
+Xxx xxx xxxxxx xx xx xxxxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -54,8 +54,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-ps_force
+### $Xxxxx
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -69,8 +69,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the table to remove.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -84,9 +84,9 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Indicates that this cmdlet returns a **Boolean** that reflects the success of the operation.
-By default, this cmdlet does not return a value.
+### $XxxxXxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx x $$Xxxxxxx$$ xxxx xxxxxxxx xxx xxxxxxx xx xxx xxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx x xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -100,8 +100,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -115,8 +115,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -130,14 +130,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageTable](5e8a9e67-ad04-4430-b057-a63cfb99585e)
+[Xxx$XxxxxXxxxxxxXxxxx](5e8a9e67-ad04-4430-b057-a63cfb99585e)
 
 

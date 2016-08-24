@@ -6,53 +6,53 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageBlob
-## SYNOPSIS
-Lists blobs in a container.
+# Xxx$XxxxxXxxxxxxXxxx
+## XXXXXXXX
+Xxxxx xxxxx xx x xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageBlob [[-Blob] <String>] [-Container] <String> [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-ContinuationToken <BlobContinuationToken>]
  [-MaxCount <Int32]>] [-ServerTimeoutPerRequest <Int32]>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageBlob [-Container] <String> [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-ContinuationToken <BlobContinuationToken>] [-MaxCount <Int32]>]
  [-Prefix <String>] [-ServerTimeoutPerRequest <Int32]>]
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageBlob** cmdlet lists blobs in the specified container in an Azure storage account.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxx$$ xxxxxx xxxxx xxxxx xx xxx xxxxxxxxx xxxxxxxxx xx xx Xxxxx xxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get a blob by blob name
+### Xxxxxxx 0$ Xxx x xxxx xx xxxx xxxx
 ```
 PS C:\>Get-AzureStorageBlob -Container "ContainerName" -Blob blob*
 ```
 
-This command uses a blob name and wildcard to get a blob.
+Xxxx xxxxxxx xxxx x xxxx xxxx xxx xxxxxxxx xx xxx x xxxx.
 
-### Example 2: Get a blob by using the pipeline
+### Xxxxxxx 0$ Xxx x xxxx xx xxxxx xxx xxxxxxxx
 ```
 PS C:\>Get-AzureStorageContainer -Name container* | Get-AzureStorageBlob
 ```
 
-This command uses the pipeline to get a blob.
+Xxxx xxxxxxx xxxx xxx xxxxxxxx xx xxx x xxxx.
 
-### Example 3: Get a blob by name prefix
+### Xxxxxxx 0$ Xxx x xxxx xx xxxx xxxxxx
 ```
 PS C:\>Get-AzureStorageBlob -Container "ContainerName" -Prefix "blob"
 ```
 
-This command uses a name prefix to get a blob.
+Xxxx xxxxxxx xxxx x xxxx xxxxxx xx xxx x xxxx.
 
-### Example 4: List blobs in multiple batches
+### Xxxxxxx 0$ Xxxx xxxxx xx xxxxxxxx xxxxxxx
 ```
 PS C:\>$MaxReturn = 10000
 PS C:\> $ContainerName = "abc"
@@ -69,22 +69,22 @@ PS C:\> do
 PS C:\> Echo "Total $Total blobs in container $ContainerName"
 ```
 
-This example uses the *MaxCount* and *ContinuationToken* parameters to list azure_2 Storage blobs in multiple batches.
-The first four commands assign values to variables to use in the example.
+Xxxx xxxxxxx xxxx xxx $XxxXxxxx$ xxx $XxxxxxxxxxxxXxxxx$ xxxxxxxxxx xx xxxx xxxxx$0 Xxxxxxx xxxxx xx xxxxxxxx xxxxxxx.
+Xxx xxxxx xxxx xxxxxxxx xxxxxx xxxxxx xx xxxxxxxxx xx xxx xx xxx xxxxxxx.
 
-The fifth command specifies a **Do-While** statement that uses the **Get-AzureStorageBlob** cmdlet to get blobs.
-The statement includes the continuation token stored in the $Token variable.
-$Token changes value as the loop runs.
-For more information, type \[CODE_Snippit\]Get-Help About_Do\[CODE_Snippit\].
+Xxx xxxxx xxxxxxx xxxxxxxxx x $$Xx$Xxxxx$$ xxxxxxxxx xxxx xxxx xxx $$Xxx$XxxxxXxxxxxxXxxx$$ xxxxxx xx xxx xxxxx.
+Xxx xxxxxxxxx xxxxxxxx xxx xxxxxxxxxxxx xxxxx xxxxxx xx xxx $Xxxxx xxxxxxxx.
+$Xxxxx xxxxxxx xxxxx xx xxx xxxx xxxx.
+Xxx xxxx xxxxxxxxxxx$ xxxx $$XXXX$Xxxxxxx$$Xxx$Xxxx Xxxxx$Xx$$XXXX$Xxxxxxx$$.
 
-The final command uses the **Echo** command to display the total.
+Xxx xxxxx xxxxxxx xxxx xxx $$Xxxx$$ xxxxxxx xx xxxxxxx xxx xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Blob
-Specifies a name or name pattern, which can be used for a wildcard search.
-If no blob name is specified, the cmdlet lists all the blobs in the specified container.
-If a value is specified for this parameter, the cmdlet lists all blobs with names that match this parameter.
+### $Xxxx
+Xxxxxxxxx x xxxx xx xxxx xxxxxxx$ xxxxx xxx xx xxxx xxx x xxxxxxxx xxxxxx.
+Xx xx xxxx xxxx xx xxxxxxxxx$ xxx xxxxxx xxxxx xxx xxx xxxxx xx xxx xxxxxxxxx xxxxxxxxx.
+Xx x xxxxx xx xxxxxxxxx xxx xxxx xxxxxxxxx$ xxx xxxxxx xxxxx xxx xxxxx xxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -98,10 +98,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ClientTimeoutPerRequest
-Specifies the client-side time-out interval, in seconds, for one service request.
-If the previous call fails in the specified interval, this cmdlet retries the request.
-If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -115,12 +115,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ConcurrentTaskCount
-Specifies the maximum concurrent network calls.
-You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
-The specified value is an absolute count and is not multiplied by the core count.
-This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
-The default value is 10.
+### $XxxxxxxxxxXxxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxxxxx xxx xxxx xxxxxx xxxxxxx xxxxxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxxx$ xxxx xx 000 xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx xxxxx xx 00.
 
 ```yaml
 Type: Int32]
@@ -134,8 +134,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Container
-Specifies the name of the container.
+### $Xxxxxxxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -149,9 +149,9 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies the Azure storage account from which you want to get a list of blobs.
-You can use the New-AzureStorageContext cmdlet to create a storage context.
+### $Xxxxxxx
+Xxxxxxxxx xxx Xxxxx xxxxxxx xxxxxxx xxxx xxxxx xxx xxxx xx xxx x xxxx xx xxxxx.
+Xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx xx xxxxxx x xxxxxxx xxxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -165,9 +165,9 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ContinuationToken
-Specifies a continuation token for the blob list.
-Use this parameter and the *MaxCount* parameter to list blobs in multiple batches.
+### $XxxxxxxxxxxxXxxxx
+Xxxxxxxxx x xxxxxxxxxxxx xxxxx xxx xxx xxxx xxxx.
+Xxx xxxx xxxxxxxxx xxx xxx $XxxXxxxx$ xxxxxxxxx xx xxxx xxxxx xx xxxxxxxx xxxxxxx.
 
 ```yaml
 Type: BlobContinuationToken
@@ -181,8 +181,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -MaxCount
-Specifies the maximum number of objects that this cmdlet returns.
+### $XxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: Int32]
@@ -196,11 +196,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Prefix
-Specifies a prefix for the blob names that you want to get.
-This parameter does not support using regular expressions or wildcard characters to search.
-This means that if the container has only blobs named "My", "MyBlob1", and "MyBlob2" and you specify "-Prefix My*", the cmdlet returns no blobs.
-However, if you specify "-Prefix My", the cmdlet returns "My", "MyBlob1", and "MyBlob2".
+### $Xxxxxx
+Xxxxxxxxx x xxxxxx xxx xxx xxxx xxxxx xxxx xxx xxxx xx xxx.
+Xxxx xxxxxxxxx xxxx xxx xxxxxxx xxxxx xxxxxxx xxxxxxxxxxx xx xxxxxxxx xxxxxxxxxx xx xxxxxx.
+Xxxx xxxxx xxxx xx xxx xxxxxxxxx xxx xxxx xxxxx xxxxx $Xx$$ $XxXxxx0$$ xxx $XxXxxx0$ xxx xxx xxxxxxx $$Xxxxxx Xx$$$ xxx xxxxxx xxxxxxx xx xxxxx.
+Xxxxxxx$ xx xxx xxxxxxx $$Xxxxxx Xx$$ xxx xxxxxx xxxxxxx $Xx$$ $XxXxxx0$$ xxx $XxXxxx0$.
 
 ```yaml
 Type: String
@@ -214,9 +214,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-Specifies the service side time-out interval, in seconds, for a request.
-If the specified interval elapses before the service processes the request, the storage service returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
+Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -230,21 +230,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-### AzureStorageBlob
+### XxxxxXxxxxxxXxxx
 
-## NOTES
-SYNOPSIS
+## XXXXX
+XXXXXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageBlobContent](15371eb7-da6a-4b26-bbda-b59a2eeedb1d)
+[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](15371eb7-da6a-4b26-bbda-b59a2eeedb1d)
 
-[Remove-AzureStorageBlob](fddc1b9e-caf4-47d7-a6b2-a2b2bb50113a)
+[Xxxxxx$XxxxxXxxxxxxXxxx](fddc1b9e-caf4-47d7-a6b2-a2b2bb50113a)
 
-[Set-AzureStorageBlobContent](c3d50900-70d6-44af-b939-abe86fcf89e6)
+[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](c3d50900-70d6-44af-b939-abe86fcf89e6)
 
 

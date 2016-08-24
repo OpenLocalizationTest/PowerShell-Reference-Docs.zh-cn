@@ -6,35 +6,35 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Switch-AzureWebsiteSlot
-## SYNOPSIS
-Swaps the production slot for a website with another slot.
-This works on websites with two slots only
+# Xxxxxx$XxxxxXxxxxxxXxxx
+## XXXXXXXX
+Xxxxx xxx xxxxxxxxxx xxxx xxx x xxxxxxx xxxx xxxxxxx xxxx.
+Xxxx xxxxx xx xxxxxxxx xxxx xxx xxxxx xxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 Switch-AzureWebsiteSlot [[-Name] <String>] [[-Slot1] <String>] [[-Slot2] <String>] [-Force] [-Confirm]
  [-WhatIf]
 ```
 
-## DESCRIPTION
-Swaps the production slot for a website with another slot.
-This works on websites with two slots only
+## XXXXXXXXXXX
+Xxxxx xxx xxxxxxxxxx xxxx xxx x xxxxxxx xxxx xxxxxxx xxxx.
+Xxxx xxxxx xx xxxxxxxx xxxx xxx xxxxx xxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Switch Website Slot --------------
+### $$$$$$$$$$$$$$  Xxxxxx Xxxxxxx Xxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Switch-AzureWebsiteSlot -Name MyWebsite
 ```
 
-Switch the azure website MyWebsite backup slot with production slot
+Xxxxxx xxx xxxxx xxxxxxx XxXxxxxxx xxxxxx xxxx xxxx xxxxxxxxxx xxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Force
-Do not confirm the swap operation.
+### $Xxxxx
+Xx xxx xxxxxxx xxx xxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -48,8 +48,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-The name of the website
+### $Xxxx
+Xxx xxxx xx xxx xxxxxxx
 
 ```yaml
 Type: String
@@ -63,8 +63,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Slot1
-Specifies the first slot.
+### $Xxxx0
+Xxxxxxxxx xxx xxxxx xxxx.
 
 ```yaml
 Type: String
@@ -78,8 +78,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Slot2
-Specifies the second slot.
+### $Xxxx0
+Xxxxxxxxx xxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -93,8 +93,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -108,10 +108,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -125,20 +125,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
-[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
+[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
 
-[Start-AzureWebsite](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
+[Xxxxx$XxxxxXxxxxxx](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
 
-[Stop-AzureWebsite](62c5de93-e58b-4e57-85d0-8b7e75df1f31)
+[Xxxx$XxxxxXxxxxxx](62c5de93-e58b-4e57-85d0-8b7e75df1f31)
 
 

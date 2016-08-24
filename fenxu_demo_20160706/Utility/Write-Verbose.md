@@ -4,52 +4,52 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294032
 schema: 2.0.0
 ---
 
-# Write-Verbose
-## SYNOPSIS
-Writes text to the verbose message stream.
+# Xxxxx$Xxxxxxx
+## XXXXXXXX
+Xxxxxx xxxx xx xxx xxxxxxx xxxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Write-Verbose [-Message] <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Write-Verbose cmdlet writes text to the verbose message stream in Windows PowerShell.
-Typically, the verbose message stream is used to deliver information about command processing that is used for debugging a command.
+## XXXXXXXXXXX
+Xxx Xxxxx$Xxxxxxx xxxxxx xxxxxx xxxx xx xxx xxxxxxx xxxxxxx xxxxxx xx Xxxxxxx XxxxxXxxxx.
+Xxxxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxx xx xxxx xx xxxxxxx xxxxxxxxxxx xxxxx xxxxxxx xxxxxxxxxx xxxx xx xxxx xxx xxxxxxxxx x xxxxxxx.
 
-By default, the verbose message stream is not displayed, but you can display it by changing the value of the $VerbosePreference variable or using the Verbose common parameter in any command.
+Xx xxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxx xx xxx xxxxxxxxx$ xxx xxx xxx xxxxxxx xx xx xxxxxxxx xxx xxxxx xx xxx $XxxxxxxXxxxxxxxxx xxxxxxxx xx xxxxx xxx Xxxxxxx xxxxxx xxxxxxxxx xx xxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Write-Verbose -Message "Searching the Application Event Log."
 PS C:\>Write-Verbose -Message "Searching the Application Event Log." -verbose
 ```
 
-These commands use the Write-Verbose cmdlet to display a status message.
-By default, the message is not displayed.
+Xxxxx xxxxxxxx xxx xxx Xxxxx$Xxxxxxx xxxxxx xx xxxxxxx x xxxxxx xxxxxxx.
+Xx xxxxxxx$ xxx xxxxxxx xx xxx xxxxxxxxx.
 
-The second command uses the Verbose common parameter, which displays any verbose messages, regardless of the value of the $VerbosePreference variable.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxxx xxxxxx xxxxxxxxx$ xxxxx xxxxxxxx xxx xxxxxxx xxxxxxxx$ xxxxxxxxxx xx xxx xxxxx xx xxx $XxxxxxxXxxxxxxxxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$VerbosePreference = "Continue"
 PS C:\>Write-Verbose "Copying file $filename"
 ```
 
-These commands use the Write-Verbose cmdlet to display a status message.
-By default, the message is not displayed.
+Xxxxx xxxxxxxx xxx xxx Xxxxx$Xxxxxxx xxxxxx xx xxxxxxx x xxxxxx xxxxxxx.
+Xx xxxxxxx$ xxx xxxxxxx xx xxx xxxxxxxxx.
 
-The first command assigns a value of "Continue" to the $VerbosePreference preference variable.
-The default value, "SilentlyContinue", suppresses verbose messages.
-The second command writes a verbose message.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxx xx $Xxxxxxxx$ xx xxx $XxxxxxxXxxxxxxxxx xxxxxxxxxx xxxxxxxx.
+Xxx xxxxxxx xxxxx$ $XxxxxxxxXxxxxxxx$$ xxxxxxxxxx xxxxxxx xxxxxxxx.
+Xxx xxxxxx xxxxxxx xxxxxx x xxxxxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -64,8 +64,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -79,10 +79,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Message
-Specifies the message to display.
-This parameter is required.
-You can also pipe a message string to Write-Verbose.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx.
+Xxx xxx xxxx xxxx x xxxxxxx xxxxxx xx Xxxxx$Xxxxxxx.
 
 ```yaml
 Type: String
@@ -96,28 +96,28 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
-You can pipe a string that contains the message to Write-Verbose.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx xxx xxxxxxx xx Xxxxx$Xxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-Write-Verbose writes only to the verbose message stream.
+### Xxxx
+Xxxxx$Xxxxxxx xxxxxx xxxx xx xxx xxxxxxx xxxxxxx xxxxxx.
 
-## NOTES
-Verbose messages are returned only when the command uses the Verbose common parameter.
-For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+## XXXXX
+Xxxxxxx xxxxxxxx xxx xxxxxxxx xxxx xxxx xxx xxxxxxx xxxx xxx Xxxxxxx xxxxxx xxxxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$XxxxxxXxxxxxxxxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
 
-In Windows PowerShell background jobs and remote commands, the $VerbosePreference variable in the job session and remote session determine whether the verbose message is displayed by default.
-For more information about the $VerbosePreference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).
+Xx Xxxxxxx XxxxxXxxxx xxxxxxxxxx xxxx xxx xxxxxx xxxxxxxx$ xxx $XxxxxxxXxxxxxxxxx xxxxxxxx xx xxx xxx xxxxxxx xxx xxxxxx xxxxxxx xxxxxxxxx xxxxxxx xxx xxxxxxx xxxxxxx xx xxxxxxxxx xx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxx $XxxxxxxXxxxxxxxxx xxxxxxxx$ xxx xxxxx$Xxxxxxxxxx$Xxxxxxxxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Write-Error]()
+[Xxxxx$Xxxxx]()
 
-[Write-Warning]()
+[Xxxxx$Xxxxxxx]()
 
-[about_Preference_Variables]()
+[xxxxx$Xxxxxxxxxx$Xxxxxxxxx]()
 

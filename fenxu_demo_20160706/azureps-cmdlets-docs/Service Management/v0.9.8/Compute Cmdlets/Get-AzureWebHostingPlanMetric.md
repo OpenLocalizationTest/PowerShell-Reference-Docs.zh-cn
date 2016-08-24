@@ -6,26 +6,26 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureWebHostingPlanMetric
-## SYNOPSIS
-Gets metrics for Azure website hosting plans.
+# Xxx$XxxxxXxxXxxxxxxXxxxXxxxxx
+## XXXXXXXX
+Xxxx xxxxxxx xxx Xxxxx xxxxxxx xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureWebHostingPlanMetric [[-WebSpaceName] <String>] [[-Name] <String>] [[-MetricNames] <String[]>]
  [[-StartDate] <DateTime>] [[-EndDate] <DateTime>] [[-TimeGrain] <String>] [-InstanceDetails]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Get-AzureWebHostingPlanMetric cmdlet gets metrics for Azure web hosting plans in a subscription.
+Xxx Xxx$XxxxxXxxXxxxxxxXxxxXxxxxx xxxxxx xxxx xxxxxxx xxx Xxxxx xxx xxxxxxx xxxxx xx x xxxxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get metrics for the last three hours at a per-instance level
+### Xxxxxxx 0$ Xxx xxxxxxx xxx xxx xxxx xxxxx xxxxx xx x xxx$xxxxxxxx xxxxx
 ```
 PS C:\>Get-AzureWebHostingPlanMetric -WebSpaceName "eastuswebspace" -StartDate (get-date).AddHours(-3) -InstanceDetails $Metrics[1].Data 
 Name : CpuPercentage 
@@ -50,14 +50,14 @@ TimeCreated Total Minimum Maximum Count InstanceName
 8/11/2014 4:00:00 PM 2 14 0 1 RD00155DC24599
 ```
 
-This command gets web hosting plan metrics for last three hours on per-instance level.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxx xxxxxxx xxx xxxx xxxxx xxxxx xx xxx$xxxxxxxx xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -EndDate
-Specifies the end time, as a DateTime object, from which to return metrics.
-To obtain a DateTime object, use the Get-Date cmdlet.
-For more information, type Get-Help Get-Date.
+### $XxxXxxx
+Xxxxxxxxx xxx xxx xxxx$ xx x XxxxXxxx xxxxxx$ xxxx xxxxx xx xxxxxx xxxxxxx.
+Xx xxxxxx x XxxxXxxx xxxxxx$ xxx xxx Xxx$Xxxx xxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxxx Xxx$Xxxx Xxx$Xxxx.
 
 ```yaml
 Type: DateTime
@@ -71,9 +71,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -InstanceDetails
-Indicates that this cmdlet includes details on a per-instance level.
-If the website hosting plan runs on two or more machines, this cmdlet returns details metrics for each machine.
+### $XxxxxxxxXxxxxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx xxxxxxx xx x xxx$xxxxxxxx xxxxx.
+Xx xxx xxxxxxx xxxxxxx xxxx xxxx xx xxx xx xxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxxxxxx xxxxxxx xxx xxxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -87,9 +87,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -MetricNames
-Species an array of metrics to get.
-If you do not specify a value for this parameter, this cmdlet gets all metrics.
+### $XxxxxxXxxxx
+Xxxxxxx xx xxxxx xx xxxxxxx xx xxx.
+Xx xxx xx xxx xxxxxxx x xxxxx xxx xxxx xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxx.
 
 ```yaml
 Type: String[]
@@ -103,10 +103,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of a plan in the subscription.
-By default, Get-AzureWebHostingPlanMetric gets all websites in the current subscription.
-This parameter does not support wildcard characters.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxx xx xxx xxxxxxxxxxxx.
+Xx xxxxxxx$ Xxx$XxxxxXxxXxxxxxxXxxxXxxxxx xxxx xxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
+Xxxx xxxxxxxxx xxxx xxx xxxxxxx xxxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -120,8 +120,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -StartDate
-Specifies the start time, as a DateTime object, for which to get metrics.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxxx xxxx$ xx x XxxxXxxx xxxxxx$ xxx xxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: DateTime
@@ -135,15 +135,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -TimeGrain
-Specifies the time unit for which to get metrics.
-Valid values are: 
+### $XxxxXxxxx
+Xxxxxxxxx xxx xxxx xxxx xxx xxxxx xx xxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- PT1M (Minute) 
--- PT1H (Hour) 
--- P1D (Day)
+$$ XX0X $Xxxxxx$ $$ XX0X $Xxxx$ $$ X0X $Xxx$
 
-The default value is PT1H.
+Xxx xxxxxxx xxxxx xx XX0X.
 
 ```yaml
 Type: String
@@ -157,10 +155,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -WebSpaceName
-Specifies the name of a webspace in the subscription.
-By default, Get-AzureWebHostingPlanMetric gets all plans in the current subscription.
-This parameter does not support wildcard characters.
+### $XxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xx xxx xxxxxxxxxxxx.
+Xx xxxxxxx$ Xxx$XxxxxXxxXxxxxxxXxxxXxxxxx xxxx xxx xxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
+Xxxx xxxxxxxxx xxxx xxx xxxxxxx xxxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -174,22 +172,22 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
 ### 
-You can pass input to this cmdlet by property name, but not by value.
+Xxx xxx xxxx xxxxx xx xxxx xxxxxx xx xxxxxxxx xxxx$ xxx xxx xx xxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
 ### 
-Microsoft.WindowsAzure.Commands.Utilities.Websites.Services.WebEntities.MetricResponse
+Xxxxxxxxx.XxxxxxxXxxxx.Xxxxxxxx.Xxxxxxxxx.Xxxxxxxx.Xxxxxxxx.XxxXxxxxxxx.XxxxxxXxxxxxxx
 
-By default, Get-AzureWebHostingPlanMetric returns an array of MetricResponse objects.
+Xx xxxxxxx$ Xxx$XxxxxXxxXxxxxxxXxxxXxxxxx xxxxxxx xx xxxxx xx XxxxxxXxxxxxxx xxxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureWebHostingPlan](8e660e09-5cdc-4324-b7da-608008b057ca)
+[Xxx$XxxxxXxxXxxxxxxXxxx](8e660e09-5cdc-4324-b7da-608008b057ca)
 
 

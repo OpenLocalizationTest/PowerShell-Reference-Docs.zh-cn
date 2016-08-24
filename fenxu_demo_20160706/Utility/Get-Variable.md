@@ -4,77 +4,61 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293979
 schema: 2.0.0
 ---
 
-# Get-Variable
-## SYNOPSIS
-Gets the variables in the current console.
+# Xxx$Xxxxxxxx
+## XXXXXXXX
+Xxxx xxx xxxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-Variable [[-Name] <String[]>] [-ValueOnly] [-Include <String[]>] [-Exclude <String[]>] [-Scope <String>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-Variable cmdlet gets the Windows PowerShell variables in the current console.
-You can retrieve just the values of the variables by specifying the ValueOnly parameter, and you can filter the variables returned by name.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxxxxx xxxxxx xxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxx xxxxxxxx xxxx xxx xxxxxx xx xxx xxxxxxxxx xx xxxxxxxxxx xxx XxxxxXxxx xxxxxxxxx$ xxx xxx xxx xxxxxx xxx xxxxxxxxx xxxxxxxx xx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Variable m*
 ```
 
-This command gets variables with names that begin with the letter "m".
-The command also gets the value of the variables.
+Xxxx xxxxxxx xxxx xxxxxxxxx xxxx xxxxx xxxx xxxxx xxxx xxx xxxxxx $x$.
+Xxx xxxxxxx xxxx xxxx xxx xxxxx xx xxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Variable m* -Valueonly
 ```
 
-This command gets only the values of the variables that have names that begin with "m".
+Xxxx xxxxxxx xxxx xxxx xxx xxxxxx xx xxx xxxxxxxxx xxxx xxxx xxxxx xxxx xxxxx xxxx $x$.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Variable -Include M*,P*
 ```
 
-This command gets information about the variables that begin with either the letter "M" or the letter "P".
+Xxxx xxxxxxx xxxx xxxxxxxxxxx xxxxx xxx xxxxxxxxx xxxx xxxxx xxxx xxxxxx xxx xxxxxx $X$ xx xxx xxxxxx $X$.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Variable -Scope 0
 PS C:\>Compare-Object (Get-Variable -Scope 0) (Get-Variable -Scope 1)
 ```
 
-The first command gets only the variables that are defined in the local scope.
-It is equivalent to "Get-Variable -Scope Local" and can be abbreviated as "gv -s 0".
+Xxx xxxxx xxxxxxx xxxx xxxx xxx xxxxxxxxx xxxx xxx xxxxxxx xx xxx xxxxx xxxxx.
+Xx xx xxxxxxxxxx xx $Xxx$Xxxxxxxx $Xxxxx Xxxxx$ xxx xxx xx xxxxxxxxxxx xx $xx $x 0$.
 
-The second command uses the Compare-Object cmdlet to find the variables that are defined in the parent scope (Scope 1) but are visible only in the local scope (Scope 0).
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxxx$Xxxxxx xxxxxx xx xxxx xxx xxxxxxxxx xxxx xxx xxxxxxx xx xxx xxxxxx xxxxx $Xxxxx 0$ xxx xxx xxxxxxx xxxx xx xxx xxxxx xxxxx $Xxxxx 0$.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Exclude
-Omits the specified items.
-Wildcards are permitted.
-
-```yaml
-Type: String[]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Include
-Specifies only the items upon which the cmdlet will act, excluding all others.
-Wildcards are permitted.
+### $Xxxxxxx
+Xxxxx xxx xxxxxxxxx xxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -88,8 +72,24 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $Xxxxxxx
+Xxxxxxxxx xxxx xxx xxxxx xxxx xxxxx xxx xxxxxx xxxx xxx$ xxxxxxxxx xxx xxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
+
+```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -104,8 +104,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -119,10 +119,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the variable.
-Wildcards are permitted.
-You can also pipe a variable name to Get-Variable.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
+Xxx xxx xxxx xxxx x xxxxxxxx xxxx xx Xxx$Xxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -136,11 +136,11 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Scope
-Gets only the variables in the specified scope.
-Valid values are "Global", "Local", or "Script", or a number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).
-"Local" is the default.
-For more information, see about_Scopes.
+### $Xxxxx
+Xxxx xxxx xxx xxxxxxxxx xx xxx xxxxxxxxx xxxxx.
+Xxxxx xxxxxx xxx $Xxxxxx$$ $Xxxxx$$ xx $Xxxxxx$$ xx x xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxx $0 xxxxxxx xxx xxxxxx xx xxxxxx$ xxxxx 0 xx xxx xxxxxxx xxxxx xxx 0 xx xxx xxxxxx$.
+$Xxxxx$ xx xxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx.
 
 ```yaml
 Type: String
@@ -154,8 +154,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ValueOnly
-Gets only the value of the variable.
+### $XxxxxXxxx
+Xxxx xxxx xxx xxxxx xx xxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -169,28 +169,28 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
-You can pipe a string that contains the variable name to Get-Variable.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx xxx xxxxxxxx xxxx xx Xxx$Xxxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.PSVariable
-Get-Variable returns a System.Management.Automation variable object for each variable that it gets.
-The object type depends on the variable.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxxxx
+Xxx$Xxxxxxxx xxxxxxx x Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxx xxxxxxxx xxxx xx xxxx.
+Xxx xxxxxx xxxx xxxxxxx xx xxx xxxxxxxx.
 
-## NOTES
-This cmdlet does not manage environment variables.
-To manage environment variables, you can use the environment variable provider.
+## XXXXX
+Xxxx xxxxxx xxxx xxx xxxxxx xxxxxxxxxxx xxxxxxxxx.
+Xx xxxxxx xxxxxxxxxxx xxxxxxxxx$ xxx xxx xxx xxx xxxxxxxxxxx xxxxxxxx xxxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Clear-Variable]()
+[Xxxxx$Xxxxxxxx]()
 
-[New-Variable]()
+[Xxx$Xxxxxxxx]()
 
-[Remove-Variable]()
+[Xxxxxx$Xxxxxxxx]()
 
-[Set-Variable]()
+[Xxx$Xxxxxxxx]()
 

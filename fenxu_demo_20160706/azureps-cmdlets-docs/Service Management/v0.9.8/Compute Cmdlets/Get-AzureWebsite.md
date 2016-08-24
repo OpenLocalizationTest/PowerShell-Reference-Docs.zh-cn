@@ -6,62 +6,62 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureWebsite
-## SYNOPSIS
-Gets Azure websites in the current subscription.
+# Xxx$XxxxxXxxxxxx
+## XXXXXXXX
+Xxxx Xxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureWebsite [[-Name] <String>] [-Slot <String>]
 ```
 
-## DESCRIPTION
-The Get-AzureWebsite cmdlet gets information about Azure websites in the current subscription.
+## XXXXXXXXXXX
+Xxx Xxx$XxxxxXxxxxxx xxxxxx xxxx xxxxxxxxxxx xxxxx Xxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
 
-By default, Get-AzureWebsite gets all Azure websites in the current subscription and returns an object that provides basic information about the sites.
-When you use the Name parameter, Get-AzureWebsite returns an object with extensive information, including configuration details.
+Xx xxxxxxx$ Xxx$XxxxxXxxxxxx xxxx xxx Xxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxxxxx xxx xxxxxxx xx xxxxxx xxxx xxxxxxxx xxxxx xxxxxxxxxxx xxxxx xxx xxxxx.
+Xxxx xxx xxx xxx Xxxx xxxxxxxxx$ Xxx$XxxxxXxxxxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxx xxxxxxxxxxx$ xxxxxxxxx xxxxxxxxxxxxx xxxxxxx.
 
-The current subscription is the subscription that is designated as "current." To find the current subscription, use the Current parameter of the Get-AzureSubscriptionhttp://go.microsoft.com/fwlink/?LinkID=397623 cmdlet.
-To change the current subscription, use the Select-AzureSubscriptionhttp://go.microsoft.com/fwlink/?LinkID=397628 cmdlet.
+Xxx xxxxxxx xxxxxxxxxxxx xx xxx xxxxxxxxxxxx xxxx xx xxxxxxxxxx xx $xxxxxxx.$ Xx xxxx xxx xxxxxxx xxxxxxxxxxxx$ xxx xxx Xxxxxxx xxxxxxxxx xx xxx Xxx$XxxxxXxxxxxxxxxxxxxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000 xxxxxx.
+Xx xxxxxx xxx xxxxxxx xxxxxxxxxxxx$ xxx xxx Xxxxxx$XxxxxXxxxxxxxxxxxxxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000 xxxxxx.
 
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all websites in the subscription
+### Xxxxxxx 0$ Xxx xxx xxxxxxxx xx xxx xxxxxxxxxxxx
 ```
 PS C:\>Get-AzureWebsite
 ```
 
-This command gets all Azure websites in the current subscription.
+Xxxx xxxxxxx xxxx xxx Xxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
 
-### Example 2: Get a website by name
+### Xxxxxxx 0$ Xxx x xxxxxxx xx xxxx
 ```
 PS C:\>Get-AzureWebsite -Name ContosoWeb
 ```
 
-This command gets detailed information about the ContosoWeb Azure website, including configuration information.
-When you use the Name parameter, Get-AzureWebsite returns a SiteWithConfig object with extended information about the website.
+Xxxx xxxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx XxxxxxxXxx Xxxxx xxxxxxx$ xxxxxxxxx xxxxxxxxxxxxx xxxxxxxxxxx.
+Xxxx xxx xxx xxx Xxxx xxxxxxxxx$ Xxx$XxxxxXxxxxxx xxxxxxx x XxxxXxxxXxxxxx xxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxx.
 
-### Example 3: Get detailed information about all websites
+### Xxxxxxx 0$ Xxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxxx
 ```
 PS C:\>Get-AzureWebsite | ForEach-Object {Get-AzureWebsite -Name $_.Name}
 ```
 
-This command gets detailed information about all websites in the subscription.
-It uses a Get-AzureWebsite command to get all websites and then uses the ForEach-Object cmdlet to get each website by name.
+Xxxx xxxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxxx xx xxx xxxxxxxxxxxx.
+Xx xxxx x Xxx$XxxxxXxxxxxx xxxxxxx xx xxx xxx xxxxxxxx xxx xxxx xxxx xxx XxxXxxx$Xxxxxx xxxxxx xx xxx xxxx xxxxxxx xx xxxx.
 
-### Example 4: Get information about a deployment slot
+### Xxxxxxx 0$ Xxx xxxxxxxxxxx xxxxx x xxxxxxxxxx xxxx
 ```
 PS C:\>Get-AzureWebsite -Name ContosoWeb -Slot Staging
 ```
 
-This command gets the Staging deployment slot of the ContosoWeb website.
-Deployment slots let you test different versions of your Azure website without releasing them to the public.
+Xxxx xxxxxxx xxxx xxx Xxxxxxx xxxxxxxxxx xxxx xx xxx XxxxxxxXxx xxxxxxx.
+Xxxxxxxxxx xxxxx xxx xxx xxxx xxxxxxxxx xxxxxxxx xx xxxx Xxxxx xxxxxxx xxxxxxx xxxxxxxxx xxxx xx xxx xxxxxx.
 
-### Example 5: Get website instances
+### Xxxxxxx 0$ Xxx xxxxxxx xxxxxxxxx
 ```
 PS C:\>(Get-AzureWebsite -Name ContosoWeb).Instances
 
@@ -74,20 +74,20 @@ PS C:\>(Get-AzureWebsite -Name ContosoWeb).Instances.Count
 2
 ```
 
-The commands in this example use the Instances property of an Azure website to get information about currently running website instances.
-The Instances property was added to the SiteWithConfig object in version 0.8.3 of the Azure module.
+Xxx xxxxxxxx xx xxxx xxxxxxx xxx xxx Xxxxxxxxx xxxxxxxx xx xx Xxxxx xxxxxxx xx xxx xxxxxxxxxxx xxxxx xxxxxxxxx xxxxxxx xxxxxxx xxxxxxxxx.
+Xxx Xxxxxxxxx xxxxxxxx xxx xxxxx xx xxx XxxxXxxxXxxxxx xxxxxx xx xxxxxxx 0.0.0 xx xxx Xxxxx xxxxxx.
 
-The first command gets the instance IDs of all currently running instances of a website.
-The second command gets the number of running instances of the website.
-(You can use the Count property on any array.)
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxxx XXx xx xxx xxxxxxxxx xxxxxxx xxxxxxxxx xx x xxxxxxx.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxxxx xx xxxxxxx xxxxxxxxx xx xxx xxxxxxx.
+$Xxx xxx xxx xxx Xxxxx xxxxxxxx xx xxx xxxxx.$
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Name
-Gets detailed configuration information about the specified website.
-Enter the name of one website in the subscription.
-By default, Get-AzureWebsite gets all websites in the current subscription.
-The Name value does not support wildcard characters.
+### $Xxxx
+Xxxx xxxxxxxx xxxxxxxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxxxx xxxxxxx.
+Xxxxx xxx xxxx xx xxx xxxxxxx xx xxx xxxxxxxxxxxx.
+Xx xxxxxxx$ Xxx$XxxxxXxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
+Xxx Xxxx xxxxx xxxx xxx xxxxxxx xxxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -101,11 +101,11 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Slot
-Gets the specified deployment slot of the website.
-Enter the slot name, such as "Staging" or "Production".
-For more information about deployment slots, see Staged Deployment on Microsoft Azure Web Siteshttp://azure.microsoft.com/en-us/documentation/articles/web-sites-staged-publishing/.
-To add a deployment slot to an existing Azure website, use the Set-AzureWebsite cmdlet.
+### $Xxxx
+Xxxx xxx xxxxxxxxx xxxxxxxxxx xxxx xx xxx xxxxxxx.
+Xxxxx xxx xxxx xxxx$ xxxx xx $Xxxxxxx$ xx $Xxxxxxxxxx$.
+Xxx xxxx xxxxxxxxxxx xxxxx xxxxxxxxxx xxxxx$ xxx Xxxxxx Xxxxxxxxxx xx Xxxxxxxxx Xxxxx Xxx Xxxxxxxxx$$$xxxxx.xxxxxxxxx.xxx$xx$xx$xxxxxxxxxxxxx$xxxxxxxx$xxx$xxxxx$xxxxxx$xxxxxxxxxx$.
+Xx xxx x xxxxxxxxxx xxxx xx xx xxxxxxxx Xxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -119,31 +119,31 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You can pipe input to this cmdlet by property name, but not by value.
+### Xxxx
+Xxx xxx xxxx xxxxx xx xxxx xxxxxx xx xxxxxxxx xxxx$ xxx xxx xx xxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.WindowsAzure.Commands.Utilities.Websites.Services.WebEntities.Site
-By default, Get-AzureWebsite returns an array of Site objects.
+### Xxxxxxxxx.XxxxxxxXxxxx.Xxxxxxxx.Xxxxxxxxx.Xxxxxxxx.Xxxxxxxx.XxxXxxxxxxx.Xxxx
+Xx xxxxxxx$ Xxx$XxxxxXxxxxxx xxxxxxx xx xxxxx xx Xxxx xxxxxxx.
 
-### Microsoft.WindowsAzure.Commands.Utilities.Websites.Services.WebEntities.SiteWithConfig
-When you use the Name parameter, Get-AzureWebsite returns a SiteWithConfig object.
+### Xxxxxxxxx.XxxxxxxXxxxx.Xxxxxxxx.Xxxxxxxxx.Xxxxxxxx.Xxxxxxxx.XxxXxxxxxxx.XxxxXxxxXxxxxx
+Xxxx xxx xxx xxx Xxxx xxxxxxxxx$ Xxx$XxxxxXxxxxxx xxxxxxx x XxxxXxxxXxxxxx xxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
+[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
 
-[Remove-AzureWebsite](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
+[Xxxxxx$XxxxxXxxxxxx](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
 
-[Start-AzureWebsite](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
+[Xxxxx$XxxxxXxxxxxx](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
 
-[Stop-AzureWebsite](62c5de93-e58b-4e57-85d0-8b7e75df1f31)
+[Xxxx$XxxxxXxxxxxx](62c5de93-e58b-4e57-85d0-8b7e75df1f31)
 
-[Show-AzureWebsite](3b828275-d62a-4c04-9767-15d6f743557c)
+[Xxxx$XxxxxXxxxxxx](3b828275-d62a-4c04-9767-15d6f743557c)
 
 

@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureStorageFileContent
-## SYNOPSIS
-Uploads the contents of a file.
+# Xxx$XxxxxXxxxxxxXxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx xxx xxxxxxxx xx x xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureStorageFileContent [-ShareName] <String> [-Source] <String> [[-Path] <String>]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
@@ -20,33 +20,33 @@ Set-AzureStorageFileContent [-ShareName] <String> [-Source] <String> [[-Path] <S
  [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureStorageFileContent [-Share] <CloudFileShare> [-Source] <String> [[-Path] <String>]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>] [-Force]
  [-PassThru] [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureStorageFileContent [-Directory] <CloudFileDirectory> [-Source] <String> [[-Path] <String>]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>] [-Force]
  [-PassThru] [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Set-AzureStorageFileContent** cmdlet uploads the contents of a file to a file on a specified share.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxXxxxxxx$$ xxxxxx xxxxxxx xxx xxxxxxxx xx x xxxx xx x xxxx xx x xxxxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Upload a file in the current folder
+### Xxxxxxx 0$ Xxxxxx x xxxx xx xxx xxxxxxx xxxxxx
 ```
 PS C:\>Set-AzureStorageFileContent â€"ShareName "ContosoShare06" â€"Source "DataFile37" â€"Path "ContosoWorkingFolder/CurrentDataFile"
 ```
 
-This command uploads a file that is named DataFile37 in the current folder as a file that is named CurrentDataFile in the folder named ContosoWorkingFolder.
+Xxxx xxxxxxx xxxxxxx x xxxx xxxx xx xxxxx XxxxXxxx00 xx xxx xxxxxxx xxxxxx xx x xxxx xxxx xx xxxxx XxxxxxxXxxxXxxx xx xxx xxxxxx xxxxx XxxxxxxXxxxxxxXxxxxx.
 
-### Example 2: Upload all the files in the current folder
+### Xxxxxxx 0$ Xxxxxx xxx xxx xxxxx xx xxx xxxxxxx xxxxxx
 ```
 PS C:\>$CurrentFolder = (Get-Item .).FullName
 PS C:\> $Container = Get-AzureStorageShare -Name "ContosoShare06"
@@ -56,37 +56,22 @@ PS C:\> Get-ChildItem -Recurse | Where-Object { $_.GetType().Name -eq "FileInfo"
 }
 ```
 
-This example uses several common powershell cmdlets and the current cmdlet to upload all files from the current folder to the root folder of container ContosoShare06.
+Xxxx xxxxxxx xxxx xxxxxxx xxxxxx xxxxxxxxxx xxxxxxx xxx xxx xxxxxxx xxxxxx xx xxxxxx xxx xxxxx xxxx xxx xxxxxxx xxxxxx xx xxx xxxx xxxxxx xx xxxxxxxxx XxxxxxxXxxxx00.
 
-The first command gets the name of the current folder and stores it in the $CurrentFolder variable.
+Xxx xxxxx xxxxxxx xxxx xxx xxxx xx xxx xxxxxxx xxxxxx xxx xxxxxx xx xx xxx $XxxxxxxXxxxxx xxxxxxxx.
 
-The second command uses the **Get-AzureStorageShare** cmdlet to get the file share named ContosoShare06, and then stores it in the $Container variable.
+Xxx xxxxxx xxxxxxx xxxx xxx $$Xxx$XxxxxXxxxxxxXxxxx$$ xxxxxx xx xxx xxx xxxx xxxxx xxxxx XxxxxxxXxxxx00$ xxx xxxx xxxxxx xx xx xxx $Xxxxxxxxx xxxxxxxx.
 
-The final command gets the contents of the current folder and passes each one to the Where-Object cmdlet by using the pipeline operator.
-That cmdlet filters out objects that are not files, and then passes the files to the ForEach-Object cmdlet.
-That cmdlet runs a script block for each file that creates the appropriate path for it and then uses the current cmdlet to upload the file.
-The result has the same name and same relative position with regard to the other files that this example uploads.
-For more information about script blocks, type \[CODE_Snippit\]Get-Help about_Script_Blocks\[CODE_Snippit\].
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxxxx xxxxxx xxx xxxxxx xxxx xxx xx xxx Xxxxx$Xxxxxx xxxxxx xx xxxxx xxx xxxxxxxx xxxxxxxx.
+Xxxx xxxxxx xxxxxxx xxx xxxxxxx xxxx xxx xxx xxxxx$ xxx xxxx xxxxxx xxx xxxxx xx xxx XxxXxxx$Xxxxxx xxxxxx.
+Xxxx xxxxxx xxxx x xxxxxx xxxxx xxx xxxx xxxx xxxx xxxxxxx xxx xxxxxxxxxxx xxxx xxx xx xxx xxxx xxxx xxx xxxxxxx xxxxxx xx xxxxxx xxx xxxx.
+Xxx xxxxxx xxx xxx xxxx xxxx xxx xxxx xxxxxxxx xxxxxxxx xxxx xxxxxx xx xxx xxxxx xxxxx xxxx xxxx xxxxxxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxxxxx xxxxxx$ xxxx $$XXXX$Xxxxxxx$$Xxx$Xxxx xxxxx$Xxxxxx$Xxxxxx$$XXXX$Xxxxxxx$$.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-@{Text=}
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -100,8 +85,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-@{Text=}
+### $XxxxxxxxxxXxxxXxxxx
+$$Xxxx$$
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: AzureStorageContext
@@ -115,11 +115,11 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Directory
-Specifies a folder as a **CloudFileDirectory** object.
-This cmdlet uploads the file to the folder that this parameter specifies.
-To obtain a directory, use the New-AzureStorageDirectory cmdlet.
-You can also use the Get-AzureStorageFile cmdlet to obtain a directory.
+### $Xxxxxxxxx
+Xxxxxxxxx x xxxxxx xx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx.
+Xxxx xxxxxx xxxxxxx xxx xxxx xx xxx xxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x xxxxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
+Xxx xxx xxxx xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx xx xxxxxx x xxxxxxxxx.
 
 ```yaml
 Type: CloudFileDirectory
@@ -133,8 +133,8 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -Force
-@{Text=}
+### $Xxxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -148,8 +148,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-@{Text=}
+### $XxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -163,8 +163,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-@{Text=}
+### $Xxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -178,8 +178,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -193,12 +193,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Share
-Specifies a **CloudFileShare** object.
-This cmdlet uploads to a file in the file share this parameter specifies.
-To obtain a **CloudFileShare** object, use the Get-AzureStorageShare cmdlet.
-This object contains the storage context.
-If you specify this parameter, do not specify the *Context* parameter.
+### $Xxxxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx.
+Xxxx xxxxxx xxxxxxx xx x xxxx xx xxx xxxx xxxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxx xxxxxx.
+Xxxx xxxxxx xxxxxxxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxx xxxx xxxxxxxxx$ xx xxx xxxxxxx xxx $Xxxxxxx$ xxxxxxxxx.
 
 ```yaml
 Type: CloudFileShare
@@ -212,9 +212,9 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -ShareName
-Specifies the name of the file share.
-This cmdlet uploads to a file in the file share this parameter specifies.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxx xxxxxxx xx x xxxx xx xxx xxxx xxxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -228,8 +228,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Source
-@{Text=}
+### $Xxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -243,8 +243,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -258,8 +258,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -273,18 +273,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Remove-AzureStorageDirectory](2cbd0756-0224-43b0-8e22-a7316b7e24c2)
+[Xxxxxx$XxxxxXxxxxxxXxxxxxxxx](2cbd0756-0224-43b0-8e22-a7316b7e24c2)
 
-[New-AzureStorageDirectory](2eea330c-759d-4dee-81e9-2e72de9f707e)
+[Xxx$XxxxxXxxxxxxXxxxxxxxx](2eea330c-759d-4dee-81e9-2e72de9f707e)
 
-[Get-AzureStorageFileContent](7e23b9f6-5f66-49a3-beb8-e2639c5234d7)
+[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](7e23b9f6-5f66-49a3-beb8-e2639c5234d7)
 
 

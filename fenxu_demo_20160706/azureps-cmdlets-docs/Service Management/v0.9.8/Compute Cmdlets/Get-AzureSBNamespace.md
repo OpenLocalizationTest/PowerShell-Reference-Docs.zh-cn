@@ -6,35 +6,35 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureSBNamespace
-## SYNOPSIS
-Gets the namespace.
+# Xxx$XxxxxXXXxxxxxxxx
+## XXXXXXXX
+Xxxx xxx xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureSBNamespace [[-Name] <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Get-AzureSBNamespace cmdlet returns the Service Bus service namespaces associated with the current subscription.
+Xxx Xxx$XxxxxXXXxxxxxxxx xxxxxx xxxxxxx xxx Xxxxxxx Xxx xxxxxxx xxxxxxxxxx xxxxxxxxxx xxxx xxx xxxxxxx xxxxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Get the Service Bus namespace
+### 0$ Xxx xxx Xxxxxxx Xxx xxxxxxxxx
 ```
 PS C:\>Get-AzureSBNamespace
 ```
 
-This example gets the Service Bus service namespaces associated with the current subscription.
+Xxxx xxxxxxx xxxx xxx Xxxxxxx Xxx xxxxxxx xxxxxxxxxx xxxxxxxxxx xxxx xxx xxxxxxx xxxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Name
-Specifies the name of a Service Bus namespace to look for.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x Xxxxxxx Xxx xxxxxxxxx xx xxxx xxx.
 
 ```yaml
 Type: String
@@ -48,14 +48,14 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureSBLocation](bff960ab-8d2e-43e7-879c-fc13559394df)
+[Xxx$XxxxxXXXxxxxxxx](bff960ab-8d2e-43e7-879c-fc13559394df)
 
 

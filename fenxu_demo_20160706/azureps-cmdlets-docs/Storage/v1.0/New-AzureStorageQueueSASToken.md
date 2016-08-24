@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageQueueSASToken
-## SYNOPSIS
-Generates a shared access signature token for an azure_2 storage queue.
+# Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx
+## XXXXXXXX
+Xxxxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageQueueSASToken [-Name] <String> [-Context <AzureStorageContext>] [-ExpiryTime <DateTime]>]
  [-FullUri] [-IPAddressOrRange <String>]
@@ -20,30 +20,30 @@ New-AzureStorageQueueSASToken [-Name] <String> [-Context <AzureStorageContext>] 
  -Policy <String>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageQueueSASToken [-Name] <String> [-Context <AzureStorageContext>] [-ExpiryTime <DateTime]>]
  [-FullUri] [-IPAddressOrRange <String>] [-Permission <String>]
  [-Protocol <Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]>] [-StartTime <DateTime]>]
 ```
 
-## DESCRIPTION
-The **New-AzureStorageQueueSASToken** cmdlet generates shared access signature token for an azure_2 storage queue.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx$$ xxxxxx xxxxxxxxx xxxxxx xxxxxx xxxxxxxxx xxxxx xxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Generate a queue SAS token with full permission
+### Xxxxxxx 0$ Xxxxxxxx x xxxxx XXX xxxxx xxxx xxxx xxxxxxxxxx
 ```
 PS C:\>New-AzureStorageQueueSASToken -Name "Test" -Permission raup
 ```
 
-This example generates a queue SAS token with full permission.
+Xxxx xxxxxxx xxxxxxxxx x xxxxx XXX xxxxx xxxx xxxx xxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies the azure_2 storage context.
-You can create it by New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxxxx.
+Xxx xxx xxxxxx xx xx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -57,8 +57,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-Specifies when the shared access signature is no longer valid.
+### $XxxxxxXxxx
+Xxxxxxxxx xxxx xxx xxxxxx xxxxxx xxxxxxxxx xx xx xxxxxx xxxxx.
 
 ```yaml
 Type: DateTime]
@@ -72,8 +72,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FullUri
-Indicates that this cmdlet return the full blob URI and the shared access signature token.
+### $XxxxXxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxx xxx xxxx xxxx XXX xxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -87,8 +87,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -IPAddressOrRange
-@{Text=}
+### $XXXxxxxxxXxXxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -102,8 +102,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies an azure_2 storage queue name.
+### $Xxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxx xxxx.
 
 ```yaml
 Type: String
@@ -117,8 +117,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Permission
-Specifies permissions for a storage queue.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxxxxxxxxxx xxx x xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -132,8 +132,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-Specifies an azure_2 stored access policy.
+### $Xxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxx xxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -147,8 +147,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Protocol
-@{Text=}
+### $Xxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]
@@ -162,8 +162,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies when the shared access signature becomes valid.
+### $XxxxxXxxx
+Xxxxxxxxx xxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: DateTime]
@@ -177,12 +177,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 

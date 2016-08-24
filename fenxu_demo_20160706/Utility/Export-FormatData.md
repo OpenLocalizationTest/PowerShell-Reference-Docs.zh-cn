@@ -4,63 +4,63 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293958
 schema: 2.0.0
 ---
 
-# Export-FormatData
-## SYNOPSIS
-Saves formatting data from the current session in a formatting file.
+# Xxxxxx$XxxxxxXxxx
+## XXXXXXXX
+Xxxxx xxxxxxxxxx xxxx xxxx xxx xxxxxxx xxxxxxx xx x xxxxxxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### ByPath (Default)
+### XxXxxx $Xxxxxxx$
 ```
 Export-FormatData -InputObject <ExtendedTypeDefinition[]> -Path <String> [-Force] [-NoClobber]
  [-IncludeScriptBlock] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### ByLiteralPath
+### XxXxxxxxxXxxx
 ```
 Export-FormatData -InputObject <ExtendedTypeDefinition[]> -LiteralPath <String> [-Force] [-NoClobber]
  [-IncludeScriptBlock] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Export-FormatData cmdlet creates Windows PowerShell formatting files (format.ps1xml) from the formatting objects in the current session.
-It takes the ExtendedTypeDefinition objects that Get-FormatData returns and saves them in a file in XML format.
+## XXXXXXXXXXX
+Xxx Xxxxxx$XxxxxxXxxx xxxxxx xxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxxxxx xxxxx $xxxxxx.xx0xxx$ xxxx xxx xxxxxxxxxx xxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxxxx xxx XxxxxxxxXxxxXxxxxxxxxx xxxxxxx xxxx Xxx$XxxxxxXxxx xxxxxxx xxx xxxxx xxxx xx x xxxx xx XXX xxxxxx.
 
-Windows PowerShell uses the data in formatting files (format.ps1xml) to generate the default display of Microsoft .NET Framework objects in the session.
-You can view and edit the formatting files and use the Update-FormatData cmdlet to add the formatting data to a session.
+Xxxxxxx XxxxxXxxxx xxxx xxx xxxx xx xxxxxxxxxx xxxxx $xxxxxx.xx0xxx$ xx xxxxxxxx xxx xxxxxxx xxxxxxx xx Xxxxxxxxx .XXX Xxxxxxxxx xxxxxxx xx xxx xxxxxxx.
+Xxx xxx xxxx xxx xxxx xxx xxxxxxxxxx xxxxx xxx xxx xxx Xxxxxx$XxxxxxXxxx xxxxxx xx xxx xxx xxxxxxxxxx xxxx xx x xxxxxxx.
 
-For more information about formatting files in Windows PowerShell, see about_Format.ps1xml.
+Xxx xxxx xxxxxxxxxxx xxxxx xxxxxxxxxx xxxxx xx Xxxxxxx XxxxxXxxxx$ xxx xxxxx$Xxxxxx.xx0xxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-formatdata -typename * | export-formatdata -path allformat.ps1xml -IncludeScriptBlock
 ```
 
-This command exports all of the format data in the session to the AllFormat.ps1xml file.
+Xxxx xxxxxxx xxxxxxx xxx xx xxx xxxxxx xxxx xx xxx xxxxxxx xx xxx XxxXxxxxx.xx0xxx xxxx.
 
-The command uses the Get-FormatData cmdlet to get the format data in the session.
-A value of * (all) for the TypeName parameter directs the cmdlet to get all of the data in the session.
+Xxx xxxxxxx xxxx xxx Xxx$XxxxxxXxxx xxxxxx xx xxx xxx xxxxxx xxxx xx xxx xxxxxxx.
+X xxxxx xx $ $xxx$ xxx xxx XxxxXxxx xxxxxxxxx xxxxxxx xxx xxxxxx xx xxx xxx xx xxx xxxx xx xxx xxxxxxx.
 
-The command uses a pipeline operator (|) to send the format data from the Get-FormatData command to the Export-FormatData cmdlet, which exports the format data to the AllFormat.ps1 file.
+Xxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxx xxxx xxxx xxx Xxx$XxxxxxXxxx xxxxxxx xx xxx Xxxxxx$XxxxxxXxxx xxxxxx$ xxxxx xxxxxxx xxx xxxxxx xxxx xx xxx XxxXxxxxx.xx0 xxxx.
 
-The Export-FormatData command uses the IncludeScriptBlock parameter to include script blocks in the format data in the file.
+Xxx Xxxxxx$XxxxxxXxxx xxxxxxx xxxx xxx XxxxxxxXxxxxxXxxxx xxxxxxxxx xx xxxxxxx xxxxxx xxxxxx xx xxx xxxxxx xxxx xx xxx xxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$f = get-formatdata -typename helpinfoshort
 PS C:\>export-formatdata -inputObject $f -path c:\test\help.format.ps1xml -IncludeScriptBlock
 ```
 
-These commands export the format data for the HelpInfoShort type to the Help.format.ps1xml file.
+Xxxxx xxxxxxxx xxxxxx xxx xxxxxx xxxx xxx xxx XxxxXxxxXxxxx xxxx xx xxx Xxxx.xxxxxx.xx0xxx xxxx.
 
-The first command uses the Get-FormatData cmdlet to get the format data for the HelpInfoShort type, and it saves it in the $f variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XxxxxxXxxx xxxxxx xx xxx xxx xxxxxx xxxx xxx xxx XxxxXxxxXxxxx xxxx$ xxx xx xxxxx xx xx xxx $x xxxxxxxx.
 
-The second command uses the InputObject parameter of the Export-FormatData to enter the format data saved in the $f variable.
-It also uses the IncludeScriptBlock parameter to include script blocks in the output.
+Xxx xxxxxx xxxxxxx xxxx xxx XxxxxXxxxxx xxxxxxxxx xx xxx Xxxxxx$XxxxxxXxxx xx xxxxx xxx xxxxxx xxxx xxxxx xx xxx $x xxxxxxxx.
+Xx xxxx xxxx xxx XxxxxxxXxxxxxXxxxx xxxxxxxxx xx xxxxxxx xxxxxx xxxxxx xx xxx xxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-formatdata -typename System.Diagnostics.Process | export-FormatData -path process.format.ps1xml
 PS C:\>Update-FormatData -prependPath .\process.format.ps1xml
@@ -73,41 +73,24 @@ Handles  NPM(K)  PM(K)  WS(K) VM(M)   CPU(s)    Id ProcessName
 138                                       4076 PresentationFontCache
 ```
 
-This example shows the effect of omitting the IncludeScriptBlock parameter from an Export-FormatData command.
+Xxxx xxxxxxx xxxxx xxx xxxxxx xx xxxxxxxx xxx XxxxxxxXxxxxxXxxxx xxxxxxxxx xxxx xx Xxxxxx$XxxxxxXxxx xxxxxxx.
 
-The first command uses the Get-FormatData cmdlet to get the format data for the System.Diagnostics.Process object that the Get-Process cmdlet returns.
-The command uses a pipeline operator (|) to send the formatting data to the Export-FormatData cmdlet, which exports it to the Process.format.ps1xml file in the current directory.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XxxxxxXxxx xxxxxx xx xxx xxx xxxxxx xxxx xxx xxx Xxxxxx.Xxxxxxxxxxx.Xxxxxxx xxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xxxxxxx.
+Xxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxxxxx xxxx xx xxx Xxxxxx$XxxxxxXxxx xxxxxx$ xxxxx xxxxxxx xx xx xxx Xxxxxxx.xxxxxx.xx0xxx xxxx xx xxx xxxxxxx xxxxxxxxx.
 
-In this case, the Export-FormatData command does not use the IncludeScriptBlock parameter.
+Xx xxxx xxxx$ xxx Xxxxxx$XxxxxxXxxx xxxxxxx xxxx xxx xxx xxx XxxxxxxXxxxxxXxxxx xxxxxxxxx.
 
-The second command uses the Update-FormatData cmdlet to add the Process.format.ps1xml file to the current session.
-The command uses the PrependPath parameter to ensure that the formatting data for process objects in the Process.format.ps1xml file is found before the standard formatting data for process objects.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxx$XxxxxxXxxx xxxxxx xx xxx xxx Xxxxxxx.xxxxxx.xx0xxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxx xxx XxxxxxxXxxx xxxxxxxxx xx xxxxxx xxxx xxx xxxxxxxxxx xxxx xxx xxxxxxx xxxxxxx xx xxx Xxxxxxx.xxxxxx.xx0xxx xxxx xx xxxxx xxxxxx xxx xxxxxxxx xxxxxxxxxx xxxx xxx xxxxxxx xxxxxxx.
 
-The third command shows the effects of this change.
-The command uses the Get-Process cmdlet to get processes that have names that begin with "P".
-The output shows that property values that are calculated by using script blocks are missing from the display.
+Xxx xxxxx xxxxxxx xxxxx xxx xxxxxxx xx xxxx xxxxxx.
+Xxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxxxxxxxx xxxx xxxx xxxxx xxxx xxxxx xxxx $X$.
+Xxx xxxxxx xxxxx xxxx xxxxxxxx xxxxxx xxxx xxx xxxxxxxxxx xx xxxxx xxxxxx xxxxxx xxx xxxxxxx xxxx xxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Force
-Overwrites an existing output file, even if the file has the read-only attribute.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -IncludeScriptBlock
-Determines whether script blocks in the format data are exported.
-
-Because script blocks contain code and can be used maliciously, they are not exported by default.
+### $Xxxxx
+Xxxxxxxxxx xx xxxxxxxx xxxxxx xxxx$ xxxx xx xxx xxxx xxx xxx xxxx$xxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -121,8 +104,25 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxXxxxxxXxxxx
+Xxxxxxxxxx xxxxxxx xxxxxx xxxxxx xx xxx xxxxxx xxxx xxx xxxxxxxx.
+
+Xxxxxxx xxxxxx xxxxxx xxxxxxx xxxx xxx xxx xx xxxx xxxxxxxxxxx$ xxxx xxx xxx xxxxxxxx xx xxxxxxx.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -137,8 +137,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -152,10 +152,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the format data objects to be exported.
-Enter a variable that contains the objects or a command that gets the objects, such as a Get-FormatData command.
-You can also pipe the objects from Get-FormatData to Export-FormatData.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxx xxxx xxxxxxx xx xx xxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx x xxxxxxx xxxx xxxx xxx xxxxxxx$ xxxx xx x Xxx$XxxxxxXxxx xxxxxxx.
+Xxx xxx xxxx xxxx xxx xxxxxxx xxxx Xxx$XxxxxxXxxx xx Xxxxxx$XxxxxxXxxx.
 
 ```yaml
 Type: ExtendedTypeDefinition[]
@@ -169,11 +169,11 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -NoClobber
-Prevents the cmdlet from overwriting existing files.
-By default, Export-FormatData overwrites files without warning unless the file has the read-only attribute.
+### $XxXxxxxxx
+Xxxxxxxx xxx xxxxxx xxxx xxxxxxxxxxx xxxxxxxx xxxxx.
+Xx xxxxxxx$ Xxxxxx$XxxxxxXxxx xxxxxxxxxx xxxxx xxxxxxx xxxxxxx xxxxxx xxx xxxx xxx xxx xxxx$xxxx xxxxxxxxx.
 
-To direct Export-FormatData to overwrite read-only files, use the Force parameter.
+Xx xxxxxx Xxxxxx$XxxxxxXxxx xx xxxxxxxxx xxxx$xxxx xxxxx$ xxx xxx Xxxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -187,16 +187,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies a location for the output file. 
-Enter a path (optional) and file name with a format.ps1xml file name extension.
-If you omit the path, Export-FormatData creates the file in the current directory.
+### $Xxxx
+Xxxxxxxxx x xxxxxxxx xxx xxx xxxxxx xxxx. Xxxxx x xxxx $xxxxxxxx$ xxx xxxx xxxx xxxx x xxxxxx.xx0xxx xxxx xxxx xxxxxxxxx.
+Xx xxx xxxx xxx xxxx$ Xxxxxx$XxxxxxXxxx xxxxxxx xxx xxxx xx xxx xxxxxxx xxxxxxxxx.
 
-If you use a file name extension other than .ps1xml, the Update-FormatData cmdlet will not recognize the file.
+Xx xxx xxx x xxxx xxxx xxxxxxxxx xxxxx xxxx .xx0xxx$ xxx Xxxxxx$XxxxxxXxxx xxxxxx xxxx xxx xxxxxxxxx xxx xxxx.
 
-If you specify an existing file, Export-FormatData overwrites the file without warning, unless the file has the read-only attribute.
-To overwrite a read-only file, use the Force parameter.
-To prevent files from being overwritten, use the NoClobber parameter.
+Xx xxx xxxxxxx xx xxxxxxxx xxxx$ Xxxxxx$XxxxxxXxxx xxxxxxxxxx xxx xxxx xxxxxxx xxxxxxx$ xxxxxx xxx xxxx xxx xxx xxxx$xxxx xxxxxxxxx.
+Xx xxxxxxxxx x xxxx$xxxx xxxx$ xxx xxx Xxxxx xxxxxxxxx.
+Xx xxxxxxx xxxxx xxxx xxxxx xxxxxxxxxxx$ xxx xxx XxXxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -210,12 +209,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -LiteralPath
-Specifies a location for the output file.
-Unlike the Path parameter, the value of LiteralPath is used exactly as it is typed.
-No characters are interpreted as wildcards.
-If the path includes escape characters, enclose it in single quotation marks.
-Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.
+### $XxxxxxxXxxx
+Xxxxxxxxx x xxxxxxxx xxx xxx xxxxxx xxxx.
+Xxxxxx xxx Xxxx xxxxxxxxx$ xxx xxxxx xx XxxxxxxXxxx xx xxxx xxxxxxx xx xx xx xxxxx.
+Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
+Xx xxx xxxx xxxxxxxx xxxxxx xxxxxxxxxx$ xxxxxxx xx xx xxxxxx xxxxxxxxx xxxxx.
+Xxxxxx xxxxxxxxx xxxxx xxxx Xxxxxxx XxxxxXxxxx xxx xx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -229,24 +228,24 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.ExtendedTypeDefinition
-You can pipe ExtendedTypeDefinition objects from Get-FormatData to Export-FormatData.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxxxxXxxxXxxxxxxxxx
+Xxx xxx xxxx XxxxxxxxXxxxXxxxxxxxxx xxxxxxx xxxx Xxx$XxxxxxXxxx xx Xxxxxx$XxxxxxXxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-Export-FormatData does not return any objects.
-It generates a file and saves it in the specified path.
+### Xxxx
+Xxxxxx$XxxxxxXxxx xxxx xxx xxxxxx xxx xxxxxxx.
+Xx xxxxxxxxx x xxxx xxx xxxxx xx xx xxx xxxxxxxxx xxxx.
 
-## NOTES
-To use any formatting file, including an exported formatting file, the execution policy for the session must allow scripts and configuration files to run.
-For more information, see about_Execution_Policies.
+## XXXXX
+Xx xxx xxx xxxxxxxxxx xxxx$ xxxxxxxxx xx xxxxxxxx xxxxxxxxxx xxxx$ xxx xxxxxxxxx xxxxxx xxx xxx xxxxxxx xxxx xxxxx xxxxxxx xxx xxxxxxxxxxxxx xxxxx xx xxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxxxx$Xxxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-FormatData]()
+[Xxx$XxxxxxXxxx]()
 
-[Update-FormatData]()
+[Xxxxxx$XxxxxxXxxx]()
 

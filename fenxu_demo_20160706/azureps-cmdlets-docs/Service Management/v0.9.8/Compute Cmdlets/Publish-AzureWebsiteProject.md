@@ -6,91 +6,91 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Publish-AzureWebsiteProject
-## SYNOPSIS
-Publish a Visual Studio web project to a Microsoft Azure web site using WebDeploy.
+# Xxxxxxx$XxxxxXxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx x Xxxxxx Xxxxxx xxx xxxxxxx xx x Xxxxxxxxx Xxxxx xxx xxxx xxxxx XxxXxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Publish-AzureWebsiteProject [[-Name] <String>] [-ProjectFile] <String> [[-Configuration] <String>]
  [[-ConnectionString] <Hashtable>] [-Slot <String>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Publish-AzureWebsiteProject [[-Name] <String>] [-Package] <String> [[-ConnectionString] <Hashtable>]
  [-Slot <String>]
 ```
 
-## DESCRIPTION
-Publish a Visual Studio web project to a Microsoft Azure web site using WebDeploy.
-It can either take a WebDeploy package and publish directly, or take a Visual Studio web project, build the project and publish.
-It can also replace the connection strings in the Web.config during publish.
+## XXXXXXXXXXX
+Xxxxxxx x Xxxxxx Xxxxxx xxx xxxxxxx xx x Xxxxxxxxx Xxxxx xxx xxxx xxxxx XxxXxxxxx.
+Xx xxx xxxxxx xxxx x XxxXxxxxx xxxxxxx xxx xxxxxxx xxxxxxxx$ xx xxxx x Xxxxxx Xxxxxx xxx xxxxxxx$ xxxxx xxx xxxxxxx xxx xxxxxxx.
+Xx xxx xxxx xxxxxxx xxx xxxxxxxxxx xxxxxxx xx xxx Xxx.xxxxxx xxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 C:\PS>Publish-AzureWebsiteProject -Name site1 -ProjectFile .\WebApplication1.csproj -Configuration Debug
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-Build a Visual Studio web project with "Debug" configuration (meaning use Web.Debug.config) and publish to a Microsoft Azure Web Site using WebDeploy.
+Xxxxx x Xxxxxx Xxxxxx xxx xxxxxxx xxxx $Xxxxx$ xxxxxxxxxxxxx $xxxxxxx xxx Xxx.Xxxxx.xxxxxx$ xxx xxxxxxx xx x Xxxxxxxxx Xxxxx Xxx Xxxx xxxxx XxxXxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 C:\PS>Publish-AzureWebsiteProject -Name site1 -Package .\WebApplication1.zip
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-Publish a WebDeploy Pacakge .zip file to a Microsoft Azure Web Site using WebDeploy.
+Xxxxxxx x XxxXxxxxx Xxxxxxx .xxx xxxx xx x Xxxxxxxxx Xxxxx Xxx Xxxx xxxxx XxxXxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 C:\PS>Publish-AzureWebsiteProject -Name site1 -Package .\WebApplication1
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-Publish a WebDeploy Pacakge folder to a Microsoft Azure Web Site using WebDeploy.
+Xxxxxxx x XxxXxxxxx Xxxxxxx xxxxxx xx x Xxxxxxxxx Xxxxx Xxx Xxxx xxxxx XxxXxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 C:\PS>Publish-AzureWebsiteProject -Name site1 -ProjectFile .\WebApplication1.csproj -ConnectionString @{ DefaultConnection = "my connection string" }
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-Build a Visual Studio web project, overwrite the "DefaultConnection" connection string in Web.config and publish to a Microsoft Azure Web Site using WebDeploy.
+Xxxxx x Xxxxxx Xxxxxx xxx xxxxxxx$ xxxxxxxxx xxx $XxxxxxxXxxxxxxxxx$ xxxxxxxxxx xxxxxx xx Xxx.xxxxxx xxx xxxxxxx xx x Xxxxxxxxx Xxxxx Xxx Xxxx xxxxx XxxXxxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 C:\PS>Publish-AzureWebsiteProject -Name site1 -ProjectFile .\WebApplication1.csproj -DefaultConnection "my connection string"
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-Build a Visual Studio web project, overwrite the "DefaultConnection" connection string in Web.config and publish to a Microsoft Azure Web Site using WebDeploy.
-Notice that -DefaultConnection is a dynamic parameter which gets added by parsing Web.config.
+Xxxxx x Xxxxxx Xxxxxx xxx xxxxxxx$ xxxxxxxxx xxx $XxxxxxxXxxxxxxxxx$ xxxxxxxxxx xxxxxx xx Xxx.xxxxxx xxx xxxxxxx xx x Xxxxxxxxx Xxxxx Xxx Xxxx xxxxx XxxXxxxxx.
+Xxxxxx xxxx $XxxxxxxXxxxxxxxxx xx x xxxxxxx xxxxxxxxx xxxxx xxxx xxxxx xx xxxxxxx Xxx.xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Configuration
-The configuration used to build the Visual Studio web application project.
+### $Xxxxxxxxxxxxx
+Xxx xxxxxxxxxxxxx xxxx xx xxxxx xxx Xxxxxx Xxxxxx xxx xxxxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -104,8 +104,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ConnectionString
-The connection strings to use for the deployment.
+### $XxxxxxxxxxXxxxxx
+Xxx xxxxxxxxxx xxxxxxx xx xxx xxx xxx xxxxxxxxxx.
 
 ```yaml
 Type: Hashtable
@@ -119,8 +119,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-The web site name.
+### $Xxxx
+Xxx xxx xxxx xxxx.
 
 ```yaml
 Type: String
@@ -134,8 +134,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Package
-The WebDeploy package folder for zip file of the Visual Studio web application project to be published.
+### $Xxxxxxx
+Xxx XxxXxxxxx xxxxxxx xxxxxx xxx xxx xxxx xx xxx Xxxxxx Xxxxxx xxx xxxxxxxxxxx xxxxxxx xx xx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -149,8 +149,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ProjectFile
-The Visual Studio web application project to be published.
+### $XxxxxxxXxxx
+Xxx Xxxxxx Xxxxxx xxx xxxxxxxxxxx xxxxxxx xx xx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -164,8 +164,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Slot
-The web site slot name.
+### $Xxxx
+Xxx xxx xxxx xxxx xxxx.
 
 ```yaml
 Type: String
@@ -179,20 +179,20 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
-[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
+[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
 
-[Remove-AzureWebsite](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
+[Xxxxxx$XxxxxXxxxxxx](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
 
-[Set-AzureWebsite](7b386051-005d-499d-a106-1eb34d5c9f47)
+[Xxx$XxxxxXxxxxxx](7b386051-005d-499d-a106-1eb34d5c9f47)
 
 

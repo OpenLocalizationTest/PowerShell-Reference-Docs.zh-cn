@@ -4,36 +4,36 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293964
 schema: 2.0.0
 ---
 
-# Get-Alias
-## SYNOPSIS
-Gets the aliases for the current session.
+# Xxx$Xxxxx
+## XXXXXXXX
+Xxxx xxx xxxxxxx xxx xxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### Default (Default)
+### Xxxxxxx $Xxxxxxx$
 ```
 Get-Alias [[-Name] <String[]>] [-Exclude <String[]>] [-Scope <String>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### Definition
+### Xxxxxxxxxx
 ```
 Get-Alias [-Exclude <String[]>] [-Scope <String>] [-Definition <String[]>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-Alias cmdlet gets the aliases (alternate names for commands and executable files) in the current session.
-This includes built-in aliases, aliases that you have set or imported, and aliases that you have added to your Windows PowerShell profile.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxx xxxxxx xxxx xxx xxxxxxx $xxxxxxxxx xxxxx xxx xxxxxxxx xxx xxxxxxxxxx xxxxx$ xx xxx xxxxxxx xxxxxxx.
+Xxxx xxxxxxxx xxxxx$xx xxxxxxx$ xxxxxxx xxxx xxx xxxx xxx xx xxxxxxxx$ xxx xxxxxxx xxxx xxx xxxx xxxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
 
-By default, Get-Alias takes an alias and returns the command name.
-When you use the Definition parameter, Get-Alias takes a command name and returns its aliases.
+Xx xxxxxxx$ Xxx$Xxxxx xxxxx xx xxxxx xxx xxxxxxx xxx xxxxxxx xxxx.
+Xxxx xxx xxx xxx Xxxxxxxxxx xxxxxxxxx$ Xxx$Xxxxx xxxxx x xxxxxxx xxxx xxx xxxxxxx xxx xxxxxxx.
 
-Beginning in Windows PowerShell 3.0, Get-Alias displays non-hyphenated alias names in an "\<alias\> -\> \<definition\>" format to make it even easier to find the information that you need.
+Xxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0$ Xxx$Xxxxx xxxxxxxx xxx$xxxxxxxxxx xxxxx xxxxx xx xx $$$xxxxx$$ $$$ $$xxxxxxxxxx$$$ xxxxxx xx xxxx xx xxxx xxxxxx xx xxxx xxx xxxxxxxxxxx xxxx xxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Alias
 CommandType     Name
@@ -61,56 +61,55 @@ Alias           clear -> Clear-Host
 Alias           clhy -> Clear-History …
 ```
 
-This command gets all aliases in the current session.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-The output shows the "\<alias\> -\> \<definition\>" format that was introduced in Windows PowerShell 3.0. 
-This format is used only for aliases that do not include hyphens, because aliases with hyphens are typically preferred names for cmdlets and functions, rather than nicknames.
+Xxx xxxxxx xxxxx xxx $$$xxxxx$$ $$$ $$xxxxxxxxxx$$$ xxxxxx xxxx xxx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0. Xxxx xxxxxx xx xxxx xxxx xxx xxxxxxx xxxx xx xxx xxxxxxx xxxxxxx$ xxxxxxx xxxxxxx xxxx xxxxxxx xxx xxxxxxxxx xxxxxxxxx xxxxx xxx xxxxxxx xxx xxxxxxxxx$ xxxxxx xxxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Alias -Name g*, s* -Exclude Get-*
 ```
 
-This command gets all aliases that begin with "g" or "s", except for aliases that begin with "get-".
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxx xxxxx xxxx $x$ xx $x$$ xxxxxx xxx xxxxxxx xxxx xxxxx xxxx $xxx$$.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Alias -Definition Get-ChildItem
 ```
 
-This command gets the aliases for the Get-ChildItem cmdlet.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxx xxx Xxx$XxxxxXxxx xxxxxx.
 
-By default, the Get-Alias cmdlet gets the item name when you know the alias.
-The Definition parameter gets the alias when you know the item name.
+Xx xxxxxxx$ xxx Xxx$Xxxxx xxxxxx xxxx xxx xxxx xxxx xxxx xxx xxxx xxx xxxxx.
+Xxx Xxxxxxxxxx xxxxxxxxx xxxx xxx xxxxx xxxx xxx xxxx xxx xxxx xxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Alias | Where-Object {$_.Options -Match "ReadOnly"}
 ```
 
-This command retrieves all aliases in which the value of the Options property is ReadOnly.
-This command provides a quick way to find the aliases that are built into Windows PowerShell, because they have the ReadOnly option.
+Xxxx xxxxxxx xxxxxxxxx xxx xxxxxxx xx xxxxx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx xx XxxxXxxx.
+Xxxx xxxxxxx xxxxxxxx x xxxxx xxx xx xxxx xxx xxxxxxx xxxx xxx xxxxx xxxx Xxxxxxx XxxxxXxxxx$ xxxxxxx xxxx xxxx xxx XxxxXxxx xxxxxx.
 
-Options is just one property of the AliasInfo objects that Get-Alias gets.
-To find all properties and methods of AliasInfo objects, type "Get-Alias | get-member".
+Xxxxxxx xx xxxx xxx xxxxxxxx xx xxx XxxxxXxxx xxxxxxx xxxx Xxx$Xxxxx xxxx.
+Xx xxxx xxx xxxxxxxxxx xxx xxxxxxx xx XxxxxXxxx xxxxxxx$ xxxx $Xxx$Xxxxx $ xxx$xxxxxx$.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Alias -Definition "*-PSSession" -Exclude e* -Scope Global
 ```
 
-This example gets aliases for commands that have names that end in "-PSSession", except for those that begin with "e".
+Xxxx xxxxxxx xxxx xxxxxxx xxx xxxxxxxx xxxx xxxx xxxxx xxxx xxx xx $$XXXxxxxxx$$ xxxxxx xxx xxxxx xxxx xxxxx xxxx $x$.
 
-The command uses the Scope parameter to apply the command in the global scope.
-This is useful in scripts when you want to get the aliases in the session.
+Xxx xxxxxxx xxxx xxx Xxxxx xxxxxxxxx xx xxxxx xxx xxxxxxx xx xxx xxxxxx xxxxx.
+Xxxx xx xxxxxx xx xxxxxxx xxxx xxx xxxx xx xxx xxx xxxxxxx xx xxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Definition
-Gets the aliases for the specified item.
-Enter the name of a cmdlet, function, script, file, or executable file.
+### $Xxxxxxxxxx
+Xxxx xxx xxxxxxx xxx xxx xxxxxxxxx xxxx.
+Xxxxx xxx xxxx xx x xxxxxx$ xxxxxxxx$ xxxxxx$ xxxx$ xx xxxxxxxxxx xxxx.
 
-This parameter is called Definition, because it searches for the item name in the Definition property of the alias object.
+Xxxx xxxxxxxxx xx xxxxxx Xxxxxxxxxx$ xxxxxxx xx xxxxxxxx xxx xxx xxxx xxxx xx xxx Xxxxxxxxxx xxxxxxxx xx xxx xxxxx xxxxxx.
 
 ```yaml
 Type: String[]
@@ -124,11 +123,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Exclude
-Omits the specified items.
-The value of this parameter qualifies the Name and Definition parameters.
-Enter a name, a definition, or a pattern, such as "s*".
-Wildcards are permitted.
+### $Xxxxxxx
+Xxxxx xxx xxxxxxxxx xxxxx.
+Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx Xxxx xxx Xxxxxxxxxx xxxxxxxxxx.
+Xxxxx x xxxx$ x xxxxxxxxxx$ xx x xxxxxxx$ xxxx xx $x$$.
+Xxxxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -142,8 +141,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-This parameter is called Definition, because it searches for the item name in the Definition property of the alias object.
+### $XxxxxxxxxxxXxxxxx
+Xxxx xxxxxxxxx xx xxxxxx Xxxxxxxxxx$ xxxxxxx xx xxxxxxxx xxx xxx xxxx xxxx xx xxx Xxxxxxxxxx xxxxxxxx xx xxx xxxxx xxxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -158,8 +157,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-This parameter is called Definition, because it searches for the item name in the Definition property of the alias object.
+### $XxxxxxxxxxxXxxxxxxx
+Xxxx xxxxxxxxx xx xxxxxx Xxxxxxxxxx$ xxxxxxx xx xxxxxxxx xxx xxx xxxx xxxx xx xxx Xxxxxxxxxx xxxxxxxx xx xxx xxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -173,12 +172,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the aliases to retrieve.
-Wildcards are permitted.
-By default, Get-Alias retrieves all aliases defined for the current session.
-The parameter name ("Name") is optional.
-You can also pipe alias names to Get-Alias.
+### $Xxxx
+Xxxxxxxxx xxx xxxxxxx xx xxxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
+Xx xxxxxxx$ Xxx$Xxxxx xxxxxxxxx xxx xxxxxxx xxxxxxx xxx xxx xxxxxxx xxxxxxx.
+Xxx xxxxxxxxx xxxx $$Xxxx$$ xx xxxxxxxx.
+Xxx xxx xxxx xxxx xxxxx xxxxx xx Xxx$Xxxxx.
 
 ```yaml
 Type: String[]
@@ -192,11 +191,11 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Scope
-Gets only the aliases in the specified scope.
-Valid values are "Global", "Local", or "Script", or a number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).
-"Local" is the default.
-For more information, see about_Scopes.
+### $Xxxxx
+Xxxx xxxx xxx xxxxxxx xx xxx xxxxxxxxx xxxxx.
+Xxxxx xxxxxx xxx $Xxxxxx$$ $Xxxxx$$ xx $Xxxxxx$$ xx x xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxx $0 xxxxxxx xxx xxxxxx xx xxxxxx$ xxxxx 0 xx xxx xxxxxxx xxxxx xxx 0 xx xxx xxxxxx$.
+$Xxxxx$ xx xxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx.
 
 ```yaml
 Type: String
@@ -210,35 +209,35 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
-You can pipe alias names to Get-Alias.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx xxxxx xxxxx xx Xxx$Xxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.AliasInfo
-Get-Alias returns an object that represents each alias.
-Get-Alias returns the same object for every alias, but Windows PowerShell uses an arrow-based format to display the names of non-hyphenated aliases.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxXxxx
+Xxx$Xxxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxxx xxxxx.
+Xxx$Xxxxx xxxxxxx xxx xxxx xxxxxx xxx xxxxx xxxxx$ xxx Xxxxxxx XxxxxXxxxx xxxx xx xxxxx$xxxxx xxxxxx xx xxxxxxx xxx xxxxx xx xxx$xxxxxxxxxx xxxxxxx.
 
-## NOTES
-To create a new alias, use Set-Alias or New-Alias.
-To delete an alias, use Remove-Item.
+## XXXXX
+Xx xxxxxx x xxx xxxxx$ xxx Xxx$Xxxxx xx Xxx$Xxxxx.
+Xx xxxxxx xx xxxxx$ xxx Xxxxxx$Xxxx.
 
-The arrow-based alias name format is not used for aliases that include a hyphen.
-These are likely to be preferred substitute names for cmdlets and functions, instead of typical abbreviations or nicknames.
+Xxx xxxxx$xxxxx xxxxx xxxx xxxxxx xx xxx xxxx xxx xxxxxxx xxxx xxxxxxx x xxxxxx.
+Xxxxx xxx xxxxxx xx xx xxxxxxxxx xxxxxxxxxx xxxxx xxx xxxxxxx xxx xxxxxxxxx$ xxxxxxx xx xxxxxxx xxxxxxxxxxxxx xx xxxxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Export-Alias]()
+[Xxxxxx$Xxxxx]()
 
-[Import-Alias]()
+[Xxxxxx$Xxxxx]()
 
-[New-Alias]()
+[Xxx$Xxxxx]()
 
-[Set-Alias]()
+[Xxx$Xxxxx]()
 
-[Alias Provider]()
+[Xxxxx Xxxxxxxx]()
 
-[about_Aliases]()
+[xxxxx$Xxxxxxx]()
 

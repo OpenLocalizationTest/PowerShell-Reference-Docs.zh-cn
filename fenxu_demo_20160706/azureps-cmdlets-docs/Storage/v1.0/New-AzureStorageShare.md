@@ -6,11 +6,11 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageShare
-## SYNOPSIS
-Creates a file share.
+# Xxx$XxxxxXxxxxxxXxxxx
+## XXXXXXXX
+Xxxxxxx x xxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureStorageShare [-Name] <String> [-ClientTimeoutPerRequest <Nullable [System.Int32]>]
@@ -18,37 +18,22 @@ New-AzureStorageShare [-Name] <String> [-ClientTimeoutPerRequest <Nullable [Syst
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-## DESCRIPTION
-The **New-AzureStorageShare** cmdlet creates a file share.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxx$$ xxxxxx xxxxxxx x xxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a file share
+### Xxxxxxx 0$ Xxxxxx x xxxx xxxxx
 ```
 PS C:\>New-AzureStorageShare -Name "ContosoShare06"
 ```
 
-This command creates a file share named ContosoShare06.
+Xxxx xxxxxxx xxxxxxx x xxxx xxxxx xxxxx XxxxxxxXxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-@{Text=}
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -62,8 +47,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-@{Text=}
+### $XxxxxxxxxxXxxxXxxxx
+$$Xxxx$$
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: AzureStorageContext
@@ -77,8 +77,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-@{Text=}
+### $Xxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -92,8 +92,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -107,18 +107,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageShare](10a13c83-d545-4729-99f9-048c774f32d7)
+[Xxx$XxxxxXxxxxxxXxxxx](10a13c83-d545-4729-99f9-048c774f32d7)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Remove-AzureStorageShare](f9a0f4e1-3677-4786-bd84-d3645c61baca)
+[Xxxxxx$XxxxxXxxxxxxXxxxx](f9a0f4e1-3677-4786-bd84-d3645c61baca)
 
 

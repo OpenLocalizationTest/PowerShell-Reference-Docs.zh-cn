@@ -6,41 +6,41 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureRmAutomationDscOnboardingMetaconfig
-## SYNOPSIS
-Creates meta-configuration .mof files.
+# Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxXxxxxxxxxx
+## XXXXXXXX
+Xxxxxxx xxxx$xxxxxxxxxxxxx .xxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureRmAutomationDscOnboardingMetaconfig [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-ComputerName <String[]>] [-Force] [-OutputFolder <String>] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationDscOnboardingMetaconfig** cmdlet creates APS Desired State Configuration (DSC) meta-configuration Managed Object Format (MOF) files.
-This cmdlet creates a .mof file for each computer name that you specify.
-The cmdlet creates a folder for the .mof files.
-You can run the Set-DscLocalConfigurationManager cmdlet for this folder to onboard these computers into an azure_2 Automation account as DSC nodes.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxXxxxxxxxxx$$ xxxxxx xxxxxxx XXX Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxx$xxxxxxxxxxxxx Xxxxxxx Xxxxxx Xxxxxx $XXX$ xxxxx.
+Xxxx xxxxxx xxxxxxx x .xxx xxxx xxx xxxx xxxxxxxx xxxx xxxx xxx xxxxxxx.
+Xxx xxxxxx xxxxxxx x xxxxxx xxx xxx .xxx xxxxx.
+Xxx xxx xxx xxx Xxx$XxxXxxxxXxxxxxxxxxxxxXxxxxxx xxxxxx xxx xxxx xxxxxx xx xxxxxxx xxxxx xxxxxxxxx xxxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx xx XXX xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Onboard servers to Automation DSC
+### Xxxxxxx 0$ Xxxxxxx xxxxxxx xx Xxxxxxxxxx XXX
 ```
 PS C:\>Get-AzureRmAutomationDscOnboardingMetaconfig -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17" -ComputerName "Server01", "Server02" -OutputFolder "C:\Users\PattiFuller\Desktop" 
 PS C:\> Set-DscLocalConfigurationManager -Path "C:\Users\PattiFuller\Desktop\DscMetaConfigs" -ComputerName "Server01", "Server02"
 ```
 
-The first command creates DSC meta-configuration files for two servers for the Automation account named Contoso17.
-The command saves these files on a desktop.
+Xxx xxxxx xxxxxxx xxxxxxx XXX xxxx$xxxxxxxxxxxxx xxxxx xxx xxx xxxxxxx xxx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
+Xxx xxxxxxx xxxxx xxxxx xxxxx xx x xxxxxxx.
 
-The second command uses the **Set-DscLocalConfigurationManager** cmdlet to apply the meta-configuration to the specified computers to onboard them as DSC nodes.
+Xxx xxxxxx xxxxxxx xxxx xxx $$Xxx$XxxXxxxxXxxxxxxxxxxxxXxxxxxx$$ xxxxxx xx xxxxx xxx xxxx$xxxxxxxxxxxxx xx xxx xxxxxxxxx xxxxxxxxx xx xxxxxxx xxxx xx XXX xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of an Automation account.
-You can onboard the computers that the *ComputerName* parameter specifies to the account that this parameter specifies.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx.
+Xxx xxx xxxxxxx xxx xxxxxxxxx xxxx xxx $XxxxxxxxXxxx$ xxxxxxxxx xxxxxxxxx xx xxx xxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -54,9 +54,9 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ComputerName
-Specifies an array of names of computers for which this cmdlet generates .mof files.
-If you do not specify this parameter, the cmdlet generates an .mof file for the current computer (localhost).
+### $XxxxxxxxXxxx
+Xxxxxxxxx xx xxxxx xx xxxxx xx xxxxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxxx .xxx xxxxx.
+Xx xxx xx xxx xxxxxxx xxxx xxxxxxxxx$ xxx xxxxxx xxxxxxxxx xx .xxx xxxx xxx xxx xxxxxxx xxxxxxxx $xxxxxxxxx$.
 
 ```yaml
 Type: String[]
@@ -70,8 +70,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without prompting you for confirmation, and to replace existing .mof files that have the same name.
+### $Xxxxx
+Xxxxxx xxx xxxxxxx xx xxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxxxxxxx$ xxx xx xxxxxxx xxxxxxxx .xxx xxxxx xxxx xxxx xxx xxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -85,8 +85,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -OutputFolder
-Specifies the name of a folder where this cmdlet stores .mof files.
+### $XxxxxxXxxxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxx xxxxx xxxx xxxxxx xxxxxx .xxx xxxxx.
 
 ```yaml
 Type: String
@@ -100,9 +100,9 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group.
-This cmdlet creates .mof files to onboard computers in the resource group that this parameter specifies.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx.
+Xxxx xxxxxx xxxxxxx .xxx xxxxx xx xxxxxxx xxxxxxxxx xx xxx xxxxxxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -116,8 +116,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -131,8 +131,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -146,12 +146,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 

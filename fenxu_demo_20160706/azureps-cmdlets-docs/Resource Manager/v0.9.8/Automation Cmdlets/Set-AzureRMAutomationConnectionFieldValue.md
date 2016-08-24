@@ -6,33 +6,33 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureRMAutomationConnectionFieldValue
-## SYNOPSIS
-Modifies the value of a field in an Automation connection.
+# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxXxxxxXxxxx
+## XXXXXXXX
+Xxxxxxxx xxx xxxxx xx x xxxxx xx xx Xxxxxxxxxx xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureRMAutomationConnectionFieldValue [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> -ConnectionFieldName <String> -Value <Object>
 ```
 
-## DESCRIPTION
-The **Set-AzureRmAutomationConnectionFieldValue** cmdlet modifies the value of a field in a connection in azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxXxxxxXxxxx$$ xxxxxx xxxxxxxx xxx xxxxx xx x xxxxx xx x xxxxxxxxxx xx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Change a field value in a connection
+### Xxxxxxx 0$ Xxxxxx x xxxxx xxxxx xx x xxxxxxxxxx
 ```
 PS C:\>Set-AzureRmAutomationConnectionFieldValue -Name "ContosoConnection" -ConnectionFieldName "SubscriptionID" -Value "b53ec456-3494-4847-8f2b-180901c51050" -ResourceGroupName "ResourceGroup01" -AutomationAccountName "AutomationAccount01"
 ```
 
-This command changes the subscription ID for the azure_2 connection named ContosoConnection in the Automation account named AutomationAccount01.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxxxxx XX xxx xxx xxxxx$0 xxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx XxxxxxxxxxXxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account for which this cmdlet modifies a field in a connection.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxx xx x xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -46,8 +46,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ConnectionFieldName
-Specifies a name for the field that this cmdlet modifies.
+### $XxxxxxxxxxXxxxxXxxx
+Xxxxxxxxx x xxxx xxx xxx xxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -61,8 +61,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies a name for the connection for which this cmdlet modifies a field.
+### $Xxxx
+Xxxxxxxxx x xxxx xxx xxx xxxxxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxx.
 
 ```yaml
 Type: String
@@ -76,8 +76,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet modifies a field in a connection.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxx xx x xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -91,8 +91,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Value
-Specifies a value to modify in the connection field.
+### $Xxxxx
+Xxxxxxxxx x xxxxx xx xxxxxx xx xxx xxxxxxxxxx xxxxx.
 
 ```yaml
 Type: Object
@@ -106,14 +106,14 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureRmAutomationConnection](7fed73b4-73cf-4642-8e10-167ea6158372)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](7fed73b4-73cf-4642-8e10-167ea6158372)
 
 

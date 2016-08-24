@@ -6,41 +6,41 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageQueue
-## SYNOPSIS
-Creates a storage queue.
+# Xxx$XxxxxXxxxxxxXxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureStorageQueue [-Name] <String> [-Context <AzureStorageContext>]
 ```
 
-## DESCRIPTION
-The **New-AzureStorageQueue** cmdlet creates a storage queue in azure_2.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxx$$ xxxxxx xxxxxxx x xxxxxxx xxxxx xx xxxxx$0.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create an Azure storage queue
+### Xxxxxxx 0$ Xxxxxx xx Xxxxx xxxxxxx xxxxx
 ```
 PS C:\>New-AzureStorageQueue -Name "queueabc"
 ```
 
-This example creates a storage queue named queueabc.
+Xxxx xxxxxxx xxxxxxx x xxxxxxx xxxxx xxxxx xxxxxxxx.
 
-### Example 2: Create multiple azure storage queues
+### Xxxxxxx 0$ Xxxxxx xxxxxxxx xxxxx xxxxxxx xxxxxx
 ```
 PS C:\>"queue1 queue2 queue3".split() | New-AzureStorageQueue
 ```
 
-This example creates multiple storage queues.
-It uses the Split method of the .NET String class and then passes the names on the pipeline.
+Xxxx xxxxxxx xxxxxxx xxxxxxxx xxxxxxx xxxxxx.
+Xx xxxx xxx Xxxxx xxxxxx xx xxx .XXX Xxxxxx xxxxx xxx xxxx xxxxxx xxx xxxxx xx xxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies the azure_2 storage context.
-You can create it by using the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxxxx.
+Xxx xxx xxxxxx xx xx xxxxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -54,8 +54,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies a name for the queue.
+### $Xxxx
+Xxxxxxxxx x xxxx xxx xxx xxxxx.
 
 ```yaml
 Type: String
@@ -69,16 +69,16 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageQueue](a89aa1b2-cabd-4048-a84d-2b37da287c05)
+[Xxx$XxxxxXxxxxxxXxxxx](a89aa1b2-cabd-4048-a84d-2b37da287c05)
 
-[Remove-AzureStorageQueue](265824d1-e3d4-4bd4-bc11-466c2100ed3a)
+[Xxxxxx$XxxxxXxxxxxxXxxxx](265824d1-e3d4-4bd4-bc11-466c2100ed3a)
 
 

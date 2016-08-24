@@ -6,36 +6,36 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureRMAutomationWebhook
-## SYNOPSIS
-Removes a webhook from an Automation runbook.
+# Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxxx xxxx xx Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureRMAutomationWebhook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureRmAutomationWebhook** cmdlet removes a webhook from an azure_2 Automation runbook.
-The webhook is deleted.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxx x xxxxxxx xxxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx.
+Xxx xxxxxxx xx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a webhook
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx
 ```
 PS C:\>Remove-AzureRmAutomationWebhook -Name "Webhook11" -ResourceGroup "ResourceGroup01" -AutomationAccountName "AutomationAccount01" -Force
 ```
 
-This command removes a webhook named Webhook11 in the Automation account named AutomationAccount01.
-The command specifies the *Force* parameter.
-Therefore, it does not prompt you for confirmation.
+Xxxx xxxxxxx xxxxxxx x xxxxxxx xxxxx Xxxxxxx00 xx xxx Xxxxxxxxxx xxxxxxx xxxxx XxxxxxxxxxXxxxxxx00.
+Xxx xxxxxxx xxxxxxxxx xxx $Xxxxx$ xxxxxxxxx.
+Xxxxxxxxx$ xx xxxx xxx xxxxxx xxx xxx xxxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of an Automation account from which this cmdlet removes a webhook.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -49,8 +49,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the webhook that this cmdlet removes.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -64,8 +64,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet removes a webhook.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -79,8 +79,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -94,8 +94,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -109,18 +109,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationWebhook](048bf33a-0bc1-4433-92e0-bd906f6edb8d)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](048bf33a-0bc1-4433-92e0-bd906f6edb8d)
 
-[New-AzureRmAutomationWebhook](cca289e3-4c75-48af-9f25-f99b0c6965c4)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](cca289e3-4c75-48af-9f25-f99b0c6965c4)
 
-[Set-AzureRmAutomationWebhook](b2f5cd9e-5886-4ccc-89ea-9e66e5c67818)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](b2f5cd9e-5886-4ccc-89ea-9e66e5c67818)
 
 

@@ -6,38 +6,38 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureRMAutomationSchedule
-## SYNOPSIS
-Gets an Automation schedule.
+# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx
+## XXXXXXXX
+Xxxx xx Xxxxxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRMAutomationSchedule [-ResourceGroupName] <String> [-AutomationAccountName] <String>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRMAutomationSchedule [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationSchedule** cmdlet gets an azure_2 Automation schedule.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx$$ xxxxxx xxxx xx xxxxx$0 Xxxxxxxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get a schedule
+### Xxxxxxx 0$ Xxx x xxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationSchedule -AutomationAccountName "Contoso17" -Name "DailySchedule08" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command gets the schedule named DailySchedule08.
+Xxxx xxxxxxx xxxx xxx xxxxxxxx xxxxx XxxxxXxxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of an Automation account for which this cmdlet get a schedule.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxx x xxxxxxxx.
 
 ```yaml
 Type: String
@@ -51,8 +51,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of a schedule that this cmdlet gets.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxx xxxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -66,8 +66,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet gets a schedule.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxx x xxxxxxxx.
 
 ```yaml
 Type: String
@@ -81,20 +81,20 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.Azure.Commands.Automation.Model.Schedule
+### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.Xxxxxxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureRmAutomationSchedule](36c11dd3-5843-49d2-8baa-9f5aa737d345)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](36c11dd3-5843-49d2-8baa-9f5aa737d345)
 
-[Remove-AzureRmAutomationSchedule](633c3e61-0da0-4a01-897b-e81c6e571196)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxx](633c3e61-0da0-4a01-897b-e81c6e571196)
 
-[Set-AzureRmAutomationSchedule](2d34dc26-ead0-49f0-9e1a-9d4a81712616)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](2d34dc26-ead0-49f0-9e1a-9d4a81712616)
 
 

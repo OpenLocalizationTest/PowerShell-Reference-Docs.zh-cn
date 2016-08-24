@@ -6,11 +6,11 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageAccountSASToken
-## SYNOPSIS
-Creates an SAS token.
+# Xxx$XxxxxXxxxxxxXxxxxxxXXXXxxxx
+## XXXXXXXX
+Xxxxxxx xx XXX xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureStorageAccountSASToken [-Context <AzureStorageContext>] [-ExpiryTime <DateTime>]
@@ -18,32 +18,32 @@ New-AzureStorageAccountSASToken [-Context <AzureStorageContext>] [-ExpiryTime <D
  [-ResourceType] [-Service]
 ```
 
-## DESCRIPTION
-The **New-AzureStorageSASToken** cmdlet creates an account-level shared access signature (SAS) token for an azure_2 Storage account.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXXXXxxxx$$ xxxxxx xxxxxxx xx xxxxxxx$xxxxx xxxxxx xxxxxx xxxxxxxxx $XXX$ xxxxx xxx xx xxxxx$0 Xxxxxxx xxxxxxx.
 
-You can use the SAS token to delegate permissions for multiple services, or to delegate permissions for services not available with an object-level SAS token.
+Xxx xxx xxx xxx XXX xxxxx xx xxxxxxxx xxxxxxxxxxx xxx xxxxxxxx xxxxxxxx$ xx xx xxxxxxxx xxxxxxxxxxx xxx xxxxxxxx xxx xxxxxxxxx xxxx xx xxxxxx$xxxxx XXX xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create an SAS token
+### Xxxxxxx 0$ Xxxxxx xx XXX xxxxx
 ```
 PS C:\> New-AzureStorageAccountSASToken -Service Blob,File,Table,Queue -ResourceType Service,Container,Object -Permission "racwdlup"
 ```
 
-This command creates an account-level SAS token with full permission.
+Xxxx xxxxxxx xxxxxxx xx xxxxxxx$xxxxx XXX xxxxx xxxx xxxx xxxxxxxxxx.
 
-### Example 2: Create an SAS token for a range of IP addresses
+### Xxxxxxx 0$ Xxxxxx xx XXX xxxxx xxx x xxxxx xx XX xxxxxxxxx
 ```
 PS C:\> New-AzureStorageAccountSASToken -Service Blob,File,Table,Queue -ResourceType Service,Container,Object -Permission "racwdlup" -Protocol HttpsOnly -IPAddressOrRange 168.1.5.60-168.1.5.70
 ```
 
-This command creates an SAS token for HTTPS-only requests from the specified range of IP addresses.
+Xxxx xxxxxxx xxxxxxx xx XXX xxxxx xxx XXXXX$xxxx xxxxxxxx xxxx xxx xxxxxxxxx xxxxx xx XX xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies the azure_2 storage context.
-You can use the New-AzureStorageContext cmdlet to get an **AzureStorageContext** object.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxxxx.
+Xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx xx xxx xx $$XxxxxXxxxxxxXxxxxxx$$ xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -57,8 +57,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-Specifies the time at which the shared access signature becomes invalid.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: DateTime
@@ -72,9 +72,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -IPAddressOrRange
-Specifies the IP address or range of IP addresses from which to accept requests, such as 168.1.5.65 or 168.1.5.60-168.1.5.70.
-The range is inclusive.
+### $XXXxxxxxxXxXxxxx
+Xxxxxxxxx xxx XX xxxxxxx xx xxxxx xx XX xxxxxxxxx xxxx xxxxx xx xxxxxx xxxxxxxx$ xxxx xx 000.0.0.00 xx 000.0.0.00$000.0.0.00.
+Xxx xxxxx xx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -88,10 +88,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Permission
-Specifies the permissions for Storage account.
-Permissions are valid only if they match the specified resource type.
-For more information about acceptable permission values, see Constructing an Account SAShttp://go.microsoft.com/fwlink/?LinkId=799514
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxxx xxx Xxxxxxx xxxxxxx.
+Xxxxxxxxxxx xxx xxxxx xxxx xx xxxx xxxxx xxx xxxxxxxxx xxxxxxxx xxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxx xxxxxx$ xxx Xxxxxxxxxxxx xx Xxxxxxx XXXxxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000
 
 ```yaml
 Type: String
@@ -105,14 +105,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Protocol
-Specifies the protocol permitted for a request made with the account SAS.
-psdx_paramvalues
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xxxxxxxxx xxx x xxxxxxx xxxx xxxx xxx xxxxxxx XXX.
+xxxx$xxxxxxxxxxx
 
--- HttpsOnly
--- HttpsOrHttp
+$$ XxxxxXxxx $$ XxxxxXxXxxx
 
-The default value is HttpsOrHttp.
+Xxx xxxxxxx xxxxx xx XxxxxXxXxxx.
 
 ```yaml
 Type: SharedAccessProtocol
@@ -126,14 +125,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ResourceType
-Specifies the resource types that are available with the SAS token.
-psdx_paramvalues
+### $XxxxxxxxXxxx
+Xxxxxxxxx xxx xxxxxxxx xxxxx xxxx xxx xxxxxxxxx xxxx xxx XXX xxxxx.
+xxxx$xxxxxxxxxxx
 
--- None
--- Service
--- Container
--- Object
+$$ Xxxx $$ Xxxxxxx $$ Xxxxxxxxx $$ Xxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -148,15 +144,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Service
-Specifies the service.
-psdx_paramvalues
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx.
+xxxx$xxxxxxxxxxx
 
--- None
--- Blob
--- File
--- Queue
--- Table
+$$ Xxxx $$ Xxxx $$ Xxxx $$ Xxxxx $$ Xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -171,9 +163,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies the time, as a **DateTime** object, at which the SAS becomes valid.
-To get a **DateTime** object, use the Get-Date cmdlet.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx$ xx x $$XxxxXxxx$$ xxxxxx$ xx xxxxx xxx XXX xxxxxxx xxxxx.
+Xx xxx x $$XxxxXxxx$$ xxxxxx$ xxx xxx Xxx$Xxxx xxxxxx.
 
 ```yaml
 Type: DateTime
@@ -187,24 +179,24 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureStorageBlobSASToken](f08d2de2-a276-439c-b9a8-ee187a8c334e)
+[Xxx$XxxxxXxxxxxxXxxxXXXXxxxx](f08d2de2-a276-439c-b9a8-ee187a8c334e)
 
-[New-AzureStorageContainerSASToken](dc3564e2-9ede-4901-8d62-f49017a03281)
+[Xxx$XxxxxXxxxxxxXxxxxxxxxXXXXxxxx](dc3564e2-9ede-4901-8d62-f49017a03281)
 
-[New-AzureStorageFileSASToken](4fb064f5-94bc-4d8f-9ef6-2611f8aab99c)
+[Xxx$XxxxxXxxxxxxXxxxXXXXxxxx](4fb064f5-94bc-4d8f-9ef6-2611f8aab99c)
 
-[New-AzureStorageQueueSASToken](6cae6e32-2800-4c20-88ae-d40271476628)
+[Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx](6cae6e32-2800-4c20-88ae-d40271476628)
 
-[New-AzureStorageShareSASToken](07c8ad4e-7a32-4407-9120-1432126b7376)
+[Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx](07c8ad4e-7a32-4407-9120-1432126b7376)
 
-[New-AzureStorageTableSASToken](abee1cab-f04a-400e-8fb1-caed1ee02ee7)
+[Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx](abee1cab-f04a-400e-8fb1-caed1ee02ee7)
 
 

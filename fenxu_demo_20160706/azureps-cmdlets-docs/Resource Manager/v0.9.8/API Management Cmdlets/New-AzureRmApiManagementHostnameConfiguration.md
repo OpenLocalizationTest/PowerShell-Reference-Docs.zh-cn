@@ -6,49 +6,34 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureRmApiManagementHostnameConfiguration
-## SYNOPSIS
-Creates an instance of PsApiManagementHostnameConfiguration.
+# Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx
+## XXXXXXXX
+Xxxxxxx xx xxxxxxxx xx XxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureRmApiManagementHostnameConfiguration -CertificateThumbprint <String> -Hostname <String>
 ```
 
-## DESCRIPTION
-The **New-AzureRmApiManagementHostnameConfiguration** cmdlet is a helper command that creates an instance of **PsApiManagementHostnameConfiguration**.
-This command is used with the Set-AzureRmApiManagementHostnames cmdlet.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx$$ xxxxxx xx x xxxxxx xxxxxxx xxxx xxxxxxx xx xxxxxxxx xx $$XxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx$$.
+Xxxx xxxxxxx xx xxxx xxxx xxx Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create and initialize an instance of PsApiManagementHostnameConfiguration
+### Xxxxxxx 0$ Xxxxxx xxx xxxxxxxxxx xx xxxxxxxx xx XxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx
 ```
 PS C:\>New-AzureRmApiManagementHostnameConfiguration -Hostname "portal.contoso.com" -CertificateThumbprint "33CC47C6FCA848DC9B14A6F071C1EF7C"
 ```
 
-This command creates and initializes an instance of **PsApiManagementHostnameConfiguration**.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxxxx xx xxxxxxxx xx $$XxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx$$.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -CertificateThumbprint
-Specifies the certificate thumbprint.
-The certificate must be first imported with the Import-AzureRmApiManagementHostnameCertificate cmdlet.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Hostname
-Specifies the custom host name for which this cmdlet creates the **PsApiManagementHostnameConfiguration** instance.
+### $XxxxxxxxxxxXxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxxx xxxxxxxxxx.
+Xxx xxxxxxxxxxx xxxx xx xxxxx xxxxxxxx xxxx xxx Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -62,16 +47,31 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxx xxxx xxxx xxx xxxxx xxxx xxxxxx xxxxxxx xxx $$XxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx$$ xxxxxxxx.
 
-## OUTPUTS
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
 
-## NOTES
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
-## RELATED LINKS
+## XXXXXX
 
-[Import-AzureRmApiManagementHostnameCertificate](2a7ef835-586c-4e86-a243-3cc0e9623d71)
+## XXXXXXX
 
-[Set-AzureRmApiManagementHostnames](dd997f04-b85b-409c-8c69-a5e659c768e3)
+## XXXXX
+
+## XXXXXXX XXXXX
+
+[Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxx](2a7ef835-586c-4e86-a243-3cc0e9623d71)
+
+[Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxx](dd997f04-b85b-409c-8c69-a5e659c768e3)
 
 

@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Start-AzureStorageBlobCopy
-## SYNOPSIS
-Starts to copy a blob.
+# Xxxxx$XxxxxXxxxxxxXxxxXxxx
+## XXXXXXXX
+Xxxxxx xx xxxx x xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Start-AzureStorageBlobCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-DestContext <AzureStorageContext>] [-Force]
@@ -20,7 +20,7 @@ Start-AzureStorageBlobCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskC
  [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Start-AzureStorageBlobCopy [-SrcBlob] <String> [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-DestBlob <String>]
@@ -28,21 +28,21 @@ Start-AzureStorageBlobCopy [-SrcBlob] <String> [-ClientTimeoutPerRequest <Int32]
  -SrcContainer <String> [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Start-AzureStorageBlobCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-DestContext <AzureStorageContext>] [-Force]
  [-ServerTimeoutPerRequest <Int32]>] -CloudBlob <CloudBlob> -DestCloudBlob <CloudBlob> [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_4
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Start-AzureStorageBlobCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-DestBlob <String>] [-DestContext <AzureStorageContext>] [-Force]
  [-ServerTimeoutPerRequest <Int32]>] -CloudBlob <CloudBlob> -DestContainer <String> [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_5
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Start-AzureStorageBlobCopy [-SrcBlob] <String> [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-DestBlob <String>]
@@ -50,7 +50,7 @@ Start-AzureStorageBlobCopy [-SrcBlob] <String> [-ClientTimeoutPerRequest <Int32]
  -CloudBlobContainer <CloudBlobContainer> -DestContainer <String> [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_6
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Start-AzureStorageBlobCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-DestBlob <String>] [-DestContext <AzureStorageContext>] [-Force]
@@ -58,7 +58,7 @@ Start-AzureStorageBlobCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskC
  [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_7
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Start-AzureStorageBlobCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-DestBlob <String>] [-DestContext <AzureStorageContext>] [-Force]
@@ -66,7 +66,7 @@ Start-AzureStorageBlobCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskC
  [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_8
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Start-AzureStorageBlobCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-DestBlob <String>] [-DestContext <AzureStorageContext>] [-Force]
@@ -74,81 +74,81 @@ Start-AzureStorageBlobCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskC
  [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_9
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Start-AzureStorageBlobCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-DestContext <AzureStorageContext>] [-Force]
  [-ServerTimeoutPerRequest <Int32]>] -DestCloudBlob <CloudBlob> -SrcFile <CloudFile> [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_10
+### XXXXXXX$XXXXXXXXX$XXX$00
 ```
 Start-AzureStorageBlobCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-DestBlob <String>] [-DestContext <AzureStorageContext>] [-Force]
  [-ServerTimeoutPerRequest <Int32]>] -DestContainer <String> -SrcFile <CloudFile> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Start-AzureStorageBlobCopy** cmdlet starts to copy a blob.
+## XXXXXXXXXXX
+Xxx $$Xxxxx$XxxxxXxxxxxxXxxxXxxx$$ xxxxxx xxxxxx xx xxxx x xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Copy a named blob
+### Xxxxxxx 0$ Xxxx x xxxxx xxxx
 ```
 C:\PS>Start-AzureStorageBlobCopy -SrcBlob "ContosoPlanning2015" -DestContainer "ContosoArchives" -SrcContainer "ContosoUploads"
 ```
 
-This command starts the copy operation of the blob named ContosoPlanning2015 from the container named ContosoUploads to the container named ContosoArchives.
+Xxxx xxxxxxx xxxxxx xxx xxxx xxxxxxxxx xx xxx xxxx xxxxx XxxxxxxXxxxxxxx0000 xxxx xxx xxxxxxxxx xxxxx XxxxxxxXxxxxxx xx xxx xxxxxxxxx xxxxx XxxxxxxXxxxxxxx.
 
-### Example 2: Get a container to specify blobs to copy
+### Xxxxxxx 0$ Xxx x xxxxxxxxx xx xxxxxxx xxxxx xx xxxx
 ```
 C:\PS>Get-AzureStorageContainer -Name "ContosoUploads" | Start-AzureStorageBlobCopy -SrcBlob "ContosoPlanning2015" -DestContainer "ContosoArchives"
 ```
 
-This command gets the container named ContosoUploads, by using the **Get-AzureStorageContainer** cmdlet, and then passes the container to the current cmdlet by using the pipeline operator.
-That cmdlet starts the copy operation of the blob named ContosoPlanning2015.
-The previous cmdlet provides the source container.
-The *DestContainer* parameter specifies ContosoArchives as the destination container.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxx xxxxx XxxxxxxXxxxxxx$ xx xxxxx xxx $$Xxx$XxxxxXxxxxxxXxxxxxxxx$$ xxxxxx$ xxx xxxx xxxxxx xxx xxxxxxxxx xx xxx xxxxxxx xxxxxx xx xxxxx xxx xxxxxxxx xxxxxxxx.
+Xxxx xxxxxx xxxxxx xxx xxxx xxxxxxxxx xx xxx xxxx xxxxx XxxxxxxXxxxxxxx0000.
+Xxx xxxxxxxx xxxxxx xxxxxxxx xxx xxxxxx xxxxxxxxx.
+Xxx $XxxxXxxxxxxxx$ xxxxxxxxx xxxxxxxxx XxxxxxxXxxxxxxx xx xxx xxxxxxxxxxx xxxxxxxxx.
 
-### Example 3: Get a blob to copy
+### Xxxxxxx 0$ Xxx x xxxx xx xxxx
 ```
 C:\PS>Get-AzureStorageBlob -Container "ContosoUploads" | Start-AzureStorageBlobCopy -DestContainer "ContosoArchives"
 ```
 
-This command gets the blobs in the container named ContosoUploads, by using the **Get-AzureStorageBlob** cmdlet, and then passes the results to the current cmdlet by using the pipeline operator.
-That cmdlet starts the copy operation of the blobs to the container named ContosoArchives.
+Xxxx xxxxxxx xxxx xxx xxxxx xx xxx xxxxxxxxx xxxxx XxxxxxxXxxxxxx$ xx xxxxx xxx $$Xxx$XxxxxXxxxxxxXxxx$$ xxxxxx$ xxx xxxx xxxxxx xxx xxxxxxx xx xxx xxxxxxx xxxxxx xx xxxxx xxx xxxxxxxx xxxxxxxx.
+Xxxx xxxxxx xxxxxx xxx xxxx xxxxxxxxx xx xxx xxxxx xx xxx xxxxxxxxx xxxxx XxxxxxxXxxxxxxx.
 
-### Example 4: Copy a blob specified as an object
+### Xxxxxxx 0$ Xxxx x xxxx xxxxxxxxx xx xx xxxxxx
 ```
 C:\PS>$SrcBlob = Get-AzureStorageBlob -Container "ContosoUploads" -Blob "ContosoPlanning2015"
 C:\PS> $DestBlob = Get-AzureStorageBlob -Container "ContosoArchives" -Blob "ContosoPlanning2015Archived"
 C:\PS> Start-AzureStorageBlobCopy -ICloudBlob $SrcBlob.ICloudBlob -DestICloudBlob $DestBlob.ICloudBlob
 ```
 
-The first command gets the blob named ContosoPlanning2015 in the container named ContosoUploads.
-The command stores that object in the $SrcBlob variable.
+Xxx xxxxx xxxxxxx xxxx xxx xxxx xxxxx XxxxxxxXxxxxxxx0000 xx xxx xxxxxxxxx xxxxx XxxxxxxXxxxxxx.
+Xxx xxxxxxx xxxxxx xxxx xxxxxx xx xxx $XxxXxxx xxxxxxxx.
 
-The second command gets the blob named ContosoPlanning2015Archived in the container named ContosoArchives.
-The command stores that object in the $DestBlob variable.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxx xxxxx XxxxxxxXxxxxxxx0000Xxxxxxxx xx xxx xxxxxxxxx xxxxx XxxxxxxXxxxxxxx.
+Xxx xxxxxxx xxxxxx xxxx xxxxxx xx xxx $XxxxXxxx xxxxxxxx.
 
-The last command starts the copy operation from the source container to the destination container.
-The command uses standard dot notation to specify the **ICloudBlob** objects for the $SrcBlob and $DestBlob blobs.
+Xxx xxxx xxxxxxx xxxxxx xxx xxxx xxxxxxxxx xxxx xxx xxxxxx xxxxxxxxx xx xxx xxxxxxxxxxx xxxxxxxxx.
+Xxx xxxxxxx xxxx xxxxxxxx xxx xxxxxxxx xx xxxxxxx xxx $$XXxxxxXxxx$$ xxxxxxx xxx xxx $XxxXxxx xxx $XxxxXxxx xxxxx.
 
-### Example 5: Copy a blob from a URI
+### Xxxxxxx 0$ Xxxx x xxxx xxxx x XXX
 ```
 C:\PS>$Context = New-AzureStorageContext -StorageAccountName "ContosoGeneral" -StorageAccountKey "< Storage Key for ContosoGeneral ends with == >"
 C:\PS> Start-AzureStorageBlobCopy -AbsoluteUri "http://www.contosointernal.com/planning" -DestContainer "ContosoArchive" -DestBlob "ContosoPlanning2015" -DestContext $Context
 ```
 
-This command creates a context for the account named ContosoGeneral that uses the specified key, and then stores that key in the $Context variable.
+Xxxx xxxxxxx xxxxxxx x xxxxxxx xxx xxx xxxxxxx xxxxx XxxxxxxXxxxxxx xxxx xxxx xxx xxxxxxxxx xxx$ xxx xxxx xxxxxx xxxx xxx xx xxx $Xxxxxxx xxxxxxxx.
 
-The second command copies the file from the specified URI to the blob named ContosoPlanning in the container named ContosoArchive.
-The command starts the copy operation in the context stored in $Context.
+Xxx xxxxxx xxxxxxx xxxxxx xxx xxxx xxxx xxx xxxxxxxxx XXX xx xxx xxxx xxxxx XxxxxxxXxxxxxxx xx xxx xxxxxxxxx xxxxx XxxxxxxXxxxxxx.
+Xxx xxxxxxx xxxxxx xxx xxxx xxxxxxxxx xx xxx xxxxxxx xxxxxx xx $Xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AbsoluteUri
-Specifies the absolute URI of a file to copy to an azure_2 Storage blob.
+### $XxxxxxxxXxx
+Xxxxxxxxx xxx xxxxxxxx XXX xx x xxxx xx xxxx xx xx xxxxx$0 Xxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -162,10 +162,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ClientTimeoutPerRequest
-Specifies the client-side time-out interval, in seconds, for one service request.
-If the previous call fails in the specified interval, this cmdlet retries the request.
-If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -179,9 +179,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CloudBlob
-Specifies a **CloudBlob** object from azure_2 Storage Client library.
-To obtain a **CloudBlob** object, use the Get-AzureStorageBlob cmdlet.
+### $XxxxxXxxx
+Xxxxxxxxx x $$XxxxxXxxx$$ xxxxxx xxxx xxxxx$0 Xxxxxxx Xxxxxx xxxxxxx.
+Xx xxxxxx x $$XxxxxXxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
 ```yaml
 Type: CloudBlob
@@ -195,10 +195,10 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -CloudBlobContainer
-Specifies a **CloudBlobContainer** object from the azure_2 Storage Client library.
-This cmdlet copies a blob from the container that this parameter specifies.
-To obtain a **CloudBlobContainer** object, use the Get-AzureStorageContainer cmdlet.
+### $XxxxxXxxxXxxxxxxxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx xxxx xxx xxxxx$0 Xxxxxxx Xxxxxx xxxxxxx.
+Xxxx xxxxxx xxxxxx x xxxx xxxx xxx xxxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
 
 ```yaml
 Type: CloudBlobContainer
@@ -212,12 +212,12 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ConcurrentTaskCount
-Specifies the maximum concurrent network calls.
-You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
-The specified value is an absolute count and is not multiplied by the core count.
-This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
-The default value is 10.
+### $XxxxxxxxxxXxxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxxxxx xxx xxxx xxxxxx xxxxxxx xxxxxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxxx$ xxxx xx 000 xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx xxxxx xx 00.
 
 ```yaml
 Type: Int32]
@@ -231,9 +231,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -259,8 +259,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DestBlob
-Specifies the name of the destination blob.
+### $XxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -286,8 +286,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DestCloudBlob
-Specifies a destination **CloudBlob** object
+### $XxxxXxxxxXxxx
+Xxxxxxxxx x xxxxxxxxxxx $$XxxxxXxxx$$ xxxxxx
 
 ```yaml
 Type: CloudBlob
@@ -301,8 +301,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DestContainer
-Specifies the name of the destination container.
+### $XxxxXxxxxxxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -316,9 +316,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DestContext
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $XxxxXxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -332,8 +332,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Indicates that this cmdlet overwrites the destination blob without prompting you for confirmation.
+### $Xxxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxxxxx xxx xxxxxxxxxxx xxxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -347,9 +347,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-Specifies the service side time-out interval, in seconds, for a request.
-If the specified interval elapses before the service processes the request, the storage service returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
+Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -363,8 +363,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SrcBlob
-Specifies the name of the source blob.
+### $XxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -378,8 +378,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SrcContainer
-Specifies the name of the source container.
+### $XxxXxxxxxxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -393,8 +393,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SrcDir
-Specifies a **CloudFileDirectory** object from azure_2 Storage Client library.
+### $XxxXxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx xxxx xxxxx$0 Xxxxxxx Xxxxxx xxxxxxx.
 
 ```yaml
 Type: CloudFileDirectory
@@ -408,9 +408,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SrcFile
-Specifes a **CloudFile** object from azure_2 Storage Client library.
-You can create it or use Get-AzureStorageFile cmdlet.
+### $XxxXxxx
+Xxxxxxxx x $$XxxxxXxxx$$ xxxxxx xxxx xxxxx$0 Xxxxxxx Xxxxxx xxxxxxx.
+Xxx xxx xxxxxx xx xx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
 ```yaml
 Type: CloudFile
@@ -424,8 +424,8 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -SrcFilePath
-Specifies the source file relative path of source directory or source share.
+### $XxxXxxxXxxx
+Xxxxxxxxx xxx xxxxxx xxxx xxxxxxxx xxxx xx xxxxxx xxxxxxxxx xx xxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -439,9 +439,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SrcShare
-Specifies a **CloudFileShare** object from azure_2 Storage Client library.
-You can create it or use Get-AzureStorageShare cmdlet.
+### $XxxXxxxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx xxxx xxxxx$0 Xxxxxxx Xxxxxx xxxxxxx.
+Xxx xxx xxxxxx xx xx xxx Xxx$XxxxxXxxxxxxXxxxx xxxxxx.
 
 ```yaml
 Type: CloudFileShare
@@ -455,8 +455,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SrcShareName
-Specifies the source share name.
+### $XxxXxxxxXxxx
+Xxxxxxxxx xxx xxxxxx xxxxx xxxx.
 
 ```yaml
 Type: String
@@ -470,8 +470,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -485,8 +485,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -500,16 +500,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageBlobCopyState](5ead5288-78e9-4ebb-904e-5e86ea88da93)
+[Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx](5ead5288-78e9-4ebb-904e-5e86ea88da93)
 
-[Stop-AzureStorageBlobCopy](c75b9de9-597d-4986-980e-10e49eeef4a7)
+[Xxxx$XxxxxXxxxxxxXxxxXxxx](c75b9de9-597d-4986-980e-10e49eeef4a7)
 
 

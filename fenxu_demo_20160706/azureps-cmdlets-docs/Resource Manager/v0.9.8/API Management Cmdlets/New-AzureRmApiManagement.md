@@ -6,11 +6,11 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureRmApiManagement
-## SYNOPSIS
-Creates an API Management deployment.
+# Xxx$XxxxxXxXxxXxxxxxxxxx
+## XXXXXXXX
+Xxxxxxx xx XXX Xxxxxxxxxx xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureRmApiManagement [-Capacity <Int32]>] [-Sku <PsApiManagementSku]>]
@@ -18,32 +18,32 @@ New-AzureRmApiManagement [-Capacity <Int32]>] [-Sku <PsApiManagementSku]>]
  -Name <String> -Organization <String> -ResourceGroupName <String>
 ```
 
-## DESCRIPTION
-The **New-AzureRmApiManagement** cmdlet creates an API Management deployment in azure_2 API Management.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxXxxxxxxxxx$$ xxxxxx xxxxxxx xx XXX Xxxxxxxxxx xxxxxxxxxx xx xxxxx$0 XXX Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create at Developer tier API Management service
+### Xxxxxxx 0$ Xxxxxx xx Xxxxxxxxx xxxx XXX Xxxxxxxxxx xxxxxxx
 ```
 PS C:\>New-AzureRmApiManagement -ResourceGroupName "ContosoGroup02" -Name "ContosoApi" -Location "Central US" -Organization "Contoso" -AdminEmail "admin@contoso.com"
 ```
 
-This command creates a Developer tier API Management service.
-The command specifies the organization and the administrator address.
-The command does not specify the *SKU* parameter.
-Therefore, the cmdlet uses the default value of Developer.
+Xxxx xxxxxxx xxxxxxx x Xxxxxxxxx xxxx XXX Xxxxxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxxxxxxx xxx xxxxxxxxxxxx xxx xxx xxxxxxxxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxx xxx xxxxxxx xxx $XXX$ xxxxxxxxx.
+Xxxxxxxxx$ xxx xxxxxx xxxx xxx xxxxxxx xxxxx xx Xxxxxxxxx.
 
-### Example 2: Create a Standard tier service that has three units
+### Xxxxxxx 0$ Xxxxxx x Xxxxxxxx xxxx xxxxxxx xxxx xxx xxxxx xxxxx
 ```
 PS C:\>New-AzureRmApiManagement -ResourceGroupName "ContosoGroup02 -Name "ContosoApi" -Location "Central US" -Organization "Contoso" -AdminEmail "admin@contoso.com" -Sku Standard -Capacity 3
 ```
 
-This command creates a Standard tier API Management service that has three units.
+Xxxx xxxxxxx xxxxxxx x Xxxxxxxx xxxx XXX Xxxxxxxxxx xxxxxxx xxxx xxx xxxxx xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AdminEmail
-Specifies the originating email address for all notifications that the API Management system sends.
+### $XxxxxXxxxx
+Xxxxxxxxx xxx xxxxxxxxxxx xxxxx xxxxxxx xxx xxx xxxxxxxxxxxxx xxxx xxx XXX Xxxxxxxxxx xxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -57,9 +57,9 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Capacity
-Specifies the SKU capacity of the azure_2 API Management service.
-The default is one (1).
+### $Xxxxxxxx
+Xxxxxxxxx xxx XXX xxxxxxxx xx xxx xxxxx$0 XXX Xxxxxxxxxx xxxxxxx.
+Xxx xxxxxxx xx xxx $0$.
 
 ```yaml
 Type: Int32]
@@ -73,27 +73,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Location
-Specifies the location in which this cmdlet creates an API Management deployment.
-To obtain valid locations, use the Get-AzureLocation cmdlets.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xx xxxxx xxxx xxxxxx xxxxxxx xx XXX Xxxxxxxxxx xxxxxxxxxx.
+Xx xxxxxx xxxxx xxxxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxx xxxxxxx.
 
-Valid values are: 
+Xxxxx xxxxxx xxx$ 
 
--- North Central US
--- South Central US
--- Central US
--- West Europe
--- North Europe
--- West US
--- East US
--- East US 2
--- Japan East
--- Japan West
--- Brazil South
--- Southeast Asia
--- East Asia
--- Australia East
--- Australia Southeast
+$$ Xxxxx Xxxxxxx XX $$ Xxxxx Xxxxxxx XX $$ Xxxxxxx XX $$ Xxxx Xxxxxx $$ Xxxxx Xxxxxx $$ Xxxx XX $$ Xxxx XX $$ Xxxx XX 0 $$ Xxxxx Xxxx $$ Xxxxx Xxxx $$ Xxxxxx Xxxxx $$ Xxxxxxxxx Xxxx $$ Xxxx Xxxx $$ Xxxxxxxxx Xxxx $$ Xxxxxxxxx Xxxxxxxxx
 
 ```yaml
 Type: String
@@ -107,8 +93,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies a name for the API Management deployment.
+### $Xxxx
+Xxxxxxxxx x xxxx xxx xxx XXX Xxxxxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -122,9 +108,9 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Organization
-Specifies the name of an organization.
-API Management uses this address in the developer portal in email notifications.
+### $Xxxxxxxxxxxx
+Xxxxxxxxx xxx xxxx xx xx xxxxxxxxxxxx.
+XXX Xxxxxxxxxx xxxx xxxx xxxxxxx xx xxx xxxxxxxxx xxxxxx xx xxxxx xxxxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -138,8 +124,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the of resource group under which this cmdlet creates an API Management deployment.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xx xxxxxxxx xxxxx xxxxx xxxxx xxxx xxxxxx xxxxxxx xx XXX Xxxxxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -153,15 +139,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Sku
-Specifies the tier of the API Management service.
-Valid values are: 
+### $Xxx
+Xxxxxxxxx xxx xxxx xx xxx XXX Xxxxxxxxxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Developer 
--- Standard 
--- Premium 
+$$ Xxxxxxxxx $$ Xxxxxxxx $$ Xxxxxxx 
 
-The default is Developer.
+Xxx xxxxxxx xx Xxxxxxxxx.
 
 ```yaml
 Type: PsApiManagementSku]
@@ -175,8 +159,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Tags
-Specifies a dictionary of tags.
+### $Xxxx
+Xxxxxxxxx x xxxxxxxxxx xx xxxx.
 
 ```yaml
 Type: 0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
@@ -190,20 +174,20 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Backup-AzureRmApiManagement](b3b67164-7adf-4fe3-87ab-51dcd46ed084)
+[Xxxxxx$XxxxxXxXxxXxxxxxxxxx](b3b67164-7adf-4fe3-87ab-51dcd46ed084)
 
-[Get-AzureRmApiManagement](e067ded3-a2e3-4d53-8628-0ebbafa62721)
+[Xxx$XxxxxXxXxxXxxxxxxxxx](e067ded3-a2e3-4d53-8628-0ebbafa62721)
 
-[Remove-AzureRmApiManagement](9a2c4617-9870-4d9c-92fa-2af03211d931)
+[Xxxxxx$XxxxxXxXxxXxxxxxxxxx](9a2c4617-9870-4d9c-92fa-2af03211d931)
 
-[Restore-AzureRmApiManagement](b0ff412d-269a-472f-8d79-9c0b9f0ebac2)
+[Xxxxxxx$XxxxxXxXxxXxxxxxxxxx](b0ff412d-269a-472f-8d79-9c0b9f0ebac2)
 
 

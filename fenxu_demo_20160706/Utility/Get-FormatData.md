@@ -4,43 +4,43 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293969
 schema: 2.0.0
 ---
 
-# Get-FormatData
-## SYNOPSIS
-Gets the formatting data in the current session.
+# Xxx$XxxxxxXxxx
+## XXXXXXXX
+Xxxx xxx xxxxxxxxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-FormatData [[-TypeName] <String[]>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-FormatData cmdlet gets the formatting data in the current session.
+## XXXXXXXXXXX
+Xxx Xxx$XxxxxxXxxx xxxxxx xxxx xxx xxxxxxxxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
-The formatting data in the session includes formatting data from Format.ps1xml formatting files (such as those in the $pshome directory), formatting data for modules that you import into the session, and formatting data for commands that you import into your session by using the Import-PSSession cmdlet.
+Xxx xxxxxxxxxx xxxx xx xxx xxxxxxx xxxxxxxx xxxxxxxxxx xxxx xxxx Xxxxxx.xx0xxx xxxxxxxxxx xxxxx $xxxx xx xxxxx xx xxx $xxxxxx xxxxxxxxx$$ xxxxxxxxxx xxxx xxx xxxxxxx xxxx xxx xxxxxx xxxx xxx xxxxxxx$ xxx xxxxxxxxxx xxxx xxx xxxxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxxx xx xxxxx xxx Xxxxxx$XXXxxxxxx xxxxxx.
 
-You can use this cmdlet to examine the formatting data.
-Then, you can use the Export-FormatData cmdlet to serialize the objects (convert them to XML) and save them in Format.ps1xml files.
+Xxx xxx xxx xxxx xxxxxx xx xxxxxxx xxx xxxxxxxxxx xxxx.
+Xxxx$ xxx xxx xxx xxx Xxxxxx$XxxxxxXxxx xxxxxx xx xxxxxxxxx xxx xxxxxxx $xxxxxxx xxxx xx XXX$ xxx xxxx xxxx xx Xxxxxx.xx0xxx xxxxx.
 
-For more information about formatting files in Windows PowerShell, see about_Format.ps1xml.
+Xxx xxxx xxxxxxxxxxx xxxxx xxxxxxxxxx xxxxx xx Xxxxxxx XxxxxXxxxx$ xxx xxxxx$Xxxxxx.xx0xxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-formatdata
 ```
 
-This command gets all the formatting data in the session.
+Xxxx xxxxxxx xxxx xxx xxx xxxxxxxxxx xxxx xx xxx xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-formatdata -typename Microsoft.Wsman*
 ```
 
-This command gets the formatting data items whose names begin with "Microsoft.Wsman".
+Xxxx xxxxxxx xxxx xxx xxxxxxxxxx xxxx xxxxx xxxxx xxxxx xxxxx xxxx $Xxxxxxxxx.Xxxxx$.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$f = get-formatdata -typename helpinfoshort
 PS C:\>$f
@@ -64,9 +64,9 @@ Category      Left           9
 Undefined      0
 ```
 
-This example shows how to get a formatting data object and examine its properties.
+Xxxx xxxxxxx xxxxx xxx xx xxx x xxxxxxxxxx xxxx xxxxxx xxx xxxxxxx xxx xxxxxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = get-formatdata
 PS C:\>import-module bitstransfer
@@ -85,19 +85,19 @@ PS C:\>get-content c:\test\bits.format.ps1xml
 ...
 ```
 
-This example shows how to use Get-FormatData and Export-FormatData to export the formatting data that is added by a module.
+Xxxx xxxxxxx xxxxx xxx xx xxx Xxx$XxxxxxXxxx xxx Xxxxxx$XxxxxxXxxx xx xxxxxx xxx xxxxxxxxxx xxxx xxxx xx xxxxx xx x xxxxxx.
 
-The first four commands use the Get-FormatData, Import-Module, and Compare-Object cmdlets to identify the format type that the BitsTransfer module adds to the session.
+Xxx xxxxx xxxx xxxxxxxx xxx xxx Xxx$XxxxxxXxxx$ Xxxxxx$Xxxxxx$ xxx Xxxxxxx$Xxxxxx xxxxxxx xx xxxxxxxx xxx xxxxxx xxxx xxxx xxx XxxxXxxxxxxx xxxxxx xxxx xx xxx xxxxxxx.
 
-The fifth command uses the Get-FormatData cmdlet to get the format type that the BitsTransfer module adds.
-It uses a pipeline operator (|) to send the format type object to the Export-FormatData cmdlet, which converts it back to XML and saves it in the specified format.ps1xml file.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XxxxxxXxxx xxxxxx xx xxx xxx xxxxxx xxxx xxxx xxx XxxxXxxxxxxx xxxxxx xxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxx xxxx xxxxxx xx xxx Xxxxxx$XxxxxxXxxx xxxxxx$ xxxxx xxxxxxxx xx xxxx xx XXX xxx xxxxx xx xx xxx xxxxxxxxx xxxxxx.xx0xxx xxxx.
 
-The final command shows an excerpt of the format.ps1xml file content.
+Xxx xxxxx xxxxxxx xxxxx xx xxxxxxx xx xxx xxxxxx.xx0xxx xxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -112,8 +112,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -127,10 +127,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TypeName
-Gets only the formatting data with the specified type names.
-Enter the type names.
-Wildcards are permitted.
+### $XxxxXxxx
+Xxxx xxxx xxx xxxxxxxxxx xxxx xxxx xxx xxxxxxxxx xxxx xxxxx.
+Xxxxx xxx xxxx xxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -144,20 +144,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.ExtendedTypeDefinition
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxxxxXxxxXxxxxxxxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Export-FormatData]()
+[Xxxxxx$XxxxxxXxxx]()
 
-[Update-FormatData]()
+[Xxxxxx$XxxxxxXxxx]()
 

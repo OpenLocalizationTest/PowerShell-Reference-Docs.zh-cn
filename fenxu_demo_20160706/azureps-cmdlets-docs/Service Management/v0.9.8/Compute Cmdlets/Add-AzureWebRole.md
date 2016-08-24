@@ -6,58 +6,58 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Add-AzureWebRole
-## SYNOPSIS
-Adds a web worker role.
+# Xxx$XxxxxXxxXxxx
+## XXXXXXXX
+Xxxx x xxx xxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Add-AzureWebRole [[-Name] <String>] [[-Instances] <Int32>] [[-TemplateFolder] <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Add-AzureWebRole cmdlet adds a web worker role.
+Xxx Xxx$XxxxxXxxXxxx xxxxxx xxxx x xxx xxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Add a default role
+### Xxxxxxx 0$ Xxx x xxxxxxx xxxx
 ```
 PS C:\>Add-AzureWebRole
 ```
 
-This command add web role that has the default configuration of Webrole1 as the name and a single instance.
+Xxxx xxxxxxx xxx xxx xxxx xxxx xxx xxx xxxxxxx xxxxxxxxxxxxx xx Xxxxxxx0 xx xxx xxxx xxx x xxxxxx xxxxxxxx.
 
-### Example 2: Add a role with a name
+### Xxxxxxx 0$ Xxx x xxxx xxxx x xxxx
 ```
 PS C:\>Add-AzureWebRole -Name "MyWebRole"
 ```
 
-This command adds a single web role named MyWebRole to the current application.
+Xxxx xxxxxxx xxxx x xxxxxx xxx xxxx xxxxx XxXxxXxxx xx xxx xxxxxxx xxxxxxxxxxx.
 
-### Example 3: Add a role with a name and instance count
+### Xxxxxxx 0$ Xxx x xxxx xxxx x xxxx xxx xxxxxxxx xxxxx
 ```
 PS C:\>Add-AzureWebRole -Name "MyWebRole" -Instance 2
 ```
 
-This command adds a web role named MyWebRole to the current application.
-The cmdlet has a role instance count of 2.
+Xxxx xxxxxxx xxxx x xxx xxxx xxxxx XxXxxXxxx xx xxx xxxxxxx xxxxxxxxxxx.
+Xxx xxxxxx xxx x xxxx xxxxxxxx xxxxx xx 0.
 
-### Example 4: Add a role with a name and template
+### Xxxxxxx 0$ Xxx x xxxx xxxx x xxxx xxx xxxxxxxx
 ```
 PS C:\>Add-AzureWebRole -Name "MyWebRole" -TemplateFolder ".\MyWebTemplateFolder"
 ```
 
-This command adds a single web role named MyWebRole to the current application.
-The command specifies a folder named MyWebTemplateFolder as a scaffolding template.
+Xxxx xxxxxxx xxxx x xxxxxx xxx xxxx xxxxx XxXxxXxxx xx xxx xxxxxxx xxxxxxxxxxx.
+Xxx xxxxxxx xxxxxxxxx x xxxxxx xxxxx XxXxxXxxxxxxxXxxxxx xx x xxxxxxxxxxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Instances
-Specifies the number of instances.
+### $Xxxxxxxxx
+Xxxxxxxxx xxx xxxxxx xx xxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -71,8 +71,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the web role.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxx xxxx.
 
 ```yaml
 Type: String
@@ -86,8 +86,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TemplateFolder
-Specifies the template folder.
+### $XxxxxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -101,16 +101,16 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Add-AzureWorkerRole](77af980e-7b69-46b9-af3c-6d586710eff8)
+[Xxx$XxxxxXxxxxxXxxx](77af980e-7b69-46b9-af3c-6d586710eff8)
 
-[New-AzureRoleTemplate](03fbb075-4258-4eb3-a5d1-3ae0f599e361)
+[Xxx$XxxxxXxxxXxxxxxxx](03fbb075-4258-4eb3-a5d1-3ae0f599e361)
 
 

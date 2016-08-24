@@ -4,33 +4,33 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293965
 schema: 2.0.0
 ---
 
-# Get-Culture
-## SYNOPSIS
-Gets the current culture set in the operating system.
+# Xxx$Xxxxxxx
+## XXXXXXXX
+Xxxx xxx xxxxxxx xxxxxxx xxx xx xxx xxxxxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-Culture [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-Culture cmdlet gets information about the current culture settings.
-This includes information about the current language settings on the system, such as the keyboard layout, and the display format of items such as numbers, currency, and dates.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxxxx xxxxxx xxxx xxxxxxxxxxx xxxxx xxx xxxxxxx xxxxxxx xxxxxxxx.
+Xxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxx xxxxxxxx xxxxxxxx xx xxx xxxxxx$ xxxx xx xxx xxxxxxxx xxxxxx$ xxx xxx xxxxxxx xxxxxx xx xxxxx xxxx xx xxxxxxx$ xxxxxxxx$ xxx xxxxx.
 
-You can also use the Get-UICulture cmdlet, which gets the current user interface culture on the system, and the Set-Culture cmdlet in the International module.
-The user-interface (UI) culture determines which text strings are used for user interface elements, such as menus and messages.
+Xxx xxx xxxx xxx xxx Xxx$XXXxxxxxx xxxxxx$ xxxxx xxxx xxx xxxxxxx xxxx xxxxxxxxx xxxxxxx xx xxx xxxxxx$ xxx xxx Xxx$Xxxxxxx xxxxxx xx xxx Xxxxxxxxxxxxx xxxxxx.
+Xxx xxxx$xxxxxxxxx $XX$ xxxxxxx xxxxxxxxxx xxxxx xxxx xxxxxxx xxx xxxx xxx xxxx xxxxxxxxx xxxxxxxx$ xxxx xx xxxxx xxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-culture
 ```
 
-This command displays information about the regional settings on the computer.
+Xxxx xxxxxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxxx xxxxxxxx xx xxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$c = get-culture
 PS C:\>$c | format-list -property *
@@ -100,31 +100,30 @@ PS C:\>$c.datetimeformat.firstdayofweek
 Sunday
 ```
 
-This example demonstrates the vast amount of data in the culture object.
-It shows how to display the properties and sub-properties of the object.
+Xxxx xxxxxxx xxxxxxxxxxxx xxx xxxx xxxxxx xx xxxx xx xxx xxxxxxx xxxxxx.
+Xx xxxxx xxx xx xxxxxxx xxx xxxxxxxxxx xxx xxx$xxxxxxxxxx xx xxx xxxxxx.
 
-The first command uses the Get-Culture cmdlet to get the current culture settings on the computer.
-It stores the resulting culture object in the $c variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxx xxxxxxx xxxxxxxx xx xxx xxxxxxxx.
+Xx xxxxxx xxx xxxxxxxxx xxxxxxx xxxxxx xx xxx $x xxxxxxxx.
 
-The second command displays all of the properties of the culture object.
-It uses a pipeline operator (|) to send the culture object in $c to the Format-List cmdlet.
-It uses the Property parameter to display all (*) properties of the object.
-(This command can be abbreviated as "$c | fl *".)
+Xxx xxxxxx xxxxxxx xxxxxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxxxxx xxxxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xxxxxx xx $x xx xxx Xxxxxx$Xxxx xxxxxx.
+Xx xxxx xxx Xxxxxxxx xxxxxxxxx xx xxxxxxx xxx $$$ xxxxxxxxxx xx xxx xxxxxx. $Xxxx xxxxxxx xxx xx xxxxxxxxxxx xx $$x $ xx $$.$
 
-The remaining commands explore the properties of the culture object by using dot notation to display the values of the object properties.
-You can use this notation to display the value of any property of the object.
+Xxx xxxxxxxxx xxxxxxxx xxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxx xxxxxx xx xxxxx xxx xxxxxxxx xx xxxxxxx xxx xxxxxx xx xxx xxxxxx xxxxxxxxxx.
+Xxx xxx xxx xxxx xxxxxxxx xx xxxxxxx xxx xxxxx xx xxx xxxxxxxx xx xxx xxxxxx.
 
-The third command uses dot notation to display the value of the Calendar property of the culture object.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxxx xx xxxxxxx xxx xxxxx xx xxx Xxxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxx.
 
-The fourth command uses dot notation to display the value of the DataTimeFormat property of the culture object.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxxxxxx xx xxxxxxx xxx xxxxx xx xxx XxxxXxxxXxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxx.
 
-Many object properties have properties.
-The fifth command uses dot notation to display the value of the FirstDayOfWeek property of the DateTimeFormat property.
+Xxxx xxxxxx xxxxxxxxxx xxxx xxxxxxxxxx.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxxx xx xxxxxxx xxx xxxxx xx xxx XxxxxXxxXxXxxx xxxxxxxx xx xxx XxxxXxxxXxxxxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -139,8 +138,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -154,23 +153,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Globalization.CultureInfo
-Get-Culture returns an object that represents the current culture.
+### Xxxxxx.Xxxxxxxxxxxxx.XxxxxxxXxxx
+Xxx$Xxxxxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xxxxxxx.
 
-## NOTES
-You can also use the $PsCulture and $PsUICulture variables.
-The $PsCulture variable stores the name of the current culture and the $PsUICulture variable stores the name of the current UI culture.
+## XXXXX
+Xxx xxx xxxx xxx xxx $XxXxxxxxx xxx $XxXXXxxxxxx xxxxxxxxx.
+Xxx $XxXxxxxxx xxxxxxxx xxxxxx xxx xxxx xx xxx xxxxxxx xxxxxxx xxx xxx $XxXXXxxxxxx xxxxxxxx xxxxxx xxx xxxx xx xxx xxxxxxx XX xxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Set-Culture]()
+[Xxx$Xxxxxxx]()
 
-[Get-UICulture]()
+[Xxx$XXXxxxxxx]()
 

@@ -6,60 +6,60 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureServiceProjectRole
-## SYNOPSIS
-Sets the number of instances or the runtime version of a role.
+# Xxx$XxxxxXxxxxxxXxxxxxxXxxx
+## XXXXXXXX
+Xxxx xxx xxxxxx xx xxxxxxxxx xx xxx xxxxxxx xxxxxxx xx x xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureServiceProjectRole [[-RoleName] <String>] [-Instances] <Int32> [-PassThru]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureServiceProjectRole [[-RoleName] <String>] [-Runtime] <String> [-Version] <String> [-PassThru]
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureServiceProjectRole [[-RoleName] <String>] [-PassThru] -VMSize <String>
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Set-AzureServiceProjectRole cmdlet sets the number of role instances for the specified role.
+Xxx Xxx$XxxxxXxxxxxxXxxxxxxXxxx xxxxxx xxxx xxx xxxxxx xx xxxx xxxxxxxxx xxx xxx xxxxxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Set instances for a web role
+### 0$ Xxx xxxxxxxxx xxx x xxx xxxx
 ```
 PS C:\>Set-AzureServiceProjectRole â€œMyWebRoleâ€ 2
 ```
 
-Sets the number of instances for the web role named 'MyWebRole1' to 2.
+Xxxx xxx xxxxxx xx xxxxxxxxx xxx xxx xxx xxxx xxxxx $XxXxxXxxx0$ xx 0.
 
-### 2: Set instances for a worker role
+### 0$ Xxx xxxxxxxxx xxx x xxxxxx xxxx
 ```
 PS C:\>Set-AzureServiceProjectRole â€œMyWorkerRole1â€ 2
 ```
 
-Sets the role instance count for the worker role named WorkerRole1 to 2.
+Xxxx xxx xxxx xxxxxxxx xxxxx xxx xxx xxxxxx xxxx xxxxx XxxxxxXxxx0 xx 0.
 
-### 3: Set the runtime version for a role service
+### 0$ Xxx xxx xxxxxxx xxxxxxx xxx x xxxx xxxxxxx
 ```
 PS C:\>Set-AzureServiceProjectRole â€œMyRole1â€ node 0.6.20
 ```
 
-Sets the node.exe runtime version for role â€œMyRole1â€ to 0.6.20.
+Xxxx xxx xxxx.xxx xxxxxxx xxxxxxx xxx xxxx $$$XxXxxx0$$$ xx 0.0.00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Instances
-Specifies the number of role instances for the specified web or worker role.
+### $Xxxxxxxxx
+Xxxxxxxxx xxx xxxxxx xx xxxx xxxxxxxxx xxx xxx xxxxxxxxx xxx xx xxxxxx xxxx.
 
 ```yaml
 Type: Int32
@@ -73,8 +73,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-@{Text=}
+### $XxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -88,8 +88,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -RoleName
-Specifies the name of the web or worker role to be changed.
+### $XxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxx xx xxxxxx xxxx xx xx xxxxxxx.
 
 ```yaml
 Type: String
@@ -103,8 +103,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Runtime
-Specifies the runtime to add to the specified role.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxx xx xxx xxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -118,8 +118,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Version
-Specifies the version of the runtime to add to the role.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxx xxxxxxx xx xxx xx xxx xxxx.
 
 ```yaml
 Type: String
@@ -133,8 +133,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -VMSize
-Specifies the virtual machine size of the role.
+### $XXXxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxx xxxx xx xxx xxxx.
 
 ```yaml
 Type: String
@@ -148,17 +148,17 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
 ### 
-Specifies the size of the virtual machine.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Set-AzureServiceProject](c3baa783-e57a-46bd-abe4-6d06130eaaf0)
+[Xxx$XxxxxXxxxxxxXxxxxxx](c3baa783-e57a-46bd-abe4-6d06130eaaf0)
 
 

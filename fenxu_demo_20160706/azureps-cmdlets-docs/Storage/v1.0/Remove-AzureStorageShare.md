@@ -6,57 +6,42 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureStorageShare
-## SYNOPSIS
-Deletes a file share.
+# Xxxxxx$XxxxxXxxxxxxXxxxx
+## XXXXXXXX
+Xxxxxxx x xxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Remove-AzureStorageShare [-Name] <String> [-ClientTimeoutPerRequest <Nullable [System.Int32]>]
  [-ConcurrentTaskCount <Nullable [System.Int32]>] [-Context <AzureStorageContext>] [-PassThru]
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Remove-AzureStorageShare [-Share] <CloudFileShare> [-ClientTimeoutPerRequest <Nullable [System.Int32]>]
  [-ConcurrentTaskCount <Nullable [System.Int32]>] [-PassThru]
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureStorageShare** cmdlet deletes a file share.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxxxxxxXxxxx$$ xxxxxx xxxxxxx x xxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a file share
+### Xxxxxxx 0$ Xxxxxx x xxxx xxxxx
 ```
 PS C:\>Remove-AzureStorageShare -Name "ContosoShare06"
 ```
 
-This command removes the file share named ContosoShare06.
+Xxxx xxxxxxx xxxxxxx xxx xxxx xxxxx xxxxx XxxxxxxXxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-@{Text=}
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -70,8 +55,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-@{Text=}
+### $XxxxxxxxxxXxxxXxxxx
+$$Xxxx$$
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: AzureStorageContext
@@ -85,9 +85,9 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the file share.
-This cmdlet deletes the file share that this parameter specifies.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxx xxxxxxx xxx xxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -101,8 +101,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-@{Text=}
+### $XxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -116,8 +116,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -131,12 +131,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Share
-Specifies a **CloudFileShare** object.
-This cmdlet removes the object that this parameter specifies.
-To obtain a **CloudFileShare** object, use the Get-AzureStorageShare cmdlet.
-This object contains the storage context.
-If you specify this parameter, do not specify the *Context* parameter.
+### $Xxxxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx.
+Xxxx xxxxxx xxxxxxx xxx xxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxx xxxxxx.
+Xxxx xxxxxx xxxxxxxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxx xxxx xxxxxxxxx$ xx xxx xxxxxxx xxx $Xxxxxxx$ xxxxxxxxx.
 
 ```yaml
 Type: CloudFileShare
@@ -150,8 +150,8 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -165,8 +165,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -180,18 +180,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageShare](10a13c83-d545-4729-99f9-048c774f32d7)
+[Xxx$XxxxxXxxxxxxXxxxx](10a13c83-d545-4729-99f9-048c774f32d7)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[New-AzureStorageShare](17c0253c-c7b6-4c78-92ce-77277e156396)
+[Xxx$XxxxxXxxxxxxXxxxx](17c0253c-c7b6-4c78-92ce-77277e156396)
 
 

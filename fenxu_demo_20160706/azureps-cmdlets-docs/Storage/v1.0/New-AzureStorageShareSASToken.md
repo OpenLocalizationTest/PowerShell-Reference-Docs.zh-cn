@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageShareSASToken
-## SYNOPSIS
-Generate Shared Access Signature token for azure_2 Storage share.
+# Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx
+## XXXXXXXX
+Xxxxxxxx Xxxxxx Xxxxxx Xxxxxxxxx xxxxx xxx xxxxx$0 Xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageShareSASToken [-ShareName] <String> [-Context <AzureStorageContext>] [-ExpiryTime <DateTime]>]
  [-FullUri] [-IPAddressOrRange <String>]
@@ -20,46 +20,46 @@ New-AzureStorageShareSASToken [-ShareName] <String> [-Context <AzureStorageConte
  -Policy <String>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageShareSASToken [-ShareName] <String> [-Context <AzureStorageContext>] [-ExpiryTime <DateTime]>]
  [-FullUri] [-IPAddressOrRange <String>] [-Permission <String>]
  [-Protocol <Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]>] [-StartTime <DateTime]>]
 ```
 
-## DESCRIPTION
-The **New-AzureStorageShareSASToken** cmdlet generates a shared access signature token for an azure_2 Storage share.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx$$ xxxxxx xxxxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxx xx xxxxx$0 Xxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Generate a shared access signature token for a share
+### Xxxxxxx 0$ Xxxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxx x xxxxx
 ```
 PS C:\>New-AzureStorageShareSASToken -ShareName "ContosoShare" -Permission "rwdl"
 ```
 
-This command creates a shared access signature token for the share named ContosoShare.
+Xxxx xxxxxxx xxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxx xxx xxxxx xxxxx XxxxxxxXxxxx.
 
-### Example 2: Generate multiple shared access signature token by using the pipeline
+### Xxxxxxx 0$ Xxxxxxxx xxxxxxxx xxxxxx xxxxxx xxxxxxxxx xxxxx xx xxxxx xxx xxxxxxxx
 ```
 PS C:\>Get-AzureStorageShare -Prefix "test" | New-AzureStorageShareSASToken -Permission "rwdl"
 ```
 
-This command gets all the Storage shares that match the prefix test.
-The command passes them to the current cmdlet by using the pipeline operator.
-The current cmdlet creates a shared access token for each Storage share that has the specified permissions.
+Xxxx xxxxxxx xxxx xxx xxx Xxxxxxx xxxxxx xxxx xxxxx xxx xxxxxx xxxx.
+Xxx xxxxxxx xxxxxx xxxx xx xxx xxxxxxx xxxxxx xx xxxxx xxx xxxxxxxx xxxxxxxx.
+Xxx xxxxxxx xxxxxx xxxxxxx x xxxxxx xxxxxx xxxxx xxx xxxx Xxxxxxx xxxxx xxxx xxx xxx xxxxxxxxx xxxxxxxxxxx.
 
-### Example 3: Generate a shared access signature token that uses a shared access policy
+### Xxxxxxx 0$ Xxxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxxx xxxx x xxxxxx xxxxxx xxxxxx
 ```
 PS C:\>New-AzureStorageShareSASToken -ShareName "ContosoShare" -Policy "ContosoPolicy03"
 ```
 
-This command creates a shared access signature token for the Storage share named ContosoShare that has the policy named ContosoPolicy03.
+Xxxx xxxxxxx xxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxx xxx Xxxxxxx xxxxx xxxxx XxxxxxxXxxxx xxxx xxx xxx xxxxxx xxxxx XxxxxxxXxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies an azure_2 Storage context.
-To obtain a context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -73,8 +73,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-Specifies the time at which the shared access signature becomes invalid.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: DateTime]
@@ -88,8 +88,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FullUri
-Indicates that this cmdlet return the full blob URI and the shared access signature token.
+### $XxxxXxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxx xxx xxxx xxxx XXX xxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -103,8 +103,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -IPAddressOrRange
-@{Text=}
+### $XXXxxxxxxXxXxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -118,8 +118,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Permission
-Specifies the permissions in the token to access the share and files under the share.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxx xx xxxxxx xxx xxxxx xxx xxxxx xxxxx xxx xxxxx.
 
 ```yaml
 Type: String
@@ -133,8 +133,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-Specifies the stored access policy for a share.
+### $Xxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxx xxxxxx xxx x xxxxx.
 
 ```yaml
 Type: String
@@ -148,8 +148,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Protocol
-@{Text=}
+### $Xxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]
@@ -163,8 +163,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ShareName
-Specifies the name of the Storage share.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -178,8 +178,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies the time at which the shared access signature becomes valid.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: DateTime]
@@ -193,17 +193,17 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
-Keywords: common, azure, services, data, storage, blob, queue, table
+## XXXXX
+Xxxxxxxx$ xxxxxx$ xxxxx$ xxxxxxxx$ xxxx$ xxxxxxx$ xxxx$ xxxxx$ xxxxx
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageShare](10a13c83-d545-4729-99f9-048c774f32d7)
+[Xxx$XxxxxXxxxxxxXxxxx](10a13c83-d545-4729-99f9-048c774f32d7)
 
-[New-AzureStorageFileSASToken](4fb064f5-94bc-4d8f-9ef6-2611f8aab99c)
+[Xxx$XxxxxXxxxxxxXxxxXXXXxxxx](4fb064f5-94bc-4d8f-9ef6-2611f8aab99c)
 
 

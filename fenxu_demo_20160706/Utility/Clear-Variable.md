@@ -4,32 +4,32 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293944
 schema: 2.0.0
 ---
 
-# Clear-Variable
-## SYNOPSIS
-Deletes the value of a variable.
+# Xxxxx$Xxxxxxxx
+## XXXXXXXX
+Xxxxxxx xxx xxxxx xx x xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Clear-Variable [-Name] <String[]> [-Include <String[]>] [-Exclude <String[]>] [-Force] [-PassThru]
  [-Scope <String>] [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Clear-Variable cmdlet deletes the data stored in a variable, but it does not delete the variable.
-As a result, the value of the variable is NULL (empty).
-If the variable has a specified data or object type, Clear-Variable preserves the type of the object stored in the variable.
+## XXXXXXXXXXX
+Xxx Xxxxx$Xxxxxxxx xxxxxx xxxxxxx xxx xxxx xxxxxx xx x xxxxxxxx$ xxx xx xxxx xxx xxxxxx xxx xxxxxxxx.
+Xx x xxxxxx$ xxx xxxxx xx xxx xxxxxxxx xx XXXX $xxxxx$.
+Xx xxx xxxxxxxx xxx x xxxxxxxxx xxxx xx xxxxxx xxxx$ Xxxxx$Xxxxxxxx xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxxxx xx xxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Clear-Variable my* -Scope Global
 ```
 
-This command deletes the value of global variables that have names that begin with "my".
+Xxxx xxxxxxx xxxxxxx xxx xxxxx xx xxxxxx xxxxxxxxx xxxx xxxx xxxxx xxxx xxxxx xxxx $xx$.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a=3
 PS C:\>&{ Clear-Variable a }
@@ -37,27 +37,27 @@ PS C:\>$a
 3
 ```
 
-These commands demonstrate that clearing a variable in a child scope does not clear the value in the parent scope.
-The first command sets the value of the variable $a to "3".
-The second command uses the invoke operator (&) to run a Clear-Variable command in a new scope.
-The variable is cleared in the child scope (although it did not exist), but it is not cleared in the local scope.
-The third command, which gets the value of $a, shows that the value "3" is unaffected.
+Xxxxx xxxxxxxx xxxxxxxxxxx xxxx xxxxxxxx x xxxxxxxx xx x xxxxx xxxxx xxxx xxx xxxxx xxx xxxxx xx xxx xxxxxx xxxxx.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxx xx xxx xxxxxxxx $x xx $0$.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxxxx xxxxxxxx $$$ xx xxx x Xxxxx$Xxxxxxxx xxxxxxx xx x xxx xxxxx.
+Xxx xxxxxxxx xx xxxxxxx xx xxx xxxxx xxxxx $xxxxxxxx xx xxx xxx xxxxx$$ xxx xx xx xxx xxxxxxx xx xxx xxxxx xxxxx.
+Xxx xxxxx xxxxxxx$ xxxxx xxxx xxx xxxxx xx $x$ xxxxx xxxx xxx xxxxx $0$ xx xxxxxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Clear-variable -Name Processes
 ```
 
-This command deletes the value of the $processes variable.
-The $processes variable still exists, but the value is null.
+Xxxx xxxxxxx xxxxxxx xxx xxxxx xx xxx $xxxxxxxxx xxxxxxxx.
+Xxx $xxxxxxxxx xxxxxxxx xxxxx xxxxxx$ xxx xxx xxxxx xx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Exclude
-Omits the specified items.
-The value of this parameter qualifies the Name parameter.
-Enter a name element or pattern, such as "s*".
-Wildcards are permitted.
+### $Xxxxxxx
+Xxxxx xxx xxxxxxxxx xxxxx.
+Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx Xxxx xxxxxxxxx.
+Xxxxx x xxxx xxxxxxx xx xxxxxxx$ xxxx xx $x$$.
+Xxxxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -71,9 +71,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Allows the cmdlet to clear a variable even if it is read-only.
-Even using the Force parameter, the cmdlet cannot clear constants.
+### $Xxxxx
+Xxxxxx xxx xxxxxx xx xxxxx x xxxxxxxx xxxx xx xx xx xxxx$xxxx.
+Xxxx xxxxx xxx Xxxxx xxxxxxxxx$ xxx xxxxxx xxxxxx xxxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -87,11 +87,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Include
-Clears only the specified items.
-The value of this parameter qualifies the Name parameter.
-Enter a name element or pattern, such as "s*".
-Wildcards are permitted.
+### $Xxxxxxx
+Xxxxxx xxxx xxx xxxxxxxxx xxxxx.
+Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx Xxxx xxxxxxxxx.
+Xxxxx x xxxx xxxxxxx xx xxxxxxx$ xxxx xx $x$$.
+Xxxxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -105,8 +105,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -121,8 +121,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -136,10 +136,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the variable to be cleared.
-Wildcards are permitted.
-This parameter is required, but the parameter name ("Name") is optional.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xx xx xxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx$ xxx xxx xxxxxxxxx xxxx $$Xxxx$$ xx xxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -153,9 +153,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Returns an object representing the cleared variable.
-By default, this cmdlet does not generate any output.
+### $XxxxXxxx
+Xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxxxxx xxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -169,11 +169,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Scope
-Specifies the scope in which this alias is valid.
-Valid values are "Global", "Local", or "Script", or a number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).
-"Local" is the default.
-For more information, see about_Scopes.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx xx xxxxx xxxx xxxxx xx xxxxx.
+Xxxxx xxxxxx xxx $Xxxxxx$$ $Xxxxx$$ xx $Xxxxxx$$ xx x xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxx $0 xxxxxxx xxx xxxxxx xx xxxxxx$ xxxxx 0 xx xxx xxxxxxx xxxxx xxx 0 xx xxx xxxxxx$.
+$Xxxxx$ xx xxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx.
 
 ```yaml
 Type: String
@@ -187,8 +187,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -202,10 +202,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -219,35 +219,35 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe objects to Clear-Variable.
+### Xxxx
+Xxx xxxxxx xxxx xxxxxxx xx Xxxxx$Xxxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None or System.Management.Automation.PSVariable
-When you use the PassThru parameter, Clear-Variable generates a System.Management.Automation.PSVariable object representing the cleared variable.
-Otherwise, this cmdlet does not generate any output.
+### Xxxx xx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxxxx
+Xxxx xxx xxx xxx XxxxXxxx xxxxxxxxx$ Xxxxx$Xxxxxxxx xxxxxxxxx x Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxxxx xxxxxx xxxxxxxxxxxx xxx xxxxxxx xxxxxxxx.
+Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
-To delete a variable, along with its value, use Remove-Variable or Remove-Item.
+## XXXXX
+Xx xxxxxx x xxxxxxxx$ xxxxx xxxx xxx xxxxx$ xxx Xxxxxx$Xxxxxxxx xx Xxxxxx$Xxxx.
 
-Clear-Variable will not delete the values of variables that are set as constants or owned by the system, even if you use the -Force parameter.
+Xxxxx$Xxxxxxxx xxxx xxx xxxxxx xxx xxxxxx xx xxxxxxxxx xxxx xxx xxx xx xxxxxxxxx xx xxxxx xx xxx xxxxxx$ xxxx xx xxx xxx xxx $Xxxxx xxxxxxxxx.
 
-If the variable that you are clearing does not exist, the cmdlet has no effect.
-It does not create a variable with a null value.
+Xx xxx xxxxxxxx xxxx xxx xxx xxxxxxxx xxxx xxx xxxxx$ xxx xxxxxx xxx xx xxxxxx.
+Xx xxxx xxx xxxxxx x xxxxxxxx xxxx x xxxx xxxxx.
 
-You can also refer to Clear-Variable by its built-in alias, "clv".
-For more information, see about_Aliases.
+Xxx xxx xxxx xxxxx xx Xxxxx$Xxxxxxxx xx xxx xxxxx$xx xxxxx$ $xxx$.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-Variable]()
+[Xxx$Xxxxxxxx]()
 
-[New-Variable]()
+[Xxx$Xxxxxxxx]()
 
-[Remove-Variable]()
+[Xxxxxx$Xxxxxxxx]()
 
-[Set-Variable]()
+[Xxx$Xxxxxxxx]()
 

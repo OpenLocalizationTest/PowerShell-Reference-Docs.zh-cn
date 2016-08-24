@@ -4,58 +4,58 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293998
 schema: 2.0.0
 ---
 
-# Out-Printer
-## SYNOPSIS
-Sends output to a printer.
+# Xxx$Xxxxxxx
+## XXXXXXXX
+Xxxxx xxxxxx xx x xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Out-Printer [[-Name] <String>] [-InputObject <PSObject>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Out-Printer cmdlet sends output to the default printer or to an alternate printer, if one is specified.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxxxx xxxxxx xxxxx xxxxxx xx xxx xxxxxxx xxxxxxx xx xx xx xxxxxxxxx xxxxxxx$ xx xxx xx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-content $pshome\about_signing.help.txt | Out-Printer
 ```
 
-This command prints the content of the about_Signing Help topic to the default printer.
-This example shows you how to print a file, even though Out-Printer does not have a Path parameter.
+Xxxx xxxxxxx xxxxxx xxx xxxxxxx xx xxx xxxxx$Xxxxxxx Xxxx xxxxx xx xxx xxxxxxx xxxxxxx.
+Xxxx xxxxxxx xxxxx xxx xxx xx xxxxx x xxxx$ xxxx xxxxxx Xxx$Xxxxxxx xxxx xxx xxxx x Xxxx xxxxxxxxx.
 
-The command uses the Get-Content cmdlet to get the contents of the Help topic.
-The path includes $pshome, a built-in variable that stores the installation directory for Windows PowerShell.
-A pipeline operator (|) passes the results to Out-Printer, which sends it to the default printer.
+Xxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxxx xx xxx Xxxx xxxxx.
+Xxx xxxx xxxxxxxx $xxxxxx$ x xxxxx$xx xxxxxxxx xxxx xxxxxx xxx xxxxxxxxxxxx xxxxxxxxx xxx Xxxxxxx XxxxxXxxxx.
+X xxxxxxxx xxxxxxxx $$$ xxxxxx xxx xxxxxxx xx Xxx$Xxxxxxx$ xxxxx xxxxx xx xx xxx xxxxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>"Hello, World" | out-printer -name "\\Server01\Prt-6B Color"
 ```
 
-This command prints "Hello, World" to the "Prt-6B Color" printer on Server01.
-This command uses the Name parameter to specify the alternate printer.
-Because the parameter name is optional, you can omit it.
+Xxxx xxxxxxx xxxxxx $Xxxxx$ Xxxxx$ xx xxx $Xxx$0X Xxxxx$ xxxxxxx xx Xxxxxx00.
+Xxxx xxxxxxx xxxx xxx Xxxx xxxxxxxxx xx xxxxxxx xxx xxxxxxxxx xxxxxxx.
+Xxxxxxx xxx xxxxxxxxx xxxx xx xxxxxxxx$ xxx xxx xxxx xx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$h = get-help -full get-wmiobject
 PS C:\>out-printer -inputobject $h
 ```
 
-These commands print the full version of the Help topic for Get-WmiObject.
-The first command uses the Get-Help cmdlet to get the full version of the Help topic for Get-WmiObject and stores it in the $h variable.
-The second command sends the content to the default printer.
-It uses the InputObject parameter to pass the value of the $h variable to Out-Printer.
+Xxxxx xxxxxxxx xxxxx xxx xxxx xxxxxxx xx xxx Xxxx xxxxx xxx Xxx$XxxXxxxxx.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxx xxxxxx xx xxx xxx xxxx xxxxxxx xx xxx Xxxx xxxxx xxx Xxx$XxxXxxxxx xxx xxxxxx xx xx xxx $x xxxxxxxx.
+Xxx xxxxxx xxxxxxx xxxxx xxx xxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxx xxx xxxxx xx xxx $x xxxxxxxx xx Xxx$Xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -70,8 +70,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -85,9 +85,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the objects to be sent to the printer.
-Enter a variable that contains the objects, or type a command or expression that gets the objects.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xx xxxx xx xxx xxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
 ```yaml
 Type: PSObject
@@ -101,9 +101,9 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the  alternate printer.
-The parameter name ("Name") is optional.
+### $Xxxx
+Xxxxxxxxx xxx  xxxxxxxxx xxxxxxx.
+Xxx xxxxxxxxx xxxx $$Xxxx$$ xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -117,40 +117,40 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any object to Out-Printer.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xx Xxx$Xxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-Out-Printer does not return any objects.
+### Xxxx
+Xxx$Xxxxxxx xxxx xxx xxxxxx xxx xxxxxxx.
 
-## NOTES
-You can also refer to Out-Printer by its built-in alias, "lp".
-For more information, see about_Aliases.
+## XXXXX
+Xxx xxx xxxx xxxxx xx Xxx$Xxxxxxx xx xxx xxxxx$xx xxxxx$ $xx$.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx.
 
-The cmdlets that contain the Out verb (the Out cmdlets) do not format objects; they just render them and send them to the specified display destination.
-If you send an unformatted object to an Out cmdlet, the cmdlet sends it to a formatting cmdlet before rendering it.
+Xxx xxxxxxx xxxx xxxxxxx xxx Xxx xxxx $xxx Xxx xxxxxxx$ xx xxx xxxxxx xxxxxxx$ xxxx xxxx xxxxxx xxxx xxx xxxx xxxx xx xxx xxxxxxxxx xxxxxxx xxxxxxxxxxx.
+Xx xxx xxxx xx xxxxxxxxxxx xxxxxx xx xx Xxx xxxxxx$ xxx xxxxxx xxxxx xx xx x xxxxxxxxxx xxxxxx xxxxxx xxxxxxxxx xx.
 
-The Out cmdlets do not have parameters for names or file paths.
-To send data to an Out cmdlet, use a pipeline operator (|) to send the output of a Windows PowerShell command to the cmdlet.
-You can also store data in a variable and use the InputObject parameter to pass the data to the cmdlet.
-For more information, see the examples.
+Xxx Xxx xxxxxxx xx xxx xxxx xxxxxxxxxx xxx xxxxx xx xxxx xxxxx.
+Xx xxxx xxxx xx xx Xxx xxxxxx$ xxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxx xx x Xxxxxxx XxxxxXxxxx xxxxxxx xx xxx xxxxxx.
+Xxx xxx xxxx xxxxx xxxx xx x xxxxxxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxx xxx xxxx xx xxx xxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxx xxxxxxxx.
 
-Out-Printer sends data, but it does not emit any output objects.
-If you pipe the output of Out-Printer to Get-Member, Get-Member reports that no objects have been specified.
+Xxx$Xxxxxxx xxxxx xxxx$ xxx xx xxxx xxx xxxx xxx xxxxxx xxxxxxx.
+Xx xxx xxxx xxx xxxxxx xx Xxx$Xxxxxxx xx Xxx$Xxxxxx$ Xxx$Xxxxxx xxxxxxx xxxx xx xxxxxxx xxxx xxxx xxxxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Out-Default]()
+[Xxx$Xxxxxxx]()
 
-[Out-File]()
+[Xxx$Xxxx]()
 
-[Out-Host]()
+[Xxx$Xxxx]()
 
-[Out-Null]()
+[Xxx$Xxxx]()
 
-[Out-String]()
+[Xxx$Xxxxxx]()
 

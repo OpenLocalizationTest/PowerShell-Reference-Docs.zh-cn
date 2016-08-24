@@ -4,32 +4,32 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294027
 schema: 2.0.0
 ---
 
-# Write-Debug
-## SYNOPSIS
-Writes a debug message to the console.
+# Xxxxx$Xxxxx
+## XXXXXXXX
+Xxxxxx x xxxxx xxxxxxx xx xxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Write-Debug [-Message] <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Write-Debug cmdlet writes debug messages to the console from a script or command.
+## XXXXXXXXXXX
+Xxx Xxxxx$Xxxxx xxxxxx xxxxxx xxxxx xxxxxxxx xx xxx xxxxxxx xxxx x xxxxxx xx xxxxxxx.
 
-By default, debug messages are not displayed in the console, but you can display them by using the Debug parameter or the $DebugPreference variable.
+Xx xxxxxxx$ xxxxx xxxxxxxx xxx xxx xxxxxxxxx xx xxx xxxxxxx$ xxx xxx xxx xxxxxxx xxxx xx xxxxx xxx Xxxxx xxxxxxxxx xx xxx $XxxxxXxxxxxxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Write-Debug "Cannot open file."
 ```
 
-This command writes a debug message.
-Because the value of $DebugPreference is "SilentlyContinue", the message is not displayed in the console.
+Xxxx xxxxxxx xxxxxx x xxxxx xxxxxxx.
+Xxxxxxx xxx xxxxx xx $XxxxxXxxxxxxxxx xx $XxxxxxxxXxxxxxxx$$ xxx xxxxxxx xx xxx xxxxxxxxx xx xxx xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$DebugPreference
 SilentlyContinue
@@ -39,20 +39,20 @@ PS C:\>Write-Debug "Cannot open file." -debug
 DEBUG: Cannot open file.
 ```
 
-This example shows how to use the Debug common parameter to override the value of the $DebugPreference variable for a particular command.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx Xxxxx xxxxxx xxxxxxxxx xx xxxxxxxx xxx xxxxx xx xxx $XxxxxXxxxxxxxxx xxxxxxxx xxx x xxxxxxxxxx xxxxxxx.
 
-The first command displays the value of the $DebugPreference variable, which is "SilentlyContinue", the default.
+Xxx xxxxx xxxxxxx xxxxxxxx xxx xxxxx xx xxx $XxxxxXxxxxxxxxx xxxxxxxx$ xxxxx xx $XxxxxxxxXxxxxxxx$$ xxx xxxxxxx.
 
-The second command writes a debug message but, because of the value of $DebugPreference, the message does not appear.
+Xxx xxxxxx xxxxxxx xxxxxx x xxxxx xxxxxxx xxx$ xxxxxxx xx xxx xxxxx xx $XxxxxXxxxxxxxxx$ xxx xxxxxxx xxxx xxx xxxxxx.
 
-The third command writes a debug message.
-It uses the Debug common parameter to override the value of $DebugPreference and to display the debug messages resulting from this command.
+Xxx xxxxx xxxxxxx xxxxxx x xxxxx xxxxxxx.
+Xx xxxx xxx Xxxxx xxxxxx xxxxxxxxx xx xxxxxxxx xxx xxxxx xx $XxxxxXxxxxxxxxx xxx xx xxxxxxx xxx xxxxx xxxxxxxx xxxxxxxxx xxxx xxxx xxxxxxx.
 
-As a result, even though the value of $DebugPreference is "SilentlyContinue", the debug message appears.
+Xx x xxxxxx$ xxxx xxxxxx xxx xxxxx xx $XxxxxXxxxxxxxxx xx $XxxxxxxxXxxxxxxx$$ xxx xxxxx xxxxxxx xxxxxxx.
 
-For more information about the Debug common parameter, see about_CommonParameters.
+Xxx xxxx xxxxxxxxxxx xxxxx xxx Xxxxx xxxxxx xxxxxxxxx$ xxx xxxxx$XxxxxxXxxxxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$DebugPreference
 SilentlyContinue
@@ -63,22 +63,22 @@ PS C:\>Write-Debug "Cannot open file."
 DEBUG: Cannot open file.
 ```
 
-This command shows the effect of changing the value of the $DebugPreference variable on the display of debug messages.
+Xxxx xxxxxxx xxxxx xxx xxxxxx xx xxxxxxxx xxx xxxxx xx xxx $XxxxxXxxxxxxxxx xxxxxxxx xx xxx xxxxxxx xx xxxxx xxxxxxxx.
 
-The first command displays the value of the $DebugPreference variable, which is "SilentlyContinue", the default.
+Xxx xxxxx xxxxxxx xxxxxxxx xxx xxxxx xx xxx $XxxxxXxxxxxxxxx xxxxxxxx$ xxxxx xx $XxxxxxxxXxxxxxxx$$ xxx xxxxxxx.
 
-The second command writes a debug message but, because of the value of $DebugPreference, the message does not appear.
+Xxx xxxxxx xxxxxxx xxxxxx x xxxxx xxxxxxx xxx$ xxxxxxx xx xxx xxxxx xx $XxxxxXxxxxxxxxx$ xxx xxxxxxx xxxx xxx xxxxxx.
 
-The third command assigns a value of "Continue" to the $DebugPreference variable.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxx xx $Xxxxxxxx$ xx xxx $XxxxxXxxxxxxxxx xxxxxxxx.
 
-The fourth command writes a debug message, which appears on the console.
+Xxx xxxxxx xxxxxxx xxxxxx x xxxxx xxxxxxx$ xxxxx xxxxxxx xx xxx xxxxxxx.
 
-For more information about $DebugPreference, see about_Preference_Variables.
+Xxx xxxx xxxxxxxxxxx xxxxx $XxxxxXxxxxxxxxx$ xxx xxxxx$Xxxxxxxxxx$Xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -93,8 +93,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -108,8 +108,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Message
-Specifies the debug message to send to the console.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxx xxxxxxx xx xxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -123,30 +123,30 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
-You can pipe a string that contains a debug message to Write-Debug.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx x xxxxx xxxxxxx xx Xxxxx$Xxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-Write-Debug writes only to the debug stream.
-It does not return any output.
+### Xxxx
+Xxxxx$Xxxxx xxxxxx xxxx xx xxx xxxxx xxxxxx.
+Xx xxxx xxx xxxxxx xxx xxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Write-Error]()
+[Xxxxx$Xxxxx]()
 
-[Write-Host]()
+[Xxxxx$Xxxx]()
 
-[Write-Output]()
+[Xxxxx$Xxxxxx]()
 
-[Write-Progress]()
+[Xxxxx$Xxxxxxxx]()
 
-[Write-Verbose]()
+[Xxxxx$Xxxxxxx]()
 
-[Write-Warning]()
+[Xxxxx$Xxxxxxx]()
 

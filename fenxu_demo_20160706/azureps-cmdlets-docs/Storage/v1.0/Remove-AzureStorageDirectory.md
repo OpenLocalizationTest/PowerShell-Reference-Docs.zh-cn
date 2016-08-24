@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureStorageDirectory
-## SYNOPSIS
-Deletes a directory.
+# Xxxxxx$XxxxxXxxxxxxXxxxxxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Remove-AzureStorageDirectory [-ShareName] <String> [-Path] <String>
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
@@ -20,51 +20,36 @@ Remove-AzureStorageDirectory [-ShareName] <String> [-Path] <String>
  [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Remove-AzureStorageDirectory [-Share] <CloudFileShare> [-Path] <String>
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
  [-PassThru] [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Remove-AzureStorageDirectory [-Directory] <CloudFileDirectory> [[-Path] <String>]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
  [-PassThru] [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureStorageDirectory** cmdlet deletes a directory.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxxxxxxXxxxxxxxx$$ xxxxxx xxxxxxx x xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Delete a folder
+### Xxxxxxx 0$ Xxxxxx x xxxxxx
 ```
 PS C:\>Remove-AzureStorageDirectory -ShareName "ContosoShare06" -Path "ContosoWorkingFolder"
 ```
 
-This command deletes the folder named ContosoWorkingFolder from the file share named ContosoShare06.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxx xxxxx XxxxxxxXxxxxxxXxxxxx xxxx xxx xxxx xxxxx xxxxx XxxxxxxXxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-@{Text=}
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -78,8 +63,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-@{Text=}
+### $XxxxxxxxxxXxxxXxxxx
+$$Xxxx$$
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: AzureStorageContext
@@ -93,11 +93,11 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Directory
-Specifies a folder as a **CloudFileDirectory** object.
-This cmdlet removes the folder that this parameter specifies.
-To obtain a directory, use the New-AzureStorageDirectory cmdlet.
-You can also use the **Get-AzureStorageFile** cmdlet to obtain a directory.
+### $Xxxxxxxxx
+Xxxxxxxxx x xxxxxx xx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx.
+Xxxx xxxxxx xxxxxxx xxx xxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x xxxxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
+Xxx xxx xxxx xxx xxx $$Xxx$XxxxxXxxxxxxXxxx$$ xxxxxx xx xxxxxx x xxxxxxxxx.
 
 ```yaml
 Type: CloudFileDirectory
@@ -111,8 +111,8 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-@{Text=}
+### $XxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -126,10 +126,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the path of a folder.
-If the folder that this parameter specifies is empty, this cmdlet deletes that folder.
-If the folder is not empty, this cmdlet makes no change, and returns an error.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxx.
+Xx xxx xxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx xx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxxxx.
+Xx xxx xxxxxx xx xxx xxxxx$ xxxx xxxxxx xxxxx xx xxxxxx$ xxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: String
@@ -155,8 +155,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -170,12 +170,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Share
-Specifies a **CloudFileShare** object.
-This cmdlet removes a folder under the file share that this parameter specifies.
-To obtain a **CloudFileShare** object, use the Get-AzureStorageShare cmdlet.
-This object contains the storage context.
-If you specify this parameter, do not specify the *Context* parameter.
+### $Xxxxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx.
+Xxxx xxxxxx xxxxxxx x xxxxxx xxxxx xxx xxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxx xxxxxx.
+Xxxx xxxxxx xxxxxxxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxx xxxx xxxxxxxxx$ xx xxx xxxxxxx xxx $Xxxxxxx$ xxxxxxxxx.
 
 ```yaml
 Type: CloudFileShare
@@ -189,9 +189,9 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -ShareName
-Specifies the name of the file share.
-This cmdlet removes a folder under the file share that this parameter specifies.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxx xxxxxxx x xxxxxx xxxxx xxx xxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -205,8 +205,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -220,8 +220,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -235,18 +235,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageShare](10a13c83-d545-4729-99f9-048c774f32d7)
+[Xxx$XxxxxXxxxxxxXxxxx](10a13c83-d545-4729-99f9-048c774f32d7)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[New-AzureStorageDirectory](2eea330c-759d-4dee-81e9-2e72de9f707e)
+[Xxx$XxxxxXxxxxxxXxxxxxxxx](2eea330c-759d-4dee-81e9-2e72de9f707e)
 
 

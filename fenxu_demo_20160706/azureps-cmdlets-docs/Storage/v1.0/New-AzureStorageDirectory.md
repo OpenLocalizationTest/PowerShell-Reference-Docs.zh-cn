@@ -6,73 +6,58 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageDirectory
-## SYNOPSIS
-Creates a directory.
+# Xxx$XxxxxXxxxxxxXxxxxxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageDirectory [-ShareName] <String> [-Path] <String>
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
  [-Context <AzureStorageContext>] [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageDirectory [-Share] <CloudFileShare> [-Path] <String>
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageDirectory [-Directory] <CloudFileDirectory> [-Path] <String>
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-## DESCRIPTION
-The **New-AzureStorageDirectory** cmdlet creates a directory.
-This cmdlet returns a **CloudFileDirectory** object.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxxxxx$$ xxxxxx xxxxxxx x xxxxxxxxx.
+Xxxx xxxxxx xxxxxxx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a folder in a file share
+### Xxxxxxx 0$ Xxxxxx x xxxxxx xx x xxxx xxxxx
 ```
 PS C:\>New-AzureStorageDirectory -ShareName "ContosoShare06" -Path "ContosoWorkingFolder"
 ```
 
-This command creates a folder named ContosoWorkingFolder in the file share named ContosoShare06.
+Xxxx xxxxxxx xxxxxxx x xxxxxx xxxxx XxxxxxxXxxxxxxXxxxxx xx xxx xxxx xxxxx xxxxx XxxxxxxXxxxx00.
 
-### Example 2: Create a folder in a file share specified in a file share object
+### Xxxxxxx 0$ Xxxxxx x xxxxxx xx x xxxx xxxxx xxxxxxxxx xx x xxxx xxxxx xxxxxx
 ```
 PS C:\>Get-AzureStorageShare -Name "ContosoShare06" | New-AzureStorageDirectory -Path "ContosoWorkingFolder"
 ```
 
-This command uses the **Get-AzureStorageShare** cmdlet to get the file share named ContosoShare06, and then passes it to the current cmdlet by using the pipeline operator.
-The current cmdlet creates the folder named ContosoWorkingFolder in ContosoShare06.
+Xxxx xxxxxxx xxxx xxx $$Xxx$XxxxxXxxxxxxXxxxx$$ xxxxxx xx xxx xxx xxxx xxxxx xxxxx XxxxxxxXxxxx00$ xxx xxxx xxxxxx xx xx xxx xxxxxxx xxxxxx xx xxxxx xxx xxxxxxxx xxxxxxxx.
+Xxx xxxxxxx xxxxxx xxxxxxx xxx xxxxxx xxxxx XxxxxxxXxxxxxxXxxxxx xx XxxxxxxXxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-@{Text=}
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -86,8 +71,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-@{Text=}
+### $XxxxxxxxxxXxxxXxxxx
+$$Xxxx$$
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: AzureStorageContext
@@ -101,11 +101,11 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Directory
-Specifies a folder as a **CloudFileDirectory** object.
-This cmdlet creates the folder in the location that this parameter specifies.
-To obtain a directory, use the New-AzureStorageDirectory cmdlet.
-You can also use the Get-AzureStorageFile cmdlet to obtain a directory.
+### $Xxxxxxxxx
+Xxxxxxxxx x xxxxxx xx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx.
+Xxxx xxxxxx xxxxxxx xxx xxxxxx xx xxx xxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x xxxxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
+Xxx xxx xxxx xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx xx xxxxxx x xxxxxxxxx.
 
 ```yaml
 Type: CloudFileDirectory
@@ -119,8 +119,8 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -Path
-@{Text=}
+### $Xxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -134,8 +134,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -149,12 +149,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Share
-Specifies a **CloudFileShare** object.
-This cmdlet creates a folder in the file share that this parameter specifies.
-To obtain a **CloudFileShare** object, use the Get-AzureStorageShare cmdlet.
-This object contains the storage context.
-If you specify this parameter, do not specify the *Context* parameter.
+### $Xxxxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx.
+Xxxx xxxxxx xxxxxxx x xxxxxx xx xxx xxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxx xxxxxx.
+Xxxx xxxxxx xxxxxxxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxx xxxx xxxxxxxxx$ xx xxx xxxxxxx xxx $Xxxxxxx$ xxxxxxxxx.
 
 ```yaml
 Type: CloudFileShare
@@ -168,9 +168,9 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -ShareName
-Specifies the name of the file share.
-This cmdlet creates a folder in the file share that this parameter specifies.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxx xxxxxxx x xxxxxx xx xxx xxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -184,22 +184,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageFile](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
+[Xxx$XxxxxXxxxxxxXxxx](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
 
-[Get-AzureStorageShare](10a13c83-d545-4729-99f9-048c774f32d7)
+[Xxx$XxxxxXxxxxxxXxxxx](10a13c83-d545-4729-99f9-048c774f32d7)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[New-AzureStorageDirectory](2eea330c-759d-4dee-81e9-2e72de9f707e)
+[Xxx$XxxxxXxxxxxxXxxxxxxxx](2eea330c-759d-4dee-81e9-2e72de9f707e)
 
-[Remove-AzureStorageDirectory](2cbd0756-0224-43b0-8e22-a7316b7e24c2)
+[Xxxxxx$XxxxxXxxxxxxXxxxxxxxx](2cbd0756-0224-43b0-8e22-a7316b7e24c2)
 
 

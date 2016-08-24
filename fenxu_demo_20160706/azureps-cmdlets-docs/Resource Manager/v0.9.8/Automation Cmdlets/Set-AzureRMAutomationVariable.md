@@ -6,43 +6,43 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureRMAutomationVariable
-## SYNOPSIS
-Modifies an Automation variable.
+# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx
+## XXXXXXXX
+Xxxxxxxx xx Xxxxxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureRMAutomationVariable [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  -Encrypted <Boolean> -Value <Object>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureRMAutomationVariable [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  -Description <String>
 ```
 
-## DESCRIPTION
-The **Set-AzureRmAutomationVariable** cmdlet modifies the value or description of a variable in azure_2 Automation.
-To encrypt the variable, specify the *Encrypted* parameter.
-You cannot modify the encrypted state of a variable after creation.
-Specifying *Encrypted* for an existing, non-encrypted, variable fails.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx$$ xxxxxx xxxxxxxx xxx xxxxx xx xxxxxxxxxxx xx x xxxxxxxx xx xxxxx$0 Xxxxxxxxxx.
+Xx xxxxxxx xxx xxxxxxxx$ xxxxxxx xxx $Xxxxxxxxx$ xxxxxxxxx.
+Xxx xxxxxx xxxxxx xxx xxxxxxxxx xxxxx xx x xxxxxxxx xxxxx xxxxxxxx.
+Xxxxxxxxxx $Xxxxxxxxx$ xxx xx xxxxxxxx$ xxx$xxxxxxxxx$ xxxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Set the value of a variable
+### Xxxxxxx 0$ Xxx xxx xxxxx xx x xxxxxxxx
 ```
 PS C:\>Set-AzureRmAutomationVariable -AutomationAccountName "Contoso17" -Name "StringVariable22" -ResourceGroupName "ResourceGroup01" -Value "New Value" -Encrypted $False
 ```
 
-This command sets a new value for the variable named StringVariable22 in the azure_2 Automation account named Contoso17.
+Xxxx xxxxxxx xxxx x xxx xxxxx xxx xxx xxxxxxxx xxxxx XxxxxxXxxxxxxx00 xx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account in which the variable is stored.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xx xxxxx xxx xxxxxxxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -56,8 +56,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Description
-Specifies a description for the variable.
+### $Xxxxxxxxxxx
+Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -71,8 +71,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Encrypted
-Specifies whether cmdlet encrypts the value of the variable for storage.
+### $Xxxxxxxxx
+Xxxxxxxxx xxxxxxx xxxxxx xxxxxxxx xxx xxxxx xx xxx xxxxxxxx xxx xxxxxxx.
 
 ```yaml
 Type: Boolean
@@ -86,8 +86,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the variable that this cmdlet modifies.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -101,8 +101,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the resource group for which this cmdlet modifies a variable.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxxx.
 
 ```yaml
 Type: String
@@ -116,8 +116,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Value
-Specifies a value for the variable.
+### $Xxxxx
+Xxxxxxxxx x xxxxx xxx xxx xxxxxxxx.
 
 ```yaml
 Type: Object
@@ -131,20 +131,20 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.Azure.Commands.Automation.Model.Variable
+### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.Xxxxxxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationVariable](a6dc9902-ad99-47f9-8212-d3d96146b180)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](a6dc9902-ad99-47f9-8212-d3d96146b180)
 
-[New-AzureRmAutomationVariable](4103a716-9567-4836-b522-d2484452a60e)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](4103a716-9567-4836-b522-d2484452a60e)
 
-[Remove-AzureRmAutomationVariable](c154838a-0b3d-4347-96a5-31ac572b329c)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxx](c154838a-0b3d-4347-96a5-31ac572b329c)
 
 

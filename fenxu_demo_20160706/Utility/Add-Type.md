@@ -4,13 +4,13 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293943
 schema: 2.0.0
 ---
 
-# Add-Type
-## SYNOPSIS
-Adds a Microsoft .NET Framework type (a class) to a Windows PowerShell session.
+# Xxx$Xxxx
+## XXXXXXXX
+Xxxx x Xxxxxxxxx .XXX Xxxxxxxxx xxxx $x xxxxx$ xx x Xxxxxxx XxxxxXxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### FromSource (Default)
+### XxxxXxxxxx $Xxxxxxx$
 ```
 Add-Type [-TypeDefinition] <String> [-Language <Language>] [-ReferencedAssemblies <String[]>]
  [-CodeDomProvider <CodeDomProvider>] [-CompilerParameters <CompilerParameters>] [-OutputAssembly <String>]
@@ -18,7 +18,7 @@ Add-Type [-TypeDefinition] <String> [-Language <Language>] [-ReferencedAssemblie
  [-InformationVariable <String>]
 ```
 
-### FromMember
+### XxxxXxxxxx
 ```
 Add-Type [-Name] <String> [-MemberDefinition] <String[]> [-Namespace <String>] [-UsingNamespace <String[]>]
  [-Language <Language>] [-ReferencedAssemblies <String[]>] [-CodeDomProvider <CodeDomProvider>]
@@ -26,41 +26,41 @@ Add-Type [-Name] <String> [-MemberDefinition] <String[]> [-Namespace <String>] [
  [-PassThru] [-IgnoreWarnings] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### FromPath
+### XxxxXxxx
 ```
 Add-Type [-Path] <String[]> [-ReferencedAssemblies <String[]>] [-CompilerParameters <CompilerParameters>]
  [-OutputAssembly <String>] [-OutputType <OutputAssemblyType>] [-PassThru] [-IgnoreWarnings]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### FromLiteralPath
+### XxxxXxxxxxxXxxx
 ```
 Add-Type -LiteralPath <String[]> [-ReferencedAssemblies <String[]>] [-CompilerParameters <CompilerParameters>]
  [-OutputAssembly <String>] [-OutputType <OutputAssemblyType>] [-PassThru] [-IgnoreWarnings]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### FromAssemblyName
+### XxxxXxxxxxxxXxxx
 ```
 Add-Type -AssemblyName <String[]> [-PassThru] [-IgnoreWarnings] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Add-Type cmdlet lets you define a .NET Framework class in your Windows PowerShell session.
-You can then instantiate objects (by using the New-Object cmdlet) and use the objects, just as you would use any .NET Framework object.
-If you add an Add-Type command to your Windows PowerShell profile, the class is available in all Windows PowerShell sessions.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxx xxxxxx xxxx xxx xxxxxx x .XXX Xxxxxxxxx xxxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xxx xxx xxxx xxxxxxxxxxx xxxxxxx $xx xxxxx xxx Xxx$Xxxxxx xxxxxx$ xxx xxx xxx xxxxxxx$ xxxx xx xxx xxxxx xxx xxx .XXX Xxxxxxxxx xxxxxx.
+Xx xxx xxx xx Xxx$Xxxx xxxxxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx$ xxx xxxxx xx xxxxxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxxx.
 
-You can specify the type by specifying an existing assembly or source code files, or you can specify the source code inline or saved in a variable.
-You can even specify only a method and Add-Type will define and generate the class.
-You can use this feature to make Platform Invoke (P/Invoke) calls to unmanaged functions in Windows PowerShell.
-If you specify source code, Add-Type compiles the specified source code and generates an in-memory assembly that contains the new .NET Framework types.
+Xxx xxx xxxxxxx xxx xxxx xx xxxxxxxxxx xx xxxxxxxx xxxxxxxx xx xxxxxx xxxx xxxxx$ xx xxx xxx xxxxxxx xxx xxxxxx xxxx xxxxxx xx xxxxx xx x xxxxxxxx.
+Xxx xxx xxxx xxxxxxx xxxx x xxxxxx xxx Xxx$Xxxx xxxx xxxxxx xxx xxxxxxxx xxx xxxxx.
+Xxx xxx xxx xxxx xxxxxxx xx xxxx Xxxxxxxx Xxxxxx $X$Xxxxxx$ xxxxx xx xxxxxxxxx xxxxxxxxx xx Xxxxxxx XxxxxXxxxx.
+Xx xxx xxxxxxx xxxxxx xxxx$ Xxx$Xxxx xxxxxxxx xxx xxxxxxxxx xxxxxx xxxx xxx xxxxxxxxx xx xx$xxxxxx xxxxxxxx xxxx xxxxxxxx xxx xxx .XXX Xxxxxxxxx xxxxx.
 
-You can use the parameters of Add-Type to specify an alternate language and compiler (CSharp is the default), compiler options, assembly dependencies, the class namespace, the names of the type, and the resulting assembly.
+Xxx xxx xxx xxx xxxxxxxxxx xx Xxx$Xxxx xx xxxxxxx xx xxxxxxxxx xxxxxxxx xxx xxxxxxxx $XXxxxx xx xxx xxxxxxx$$ xxxxxxxx xxxxxxx$ xxxxxxxx xxxxxxxxxxxx$ xxx xxxxx xxxxxxxxx$ xxx xxxxx xx xxx xxxx$ xxx xxx xxxxxxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$source = @"
 public class BasicTest
@@ -82,25 +82,25 @@ PS C:\>$basicTestObject = New-Object BasicTest
 PS C:\>$basicTestObject.Multiply(5, 2)
 ```
 
-These commands add the BasicTest class to the session by specifying source code that is stored in a variable.
-The type has a static method called Add and a non-static method called Multiply.
+Xxxxx xxxxxxxx xxx xxx XxxxxXxxx xxxxx xx xxx xxxxxxx xx xxxxxxxxxx xxxxxx xxxx xxxx xx xxxxxx xx x xxxxxxxx.
+Xxx xxxx xxx x xxxxxx xxxxxx xxxxxx Xxx xxx x xxx$xxxxxx xxxxxx xxxxxx Xxxxxxxx.
 
-The first command stores the source code for the class in the $source variable.
+Xxx xxxxx xxxxxxx xxxxxx xxx xxxxxx xxxx xxx xxx xxxxx xx xxx $xxxxxx xxxxxxxx.
 
-The second command uses the Add-Type cmdlet to add the class to the session.
-Because it is using inline source code, the command uses the TypeDefinition parameter to specify the code in the $source variable.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxx$Xxxx xxxxxx xx xxx xxx xxxxx xx xxx xxxxxxx.
+Xxxxxxx xx xx xxxxx xxxxxx xxxxxx xxxx$ xxx xxxxxxx xxxx xxx XxxxXxxxxxxxxx xxxxxxxxx xx xxxxxxx xxx xxxx xx xxx $xxxxxx xxxxxxxx.
 
-The remaining commands use the new class.
+Xxx xxxxxxxxx xxxxxxxx xxx xxx xxx xxxxx.
 
-The third command calls the Add static method of the BasicTest class.
-It uses the double-colon characters (::) to specify a static member of the class.
+Xxx xxxxx xxxxxxx xxxxx xxx Xxx xxxxxx xxxxxx xx xxx XxxxxXxxx xxxxx.
+Xx xxxx xxx xxxxxx$xxxxx xxxxxxxxxx $$$$ xx xxxxxxx x xxxxxx xxxxxx xx xxx xxxxx.
 
-The fourth command uses the New-Object cmdlet to instantiate an instance of the BasicTest class.
-It saves the new object in the $basicTestObject variable.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxx$Xxxxxx xxxxxx xx xxxxxxxxxxx xx xxxxxxxx xx xxx XxxxxXxxx xxxxx.
+Xx xxxxx xxx xxx xxxxxx xx xxx $xxxxxXxxxXxxxxx xxxxxxxx.
 
-The fifth command uses the Multiply method of $basicTestObject.
+Xxx xxxxx xxxxxxx xxxx xxx Xxxxxxxx xxxxxx xx $xxxxxXxxxXxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>[BasicTest] | Get-Member
 PS C:\>[BasicTest] | Get-Member -Static
@@ -135,31 +135,31 @@ Multiply    Method     System.Int32 Multiply(Int32 a, Int32 b)
 ToString    Method     System.String ToString()
 ```
 
-These commands use the Get-Member cmdlet to examine the objects that the Add-Type and New-Object cmdlets created in the previous example.
+Xxxxx xxxxxxxx xxx xxx Xxx$Xxxxxx xxxxxx xx xxxxxxx xxx xxxxxxx xxxx xxx Xxx$Xxxx xxx Xxx$Xxxxxx xxxxxxx xxxxxxx xx xxx xxxxxxxx xxxxxxx.
 
-The first command uses the Get-Member cmdlet to get the type and members of the BasicTest class that Add-Type added to the session.
-The Get-Member command reveals that it is a System.RuntimeType object, which is derived from the System.Object class.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxx xxxxxx xx xxx xxx xxxx xxx xxxxxxx xx xxx XxxxxXxxx xxxxx xxxx Xxx$Xxxx xxxxx xx xxx xxxxxxx.
+Xxx Xxx$Xxxxxx xxxxxxx xxxxxxx xxxx xx xx x Xxxxxx.XxxxxxxXxxx xxxxxx$ xxxxx xx xxxxxxx xxxx xxx Xxxxxx.Xxxxxx xxxxx.
 
-The second command uses the Static parameter of the Get-Member cmdlet to get the static properties and methods of the BasicTest class.
-The output shows that the Add method is included.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxx xxxxxxxxx xx xxx Xxx$Xxxxxx xxxxxx xx xxx xxx xxxxxx xxxxxxxxxx xxx xxxxxxx xx xxx XxxxxXxxx xxxxx.
+Xxx xxxxxx xxxxx xxxx xxx Xxx xxxxxx xx xxxxxxxx.
 
-The third command uses the Get-Member cmdlet to get the members of the object stored in the $BasicTestObject variable.
-This was the object instance that was created by using the New-Object cmdlet with the $BasicType class.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxx xxxxxx xx xxx xxx xxxxxxx xx xxx xxxxxx xxxxxx xx xxx $XxxxxXxxxXxxxxx xxxxxxxx.
+Xxxx xxx xxx xxxxxx xxxxxxxx xxxx xxx xxxxxxx xx xxxxx xxx Xxx$Xxxxxx xxxxxx xxxx xxx $XxxxxXxxx xxxxx.
 
-The output reveals that the value of the $BasicTestObject variable is an instance of the BasicTest class and that it includes a member called Multiply.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxxx xx xxx $XxxxxXxxxXxxxxx xxxxxxxx xx xx xxxxxxxx xx xxx XxxxxXxxx xxxxx xxx xxxx xx xxxxxxxx x xxxxxx xxxxxx Xxxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$accType = Add-Type -AssemblyName accessib* -PassThru
 ```
 
-This command adds the classes from the Accessibility assembly to the current session.
-The command uses the AssemblyName parameter to specify the name of the assembly.
-The wildcard character allows you to get the correct assembly even when you are not sure of the name or its spelling.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxx xxx Xxxxxxxxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxx xxx XxxxxxxxXxxx xxxxxxxxx xx xxxxxxx xxx xxxx xx xxx xxxxxxxx.
+Xxx xxxxxxxx xxxxxxxxx xxxxxx xxx xx xxx xxx xxxxxxx xxxxxxxx xxxx xxxx xxx xxx xxx xxxx xx xxx xxxx xx xxx xxxxxxxx.
 
-The command uses the PassThru parameter to generate objects that represent the classes that are added to the session, and it saves the objects in the $accType variable.
+Xxx xxxxxxx xxxx xxx XxxxXxxx xxxxxxxxx xx xxxxxxxx xxxxxxx xxxx xxxxxxxxx xxx xxxxxxx xxxx xxx xxxxx xx xxx xxxxxxx$ xxx xx xxxxx xxx xxxxxxx xx xxx $xxxXxxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Add-Type -Path c:\ps-test\Hello.vb[VBFromFile]::SayHello(", World")
 
@@ -169,15 +169,15 @@ Public Class VBFromFilePublic Shared Function SayHello(sourceName As String) As 
 PS C:\>[VBFromFile]::SayHello(", World")Hello, World
 ```
 
-This example uses the Add-Type cmdlet to add the VBFromFile class that is defined in the Hello.vb file to the current session.
-The text of the Hello.vb file is shown in the command output.
+Xxxx xxxxxxx xxxx xxx Xxx$Xxxx xxxxxx xx xxx xxx XXXxxxXxxx xxxxx xxxx xx xxxxxxx xx xxx Xxxxx.xx xxxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxxx xx xxx Xxxxx.xx xxxx xx xxxxx xx xxx xxxxxxx xxxxxx.
 
-The first command uses the Add-Type cmdlet to add the type defined in the Hello.vb file to the current session.
-The command uses the Path parameter to specify the source file.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxx xxxxxx xx xxx xxx xxxx xxxxxxx xx xxx Xxxxx.xx xxxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxx xxx Xxxx xxxxxxxxx xx xxxxxxx xxx xxxxxx xxxx.
 
-The second command calls the SayHello function as a static method of the VBFromFile class.
+Xxx xxxxxx xxxxxxx xxxxx xxx XxxXxxxx xxxxxxxx xx x xxxxxx xxxxxx xx xxx XXXxxxXxxx xxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$signature = @"
 [DllImport("user32.dll")]public static extern bool ShowWindowAsync(IntPtr hWnd, int nCmdShow);
@@ -193,38 +193,38 @@ $showWindowAsync::ShowWindowAsync((Get-Process -Id $pid).MainWindowHandle, 2)
 $showWindowAsync::ShowWindowAsync((Get-Process -Id $pid).MainWindowHandle, 4)
 ```
 
-The commands in this example demonstrate how to call native Windows APIs in Windows PowerShell.
-Add-Type uses the Platform Invoke (P/Invoke) mechanism to call a function in User32.dll from Windows PowerShell.
+Xxx xxxxxxxx xx xxxx xxxxxxx xxxxxxxxxxx xxx xx xxxx xxxxxx Xxxxxxx XXXx xx Xxxxxxx XxxxxXxxxx.
+Xxx$Xxxx xxxx xxx Xxxxxxxx Xxxxxx $X$Xxxxxx$ xxxxxxxxx xx xxxx x xxxxxxxx xx Xxxx00.xxx xxxx Xxxxxxx XxxxxXxxxx.
 
-The first command stores the C# signature of the ShowWindowAsync function in the $signature variable.
-(For more information, see "ShowWindowAsync Function" in the MSDN library at http://go.microsoft.com/fwlink/?LinkId=143643.) To ensure that the resulting method will be visible in a Windows PowerShell session, the "public" keyword has been added to the standard signature.
+Xxx xxxxx xxxxxxx xxxxxx xxx X$ xxxxxxxxx xx xxx XxxxXxxxxxXxxxx xxxxxxxx xx xxx $xxxxxxxxx xxxxxxxx.
+$Xxx xxxx xxxxxxxxxxx$ xxx $XxxxXxxxxxXxxxx Xxxxxxxx$ xx xxx XXXX xxxxxxx xx xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000.$ Xx xxxxxx xxxx xxx xxxxxxxxx xxxxxx xxxx xx xxxxxxx xx x Xxxxxxx XxxxxXxxxx xxxxxxx$ xxx $xxxxxx$ xxxxxxx xxx xxxx xxxxx xx xxx xxxxxxxx xxxxxxxxx.
 
-The second command uses the Add-Type cmdlet to add the ShowWindowAsync function to the Windows PowerShell session as a static method of a class that Add-Type creates.
-The command uses the MemberDefinition parameter to specify the method definition saved in the $signature variable.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxx$Xxxx xxxxxx xx xxx xxx XxxxXxxxxxXxxxx xxxxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxx xx x xxxxxx xxxxxx xx x xxxxx xxxx Xxx$Xxxx xxxxxxx.
+Xxx xxxxxxx xxxx xxx XxxxxxXxxxxxxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxx xxxxxxxxxx xxxxx xx xxx $xxxxxxxxx xxxxxxxx.
 
-The command uses the Name and Namespace parameters to specify a name and namespace for the class.
-It uses the PassThru parameter to generate an object that represents the types, and it saves the object in the $showWindowAsync variable.
+Xxx xxxxxxx xxxx xxx Xxxx xxx Xxxxxxxxx xxxxxxxxxx xx xxxxxxx x xxxx xxx xxxxxxxxx xxx xxx xxxxx.
+Xx xxxx xxx XxxxXxxx xxxxxxxxx xx xxxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxx$ xxx xx xxxxx xxx xxxxxx xx xxx $xxxxXxxxxxXxxxx xxxxxxxx.
 
-The third and fourth commands use the new ShowWindowAsync static method.
-The method takes two parameters, the window handle, and an integer specifies how the window is to be shown.
+Xxx xxxxx xxx xxxxxx xxxxxxxx xxx xxx xxx XxxxXxxxxxXxxxx xxxxxx xxxxxx.
+Xxx xxxxxx xxxxx xxx xxxxxxxxxx$ xxx xxxxxx xxxxxx$ xxx xx xxxxxxx xxxxxxxxx xxx xxx xxxxxx xx xx xx xxxxx.
 
-The third command calls ShowWindowAsync.
-It uses the Get-Process cmdlet with the $pid automatic variable to get the process that is hosting the current Windows PowerShell session.
-Then it uses the MainWindowHandle property of the current process and a value of "2", which represents the SW_MINIMIZE value.
+Xxx xxxxx xxxxxxx xxxxx XxxxXxxxxxXxxxx.
+Xx xxxx xxx Xxx$Xxxxxxx xxxxxx xxxx xxx $xxx xxxxxxxxx xxxxxxxx xx xxx xxx xxxxxxx xxxx xx xxxxxxx xxx xxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xxxx xx xxxx xxx XxxxXxxxxxXxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxx xxx x xxxxx xx $0$$ xxxxx xxxxxxxxxx xxx XX$XXXXXXXX xxxxx.
 
-To restore the window, the fourth command use a value of "4" for the window position, which represents the SW_RESTORE value.
-(SW_MAXIMIZE is 3.)
+Xx xxxxxxx xxx xxxxxx$ xxx xxxxxx xxxxxxx xxx x xxxxx xx $0$ xxx xxx xxxxxx xxxxxxxx$ xxxxx xxxxxxxxxx xxx XX$XXXXXXX xxxxx.
+$XX$XXXXXXXX xx 0.$
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Add-Type -MemberDefinition $jsMethod -Name "PrintInfo" -Language JScript
 ```
 
-This command uses the Add-Type cmdlet to add a method from inline JScript code to the Windows PowerShell session.
-It uses the MemberDefinition parameter to submit source code stored in the $jsMethod variable.
-It uses the Name parameter to specify a name for the class that Add-Type creates for the method and the Language parameter to specify the JScript language.
+Xxxx xxxxxxx xxxx xxx Xxx$Xxxx xxxxxx xx xxx x xxxxxx xxxx xxxxxx XXxxxxx xxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xx xxxx xxx XxxxxxXxxxxxxxxx xxxxxxxxx xx xxxxxx xxxxxx xxxx xxxxxx xx xxx $xxXxxxxx xxxxxxxx.
+Xx xxxx xxx Xxxx xxxxxxxxx xx xxxxxxx x xxxx xxx xxx xxxxx xxxx Xxx$Xxxx xxxxxxx xxx xxx xxxxxx xxx xxx Xxxxxxxx xxxxxxxxx xx xxxxxxx xxx XXxxxxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Add-Type -Path FSharp.Compiler.CodeDom.dll
 PS C:\>Add-Type -Path FSharp.Compiler.CodeDom.dll
@@ -236,38 +236,38 @@ PS C:\>$fsharpType = Add-Type -TypeDefinition $fSharpCode -CodeDomProvider $Prov
 PS C:\>$fsharpType::loop(4)4321
 ```
 
-This example shows how to use the Add-Type cmdlet to add an FSharp code compiler to your Windows PowerShell session.
-To run this example in Windows PowerShell, you must have the FSharp.Compiler.CodeDom.dll that is installed with the FSharp language.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx Xxx$Xxxx xxxxxx xx xxx xx XXxxxx xxxx xxxxxxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xx xxx xxxx xxxxxxx xx Xxxxxxx XxxxxXxxxx$ xxx xxxx xxxx xxx XXxxxx.Xxxxxxxx.XxxxXxx.xxx xxxx xx xxxxxxxxx xxxx xxx XXxxxx xxxxxxxx.
 
-The first command in the example uses the Add-Type cmdlet with the Path parameter to specify an assembly.
-Add-Type gets the types in the assembly.
+Xxx xxxxx xxxxxxx xx xxx xxxxxxx xxxx xxx Xxx$Xxxx xxxxxx xxxx xxx Xxxx xxxxxxxxx xx xxxxxxx xx xxxxxxxx.
+Xxx$Xxxx xxxx xxx xxxxx xx xxx xxxxxxxx.
 
-The second command uses the New-Object cmdlet to create an instance of the FSharp code provider and saves the result in the $Provider variable.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxx$Xxxxxx xxxxxx xx xxxxxx xx xxxxxxxx xx xxx XXxxxx xxxx xxxxxxxx xxx xxxxx xxx xxxxxx xx xxx $Xxxxxxxx xxxxxxxx.
 
-The third command saves the FSharp code that defines the Loop method in the $FSharpCode variable.
+Xxx xxxxx xxxxxxx xxxxx xxx XXxxxx xxxx xxxx xxxxxxx xxx Xxxx xxxxxx xx xxx $XXxxxxXxxx xxxxxxxx.
 
-The fourth command uses the Add-Type cmdlet to save the public types defined in $fSharpCode in the $fSharpType variable.
-The TypeDefinition parameter specifies the source code that defines the types.
-The CodeDomProvider parameter specifies the source code compiler.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxx$Xxxx xxxxxx xx xxxx xxx xxxxxx xxxxx xxxxxxx xx $xXxxxxXxxx xx xxx $xXxxxxXxxx xxxxxxxx.
+Xxx XxxxXxxxxxxxxx xxxxxxxxx xxxxxxxxx xxx xxxxxx xxxx xxxx xxxxxxx xxx xxxxx.
+Xxx XxxxXxxXxxxxxxx xxxxxxxxx xxxxxxxxx xxx xxxxxx xxxx xxxxxxxx.
 
-The PassThru parameter directs Add-Type to return a Runtime object that represents the types and a pipeline operator (|) sends the Runtime object to the Where-Object cmdlet, which returns only the public types.
-The Where-Object cmdlet is used because the FSharp provider generates non-public types to support the resulting public type.
+Xxx XxxxXxxx xxxxxxxxx xxxxxxx Xxx$Xxxx xx xxxxxx x Xxxxxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxx xxx x xxxxxxxx xxxxxxxx $$$ xxxxx xxx Xxxxxxx xxxxxx xx xxx Xxxxx$Xxxxxx xxxxxx$ xxxxx xxxxxxx xxxx xxx xxxxxx xxxxx.
+Xxx Xxxxx$Xxxxxx xxxxxx xx xxxx xxxxxxx xxx XXxxxx xxxxxxxx xxxxxxxxx xxx$xxxxxx xxxxx xx xxxxxxx xxx xxxxxxxxx xxxxxx xxxx.
 
-The fifth command calls the Loop method as a static method of the type stored in the $fSharpType variable.
+Xxx xxxxx xxxxxxx xxxxx xxx Xxxx xxxxxx xx x xxxxxx xxxxxx xx xxx xxxx xxxxxx xx xxx $xXxxxxXxxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AssemblyName
-Specifies the name of an assembly that includes the types.
-Add-Type takes the types from the specified assembly.
-This parameter is required when you are creating types based on an assembly name.
+### $XxxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xx xxxxxxxx xxxx xxxxxxxx xxx xxxxx.
+Xxx$Xxxx xxxxx xxx xxxxx xxxx xxx xxxxxxxxx xxxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx xxxx xxx xxx xxxxxxxx xxxxx xxxxx xx xx xxxxxxxx xxxx.
 
-Enter the full or simple name (also known as the "partial name") of an assembly.
-Wildcard characters are permitted in the assembly name.
-If you enter a simple or partial name, Add-Type resolves it to the full name, and then uses the full name to load the assembly.
+Xxxxx xxx xxxx xx xxxxxx xxxx $xxxx xxxxx xx xxx $xxxxxxx xxxx$$ xx xx xxxxxxxx.
+Xxxxxxxx xxxxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xxxx.
+Xx xxx xxxxx x xxxxxx xx xxxxxxx xxxx$ Xxx$Xxxx xxxxxxxx xx xx xxx xxxx xxxx$ xxx xxxx xxxx xxx xxxx xxxx xx xxxx xxx xxxxxxxx.
 
-This parameter does not accept a path or file name.
-To enter the path to the assembly dynamic-link library (DLL) file, use the Path parameter.
+Xxxx xxxxxxxxx xxxx xxx xxxxxx x xxxx xx xxxx xxxx.
+Xx xxxxx xxx xxxx xx xxx xxxxxxxx xxxxxxx$xxxx xxxxxxx $XXX$ xxxx$ xxx xxx Xxxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -281,12 +281,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CodeDomProvider
-Specifies a code generator or compiler.
-Add-Type uses the specified compiler to compile the source code.
-The default is the CSharp compiler. 
-Use this parameter if you are using a language that cannot be specified by using the Language parameter.
-The CodeDomProvider that you specify must be able to generate assemblies from source code.
+### $XxxxXxxXxxxxxxx
+Xxxxxxxxx x xxxx xxxxxxxxx xx xxxxxxxx.
+Xxx$Xxxx xxxx xxx xxxxxxxxx xxxxxxxx xx xxxxxxx xxx xxxxxx xxxx.
+Xxx xxxxxxx xx xxx XXxxxx xxxxxxxx. Xxx xxxx xxxxxxxxx xx xxx xxx xxxxx x xxxxxxxx xxxx xxxxxx xx xxxxxxxxx xx xxxxx xxx Xxxxxxxx xxxxxxxxx.
+Xxx XxxxXxxXxxxxxxx xxxx xxx xxxxxxx xxxx xx xxxx xx xxxxxxxx xxxxxxxxxx xxxx xxxxxx xxxx.
 
 ```yaml
 Type: CodeDomProvider
@@ -300,14 +299,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CompilerParameters
-Specifies the options for the source code compiler.
-These options are sent to the compiler without revision.
+### $XxxxxxxxXxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxx xxx xxxxxx xxxx xxxxxxxx.
+Xxxxx xxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxxxx xxxxxxxx.
 
-This parameter allows you to direct the compiler to generate an executable file, embed resources, or set command-line options, such as the "/unsafe" option.
-This parameter implements the CompilerParameters class (System.CodeDom.Compiler.CompilerParameters).
+Xxxx xxxxxxxxx xxxxxx xxx xx xxxxxx xxx xxxxxxxx xx xxxxxxxx xx xxxxxxxxxx xxxx$ xxxxx xxxxxxxxx$ xx xxx xxxxxxx$xxxx xxxxxxx$ xxxx xx xxx $$xxxxxx$ xxxxxx.
+Xxxx xxxxxxxxx xxxxxxxxxx xxx XxxxxxxxXxxxxxxxxx xxxxx $Xxxxxx.XxxxXxx.Xxxxxxxx.XxxxxxxxXxxxxxxxxx$.
 
-You cannot use the CompilerParameters and ReferencedAssemblies parameters in the same command.
+Xxx xxxxxx xxx xxx XxxxxxxxXxxxxxxxxx xxx XxxxxxxxxxXxxxxxxxxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 
 ```yaml
 Type: CompilerParameters
@@ -321,9 +320,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -IgnoreWarnings
-Ignores compiler warnings.
-Use this parameter to prevent Add-Type from handling compiler warnings as errors.
+### $XxxxxxXxxxxxxx
+Xxxxxxx xxxxxxxx xxxxxxxx.
+Xxx xxxx xxxxxxxxx xx xxxxxxx Xxx$Xxxx xxxx xxxxxxxx xxxxxxxx xxxxxxxx xx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -337,13 +336,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Enter the full or simple name (also known as the "partial name") of an assembly.
-Wildcard characters are permitted in the assembly name.
-If you enter a simple or partial name, Add-Type resolves it to the full name, and then uses the full name to load the assembly.
+### $XxxxxxxxxxxXxxxxx
+Xxxxx xxx xxxx xx xxxxxx xxxx $xxxx xxxxx xx xxx $xxxxxxx xxxx$$ xx xx xxxxxxxx.
+Xxxxxxxx xxxxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xxxx.
+Xx xxx xxxxx x xxxxxx xx xxxxxxx xxxx$ Xxx$Xxxx xxxxxxxx xx xx xxx xxxx xxxx$ xxx xxxx xxxx xxx xxxx xxxx xx xxxx xxx xxxxxxxx.
 
-This parameter does not accept a path or file name.
-To enter the path to the assembly dynamic-link library (DLL) file, use the Path parameter.
+Xxxx xxxxxxxxx xxxx xxx xxxxxx x xxxx xx xxxx xxxx.
+Xx xxxxx xxx xxxx xx xxx xxxxxxxx xxxxxxx$xxxx xxxxxxx $XXX$ xxxx$ xxx xxx Xxxx xxxxxxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -358,13 +357,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-Enter the full or simple name (also known as the "partial name") of an assembly.
-Wildcard characters are permitted in the assembly name.
-If you enter a simple or partial name, Add-Type resolves it to the full name, and then uses the full name to load the assembly.
+### $XxxxxxxxxxxXxxxxxxx
+Xxxxx xxx xxxx xx xxxxxx xxxx $xxxx xxxxx xx xxx $xxxxxxx xxxx$$ xx xx xxxxxxxx.
+Xxxxxxxx xxxxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xxxx.
+Xx xxx xxxxx x xxxxxx xx xxxxxxx xxxx$ Xxx$Xxxx xxxxxxxx xx xx xxx xxxx xxxx$ xxx xxxx xxxx xxx xxxx xxxx xx xxxx xxx xxxxxxxx.
 
-This parameter does not accept a path or file name.
-To enter the path to the assembly dynamic-link library (DLL) file, use the Path parameter.
+Xxxx xxxxxxxxx xxxx xxx xxxxxx x xxxx xx xxxx xxxx.
+Xx xxxxx xxx xxxx xx xxx xxxxxxxx xxxxxxx$xxxx xxxxxxx $XXX$ xxxx$ xxx xxx Xxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -378,11 +377,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Language
-Specifies the language that is used in the source code.
-The Add-Type cmdlet uses the value of this parameter to select the appropriate CodeDomProvider.
-Valid values are "CSharp", "CSharpVersion3", "VisualBasic", and "JScript".
-"CSharp" is the default value.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xxxx xx xxxx xx xxx xxxxxx xxxx.
+Xxx Xxx$Xxxx xxxxxx xxxx xxx xxxxx xx xxxx xxxxxxxxx xx xxxxxx xxx xxxxxxxxxxx XxxxXxxXxxxxxxx.
+Xxxxx xxxxxx xxx $XXxxxx$$ $XXxxxxXxxxxxx0$$ $XxxxxxXxxxx$$ xxx $XXxxxxx$.
+$XXxxxx$ xx xxx xxxxxxx xxxxx.
 
 ```yaml
 Type: Language
@@ -397,12 +396,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -LiteralPath
-Specifies the path to source code files or assembly DLL files that contain the types.
-Unlike Path, the value of the LiteralPath parameter is used exactly as it is typed.
-No characters are interpreted as wildcards.
-If the path includes escape characters, enclose it in single quotation marks.
-Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxxx xxxx xxxxx xx xxxxxxxx XXX xxxxx xxxx xxxxxxx xxx xxxxx.
+Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
+Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
+Xx xxx xxxx xxxxxxxx xxxxxx xxxxxxxxxx$ xxxxxxx xx xx xxxxxx xxxxxxxxx xxxxx.
+Xxxxxx xxxxxxxxx xxxxx xxxx Xxxxxxx XxxxxXxxxx xxx xx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -416,12 +415,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -MemberDefinition
-Specifies new properties or methods for the class.
-Add-Type generates the template code that is required to support the properties or methods.
+### $XxxxxxXxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxx xx xxxxxxx xxx xxx xxxxx.
+Xxx$Xxxx xxxxxxxxx xxx xxxxxxxx xxxx xxxx xx xxxxxxxx xx xxxxxxx xxx xxxxxxxxxx xx xxxxxxx.
 
-You can use this feature to make Platform Invoke (P/Invoke) calls to unmanaged functions in Windows PowerShell.
-For more information, see the examples.
+Xxx xxx xxx xxxx xxxxxxx xx xxxx Xxxxxxxx Xxxxxx $X$Xxxxxx$ xxxxx xx xxxxxxxxx xxxxxxxxx xx Xxxxxxx XxxxxXxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxx xxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -435,14 +434,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the class to create.
-This parameter is required when generating a type from a member definition.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxx xx xxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx xxxx xxxxxxxxxx x xxxx xxxx x xxxxxx xxxxxxxxxx.
 
-The type name and namespace must be unique within a session.
-You cannot unload a type or change it.
-If you need to change the code for a type, you must change the name or start a new Windows PowerShell session.
-Otherwise, the command fails.
+Xxx xxxx xxxx xxx xxxxxxxxx xxxx xx xxxxxx xxxxxx x xxxxxxx.
+Xxx xxxxxx xxxxxx x xxxx xx xxxxxx xx.
+Xx xxx xxxx xx xxxxxx xxx xxxx xxx x xxxx$ xxx xxxx xxxxxx xxx xxxx xx xxxxx x xxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xxxxxxxxx$ xxx xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -456,11 +455,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Namespace
-Specifies a namespace for the type.
+### $Xxxxxxxxx
+Xxxxxxxxx x xxxxxxxxx xxx xxx xxxx.
 
-If this parameter is not included in the command, the type is created in the Microsoft.PowerShell.Commands.AddType.AutoGeneratedTypes namespace.
-If the parameter is included in the command with an empty string value or a value of $null, the type is generated in the global namespace.
+Xx xxxx xxxxxxxxx xx xxx xxxxxxxx xx xxx xxxxxxx$ xxx xxxx xx xxxxxxx xx xxx Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxXxxx.XxxxXxxxxxxxxXxxxx xxxxxxxxx.
+Xx xxx xxxxxxxxx xx xxxxxxxx xx xxx xxxxxxx xxxx xx xxxxx xxxxxx xxxxx xx x xxxxx xx $xxxx$ xxx xxxx xx xxxxxxxxx xx xxx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -474,11 +473,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -OutputAssembly
-Generates a DLL file for the assembly with the specified name in the location.
-Enter a path (optional) and file name.
-Wildcard characters are permitted.
-By default, Add-Type generates the assembly only in memory.
+### $XxxxxxXxxxxxxx
+Xxxxxxxxx x XXX xxxx xxx xxx xxxxxxxx xxxx xxx xxxxxxxxx xxxx xx xxx xxxxxxxx.
+Xxxxx x xxxx $xxxxxxxx$ xxx xxxx xxxx.
+Xxxxxxxx xxxxxxxxxx xxx xxxxxxxxx.
+Xx xxxxxxx$ Xxx$Xxxx xxxxxxxxx xxx xxxxxxxx xxxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -492,14 +491,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -OutputType
-Specifies the output type of the output assembly.
-Valid values are Library, ConsoleApplication, and WindowsApplication.
-For more information about the values, see "OutputAssemblyType Enumeration" in MSDN.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxxxx xxxx xx xxx xxxxxx xxxxxxxx.
+Xxxxx xxxxxx xxx Xxxxxxx$ XxxxxxxXxxxxxxxxxx$ xxx XxxxxxxXxxxxxxxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxx xxxxxx$ xxx $XxxxxxXxxxxxxxXxxx Xxxxxxxxxxx$ xx XXXX.
 
-By default, no output type is specified.
+Xx xxxxxxx$ xx xxxxxx xxxx xx xxxxxxxxx.
 
-This parameter is valid only when an output assembly is specified in the command.
+Xxxx xxxxxxxxx xx xxxxx xxxx xxxx xx xxxxxx xxxxxxxx xx xxxxxxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: OutputAssemblyType
@@ -514,9 +513,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Returns a System.Runtime object that represents the types that were added.
-By default, this cmdlet does not generate any output.
+### $XxxxXxxx
+Xxxxxxx x Xxxxxx.Xxxxxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxx xxxx xxxx xxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -530,14 +529,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the path to source code files or assembly DLL files that contain the types.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxxxxx xxxx xxxxx xx xxxxxxxx XXX xxxxx xxxx xxxxxxx xxx xxxxx.
 
-If you submit source code files, Add-Type compiles the code in the files and creates an in-memory assembly of the types.
-The file name extension specified in the value of Path determines the compiler that Add-Type uses.
+Xx xxx xxxxxx xxxxxx xxxx xxxxx$ Xxx$Xxxx xxxxxxxx xxx xxxx xx xxx xxxxx xxx xxxxxxx xx xx$xxxxxx xxxxxxxx xx xxx xxxxx.
+Xxx xxxx xxxx xxxxxxxxx xxxxxxxxx xx xxx xxxxx xx Xxxx xxxxxxxxxx xxx xxxxxxxx xxxx Xxx$Xxxx xxxx.
 
-If you submit an assembly file, Add-Type takes the types from the assembly.
-To specify an in-memory assembly or the global assembly cache, use the AssemblyName parameter.
+Xx xxx xxxxxx xx xxxxxxxx xxxx$ Xxx$Xxxx xxxxx xxx xxxxx xxxx xxx xxxxxxxx.
+Xx xxxxxxx xx xx$xxxxxx xxxxxxxx xx xxx xxxxxx xxxxxxxx xxxxx$ xxx xxx XxxxxxxxXxxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -551,12 +550,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ReferencedAssemblies
-Specifies the assemblies upon which the type depends.
-By default, Add-Type references System.dll and System.Management.Automation.dll.
-The assemblies that you specify by using this parameter are referenced in addition to the default assemblies.
+### $XxxxxxxxxxXxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxx xxxx xxxxx xxx xxxx xxxxxxx.
+Xx xxxxxxx$ Xxx$Xxxx xxxxxxxxxx Xxxxxx.xxx xxx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.xxx.
+Xxx xxxxxxxxxx xxxx xxx xxxxxxx xx xxxxx xxxx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxxxxx.
 
-You cannot use the CompilerParameters and ReferencedAssemblies parameters in the same command.
+Xxx xxxxxx xxx xxx XxxxxxxxXxxxxxxxxx xxx XxxxxxxxxxXxxxxxxxxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 
 ```yaml
 Type: String[]
@@ -570,14 +569,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TypeDefinition
-Specifies the source code that contains the type definitions.
-Enter the source code in a string or here-string, or enter a variable that contains the source code.
-For more information about here-strings, see about_Quoting_Rules (http://go.microsoft.com/fwlink/?LinkID=113253).
+### $XxxxXxxxxxxxxx
+Xxxxxxxxx xxx xxxxxx xxxx xxxx xxxxxxxx xxx xxxx xxxxxxxxxxx.
+Xxxxx xxx xxxxxx xxxx xx x xxxxxx xx xxxx$xxxxxx$ xx xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxx xxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxxx$xxxxxxx$ xxx xxxxx$Xxxxxxx$Xxxxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
 
-Include a namespace declaration in your type definition.
-If you omit the namespace declaration, your type might have the same name as another type or the shortcut for another type, causing an unintentional overwrite.
-For example, if you define a type called "Exception", scripts that use "Exception" as the shortcut for System.Exception will fail.
+Xxxxxxx x xxxxxxxxx xxxxxxxxxxx xx xxxx xxxx xxxxxxxxxx.
+Xx xxx xxxx xxx xxxxxxxxx xxxxxxxxxxx$ xxxx xxxx xxxxx xxxx xxx xxxx xxxx xx xxxxxxx xxxx xx xxx xxxxxxxx xxx xxxxxxx xxxx$ xxxxxxx xx xxxxxxxxxxxxx xxxxxxxxx.
+Xxx xxxxxxx$ xx xxx xxxxxx x xxxx xxxxxx $Xxxxxxxxx$$ xxxxxxx xxxx xxx $Xxxxxxxxx$ xx xxx xxxxxxxx xxx Xxxxxx.Xxxxxxxxx xxxx xxxx.
 
 ```yaml
 Type: String
@@ -591,13 +590,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -UsingNamespace
-Specifies other namespaces that are required for the class.
-This is much like the Using keyword in C#.
+### $XxxxxXxxxxxxxx
+Xxxxxxxxx xxxxx xxxxxxxxxx xxxx xxx xxxxxxxx xxx xxx xxxxx.
+Xxxx xx xxxx xxxx xxx Xxxxx xxxxxxx xx X$.
 
-By default, Add-Type references the System namespace.
-When the MemberDefinition parameter is used, Add-Type also references the System.Runtime.InteropServices namespace by default.
-The namespaces that you add by using the UsingNamespace parameter are referenced in addition to the default namespaces.
+Xx xxxxxxx$ Xxx$Xxxx xxxxxxxxxx xxx Xxxxxx xxxxxxxxx.
+Xxxx xxx XxxxxxXxxxxxxxxx xxxxxxxxx xx xxxx$ Xxx$Xxxx xxxx xxxxxxxxxx xxx Xxxxxx.Xxxxxxx.XxxxxxxXxxxxxxx xxxxxxxxx xx xxxxxxx.
+Xxx xxxxxxxxxx xxxx xxx xxx xx xxxxx xxx XxxxxXxxxxxxxx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -611,36 +610,34 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe objects to Add-Type.
+### Xxxx
+Xxx xxxxxx xxxx xxxxxxx xx Xxx$Xxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None or System.Type
-When you use the PassThru parameter, Add-Type returns a System.Type object that represents the new type.
-Otherwise, this cmdlet does not generate any output.
+### Xxxx xx Xxxxxx.Xxxx
+Xxxx xxx xxx xxx XxxxXxxx xxxxxxxxx$ Xxx$Xxxx xxxxxxx x Xxxxxx.Xxxx xxxxxx xxxx xxxxxxxxxx xxx xxx xxxx.
+Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
-The types that you add exist only in the current session. 
-To use the types in all sessions, add them to your Windows PowerShell profile.
-For more information about the profile, see about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).
+## XXXXX
+Xxx xxxxx xxxx xxx xxx xxxxx xxxx xx xxx xxxxxxx xxxxxxx. Xx xxx xxx xxxxx xx xxx xxxxxxxx$ xxx xxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxx xxxxxxx$ xxx xxxxx$Xxxxxxxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
 
-Type names (and namespaces) must be unique within a session. 
-You cannot unload a type or change it.
-If you need to change the code for a type, you must change the name or start a new Windows PowerShell session.
-Otherwise, the command fails.
+Xxxx xxxxx $xxx xxxxxxxxxx$ xxxx xx xxxxxx xxxxxx x xxxxxxx. Xxx xxxxxx xxxxxx x xxxx xx xxxxxx xx.
+Xx xxx xxxx xx xxxxxx xxx xxxx xxx x xxxx$ xxx xxxx xxxxxx xxx xxxx xx xxxxx x xxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xxxxxxxxx$ xxx xxxxxxx xxxxx.
 
-The CodeDomProvider class for some languages, such as IronPython and JSharp, does not generate output.
-As a result, types written in these languages cannot be used with Add-Type.
+Xxx XxxxXxxXxxxxxxx xxxxx xxx xxxx xxxxxxxxx$ xxxx xx XxxxXxxxxx xxx XXxxxx$ xxxx xxx xxxxxxxx xxxxxx.
+Xx x xxxxxx$ xxxxx xxxxxxx xx xxxxx xxxxxxxxx xxxxxx xx xxxx xxxx Xxx$Xxxx.
 
-This cmdlet is based on the CodeDomProvider class.
-For more information about this class, see the Microsoft .NET Framework SDK.
+Xxxx xxxxxx xx xxxxx xx xxx XxxxXxxXxxxxxxx xxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxxx xxxxx$ xxx xxx Xxxxxxxxx .XXX Xxxxxxxxx XXX.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Add-Member]()
+[Xxx$Xxxxxx]()
 
-[New-Object]()
+[Xxx$Xxxxxx]()
 

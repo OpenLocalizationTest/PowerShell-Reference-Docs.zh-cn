@@ -6,60 +6,60 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureSBAuthorizationRule
-## SYNOPSIS
-Gets Service bus authorization rules
+# Xxx$XxxxxXXXxxxxxxxxxxxxXxxx
+## XXXXXXXX
+Xxxx Xxxxxxx xxx xxxxxxxxxxxxx xxxxx
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureSBAuthorizationRule [[-Name] <String>] [-Permission] [-Namespace] <String> [-EntityName] <String>
  [-EntityType] <ServiceBusEntityType>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureSBAuthorizationRule [[-Name] <String>] [-Permission] [-Namespace] <String>
 ```
 
-## DESCRIPTION
-Gets Service bus authorization rules
+## XXXXXXXXXXX
+Xxxx Xxxxxxx xxx xxxxxxxxxxxxx xxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------- Get authorization rule at namespace level --------------
+### $$$$$$$$$$$$$$ Xxx xxxxxxxxxxxxx xxxx xx xxxxxxxxx xxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Get-AzureSBAuthorizationRule -Namespace MyNamespace
 ```
 
-Gets all available authorization rules at MyNamespace
+Xxxx xxx xxxxxxxxx xxxxxxxxxxxxx xxxxx xx XxXxxxxxxxx
 
-### -------------- Get authorization rule for a Queue --------------
+### $$$$$$$$$$$$$$ Xxx xxxxxxxxxxxxx xxxx xxx x Xxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Get-AzureSBAuthorizationRule -Namespace MyNamespace -EntityName MyEntity -EntityType Queue
 ```
 
-Gets all available authorization rules a MyEntity Queue on MyNamespace
+Xxxx xxx xxxxxxxxx xxxxxxxxxxxxx xxxxx x XxXxxxxx Xxxxx xx XxXxxxxxxxx
 
-### -------------- Get authorization rule by name --------------
+### $$$$$$$$$$$$$$ Xxx xxxxxxxxxxxxx xxxx xx xxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Get-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace
 ```
 
-Gets an authorization rule called MyRule on MyNamespace level
+Xxxx xx xxxxxxxxxxxxx xxxx xxxxxx XxXxxx xx XxXxxxxxxxx xxxxx
 
-### -------------- Get authorization rule by permisssion --------------
+### $$$$$$$$$$$$$$ Xxx xxxxxxxxxxxxx xxxx xx xxxxxxxxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Get-AzureSBAuthorizationRule -Namespace MyNamespace -Permission $("Send")
 ```
 
-Gets all authorization rules that have send permission on namespace level
+Xxxx xxx xxxxxxxxxxxxx xxxxx xxxx xxxx xxxx xxxxxxxxxx xx xxxxxxxxx xxxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -EntityName
-The entity name to apply rule at.
+### $XxxxxxXxxx
+Xxx xxxxxx xxxx xx xxxxx xxxx xx.
 
 ```yaml
 Type: String
@@ -73,8 +73,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -EntityType
-The entity type (Queue, Topic, Relay, NotificationHub).
+### $XxxxxxXxxx
+Xxx xxxxxx xxxx $Xxxxx$ Xxxxx$ Xxxxx$ XxxxxxxxxxxxXxx$.
 
 ```yaml
 Type: ServiceBusEntityType
@@ -88,8 +88,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-The unique authorization rule name
+### $Xxxx
+Xxx xxxxxx xxxxxxxxxxxxx xxxx xxxx
 
 ```yaml
 Type: String
@@ -103,9 +103,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Namespace
-The namespace name to apply the authorization rule.
-If no EntityName provided the rule will be on the namespace level
+### $Xxxxxxxxx
+Xxx xxxxxxxxx xxxx xx xxxxx xxx xxxxxxxxxxxxx xxxx.
+Xx xx XxxxxxXxxx xxxxxxxx xxx xxxx xxxx xx xx xxx xxxxxxxxx xxxxx
 
 ```yaml
 Type: String
@@ -119,9 +119,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Permission
-The authorization permissions to filter (Send, Manage, Listen).
-This uses exact match
+### $Xxxxxxxxxx
+Xxx xxxxxxxxxxxxx xxxxxxxxxxx xx xxxxxx $Xxxx$ Xxxxxx$ Xxxxxx$.
+Xxxx xxxx xxxxx xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -136,18 +136,18 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureSBAuthorizationRule](3e60e1c8-7421-4762-befc-5c8974f684c4)
+[Xxx$XxxxxXXXxxxxxxxxxxxxXxxx](3e60e1c8-7421-4762-befc-5c8974f684c4)
 
-[Remove-AzureSBAuthorizationRule](7d4951b1-15ff-4fa4-9122-36538eee9cbe)
+[Xxxxxx$XxxxxXXXxxxxxxxxxxxxXxxx](7d4951b1-15ff-4fa4-9122-36538eee9cbe)
 
-[Set-AzureSBAuthorizationRule](c199f0d5-8f84-4106-ac4b-afc2192d1218)
+[Xxx$XxxxxXXXxxxxxxxxxxxxXxxx](c199f0d5-8f84-4106-ac4b-afc2192d1218)
 
 

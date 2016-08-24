@@ -6,83 +6,64 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageFile
-## SYNOPSIS
-Lists directories and files for a path.
+# Xxx$XxxxxXxxxxxxXxxx
+## XXXXXXXX
+Xxxxx xxxxxxxxxxx xxx xxxxx xxx x xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageFile [-ShareName] <String> [[-Path] <String>]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
  [-Context <AzureStorageContext>] [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageFile [-Share] <CloudFileShare> [[-Path] <String>]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageFile [-Directory] <CloudFileDirectory> [[-Path] <String>]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageFile** cmdlet lists directories and files for the share or directory that you specify.
-Specify the *Path* parameter to get an instance of a directory or file in the specified path.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxx$$ xxxxxx xxxxx xxxxxxxxxxx xxx xxxxx xxx xxx xxxxx xx xxxxxxxxx xxxx xxx xxxxxxx.
+Xxxxxxx xxx $Xxxx$ xxxxxxxxx xx xxx xx xxxxxxxx xx x xxxxxxxxx xx xxxx xx xxx xxxxxxxxx xxxx.
 
-This cmdlet returns **AzureStorageFile** and **AzureStorageDirectory** objects.
-You can use the **IsDirectory** property to distinguish between folders and files.
+Xxxx xxxxxx xxxxxxx $$XxxxxXxxxxxxXxxx$$ xxx $$XxxxxXxxxxxxXxxxxxxxx$$ xxxxxxx.
+Xxx xxx xxx xxx $$XxXxxxxxxxx$$ xxxxxxxx xx xxxxxxxxxxx xxxxxxx xxxxxxx xxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: List directories in a share
+### Xxxxxxx 0$ Xxxx xxxxxxxxxxx xx x xxxxx
 ```
 PS C:\>Get-AzureStorageFile -ShareName "share1" | where {$_.GetType().Name -eq "CloudFileDirectory"}
 ```
 
-This command lists only the directories in the share ContosoShare06.
-It first retrieves both files and directories, passes them to the **where** operator by using the pipeline operator, then discards any objects whose type is not "CloudFileDirectory".
+Xxxx xxxxxxx xxxxx xxxx xxx xxxxxxxxxxx xx xxx xxxxx XxxxxxxXxxxx00.
+Xx xxxxx xxxxxxxxx xxxx xxxxx xxx xxxxxxxxxxx$ xxxxxx xxxx xx xxx $$xxxxx$$ xxxxxxxx xx xxxxx xxx xxxxxxxx xxxxxxxx$ xxxx xxxxxxxx xxx xxxxxxx xxxxx xxxx xx xxx $XxxxxXxxxXxxxxxxxx$.
 
-### Example 2: List a File Directory
+### Xxxxxxx 0$ Xxxx x Xxxx Xxxxxxxxx
 ```
 PS C:\> Get-AzureStorageFile -ShareName "ContosoShare06" â€"Path "ContosoWorkingFolder" | Get-AzureStorageFile
 ```
 
-This command lists the files and folders in the directory ContosoWorkingFolder under the share ContosoShare06.
-It first gets the directory instance, and then pipelines it to the **Get-AzureStorageFile** cmdlet to list the directory.
+Xxxx xxxxxxx xxxxx xxx xxxxx xxx xxxxxxx xx xxx xxxxxxxxx XxxxxxxXxxxxxxXxxxxx xxxxx xxx xxxxx XxxxxxxXxxxx00.
+Xx xxxxx xxxx xxx xxxxxxxxx xxxxxxxx$ xxx xxxx xxxxxxxxx xx xx xxx $$Xxx$XxxxxXxxxxxxXxxx$$ xxxxxx xx xxxx xxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-Specifies the client side time-out interval, in seconds, for one service request.
-If the previous call fails within the specified interval, this cmdlet retries the request.
-If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-Specifies the maximum concurrent network calls.
-You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
-The specified value is an absolute count and is not multiplied by the core count.
-This parameter can help mitigate network connection problems in low bandwidth environments, such as 100 kilobits per second.
-The default value is 10.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xxxxx xxxxxx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -96,9 +77,28 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies an azure_2 Storage context.
-To obtain a Storage context, use the New-AzureStorageContext cmdlet.
+### $XxxxxxxxxxXxxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxxxxx xxx xxxx xxxxxxxx xxxxxxx xxxxxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxxx$ xxxx xx 000 xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx xxxxx xx 00.
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx.
+Xx xxxxxx x Xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -112,11 +112,11 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Directory
-Specifies a folder as a **CloudFileDirectory** object.
-This cmdlet gets the folder that this parameter specifies.
-To obtain a directory, use the New-AzureStorageDirectory cmdlet.
-You can also use the **Get-AzureStorageFile** cmdlet to obtain a directory.
+### $Xxxxxxxxx
+Xxxxxxxxx x xxxxxx xx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx.
+Xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x xxxxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
+Xxx xxx xxxx xxx xxx $$Xxx$XxxxxXxxxxxxXxxx$$ xxxxxx xx xxxxxx x xxxxxxxxx.
 
 ```yaml
 Type: CloudFileDirectory
@@ -130,11 +130,11 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the path of a folder.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxx.
 
-If you omit the *Path* parameter, **Get-AzureStorageFile** lists the directories and files in the specified file share or directory.
-If you include the *Path* parameter, **Get-AzureStorageFile** returns an instance of a directory or file in the specified path.
+Xx xxx xxxx xxx $Xxxx$ xxxxxxxxx$ $$Xxx$XxxxxXxxxxxxXxxx$$ xxxxx xxx xxxxxxxxxxx xxx xxxxx xx xxx xxxxxxxxx xxxx xxxxx xx xxxxxxxxx.
+Xx xxx xxxxxxx xxx $Xxxx$ xxxxxxxxx$ $$Xxx$XxxxxXxxxxxxXxxx$$ xxxxxxx xx xxxxxxxx xx x xxxxxxxxx xx xxxx xx xxx xxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -148,9 +148,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-Specifies the service-side timeout interval, in seconds, for a request.
-If the specified interval elapses before the service processes the request, the Storage service returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxxx$xxxx xxxxxxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
+Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx Xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -164,12 +164,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Share
-Specifies a **CloudFileShare** object.
-This cmdlet gets a file or directory from the file share that this parameter specifies.
-To obtain a **CloudFileShare** object, use the Get-AzureStorageShare cmdlet.
-This object contains the Storage context.
-If you specify this parameter, do not specify the *Context* parameter.
+### $Xxxxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx.
+Xxxx xxxxxx xxxx x xxxx xx xxxxxxxxx xxxx xxx xxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxx xxxxxx.
+Xxxx xxxxxx xxxxxxxx xxx Xxxxxxx xxxxxxx.
+Xx xxx xxxxxxx xxxx xxxxxxxxx$ xx xxx xxxxxxx xxx $Xxxxxxx$ xxxxxxxxx.
 
 ```yaml
 Type: CloudFileShare
@@ -183,9 +183,9 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -ShareName
-Specifies the name of the file share.
-This cmdlet gets a file or directory from the file share that this parameter specifies.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxx xxxx x xxxx xx xxxxxxxxx xxxx xxx xxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -199,22 +199,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageFileContent](7e23b9f6-5f66-49a3-beb8-e2639c5234d7)
+[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](7e23b9f6-5f66-49a3-beb8-e2639c5234d7)
 
-[New-AzureStorageDirectory](2eea330c-759d-4dee-81e9-2e72de9f707e)
+[Xxx$XxxxxXxxxxxxXxxxxxxxx](2eea330c-759d-4dee-81e9-2e72de9f707e)
 
-[Remove-AzureStorageDirectory](2cbd0756-0224-43b0-8e22-a7316b7e24c2)
+[Xxxxxx$XxxxxXxxxxxxXxxxxxxxx](2cbd0756-0224-43b0-8e22-a7316b7e24c2)
 
-[Remove-AzureStorageFile](c9eb0c34-12ba-4978-85b5-f52c71e9ddf3)
+[Xxxxxx$XxxxxXxxxxxxXxxx](c9eb0c34-12ba-4978-85b5-f52c71e9ddf3)
 
-[Set-AzureStorageFileContent](cd2e0aa7-3259-4aa5-8494-c432063d34e7)
+[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](cd2e0aa7-3259-4aa5-8494-c432063d34e7)
 
 

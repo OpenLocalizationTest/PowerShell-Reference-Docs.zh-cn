@@ -6,46 +6,46 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureSchedulerJobHistory
-## SYNOPSIS
-Gets history for a scheduler job.
+# Xxx$XxxxxXxxxxxxxxXxxXxxxxxx
+## XXXXXXXX
+Xxxx xxxxxxx xxx x xxxxxxxxx xxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureSchedulerJobHistory [-Location] <String> [-JobCollectionName] <String> [-JobName] <String>
  [[-JobStatus] <String>] [-First] [-Skip] [-IncludeTotalCount]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Get-AzureSchedulerJobHistory cmdlet gets the history for a scheduler job.
+Xxx Xxx$XxxxxXxxxxxxxxXxxXxxxxxx xxxxxx xxxx xxx xxxxxxx xxx x xxxxxxxxx xxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get history for a job by using its name
+### Xxxxxxx 0$ Xxx xxxxxxx xxx x xxx xx xxxxx xxx xxxx
 ```
 PS C:\>Get-AzureSchedulerJobHistory -Location "North Central US" -JobCollectionName "JobCollection01" -JobName "Job01"
 ```
 
-This command gets the history of the job named Job01.
-That job belongs to the job collection named JobCollection01 in the specified location.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xx xxx xxx xxxxx Xxx00.
+Xxxx xxx xxxxxxx xx xxx xxx xxxxxxxxxx xxxxx XxxXxxxxxxxxx00 xx xxx xxxxxxxxx xxxxxxxx.
 
-### Example 2: Get history for a failed job by using its name
+### Xxxxxxx 0$ Xxx xxxxxxx xxx x xxxxxx xxx xx xxxxx xxx xxxx
 ```
 PS C:\>Get-AzureSchedulerJobHistory -Location "North Central US" -JobCollectionName "JobCollection01" -JobName "Job12" -JobStatus "Failed"
 ```
 
-This command gets the history of the job named Job12 that has a status of Failed.
-That job belongs to the job collection named JobCollection01 in the specified location.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xx xxx xxx xxxxx Xxx00 xxxx xxx x xxxxxx xx Xxxxxx.
+Xxxx xxx xxxxxxx xx xxx xxx xxxxxxxxxx xxxxx XxxXxxxxxxxxx00 xx xxx xxxxxxxxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -JobCollectionName
-Specifies the name of a scheduler job collection.
-This cmdlet gets the history for a job that belongs to the collection that this parameter specifies.
+### $XxxXxxxxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxxx xxx xxxxxxxxxx.
+Xxxx xxxxxx xxxx xxx xxxxxxx xxx x xxx xxxx xxxxxxx xx xxx xxxxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -59,8 +59,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -JobName
-Specifies the name of a scheduler job for which to get the history.
+### $XxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxxx xxx xxx xxxxx xx xxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -74,8 +74,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -JobStatus
-Specifies the status of scheduler job for which to get the history.
+### $XxxXxxxxx
+Xxxxxxxxx xxx xxxxxx xx xxxxxxxxx xxx xxx xxxxx xx xxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -89,21 +89,11 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Location
-Specifies the name of the location that hosts the cloud service.
-Valid values are: 
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxxx xxx xxxxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Anywhere Asia
--- Anywhere Europe
--- Anywhere US
--- East Asia
--- East US
--- North Central US
--- North Europe
--- South Central US
--- Southeast Asia
--- West Europe
--- West US
+$$ Xxxxxxxx Xxxx $$ Xxxxxxxx Xxxxxx $$ Xxxxxxxx XX $$ Xxxx Xxxx $$ Xxxx XX $$ Xxxxx Xxxxxxx XX $$ Xxxxx Xxxxxx $$ Xxxxx Xxxxxxx XX $$ Xxxxxxxxx Xxxx $$ Xxxx Xxxxxx $$ Xxxx XX
 
 ```yaml
 Type: String
@@ -117,9 +107,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -First
-Gets only the specified number of objects.
-Enter the number of objects to get.
+### $Xxxxx
+Xxxx xxxx xxx xxxxxxxxx xxxxxx xx xxxxxxx.
+Xxxxx xxx xxxxxx xx xxxxxxx xx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -133,9 +123,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Skip
-Ignores the specified number of objects and then gets the remaining objects.
-Enter the number of objects to skip.
+### $Xxxx
+Xxxxxxx xxx xxxxxxxxx xxxxxx xx xxxxxxx xxx xxxx xxxx xxx xxxxxxxxx xxxxxxx.
+Xxxxx xxx xxxxxx xx xxxxxxx xx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -149,10 +139,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -IncludeTotalCount
-Reports the total number of objects in the data set (an integer) followed by the selected objects.
-If the cmdlet cannot determine the total count, it displays "Unknown total count." The integer has an Accuracy property that indicates the reliability of the total count value.
-The value of Accuracy ranges from 0.0 to 1.0 where 0.0 means that the cmdlet could not count the objects, 1.0 means that the count is exact, and a value between 0.0 and 1.0 indicates an increasingly reliable estimate.
+### $XxxxxxxXxxxxXxxxx
+Xxxxxxx xxx xxxxx xxxxxx xx xxxxxxx xx xxx xxxx xxx $xx xxxxxxx$ xxxxxxxx xx xxx xxxxxxxx xxxxxxx.
+Xx xxx xxxxxx xxxxxx xxxxxxxxx xxx xxxxx xxxxx$ xx xxxxxxxx $Xxxxxxx xxxxx xxxxx.$ Xxx xxxxxxx xxx xx Xxxxxxxx xxxxxxxx xxxx xxxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxx xxxxx xxxxx.
+Xxx xxxxx xx Xxxxxxxx xxxxxx xxxx 0.0 xx 0.0 xxxxx 0.0 xxxxx xxxx xxx xxxxxx xxxxx xxx xxxxx xxx xxxxxxx$ 0.0 xxxxx xxxx xxx xxxxx xx xxxxx$ xxx x xxxxx xxxxxxx 0.0 xxx 0.0 xxxxxxxxx xx xxxxxxxxxxxx xxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -166,16 +156,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureSchedulerJob](aaed4c39-d209-4663-b058-b480553ee6a9)
+[Xxx$XxxxxXxxxxxxxxXxx](aaed4c39-d209-4663-b058-b480553ee6a9)
 
-[Get-AzureSchedulerJobCollection](1f6e64a2-021e-4ad7-93a4-9e1138607f01)
+[Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx](1f6e64a2-021e-4ad7-93a4-9e1138607f01)
 
 

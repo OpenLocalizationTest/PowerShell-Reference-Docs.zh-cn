@@ -4,34 +4,34 @@ online version: http://go.microsoft.com/fwlink/?LinkID=525909
 schema: 2.0.0
 ---
 
-# Write-Information
-## SYNOPSIS
-Specifies how Windows PowerShell handles information stream data for a command.
+# Xxxxx$Xxxxxxxxxxx
+## XXXXXXXX
+Xxxxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxx xxxxxxxxxxx xxxxxx xxxx xxx x xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Write-Information [-MessageData] <Object> [[-Tags] <String[]>]
 ```
 
-## DESCRIPTION
-Windows PowerShell 5.0 introduces a new, structured information stream (number 6 in Windows PowerShell streams) that you can use to transmit structured data between a script and its callers (or hosting environment).
-Write-Information lets you add an informational message to the stream, and specify how Windows PowerShell handles information stream data for a command.
+## XXXXXXXXXXX
+Xxxxxxx XxxxxXxxxx 0.0 xxxxxxxxxx x xxx$ xxxxxxxxxx xxxxxxxxxxx xxxxxx $xxxxxx 0 xx Xxxxxxx XxxxxXxxxx xxxxxxx$ xxxx xxx xxx xxx xx xxxxxxxx xxxxxxxxxx xxxx xxxxxxx x xxxxxx xxx xxx xxxxxxx $xx xxxxxxx xxxxxxxxxxx$.
+Xxxxx$Xxxxxxxxxxx xxxx xxx xxx xx xxxxxxxxxxxxx xxxxxxx xx xxx xxxxxx$ xxx xxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxx xxxxxxxxxxx xxxxxx xxxx xxx x xxxxxxx.
 
-The $InformationPreference preference variable value determines whether the message you provide to Write-Information is displayed at the expected point in a script's operation.
-Because the default value of this variable is SilentlyContinue, by default, informational messages are not shown.
-If you don't want to change the value of $InformationPreference, you can override its value by adding the InformationAction common parameter to your command.
-For more information, see about_Preference_Variables and about_CommonParameters.
+Xxx $XxxxxxxxxxxXxxxxxxxxx xxxxxxxxxx xxxxxxxx xxxxx xxxxxxxxxx xxxxxxx xxx xxxxxxx xxx xxxxxxx xx Xxxxx$Xxxxxxxxxxx xx xxxxxxxxx xx xxx xxxxxxxx xxxxx xx x xxxxxx$x xxxxxxxxx.
+Xxxxxxx xxx xxxxxxx xxxxx xx xxxx xxxxxxxx xx XxxxxxxxXxxxxxxx$ xx xxxxxxx$ xxxxxxxxxxxxx xxxxxxxx xxx xxx xxxxx.
+Xx xxx xxx$x xxxx xx xxxxxx xxx xxxxx xx $XxxxxxxxxxxXxxxxxxxxx$ xxx xxx xxxxxxxx xxx xxxxx xx xxxxxx xxx XxxxxxxxxxxXxxxxx xxxxxx xxxxxxxxx xx xxxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxxxxx$Xxxxxxxxx xxx xxxxx$XxxxxxXxxxxxxxxx.
 
-Starting in Windows PowerShell 5.0, Write-Host is a wrapper for Write-Information.
-You can now use Write-Host to emit output to the information stream, but the $InformationPreference preference variable and InformationAction common parameter do not affect Write-Host messages.
-Information streams also work for PowerShell.Streams, jobs, scheduled jobs, and workflows.
+Xxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0$ Xxxxx$Xxxx xx x xxxxxxx xxx Xxxxx$Xxxxxxxxxxx.
+Xxx xxx xxx xxx Xxxxx$Xxxx xx xxxx xxxxxx xx xxx xxxxxxxxxxx xxxxxx$ xxx xxx $XxxxxxxxxxxXxxxxxxxxx xxxxxxxxxx xxxxxxxx xxx XxxxxxxxxxxXxxxxx xxxxxx xxxxxxxxx xx xxx xxxxxx Xxxxx$Xxxx xxxxxxxx.
+Xxxxxxxxxxx xxxxxxx xxxx xxxx xxx XxxxxXxxxx.Xxxxxxx$ xxxx$ xxxxxxxxx xxxx$ xxx xxxxxxxxx.
 
-Write-Information is also a supported workflow activity.
+Xxxxx$Xxxxxxxxxxx xx xxxx x xxxxxxxxx xxxxxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-WindowsFeature -Name p*; Write-Information -MessageData "Got your features!" -InformationAction Continue
 Display Name                                            Name                       Install State
@@ -49,11 +49,11 @@ Display Name                                            Name                    
 Got your features!
 ```
 
-In this example, you show an informational message, "Got your features!", after running the Get-WindowsFeature command to find all features that have a Name value that starts with "p".
-Because the $InformationPreference variable is still set to its default, SilentlyContinue, you add the InformationAction parameter to override the $InformationPreference value, and show the message.
-The InformationAction value is Continue, which means that your message is shown, but the script or command continues, if it is not yet finished.
+Xx xxxx xxxxxxx$ xxx xxxx xx xxxxxxxxxxxxx xxxxxxx$ $Xxx xxxx xxxxxxxx$$$ xxxxx xxxxxxx xxx Xxx$XxxxxxxXxxxxxx xxxxxxx xx xxxx xxx xxxxxxxx xxxx xxxx x Xxxx xxxxx xxxx xxxxxx xxxx $x$.
+Xxxxxxx xxx $XxxxxxxxxxxXxxxxxxxxx xxxxxxxx xx xxxxx xxx xx xxx xxxxxxx$ XxxxxxxxXxxxxxxx$ xxx xxx xxx XxxxxxxxxxxXxxxxx xxxxxxxxx xx xxxxxxxx xxx $XxxxxxxxxxxXxxxxxxxxx xxxxx$ xxx xxxx xxx xxxxxxx.
+Xxx XxxxxxxxxxxXxxxxx xxxxx xx Xxxxxxxx$ xxxxx xxxxx xxxx xxxx xxxxxxx xx xxxxx$ xxx xxx xxxxxx xx xxxxxxx xxxxxxxxx$ xx xx xx xxx xxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-WindowsFeature -Name p*; Write-Information -MessageData "To filter your results for PowerShell, pipe your results to the Where-Object cmdlet." -Tags "Instructions" -InformationAction Continue
 Display Name                                            Name                       Install State
@@ -71,11 +71,11 @@ Display Name                                            Name                    
 To filter your results for PowerShell, pipe your results to the Where-Object cmdlet.
 ```
 
-In this example, you use Write-Information to let users know they'll need to run another command after they're done running the current command.
-The example adds the tag Instructions to the informational message.
-After running this command, if you search the information stream for messages tagged Instructions, the message specified here would be among the results.
+Xx xxxx xxxxxxx$ xxx xxx Xxxxx$Xxxxxxxxxxx xx xxx xxxxx xxxx xxxx$xx xxxx xx xxx xxxxxxx xxxxxxx xxxxx xxxx$xx xxxx xxxxxxx xxx xxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxx xxx xxx Xxxxxxxxxxxx xx xxx xxxxxxxxxxxxx xxxxxxx.
+Xxxxx xxxxxxx xxxx xxxxxxx$ xx xxx xxxxxx xxx xxxxxxxxxxx xxxxxx xxx xxxxxxxx xxxxxx Xxxxxxxxxxxx$ xxx xxxxxxx xxxxxxxxx xxxx xxxxx xx xxxxx xxx xxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>function Test-Info
        { 
@@ -85,15 +85,15 @@ PS C:\>function Test-Info
 Test-Info 6> Info.txt
 ```
 
-In this example, you redirect the information stream in the function to a file, Info.txt, by using the code 6\>.
-When you open the Info.txt file, you see the text, "Here you go."
+Xx xxxx xxxxxxx$ xxx xxxxxxxx xxx xxxxxxxxxxx xxxxxx xx xxx xxxxxxxx xx x xxxx$ Xxxx.xxx$ xx xxxxx xxx xxxx 0$$.
+Xxxx xxx xxxx xxx Xxxx.xxx xxxx$ xxx xxx xxx xxxx$ $Xxxx xxx xx.$
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -MessageData
-Specifies an informational message that you want to display to users as they run a script or command.
-For best results, enclose the informational message in quotation marks.
-An example is "Test complete."
+### $XxxxxxxXxxx
+Xxxxxxxxx xx xxxxxxxxxxxxx xxxxxxx xxxx xxx xxxx xx xxxxxxx xx xxxxx xx xxxx xxx x xxxxxx xx xxxxxxx.
+Xxx xxxx xxxxxxx$ xxxxxxx xxx xxxxxxxxxxxxx xxxxxxx xx xxxxxxxxx xxxxx.
+Xx xxxxxxx xx $Xxxx xxxxxxxx.$
 
 ```yaml
 Type: Object
@@ -107,9 +107,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Tags
-Specifies a simple string that you can use to sort and filter messages that you have added to the information stream with Write-Information.
-This parameter works similarly to the Tags parameter in New-ModuleManifest.
+### $Xxxx
+Xxxxxxxxx x xxxxxx xxxxxx xxxx xxx xxx xxx xx xxxx xxx xxxxxx xxxxxxxx xxxx xxx xxxx xxxxx xx xxx xxxxxxxxxxx xxxxxx xxxx Xxxxx$Xxxxxxxxxxx.
+Xxxx xxxxxxxxx xxxxx xxxxxxxxx xx xxx Xxxx xxxxxxxxx xx Xxx$XxxxxxXxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -123,22 +123,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
 ### 
-Write-Information does not accept piped input.
+Xxxxx$Xxxxxxxxxxx xxxx xxx xxxxxx xxxxx xxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.InformationRecord
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxxxxxxxXxxxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[about_CommonParameters]()
+[xxxxx$XxxxxxXxxxxxxxxx]()
 
-[about_Redirection]()
+[xxxxx$Xxxxxxxxxxx]()
 
-[about_Preference_Variables]()
+[xxxxx$Xxxxxxxxxx$Xxxxxxxxx]()
 

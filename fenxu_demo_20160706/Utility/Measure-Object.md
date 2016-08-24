@@ -4,76 +4,76 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293990
 schema: 2.0.0
 ---
 
-# Measure-Object
-## SYNOPSIS
-Calculates the numeric properties of objects, and the characters, words, and lines in string objects, such as files of text.
+# Xxxxxxx$Xxxxxx
+## XXXXXXXX
+Xxxxxxxxxx xxx xxxxxxx xxxxxxxxxx xx xxxxxxx$ xxx xxx xxxxxxxxxx$ xxxxx$ xxx xxxxx xx xxxxxx xxxxxxx$ xxxx xx xxxxx xx xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### GenericMeasure (Default)
+### XxxxxxxXxxxxxx $Xxxxxxx$
 ```
 Measure-Object [-InputObject <PSObject>] [[-Property] <String[]>] [-Sum] [-Average] [-Maximum] [-Minimum]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### TextMeasure
+### XxxxXxxxxxx
 ```
 Measure-Object [-InputObject <PSObject>] [[-Property] <String[]>] [-Line] [-Word] [-Character]
  [-IgnoreWhiteSpace] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Measure-Object cmdlet calculates the property values of certain types of object.
-Measure-Object performs three types of measurements, depending on the parameters in the command.
+## XXXXXXXXXXX
+Xxx Xxxxxxx$Xxxxxx xxxxxx xxxxxxxxxx xxx xxxxxxxx xxxxxx xx xxxxxxx xxxxx xx xxxxxx.
+Xxxxxxx$Xxxxxx xxxxxxxx xxxxx xxxxx xx xxxxxxxxxxxx$ xxxxxxxxx xx xxx xxxxxxxxxx xx xxx xxxxxxx.
 
-The Measure-Object cmdlet performs calculations on the property values of objects.
-It can count objects and calculate the minimum, maximum, sum, and average of the numeric values.
-For text objects, it can count and calculate the number of lines, words, and characters.
+Xxx Xxxxxxx$Xxxxxx xxxxxx xxxxxxxx xxxxxxxxxxxx xx xxx xxxxxxxx xxxxxx xx xxxxxxx.
+Xx xxx xxxxx xxxxxxx xxx xxxxxxxxx xxx xxxxxxx$ xxxxxxx$ xxx$ xxx xxxxxxx xx xxx xxxxxxx xxxxxx.
+Xxx xxxx xxxxxxx$ xx xxx xxxxx xxx xxxxxxxxx xxx xxxxxx xx xxxxx$ xxxxx$ xxx xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-childitem | measure-object
 ```
 
-This command counts the files and folders in the current directory.
+Xxxx xxxxxxx xxxxxx xxx xxxxx xxx xxxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-childitem | measure-object -property length -minimum -maximum -average
 ```
 
-This command displays the minimum, maximum, and sum of the sizes of all files in the current directory, and the average size of a file in the directory.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxx$ xxxxxxx$ xxx xxx xx xxx xxxxx xx xxx xxxxx xx xxx xxxxxxx xxxxxxxxx$ xxx xxx xxxxxxx xxxx xx x xxxx xx xxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-content C:\test.txt | measure-object -character -line -word
 ```
 
-This command displays the number of characters, words, and lines in the Text.txt file.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxx xx xxxxxxxxxx$ xxxxx$ xxx xxxxx xx xxx Xxxx.xxx xxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | measure-object -property workingset -minimum -maximum -average
 ```
 
-This command displays the minimum, maximum, and average sizes of the working sets of the processes on the computer.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxx$ xxxxxxx$ xxx xxxxxxx xxxxx xx xxx xxxxxxx xxxx xx xxx xxxxxxxxx xx xxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>import-csv d:\test\serviceyrs.csv | measure-object -property years -minimum -maximum -average
 ```
 
-This command calculates the average years of service of the employees of a company.
+Xxxx xxxxxxx xxxxxxxxxx xxx xxxxxxx xxxxx xx xxxxxxx xx xxx xxxxxxxxx xx x xxxxxxx.
 
-The ServiceYrs.csv file is a CSV file that contains the employee number and years of service of each employee.
-The first row in the table is a header row of "EmpNo, Years".
+Xxx XxxxxxxXxx.xxx xxxx xx x XXX xxxx xxxx xxxxxxxx xxx xxxxxxxx xxxxxx xxx xxxxx xx xxxxxxx xx xxxx xxxxxxxx.
+Xxx xxxxx xxx xx xxx xxxxx xx x xxxxxx xxx xx $XxxXx$ Xxxxx$.
 
-When you use Import-Csv to import the file, the result is a PSCustomObject with note properties of EmpNo and Years.
-You can use Measure-Object to calculate the values of these properties, just like any other property of an object.
+Xxxx xxx xxx Xxxxxx$Xxx xx xxxxxx xxx xxxx$ xxx xxxxxx xx x XXXxxxxxXxxxxx xxxx xxxx xxxxxxxxxx xx XxxXx xxx Xxxxx.
+Xxx xxx xxx Xxxxxxx$Xxxxxx xx xxxxxxxxx xxx xxxxxx xx xxxxx xxxxxxxxxx$ xxxx xxxx xxx xxxxx xxxxxxxx xx xx xxxxxx.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-childitem | measure-object -property psiscontainer -max -sum -min -average
 
@@ -85,14 +85,13 @@ Minimum  : 0
 Property : PSIsContainer
 ```
 
-This example demonstrates the Measure-Object can measure Boolean values.
-In this case, it uses the PSIsContainer Boolean property to measure the incidence of folders (vs.
-files) in the current directory.
+Xxxx xxxxxxx xxxxxxxxxxxx xxx Xxxxxxx$Xxxxxx xxx xxxxxxx Xxxxxxx xxxxxx.
+Xx xxxx xxxx$ xx xxxx xxx XXXxXxxxxxxxx Xxxxxxx xxxxxxxx xx xxxxxxx xxx xxxxxxxxx xx xxxxxxx $xx. xxxxx$ xx xxx xxxxxxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Average
-Displays the average value of the specified properties.
+### $Xxxxxxx
+Xxxxxxxx xxx xxxxxxx xxxxx xx xxx xxxxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -106,8 +105,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Character
-Counts the number of characters in the input object.
+### $Xxxxxxxxx
+Xxxxxx xxx xxxxxx xx xxxxxxxxxx xx xxx xxxxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -121,9 +120,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -IgnoreWhiteSpace
-Ignores white space in word counts and character counts.
-By default, white space is not ignored.
+### $XxxxxxXxxxxXxxxx
+Xxxxxxx xxxxx xxxxx xx xxxx xxxxxx xxx xxxxxxxxx xxxxxx.
+Xx xxxxxxx$ xxxxx xxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -137,8 +136,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -153,8 +152,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -168,12 +167,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the objects to be measured.
-Enter a variable that contains the objects, or type a command or expression that gets the objects.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xx xxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
-When you use the InputObject parameter with Measure-Object, instead of piping command results to Measure-Object, the InputObject value-even if the value is a collection that is the result of a command, such as -InputObject (Get-Process)-is treated as a single object.
-Because InputObject cannot return individual properties from an array or collection of objects, it is recommended that if you use Measure-Object to measure a collection of objects for those objects that have specific values in defined properties, you use Measure-Object in the pipeline, as shown in the examples in this topic.
+Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xxxx Xxxxxxx$Xxxxxx$ xxxxxxx xx xxxxxx xxxxxxx xxxxxxx xx Xxxxxxx$Xxxxxx$ xxx XxxxxXxxxxx xxxxx$xxxx xx xxx xxxxx xx x xxxxxxxxxx xxxx xx xxx xxxxxx xx x xxxxxxx$ xxxx xx $XxxxxXxxxxx $Xxx$Xxxxxxx$$xx xxxxxxx xx x xxxxxx xxxxxx.
+Xxxxxxx XxxxxXxxxxx xxxxxx xxxxxx xxxxxxxxxx xxxxxxxxxx xxxx xx xxxxx xx xxxxxxxxxx xx xxxxxxx$ xx xx xxxxxxxxxxx xxxx xx xxx xxx Xxxxxxx$Xxxxxx xx xxxxxxx x xxxxxxxxxx xx xxxxxxx xxx xxxxx xxxxxxx xxxx xxxx xxxxxxxx xxxxxx xx xxxxxxx xxxxxxxxxx$ xxx xxx Xxxxxxx$Xxxxxx xx xxx xxxxxxxx$ xx xxxxx xx xxx xxxxxxxx xx xxxx xxxxx.
 
 ```yaml
 Type: PSObject
@@ -187,8 +186,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Line
-Counts the number of lines in the input object.
+### $Xxxx
+Xxxxxx xxx xxxxxx xx xxxxx xx xxx xxxxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -202,8 +201,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Maximum
-Displays the maximum value of the specified properties.
+### $Xxxxxxx
+Xxxxxxxx xxx xxxxxxx xxxxx xx xxx xxxxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -217,8 +216,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Minimum
-Displays the minimum value of the specified properties.
+### $Xxxxxxx
+Xxxxxxxx xxx xxxxxxx xxxxx xx xxx xxxxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -232,9 +231,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Property
-Specifies one or more numeric properties to measure.
-The default is the Count (Length) property of the object.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xx xxxx xxxxxxx xxxxxxxxxx xx xxxxxxx.
+Xxx xxxxxxx xx xxx Xxxxx $Xxxxxx$ xxxxxxxx xx xxx xxxxxx.
 
 ```yaml
 Type: String[]
@@ -248,8 +247,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Sum
-Displays the sum of the values of the specified properties.
+### $Xxx
+Xxxxxxxx xxx xxx xx xxx xxxxxx xx xxx xxxxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -263,8 +262,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Word
-Counts the number of words in the input object.
+### $Xxxx
+Xxxxxx xxx xxxxxx xx xxxxx xx xxx xxxxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -278,34 +277,34 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe objects to Measure-Object.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxxxxxx xx Xxxxxxx$Xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.PowerShell.Commands.GenericMeasureInfo, Microsoft.PowerShell.Commands.TextMeasureInfo, Microsoft.PowerShell.Commands.GenericObjectMeasureInfo
-If you use the Word parameter, Measure-Object returns a TextMeasureInfo object.
-Otherwise, it returns a GenericMeasureInfo object.
+### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxxxXxxxxxxXxxx$ Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxXxxxxxxXxxx$ Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxxxXxxxxxXxxxxxxXxxx
+Xx xxx xxx xxx Xxxx xxxxxxxxx$ Xxxxxxx$Xxxxxx xxxxxxx x XxxxXxxxxxxXxxx xxxxxx.
+Xxxxxxxxx$ xx xxxxxxx x XxxxxxxXxxxxxxXxxx xxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Compare-Object]()
+[Xxxxxxx$Xxxxxx]()
 
-[ForEach-Object]()
+[XxxXxxx$Xxxxxx]()
 
-[Group-Object]()
+[Xxxxx$Xxxxxx]()
 
-[New-Object]()
+[Xxx$Xxxxxx]()
 
-[Select-Object]()
+[Xxxxxx$Xxxxxx]()
 
-[Sort-Object]()
+[Xxxx$Xxxxxx]()
 
-[Tee-Object]()
+[Xxx$Xxxxxx]()
 
-[Where-Object]()
+[Xxxxx$Xxxxxx]()
 

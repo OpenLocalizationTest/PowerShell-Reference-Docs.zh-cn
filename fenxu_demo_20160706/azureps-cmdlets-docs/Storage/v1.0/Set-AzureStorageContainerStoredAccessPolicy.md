@@ -6,11 +6,11 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureStorageContainerStoredAccessPolicy
-## SYNOPSIS
-Sets a stored access policy for an azure_2 storage container.
+# Xxx$XxxxxXxxxxxxXxxxxxxxxXxxxxxXxxxxxXxxxxx
+## XXXXXXXX
+Xxxx x xxxxxx xxxxxx xxxxxx xxx xx xxxxx$0 xxxxxxx xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureStorageContainerStoredAccessPolicy [-Container] <String> [-Policy] <String>
@@ -19,43 +19,24 @@ Set-AzureStorageContainerStoredAccessPolicy [-Container] <String> [-Policy] <Str
  [-ServerTimeoutPerRequest <Int32]>] [-StartTime <DateTime]>]
 ```
 
-## DESCRIPTION
-The **Set-AzureStorageContainerStoredAccessPolicy** cmdlet sets a stored access policy for an azure_2 storage container.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxxxxxXxxxxxXxxxxxXxxxxx$$ xxxxxx xxxx x xxxxxx xxxxxx xxxxxx xxx xx xxxxx$0 xxxxxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Set a stored access policy in a storage container
+### Xxxxxxx 0$ Xxx x xxxxxx xxxxxx xxxxxx xx x xxxxxxx xxxxxxxxx
 ```
 PS C:\>Set-AzureStorageContainerStoredAccessPolicy -Container "MyContainer" -Policy "Policy06"
 ```
 
-This command sets an access policy named Policy06 for storage container named MyContainer.
+Xxxx xxxxxxx xxxx xx xxxxxx xxxxxx xxxxx Xxxxxx00 xxx xxxxxxx xxxxxxxxx xxxxx XxXxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-Specifies the client-side time-out interval, in seconds, for one service request.
-If the previous call fails in the specified interval, this cmdlet retries the request.
-If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
-
-```yaml
-Type: Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-Specifies the maximum concurrent network calls.
-You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
-The specified value is an absolute count and is not multiplied by the core count.
-This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
-The default value is 10.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -69,8 +50,27 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Container
-Specifies the azure_2 storage container name.
+### $XxxxxxxxxxXxxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxxxxx xxx xxxx xxxxxx xxxxxxx xxxxxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxxx$ xxxx xx 000 xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx xxxxx xx 00.
+
+```yaml
+Type: Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -84,9 +84,9 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -100,8 +100,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-Specifies the time at which the stored access policy becomes invalid.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: DateTime]
@@ -115,8 +115,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NoExpiryTime
-Indicates that the access policy has no expiration date.
+### $XxXxxxxxXxxx
+Xxxxxxxxx xxxx xxx xxxxxx xxxxxx xxx xx xxxxxxxxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -130,8 +130,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NoStartTime
-Sets the start time to be $Null.
+### $XxXxxxxXxxx
+Xxxx xxx xxxxx xxxx xx xx $Xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -145,8 +145,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Permission
-Specifies the level of public access to this container.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxx xx xxxxxx xxxxxx xx xxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -160,8 +160,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-Specifies a stored access policy, which includes the permissions for this Shared Access Signature (SAS) token.
+### $Xxxxxx
+Xxxxxxxxx x xxxxxx xxxxxx xxxxxx$ xxxxx xxxxxxxx xxx xxxxxxxxxxx xxx xxxx Xxxxxx Xxxxxx Xxxxxxxxx $XXX$ xxxxx.
 
 ```yaml
 Type: String
@@ -175,10 +175,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-Specifies the client-side time-out interval, in seconds, for one service request.
-If the previous call fails in the specified interval, this cmdlet retries the request.
-If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -192,8 +192,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies the time at which the stored access policy becomes valid.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: DateTime]
@@ -207,20 +207,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageContainerStoredAccessPolicy](511d9eb1-959a-4343-b3ef-c6f21998947c)
+[Xxx$XxxxxXxxxxxxXxxxxxxxxXxxxxxXxxxxxXxxxxx](511d9eb1-959a-4343-b3ef-c6f21998947c)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[New-AzureStorageContainerStoredAccessPolicy](00a693d9-52d2-4c9b-9d7b-e476ca51a610)
+[Xxx$XxxxxXxxxxxxXxxxxxxxxXxxxxxXxxxxxXxxxxx](00a693d9-52d2-4c9b-9d7b-e476ca51a610)
 
-[Remove-AzureStorageContainerStoredAccessPolicy](60b0802b-aedd-4d2e-a37f-89bb8c63f0d4)
+[Xxxxxx$XxxxxXxxxxxxXxxxxxxxxXxxxxxXxxxxxXxxxxx](60b0802b-aedd-4d2e-a37f-89bb8c63f0d4)
 
 

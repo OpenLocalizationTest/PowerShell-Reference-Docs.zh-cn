@@ -4,42 +4,42 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294026
 schema: 2.0.0
 ---
 
-# Wait-Event
-## SYNOPSIS
-Waits until a particular event is raised before continuing to run.
+# Xxxx$Xxxxx
+## XXXXXXXX
+Xxxxx xxxxx x xxxxxxxxxx xxxxx xx xxxxxx xxxxxx xxxxxxxxxx xx xxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Wait-Event [[-SourceIdentifier] <String>] [-Timeout <Int32>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Wait-Event cmdlet suspends execution of a script or function until a particular event is raised.
-Execution resumes when the event is detected.
-To cancel the wait, press CTRL+C.
+## XXXXXXXXXXX
+Xxx Xxxx$Xxxxx xxxxxx xxxxxxxx xxxxxxxxx xx x xxxxxx xx xxxxxxxx xxxxx x xxxxxxxxxx xxxxx xx xxxxxx.
+Xxxxxxxxx xxxxxxx xxxx xxx xxxxx xx xxxxxxxx.
+Xx xxxxxx xxx xxxx$ xxxxx XXXX$X.
 
-This feature provides an alternative to polling for an event.
-It also allows you to determine the response to an event in two different ways: by using the Action parameter of the event subscription and by waiting for an event to return and then respond with an action.
+Xxxx xxxxxxx xxxxxxxx xx xxxxxxxxxxx xx xxxxxxx xxx xx xxxxx.
+Xx xxxx xxxxxx xxx xx xxxxxxxxx xxx xxxxxxxx xx xx xxxxx xx xxx xxxxxxxxx xxxx$ xx xxxxx xxx Xxxxxx xxxxxxxxx xx xxx xxxxx xxxxxxxxxxxx xxx xx xxxxxxx xxx xx xxxxx xx xxxxxx xxx xxxx xxxxxxx xxxx xx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>wait-event
 ```
 
-This command waits for the next event that is raised.
+Xxxx xxxxxxx xxxxx xxx xxx xxxx xxxxx xxxx xx xxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>wait-event -sourceIdentifier "ProcessStarted"
 ```
 
-This command waits for the next event that is raised and that has a source identifier of "ProcessStarted".
+Xxxx xxxxxxx xxxxx xxx xxx xxxx xxxxx xxxx xx xxxxxx xxx xxxx xxx x xxxxxx xxxxxxxxxx xx $XxxxxxxXxxxxxx$.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$timer.Interval = 2000
 PS C:\>$timer.Autoreset = $false
@@ -57,20 +57,20 @@ MessageData      :
 ForwardEvent     : False
 ```
 
-This command uses the Wait-Event cmdlet to wait for a timer event on a timer that is set for 2000 milliseconds.
+Xxxx xxxxxxx xxxx xxx Xxxx$Xxxxx xxxxxx xx xxxx xxx x xxxxx xxxxx xx x xxxxx xxxx xx xxx xxx 0000 xxxxxxxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>wait-event -sourceIdentifier "ProcessStarted" -timeout 90
 ```
 
-This command waits up to 90 seconds for the next event that is raised and that has a source identifier of "ProcessStarted".
-If the specified time expires, the wait ends.
+Xxxx xxxxxxx xxxxx xx xx 00 xxxxxxx xxx xxx xxxx xxxxx xxxx xx xxxxxx xxx xxxx xxx x xxxxxx xxxxxxxxxx xx $XxxxxxxXxxxxxx$.
+Xx xxx xxxxxxxxx xxxx xxxxxxx$ xxx xxxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -85,8 +85,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -100,9 +100,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SourceIdentifier
-Waits only for events with the specified source identifier.
-By default, Wait-Events waits for any event.
+### $XxxxxxXxxxxxxxxx
+Xxxxx xxxx xxx xxxxxx xxxx xxx xxxxxxxxx xxxxxx xxxxxxxxxx.
+Xx xxxxxxx$ Xxxx$Xxxxxx xxxxx xxx xxx xxxxx.
 
 ```yaml
 Type: String
@@ -116,13 +116,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Timeout
-Determines the maximum time, in seconds, that Wait-Event waits for the event to occur.
-The default, -1, waits indefinitely.
-The timing starts when you submit the Wait-Event command.
+### $Xxxxxxx
+Xxxxxxxxxx xxx xxxxxxx xxxx$ xx xxxxxxx$ xxxx Xxxx$Xxxxx xxxxx xxx xxx xxxxx xx xxxxx.
+Xxx xxxxxxx$ $0$ xxxxx xxxxxxxxxxxx.
+Xxx xxxxxx xxxxxx xxxx xxx xxxxxx xxx Xxxx$Xxxxx xxxxxxx.
 
-If the specified time is exceeded, the wait ends and the command prompt returns, even if the event has not been raised.
-No error message is displayed.
+Xx xxx xxxxxxxxx xxxx xx xxxxxxxx$ xxx xxxx xxxx xxx xxx xxxxxxx xxxxxx xxxxxxx$ xxxx xx xxx xxxxx xxx xxx xxxx xxxxxx.
+Xx xxxxx xxxxxxx xx xxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -136,35 +136,35 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
+### Xxxxxx.Xxxxxx
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.PSEventArgs
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxx
 
-## NOTES
-Events, event subscriptions, and the event queue exist only in the current session.
-If you close the current session, the event queue is discarded and the event subscription is canceled.
+## XXXXX
+Xxxxxx$ xxxxx xxxxxxxxxxxxx$ xxx xxx xxxxx xxxxx xxxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxx xxx xxxxxxx xxxxxxx$ xxx xxxxx xxxxx xx xxxxxxxxx xxx xxx xxxxx xxxxxxxxxxxx xx xxxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-Event]()
+[Xxx$Xxxxx]()
 
-[Get-EventSubscriber]()
+[Xxx$XxxxxXxxxxxxxxx]()
 
-[New-Event]()
+[Xxx$Xxxxx]()
 
-[Register-EngineEvent]()
+[Xxxxxxxx$XxxxxxXxxxx]()
 
-[Register-ObjectEvent]()
+[Xxxxxxxx$XxxxxxXxxxx]()
 
-[Register-WmiEvent]()
+[Xxxxxxxx$XxxXxxxx]()
 
-[Remove-Event]()
+[Xxxxxx$Xxxxx]()
 
-[Unregister-Event]()
+[Xxxxxxxxxx$Xxxxx]()
 
-[Wait-Event]()
+[Xxxx$Xxxxx]()
 

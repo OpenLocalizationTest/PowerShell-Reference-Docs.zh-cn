@@ -6,36 +6,36 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureStorageServiceMetricsProperty
-## SYNOPSIS
-Modifies metrics properties for the azure_2 Storage service.
+# Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx
+## XXXXXXXX
+Xxxxxxxx xxxxxxx xxxxxxxxxx xxx xxx xxxxx$0 Xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureStorageServiceMetricsProperty [-ServiceType] [-MetricsType] [-Context <AzureStorageContext>]
  [-MetricsLevel <MetricsLevel]>] [-PassThru] [-RetentionDays <Int32]>] [-Version <Double]>]
 ```
 
-## DESCRIPTION
-The **Set-AzureStorageServiceMetricsProperty** cmdlet modifies metrics properties for the azure_2 Storage service.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx$$ xxxxxx xxxxxxxx xxxxxxx xxxxxxxxxx xxx xxx xxxxx$0 Xxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Modify metrics properties for the Blob service
+### Xxxxxxx 0$ Xxxxxx xxxxxxx xxxxxxxxxx xxx xxx Xxxx xxxxxxx
 ```
 C:\PS>Set-AzureStorageServiceMetricsProperty -ServiceType Blob -MetricsType Hour -MetricsLevel Service -PassThru -RetentionDays 10 -Version 1.0
 ```
 
-This command modifies version 1.0 metrics for blob storage to a level of Service.
-azure_2 Storage service metrics retains entries for 10 days.
-Because this command specifies the *PassThru* parameter, the command displays the modified metrics properties.
+Xxxx xxxxxxx xxxxxxxx xxxxxxx 0.0 xxxxxxx xxx xxxx xxxxxxx xx x xxxxx xx Xxxxxxx.
+xxxxx$0 Xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxx 00 xxxx.
+Xxxxxxx xxxx xxxxxxx xxxxxxxxx xxx $XxxxXxxx$ xxxxxxxxx$ xxx xxxxxxx xxxxxxxx xxx xxxxxxxx xxxxxxx xxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -49,13 +49,11 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -MetricsLevel
-Specifies the metrics level that azure_2 Storage uses for the service.
-psdx_paramvalues
+### $XxxxxxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxx xxxx xxxxx$0 Xxxxxxx xxxx xxx xxx xxxxxxx.
+xxxx$xxxxxxxxxxx
 
--- None
--- Service
--- ServiceAndApi
+$$ Xxxx $$ Xxxxxxx $$ XxxxxxxXxxXxx
 
 ```yaml
 Type: MetricsLevel]
@@ -69,10 +67,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -MetricsType
-Specifies a metrics type.
-This cmldet sets the azure_2 Storage service metrics type to the value that this parameter specifies.
-psdx_paramvalues Hour and Minute.
+### $XxxxxxxXxxx
+Xxxxxxxxx x xxxxxxx xxxx.
+Xxxx xxxxxx xxxx xxx xxxxx$0 Xxxxxxx xxxxxxx xxxxxxx xxxx xx xxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+xxxx$xxxxxxxxxxx Xxxx xxx Xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -87,9 +85,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Indicates that this cmdlets returns the updated metrics properties.
-If you do not specify this parameter, this cmdlet does not return a value.
+### $XxxxXxxx
+Xxxxxxxxx xxxx xxxx xxxxxxx xxxxxxx xxx xxxxxxx xxxxxxx xxxxxxxxxx.
+Xx xxx xx xxx xxxxxxx xxxx xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx x xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -103,8 +101,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -RetentionDays
-Specifies the number of days that the azure_2 Storage service retains metrics information.
+### $XxxxxxxxxXxxx
+Xxxxxxxxx xxx xxxxxx xx xxxx xxxx xxx xxxxx$0 Xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: Int32]
@@ -118,17 +116,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServiceType
-Specifies the storage service type.
-This cmdlet modifies the metrics properties for the service type that this parameter specifies.
-psdx_paramvalues
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxx xxxx.
+Xxxx xxxxxx xxxxxxxx xxx xxxxxxx xxxxxxxxxx xxx xxx xxxxxxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+xxxx$xxxxxxxxxxx
 
--- Blob 
--- Table
--- Queue
--- File
+$$ Xxxx $$ Xxxxx $$ Xxxxx $$ Xxxx
 
-The value of File is not currently supported.
+Xxx xxxxx xx Xxxx xx xxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -143,9 +138,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Version
-Specifies the version of the azure_2 Storage metrics.
-The default value is 1.0.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxx xxxxx$0 Xxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxxx xx 0.0.
 
 ```yaml
 Type: Double]
@@ -159,16 +154,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageServiceMetricsProperty](59b6d8fb-70ff-4b9e-b6af-e303e1451dbb)
+[Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx](59b6d8fb-70ff-4b9e-b6af-e303e1451dbb)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
 

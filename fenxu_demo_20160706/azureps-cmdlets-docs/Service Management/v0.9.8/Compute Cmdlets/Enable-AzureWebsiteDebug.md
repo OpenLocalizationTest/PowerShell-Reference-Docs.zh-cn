@@ -6,32 +6,32 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Enable-AzureWebsiteDebug
-## SYNOPSIS
-Enables the website's debug
+# Xxxxxx$XxxxxXxxxxxxXxxxx
+## XXXXXXXX
+Xxxxxxx xxx xxxxxxx$x xxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 Enable-AzureWebsiteDebug [[-Name] <String>] [-PassThru] [-Slot <String>] [-Version]
 ```
 
-## DESCRIPTION
-Enables the website's debug feature in Visual Studio
+## XXXXXXXXXXX
+Xxxxxxx xxx xxxxxxx$x xxxxx xxxxxxx xx Xxxxxx Xxxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Enable debugging of Visual Studio 2013 --------------
+### $$$$$$$$$$$$$$  Xxxxxx xxxxxxxxx xx Xxxxxx Xxxxxx 0000 $$$$$$$$$$$$$$
 ```
 C:\PS>Enable-AzureWebsiteDebug -Name MyWebsite -Version VS2013
 ```
 
-Enables debugging on VS 2013
+Xxxxxxx xxxxxxxxx xx XX 0000
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Name
-The name of the Azure website
+### $Xxxx
+Xxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -45,8 +45,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Flag to return true if succeeded
+### $XxxxXxxx
+Xxxx xx xxxxxx xxxx xx xxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -60,8 +60,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Slot
-The slot name of the Azure website
+### $Xxxx
+Xxx xxxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -75,8 +75,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Version
-The Visual Studio version
+### $Xxxxxxx
+Xxx Xxxxxx Xxxxxx xxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -91,22 +91,22 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Disable-AzureWebsiteDebug](007cc1d1-12ff-4ef0-a480-39b958aff004)
+[Xxxxxxx$XxxxxXxxxxxxXxxxx](007cc1d1-12ff-4ef0-a480-39b958aff004)
 
-[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
-[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
+[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
 
-[Remove-AzureWebsite](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
+[Xxxxxx$XxxxxXxxxxxx](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
 
-[Start-AzureWebsite](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
+[Xxxxx$XxxxxXxxxxxx](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
 
 

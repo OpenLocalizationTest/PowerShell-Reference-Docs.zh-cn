@@ -4,12 +4,12 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294015
 schema: 2.0.0
 ---
 
-# Set-Variable
-## SYNOPSIS
-Sets the value of a variable.
-Creates the variable if one with the requested name does not exist.
+# Xxx$Xxxxxxxx
+## XXXXXXXX
+Xxxx xxx xxxxx xx x xxxxxxxx.
+Xxxxxxx xxx xxxxxxxx xx xxx xxxx xxx xxxxxxxxx xxxx xxxx xxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-Variable [-Name] <String[]> [[-Value] <Object>] [-Include <String[]>] [-Exclude <String[]>]
@@ -18,35 +18,35 @@ Set-Variable [-Name] <String[]> [[-Value] <Object>] [-Include <String[]>] [-Excl
  [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Set-Variable cmdlet assigns a value to a specified variable or changes the current value.
-If the variable does not exist, the cmdlet creates it.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxxxxx xxxxxx xxxxxxx x xxxxx xx x xxxxxxxxx xxxxxxxx xx xxxxxxx xxx xxxxxxx xxxxx.
+Xx xxx xxxxxxxx xxxx xxx xxxxx$ xxx xxxxxx xxxxxxx xx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-variable -name desc -value "A description"
 PS C:\>get-variable -name desc
 ```
 
-These commands set the value of the "desc" variable to "A description", and then get the value of the variable.
+Xxxxx xxxxxxxx xxx xxx xxxxx xx xxx $xxxx$ xxxxxxxx xx $X xxxxxxxxxxx$$ xxx xxxx xxx xxx xxxxx xx xxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-variable -name processes -value (Get-Process) -option constant -scope global -description "All processes" -passthru | format-list -property *
 ```
 
-This command creates a global, read-only variable that contains all processes on the system, and then it displays all properties of the variable.
+Xxxx xxxxxxx xxxxxxx x xxxxxx$ xxxx$xxxx xxxxxxxx xxxx xxxxxxxx xxx xxxxxxxxx xx xxx xxxxxx$ xxx xxxx xx xxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxx.
 
-The command uses the Set-Variable cmdlet to create the variable.
-It uses the PassThru parameter to create an object representing the new variable, and it uses the pipeline operator (|) to pass the object to the Format-List cmdlet.
-It uses the Property parameter of Format-List with a value of all (*) to display all properties of the newly created variable.
+Xxx xxxxxxx xxxx xxx Xxx$Xxxxxxxx xxxxxx xx xxxxxx xxx xxxxxxxx.
+Xx xxxx xxx XxxxXxxx xxxxxxxxx xx xxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxx xxxxxxxx$ xxx xx xxxx xxx xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxx xx xxx Xxxxxx$Xxxx xxxxxx.
+Xx xxxx xxx Xxxxxxxx xxxxxxxxx xx Xxxxxx$Xxxx xxxx x xxxxx xx xxx $$$ xx xxxxxxx xxx xxxxxxxxxx xx xxx xxxxx xxxxxxx xxxxxxxx.
 
-The value, "(Get-Process)", is enclosed in parentheses to ensure that it is executed before being stored in the variable.
-Otherwise, the variable contains the words "Get-Process".
+Xxx xxxxx$ $$Xxx$Xxxxxxx$$$ xx xxxxxxxx xx xxxxxxxxxxx xx xxxxxx xxxx xx xx xxxxxxxx xxxxxx xxxxx xxxxxx xx xxx xxxxxxxx.
+Xxxxxxxxx$ xxx xxxxxxxx xxxxxxxx xxx xxxxx $Xxx$Xxxxxxx$.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\># set-variable -name counter -visibility private
 PS C:\>new-variable -name counter -visibility public -value 26
@@ -79,15 +79,15 @@ PS C:\>.\use-counter.ps1
 #Commands completed successfully.
 ```
 
-This command shows how to change the visibility of a variable to "Private".
-This variable can be read and changed by scripts with the required permissions, but it is not visible to the user.
+Xxxx xxxxxxx xxxxx xxx xx xxxxxx xxx xxxxxxxxxx xx x xxxxxxxx xx $Xxxxxxx$.
+Xxxx xxxxxxxx xxx xx xxxx xxx xxxxxxx xx xxxxxxx xxxx xxx xxxxxxxx xxxxxxxxxxx$ xxx xx xx xxx xxxxxxx xx xxx xxxx.
 
-The sample output shows the difference in the behavior of public and private variables.
+Xxx xxxxxx xxxxxx xxxxx xxx xxxxxxxxxx xx xxx xxxxxxxx xx xxxxxx xxx xxxxxxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Description
-Specifies the description of the variable.
+### $Xxxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -101,11 +101,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Exclude
-Omits the specified items.
-The value of this parameter qualifies the Path parameter.
-Enter a path element or pattern, such as "*.txt".
-Wildcards are permitted.
+### $Xxxxxxx
+Xxxxx xxx xxxxxxxxx xxxxx.
+Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx Xxxx xxxxxxxxx.
+Xxxxx x xxxx xxxxxxx xx xxxxxxx$ xxxx xx $$.xxx$.
+Xxxxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -119,11 +119,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Allows you to create a variable with the same name as an existing read-only variable, or to change the value of a read-only variable.
+### $Xxxxx
+Xxxxxx xxx xx xxxxxx x xxxxxxxx xxxx xxx xxxx xxxx xx xx xxxxxxxx xxxx$xxxx xxxxxxxx$ xx xx xxxxxx xxx xxxxx xx x xxxx$xxxx xxxxxxxx.
 
-By default, you can overwrite a variable, unless the variable has an option value of "ReadOnly" or "Constant".
-For more information, see the Option parameter.
+Xx xxxxxxx$ xxx xxx xxxxxxxxx x xxxxxxxx$ xxxxxx xxx xxxxxxxx xxx xx xxxxxx xxxxx xx $XxxxXxxx$ xx $Xxxxxxxx$.
+Xxx xxxx xxxxxxxxxxx$ xxx xxx Xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -137,11 +137,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Include
-Changes only the specified items.
-The value of this parameter qualifies the Name parameter.
-Enter a name or name pattern, such as "c*".
-Wildcards are permitted.
+### $Xxxxxxx
+Xxxxxxx xxxx xxx xxxxxxxxx xxxxx.
+Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx Xxxx xxxxxxxxx.
+Xxxxx x xxxx xx xxxx xxxxxxx$ xxxx xx $x$$.
+Xxxxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -155,8 +155,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -171,8 +171,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -186,8 +186,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the variable name.
+### $Xxxx
+Xxxxxxxxx xxx xxxxxxxx xxxx.
 
 ```yaml
 Type: String[]
@@ -201,18 +201,17 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Option
-Sets the value of the Options property of the variable.
+### $Xxxxxx
+Xxxx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxxxx.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- None: Sets no options. ("None" is the default.)
--- ReadOnly: Can be deleted. Cannot be not changed, except by using the Force parameter.
--- Constant: Cannot be deleted or changed. "Constant" is valid only when you are creating a variable. You cannot change the options of an existing variable to "Constant".
--- Private: The variable is available only in the current scope.
--- AllScope: The variable is copied to any new scopes that are created.
+$$ Xxxx$ Xxxx xx xxxxxxx. $$Xxxx$ xx xxx xxxxxxx.$ $$ XxxxXxxx$ Xxx xx xxxxxxx. Xxxxxx xx xxx xxxxxxx$ xxxxxx xx xxxxx xxx Xxxxx xxxxxxxxx.
+$$ Xxxxxxxx$ Xxxxxx xx xxxxxxx xx xxxxxxx. $Xxxxxxxx$ xx xxxxx xxxx xxxx xxx xxx xxxxxxxx x xxxxxxxx. Xxx xxxxxx xxxxxx xxx xxxxxxx xx xx xxxxxxxx xxxxxxxx xx $Xxxxxxxx$.
+$$ Xxxxxxx$ Xxx xxxxxxxx xx xxxxxxxxx xxxx xx xxx xxxxxxx xxxxx.
+$$ XxxXxxxx$ Xxx xxxxxxxx xx xxxxxx xx xxx xxx xxxxxx xxxx xxx xxxxxxx.
 
-To see the Options property of all variables in the session, type "get-variable | format-table -property name, options -autosize".
+Xx xxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxxxxx xx xxx xxxxxxx$ xxxx $xxx$xxxxxxxx $ xxxxxx$xxxxx $xxxxxxxx xxxx$ xxxxxxx $xxxxxxxx$.
 
 ```yaml
 Type: ScopedItemOptions
@@ -227,9 +226,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Returns an object representing the new variable.
-By default, this cmdlet does not generate any output.
+### $XxxxXxxx
+Xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxx xxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -243,11 +242,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Scope
-Determines the scope of the variable.
-Valid values are "Global", "Local", or "Script", or a number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).
-"Local" is the default.
-For more information, see about_Scopes.
+### $Xxxxx
+Xxxxxxxxxx xxx xxxxx xx xxx xxxxxxxx.
+Xxxxx xxxxxx xxx $Xxxxxx$$ $Xxxxx$$ xx $Xxxxxx$$ xx x xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxx $0 xxxxxxx xxx xxxxxx xx xxxxxx$ xxxxx 0 xx xxx xxxxxxx xxxxx xxx 0 xx xxx xxxxxx$.
+$Xxxxx$ xx xxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx.
 
 ```yaml
 Type: String
@@ -261,8 +260,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Value
-Specifies the value of the variable.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx xx xxx xxxxxxxx.
 
 ```yaml
 Type: Object
@@ -276,18 +275,17 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Visibility
-Determines whether the variable is visible outside of the session in which it was created.
-This parameter is designed for  use in scripts and commands that will be delivered to other users.
+### $Xxxxxxxxxx
+Xxxxxxxxxx xxxxxxx xxx xxxxxxxx xx xxxxxxx xxxxxxx xx xxx xxxxxxx xx xxxxx xx xxx xxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx xxx  xxx xx xxxxxxx xxx xxxxxxxx xxxx xxxx xx xxxxxxxxx xx xxxxx xxxxx.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- Public:  The variable is visible. ("Public" is the default.)
--- Private: The variable is not visible.
+$$ Xxxxxx$  Xxx xxxxxxxx xx xxxxxxx. $$Xxxxxx$ xx xxx xxxxxxx.$ $$ Xxxxxxx$ Xxx xxxxxxxx xx xxx xxxxxxx.
 
-When a variable is private, it does not appear in lists of variables, such as those returned by Get-Variable, or in displays of the Variable: drive.
-Commands to read or change the value of a private variable return an error.
-However, the user can run commands that use a private variable if the commands were written in the session in which the variable was defined.
+Xxxx x xxxxxxxx xx xxxxxxx$ xx xxxx xxx xxxxxx xx xxxxx xx xxxxxxxxx$ xxxx xx xxxxx xxxxxxxx xx Xxx$Xxxxxxxx$ xx xx xxxxxxxx xx xxx Xxxxxxxx$ xxxxx.
+Xxxxxxxx xx xxxx xx xxxxxx xxx xxxxx xx x xxxxxxx xxxxxxxx xxxxxx xx xxxxx.
+Xxxxxxx$ xxx xxxx xxx xxx xxxxxxxx xxxx xxx x xxxxxxx xxxxxxxx xx xxx xxxxxxxx xxxx xxxxxxx xx xxx xxxxxxx xx xxxxx xxx xxxxxxxx xxx xxxxxxx.
 
 ```yaml
 Type: SessionStateEntryVisibility
@@ -302,8 +300,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -317,10 +315,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -334,26 +332,26 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Object
-You can pipe an object that represents the value of the variable to Set-Variable.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxx xx xxx xxxxxxxx xx Xxx$Xxxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None or System.Management.Automation.PSVariable
-When you use the PassThru parameter, Set-Variable generates a System.Management.Automation.PSVariable object representing the new or changed variable.
-Otherwise, this cmdlet does not generate any output.
+### Xxxx xx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxxxx
+Xxxx xxx xxx xxx XxxxXxxx xxxxxxxxx$ Xxx$Xxxxxxxx xxxxxxxxx x Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxxxx xxxxxx xxxxxxxxxxxx xxx xxx xx xxxxxxx xxxxxxxx.
+Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Clear-Variable]()
+[Xxxxx$Xxxxxxxx]()
 
-[Get-Variable]()
+[Xxx$Xxxxxxxx]()
 
-[New-Variable]()
+[Xxx$Xxxxxxxx]()
 
-[Remove-Variable]()
+[Xxxxxx$Xxxxxxxx]()
 

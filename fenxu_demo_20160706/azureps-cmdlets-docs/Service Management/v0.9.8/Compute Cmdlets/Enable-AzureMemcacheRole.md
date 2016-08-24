@@ -6,36 +6,36 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Enable-AzureMemcacheRole
-## SYNOPSIS
-Enable memcached for the specified web role, configured to communicate with the specified dedicated cache role.
+# Xxxxxx$XxxxxXxxxxxxxXxxx
+## XXXXXXXX
+Xxxxxx xxxxxxxxx xxx xxx xxxxxxxxx xxx xxxx$ xxxxxxxxxx xx xxxxxxxxxxx xxxx xxx xxxxxxxxx xxxxxxxxx xxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Enable-AzureMemcacheRole [[-RoleName] <String>] [[-CacheWorkerRoleName] <String>] [-PassThru]
  [[-CacheRuntimeVersion] <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Enable-AzureMemcacheRole cmdlet enables memcached for the specified web role, configured to communicate with the specified dedicated cache role
+Xxx Xxxxxx$XxxxxXxxxxxxxXxxx xxxxxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxxxx xxx xxxx$ xxxxxxxxxx xx xxxxxxxxxxx xxxx xxx xxxxxxxxx xxxxxxxxx xxxxx xxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Enable caching in a web role
+### 0$ Xxxxxx xxxxxxx xx x xxx xxxx
 ```
 PS C:\>Enable-AzureMemcacheRole WebRole1 WorkerRole1
 ```
 
-This example enables memcached in a web role named WebRole1, using a dedicated caching role named WorkerRole1.
+Xxxx xxxxxxx xxxxxxx xxxxxxxxx xx x xxx xxxx xxxxx XxxXxxx0$ xxxxx x xxxxxxxxx xxxxxxx xxxx xxxxx XxxxxxXxxx0.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -CacheRuntimeVersion
-Specifies the cache runtime version.
+### $XxxxxXxxxxxxXxxxxxx
+Xxxxxxxxx xxx xxxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -49,8 +49,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -CacheWorkerRoleName
-Specifies the name of the dedicated cache worker role, created with the Add-AzureCacheWorkerRole cmdlet.
+### $XxxxxXxxxxxXxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxx xxxxx xxxxxx xxxx$ xxxxxxx xxxx xxx Xxx$XxxxxXxxxxXxxxxxXxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -64,8 +64,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-@{Text=}
+### $XxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -79,8 +79,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -RoleName
-Specifies the name of the web role that will use the cache.
+### $XxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxx xxxx xxxx xxxx xxx xxx xxxxx.
 
 ```yaml
 Type: String
@@ -94,18 +94,18 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Add-AzureCacheWorkerRole](f82034ef-883e-456e-8b8a-3502f8a56b85)
+[Xxx$XxxxxXxxxxXxxxxxXxxx](f82034ef-883e-456e-8b8a-3502f8a56b85)
 
-[Add-AzureNodeWebRole](72be1e83-84e2-49fc-aa52-b3d3dd0490a3)
+[Xxx$XxxxxXxxxXxxXxxx](72be1e83-84e2-49fc-aa52-b3d3dd0490a3)
 
-[Add-AzurePHPWebRole](6dd8d854-912d-4281-977c-ff3ec15ccf51)
+[Xxx$XxxxxXXXXxxXxxx](6dd8d854-912d-4281-977c-ff3ec15ccf51)
 
 

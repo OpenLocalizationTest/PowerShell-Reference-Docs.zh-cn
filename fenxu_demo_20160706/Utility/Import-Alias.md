@@ -4,48 +4,48 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293981
 schema: 2.0.0
 ---
 
-# Import-Alias
-## SYNOPSIS
-Imports an alias list from a file.
+# Xxxxxx$Xxxxx
+## XXXXXXXX
+Xxxxxxx xx xxxxx xxxx xxxx x xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### ByPath (Default)
+### XxXxxx $Xxxxxxx$
 ```
 Import-Alias [-Path] <String> [-Scope <String>] [-PassThru] [-Force] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### ByLiteralPath
+### XxXxxxxxxXxxx
 ```
 Import-Alias -LiteralPath <String> [-Scope <String>] [-PassThru] [-Force]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Import-Alias cmdlet imports an alias list from a file.
+## XXXXXXXXXXX
+Xxx Xxxxxx$Xxxxx xxxxxx xxxxxxx xx xxxxx xxxx xxxx x xxxx.
 
-Beginning in Windows PowerShell 3.0, as a security feature, Import-Alias does not overwrite existing aliases by default.
-To overwrite an existing alias, after assuring that the contents of the alias file is safe, use the Force parameter.
+Xxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0$ xx x xxxxxxxx xxxxxxx$ Xxxxxx$Xxxxx xxxx xxx xxxxxxxxx xxxxxxxx xxxxxxx xx xxxxxxx.
+Xx xxxxxxxxx xx xxxxxxxx xxxxx$ xxxxx xxxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxx xxxx xx xxxx$ xxx xxx Xxxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>import-alias test.txt
 ```
 
-This command imports alias information from a file named test.txt.
+Xxxx xxxxxxx xxxxxxx xxxxx xxxxxxxxxxx xxxx x xxxx xxxxx xxxx.xxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Force
-Allows the cmdlet to import an alias that is already defined or is read only.
-You can use the following command to display information about the currently-defined aliases:
+### $Xxxxx
+Xxxxxx xxx xxxxxx xx xxxxxx xx xxxxx xxxx xx xxxxxxx xxxxxxx xx xx xxxx xxxx.
+Xxx xxx xxx xxx xxxxxxxxx xxxxxxx xx xxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxxxx$xxxxxxx xxxxxxx$
 
-get-alias | select-object name,Options
+xxx$xxxxx $ xxxxxx$xxxxxx xxxx$Xxxxxxx
 
-If the corresponding alias is read-only, it will be displayed in the value of the Options property.
+Xx xxx xxxxxxxxxxxxx xxxxx xx xxxx$xxxx$ xx xxxx xx xxxxxxxxx xx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -59,10 +59,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-get-alias | select-object name,Options
+### $XxxxxxxxxxxXxxxxx
+xxx$xxxxx $ xxxxxx$xxxxxx xxxx$Xxxxxxx
 
-If the corresponding alias is read-only, it will be displayed in the value of the Options property.
+Xx xxx xxxxxxxxxxxxx xxxxx xx xxxx$xxxx$ xx xxxx xx xxxxxxxxx xx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -77,10 +77,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-get-alias | select-object name,Options
+### $XxxxxxxxxxxXxxxxxxx
+xxx$xxxxx $ xxxxxx$xxxxxx xxxx$Xxxxxxx
 
-If the corresponding alias is read-only, it will be displayed in the value of the Options property.
+Xx xxx xxxxxxxxxxxxx xxxxx xx xxxx$xxxx$ xx xxxx xx xxxxxxxxx xx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -94,9 +94,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Returns an object that represents the alias.
-By default, this cmdlet does not generate any output.
+### $XxxxXxxx
+Xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -110,9 +110,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the path to a file that includes exported alias information.
-Wildcards are allowed but they must resolve to a single name.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxx xxxx xxxxxxxx xxxxxxxx xxxxx xxxxxxxxxxx.
+Xxxxxxxxx xxx xxxxxxx xxx xxxx xxxx xxxxxxx xx x xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -126,11 +126,11 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Scope
-Specifies the scope into which the aliases are imported.
-Valid values are "Global", "Local", or "Script", or a number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).
-"Local" is the default.
-For more information, see about_Scopes.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx xxxx xxxxx xxx xxxxxxx xxx xxxxxxxx.
+Xxxxx xxxxxx xxx $Xxxxxx$$ $Xxxxx$$ xx $Xxxxxx$$ xx x xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxx $0 xxxxxxx xxx xxxxxx xx xxxxxx$ xxxxx 0 xx xxx xxxxxxx xxxxx xxx 0 xx xxx xxxxxx$.
+$Xxxxx$ xx xxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx.
 
 ```yaml
 Type: String
@@ -144,12 +144,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -LiteralPath
-Specifies the path to a file that includes exported alias information.
-Unlike Path, the value of the LiteralPath parameter is used exactly as it is typed.
-No characters are interpreted as wildcards.
-If the path includes escape characters, enclose it in single quotation marks.
-Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxx xxxx xxxxxxxx xxxxxxxx xxxxx xxxxxxxxxxx.
+Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
+Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
+Xx xxx xxxx xxxxxxxx xxxxxx xxxxxxxxxx$ xxxxxxx xx xx xxxxxx xxxxxxxxx xxxxx.
+Xxxxxx xxxxxxxxx xxxxx xxxx Xxxxxxx XxxxxXxxxx xxx xx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -163,8 +163,8 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -178,10 +178,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -195,26 +195,26 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
-You can pipe a string that contains a path to Import-Alias.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx x xxxx xx Xxxxxx$Xxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None or System.Management.Automation.AliasInfo
-When you use the Passthru parameter, Import-Alias returns a System.Management.Automation.AliasInfo object that represents the alias.
-Otherwise, this cmdlet does not generate any output.
+### Xxxx xx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxXxxx
+Xxxx xxx xxx xxx Xxxxxxxx xxxxxxxxx$ Xxxxxx$Xxxxx xxxxxxx x Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxXxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxx.
+Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Export-Alias]()
+[Xxxxxx$Xxxxx]()
 
-[Get-Alias]()
+[Xxx$Xxxxx]()
 
-[New-Alias]()
+[Xxx$Xxxxx]()
 
-[Set-Alias]()
+[Xxx$Xxxxx]()
 

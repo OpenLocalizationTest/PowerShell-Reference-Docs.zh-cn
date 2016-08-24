@@ -4,107 +4,105 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294024
 schema: 2.0.0
 ---
 
-# Update-List
-## SYNOPSIS
-Adds items to and removes items from a property value that contains a collection of objects.
+# Xxxxxx$Xxxx
+## XXXXXXXX
+Xxxx xxxxx xx xxx xxxxxxx xxxxx xxxx x xxxxxxxx xxxxx xxxx xxxxxxxx x xxxxxxxxxx xx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### AddRemoveSet (Default)
+### XxxXxxxxxXxx $Xxxxxxx$
 ```
 Update-List [-Add <Object[]>] [-Remove <Object[]>] [-InputObject <PSObject>] [[-Property] <String>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### ReplaceSet
+### XxxxxxxXxx
 ```
 Update-List -Replace <Object[]> [-InputObject <PSObject>] [[-Property] <String>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Update-List cmdlet adds items to and removes items from a property value of an object, and then it returns the updated object.
-This cmdlet is designed for properties that contain collections of objects.
+## XXXXXXXXXXX
+Xxx Xxxxxx$Xxxx xxxxxx xxxx xxxxx xx xxx xxxxxxx xxxxx xxxx x xxxxxxxx xxxxx xx xx xxxxxx$ xxx xxxx xx xxxxxxx xxx xxxxxxx xxxxxx.
+Xxxx xxxxxx xx xxxxxxxx xxx xxxxxxxxxx xxxx xxxxxxx xxxxxxxxxxx xx xxxxxxx.
 
-The Add and Remove parameters add individual items to and remove them from the collection.
-The Replace parameter replaces the entire collection.
+Xxx Xxx xxx Xxxxxx xxxxxxxxxx xxx xxxxxxxxxx xxxxx xx xxx xxxxxx xxxx xxxx xxx xxxxxxxxxx.
+Xxx Xxxxxxx xxxxxxxxx xxxxxxxx xxx xxxxxx xxxxxxxxxx.
 
-If you do not specify a property in the command, Update-List returns an object that describes the update instead of updating the object.
-You can submit the update object to cmdlets that change objects, such as Set-* cmdlets.
+Xx xxx xx xxx xxxxxxx x xxxxxxxx xx xxx xxxxxxx$ Xxxxxx$Xxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxx xxx xxxxxx xxxxxxx xx xxxxxxxx xxx xxxxxx.
+Xxx xxx xxxxxx xxx xxxxxx xxxxxx xx xxxxxxx xxxx xxxxxx xxxxxxx$ xxxx xx Xxx$$ xxxxxxx.
 
-This cmdlet works only when the property that is being updated supports the IList interface that Update-List uses.
-Also, any Set-* cmdlets that accept an update must support the IList interface.
-The core cmdlets that are installed with Windows PowerShell do not support this interface.
-To determine whether a cmdlet supports Update-List, see the cmdlet Help topic.
+Xxxx xxxxxx xxxxx xxxx xxxx xxx xxxxxxxx xxxx xx xxxxx xxxxxxx xxxxxxxx xxx XXxxx xxxxxxxxx xxxx Xxxxxx$Xxxx xxxx.
+Xxxx$ xxx Xxx$$ xxxxxxx xxxx xxxxxx xx xxxxxx xxxx xxxxxxx xxx XXxxx xxxxxxxxx.
+Xxx xxxx xxxxxxx xxxx xxx xxxxxxxxx xxxx Xxxxxxx XxxxxXxxxx xx xxx xxxxxxx xxxx xxxxxxxxx.
+Xx xxxxxxxxx xxxxxxx x xxxxxx xxxxxxxx Xxxxxx$Xxxx$ xxx xxx xxxxxx Xxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-mailbox | update-list -Property aliases -Add "A","B" -Remove "X","Y" | set-mailbox
 ```
 
-This command adds A and B and removes X and Y from the Aliases property of a mailbox.
+Xxxx xxxxxxx xxxx X xxx X xxx xxxxxxx X xxx X xxxx xxx Xxxxxxx xxxxxxxx xx x xxxxxxx.
 
-The command uses the Get-MailBox cmdlet from Microsoft Exchange Server to get the mailbox.
-A pipeline operator sends the mailbox object to the Update-List cmdlet.
+Xxx xxxxxxx xxxx xxx Xxx$XxxxXxx xxxxxx xxxx Xxxxxxxxx Xxxxxxxx Xxxxxx xx xxx xxx xxxxxxx.
+X xxxxxxxx xxxxxxxx xxxxx xxx xxxxxxx xxxxxx xx xxx Xxxxxx$Xxxx xxxxxx.
 
-The Update-List command uses the Property parameter to indicate that the Aliases property of the mailbox is being updated, and it uses the Add and Remove parameters to specify the items that are being added and removed from the collection.
-The Aliases property fulfills the conditions of Update-List, because it stores a collection of Microsoft .NET Framework objects that have Add and Remove methods.
+Xxx Xxxxxx$Xxxx xxxxxxx xxxx xxx Xxxxxxxx xxxxxxxxx xx xxxxxxxx xxxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxxx xx xxxxx xxxxxxx$ xxx xx xxxx xxx Xxx xxx Xxxxxx xxxxxxxxxx xx xxxxxxx xxx xxxxx xxxx xxx xxxxx xxxxx xxx xxxxxxx xxxx xxx xxxxxxxxxx.
+Xxx Xxxxxxx xxxxxxxx xxxxxxxx xxx xxxxxxxxxx xx Xxxxxx$Xxxx$ xxxxxxx xx xxxxxx x xxxxxxxxxx xx Xxxxxxxxx .XXX Xxxxxxxxx xxxxxxx xxxx xxxx Xxx xxx Xxxxxx xxxxxxx.
 
-The Update-List cmdlet returns the updated mailbox, which is piped to the Set-MailBox cmdlet, which changes the mailbox.
+Xxx Xxxxxx$Xxxx xxxxxx xxxxxxx xxx xxxxxxx xxxxxxx$ xxxxx xx xxxxx xx xxx Xxx$XxxxXxx xxxxxx$ xxxxx xxxxxxx xxx xxxxxxx.
 
-For more information about Get-Mailbox, see http://go.microsoft.com/fwlink/?LinkId=111536.
+Xxx xxxx xxxxxxxxxxx xxxxx Xxx$Xxxxxxx$ xxx xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$m = get-mailbox
 PS C:\>update-list -InputObject $m -Property aliases -Add "A","B" -Remove "X", "Y" | set-mailbox
 ```
 
-This command adds A and B to the value of the Aliases property of a mailbox and removes X and Y.
-This command has the same effect as the previous command, although it has a slightly different format.
+Xxxx xxxxxxx xxxx X xxx X xx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx xx x xxxxxxx xxx xxxxxxx X xxx X. Xxxx xxxxxxx xxx xxx xxxx xxxxxx xx xxx xxxxxxxx xxxxxxx$ xxxxxxxx xx xxx x xxxxxxxx xxxxxxxxx xxxxxx.
 
-The command uses the Get-MailBox cmdlet to get the mailbox, and it saves the mailbox in the $m variable.
-This command uses the InputObject parameter of Update-List to specify the mailbox.
-The value of InputObject is the mailbox in the $m variable.
-It uses the Property parameter to specify the Aliases property and the Add and Remove parameters to specify the items being added to and removed from the value of Aliases.
+Xxx xxxxxxx xxxx xxx Xxx$XxxxXxx xxxxxx xx xxx xxx xxxxxxx$ xxx xx xxxxx xxx xxxxxxx xx xxx $x xxxxxxxx.
+Xxxx xxxxxxx xxxx xxx XxxxxXxxxxx xxxxxxxxx xx Xxxxxx$Xxxx xx xxxxxxx xxx xxxxxxx.
+Xxx xxxxx xx XxxxxXxxxxx xx xxx xxxxxxx xx xxx $x xxxxxxxx.
+Xx xxxx xxx Xxxxxxxx xxxxxxxxx xx xxxxxxx xxx Xxxxxxx xxxxxxxx xxx xxx Xxx xxx Xxxxxx xxxxxxxxxx xx xxxxxxx xxx xxxxx xxxxx xxxxx xx xxx xxxxxxx xxxx xxx xxxxx xx Xxxxxxx.
 
-The command uses a pipeline operator (|) to send the updated mailbox object to the Set-Mailbox cmdlet, which changes the mailbox.
+Xxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xxxxxxx xxxxxx xx xxx Xxx$Xxxxxxx xxxxxx$ xxxxx xxxxxxx xxx xxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-mailbox | set-mailbox -alias (update-list -Add "A", "B" -Remove "X","Y")
 ```
 
-This command adds A and B to the value of the Aliases property of a mailbox and removes X and Y.
-This command has the same effect as the two previous commands, but it uses a different procedure to perform the task.
+Xxxx xxxxxxx xxxx X xxx X xx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx xx x xxxxxxx xxx xxxxxxx X xxx X. Xxxx xxxxxxx xxx xxx xxxx xxxxxx xx xxx xxx xxxxxxxx xxxxxxxx$ xxx xx xxxx x xxxxxxxxx xxxxxxxxx xx xxxxxxx xxx xxxx.
 
-Instead of updating the Aliases property of the mailbox before sending it to Set-Mailbox, this command uses Update-List to create an object that represents the change.
-Then it submits the change to the Alias parameter of Set-Mailbox.
+Xxxxxxx xx xxxxxxxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxx xxxxxxx xx xx Xxx$Xxxxxxx$ xxxx xxxxxxx xxxx Xxxxxx$Xxxx xx xxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxx.
+Xxxx xx xxxxxxx xxx xxxxxx xx xxx Xxxxx xxxxxxxxx xx Xxx$Xxxxxxx.
 
-The command uses the Get-MailBox cmdlet to get the mailbox.
-A pipeline operator sends the mailbox object to the Set-Mailbox cmdlet, which changes mailboxes.
+Xxx xxxxxxx xxxx xxx Xxx$XxxxXxx xxxxxx xx xxx xxx xxxxxxx.
+X xxxxxxxx xxxxxxxx xxxxx xxx xxxxxxx xxxxxx xx xxx Xxx$Xxxxxxx xxxxxx$ xxxxx xxxxxxx xxxxxxxxx.
 
-The command uses the Alias parameter of Set-Mailbox to change the Aliases property of the mailbox object.
-The value of the Alias parameter is an Update-List command that creates an object that represents the update.
-The Update-List command is enclosed in parentheses to ensure that it runs before the value of the Alias parameter is evaluated.
-When the Set-Mailbox command completes, the mailbox is changed.
+Xxx xxxxxxx xxxx xxx Xxxxx xxxxxxxxx xx Xxx$Xxxxxxx xx xxxxxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxx.
+Xxx xxxxx xx xxx Xxxxx xxxxxxxxx xx xx Xxxxxx$Xxxx xxxxxxx xxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxx.
+Xxx Xxxxxx$Xxxx xxxxxxx xx xxxxxxxx xx xxxxxxxxxxx xx xxxxxx xxxx xx xxxx xxxxxx xxx xxxxx xx xxx Xxxxx xxxxxxxxx xx xxxxxxxxx.
+Xxxx xxx Xxx$Xxxxxxx xxxxxxx xxxxxxxxx$ xxx xxxxxxx xx xxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>update-list -InputObject $a -Property aliases -replace "A", "B" | set-mailbox
 ```
 
-This command uses the Replace operator of Update-List to replace the collection in the Aliases property of the object in $a with a new collection.
+Xxxx xxxxxxx xxxx xxx Xxxxxxx xxxxxxxx xx Xxxxxx$Xxxx xx xxxxxxx xxx xxxxxxxxxx xx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxx xx $x xxxx x xxx xxxxxxxxxx.
 
-This command uses the InputObject parameter which, in this case, is equivalent to using a pipeline operator to pass $a to Update-List.
+Xxxx xxxxxxx xxxx xxx XxxxxXxxxxx xxxxxxxxx xxxxx$ xx xxxx xxxx$ xx xxxxxxxxxx xx xxxxx x xxxxxxxx xxxxxxxx xx xxxx $x xx Xxxxxx$Xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Add
-Specifies the property values to be added to the collection.
-Enter the values in the order that they should appear in the collection.
+### $Xxx
+Xxxxxxxxx xxx xxxxxxxx xxxxxx xx xx xxxxx xx xxx xxxxxxxxxx.
+Xxxxx xxx xxxxxx xx xxx xxxxx xxxx xxxx xxxxxx xxxxxx xx xxx xxxxxxxxxx.
 
 ```yaml
 Type: Object[]
@@ -118,8 +116,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -134,8 +132,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -149,9 +147,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the objects to be updated.
-You can also pipe the object to be updated to Update-List.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xx xxxxxxx.
+Xxx xxx xxxx xxxx xxx xxxxxx xx xx xxxxxxx xx Xxxxxx$Xxxx.
 
 ```yaml
 Type: PSObject
@@ -165,9 +163,9 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Property
-Identifies the property that contains the collection that is being updated.
-If you omit this parameter, Update-List returns an object that represents the change instead of changing the object.
+### $Xxxxxxxx
+Xxxxxxxxxx xxx xxxxxxxx xxxx xxxxxxxx xxx xxxxxxxxxx xxxx xx xxxxx xxxxxxx.
+Xx xxx xxxx xxxx xxxxxxxxx$ Xxxxxx$Xxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxx xxxxxxx xx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: String
@@ -181,8 +179,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Remove
-Specifies the property values to be removed from the collection.
+### $Xxxxxx
+Xxxxxxxxx xxx xxxxxxxx xxxxxx xx xx xxxxxxx xxxx xxx xxxxxxxxxx.
 
 ```yaml
 Type: Object[]
@@ -196,9 +194,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Replace
-Specifies a new collection.
-This parameter replaces all items in the original collection with the items specified by this parameter.
+### $Xxxxxxx
+Xxxxxxxxx x xxx xxxxxxxxxx.
+Xxxx xxxxxxxxx xxxxxxxx xxx xxxxx xx xxx xxxxxxxx xxxxxxxxxx xxxx xxx xxxxx xxxxxxxxx xx xxxx xxxxxxxxx.
 
 ```yaml
 Type: Object[]
@@ -212,19 +210,19 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe the objects to be updated to Update-List.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxxx xx xx xxxxxxx xx Xxxxxx$Xxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### Objects or System.Management.Automation.PSListModifier
-Update-List returns the updated object, or it returns an object that represents the update action.
+### Xxxxxxx xx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxXxxxxxxx
+Xxxxxx$Xxxx xxxxxxx xxx xxxxxxx xxxxxx$ xx xx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxx xxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Select-Object]()
+[Xxxxxx$Xxxxxx]()
 

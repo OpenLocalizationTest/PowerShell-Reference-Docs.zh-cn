@@ -6,40 +6,40 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Register-AzureRMAutomationScheduledRunbook
-## SYNOPSIS
-Associates a runbook to a schedule.
+# Xxxxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxxxxx x xxxxxxx xx x xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Register-AzureRMAutomationScheduledRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Register-AzureRMAutomationScheduledRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Parameters <IDictionary>] -RunbookName <String> -ScheduleName <String>
 ```
 
-## DESCRIPTION
-The **Register-AzureRmAutomationScheduledRunbook** cmdlet associates an azure_2 Automation runbook to a schedule.
-The runbook starts based on the schedule you specify using the *ScheduleName* parameter.
+## XXXXXXXXXXX
+Xxx $$Xxxxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxxxxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx xx x xxxxxxxx.
+Xxx xxxxxxx xxxxxx xxxxx xx xxx xxxxxxxx xxx xxxxxxx xxxxx xxx $XxxxxxxxXxxx$ xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Associate a runbook with a schedule
+### Xxxxxxx 0$ Xxxxxxxxx x xxxxxxx xxxx x xxxxxxxx
 ```
 PS C:\>Register-AzureRmAutomationScheduledRunbook -AutomationAccountName "Contoso17" -Name "Runbk01" -ScheduleName "Sched01" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command associates the runbook named Runbk01 with the schedule named Sched01 in the azure_2 Automation account named Contoso17.
+Xxxx xxxxxxx xxxxxxxxxx xxx xxxxxxx xxxxx Xxxxx00 xxxx xxx xxxxxxxx xxxxx Xxxxx00 xx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies an Automation account for the runbook on which this cmdlet operates.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xx Xxxxxxxxxx xxxxxxx xxx xxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -53,11 +53,11 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Parameters
-Specifies a hash table of key/value pairs.
-The keys are runbook parameter names.
-The values are runbook parameter values.
-When the runbook starts in response to the associated schedule, these parameters are passed to the runbook.
+### $Xxxxxxxxxx
+Xxxxxxxxx x xxxx xxxxx xx xxx$xxxxx xxxxx.
+Xxx xxxx xxx xxxxxxx xxxxxxxxx xxxxx.
+Xxx xxxxxx xxx xxxxxxx xxxxxxxxx xxxxxx.
+Xxxx xxx xxxxxxx xxxxxx xx xxxxxxxx xx xxx xxxxxxxxxx xxxxxxxx$ xxxxx xxxxxxxxxx xxx xxxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: IDictionary
@@ -71,8 +71,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group for the scheduled runbook.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxx xxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -86,8 +86,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -RunbookName
-Specifies the name of the runbook that this cmdlet associates to a schedule.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxx xxxx xxxxxx xxxxxxxxxx xx x xxxxxxxx.
 
 ```yaml
 Type: String
@@ -101,8 +101,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ScheduleName
-Specifies the name of the schedule to which this cmdlet associates a runbook.
+### $XxxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xx xxxxx xxxx xxxxxx xxxxxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -116,18 +116,18 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.Azure.Commands.Automation.Model.JobSchedule
+### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.XxxXxxxxxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationScheduledRunbook](cfac4e12-2a1f-4b2c-873b-f5a3f9c4a2ce)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxXxxxxxx](cfac4e12-2a1f-4b2c-873b-f5a3f9c4a2ce)
 
-[Unregister-AzureRmAutomationScheduledRunbook](a56fc467-f64d-4453-9b55-cdd5cad1aa98)
+[Xxxxxxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxXxxxxxx](a56fc467-f64d-4453-9b55-cdd5cad1aa98)
 
 

@@ -6,50 +6,50 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Add-AzureWorkerRole
-## SYNOPSIS
-Creates required files and configuration (sometimes referred to as scaffolding) for a custom worker role.
+# Xxx$XxxxxXxxxxxXxxx
+## XXXXXXXX
+Xxxxxxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx $xxxxxxxxx xxxxxxxx xx xx xxxxxxxxxxx$ xxx x xxxxxx xxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Add-AzureWorkerRole [[-Name] <String>] [[-Instances] <Int32>] [[-TemplateFolder] <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Add-AzureWorkerRole cmdlet creates required files and configuration (sometimes referred to as scaffolding) for a custom worker role.
+Xxx Xxx$XxxxxXxxxxxXxxx xxxxxx xxxxxxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx $xxxxxxxxx xxxxxxxx xx xx xxxxxxxxxxx$ xxx x xxxxxx xxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Create a single instance worker role
+### 0$ Xxxxxx x xxxxxx xxxxxxxx xxxxxx xxxx
 ```
 PS C:\>Add-AzureWorkerRole -Name MyWorkerRole
 ```
 
-This example adds scaffolding for a single worker role named MyWorkerRole to the current application.
+Xxxx xxxxxxx xxxx xxxxxxxxxxx xxx x xxxxxx xxxxxx xxxx xxxxx XxXxxxxxXxxx xx xxx xxxxxxx xxxxxxxxxxx.
 
-### 2: Create a multiple instance worker role
+### 0$ Xxxxxx x xxxxxxxx xxxxxxxx xxxxxx xxxx
 ```
 PS C:\>Add-AzureWorkerRole MyWorkerRole -I 2
 ```
 
-This example adds scaffolding for a new worker role named MyWorkerRole to the current application, with a role instance count of 2.
+Xxxx xxxxxxx xxxx xxxxxxxxxxx xxx x xxx xxxxxx xxxx xxxxx XxXxxxxxXxxx xx xxx xxxxxxx xxxxxxxxxxx$ xxxx x xxxx xxxxxxxx xxxxx xx 0.
 
-### 3: Create worker role with custom scaffolding
+### 0$ Xxxxxx xxxxxx xxxx xxxx xxxxxx xxxxxxxxxxx
 ```
 PS C:\>Add-AzureWorkerRole MyWorkerRole -TemplateFoldr .\MyWorkerRoleTemplate
 ```
 
-This example creates a worker role with custom scaffolding.
+Xxxx xxxxxxx xxxxxxx x xxxxxx xxxx xxxx xxxxxx xxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Instances
-Specifies the number of role instances for this worker role.
-The default is 1.
+### $Xxxxxxxxx
+Xxxxxxxxx xxx xxxxxx xx xxxx xxxxxxxxx xxx xxxx xxxxxx xxxx.
+Xxx xxxxxxx xx 0.
 
 ```yaml
 Type: Int32
@@ -63,10 +63,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the worker role.
-This value determines the folder name that contains the scaffolding for the custom application that will be hosted in the worker role.
-The default is WorkerRolenumber, where number is the number of worker roles in the service.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx.
+Xxxx xxxxx xxxxxxxxxx xxx xxxxxx xxxx xxxx xxxxxxxx xxx xxxxxxxxxxx xxx xxx xxxxxx xxxxxxxxxxx xxxx xxxx xx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxxx xx XxxxxxXxxxxxxxxx$ xxxxx xxxxxx xx xxx xxxxxx xx xxxxxx xxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -80,8 +80,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TemplateFolder
-Specifies the scaffolding template folder to be used to create the worker role.
+### $XxxxxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxxxxxx xxxxxxxx xxxxxx xx xx xxxx xx xxxxxx xxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -95,16 +95,16 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Add-AzureWebRole](e973ae60-0350-4440-a0ea-03ca4da295c5)
+[Xxx$XxxxxXxxXxxx](e973ae60-0350-4440-a0ea-03ca4da295c5)
 
-[New-AzureRoleTemplate](03fbb075-4258-4eb3-a5d1-3ae0f599e361)
+[Xxx$XxxxxXxxxXxxxxxxx](03fbb075-4258-4eb3-a5d1-3ae0f599e361)
 
 

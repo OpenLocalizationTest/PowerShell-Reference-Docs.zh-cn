@@ -4,62 +4,62 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293972
 schema: 2.0.0
 ---
 
-# Get-PSBreakpoint
-## SYNOPSIS
-Gets the breakpoints that are set in the current session.
+# Xxx$XXXxxxxxxxxx
+## XXXXXXXX
+Xxxx xxx xxxxxxxxxxx xxxx xxx xxx xx xxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### Script (Default)
+### Xxxxxx $Xxxxxxx$
 ```
 Get-PSBreakpoint [[-Script] <String[]>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Type
+### Xxxx
 ```
 Get-PSBreakpoint [[-Script] <String[]>] [-Type] <BreakpointType[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### Variable
+### Xxxxxxxx
 ```
 Get-PSBreakpoint [[-Script] <String[]>] -Variable <String[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### Command
+### Xxxxxxx
 ```
 Get-PSBreakpoint [[-Script] <String[]>] -Command <String[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### Id
+### Xx
 ```
 Get-PSBreakpoint [-Id] <Int32[]> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-PSBreakPoint cmdlet gets the breakpoints that are set in the current session.
-You can use the cmdlet parameters to get particular breakpoints.
+## XXXXXXXXXXX
+Xxx Xxx$XXXxxxxXxxxx xxxxxx xxxx xxx xxxxxxxxxxx xxxx xxx xxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxx xxx xxx xxxxxx xxxxxxxxxx xx xxx xxxxxxxxxx xxxxxxxxxxx.
 
-A breakpoint is a point in a command or script where execution stops temporarily so that you can examine the instructions.
-Get-PSBreakpoint is one of several cmdlets designed for debugging Windows PowerShell scripts and commands.
-For more information about the Windows PowerShell debugger, see about_Debuggers.
+X xxxxxxxxxx xx x xxxxx xx x xxxxxxx xx xxxxxx xxxxx xxxxxxxxx xxxxx xxxxxxxxxxx xx xxxx xxx xxx xxxxxxx xxx xxxxxxxxxxxx.
+Xxx$XXXxxxxxxxxx xx xxx xx xxxxxxx xxxxxxx xxxxxxxx xxx xxxxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxx xxx xxxxxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxx$ xxx xxxxx$Xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-psbreakpoint
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This command gets all breakpoints set on all scripts and functions in the current session.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxxxx xxx xx xxx xxxxxxx xxx xxxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-psbreakpoint -Id 2
 
@@ -72,94 +72,94 @@ Script     : C:\ps-test\sample.ps1
 ScriptName : C:\ps-test\sample.ps1
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This command gets the breakpoint with breakpoint ID 2.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxxx xxxx xxxxxxxxxx XX 0.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$b = set-psbreakpoint -script sample.ps1 -function increment
 PS C:\> $b.Id | get-psbreakpoint
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-These commands show how to get a breakpoint by piping a breakpoint ID to Get-PSBreakpoint.
+Xxxxx xxxxxxxx xxxx xxx xx xxx x xxxxxxxxxx xx xxxxxx x xxxxxxxxxx XX xx Xxx$XXXxxxxxxxxx.
 
-The first command uses the Set-PSBreakpoint cmdlet to create a breakpoint on the Increment function in the Sample.ps1 script.
-It saves the breakpoint object in the $b variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XXXxxxxxxxxx xxxxxx xx xxxxxx x xxxxxxxxxx xx xxx Xxxxxxxxx xxxxxxxx xx xxx Xxxxxx.xx0 xxxxxx.
+Xx xxxxx xxx xxxxxxxxxx xxxxxx xx xxx $x xxxxxxxx.
 
-The second command uses the dot operator (.) to get the Id property of the breakpoint object in the $b variable.
-It uses a pipeline operator (|) to send the ID to the Get-PSBreakpoint cmdlet.
+Xxx xxxxxx xxxxxxx xxxx xxx xxx xxxxxxxx $.$ xx xxx xxx Xx xxxxxxxx xx xxx xxxxxxxxxx xxxxxx xx xxx $x xxxxxxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx XX xx xxx Xxx$XXXxxxxxxxxx xxxxxx.
 
-As a result, Get-PSBreakpoint gets the breakpoint with the specified ID.
+Xx x xxxxxx$ Xxx$XXXxxxxxxxxx xxxx xxx xxxxxxxxxx xxxx xxx xxxxxxxxx XX.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-psbreakpoint -script Sample.ps1, SupportScript.ps1
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This command gets all of the breakpoints in the Sample.ps1 and SupportScript.ps1 files.
+Xxxx xxxxxxx xxxx xxx xx xxx xxxxxxxxxxx xx xxx Xxxxxx.xx0 xxx XxxxxxxXxxxxx.xx0 xxxxx.
 
-This command does not get other breakpointS that might be set in other scripts or on functions in the session.
+Xxxx xxxxxxx xxxx xxx xxx xxxxx xxxxxxxxxxX xxxx xxxxx xx xxx xx xxxxx xxxxxxx xx xx xxxxxxxxx xx xxx xxxxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-psbreakpoint -command Read-Host, Write-Host -script Sample.ps1
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This command gets all Command breakpoints that are set on Read-Host or Write-Host commands in the Sample.ps1 file.
+Xxxx xxxxxxx xxxx xxx Xxxxxxx xxxxxxxxxxx xxxx xxx xxx xx Xxxx$Xxxx xx Xxxxx$Xxxx xxxxxxxx xx xxx Xxxxxx.xx0 xxxx.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-psbreakpoint -type Command -script Sample.ps1
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This command gets all Command breakpoints in the Sample.ps1 file.
+Xxxx xxxxxxx xxxx xxx Xxxxxxx xxxxxxxxxxx xx xxx Xxxxxx.xx0 xxxx.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-psbreakpoint -variable Index, Swap
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This command gets breakpoints that are set on the $index and $swap variables in the current session.
+Xxxx xxxxxxx xxxx xxxxxxxxxxx xxxx xxx xxx xx xxx $xxxxx xxx $xxxx xxxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 8 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-psbreakpoint -type line, variable -script Sample.ps1
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This command gets all line and variable breakpoints in the Sample.ps1 script.
+Xxxx xxxxxxx xxxx xxx xxxx xxx xxxxxxxx xxxxxxxxxxx xx xxx Xxxxxx.xx0 xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Command
-Gets command breakpoints that are set on the specified command names.
-Enter the command names, such as the name of a cmdlet or function.
+### $Xxxxxxx
+Xxxx xxxxxxx xxxxxxxxxxx xxxx xxx xxx xx xxx xxxxxxxxx xxxxxxx xxxxx.
+Xxxxx xxx xxxxxxx xxxxx$ xxxx xx xxx xxxx xx x xxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -173,10 +173,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Id
-Gets the breakpoints with the specified breakpoint IDs.
-Enter the IDs in a comma-separated list.
-You can also pipe breakpoint IDs to Get-PSBreakpoint.
+### $Xx
+Xxxx xxx xxxxxxxxxxx xxxx xxx xxxxxxxxx xxxxxxxxxx XXx.
+Xxxxx xxx XXx xx x xxxxx$xxxxxxxxx xxxx.
+Xxx xxx xxxx xxxx xxxxxxxxxx XXx xx Xxx$XXXxxxxxxxxx.
 
 ```yaml
 Type: Int32[]
@@ -190,8 +190,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -206,8 +206,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -221,10 +221,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Script
-Gets only the breakpoints in the specified scripts.
-Enter the  path (optional) and names of one or more script files.
-If you omit the path, the default location is the current directory.
+### $Xxxxxx
+Xxxx xxxx xxx xxxxxxxxxxx xx xxx xxxxxxxxx xxxxxxx.
+Xxxxx xxx  xxxx $xxxxxxxx$ xxx xxxxx xx xxx xx xxxx xxxxxx xxxxx.
+Xx xxx xxxx xxx xxxx$ xxx xxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -250,11 +250,11 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Type
-Gets only breakpoints of the specified types.
-Enter one or more types.
-Valid values are Line, Command, and Variable.
-You can also pipe breakpoint types to Get-PSBreakpoint.
+### $Xxxx
+Xxxx xxxx xxxxxxxxxxx xx xxx xxxxxxxxx xxxxx.
+Xxxxx xxx xx xxxx xxxxx.
+Xxxxx xxxxxx xxx Xxxx$ Xxxxxxx$ xxx Xxxxxxxx.
+Xxx xxx xxxx xxxx xxxxxxxxxx xxxxx xx Xxx$XXXxxxxxxxxx.
 
 ```yaml
 Type: BreakpointType[]
@@ -268,9 +268,9 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Variable
-Gets variable breakpoints that are set on the specified variable names.
-Enter the variable names without dollar signs.
+### $Xxxxxxxx
+Xxxx xxxxxxxx xxxxxxxxxxx xxxx xxx xxx xx xxx xxxxxxxxx xxxxxxxx xxxxx.
+Xxxxx xxx xxxxxxxx xxxxx xxxxxxx xxxxxx xxxxx.
 
 ```yaml
 Type: String[]
@@ -284,30 +284,30 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Int32, Microsoft.PowerShell.Commands.BreakpointType
-You can pipe breakpoint IDs and breakpoint types to Get-PSBreakpoint.
+### Xxxxxx.Xxx00$ Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxxxxxxXxxx
+Xxx xxx xxxx xxxxxxxxxx XXx xxx xxxxxxxxxx xxxxx xx Xxx$XXXxxxxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.Breakpoint
-Get-PSBreakPoint returns objects that represent the breakpoints in the session.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxxx
+Xxx$XXXxxxxXxxxx xxxxxxx xxxxxxx xxxx xxxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxxxx.
 
-## NOTES
-You can use Get-PSBreakpoint or its alias, "gbp".
+## XXXXX
+Xxx xxx xxx Xxx$XXXxxxxxxxxx xx xxx xxxxx$ $xxx$.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Disable-PSBreakpoint]()
+[Xxxxxxx$XXXxxxxxxxxx]()
 
-[Enable-PSBreakpoint]()
+[Xxxxxx$XXXxxxxxxxxx]()
 
-[Get-PSCallStack]()
+[Xxx$XXXxxxXxxxx]()
 
-[Remove-PSBreakpoint]()
+[Xxxxxx$XXXxxxxxxxxx]()
 
-[Set-PSBreakpoint]()
+[Xxx$XXXxxxxxxxxx]()
 
-[about_Debuggers]()
+[xxxxx$Xxxxxxxxx]()
 

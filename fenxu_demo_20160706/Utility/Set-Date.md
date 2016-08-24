@@ -4,92 +4,92 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294012
 schema: 2.0.0
 ---
 
-# Set-Date
-## SYNOPSIS
-Changes the system time on the computer to a time that you specify.
+# Xxx$Xxxx
+## XXXXXXXX
+Xxxxxxx xxx xxxxxx xxxx xx xxx xxxxxxxx xx x xxxx xxxx xxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### Date (Default)
+### Xxxx $Xxxxxxx$
 ```
 Set-Date [-Date] <DateTime> [-DisplayHint <DisplayHintType>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### Adjust
+### Xxxxxx
 ```
 Set-Date [-Adjust] <TimeSpan> [-DisplayHint <DisplayHintType>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Set-Date cmdlet changes the system date and time on the computer to a date and time that you specify.
-You can specify a new date and/or time by typing a string or by passing a DateTime or TimeSpan object to Set-Date.
-To specify a new date or time, use the Date parameter.
-To specify a change interval, use the Adjust parameter.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxx xxxxxx xxxxxxx xxx xxxxxx xxxx xxx xxxx xx xxx xxxxxxxx xx x xxxx xxx xxxx xxxx xxx xxxxxxx.
+Xxx xxx xxxxxxx x xxx xxxx xxx$xx xxxx xx xxxxxx x xxxxxx xx xx xxxxxxx x XxxxXxxx xx XxxxXxxx xxxxxx xx Xxx$Xxxx.
+Xx xxxxxxx x xxx xxxx xx xxxx$ xxx xxx Xxxx xxxxxxxxx.
+Xx xxxxxxx x xxxxxx xxxxxxxx$ xxx xxx Xxxxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Set-Date -Date (Get-Date).AddDays(3)
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This command adds three days to the current system date.
-It does not affect the time.
-The command uses the Date parameter to specify the date.
-It uses the Get-Date cmdlet to get the current date and time and applies the AddDays .NET method for DateTime objects with a value of 3 (days).
+Xxxx xxxxxxx xxxx xxxxx xxxx xx xxx xxxxxxx xxxxxx xxxx.
+Xx xxxx xxx xxxxxx xxx xxxx.
+Xxx xxxxxxx xxxx xxx Xxxx xxxxxxxxx xx xxxxxxx xxx xxxx.
+Xx xxxx xxx Xxx$Xxxx xxxxxx xx xxx xxx xxxxxxx xxxx xxx xxxx xxx xxxxxxx xxx XxxXxxx .XXX xxxxxx xxx XxxxXxxx xxxxxxx xxxx x xxxxx xx 0 $xxxx$.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-date -adjust -0:10:0 -displayHint time
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This command sets the current system time back by 10 minutes.
-It uses the Adjust parameter to specify an interval of change and the time change (minus ten minutes) in standard time format for the locale.
-The DisplayHint parameter tells Windows PowerShell to display only the time, but it does not affect the DateTime object that Set-Date returns.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxxxx xxxx xxxx xx 00 xxxxxxx.
+Xx xxxx xxx Xxxxxx xxxxxxxxx xx xxxxxxx xx xxxxxxxx xx xxxxxx xxx xxx xxxx xxxxxx $xxxxx xxx xxxxxxx$ xx xxxxxxxx xxxx xxxxxx xxx xxx xxxxxx.
+Xxx XxxxxxxXxxx xxxxxxxxx xxxxx Xxxxxxx XxxxxXxxxx xx xxxxxxx xxxx xxx xxxx$ xxx xx xxxx xxx xxxxxx xxx XxxxXxxx xxxxxx xxxx Xxx$Xxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$t = get-date
 PS C:\>set-date -date $t
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-These commands change the system date and time on the computer to the date and time saved in the variable $t.
-The first command gets the date and stores it in $t.
-The second command uses the Date parameter to pass the DateTime object in $t to the Set-Date cmdlet.
+Xxxxx xxxxxxxx xxxxxx xxx xxxxxx xxxx xxx xxxx xx xxx xxxxxxxx xx xxx xxxx xxx xxxx xxxxx xx xxx xxxxxxxx $x.
+Xxx xxxxx xxxxxxx xxxx xxx xxxx xxx xxxxxx xx xx $x.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxx xxxxxxxxx xx xxxx xxx XxxxXxxx xxxxxx xx $x xx xxx Xxx$Xxxx xxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$90mins = new-timespan -minutes 90
 PS C:\>set-date -adjust $90mins
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-These commands advance the system time on the local computer by 90 minutes.
-The first command uses the New-Timespan cmdlet to create a TimeSpan object with a 90-minute interval, and then it saves the TimeSpan object in the $90mins variable.
-The second command uses the Adjust parameter of Set-Date to adjust the date by the value of the TimeSpan object in the $90mins variable.
+Xxxxx xxxxxxxx xxxxxxx xxx xxxxxx xxxx xx xxx xxxxx xxxxxxxx xx 00 xxxxxxx.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxxxx xxxxxx xx xxxxxx x XxxxXxxx xxxxxx xxxx x 00$xxxxxx xxxxxxxx$ xxx xxxx xx xxxxx xxx XxxxXxxx xxxxxx xx xxx $00xxxx xxxxxxxx.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxx xxxxxxxxx xx Xxx$Xxxx xx xxxxxx xxx xxxx xx xxx xxxxx xx xxx XxxxXxxx xxxxxx xx xxx $00xxxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Adjust
-Adds or subtracts the specified value from the current date and time.
-You can type an adjustment in standard date and time format for your locale or use the Adjust parameter to pass a TimeSpan object from New-TimeSpan to Set-Date.
+### $Xxxxxx
+Xxxx xx xxxxxxxxx xxx xxxxxxxxx xxxxx xxxx xxx xxxxxxx xxxx xxx xxxx.
+Xxx xxx xxxx xx xxxxxxxxxx xx xxxxxxxx xxxx xxx xxxx xxxxxx xxx xxxx xxxxxx xx xxx xxx Xxxxxx xxxxxxxxx xx xxxx x XxxxXxxx xxxxxx xxxx Xxx$XxxxXxxx xx Xxx$Xxxx.
 
 ```yaml
 Type: TimeSpan
@@ -103,13 +103,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Date
-Changes the date and time to the specified values.
-You can type a new date in the short date format and a time in the standard time format for your locale.
-Or, you can pass a Date-Time object from Get-Date.
+### $Xxxx
+Xxxxxxx xxx xxxx xxx xxxx xx xxx xxxxxxxxx xxxxxx.
+Xxx xxx xxxx x xxx xxxx xx xxx xxxxx xxxx xxxxxx xxx x xxxx xx xxx xxxxxxxx xxxx xxxxxx xxx xxxx xxxxxx.
+Xx$ xxx xxx xxxx x Xxxx$Xxxx xxxxxx xxxx Xxx$Xxxx.
 
-If you specify a date, but not a time, Set-Date changes the time to midnight on the specified date.
-If you specify only a time, it does not change the date.
+Xx xxx xxxxxxx x xxxx$ xxx xxx x xxxx$ Xxx$Xxxx xxxxxxx xxx xxxx xx xxxxxxxx xx xxx xxxxxxxxx xxxx.
+Xx xxx xxxxxxx xxxx x xxxx$ xx xxxx xxx xxxxxx xxx xxxx.
 
 ```yaml
 Type: DateTime
@@ -123,17 +123,15 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -DisplayHint
-Determines which elements of the date and time are displayed.
+### $XxxxxxxXxxx
+Xxxxxxxxxx xxxxx xxxxxxxx xx xxx xxxx xxx xxxx xxx xxxxxxxxx.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- date: displays only the date
--- time: displays only the time
--- datetime: displays the date and time
+$$ xxxx$ xxxxxxxx xxxx xxx xxxx $$ xxxx$ xxxxxxxx xxxx xxx xxxx $$ xxxxxxxx$ xxxxxxxx xxx xxxx xxx xxxx
 
-This parameter affects only the display.
-It does not affect the DateTime object that Get-Date retrieves.
+Xxxx xxxxxxxxx xxxxxxx xxxx xxx xxxxxxx.
+Xx xxxx xxx xxxxxx xxx XxxxXxxx xxxxxx xxxx Xxx$Xxxx xxxxxxxxx.
 
 ```yaml
 Type: DisplayHintType
@@ -148,8 +146,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -164,8 +162,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -179,8 +177,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -194,10 +192,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -211,28 +209,28 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.DateTime
-You can pipe a date to Set-Date.
+### Xxxxxx.XxxxXxxx
+Xxx xxx xxxx x xxxx xx Xxx$Xxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.DateTime
-Set-Date returns an object that represents the date that it set.
+### Xxxxxx.XxxxXxxx
+Xxx$Xxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxx xxxx xx xxx.
 
-## NOTES
-Use this cmdlet cautiously.
-Changing the date and time on the computer.
-The change might prevent the computer from receiving system-wide events and updates that are triggered by a date or time.
-Use the -WhatIf and -Confirm parameters to avoid errors.
+## XXXXX
+Xxx xxxx xxxxxx xxxxxxxxxx.
+Xxxxxxxx xxx xxxx xxx xxxx xx xxx xxxxxxxx.
+Xxx xxxxxx xxxxx xxxxxxx xxx xxxxxxxx xxxx xxxxxxxxx xxxxxx$xxxx xxxxxx xxx xxxxxxx xxxx xxx xxxxxxxxx xx x xxxx xx xxxx.
+Xxx xxx $XxxxXx xxx $Xxxxxxx xxxxxxxxxx xx xxxxx xxxxxx.
 
-You can use standard .NET methods with the DateTime and TimeSpan objects used with Set-Date, such as AddDays, AddMonths and FromFileTime.
-For more information, see "DateTime Methods" and "TimeSpan Methods."
+Xxx xxx xxx xxxxxxxx .XXX xxxxxxx xxxx xxx XxxxXxxx xxx XxxxXxxx xxxxxxx xxxx xxxx Xxx$Xxxx$ xxxx xx XxxXxxx$ XxxXxxxxx xxx XxxxXxxxXxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx $XxxxXxxx Xxxxxxx$ xxx $XxxxXxxx Xxxxxxx.$
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-Date]()
+[Xxx$Xxxx]()
 
-[New-TimeSpan]()
+[Xxx$XxxxXxxx]()
 

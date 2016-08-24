@@ -4,86 +4,86 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294004
 schema: 2.0.0
 ---
 
-# Remove-PSBreakpoint
-## SYNOPSIS
-Deletes breakpoints from the current console.
+# Xxxxxx$XXXxxxxxxxxx
+## XXXXXXXX
+Xxxxxxx xxxxxxxxxxx xxxx xxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### Breakpoint (Default)
+### Xxxxxxxxxx $Xxxxxxx$
 ```
 Remove-PSBreakpoint [-Breakpoint] <Breakpoint[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### Id
+### Xx
 ```
 Remove-PSBreakpoint [-Id] <Int32[]> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Remove-PSBreakpoint cmdlet deletes a breakpoint.
-Enter a breakpoint object or a breakpoint ID.
+## XXXXXXXXXXX
+Xxx Xxxxxx$XXXxxxxxxxxx xxxxxx xxxxxxx x xxxxxxxxxx.
+Xxxxx x xxxxxxxxxx xxxxxx xx x xxxxxxxxxx XX.
 
-When you remove a breakpoint, the breakpoint object is no longer available or functional.
-If you have saved a breakpoint object in a variable, the reference still exists, but the breakpoint does not function.
+Xxxx xxx xxxxxx x xxxxxxxxxx$ xxx xxxxxxxxxx xxxxxx xx xx xxxxxx xxxxxxxxx xx xxxxxxxxxx.
+Xx xxx xxxx xxxxx x xxxxxxxxxx xxxxxx xx x xxxxxxxx$ xxx xxxxxxxxx xxxxx xxxxxx$ xxx xxx xxxxxxxxxx xxxx xxx xxxxxxxx.
 
-Remove-PSBreakpoint is one of several cmdlets designed for debugging Windows PowerShell scripts.
-For more information about the Windows PowerShell debugger, see about_Debuggers.
+Xxxxxx$XXXxxxxxxxxx xx xxx xx xxxxxxx xxxxxxx xxxxxxxx xxx xxxxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxx$ xxx xxxxx$Xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-breakpoint | remove-breakpoint
 ```
 
-This command deletes all of the breakpoints in the current console.
+Xxxx xxxxxxx xxxxxxx xxx xx xxx xxxxxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$b = set-psbreakpoint -script sample.ps1 -variable Name
 PS C:\>$b | remove-psbreakpoint
 ```
 
-This command deletes a breakpoint.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxxxx.
 
-The first command uses the Set-PSBreakpoint cmdlet to create a breakpoint on the Name variable in the Sample.ps1 script.
-Then, it saves the breakpoint object in the $b variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XXXxxxxxxxxx xxxxxx xx xxxxxx x xxxxxxxxxx xx xxx Xxxx xxxxxxxx xx xxx Xxxxxx.xx0 xxxxxx.
+Xxxx$ xx xxxxx xxx xxxxxxxxxx xxxxxx xx xxx $x xxxxxxxx.
 
-The second command uses the Remove-PSBreakpoint cmdlet to delete the new breakpoint.
-It uses a pipeline operator (|) to send the breakpoint object in the $b variable to the Remove-PSBreakpoint cmdlet.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxx$XXXxxxxxxxxx xxxxxx xx xxxxxx xxx xxx xxxxxxxxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxxxxx xxxxxx xx xxx $x xxxxxxxx xx xxx Xxxxxx$XXXxxxxxxxxx xxxxxx.
 
-As a result of this command, if you run the script, it runs to completion without stopping.
-Also, the Get-PSBreakpoint cmdlet does not return this breakpoint.
+Xx x xxxxxx xx xxxx xxxxxxx$ xx xxx xxx xxx xxxxxx$ xx xxxx xx xxxxxxxxxx xxxxxxx xxxxxxxx.
+Xxxx$ xxx Xxx$XXXxxxxxxxxx xxxxxx xxxx xxx xxxxxx xxxx xxxxxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>remove-psbreakpoint -id 2
 ```
 
-This command deletes the breakpoint with breakpoint ID 2.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxxx xxxx xxxxxxxxxx XX 0.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>function del-psb { get-psbreakpoint | remove-psbreakpoint }
 ```
 
-This simple function deletes all of the breakpoints in the current console.
-It uses the Get-PSBreakpoint cmdlet to get the breakpoints.
-Then, it uses a pipeline operator (|) to send the breakpoints to the Remove-PSBreakpoint cmdlet, which deletes them.
+Xxxx xxxxxx xxxxxxxx xxxxxxx xxx xx xxx xxxxxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxxx xxx Xxx$XXXxxxxxxxxx xxxxxx xx xxx xxx xxxxxxxxxxx.
+Xxxx$ xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxxxxxx xx xxx Xxxxxx$XXXxxxxxxxxx xxxxxx$ xxxxx xxxxxxx xxxx.
 
-As a result, you can type "del-psb" instead of the longer command.
+Xx x xxxxxx$ xxx xxx xxxx $xxx$xxx$ xxxxxxx xx xxx xxxxxx xxxxxxx.
 
-To save the function, add it to your Windows PowerShell profile.
+Xx xxxx xxx xxxxxxxx$ xxx xx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Breakpoint
-Specifies the breakpoints to delete.
-Enter a variable that contains breakpoint objects or a command that gets breakpoint objects, such as a Get-PSBreakpoint command.
-You can also pipe breakpoint objects to Remove-PSBreakpoint.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxxx xx xxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxxxxxxxxx xxxxxxx xx x xxxxxxx xxxx xxxx xxxxxxxxxx xxxxxxx$ xxxx xx x Xxx$XXXxxxxxxxxx xxxxxxx.
+Xxx xxx xxxx xxxx xxxxxxxxxx xxxxxxx xx Xxxxxx$XXXxxxxxxxxx.
 
 ```yaml
 Type: Breakpoint[]
@@ -97,8 +97,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Id
-Deletes breakpoints with the specified breakpoint IDs.
+### $Xx
+Xxxxxxx xxxxxxxxxxx xxxx xxx xxxxxxxxx xxxxxxxxxx XXx.
 
 ```yaml
 Type: Int32[]
@@ -112,8 +112,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -128,8 +128,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -143,8 +143,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -158,10 +158,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -175,29 +175,29 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.Breakpoint
-You can pipe breakpoint objects to Remove-PSBreakpoint.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxxx
+Xxx xxx xxxx xxxxxxxxxx xxxxxxx xx Xxxxxx$XXXxxxxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-The cmdlet does not generate any output.
+### Xxxx
+Xxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Disable-PSBreakpoint]()
+[Xxxxxxx$XXXxxxxxxxxx]()
 
-[Enable-PSBreakpoint]()
+[Xxxxxx$XXXxxxxxxxxx]()
 
-[Get-PSBreakpoint]()
+[Xxx$XXXxxxxxxxxx]()
 
-[Get-PSCallStack]()
+[Xxx$XXXxxxXxxxx]()
 
-[Set-PSBreakpoint]()
+[Xxx$XXXxxxxxxxxx]()
 
-[about_Debuggers]()
+[xxxxx$Xxxxxxxxx]()
 

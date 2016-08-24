@@ -4,54 +4,54 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293952
 schema: 2.0.0
 ---
 
-# ConvertTo-Xml
-## SYNOPSIS
-Creates an XML-based representation of an object.
+# XxxxxxxXx$Xxx
+## XXXXXXXX
+Xxxxxxx xx XXX$xxxxx xxxxxxxxxxxxxx xx xx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 ConvertTo-Xml [-Depth <Int32>] [-InputObject] <PSObject> [-NoTypeInformation] [-As <String>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The ConvertTo-Xml cmdlet creates an XML-based representation of one or more Microsoft .NET Framework objects.
-To use this cmdlet, pipe one or more objects to the cmdlet, or use the InputObject parameter to specify the object.
+## XXXXXXXXXXX
+Xxx XxxxxxxXx$Xxx xxxxxx xxxxxxx xx XXX$xxxxx xxxxxxxxxxxxxx xx xxx xx xxxx Xxxxxxxxx .XXX Xxxxxxxxx xxxxxxx.
+Xx xxx xxxx xxxxxx$ xxxx xxx xx xxxx xxxxxxx xx xxx xxxxxx$ xx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxx.
 
-When you pipe multiple objects to ConvertTo-XML or use the InputObject parameter to submit multiple objects, ConvertTo-XML returns a single XML document that includes representations of all of the objects.
+Xxxx xxx xxxx xxxxxxxx xxxxxxx xx XxxxxxxXx$XXX xx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxx xxxxxxxx xxxxxxx$ XxxxxxxXx$XXX xxxxxxx x xxxxxx XXX xxxxxxxx xxxx xxxxxxxx xxxxxxxxxxxxxxx xx xxx xx xxx xxxxxxx.
 
-This cmdlet is similar to Export-Clixml except that Export-Clixml stores the resulting XML in a file.
-ConvertTo-XML returns the XML, so you can continue to process it in Windows PowerShell.
+Xxxx xxxxxx xx xxxxxxx xx Xxxxxx$Xxxxxx xxxxxx xxxx Xxxxxx$Xxxxxx xxxxxx xxx xxxxxxxxx XXX xx x xxxx.
+XxxxxxxXx$XXX xxxxxxx xxx XXX$ xx xxx xxx xxxxxxxx xx xxxxxxx xx xx Xxxxxxx XxxxxXxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-date | convertto-xml
 ```
 
-This command converts the current date (a DateTime object) to XML.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxx xxxx $x XxxxXxxx xxxxxx$ xx XXX.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>convertto-xml -as Document -inputObject (get-process) -depth 3
 ```
 
-This command converts the process objects that represent all of the processes on the computer into an XML document.
-The objects are expanded to a depth of three levels.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxx xxxxxxx xxxx xxxxxxxxx xxx xx xxx xxxxxxxxx xx xxx xxxxxxxx xxxx xx XXX xxxxxxxx.
+Xxx xxxxxxx xxx xxxxxxxx xx x xxxxx xx xxxxx xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -As
-Determines the output format.
-Valid values are:
+### $Xx
+Xxxxxxxxxx xxx xxxxxx xxxxxx.
+Xxxxx xxxxxx xxx$
 
--- String:  Returns a single string.
--- Stream:  Returns an array of strings.
--- Document:  Returns an XmlDocument object.
+$$ Xxxxxx$  Xxxxxxx x xxxxxx xxxxxx.
+$$ Xxxxxx$  Xxxxxxx xx xxxxx xx xxxxxxx.
+$$ Xxxxxxxx$  Xxxxxxx xx XxxXxxxxxxx xxxxxx.
 
-The default is Document.
+Xxx xxxxxxx xx Xxxxxxxx.
 
 ```yaml
 Type: String
@@ -66,14 +66,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Depth
-Specifies how many levels of contained objects are included in the XML representation.
-The default value is 1.
+### $Xxxxx
+Xxxxxxxxx xxx xxxx xxxxxx xx xxxxxxxxx xxxxxxx xxx xxxxxxxx xx xxx XXX xxxxxxxxxxxxxx.
+Xxx xxxxxxx xxxxx xx 0.
 
-For example, if the object's properties also contain objects, to save an XML representation of the properties of the contained objects, you must specify a depth of 2.
+Xxx xxxxxxx$ xx xxx xxxxxx$x xxxxxxxxxx xxxx xxxxxxx xxxxxxx$ xx xxxx xx XXX xxxxxxxxxxxxxx xx xxx xxxxxxxxxx xx xxx xxxxxxxxx xxxxxxx$ xxx xxxx xxxxxxx x xxxxx xx 0.
 
-The default value can be overridden for the object type in the Types.ps1xml files.
-For more information, see about_Types.ps1xml.
+Xxx xxxxxxx xxxxx xxx xx xxxxxxxxxx xxx xxx xxxxxx xxxx xx xxx Xxxxx.xx0xxx xxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxx.xx0xxx.
 
 ```yaml
 Type: Int32
@@ -87,12 +87,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
--- String:  Returns a single string.
--- Stream:  Returns an array of strings.
--- Document:  Returns an XmlDocument object.
+### $XxxxxxxxxxxXxxxxx
+$$ Xxxxxx$  Xxxxxxx x xxxxxx xxxxxx.
+$$ Xxxxxx$  Xxxxxxx xx xxxxx xx xxxxxxx.
+$$ Xxxxxxxx$  Xxxxxxx xx XxxXxxxxxxx xxxxxx.
 
-The default is Document.
+Xxx xxxxxxx xx Xxxxxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -107,12 +107,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
--- String:  Returns a single string.
--- Stream:  Returns an array of strings.
--- Document:  Returns an XmlDocument object.
+### $XxxxxxxxxxxXxxxxxxx
+$$ Xxxxxx$  Xxxxxxx x xxxxxx xxxxxx.
+$$ Xxxxxx$  Xxxxxxx xx xxxxx xx xxxxxxx.
+$$ Xxxxxxxx$  Xxxxxxx xx XxxXxxxxxxx xxxxxx.
 
-The default is Document.
+Xxx xxxxxxx xx Xxxxxxxx.
 
 ```yaml
 Type: String
@@ -126,10 +126,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the object to be converted.
-Enter a variable that contains the objects, or type a command or expression that gets the objects.
-You can also pipe objects to ConvertTo-XML.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxx xx xx xxxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
+Xxx xxx xxxx xxxx xxxxxxx xx XxxxxxxXx$XXX.
 
 ```yaml
 Type: PSObject
@@ -143,8 +143,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -NoTypeInformation
-Omits the Type attribute from the object nodes.
+### $XxXxxxXxxxxxxxxxx
+Xxxxx xxx Xxxx xxxxxxxxx xxxx xxx xxxxxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -158,25 +158,25 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any object to ConvertTo-XML.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xx XxxxxxxXx$XXX.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.String or System.Xml.XmlDocument
-The value of the As parameter determines the type of object that ConvertTo-XML returns.
+### Xxxxxx.Xxxxxx xx Xxxxxx.Xxx.XxxXxxxxxxx
+Xxx xxxxx xx xxx Xx xxxxxxxxx xxxxxxxxxx xxx xxxx xx xxxxxx xxxx XxxxxxxXx$XXX xxxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[ConvertTo-Csv]()
+[XxxxxxxXx$Xxx]()
 
-[ConvertTo-Html]()
+[XxxxxxxXx$Xxxx]()
 
-[Export-Clixml]()
+[Xxxxxx$Xxxxxx]()
 
-[Import-Clixml]()
+[Xxxxxx$Xxxxxx]()
 

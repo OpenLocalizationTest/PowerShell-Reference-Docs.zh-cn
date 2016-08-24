@@ -6,47 +6,47 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureSBAuthorizationRule
-## SYNOPSIS
-Updates existing Service Bus authorization rule
+# Xxx$XxxxxXXXxxxxxxxxxxxxXxxx
+## XXXXXXXX
+Xxxxxxx xxxxxxxx Xxxxxxx Xxx xxxxxxxxxxxxx xxxx
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureSBAuthorizationRule [-Name] <String> [-Permission] [-Namespace] <String> [-EntityName] <String>
  [-EntityType] <ServiceBusEntityType> [[-PrimaryKey] <String>] [[-SecondaryKey] <String>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Set-AzureSBAuthorizationRule [-Name] <String> [-Permission] [-Namespace] <String> [[-PrimaryKey] <String>]
  [[-SecondaryKey] <String>]
 ```
 
-## DESCRIPTION
-Updates existing Service Bus authorization rule
+## XXXXXXXXXXX
+Xxxxxxx xxxxxxxx Xxxxxxx Xxx xxxxxxxxxxxxx xxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------- Renew primary key for authorization rule at namespace level --------------
+### $$$$$$$$$$$$$$ Xxxxx xxxxxxx xxx xxx xxxxxxxxxxxxx xxxx xx xxxxxxxxx xxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Set-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace -Permission $("Send")
 ```
 
-The primary key is renewed
+Xxx xxxxxxx xxx xx xxxxxxx
 
-### -------------- Update authorization rule permission --------------
+### $$$$$$$$$$$$$$ Xxxxxx xxxxxxxxxxxxx xxxx xxxxxxxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Set-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace -Permission $("Listen", "Send") -EntityName MyEntity -EntityType Queue
 ```
 
-Updates the permissions
+Xxxxxxx xxx xxxxxxxxxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -EntityName
-The entity name to apply rule at.
+### $XxxxxxXxxx
+Xxx xxxxxx xxxx xx xxxxx xxxx xx.
 
 ```yaml
 Type: String
@@ -60,8 +60,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -EntityType
-The entity type (Queue, Topic, Relay, NotificationHub).
+### $XxxxxxXxxx
+Xxx xxxxxx xxxx $Xxxxx$ Xxxxx$ Xxxxx$ XxxxxxxxxxxxXxx$.
 
 ```yaml
 Type: ServiceBusEntityType
@@ -75,8 +75,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-The unique authorization rule name
+### $Xxxx
+Xxx xxxxxx xxxxxxxxxxxxx xxxx xxxx
 
 ```yaml
 Type: String
@@ -90,9 +90,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Namespace
-The namespace name to apply the authorization rule.
-If no EntityName provided the rule will be on the namespace level
+### $Xxxxxxxxx
+Xxx xxxxxxxxx xxxx xx xxxxx xxx xxxxxxxxxxxxx xxxx.
+Xx xx XxxxxxXxxx xxxxxxxx xxx xxxx xxxx xx xx xxx xxxxxxxxx xxxxx
 
 ```yaml
 Type: String
@@ -106,8 +106,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Permission
-The authorization permissions (Send, Manage, Listen)
+### $Xxxxxxxxxx
+Xxx xxxxxxxxxxxxx xxxxxxxxxxx $Xxxx$ Xxxxxx$ Xxxxxx$
 
 ```yaml
 Type: SwitchParameter
@@ -122,9 +122,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PrimaryKey
-The Shared Access Signature primary key.
-Will be generated if not provided
+### $XxxxxxxXxx
+Xxx Xxxxxx Xxxxxx Xxxxxxxxx xxxxxxx xxx.
+Xxxx xx xxxxxxxxx xx xxx xxxxxxxx
 
 ```yaml
 Type: String
@@ -138,8 +138,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SecondaryKey
-The Shared Access Signature secondary key
+### $XxxxxxxxxXxx
+Xxx Xxxxxx Xxxxxx Xxxxxxxxx xxxxxxxxx xxx
 
 ```yaml
 Type: String
@@ -153,18 +153,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureSBAuthorizationRule](07ab8d50-c6de-45f1-8576-99b76f798bca)
+[Xxx$XxxxxXXXxxxxxxxxxxxxXxxx](07ab8d50-c6de-45f1-8576-99b76f798bca)
 
-[New-AzureSBAuthorizationRule](3e60e1c8-7421-4762-befc-5c8974f684c4)
+[Xxx$XxxxxXXXxxxxxxxxxxxxXxxx](3e60e1c8-7421-4762-befc-5c8974f684c4)
 
-[Remove-AzureSBAuthorizationRule](7d4951b1-15ff-4fa4-9122-36538eee9cbe)
+[Xxxxxx$XxxxxXXXxxxxxxxxxxxxXxxx](7d4951b1-15ff-4fa4-9122-36538eee9cbe)
 
 

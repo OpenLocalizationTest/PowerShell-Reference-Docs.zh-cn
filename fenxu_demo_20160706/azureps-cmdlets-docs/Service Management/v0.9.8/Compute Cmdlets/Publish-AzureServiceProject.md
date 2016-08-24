@@ -6,52 +6,52 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Publish-AzureServiceProject
-## SYNOPSIS
-Publish the current service to Windows Azure.
+# Xxxxxxx$XxxxxXxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx xxx xxxxxxx xxxxxxx xx Xxxxxxx Xxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Publish-AzureServiceProject [[-ServiceName] <String>] [-AffinityGroup <String>] [-DeploymentName <String>]
  [-ForceUpgrade] [-Launch] [-Location <String>] [-Slot <String>] [-StorageAccountName <String>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Publish-AzureServiceProject [[-Package] <String>] [-Configuration] <String> [-AffinityGroup <String>]
  [-DeploymentName <String>] [-ForceUpgrade] [-Launch] [-Location <String>] [-Slot <String>]
  [-StorageAccountName <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Publish-AzureServiceProject cmdlet publishes the current service to the cloud.
-You can specify publishing configuration (such as Subscription, StorageAccountName, Location, Slot) on the command line, or in local settings through the Set-AzureServiceProject cmdlet.
+Xxx Xxxxxxx$XxxxxXxxxxxxXxxxxxx xxxxxx xxxxxxxxx xxx xxxxxxx xxxxxxx xx xxx xxxxx.
+Xxx xxx xxxxxxx xxxxxxxxxx xxxxxxxxxxxxx $xxxx xx Xxxxxxxxxxxx$ XxxxxxxXxxxxxxXxxx$ Xxxxxxxx$ Xxxx$ xx xxx xxxxxxx xxxx$ xx xx xxxxx xxxxxxxx xxxxxxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Publish a service project with default values
+### 0$ Xxxxxxx x xxxxxxx xxxxxxx xxxx xxxxxxx xxxxxx
 ```
 PS C:\>Publish-AzureServiceProject
 ```
 
-This example publishes the current service, using the current service settings and the current Azure publish profile.
+Xxxx xxxxxxx xxxxxxxxx xxx xxxxxxx xxxxxxx$ xxxxx xxx xxxxxxx xxxxxxx xxxxxxxx xxx xxx xxxxxxx Xxxxx xxxxxxx xxxxxxx.
 
-### 2: Create a deployment package
+### 0$ Xxxxxx x xxxxxxxxxx xxxxxxx
 ```
 PS C:\>Publish-AzureServiceProject -PackageOnly
 ```
 
-Creates a deployment package (.cspkg) file in the service directory and does not publish to Windows Azure.
+Xxxxxxx x xxxxxxxxxx xxxxxxx $.xxxxx$ xxxx xx xxx xxxxxxx xxxxxxxxx xxx xxxx xxx xxxxxxx xx Xxxxxxx Xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AffinityGroup
-Specifies the affinity group that you want the service to use.
+### $XxxxxxxxXxxxx
+Xxxxxxxxx xxx xxxxxxxx xxxxx xxxx xxx xxxx xxx xxxxxxx xx xxx.
 
 ```yaml
 Type: String
@@ -65,9 +65,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Configuration
-Specifies the service configuration file.
-If you specify this parameter, specify the Package parameter.
+### $Xxxxxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxxxxx xxxx.
+Xx xxx xxxxxxx xxxx xxxxxxxxx$ xxxxxxx xxx Xxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -81,8 +81,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -DeploymentName
-Specifies the deployment name.
+### $XxxxxxxxxxXxxx
+Xxxxxxxxx xxx xxxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -96,8 +96,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ForceUpgrade
-@{Text=}
+### $XxxxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -111,8 +111,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Launch
-Opens a browser window so you can view the application after it is deployed.
+### $Xxxxxx
+Xxxxx x xxxxxxx xxxxxx xx xxx xxx xxxx xxx xxxxxxxxxxx xxxxx xx xx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -126,11 +126,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Location
-The region in which the application will be hosted.
-Possible values are: Anywhere Asia, Anywhere Europe, Anywhere US, East Asia, East US, North Central US, North Europe, South Central US, Southeast Asia, West Europe, West US. 
-If no Location is specified, the location specified in the last call to Set-AzureServiceProject will be used. 
-If no Location was ever specified, the Location will be randomly chosen from 'North Central US' and 'South Central US' locations.
+### $Xxxxxxxx
+Xxx xxxxxx xx xxxxx xxx xxxxxxxxxxx xxxx xx xxxxxx.
+Xxxxxxxx xxxxxx xxx$ Xxxxxxxx Xxxx$ Xxxxxxxx Xxxxxx$ Xxxxxxxx XX$ Xxxx Xxxx$ Xxxx XX$ Xxxxx Xxxxxxx XX$ Xxxxx Xxxxxx$ Xxxxx Xxxxxxx XX$ Xxxxxxxxx Xxxx$ Xxxx Xxxxxx$ Xxxx XX. Xx xx Xxxxxxxx xx xxxxxxxxx$ xxx xxxxxxxx xxxxxxxxx xx xxx xxxx xxxx xx Xxx$XxxxxXxxxxxxXxxxxxx xxxx xx xxxx. Xx xx Xxxxxxxx xxx xxxx xxxxxxxxx$ xxx Xxxxxxxx xxxx xx xxxxxxxx xxxxxx xxxx $Xxxxx Xxxxxxx XX$ xxx $Xxxxx Xxxxxxx XX$ xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -144,10 +142,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Package
-Specifies the package file to deploy.
-Specify either a local file that has the .cspkg file name extension or a URI of a blob that contains the package.
-If you specify this parameter, do not specify the ServiceName parameter.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xx xxxxxx.
+Xxxxxxx xxxxxx x xxxxx xxxx xxxx xxx xxx .xxxxx xxxx xxxx xxxxxxxxx xx x XXX xx x xxxx xxxx xxxxxxxx xxx xxxxxxx.
+Xx xxx xxxxxxx xxxx xxxxxxxxx$ xx xxx xxxxxxx xxx XxxxxxxXxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -161,11 +159,11 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ServiceName
-Specifies the name to be used for the service when publishing to Windows Azure.
-The name determines part of the label in the cloudapp.net subdomain that is used to address the service when hosted in Windows Azure (that is, name.cloudapp.net).
-Any name specified while publishing the service overrides the name given when the service was created.
-(See the New-AzureServiceProject cmdlet).
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xx xxxx xxx xxx xxxxxxx xxxx xxxxxxxxxx xx Xxxxxxx Xxxxx.
+Xxx xxxx xxxxxxxxxx xxxx xx xxx xxxxx xx xxx xxxxxxxx.xxx xxxxxxxxx xxxx xx xxxx xx xxxxxxx xxx xxxxxxx xxxx xxxxxx xx Xxxxxxx Xxxxx $xxxx xx$ xxxx.xxxxxxxx.xxx$.
+Xxx xxxx xxxxxxxxx xxxxx xxxxxxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxx xxxxx xxxx xxx xxxxxxx xxx xxxxxxx.
+$Xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx$.
 
 ```yaml
 Type: String
@@ -179,11 +177,11 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Slot
-The deployment slot to be used for this service.
-Possible values are 'Staging' and 'Production'.
-If no slot is specified, the slot provided in the last call to Set-AzureDeploymentSlot is used.
-If no slot has ever been specified, the 'Production' slot is used.
+### $Xxxx
+Xxx xxxxxxxxxx xxxx xx xx xxxx xxx xxxx xxxxxxx.
+Xxxxxxxx xxxxxx xxx $Xxxxxxx$ xxx $Xxxxxxxxxx$.
+Xx xx xxxx xx xxxxxxxxx$ xxx xxxx xxxxxxxx xx xxx xxxx xxxx xx Xxx$XxxxxXxxxxxxxxxXxxx xx xxxx.
+Xx xx xxxx xxx xxxx xxxx xxxxxxxxx$ xxx $Xxxxxxxxxx$ xxxx xx xxxx.
 
 ```yaml
 Type: String
@@ -197,13 +195,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -StorageAccountName
-Specifies the Windows Azure storage account name to be used while publishing the service.
-This value is not used until the service is published.
-When this parameter is not specified, the value is obtained from the last Set-AzureServiceProject command.
-If no storage account was ever specified, a storage account matching the name of the service will be used.
-If no such storage account exists, the cmdlet attempts to create a new one.
-However, the attempt may fail if a storage account matching the service name exists in another subscription.
+### $XxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx Xxxxxxx Xxxxx xxxxxxx xxxxxxx xxxx xx xx xxxx xxxxx xxxxxxxxxx xxx xxxxxxx.
+Xxxx xxxxx xx xxx xxxx xxxxx xxx xxxxxxx xx xxxxxxxxx.
+Xxxx xxxx xxxxxxxxx xx xxx xxxxxxxxx$ xxx xxxxx xx xxxxxxxx xxxx xxx xxxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxxx.
+Xx xx xxxxxxx xxxxxxx xxx xxxx xxxxxxxxx$ x xxxxxxx xxxxxxx xxxxxxxx xxx xxxx xx xxx xxxxxxx xxxx xx xxxx.
+Xx xx xxxx xxxxxxx xxxxxxx xxxxxx$ xxx xxxxxx xxxxxxxx xx xxxxxx x xxx xxx.
+Xxxxxxx$ xxx xxxxxxx xxx xxxx xx x xxxxxxx xxxxxxx xxxxxxxx xxx xxxxxxx xxxx xxxxxx xx xxxxxxx xxxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -217,16 +215,16 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Enable-AzureServiceProjectRemoteDesktop](8d3f7f43-f8f6-4ecf-b8be-7c69cd10cde7)
+[Xxxxxx$XxxxxXxxxxxxXxxxxxxXxxxxxXxxxxxx](8d3f7f43-f8f6-4ecf-b8be-7c69cd10cde7)
 
-[Set-AzureServiceProject](c3baa783-e57a-46bd-abe4-6d06130eaaf0)
+[Xxx$XxxxxXxxxxxxXxxxxxx](c3baa783-e57a-46bd-abe4-6d06130eaaf0)
 
 

@@ -6,43 +6,43 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureWebsiteDeployment
-## SYNOPSIS
-Gets the deployments for a website.
+# Xxx$XxxxxXxxxxxxXxxxxxxxxx
+## XXXXXXXX
+Xxxx xxx xxxxxxxxxxx xxx x xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureWebsiteDeployment [[-Name] <String>] [[-CommitId] <String>] [[-MaxResults] <Int32>] [-Details]
  [-Slot <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-Gets the deployments for a website in Azure.
+Xxxx xxx xxxxxxxxxxx xxx x xxxxxxx xx Xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Get all deployments for a website
+### 0$ Xxx xxx xxxxxxxxxxx xxx x xxxxxxx
 ```
 PS C:\>Get-AzureWebsiteDeployment -Name mySite
 ```
 
-This example gets all deployments for an Azure website named 'mySite'.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxxxx xxx xx Xxxxx xxxxxxx xxxxx $xxXxxx$.
 
-### 2: Get information about a specific deployment
+### 0$ Xxx xxxxxxxxxxx xxxxx x xxxxxxxx xxxxxxxxxx
 ```
 PS C:\>Get-AzureWebsiteDeployment -Name mySite -CommitId f87654321 -Details
 ```
 
-This example gets detailed information about deployment 'f87654321' for an Azure website named 'mySite'.
+Xxxx xxxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxx xxxxxxxxxx $x00000000$ xxx xx Xxxxx xxxxxxx xxxxx $xxXxxx$.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -CommitId
-Specifies the unique ID for the deployment.
+### $XxxxxxXx
+Xxxxxxxxx xxx xxxxxx XX xxx xxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -56,8 +56,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Details
-Shows detailed information about the deployments.
+### $Xxxxxxx
+Xxxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -71,8 +71,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -MaxResults
-Specifies the largest number of results that you want the command to return.
+### $XxxXxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxx xxxx xxx xxxx xxx xxxxxxx xx xxxxxx.
 
 ```yaml
 Type: Int32
@@ -86,8 +86,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the website for which you want to get deployment information.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxx xxxxx xxx xxxx xx xxx xxxxxxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -101,8 +101,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Slot
-Specifies the slot name.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xxxx.
 
 ```yaml
 Type: String
@@ -116,16 +116,16 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Restore-AzureWebsiteDeployment](05b24030-ff70-48d2-8bed-d17d0451d4ca)
+[Xxxxxxx$XxxxxXxxxxxxXxxxxxxxxx](05b24030-ff70-48d2-8bed-d17d0451d4ca)
 
-[Save-AzureWebsiteLog](f3c9cb3a-d628-48c5-a43c-dea1914f8eb6)
+[Xxxx$XxxxxXxxxxxxXxx](f3c9cb3a-d628-48c5-a43c-dea1914f8eb6)
 
 

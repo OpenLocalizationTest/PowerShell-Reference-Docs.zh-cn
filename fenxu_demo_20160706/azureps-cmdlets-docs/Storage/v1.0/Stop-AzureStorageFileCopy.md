@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Stop-AzureStorageFileCopy
-## SYNOPSIS
-Stops a copy operation to the specified destination file.
+# Xxxx$XxxxxXxxxxxxXxxxXxxx
+## XXXXXXXX
+Xxxxx x xxxx xxxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Stop-AzureStorageFileCopy [-ShareName] <String> [-FilePath] <String>
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
@@ -20,44 +20,29 @@ Stop-AzureStorageFileCopy [-ShareName] <String> [-FilePath] <String>
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Stop-AzureStorageFileCopy [-File] <CloudFile> [-ClientTimeoutPerRequest <Nullable [System.Int32]>]
  [-ConcurrentTaskCount <Nullable [System.Int32]>] [-CopyId <String>] [-Force]
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Stop-AzureStorageFileCopy** cmdlet stops copying a file to a destination file.
+## XXXXXXXXXXX
+Xxx $$Xxxx$XxxxxXxxxxxxXxxxXxxx$$ xxxxxx xxxxx xxxxxxx x xxxx xx x xxxxxxxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Stop a copy operation
+### Xxxxxxx 0$ Xxxx x xxxx xxxxxxxxx
 ```
 PS C:\>Stop-AzureStorageFileCopy -ShareName "ContosoShare" -FilePath "FilePath" -CopyId "CopyId"
 ```
 
-This command stops copying a file that has the specified name.
+Xxxx xxxxxxx xxxxx xxxxxxx x xxxx xxxx xxx xxx xxxxxxxxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-@{Text=}
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -71,8 +56,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-@{Text=}
+### $XxxxxxxxxxXxxxXxxxx
+$$Xxxx$$
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: AzureStorageContext
@@ -86,8 +86,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -CopyId
-@{Text=}
+### $XxxxXx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -101,9 +101,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -File
-Specifies a **CloudFile** object.
-You can create a cloud file or obtain one by using the Get-AzureStorageFile cmdlet.
+### $Xxxx
+Xxxxxxxxx x $$XxxxxXxxx$$ xxxxxx.
+Xxx xxx xxxxxx x xxxxx xxxx xx xxxxxx xxx xx xxxxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
 ```yaml
 Type: CloudFile
@@ -117,8 +117,8 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -FilePath
-Specifies the path of a file.
+### $XxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxx.
 
 ```yaml
 Type: String
@@ -132,8 +132,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-@{Text=}
+### $Xxxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -147,8 +147,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -162,8 +162,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ShareName
-Specifies the name of a share.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxx.
 
 ```yaml
 Type: String
@@ -177,8 +177,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -192,8 +192,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -207,20 +207,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageFile](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
+[Xxx$XxxxxXxxxxxxXxxx](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
 
-[Get-AzureStorageFileCopyState](248556e1-291f-4d27-b2e1-e00cc895b3a9)
+[Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx](248556e1-291f-4d27-b2e1-e00cc895b3a9)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Start-AzureStorageFileCopy](66445d9f-72a9-44e3-9f1b-72ec0888357a)
+[Xxxxx$XxxxxXxxxxxxXxxxXxxx](66445d9f-72a9-44e3-9f1b-72ec0888357a)
 
 

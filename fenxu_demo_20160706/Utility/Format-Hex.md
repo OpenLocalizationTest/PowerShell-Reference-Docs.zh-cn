@@ -4,43 +4,43 @@ online version: http://go.microsoft.com/fwlink/?LinkId=526919
 schema: 2.0.0
 ---
 
-# Format-Hex
-## SYNOPSIS
-{{Fill in the Synopsis}}
+# Xxxxxx$Xxx
+## XXXXXXXX
+$$Xxxx xx xxx Xxxxxxxx$$
 
-## SYNTAX
+## XXXXXX
 
-### Path (Default)
+### Xxxx $Xxxxxxx$
 ```
 Format-Hex [-Path] <String[]>
 ```
 
-### LiteralPath
+### XxxxxxxXxxx
 ```
 Format-Hex -LiteralPath <String[]>
 ```
 
-### ByInputObject
+### XxXxxxxXxxxxx
 ```
 Format-Hex -InputObject <Object> [-Encoding <String>]
 ```
 
-## DESCRIPTION
-{{Fill in the Description}}
+## XXXXXXXXXXX
+$$Xxxx xx xxx Xxxxxxxxxxx$$
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 PS C:\> {{ Add example code here }}
 ```
 
-{{ Add example description here }}
+$$ Xxx xxxxxxx xxxxxxxxxxx xxxx $$
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Encoding
-{{Fill Encoding Description}}
+### $Xxxxxxxx
+$$Xxxx Xxxxxxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: String
@@ -55,8 +55,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-{{Fill InputObject Description}}
+### $XxxxxXxxxxx
+$$Xxxx XxxxxXxxxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: Object
@@ -70,8 +70,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -LiteralPath
-{{Fill LiteralPath Description}}
+### $XxxxxxxXxxx
+$$Xxxx XxxxxxxXxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: String[]
@@ -85,8 +85,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-{{Fill Path Description}}
+### $Xxxx
+$$Xxxx Xxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: String[]
@@ -100,19 +100,19 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Object
-
-
-## OUTPUTS
-
-### Microsoft.PowerShell.Commands.ByteCollection
+### Xxxxxx.Xxxxxx
 
 
-## NOTES
+## XXXXXXX
 
-## RELATED LINKS
+### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxXxxxxxxxxx
 
-[http://go.microsoft.com/fwlink/?LinkId=526919](http://go.microsoft.com/fwlink/?LinkId=526919)
+
+## XXXXX
+
+## XXXXXXX XXXXX
+
+[xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000](http://go.microsoft.com/fwlink/?LinkId=526919)
 

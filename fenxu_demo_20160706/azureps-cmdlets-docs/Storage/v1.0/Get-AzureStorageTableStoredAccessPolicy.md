@@ -6,40 +6,40 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageTableStoredAccessPolicy
-## SYNOPSIS
-Gets the stored access policy or policies for an azure_2 storage table.
+# Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx
+## XXXXXXXX
+Xxxx xxx xxxxxx xxxxxx xxxxxx xx xxxxxxxx xxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureStorageTableStoredAccessPolicy [-Table] <String> [[-Policy] <String>] [-Context <AzureStorageContext>]
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageTableStoredAccessPolicy** cmdlet lists the stored access policy or policies for an azure_2 storage table.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx$$ xxxxxx xxxxx xxx xxxxxx xxxxxx xxxxxx xx xxxxxxxx xxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get a stored access policy in a storage table
+### Xxxxxxx 0$ Xxx x xxxxxx xxxxxx xxxxxx xx x xxxxxxx xxxxx
 ```
 PS C:\>Get-AzureStorageTableStoredAccessPolicy -Table "Table02" -Policy "Policy50"
 ```
 
-This command gets the access policy named Policy50 in the storage table named Table02.
+Xxxx xxxxxxx xxxx xxx xxxxxx xxxxxx xxxxx Xxxxxx00 xx xxx xxxxxxx xxxxx xxxxx Xxxxx00.
 
-### Example 2: Get all stored access policies in a storage table
+### Xxxxxxx 0$ Xxx xxx xxxxxx xxxxxx xxxxxxxx xx x xxxxxxx xxxxx
 ```
 PS C:\>Get-AzureStorageTableStoredAccessPolicy -Table "Table02"
 ```
 
-This command gets all access policies in the table named Table02.
+Xxxx xxxxxxx xxxx xxx xxxxxx xxxxxxxx xx xxx xxxxx xxxxx Xxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies the azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -53,8 +53,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Policy
-Specifies a stored access policy, which includes the permissions for this Shared Access Signature (SAS) token.
+### $Xxxxxx
+Xxxxxxxxx x xxxxxx xxxxxx xxxxxx$ xxxxx xxxxxxxx xxx xxxxxxxxxxx xxx xxxx Xxxxxx Xxxxxx Xxxxxxxxx $XXX$ xxxxx.
 
 ```yaml
 Type: String
@@ -68,8 +68,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Table
-Specifies the azure_2 storage table name.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxx xxxx.
 
 ```yaml
 Type: String
@@ -83,20 +83,20 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureStorageTableStoredAccessPolicy](27f043ca-0c6b-4952-afd7-a2e12e73b402)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](27f043ca-0c6b-4952-afd7-a2e12e73b402)
 
-[Remove-AzureStorageTableStoredAccessPolicy](e9ed3edb-61eb-4547-8228-968601cfbee5)
+[Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](e9ed3edb-61eb-4547-8228-968601cfbee5)
 
-[Set-AzureStorageTableStoredAccessPolicy](cd4016e4-c0aa-4963-beb7-144a5bd2d619)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](cd4016e4-c0aa-4963-beb7-144a5bd2d619)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
 

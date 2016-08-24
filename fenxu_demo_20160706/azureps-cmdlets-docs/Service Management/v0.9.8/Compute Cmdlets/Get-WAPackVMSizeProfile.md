@@ -6,57 +6,57 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-WAPackVMSizeProfile
-## SYNOPSIS
-Gets size profile objects.
+# Xxx$XXXxxxXXXxxxXxxxxxx
+## XXXXXXXX
+Xxxx xxxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-WAPackVMSizeProfile [[-ID] <Guid>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-WAPackVMSizeProfile [[-Name] <String>]
 ```
 
-## DESCRIPTION
-These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
-This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+## XXXXXXXXXXX
+Xxxxx xxxxxx xxx xxxxxxxxxx xxx xxxx xx xxxxxxx xx xxx xxxxxx.
+Xxx xxx xxxxxxx xxxxxx$ xxx  Xxxxx XXXxxx Xxxxxxxxxxx$$$xxxx.xxxxxxxxx.xxx$xxxxxxx$xx000000.xxxx.
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.0 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxxx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xxxx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $xxx$xxxxxx xxxxx$.xxxxxxx.
 
-The Get-WAPackVMSizeProfile cmdlet gets size profile objects for virtual machines.
+Xxx Xxx$XXXxxxXXXxxxXxxxxxx xxxxxx xxxx xxxx xxxxxxx xxxxxxx xxx xxxxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get a size profile by using a name
+### Xxxxxxx 0$ Xxx x xxxx xxxxxxx xx xxxxx x xxxx
 ```
 PS C:\>Get-WAPackVMSizeProfile -Name "ContosoSizeProfile07"
 ```
 
-This command gets the size profile named ContosoSizeProfile07.
+Xxxx xxxxxxx xxxx xxx xxxx xxxxxxx xxxxx XxxxxxxXxxxXxxxxxx00.
 
-### Example 2: Get a size profile by using an ID
+### Xxxxxxx 0$ Xxx x xxxx xxxxxxx xx xxxxx xx XX
 ```
 PS C:\>Get-WAPackVMSizeProfile -ID 66242D17-189F-480D-87CF-8E1D749998C8
 ```
 
-This command gets the size profile that has the specified ID.
+Xxxx xxxxxxx xxxx xxx xxxx xxxxxxx xxxx xxx xxx xxxxxxxxx XX.
 
-### Example 3: Get all size profiles
+### Xxxxxxx 0$ Xxx xxx xxxx xxxxxxxx
 ```
 PS C:\>Get-WAPackVMSizeProfile
 ```
 
-This command gets all the size profiles.
+Xxxx xxxxxxx xxxx xxx xxx xxxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ID
-Specifies the unique ID of a size profile.
+### $XX
+Xxxxxxxxx xxx xxxxxx XX xx x xxxx xxxxxxx.
 
 ```yaml
 Type: Guid
@@ -70,8 +70,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of a size profile.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -85,14 +85,14 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-WAPackVM](4b060a7d-da50-45ff-adb6-bcba63faa90b)
+[Xxx$XXXxxxXX](4b060a7d-da50-45ff-adb6-bcba63faa90b)
 
 

@@ -6,36 +6,36 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureStorageServiceLoggingProperty
-## SYNOPSIS
-Modifies logging for azure_2 Storage services.
+# Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx
+## XXXXXXXX
+Xxxxxxxx xxxxxxx xxx xxxxx$0 Xxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureStorageServiceLoggingProperty [-ServiceType] [-Context <AzureStorageContext>]
  [-LoggingOperations <LoggingOperations[]>] [-PassThru] [-RetentionDays <Int32]>] [-Version <Double]>]
 ```
 
-## DESCRIPTION
-The **Set-AzureStorageServiceLoggingProperty** cmdlet modifies logging for azure_2 Storage services.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx$$ xxxxxx xxxxxxxx xxxxxxx xxx xxxxx$0 Xxxxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Modify logging properties for the Blob service
+### Xxxxxxx 0$ Xxxxxx xxxxxxx xxxxxxxxxx xxx xxx Xxxx xxxxxxx
 ```
 C:\PS>Set-AzureStorageServiceLoggingProperty -ServiceType Blob -LoggingOperations Read,Write -PassThru -RetentionDays 10 -Version 1.0
 ```
 
-This command modifies version 1.0 logging for blob storage to include read and write operations.
-azure_2 Storage service logging retains entries for 10 days.
-Because this command specifies the *PassThru* parameter, the command displays the modified logging properties.
+Xxxx xxxxxxx xxxxxxxx xxxxxxx 0.0 xxxxxxx xxx xxxx xxxxxxx xx xxxxxxx xxxx xxx xxxxx xxxxxxxxxx.
+xxxxx$0 Xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxx 00 xxxx.
+Xxxxxxx xxxx xxxxxxx xxxxxxxxx xxx $XxxxXxxx$ xxxxxxxxx$ xxx xxxxxxx xxxxxxxx xxx xxxxxxxx xxxxxxx xxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -49,16 +49,12 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -LoggingOperations
-Specifies an array of azure_2 Storage service operations.
-azure_2 Storage services logs the operations that this parameter specifies.
-psdx_paramvalues
+### $XxxxxxxXxxxxxxxxx
+Xxxxxxxxx xx xxxxx xx xxxxx$0 Xxxxxxx xxxxxxx xxxxxxxxxx.
+xxxxx$0 Xxxxxxx xxxxxxxx xxxx xxx xxxxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+xxxx$xxxxxxxxxxx
 
--- None
--- Read
--- Write
--- Delete
--- All
+$$ Xxxx $$ Xxxx $$ Xxxxx $$ Xxxxxx $$ Xxx
 
 ```yaml
 Type: LoggingOperations[]
@@ -72,9 +68,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Indicates that this cmdlet returns the updated logging properties.
-If you do not specify this parameter, this cmdlet does not return a value.
+### $XxxxXxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxxxxxx xxxxxxx xxxxxxxxxx.
+Xx xxx xx xxx xxxxxxx xxxx xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx x xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -88,8 +84,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -RetentionDays
-Specifies the number of days that the azure_2 Storage service retains logged information.
+### $XxxxxxxxxXxxx
+Xxxxxxxxx xxx xxxxxx xx xxxx xxxx xxx xxxxx$0 Xxxxxxx xxxxxxx xxxxxxx xxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: Int32]
@@ -103,17 +99,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServiceType
-Specifies the storage service type.
-This cmdlet modifies the logging properties for the service type that this parameter specifies.
-psdx_paramvalues
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxx xxxx.
+Xxxx xxxxxx xxxxxxxx xxx xxxxxxx xxxxxxxxxx xxx xxx xxxxxxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+xxxx$xxxxxxxxxxx
 
--- Blob 
--- Table
--- Queue
--- File
+$$ Xxxx $$ Xxxxx $$ Xxxxx $$ Xxxx
 
-The value of File is not currently supported.
+Xxx xxxxx xx Xxxx xx xxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -128,9 +121,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Version
-Specifies the version of the azure_2 Storage service logging.
-The default value is 1.0.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxx xxxxx$0 Xxxxxxx xxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxxx xx 0.0.
 
 ```yaml
 Type: Double]
@@ -144,16 +137,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageServiceLoggingProperty](02217f39-6c93-401b-8801-52fdd38ba751)
+[Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx](02217f39-6c93-401b-8801-52fdd38ba751)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
 

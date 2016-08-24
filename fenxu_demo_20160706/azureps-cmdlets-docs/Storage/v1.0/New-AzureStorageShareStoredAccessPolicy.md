@@ -6,11 +6,11 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageShareStoredAccessPolicy
-## SYNOPSIS
-Creates a stored access policy on a Storage share.
+# Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxx xxxxxx xxxxxx xx x Xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureStorageShareStoredAccessPolicy [-ShareName] <String> [-Policy] <String>
@@ -19,37 +19,22 @@ New-AzureStorageShareStoredAccessPolicy [-ShareName] <String> [-Policy] <String>
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-StartTime <Nullable [System.DateTime]>]
 ```
 
-## DESCRIPTION
-The **New-AzureStorageShareStoredAccessPolicy** cmdlet creates a stored access policy on an azure_2 Storage share.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx$$ xxxxxx xxxxxxx x xxxxxx xxxxxx xxxxxx xx xx xxxxx$0 Xxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a stored access policy in a share
+### Xxxxxxx 0$ Xxxxxx x xxxxxx xxxxxx xxxxxx xx x xxxxx
 ```
 PS C:\>New-AzureStorageShareStoredAccessPolicy -ShareName "ContosoShare" -Policy "GeneralPolicy" -Permission "rwdl"
 ```
 
-This command creates a stored access policy that has full permission in a share.
+Xxxx xxxxxxx xxxxxxx x xxxxxx xxxxxx xxxxxx xxxx xxx xxxx xxxxxxxxxx xx x xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-@{Text=}
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -63,8 +48,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-@{Text=}
+### $XxxxxxxxxxXxxxXxxxx
+$$Xxxx$$
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: AzureStorageContext
@@ -78,8 +78,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-@{Text=}
+### $XxxxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.DateTime]
@@ -93,8 +93,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Permission
-@{Text=}
+### $Xxxxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -108,8 +108,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-@{Text=}
+### $Xxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -123,8 +123,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -138,8 +138,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ShareName
-Specifies the name of the Storage share.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -153,8 +153,8 @@ Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -StartTime
-@{Text=}
+### $XxxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.DateTime]
@@ -168,20 +168,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageShareStoredAccessPolicy](d3ad790c-c75f-4243-b128-7c778422ac64)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](d3ad790c-c75f-4243-b128-7c778422ac64)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Remove-AzureStorageShareStoredAccessPolicy](af46a7c9-dd40-4d0d-9950-56f661dada33)
+[Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](af46a7c9-dd40-4d0d-9950-56f661dada33)
 
-[Set-AzureStorageShareStoredAccessPolicy](738f47b7-e244-40b1-9b2e-3b6f4e348c8f)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](738f47b7-e244-40b1-9b2e-3b6f4e348c8f)
 
 

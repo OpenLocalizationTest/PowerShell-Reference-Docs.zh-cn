@@ -6,35 +6,35 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Start-AzureEmulator
-## SYNOPSIS
-Starts the compute and storage emulators.
+# Xxxxx$XxxxxXxxxxxxx
+## XXXXXXXX
+Xxxxxx xxx xxxxxxx xxx xxxxxxx xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Start-AzureEmulator [-Launch] [-Mode]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Start-AzureEmulator cmdlet starts both the compute and storage emulators and hosts the current service in the compute emulator.
+Xxx Xxxxx$XxxxxXxxxxxxx xxxxxx xxxxxx xxxx xxx xxxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxx xxx xxxxxxx xxxxxxx xx xxx xxxxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Start the emulator and launch a browser
+### 0$ Xxxxx xxx xxxxxxxx xxx xxxxxx x xxxxxxx
 ```
 PS C:\>Start-AzureEmulator -L
 ```
 
-This example runs the service in the Azure emulator and launches a new browser window on the emulated service.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xx xxx Xxxxx xxxxxxxx xxx xxxxxxxx x xxx xxxxxxx xxxxxx xx xxx xxxxxxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Launch
-Opens a new browser window on the service after hosting it in the emulator.
+### $Xxxxxx
+Xxxxx x xxx xxxxxxx xxxxxx xx xxx xxxxxxx xxxxx xxxxxxx xx xx xxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -48,10 +48,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Mode
-Specifies the emulator mode.
-Valid values are: Full and Express.
-The default value is Express.
+### $Xxxx
+Xxxxxxxxx xxx xxxxxxxx xxxx.
+Xxxxx xxxxxx xxx$ Xxxx xxx Xxxxxxx.
+Xxx xxxxxxx xxxxx xx Xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -66,18 +66,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureServiceProject](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
+[Xxx$XxxxxXxxxxxxXxxxxxx](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
 
-[Publish-AzureServiceProject](4c0c0966-919e-49a6-9d38-c3c97355e281)
+[Xxxxxxx$XxxxxXxxxxxxXxxxxxx](4c0c0966-919e-49a6-9d38-c3c97355e281)
 
-[Stop-AzureEmulator](91532648-9270-4b03-bd43-6fb7259a0df3)
+[Xxxx$XxxxxXxxxxxxx](91532648-9270-4b03-bd43-6fb7259a0df3)
 
 

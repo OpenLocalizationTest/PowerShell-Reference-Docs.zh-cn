@@ -4,23 +4,23 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293986
 schema: 2.0.0
 ---
 
-# Invoke-Expression
-## SYNOPSIS
-Runs commands or expressions on the local computer.
+# Xxxxxx$Xxxxxxxxxx
+## XXXXXXXX
+Xxxx xxxxxxxx xx xxxxxxxxxxx xx xxx xxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Invoke-Expression [-Command] <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Invoke-Expression cmdlet evaluates or runs a specified string as a command and returns the results of the expression or command.
-Without Invoke-Expression, a string submitted at the command line would be returned (echoed) unchanged.
+## XXXXXXXXXXX
+Xxx Xxxxxx$Xxxxxxxxxx xxxxxx xxxxxxxxx xx xxxx x xxxxxxxxx xxxxxx xx x xxxxxxx xxx xxxxxxx xxx xxxxxxx xx xxx xxxxxxxxxx xx xxxxxxx.
+Xxxxxxx Xxxxxx$Xxxxxxxxxx$ x xxxxxx xxxxxxxxx xx xxx xxxxxxx xxxx xxxxx xx xxxxxxxx $xxxxxx$ xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$command = "Get-Process"
 PS C:\>$command
@@ -38,39 +38,38 @@ Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id   ProcessName
 ...
 ```
 
-This example demonstrates the use of Invoke-Expression to evaluate an expression.
-Without Invoke-Expression, the expression is printed, but not evaluated.
+Xxxx xxxxxxx xxxxxxxxxxxx xxx xxx xx Xxxxxx$Xxxxxxxxxx xx xxxxxxxx xx xxxxxxxxxx.
+Xxxxxxx Xxxxxx$Xxxxxxxxxx$ xxx xxxxxxxxxx xx xxxxxxx$ xxx xxx xxxxxxxxx.
 
-The first command assigns a value of "Get-Process" (a string) to the $command variable.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxx xx $Xxx$Xxxxxxx$ $x xxxxxx$ xx xxx $xxxxxxx xxxxxxxx.
 
-The second command shows the effect of typing the variable name at the command line.
-Windows PowerShell echoes the string.
+Xxx xxxxxx xxxxxxx xxxxx xxx xxxxxx xx xxxxxx xxx xxxxxxxx xxxx xx xxx xxxxxxx xxxx.
+Xxxxxxx XxxxxXxxxx xxxxxx xxx xxxxxx.
 
-The third command uses Invoke-Expression to evaluate the string.
+Xxx xxxxx xxxxxxx xxxx Xxxxxx$Xxxxxxxxxx xx xxxxxxxx xxx xxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>invoke-expression -command "C:\ps-test\testscript.ps1"
 PS C:\>"C:\ps-test\testscript.ps1" | invoke-expression
 ```
 
-These commands use Invoke-Expression to run a script, TestScript.ps1, on the local computer.
-The two commands are equivalent.
-The first uses the Command parameter to specify the command to run.
-The second uses a pipeline operator (|) to send the command string to Invoke-Expression.
+Xxxxx xxxxxxxx xxx Xxxxxx$Xxxxxxxxxx xx xxx x xxxxxx$ XxxxXxxxxx.xx0$ xx xxx xxxxx xxxxxxxx.
+Xxx xxx xxxxxxxx xxx xxxxxxxxxx.
+Xxx xxxxx xxxx xxx Xxxxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxxx xx xxx.
+Xxx xxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xxxxxx xx Xxxxxx$Xxxxxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$Command = 'Get-Process | where {$_.cpu -gt 1000}'
 PS C:\>Invoke-Expression $Command
 ```
 
-This example runs a command string that is saved in the $Command variable.
+Xxxx xxxxxxx xxxx x xxxxxxx xxxxxx xxxx xx xxxxx xx xxx $Xxxxxxx xxxxxxxx.
 
-The command string is enclosed in single quotation marks because it includes a variable, $_, which represents the current object.
-If it were enclosed in double quotation marks, the $_ variable would be replaced by its value before it was saved in the $Command variable.
+Xxx xxxxxxx xxxxxx xx xxxxxxxx xx xxxxxx xxxxxxxxx xxxxx xxxxxxx xx xxxxxxxx x xxxxxxxx$ $$$ xxxxx xxxxxxxxxx xxx xxxxxxx xxxxxx. Xx xx xxxx xxxxxxxx xx xxxxxx xxxxxxxxx xxxxx$ xxx $$ xxxxxxxx xxxxx xx xxxxxxxx xx xxx xxxxx xxxxxx xx xxx xxxxx xx xxx $Xxxxxxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$cmdlet_name = "get-eventlog"
 PS C:\>$example_number = 1
@@ -78,18 +77,18 @@ PS C:\>$example_code = (get-help $cmdlet_name).examples.example[($example_number
 PS C:\>invoke-expression $example_code
 ```
 
-This command retrieves and runs the first example in the Get-EventLog cmdlet help topic.
+Xxxx xxxxxxx xxxxxxxxx xxx xxxx xxx xxxxx xxxxxxx xx xxx Xxx$XxxxxXxx xxxxxx xxxx xxxxx.
 
-To run an example of a different cmdlet, change the value of the $cmdlet_name variable to the name of the cmdlet.
-And, change the $example_number variable to the example number you want to run.
-The command will fail if the example number is not valid.
+Xx xxx xx xxxxxxx xx x xxxxxxxxx xxxxxx$ xxxxxx xxx xxxxx xx xxx $xxxxxx$xxxx xxxxxxxx xx xxx xxxx xx xxx xxxxxx.
+Xxx$ xxxxxx xxx $xxxxxxx$xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxx xxx xxxx xx xxx.
+Xxx xxxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxx xx xxx xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Command
-Specifies the command or expression to run.
-Type the command or expression or enter a variable that contains the command or expression.
-The Command parameter is required.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxxxxxxxxx xx xxx.
+Xxxx xxx xxxxxxx xx xxxxxxxxxx xx xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxxxxxxxx.
+Xxx Xxxxxxx xxxxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -103,8 +102,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -119,8 +118,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -134,22 +133,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String or PSObject
-You can pipe an object that represents the command to Invoke-Expression.
-Use the $input automatic variable to represent the input objects in the command.
+### Xxxxxx.Xxxxxx xx XXXxxxxx
+Xxx xxx xxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xx Xxxxxx$Xxxxxxxxxx.
+Xxx xxx $xxxxx xxxxxxxxx xxxxxxxx xx xxxxxxxxx xxx xxxxx xxxxxxx xx xxx xxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### PSObject
-Returns the output that is generated by the invoked command (the value of the Command parameter).
+### XXXxxxxx
+Xxxxxxx xxx xxxxxx xxxx xx xxxxxxxxx xx xxx xxxxxxx xxxxxxx $xxx xxxxx xx xxx Xxxxxxx xxxxxxxxx$.
 
-## NOTES
--- An expression is a statement that can be evaluated and produces a result, such as a Windows PowerShell command.
--- Take reasonable precautions when using the Invoke-Expression cmdlet in scripts. When using Invoke-Expression to run a command that the user enters, verify that the command is safe to run before running it. In general, it is best to design your script with predefined input options, rather than allowing freeform input.
+## XXXXX
+$$ Xx xxxxxxxxxx xx x xxxxxxxxx xxxx xxx xx xxxxxxxxx xxx xxxxxxxx x xxxxxx$ xxxx xx x Xxxxxxx XxxxxXxxxx xxxxxxx.
+$$ Xxxx xxxxxxxxxx xxxxxxxxxxx xxxx xxxxx xxx Xxxxxx$Xxxxxxxxxx xxxxxx xx xxxxxxx. Xxxx xxxxx Xxxxxx$Xxxxxxxxxx xx xxx x xxxxxxx xxxx xxx xxxx xxxxxx$ xxxxxx xxxx xxx xxxxxxx xx xxxx xx xxx xxxxxx xxxxxxx xx. Xx xxxxxxx$ xx xx xxxx xx xxxxxx xxxx xxxxxx xxxx xxxxxxxxxx xxxxx xxxxxxx$ xxxxxx xxxx xxxxxxxx xxxxxxxx xxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Invoke-Command]()
+[Xxxxxx$Xxxxxxx]()
 

@@ -6,65 +6,65 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageBlobCopyState
-## SYNOPSIS
-Gets the copy status of an Azure Storage blob.
+# Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx
+## XXXXXXXX
+Xxxx xxx xxxx xxxxxx xx xx Xxxxx Xxxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageBlobCopyState [-Blob] <String> [-Container] <String> [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-ServerTimeoutPerRequest <Int32]>]
  [-WaitForComplete]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageBlobCopyState [-Blob] <String> [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-ServerTimeoutPerRequest <Int32]>]
  [-WaitForComplete] -CloudBlobContainer <CloudBlobContainer>
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageBlobCopyState [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-ServerTimeoutPerRequest <Int32]>] [-WaitForComplete] -CloudBlob <CloudBlob>
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageBlobCopyState** cmdlet gets the copy status of an azure_2 Storage blob.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx$$ xxxxxx xxxx xxx xxxx xxxxxx xx xx xxxxx$0 Xxxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get the copy status of a blob
+### Xxxxxxx 0$ Xxx xxx xxxx xxxxxx xx x xxxx
 ```
 C:\PS>Get-AzureStorageBlobCopyState -Blob "ContosoPlanning2015" -Container "ContosoUploads"
 ```
 
-This command gets the copy status of the blob named ContosoPlanning2015 in the container ContosoUploads.
+Xxxx xxxxxxx xxxx xxx xxxx xxxxxx xx xxx xxxx xxxxx XxxxxxxXxxxxxxx0000 xx xxx xxxxxxxxx XxxxxxxXxxxxxx.
 
-### Example 2: Get the copy status for of a blob by using the pipeline
+### Xxxxxxx 0$ Xxx xxx xxxx xxxxxx xxx xx x xxxx xx xxxxx xxx xxxxxxxx
 ```
 C:\PS>Get-AzureStorageBlob -Blob "ContosoPlanning2015" -Container "ContosoUploads" | Get-AzureStorageBlobCopyState
 ```
 
-This command gets the blob named ContosoPlanning2015 in the container named ContosoUploads by using the **Get-AzureStorageBlob** cmdlet, and then passes the result to the current cmdlet by using the pipeline operator.
-The **Get-AzureStorageBlobCopyState** cmdlet gets the copy status for that blob.
+Xxxx xxxxxxx xxxx xxx xxxx xxxxx XxxxxxxXxxxxxxx0000 xx xxx xxxxxxxxx xxxxx XxxxxxxXxxxxxx xx xxxxx xxx $$Xxx$XxxxxXxxxxxxXxxx$$ xxxxxx$ xxx xxxx xxxxxx xxx xxxxxx xx xxx xxxxxxx xxxxxx xx xxxxx xxx xxxxxxxx xxxxxxxx.
+Xxx $$Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx$$ xxxxxx xxxx xxx xxxx xxxxxx xxx xxxx xxxx.
 
-### Example 3: Get the copy status for a blob in a container by using the pipeline
+### Xxxxxxx 0$ Xxx xxx xxxx xxxxxx xxx x xxxx xx x xxxxxxxxx xx xxxxx xxx xxxxxxxx
 ```
 C:\PS>Get-AzureStorageContainer -Name "ContosoUploads" | Get-AzureStorageBlobCopyState -Blob "ContosoPlanning2015"
 ```
 
-This command gets the container named by using the **Get-AzureStorageBlob** cmdlet, and then passes the result to the current cmdlet.
-The **Get-AzureStorageContainer** cmdlet gets the copy status for the blob named ContosoPlanning2015 in that container.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxx xxxxx xx xxxxx xxx $$Xxx$XxxxxXxxxxxxXxxx$$ xxxxxx$ xxx xxxx xxxxxx xxx xxxxxx xx xxx xxxxxxx xxxxxx.
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxxxxx$$ xxxxxx xxxx xxx xxxx xxxxxx xxx xxx xxxx xxxxx XxxxxxxXxxxxxxx0000 xx xxxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Blob
-Specifies the name of a blob.
-This cmdlet gets the state of the blob copy operation for the azure_2 Storage blob that this parameter specifies.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxx.
+Xxxx xxxxxx xxxx xxx xxxxx xx xxx xxxx xxxx xxxxxxxxx xxx xxx xxxxx$0 Xxxxxxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -78,10 +78,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ClientTimeoutPerRequest
-Specifies the client-side time-out interval, in seconds, for one service request.
-If the previous call fails in the specified interval, this cmdlet retries the request.
-If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -95,9 +95,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CloudBlob
-Specifies a **CloudBlob** object from azure_2 Storage Client library.
-To obtain a **CloudBlob** object, use the Get-AzureStorageBlob cmdlet.
+### $XxxxxXxxx
+Xxxxxxxxx x $$XxxxxXxxx$$ xxxxxx xxxx xxxxx$0 Xxxxxxx Xxxxxx xxxxxxx.
+Xx xxxxxx x $$XxxxxXxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
 ```yaml
 Type: CloudBlob
@@ -111,10 +111,10 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -CloudBlobContainer
-Specifies a **CloudBlobContainer** object from the azure_2 Storage Client library.
-This cmdlet gets the copy status of a blob in the container that this parameter specifies.
-To obtain a **CloudBlobContainer** object, use the Get-AzureStorageContainer cmdlet.
+### $XxxxxXxxxXxxxxxxxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx xxxx xxx xxxxx$0 Xxxxxxx Xxxxxx xxxxxxx.
+Xxxx xxxxxx xxxx xxx xxxx xxxxxx xx x xxxx xx xxx xxxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
 
 ```yaml
 Type: CloudBlobContainer
@@ -128,12 +128,12 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ConcurrentTaskCount
-Specifies the maximum concurrent network calls.
-You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
-The specified value is an absolute count and is not multiplied by the core count.
-This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
-The default value is 10.
+### $XxxxxxxxxxXxxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxxxxx xxx xxxx xxxxxx xxxxxxx xxxxxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxxx$ xxxx xx 000 xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx xxxxx xx 00.
 
 ```yaml
 Type: Int32]
@@ -147,9 +147,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Container
-Specifies the name of a container.
-This cmdlet gets the copy status for a blob in the container that this parameter specifies.
+### $Xxxxxxxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxxx.
+Xxxx xxxxxx xxxx xxx xxxx xxxxxx xxx x xxxx xx xxx xxxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -163,9 +163,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -179,9 +179,9 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-Specifies the service side time-out interval, in seconds, for a request.
-If the specified interval elapses before the service processes the request, the storage service returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
+Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -195,9 +195,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WaitForComplete
-Indicates that this cmdlet waits for the copy to finish.
-If you do not specify this parameter, this cmdlet returns a result immediately.
+### $XxxxXxxXxxxxxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxx xxx xxx xxxx xx xxxxxx.
+Xx xxx xx xxx xxxxxxx xxxx xxxxxxxxx$ xxxx xxxxxx xxxxxxx x xxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -211,18 +211,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-### CopyState
+### XxxxXxxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Start-AzureStorageBlobCopy](606cb5d3-e7fd-4647-b980-329334abc795)
+[Xxxxx$XxxxxXxxxxxxXxxxXxxx](606cb5d3-e7fd-4647-b980-329334abc795)
 
-[Stop-AzureStorageBlobCopy](c75b9de9-597d-4986-980e-10e49eeef4a7)
+[Xxxx$XxxxxXxxxxxxXxxxXxxx](c75b9de9-597d-4986-980e-10e49eeef4a7)
 
 

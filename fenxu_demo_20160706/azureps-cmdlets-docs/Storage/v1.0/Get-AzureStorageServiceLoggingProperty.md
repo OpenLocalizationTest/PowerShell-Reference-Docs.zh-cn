@@ -6,33 +6,33 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageServiceLoggingProperty
-## SYNOPSIS
-Gets logging properties for azure_2 Storage services.
+# Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx
+## XXXXXXXX
+Xxxx xxxxxxx xxxxxxxxxx xxx xxxxx$0 Xxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureStorageServiceLoggingProperty [-ServiceType] [-Context <AzureStorageContext>]
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageServiceLoggingProperty** cmdlet gets logging properties for azure_2 Storage services.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx$$ xxxxxx xxxx xxxxxxx xxxxxxxxxx xxx xxxxx$0 Xxxxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get logging properties for the Blob service
+### Xxxxxxx 0$ Xxx xxxxxxx xxxxxxxxxx xxx xxx Xxxx xxxxxxx
 ```
 C:\PS>Get-AzureStorageServiceLoggingProperty -ServiceType Blob
 ```
 
-This command gets logging properties for blob storage.
+Xxxx xxxxxxx xxxx xxxxxxx xxxxxxxxxx xxx xxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -46,17 +46,14 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ServiceType
-Specifies the storage service type.
-This cmdlet gets the logging properties for the service type that this parameter specifies.
-psdx_paramvalues
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxx xxxx.
+Xxxx xxxxxx xxxx xxx xxxxxxx xxxxxxxxxx xxx xxx xxxxxxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+xxxx$xxxxxxxxxxx
 
--- Blob 
--- Table
--- Queue
--- File
+$$ Xxxx $$ Xxxxx $$ Xxxxx $$ Xxxx
 
-The value of File is not currently supported.
+Xxx xxxxx xx Xxxx xx xxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -71,16 +68,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Set-AzureStorageServiceLoggingProperty](3981e765-b861-4024-a1d2-2c60590ebe0e)
+[Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx](3981e765-b861-4024-a1d2-2c60590ebe0e)
 
 

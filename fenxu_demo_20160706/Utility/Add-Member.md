@@ -4,60 +4,60 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293942
 schema: 2.0.0
 ---
 
-# Add-Member
-## SYNOPSIS
-Adds custom properties and methods to an instance of a Windows PowerShell object.
+# Xxx$Xxxxxx
+## XXXXXXXX
+Xxxx xxxxxx xxxxxxxxxx xxx xxxxxxx xx xx xxxxxxxx xx x Xxxxxxx XxxxxXxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### TypeNameSet (Default)
+### XxxxXxxxXxx $Xxxxxxx$
 ```
 Add-Member -InputObject <PSObject> -TypeName <String> [-PassThru] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### MemberSet
+### XxxxxxXxx
 ```
 Add-Member -InputObject <PSObject> [-MemberType] <PSMemberTypes> [-Name] <String> [[-Value] <Object>]
  [[-SecondValue] <Object>] [-TypeName <String>] [-Force] [-PassThru] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### NotePropertySingleMemberSet
+### XxxxXxxxxxxxXxxxxxXxxxxxXxx
 ```
 Add-Member -InputObject <PSObject> [-TypeName <String>] [-Force] [-PassThru] [-NotePropertyName] <String>
  [-NotePropertyValue] <Object> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### NotePropertyMultiMemberSet
+### XxxxXxxxxxxxXxxxxXxxxxxXxx
 ```
 Add-Member -InputObject <PSObject> [-TypeName <String>] [-Force] [-PassThru]
  [-NotePropertyMembers] <IDictionary> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Add-Member cmdlet lets you add members (properties and methods) to an instance of a Windows PowerShell object.
-For example, you can add a NoteProperty member that contains a description of the object or a ScriptMethod member that runs a script to change the object.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxxx xxxxxx xxxx xxx xxx xxxxxxx $xxxxxxxxxx xxx xxxxxxx$ xx xx xxxxxxxx xx x Xxxxxxx XxxxxXxxxx xxxxxx.
+Xxx xxxxxxx$ xxx xxx xxx x XxxxXxxxxxxx xxxxxx xxxx xxxxxxxx x xxxxxxxxxxx xx xxx xxxxxx xx x XxxxxxXxxxxx xxxxxx xxxx xxxx x xxxxxx xx xxxxxx xxx xxxxxx.
 
-To use Add-Member, pipe the object to Add-Member, or use the InputObject parameter to specify the object.
-Use the MemberType parameter to specify the type of member that you want to add, use the Name parameter to assign a name to the new member, and use the Value parameter to set the value of the member.
+Xx xxx Xxx$Xxxxxx$ xxxx xxx xxxxxx xx Xxx$Xxxxxx$ xx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxx.
+Xxx xxx XxxxxxXxxx xxxxxxxxx xx xxxxxxx xxx xxxx xx xxxxxx xxxx xxx xxxx xx xxx$ xxx xxx Xxxx xxxxxxxxx xx xxxxxx x xxxx xx xxx xxx xxxxxx$ xxx xxx xxx Xxxxx xxxxxxxxx xx xxx xxx xxxxx xx xxx xxxxxx.
 
-The properties and methods that you add are added only to the particular instance of the object that you specify.
-Add-Member does not change the object type.
-To create a new object type, use the Add-Type cmdlet.
-You can also use the Export-Clixml cmdlet to save the instance of the object, including the additional members, in a file.
-Then you can use the Import-Clixml cmdlet to re-create the instance of the object from the information that is stored in the exported file.
+Xxx xxxxxxxxxx xxx xxxxxxx xxxx xxx xxx xxx xxxxx xxxx xx xxx xxxxxxxxxx xxxxxxxx xx xxx xxxxxx xxxx xxx xxxxxxx.
+Xxx$Xxxxxx xxxx xxx xxxxxx xxx xxxxxx xxxx.
+Xx xxxxxx x xxx xxxxxx xxxx$ xxx xxx Xxx$Xxxx xxxxxx.
+Xxx xxx xxxx xxx xxx Xxxxxx$Xxxxxx xxxxxx xx xxxx xxx xxxxxxxx xx xxx xxxxxx$ xxxxxxxxx xxx xxxxxxxxxx xxxxxxx$ xx x xxxx.
+Xxxx xxx xxx xxx xxx Xxxxxx$Xxxxxx xxxxxx xx xx$xxxxxx xxx xxxxxxxx xx xxx xxxxxx xxxx xxx xxxxxxxxxxx xxxx xx xxxxxx xx xxx xxxxxxxx xxxx.
 
-Beginning in Windows PowerShell 3.0, Add-Member has new features that make it easier to add note properties to objects.
-You can use the NotePropertyName and NotePropertyValue parameters to define a note property or use the NotePropertyMembers parameter, which takes a hash table of note property names and values.
+Xxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0$ Xxx$Xxxxxx xxx xxx xxxxxxxx xxxx xxxx xx xxxxxx xx xxx xxxx xxxxxxxxxx xx xxxxxxx.
+Xxx xxx xxx xxx XxxxXxxxxxxxXxxx xxx XxxxXxxxxxxxXxxxx xxxxxxxxxx xx xxxxxx x xxxx xxxxxxxx xx xxx xxx XxxxXxxxxxxxXxxxxxx xxxxxxxxx$ xxxxx xxxxx x xxxx xxxxx xx xxxx xxxxxxxx xxxxx xxx xxxxxx.
 
-Also, beginning in Windows PowerShell 3.0, the PassThru parameter, which generates an output object, is needed less frequently.
-Add-Member now adds the new members directly to the input object of more types.
-For more information, see the PassThru parameter description.
+Xxxx$ xxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0$ xxx XxxxXxxx xxxxxxxxx$ xxxxx xxxxxxxxx xx xxxxxx xxxxxx$ xx xxxxxx xxxx xxxxxxxxxx.
+Xxx$Xxxxxx xxx xxxx xxx xxx xxxxxxx xxxxxxxx xx xxx xxxxx xxxxxx xx xxxx xxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxx XxxxXxxx xxxxxxxxx xxxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = dir c:\ps-test\test.txt
 PS C:\>$a | Add-Member -NotePropertyName Status -NotePropertyValue Done
@@ -66,19 +66,19 @@ PS C:\>$a.Status
 Done
 ```
 
-These commands add the Status note property with a value of "Done" to the FileInfo object that represents the Test.txt file.
+Xxxxx xxxxxxxx xxx xxx Xxxxxx xxxx xxxxxxxx xxxx x xxxxx xx $Xxxx$ xx xxx XxxxXxxx xxxxxx xxxx xxxxxxxxxx xxx Xxxx.xxx xxxx.
 
-The first command uses the Get-ChildItem cmdlet (alias = "dir) to get the Test.txt file.
-It saves it in the $a variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XxxxxXxxx xxxxxx $xxxxx $ $xxx$ xx xxx xxx Xxxx.xxx xxxx.
+Xx xxxxx xx xx xxx $x xxxxxxxx.
 
-The second and third commands add the note property to the object in $a.
-The third command omits the optional parameter names, so the parameter values must be in the correct Name-Value order.
-These commands are equivalent and can be used interchangeably.
+Xxx xxxxxx xxx xxxxx xxxxxxxx xxx xxx xxxx xxxxxxxx xx xxx xxxxxx xx $x.
+Xxx xxxxx xxxxxxx xxxxx xxx xxxxxxxx xxxxxxxxx xxxxx$ xx xxx xxxxxxxxx xxxxxx xxxx xx xx xxx xxxxxxx Xxxx$Xxxxx xxxxx.
+Xxxxx xxxxxxxx xxx xxxxxxxxxx xxx xxx xx xxxx xxxxxxxxxxxxxxx.
 
-The fourth command uses dot notation to get the value of the Status property of the object in $a.
-As the output shows, the value is "Done".
+Xxx xxxxxx xxxxxxx xxxx xxx xxxxxxxx xx xxx xxx xxxxx xx xxx Xxxxxx xxxxxxxx xx xxx xxxxxx xx $x.
+Xx xxx xxxxxx xxxxx$ xxx xxxxx xx $Xxxx$.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = dir c:\ps-test\test.txt
 PS C:\>$a | Add-Member -MemberType AliasProperty -Name FileLength -Value Length
@@ -86,16 +86,16 @@ PS C:\>$a.FileLength
 2394
 ```
 
-These commands add the FileLength alias property to the object that represents the Test.txt file.
-The new property is an alias for the Length property.
+Xxxxx xxxxxxxx xxx xxx XxxxXxxxxx xxxxx xxxxxxxx xx xxx xxxxxx xxxx xxxxxxxxxx xxx Xxxx.xxx xxxx.
+Xxx xxx xxxxxxxx xx xx xxxxx xxx xxx Xxxxxx xxxxxxxx.
 
-The first command use the Get-ChildItem cmdlet (alias = "dir") to get the Test.txt file.
+Xxx xxxxx xxxxxxx xxx xxx Xxx$XxxxxXxxx xxxxxx $xxxxx $ $xxx$$ xx xxx xxx Xxxx.xxx xxxx.
 
-The second command adds the FileLength alias property.
+Xxx xxxxxx xxxxxxx xxxx xxx XxxxXxxxxx xxxxx xxxxxxxx.
 
-The third command uses dot notation to get the value of the new FileLength property.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxxx xx xxx xxx xxxxx xx xxx xxx XxxxXxxxxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = "A string"
 PS C:\>$a = $a | Add-Member @{StringUse="Display"} -PassThru
@@ -103,15 +103,15 @@ PS C:\>$a.StringUse
 Display
 ```
 
-These commands add the StringUse note property to a string.
-Because Add-Member cannot add types to String input objects, the command uses the  PassThru parameter to generate an output object.
-The last command in the example displays the new property.
+Xxxxx xxxxxxxx xxx xxx XxxxxxXxx xxxx xxxxxxxx xx x xxxxxx.
+Xxxxxxx Xxx$Xxxxxx xxxxxx xxx xxxxx xx Xxxxxx xxxxx xxxxxxx$ xxx xxxxxxx xxxx xxx  XxxxXxxx xxxxxxxxx xx xxxxxxxx xx xxxxxx xxxxxx.
+Xxx xxxx xxxxxxx xx xxx xxxxxxx xxxxxxxx xxx xxx xxxxxxxx.
 
-The command uses the NotePropertyMembers parameter, but omits the parameter name, which is optional.
-The value of the NotePropertyMembers parameter is a hash table.
-The key is the note property name, StringUse, and the value is the note property value, Display.
+Xxx xxxxxxx xxxx xxx XxxxXxxxxxxxXxxxxxx xxxxxxxxx$ xxx xxxxx xxx xxxxxxxxx xxxx$ xxxxx xx xxxxxxxx.
+Xxx xxxxx xx xxx XxxxXxxxxxxxXxxxxxx xxxxxxxxx xx x xxxx xxxxx.
+Xxx xxx xx xxx xxxx xxxxxxxx xxxx$ XxxxxxXxx$ xxx xxx xxxxx xx xxx xxxx xxxxxxxx xxxxx$ Xxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = "This is a string."
 PS C:\>$a = Add-Member -InputObject $a -MemberType ScriptMethod -Name PadBoth -Value {$p = $this.PadLeft($this.Length + 1); $p.PadRight($p.Length + 1)} -PassThru
@@ -119,23 +119,23 @@ PS C:\>$a.Padboth()
 This is a string.
 ```
 
-These commands add the PadBoth script method to a string object.
+Xxxxx xxxxxxxx xxx xxx XxxXxxx xxxxxx xxxxxx xx x xxxxxx xxxxxx.
 
-The first command creates a string and saves it in the $a variable.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxxx xxx xxxxx xx xx xxx $x xxxxxxxx.
 
-The second command adds the Padboth script method to the object in the $a variable.
-The Value parameter defines the new script method.
-It uses the PadRight and PadLeft methods of a string to add one space the left and one space to the right of the string.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxxx xxxxxx xxxxxx xx xxx xxxxxx xx xxx $x xxxxxxxx.
+Xxx Xxxxx xxxxxxxxx xxxxxxx xxx xxx xxxxxx xxxxxx.
+Xx xxxx xxx XxxXxxxx xxx XxxXxxx xxxxxxx xx x xxxxxx xx xxx xxx xxxxx xxx xxxx xxx xxx xxxxx xx xxx xxxxx xx xxx xxxxxx.
 
-The Value parameter also uses the $this automatic variable, which represents the current object.
-The $this variable is valid only in script blocks that define new properties and methods.
+Xxx Xxxxx xxxxxxxxx xxxx xxxx xxx $xxxx xxxxxxxxx xxxxxxxx$ xxxxx xxxxxxxxxx xxx xxxxxxx xxxxxx.
+Xxx $xxxx xxxxxxxx xx xxxxx xxxx xx xxxxxx xxxxxx xxxx xxxxxx xxx xxxxxxxxxx xxx xxxxxxx.
 
-The command includes the PassThru parameter which directs Add-Member to return an instance of the object that includes the new script property.
-By default, Add-Member adds members to PSObjects and does not generate any output.
+Xxx xxxxxxx xxxxxxxx xxx XxxxXxxx xxxxxxxxx xxxxx xxxxxxx Xxx$Xxxxxx xx xxxxxx xx xxxxxxxx xx xxx xxxxxx xxxx xxxxxxxx xxx xxx xxxxxx xxxxxxxx.
+Xx xxxxxxx$ Xxx$Xxxxxx xxxx xxxxxxx xx XXXxxxxxx xxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-The third command uses dot notation to call the new PadBoth script method on the object in the $a variable.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxxx xx xxxx xxx xxx XxxXxxx xxxxxx xxxxxx xx xxx xxxxxx xx xxx $x xxxxxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$event = Get-EventLog -LogName System -Newest 1
 PS C:\>$event.TimeWritten | Get-Member
@@ -160,26 +160,26 @@ CompareTo        Method                int CompareTo(System.Object value), int C
 Contains         Method                bool Contains(string value)
 ```
 
-These commands add the "When" alias property to an event in the System event log.
-The event is an EventLogEntry object that is returned by the Get-EventLog cmdlet.
+Xxxxx xxxxxxxx xxx xxx $Xxxx$ xxxxx xxxxxxxx xx xx xxxxx xx xxx Xxxxxx xxxxx xxx.
+Xxx xxxxx xx xx XxxxxXxxXxxxx xxxxxx xxxx xx xxxxxxxx xx xxx Xxx$XxxxxXxx xxxxxx.
 
-The "When" alias property is an alias for the TimeWritten property of the object.
-The SecondValue parameter is used to specify that the property value should be converted to type System.String when accessed by using the AliasProperty.
-The TimeWritten property is a DateTime object.
+Xxx $Xxxx$ xxxxx xxxxxxxx xx xx xxxxx xxx xxx XxxxXxxxxxx xxxxxxxx xx xxx xxxxxx.
+Xxx XxxxxxXxxxx xxxxxxxxx xx xxxx xx xxxxxxx xxxx xxx xxxxxxxx xxxxx xxxxxx xx xxxxxxxxx xx xxxx Xxxxxx.Xxxxxx xxxx xxxxxxxx xx xxxxx xxx XxxxxXxxxxxxx.
+Xxx XxxxXxxxxxx xxxxxxxx xx x XxxxXxxx xxxxxx.
 
-The first command uses the Get-EventLog cmdlet to get the newest event in the System event log.
-It stores the event in the $Event variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XxxxxXxx xxxxxx xx xxx xxx xxxxxx xxxxx xx xxx Xxxxxx xxxxx xxx.
+Xx xxxxxx xxx xxxxx xx xxx $Xxxxx xxxxxxxx.
 
-To demonstrate that the TimeWritten property is a DateTime type, the second command uses dot notation to get the TimeWritten property of that event and pipes it to the Get-Member cmdlet.
+Xx xxxxxxxxxxx xxxx xxx XxxxXxxxxxx xxxxxxxx xx x XxxxXxxx xxxx$ xxx xxxxxx xxxxxxx xxxx xxx xxxxxxxx xx xxx xxx XxxxXxxxxxx xxxxxxxx xx xxxx xxxxx xxx xxxxx xx xx xxx Xxx$Xxxxxx xxxxxx.
 
-The third command uses the Add-Member cmdlet to add the When alias property to the object instance in the $Event variable.
-The Name parameter assigns the name, "When," and the Value parameter specifies that When is an alias for the TimeWritten property.
-The SecondValue parameter indicates that the value that the When method returns should be cast to a System.String type.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxx xxxxxx xx xxx xxx Xxxx xxxxx xxxxxxxx xx xxx xxxxxx xxxxxxxx xx xxx $Xxxxx xxxxxxxx.
+Xxx Xxxx xxxxxxxxx xxxxxxx xxx xxxx$ $Xxxx$$ xxx xxx Xxxxx xxxxxxxxx xxxxxxxxx xxxx Xxxx xx xx xxxxx xxx xxx XxxxXxxxxxx xxxxxxxx.
+Xxx XxxxxxXxxxx xxxxxxxxx xxxxxxxxx xxxx xxx xxxxx xxxx xxx Xxxx xxxxxx xxxxxxx xxxxxx xx xxxx xx x Xxxxxx.Xxxxxx xxxx.
 
-The fourth command uses dot notation to call the new When method.
-The command pipes the method value to the Get-Member cmdlet to confirm that it has returned a string.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxxxxxx xx xxxx xxx xxx Xxxx xxxxxx.
+Xxx xxxxxxx xxxxx xxx xxxxxx xxxxx xx xxx Xxx$Xxxxxx xxxxxx xx xxxxxxx xxxx xx xxx xxxxxxxx x xxxxxx.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>function Copy-Property ($From, $To)
 {     foreach ($p in Get-Member -InputObject $From -MemberType Property)
@@ -189,19 +189,19 @@ PS C:\>function Copy-Property ($From, $To)
 }
 ```
 
-This function copies all of the properties of one object to another object.
+Xxxx xxxxxxxx xxxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxxxx xx xxxxxxx xxxxxx.
 
-The first command in the function declares the function name and lists its parameters.
+Xxx xxxxx xxxxxxx xx xxx xxxxxxxx xxxxxxxx xxx xxxxxxxx xxxx xxx xxxxx xxx xxxxxxxxxx.
 
-The Foreach loop uses the Get-Member cmdlet to get each of the properties of the From object.
-The commands within the ForEach loop are performed in series on each of the properties.
+Xxx Xxxxxxx xxxx xxxx xxx Xxx$Xxxxxx xxxxxx xx xxx xxxx xx xxx xxxxxxxxxx xx xxx Xxxx xxxxxx.
+Xxx xxxxxxxx xxxxxx xxx XxxXxxx xxxx xxx xxxxxxxxx xx xxxxxx xx xxxx xx xxx xxxxxxxxxx.
 
-The Add-Member command adds the property of the From object to the To object as a NoteProperty.
-It uses the Force parameter add members with the same member name.
+Xxx Xxx$Xxxxxx xxxxxxx xxxx xxx xxxxxxxx xx xxx Xxxx xxxxxx xx xxx Xx xxxxxx xx x XxxxXxxxxxxx.
+Xx xxxx xxx Xxxxx xxxxxxxxx xxx xxxxxxx xxxx xxx xxxx xxxxxx xxxx.
 
-The last command in the function gives the new property the same name as the original property.
+Xxx xxxx xxxxxxx xx xxx xxxxxxxx xxxxx xxx xxx xxxxxxxx xxx xxxx xxxx xx xxx xxxxxxxx xxxxxxxx.
 
-### Example 7
+### Xxxxxxx 0
 ```
 PS C:\>$Asset = New-Object -TypeName PSObject
 PS C:\>$d = [ordered]@{Name="Server30";System="Server Core";PSVersion="4.0"}
@@ -220,25 +220,25 @@ PSVersion   NoteProperty System.String PSVersion=4.0
 System      NoteProperty System.String System=Server Core
 ```
 
-This example creates the Asset custom object.
+Xxxx xxxxxxx xxxxxxx xxx Xxxxx xxxxxx xxxxxx.
 
-The first command uses the New-Object cmdlet to create a PSObject.
-The command saves the PSObject in the $Asset variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxx xxxxxx xx xxxxxx x XXXxxxxx.
+Xxx xxxxxxx xxxxx xxx XXXxxxxx xx xxx $Xxxxx xxxxxxxx.
 
-The second command uses the \[ordered\] type accelerator to create an ordered dictionary of names and values.
-The command saves the result in the $d variable.
+Xxx xxxxxx xxxxxxx xxxx xxx $$xxxxxxx$$ xxxx xxxxxxxxxxx xx xxxxxx xx xxxxxxx xxxxxxxxxx xx xxxxx xxx xxxxxx.
+Xxx xxxxxxx xxxxx xxx xxxxxx xx xxx $x xxxxxxxx.
 
-The third command uses the NotePropertyMembers parameter of the Add-Member cmdlet to add the dictionary in the $d variable to the PSObject.
-It uses the TypeName property to assign a new name, Asset, to the PSObject.
+Xxx xxxxx xxxxxxx xxxx xxx XxxxXxxxxxxxXxxxxxx xxxxxxxxx xx xxx Xxx$Xxxxxx xxxxxx xx xxx xxx xxxxxxxxxx xx xxx $x xxxxxxxx xx xxx XXXxxxxx.
+Xx xxxx xxx XxxxXxxx xxxxxxxx xx xxxxxx x xxx xxxx$ Xxxxx$ xx xxx XXXxxxxx.
 
-The fourth command sends the new Asset object in the $Asset variable to the Get-Member cmdlet.
-The output shows that the object has a type name of "Asset" and the note properties that we defined in the ordered dictionary.
+Xxx xxxxxx xxxxxxx xxxxx xxx xxx Xxxxx xxxxxx xx xxx $Xxxxx xxxxxxxx xx xxx Xxx$Xxxxxx xxxxxx.
+Xxx xxxxxx xxxxx xxxx xxx xxxxxx xxx x xxxx xxxx xx $Xxxxx$ xxx xxx xxxx xxxxxxxxxx xxxx xx xxxxxxx xx xxx xxxxxxx xxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Force
-Adds a new member even the object has a custom member with the same name.
-You cannot use the Force parameter to replace a standard member of a type.
+### $Xxxxx
+Xxxx x xxx xxxxxx xxxx xxx xxxxxx xxx x xxxxxx xxxxxx xxxx xxx xxxx xxxx.
+Xxx xxxxxx xxx xxx Xxxxx xxxxxxxxx xx xxxxxxx x xxxxxxxx xxxxxx xx x xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -252,8 +252,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -268,8 +268,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -283,9 +283,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the object to which the new member is added.
-Enter a variable that contains the objects, or type a command or expression that gets the objects.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxx xx xxxxx xxx xxx xxxxxx xx xxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
 ```yaml
 Type: PSObject
@@ -299,16 +299,15 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -MemberType
-Specifies the type of the member to add. 
-This parameter is mandatory.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xx xxx. Xxxx xxxxxxxxx xx xxxxxxxxx.
 
-The valid values for this parameter are: "NoteProperty,AliasProperty,ScriptProperty,CodeProperty,ScriptMethod,CodeMethod" AliasProperty, CodeMethod, CodeProperty, Noteproperty, ScriptMethod, and ScriptProperty.
+Xxx xxxxx xxxxxx xxx xxxx xxxxxxxxx xxx$ $XxxxXxxxxxxx$XxxxxXxxxxxxx$XxxxxxXxxxxxxx$XxxxXxxxxxxx$XxxxxxXxxxxx$XxxxXxxxxx$ XxxxxXxxxxxxx$ XxxxXxxxxx$ XxxxXxxxxxxx$ Xxxxxxxxxxxx$ XxxxxxXxxxxx$ xxx XxxxxxXxxxxxxx.
 
-For information about these values, see "PSMemberTypes Enumeration" in MSDN at http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.psmembertypes(v=vs.85).aspx.
+Xxx xxxxxxxxxxx xxxxx xxxxx xxxxxx$ xxx $XXXxxxxxXxxxx Xxxxxxxxxxx$ xx XXXX xx xxxx$$$xxxx.xxxxxxxxx.xxx$xx$xx$xxxxxxx$xxxxxxx$xxxxxxx$xxxxxx.xxxxxxxxxx.xxxxxxxxxx.xxxxxxxxxxxxx$x$xx.00$.xxxx.
 
-Not all objects have every type of member.
-If you specify a member type that the object does not have, Windows PowerShell returns an error.
+Xxx xxx xxxxxxx xxxx xxxxx xxxx xx xxxxxx.
+Xx xxx xxxxxxx x xxxxxx xxxx xxxx xxx xxxxxx xxxx xxx xxxx$ Xxxxxxx XxxxxXxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: PSMemberTypes
@@ -323,8 +322,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the member to be added.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xx xx xxxxx.
 
 ```yaml
 Type: String
@@ -338,16 +337,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Returns the newly extended object.
-By default, this cmdlet does not generate any output.
+### $XxxxXxxx
+Xxxxxxx xxx xxxxx xxxxxxxx xxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-For most objects, Add-Member adds the new members to the input object.
-However, when the input object is a string, Add-Member cannot add the member to the input object.
-For these objects, use the PassThru parameter to create an output object.
+Xxx xxxx xxxxxxx$ Xxx$Xxxxxx xxxx xxx xxx xxxxxxx xx xxx xxxxx xxxxxx.
+Xxxxxxx$ xxxx xxx xxxxx xxxxxx xx x xxxxxx$ Xxx$Xxxxxx xxxxxx xxx xxx xxxxxx xx xxx xxxxx xxxxxx.
+Xxx xxxxx xxxxxxx$ xxx xxx XxxxXxxx xxxxxxxxx xx xxxxxx xx xxxxxx xxxxxx.
 
-In Windows PowerShell 2.0, Add-Member added members only to the PSObject wrapper of objects, not to the object.
-Use the PassThru parameter to create an output object for any object that has a PSObject wrapper.
+Xx Xxxxxxx XxxxxXxxxx 0.0$ Xxx$Xxxxxx xxxxx xxxxxxx xxxx xx xxx XXXxxxxx xxxxxxx xx xxxxxxx$ xxx xx xxx xxxxxx.
+Xxx xxx XxxxXxxx xxxxxxxxx xx xxxxxx xx xxxxxx xxxxxx xxx xxx xxxxxx xxxx xxx x XXXxxxxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -361,15 +360,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SecondValue
-Specifies optional additional information about AliasProperty, ScriptProperty, CodeProperty, or CodeMethod members.
-If used when adding an AliasProperty, this parameter must be a data type.
-A conversion (cast) to the specified data type is added to the value of the AliasProperty.
-For example, if you add an AliasProperty that provides an alternate name for a string property, you can also specify a SecondValue parameter of System.Int32 to indicate that the value of that string property should be converted to an integer when accessed by using the corresponding AliasProperty.
+### $XxxxxxXxxxx
+Xxxxxxxxx xxxxxxxx xxxxxxxxxx xxxxxxxxxxx xxxxx XxxxxXxxxxxxx$ XxxxxxXxxxxxxx$ XxxxXxxxxxxx$ xx XxxxXxxxxx xxxxxxx.
+Xx xxxx xxxx xxxxxx xx XxxxxXxxxxxxx$ xxxx xxxxxxxxx xxxx xx x xxxx xxxx.
+X xxxxxxxxxx $xxxx$ xx xxx xxxxxxxxx xxxx xxxx xx xxxxx xx xxx xxxxx xx xxx XxxxxXxxxxxxx.
+Xxx xxxxxxx$ xx xxx xxx xx XxxxxXxxxxxxx xxxx xxxxxxxx xx xxxxxxxxx xxxx xxx x xxxxxx xxxxxxxx$ xxx xxx xxxx xxxxxxx x XxxxxxXxxxx xxxxxxxxx xx Xxxxxx.Xxx00 xx xxxxxxxx xxxx xxx xxxxx xx xxxx xxxxxx xxxxxxxx xxxxxx xx xxxxxxxxx xx xx xxxxxxx xxxx xxxxxxxx xx xxxxx xxx xxxxxxxxxxxxx XxxxxXxxxxxxx.
 
-You can use the SecondValue parameter to specify an additional ScriptBlock when adding a ScriptProperty member.
-In that case, the first ScriptBlock, specified in the Value parameter, is used to get the value of a variable.
-The second ScriptBlock, specified in the SecondValue parameter, is used to set the value of a variable.
+Xxx xxx xxx xxx XxxxxxXxxxx xxxxxxxxx xx xxxxxxx xx xxxxxxxxxx XxxxxxXxxxx xxxx xxxxxx x XxxxxxXxxxxxxx xxxxxx.
+Xx xxxx xxxx$ xxx xxxxx XxxxxxXxxxx$ xxxxxxxxx xx xxx Xxxxx xxxxxxxxx$ xx xxxx xx xxx xxx xxxxx xx x xxxxxxxx.
+Xxx xxxxxx XxxxxxXxxxx$ xxxxxxxxx xx xxx XxxxxxXxxxx xxxxxxxxx$ xx xxxx xx xxx xxx xxxxx xx x xxxxxxxx.
 
 ```yaml
 Type: Object
@@ -383,9 +382,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Value
-Specifies the initial value of the added member.
-If you add an AliasProperty, CodeProperty, ScriptProperty or CodeMethod member, you can supply optional, additional information by using the SecondValue parameter.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxx xx xxx xxxxx xxxxxx.
+Xx xxx xxx xx XxxxxXxxxxxxx$ XxxxXxxxxxxx$ XxxxxxXxxxxxxx xx XxxxXxxxxx xxxxxx$ xxx xxx xxxxxx xxxxxxxx$ xxxxxxxxxx xxxxxxxxxxx xx xxxxx xxx XxxxxxXxxxx xxxxxxxxx.
 
 ```yaml
 Type: Object
@@ -399,13 +398,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NotePropertyMembers
-Specifies a hash table or ordered dictionary of note property names and values.
-Type a hash table or dictionary in which the keys are note property names and the values are note property values.
+### $XxxxXxxxxxxxXxxxxxx
+Xxxxxxxxx x xxxx xxxxx xx xxxxxxx xxxxxxxxxx xx xxxx xxxxxxxx xxxxx xxx xxxxxx.
+Xxxx x xxxx xxxxx xx xxxxxxxxxx xx xxxxx xxx xxxx xxx xxxx xxxxxxxx xxxxx xxx xxx xxxxxx xxx xxxx xxxxxxxx xxxxxx.
 
-For more information about hash tables and ordered dictionaries in Windows PowerShell, see about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175).
+Xxx xxxx xxxxxxxxxxx xxxxx xxxx xxxxxx xxx xxxxxxx xxxxxxxxxxxx xx Xxxxxxx XxxxxXxxxx$ xxx xxxxx$Xxxx$Xxxxxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: IDictionary
@@ -419,13 +418,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NotePropertyName
-Adds a note property with the specified name.
+### $XxxxXxxxxxxxXxxx
+Xxxx x xxxx xxxxxxxx xxxx xxx xxxxxxxxx xxxx.
 
-Use this parameter with the NotePropertyValue parameter.
-The parameter name (-NotePropertyName) is optional.
+Xxx xxxx xxxxxxxxx xxxx xxx XxxxXxxxxxxxXxxxx xxxxxxxxx.
+Xxx xxxxxxxxx xxxx $$XxxxXxxxxxxxXxxx$ xx xxxxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: String
@@ -439,13 +438,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NotePropertyValue
-Adds a note property with the specified value.
+### $XxxxXxxxxxxxXxxxx
+Xxxx x xxxx xxxxxxxx xxxx xxx xxxxxxxxx xxxxx.
 
-Use this parameter with the NotePropertyName parameter.
-The parameter name (-NotePropertyValue) is optional.
+Xxx xxxx xxxxxxxxx xxxx xxx XxxxXxxxxxxxXxxx xxxxxxxxx.
+Xxx xxxxxxxxx xxxx $$XxxxXxxxxxxxXxxxx$ xx xxxxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: Object
@@ -459,14 +458,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TypeName
-Specifies a name for the type.
+### $XxxxXxxx
+Xxxxxxxxx x xxxx xxx xxx xxxx.
 
-When the type is a class in the System namespace or a type that has a type accelerator, you can enter the short name of the type.
-Otherwise, the full type name is required. 
-This parameter is effective only when the input object is a PSObject.
+Xxxx xxx xxxx xx x xxxxx xx xxx Xxxxxx xxxxxxxxx xx x xxxx xxxx xxx x xxxx xxxxxxxxxxx$ xxx xxx xxxxx xxx xxxxx xxxx xx xxx xxxx.
+Xxxxxxxxx$ xxx xxxx xxxx xxxx xx xxxxxxxx. Xxxx xxxxxxxxx xx xxxxxxxxx xxxx xxxx xxx xxxxx xxxxxx xx x XXXxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: String
@@ -492,39 +490,39 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any object type to Add-Member.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xxxx xx Xxx$Xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None or System.Object
-When you use the PassThru parameter, Add-Member returns the newly-extended object.
-Otherwise, this cmdlet does not generate any output.
+### Xxxx xx Xxxxxx.Xxxxxx
+Xxxx xxx xxx xxx XxxxXxxx xxxxxxxxx$ Xxx$Xxxxxx xxxxxxx xxx xxxxx$xxxxxxxx xxxxxx.
+Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
-You can add members only to PSObject objects.
-To determine whether an object is a PSObject object, use the "is" operator.
-For example, to test an object stored in the $obj variable, type "$obj -is \[PSObject\]".
+## XXXXX
+Xxx xxx xxx xxxxxxx xxxx xx XXXxxxxx xxxxxxx.
+Xx xxxxxxxxx xxxxxxx xx xxxxxx xx x XXXxxxxx xxxxxx$ xxx xxx $xx$ xxxxxxxx.
+Xxx xxxxxxx$ xx xxxx xx xxxxxx xxxxxx xx xxx $xxx xxxxxxxx$ xxxx $$xxx $xx $$XXXxxxxx$$$.
 
-The names of the MemberType, Name, Value, and SecondValue parameters are optional.
-If you omit the parameter names, the unnamed parameter values must appear in this order: MemberType, Name, Value, SecondValue.
-If you include the parameter names, the parameters can appear in any order.
+Xxx xxxxx xx xxx XxxxxxXxxx$ Xxxx$ Xxxxx$ xxx XxxxxxXxxxx xxxxxxxxxx xxx xxxxxxxx.
+Xx xxx xxxx xxx xxxxxxxxx xxxxx$ xxx xxxxxxx xxxxxxxxx xxxxxx xxxx xxxxxx xx xxxx xxxxx$ XxxxxxXxxx$ Xxxx$ Xxxxx$ XxxxxxXxxxx.
+Xx xxx xxxxxxx xxx xxxxxxxxx xxxxx$ xxx xxxxxxxxxx xxx xxxxxx xx xxx xxxxx.
 
-You can use the $this automatic variable in script blocks that define the values of new properties and methods.
-The $this variable refers to the instance of the object to which the properties and methods are being added.
-For more information about the $this variable, see about_Automatic_Variables (http://go.microsoft.com/fwlink/?LinkID=113212).
+Xxx xxx xxx xxx $xxxx xxxxxxxxx xxxxxxxx xx xxxxxx xxxxxx xxxx xxxxxx xxx xxxxxx xx xxx xxxxxxxxxx xxx xxxxxxx.
+Xxx $xxxx xxxxxxxx xxxxxx xx xxx xxxxxxxx xx xxx xxxxxx xx xxxxx xxx xxxxxxxxxx xxx xxxxxxx xxx xxxxx xxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxx $xxxx xxxxxxxx$ xxx xxxxx$Xxxxxxxxx$Xxxxxxxxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Export-Clixml]()
+[Xxxxxx$Xxxxxx]()
 
-[Get-Member]()
+[Xxx$Xxxxxx]()
 
-[Import-Clixml]()
+[Xxxxxx$Xxxxxx]()
 
-[New-Object]()
+[Xxx$Xxxxxx]()
 
-[about_Automatic_Variables]()
+[xxxxx$Xxxxxxxxx$Xxxxxxxxx]()
 

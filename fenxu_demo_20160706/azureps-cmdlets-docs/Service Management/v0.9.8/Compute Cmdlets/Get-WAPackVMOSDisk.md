@@ -6,57 +6,57 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-WAPackVMOSDisk
-## SYNOPSIS
-Gets operating system disk objects for virtual machines.
+# Xxx$XXXxxxXXXXXxxx
+## XXXXXXXX
+Xxxx xxxxxxxxx xxxxxx xxxx xxxxxxx xxx xxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-WAPackVMOSDisk [[-ID] <Guid>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-WAPackVMOSDisk [[-Name] <String>]
 ```
 
-## DESCRIPTION
-These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
-This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+## XXXXXXXXXXX
+Xxxxx xxxxxx xxx xxxxxxxxxx xxx xxxx xx xxxxxxx xx xxx xxxxxx.
+Xxx xxx xxxxxxx xxxxxx$ xxx  Xxxxx XXXxxx Xxxxxxxxxxx$$$xxxx.xxxxxxxxx.xxx$xxxxxxx$xx000000.xxxx.
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.0 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxxx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xxxx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $xxx$xxxxxx xxxxx$.xxxxxxx.
 
-The Get-WAPackVMOSDisk cmdlet gets operating system disk objects for virtual machines.
+Xxx Xxx$XXXxxxXXXXXxxx xxxxxx xxxx xxxxxxxxx xxxxxx xxxx xxxxxxx xxx xxxxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get an operating system disk by using a name
+### Xxxxxxx 0$ Xxx xx xxxxxxxxx xxxxxx xxxx xx xxxxx x xxxx
 ```
 PS C:\>Get-WAPackVMOSDisk -Name "ContosoOSDisk"
 ```
 
-This command gets an operating system disk named ContosoOSDisk.
+Xxxx xxxxxxx xxxx xx xxxxxxxxx xxxxxx xxxx xxxxx XxxxxxxXXXxxx.
 
-### Example 2: Get an operating system disk by using an ID
+### Xxxxxxx 0$ Xxx xx xxxxxxxxx xxxxxx xxxx xx xxxxx xx XX
 ```
 PS C:\>Get-WAPackVMOSDisk -Id 66242D17-189F-480D-87CF-8E1D749998C8
 ```
 
-This command gets the operating system disk that has the specified ID.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxx xxxxxx xxxx xxxx xxx xxx xxxxxxxxx XX.
 
-### Example 3: Get all operating system disks
+### Xxxxxxx 0$ Xxx xxx xxxxxxxxx xxxxxx xxxxx
 ```
 PS C:\>Get-WAPackVMOSDisk
 ```
 
-This command gets all operating system disks.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxx xxxxxx xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ID
-Specifies the unique ID of an operating system disk.
+### $XX
+Xxxxxxxxx xxx xxxxxx XX xx xx xxxxxxxxx xxxxxx xxxx.
 
 ```yaml
 Type: Guid
@@ -70,8 +70,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of an operating system disk.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xx xxxxxxxxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -85,14 +85,14 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-WAPackVM](4b060a7d-da50-45ff-adb6-bcba63faa90b)
+[Xxx$XXXxxxXX](4b060a7d-da50-45ff-adb6-bcba63faa90b)
 
 

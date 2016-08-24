@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageContainerSASToken
-## SYNOPSIS
-Generates an SAS token for an azure_2 storage container.
+# Xxx$XxxxxXxxxxxxXxxxxxxxxXXXXxxxx
+## XXXXXXXX
+Xxxxxxxxx xx XXX xxxxx xxx xx xxxxx$0 xxxxxxx xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageContainerSASToken [-Name] <String> [-Context <AzureStorageContext>] [-ExpiryTime <DateTime]>]
  [-FullUri] [-IPAddressOrRange <String>]
@@ -20,44 +20,44 @@ New-AzureStorageContainerSASToken [-Name] <String> [-Context <AzureStorageContex
  -Policy <String>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageContainerSASToken [-Name] <String> [-Context <AzureStorageContext>] [-ExpiryTime <DateTime]>]
  [-FullUri] [-IPAddressOrRange <String>] [-Permission <String>]
  [-Protocol <Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]>] [-StartTime <DateTime]>]
 ```
 
-## DESCRIPTION
-The **New-AzureStorageContainerSASToken** cmdlet generates a Shared Access Signature (SAS) token for an azure_2 storage container.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxxxxxXXXXxxxx$$ xxxxxx xxxxxxxxx x Xxxxxx Xxxxxx Xxxxxxxxx $XXX$ xxxxx xxx xx xxxxx$0 xxxxxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Generate a container SAS token with full container permission
+### Xxxxxxx 0$ Xxxxxxxx x xxxxxxxxx XXX xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxxx
 ```
 PS C:\>New-AzureStorageContainerSASToken -Name "Test" -Permission rwdl
 ```
 
-This example generates a container SAS token with full container permission.
+Xxxx xxxxxxx xxxxxxxxx x xxxxxxxxx XXX xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxxx.
 
-### Example 2: Generate multiple container SAS token by pipeline
+### Xxxxxxx 0$ Xxxxxxxx xxxxxxxx xxxxxxxxx XXX xxxxx xx xxxxxxxx
 ```
 PS C:\>Get-AzureStorageContainer -Container test* | New-AzureStorageContainerSASToken -Permission rwdl
 ```
 
-This example generates multiple container SAS tokens by using the pipeline.
+Xxxx xxxxxxx xxxxxxxxx xxxxxxxx xxxxxxxxx XXX xxxxxx xx xxxxx xxx xxxxxxxx.
 
-### Example 3: Generate container SAS token with shared access policy
+### Xxxxxxx 0$ Xxxxxxxx xxxxxxxxx XXX xxxxx xxxx xxxxxx xxxxxx xxxxxx
 ```
 PS C:\>New-AzureStorageContainerSASToken -Name "Test" -Policy "PolicyName"
 ```
 
-This example generates a container SAS token with shared access policy.
+Xxxx xxxxxxx xxxxxxxxx x xxxxxxxxx XXX xxxxx xxxx xxxxxx xxxxxx xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies an azure_2 storage context.
-You can create it by using the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xxx xxx xxxxxx xx xx xxxxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -71,11 +71,11 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-Specifies the time at which the shared access signature becomes invalid.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxxxx.
 
-If the user sets the start time but not the expiry time, the expiry time is set to the start time plus one hour.
-If neither the start time nor the expiry time is specified, the expiry time is set to the current time plus one hour.
+Xx xxx xxxx xxxx xxx xxxxx xxxx xxx xxx xxx xxxxxx xxxx$ xxx xxxxxx xxxx xx xxx xx xxx xxxxx xxxx xxxx xxx xxxx.
+Xx xxxxxxx xxx xxxxx xxxx xxx xxx xxxxxx xxxx xx xxxxxxxxx$ xxx xxxxxx xxxx xx xxx xx xxx xxxxxxx xxxx xxxx xxx xxxx.
 
 ```yaml
 Type: DateTime]
@@ -89,8 +89,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FullUri
-Indicates that this cmdlet return the full blob URI and the shared access signature token.
+### $XxxxXxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxx xxx xxxx xxxx XXX xxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -104,8 +104,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -IPAddressOrRange
-@{Text=}
+### $XXXxxxxxxXxXxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -119,8 +119,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies an azure_2 storage container name.
+### $Xxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -134,8 +134,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Permission
-Specifies permissions for a storage container.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxxxxxxxxxx xxx x xxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -149,8 +149,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-Specifies an azure_2 Stored Access Policy.
+### $Xxxxxx
+Xxxxxxxxx xx xxxxx$0 Xxxxxx Xxxxxx Xxxxxx.
 
 ```yaml
 Type: String
@@ -164,8 +164,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Protocol
-@{Text=}
+### $Xxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]
@@ -179,8 +179,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies the time at which the shared access signature becomes valid.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: DateTime]
@@ -194,14 +194,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureStorageBlobSASToken](f08d2de2-a276-439c-b9a8-ee187a8c334e)
+[Xxx$XxxxxXxxxxxxXxxxXXXXxxxx](f08d2de2-a276-439c-b9a8-ee187a8c334e)
 
 

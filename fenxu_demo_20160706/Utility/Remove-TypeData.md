@@ -4,51 +4,51 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294005
 schema: 2.0.0
 ---
 
-# Remove-TypeData
-## SYNOPSIS
-Deletes extended types from the current session
+# Xxxxxx$XxxxXxxx
+## XXXXXXXX
+Xxxxxxx xxxxxxxx xxxxx xxxx xxx xxxxxxx xxxxxxx
 
-## SYNTAX
+## XXXXXX
 
-### RemoveTypeDataSet (Default)
+### XxxxxxXxxxXxxxXxx $Xxxxxxx$
 ```
 Remove-TypeData -TypeData <TypeData> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-### RemoveTypeSet
+### XxxxxxXxxxXxx
 ```
 Remove-TypeData [-TypeName] <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-### RemoveFileSet
+### XxxxxxXxxxXxx
 ```
 Remove-TypeData -Path <String[]> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Remove-TypeData cmdlet deletes extended type data from the current session.
-This cmdlet affects only the current session and sessions that are created in the current session.
+## XXXXXXXXXXX
+Xxx Xxxxxx$XxxxXxxx xxxxxx xxxxxxx xxxxxxxx xxxx xxxx xxxx xxx xxxxxxx xxxxxxx.
+Xxxx xxxxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx xxx xxxxxxxx xxxx xxx xxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-You can add properties and methods to objects in Windows PowerShell by defining them in Update-TypeData commands and  Types.ps1xml files.
-Remove-TypeData deletes those extended properties and methods from the current session.
-Remove-TypeData does not delete the Types.ps1xml files or delete any extended type definitions from the Types.ps1xml files.
-For more information about Types.ps1xml files, see about_Types.ps1xml (http://go.microsoft.com/fwlink/?LinkID=113274).
+Xxx xxx xxx xxxxxxxxxx xxx xxxxxxx xx xxxxxxx xx Xxxxxxx XxxxxXxxxx xx xxxxxxxx xxxx xx Xxxxxx$XxxxXxxx xxxxxxxx xxx  Xxxxx.xx0xxx xxxxx.
+Xxxxxx$XxxxXxxx xxxxxxx xxxxx xxxxxxxx xxxxxxxxxx xxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx.
+Xxxxxx$XxxxXxxx xxxx xxx xxxxxx xxx Xxxxx.xx0xxx xxxxx xx xxxxxx xxx xxxxxxxx xxxx xxxxxxxxxxx xxxx xxx Xxxxx.xx0xxx xxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx Xxxxx.xx0xxx xxxxx$ xxx xxxxx$Xxxxx.xx0xxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
 
-This cmdlet is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 PS C:\>Remove-TypeData -TypeName System.Array
 ```
 
-This command deletes from the session all type data for the System.Array type, including type data that was added by a Types.ps1xml file and dynamic type data that was added to the session by using the Update-TypeData cmdlet.
+Xxxx xxxxxxx xxxxxxx xxxx xxx xxxxxxx xxx xxxx xxxx xxx xxx Xxxxxx.Xxxxx xxxx$ xxxxxxxxx xxxx xxxx xxxx xxx xxxxx xx x Xxxxx.xx0xxx xxxx xxx xxxxxxx xxxx xxxx xxxx xxx xxxxx xx xxx xxxxxxx xx xxxxx xxx Xxxxxx$XxxxXxxx xxxxxx.
 
-### Example 2
+### Xxxxxxx 0
 ```
 The first command uses the Get-TypeData cmdlet to get extended type data for the System.DateTime type.The output shows that a DateTime property has been added to all System.DateTime objects in Windows PowerShell.
 PS C:\>Get-TypeData System.DateTime
@@ -68,41 +68,41 @@ PS C:\>(Get-Date).DateTime
 PS C:\>
 ```
 
-This command shows the effect of removing extended type data from a session.
+Xxxx xxxxxxx xxxxx xxx xxxxxx xx xxxxxxxx xxxxxxxx xxxx xxxx xxxx x xxxxxxx.
 
-### Example 3
+### Xxxxxxx 0
 ```
 PS C:\>Get-Module | Remove-TypeData
 ```
 
-This command removes all extended type data for module objects.
-When you pipe an object to Remove-TypeData, Remove-TypeData gets the name of the object type and removes all type data for all objects of that type.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxx xxxx xxxx xxx xxxxxx xxxxxxx.
+Xxxx xxx xxxx xx xxxxxx xx Xxxxxx$XxxxXxxx$ Xxxxxx$XxxxXxxx xxxx xxx xxxx xx xxx xxxxxx xxxx xxx xxxxxxx xxx xxxx xxxx xxx xxx xxxxxxx xx xxxx xxxx.
 
-### Example 4
+### Xxxxxxx 0
 ```
 PS C:\>Remove-TypeData -Path C:\WINDOWS\System32\WindowsPowerShell\v1.0\Modules\PSScheduledJob, C:\WINDOWS\System32\WindowsPowerShell\v1.0\Modules\PSWorkflow\PSWorkflow.types.ps1xml
 ```
 
-This command uses the Path parameter of the Remove-TypeData cmdlet to remove the extended types that are defined in the Types.ps1xml files that are added by the PSScheduledJob and PSWorkflow modules.
-This command does not affect dynamic type data that is added by using the Update-TypeData cmdlet.
-The command succeeds only when the modules have been imported into the current session.
+Xxxx xxxxxxx xxxx xxx Xxxx xxxxxxxxx xx xxx Xxxxxx$XxxxXxxx xxxxxx xx xxxxxx xxx xxxxxxxx xxxxx xxxx xxx xxxxxxx xx xxx Xxxxx.xx0xxx xxxxx xxxx xxx xxxxx xx xxx XXXxxxxxxxxXxx xxx XXXxxxxxxx xxxxxxx.
+Xxxx xxxxxxx xxxx xxx xxxxxx xxxxxxx xxxx xxxx xxxx xx xxxxx xx xxxxx xxx Xxxxxx$XxxxXxxx xxxxxx.
+Xxx xxxxxxx xxxxxxxx xxxx xxxx xxx xxxxxxx xxxx xxxx xxxxxxxx xxxx xxx xxxxxxx xxxxxxx.
 
-For more information about modules, see about_Modules (http://go.microsoft.com/fwlink/?LinkID=144311).
+Xxx xxxx xxxxxxxxxxx xxxxx xxxxxxx$ xxx xxxxx$Xxxxxxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
 
-### Example 5
+### Xxxxxxx 0
 ```
 PS C:\>Invoke-Command -Session $s {Get-TypeData -TypeName *CIM* | Remove-TypeData}
 ```
 
-This command removes extended types from a remote session.
-The command uses the Invoke-Command cmdlet to remove extended type data for all CIM types in the sessions in the $s variable.
+Xxxx xxxxxxx xxxxxxx xxxxxxxx xxxxx xxxx x xxxxxx xxxxxxx.
+Xxx xxxxxxx xxxx xxx Xxxxxx$Xxxxxxx xxxxxx xx xxxxxx xxxxxxxx xxxx xxxx xxx xxx XXX xxxxx xx xxx xxxxxxxx xx xxx $x xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-Enter the paths and file names of one or more Types.ps1xml files.
-Wildcards are not supported.
-If you omit the path, the default location is the current directory.
+### $XxxxxxxxxxxXxxxxx
+Xxxxx xxx xxxxx xxx xxxx xxxxx xx xxx xx xxxx Xxxxx.xx0xxx xxxxx.
+Xxxxxxxxx xxx xxx xxxxxxxxx.
+Xx xxx xxxx xxx xxxx$ xxx xxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -117,10 +117,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-Enter the paths and file names of one or more Types.ps1xml files.
-Wildcards are not supported.
-If you omit the path, the default location is the current directory.
+### $XxxxxxxxxxxXxxxxxxx
+Xxxxx xxx xxxxx xxx xxxx xxxxx xx xxx xx xxxx Xxxxx.xx0xxx xxxxx.
+Xxxxxxxxx xxx xxx xxxxxxxxx.
+Xx xxx xxxx xxx xxxx$ xxx xxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -134,13 +134,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-Deletes from the session extended type data that is defined in the specified files.
-This parameter is required.
+### $Xxxx
+Xxxxxxx xxxx xxx xxxxxxx xxxxxxxx xxxx xxxx xxxx xx xxxxxxx xx xxx xxxxxxxxx xxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx.
 
-Enter the paths and file names of one or more Types.ps1xml files.
-Wildcards are not supported.
-If you omit the path, the default location is the current directory.
+Xxxxx xxx xxxxx xxx xxxx xxxxx xx xxx xx xxxx Xxxxx.xx0xxx xxxxx.
+Xxxxxxxxx xxx xxx xxxxxxxxx.
+Xx xxx xxxx xxx xxxx$ xxx xxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -154,11 +154,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TypeData
-Delete the specified type data from the session.
-This parameter is required.
-Enter a variable that contains TypeData objects (System.Management.Automation.Runspaces.TypeData) or a command that gets TypeData objects, such as a Get-TypeData command.
-You can also pipe TypeData objects to Remove-TypeData.
+### $XxxxXxxx
+Xxxxxx xxx xxxxxxxxx xxxx xxxx xxxx xxx xxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx XxxxXxxx xxxxxxx $Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxx.XxxxXxxx$ xx x xxxxxxx xxxx xxxx XxxxXxxx xxxxxxx$ xxxx xx x Xxx$XxxxXxxx xxxxxxx.
+Xxx xxx xxxx xxxx XxxxXxxx xxxxxxx xx Xxxxxx$XxxxXxxx.
 
 ```yaml
 Type: TypeData
@@ -172,14 +172,14 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -TypeName
-Deletes all extended type data for the specified types.
-For types in the System namespace, enter the short name.
-Otherwise, the full type name is required.
-Wildcards are not supported.
+### $XxxxXxxx
+Xxxxxxx xxx xxxxxxxx xxxx xxxx xxx xxx xxxxxxxxx xxxxx.
+Xxx xxxxx xx xxx Xxxxxx xxxxxxxxx$ xxxxx xxx xxxxx xxxx.
+Xxxxxxxxx$ xxx xxxx xxxx xxxx xx xxxxxxxx.
+Xxxxxxxxx xxx xxx xxxxxxxxx.
 
-You can pipe type names to Remove-TypeData.
-When you pipe an object to Remove-TypeData, Remove-TypeData gets the type name of the object and removes all type data for the object type.
+Xxx xxx xxxx xxxx xxxxx xx Xxxxxx$XxxxXxxx.
+Xxxx xxx xxxx xx xxxxxx xx Xxxxxx$XxxxXxxx$ Xxxxxx$XxxxXxxx xxxx xxx xxxx xxxx xx xxx xxxxxx xxx xxxxxxx xxx xxxx xxxx xxx xxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -193,8 +193,8 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -208,10 +208,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -225,29 +225,29 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.Runspaces.TypeData
-You can pipe TypeData object, such as the ones that the Get-TypeData cmdlet returns, to Remove-TypeData.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxx.XxxxXxxx
+Xxx xxx xxxx XxxxXxxx xxxxxx$ xxxx xx xxx xxxx xxxx xxx Xxx$XxxxXxxx xxxxxx xxxxxxx$ xx Xxxxxx$XxxxXxxx.
 
-### System.String
-You can pipe the type names to Remove-TypeData.
-When you pipe an object to Remove-TypeData, Remove-TypeData gets the type name of the object and removes all type data for the object type.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx xxx xxxx xxxxx xx Xxxxxx$XxxxXxxx.
+Xxxx xxx xxxx xx xxxxxx xx Xxxxxx$XxxxXxxx$ Xxxxxx$XxxxXxxx xxxx xxx xxxx xxxx xx xxx xxxxxx xxx xxxxxxx xxx xxxx xxxx xxx xxx xxxxxx xxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-This cmdlet does not generate any output.
+### Xxxx
+Xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
-Remove-TypeData can remove only the extended type data in the current session.
-It cannot remove extended type data that is on the computer, but has not been added to the current session, such as extended types that are defined in modules that have not been imported into the current session.
+## XXXXX
+Xxxxxx$XxxxXxxx xxx xxxxxx xxxx xxx xxxxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxxxxx xxxxxx xxxxxxxx xxxx xxxx xxxx xx xx xxx xxxxxxxx$ xxx xxx xxx xxxx xxxxx xx xxx xxxxxxx xxxxxxx$ xxxx xx xxxxxxxx xxxxx xxxx xxx xxxxxxx xx xxxxxxx xxxx xxxx xxx xxxx xxxxxxxx xxxx xxx xxxxxxx xxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-TypeData]()
+[Xxx$XxxxXxxx]()
 
-[Update-TypeData]()
+[Xxxxxx$XxxxXxxx]()
 
-[about_Types.ps1xml]()
+[xxxxx$Xxxxx.xx0xxx]()
 

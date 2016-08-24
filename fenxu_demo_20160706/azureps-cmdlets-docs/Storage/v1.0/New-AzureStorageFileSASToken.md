@@ -6,20 +6,20 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageFileSASToken
-## SYNOPSIS
-Generates a shared access signature token for a Storage file.
+# Xxx$XxxxxXxxxxxxXxxxXXXXxxxx
+## XXXXXXXX
+Xxxxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxx x Xxxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageFileSASToken [-ShareName] <String> [-Path] <String> [-Context <AzureStorageContext>]
  [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>] [-Permission <String>]
  [-Protocol <Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]>] [-StartTime <DateTime]>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageFileSASToken [-ShareName] <String> [-Path] <String> [-Context <AzureStorageContext>]
  [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>]
@@ -27,54 +27,54 @@ New-AzureStorageFileSASToken [-ShareName] <String> [-Path] <String> [-Context <A
  -Policy <String>
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageFileSASToken [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>]
  [-Permission <String>] [-Protocol <Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]>]
  [-StartTime <DateTime]>] -File <CloudFile>
 ```
 
-### UNNAMED_PARAMETER_SET_4
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageFileSASToken [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>]
  [-Protocol <Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]>] [-StartTime <DateTime]>]
  -File <CloudFile> -Policy <String>
 ```
 
-## DESCRIPTION
-The **New-AzureStorageFileSASToken** cmdlet generates a shared access signature token for an azure_2 Storage file.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxXXXXxxxx$$ xxxxxx xxxxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxx xx xxxxx$0 Xxxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Generate a shared access signature token that has full file permissions
+### Xxxxxxx 0$ Xxxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxxx xxx xxxx xxxx xxxxxxxxxxx
 ```
 PS C:\> New-AzureStorageFileSASToken -ShareName "ContosoShare" -Path "FilePath" -Permission "rwd"
 ```
 
-This command generates a shared access signature token that has full permissions for the file that is named FilePath.
+Xxxx xxxxxxx xxxxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxxx xxx xxxx xxxxxxxxxxx xxx xxx xxxx xxxx xx xxxxx XxxxXxxx.
 
-### Example 2: Generate a shared access signature token that has a time limit
+### Xxxxxxx 0$ Xxxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxxx xxx x xxxx xxxxx
 ```
 PS C:\> $StartTime = Get-Date
 PS C:\> $EndTime = $StartTime.AddHours(2.0)
 PS C:\> New-AzureStorageFileSASToken -ShareName "ContosoShare" -Path "FilePath" -Permission "rwd" -StartTime $StartTime -ExpiryTime $EndTime
 ```
 
-The first command creates a **DateTime** object by using the Get-Date cmdlet.
-The command stores the current time in the $StartTime variable.
+Xxx xxxxx xxxxxxx xxxxxxx x $$XxxxXxxx$$ xxxxxx xx xxxxx xxx Xxx$Xxxx xxxxxx.
+Xxx xxxxxxx xxxxxx xxx xxxxxxx xxxx xx xxx $XxxxxXxxx xxxxxxxx.
 
-The second command adds two hours to the object in $StartTime, and then stores the result in the $EndTime variable.
-This object is a time two hours in the future.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxxx xx xxx xxxxxx xx $XxxxxXxxx$ xxx xxxx xxxxxx xxx xxxxxx xx xxx $XxxXxxx xxxxxxxx.
+Xxxx xxxxxx xx x xxxx xxx xxxxx xx xxx xxxxxx.
 
-The third command generates a shared access signature token that has the specified permissions.
-This token becomes valid at the current time.
-The token remains valid until time stored in $EndTime.
+Xxx xxxxx xxxxxxx xxxxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxxx xxx xxx xxxxxxxxx xxxxxxxxxxx.
+Xxxx xxxxx xxxxxxx xxxxx xx xxx xxxxxxx xxxx.
+Xxx xxxxx xxxxxxx xxxxx xxxxx xxxx xxxxxx xx $XxxXxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies an azure_2 Storage context.
-To obtain a context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -100,8 +100,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-Specifies the time at which the shared access signature becomes invalid.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: DateTime]
@@ -115,9 +115,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -File
-Specifies a **CloudFile** object.
-You can create a cloud file or obtain one by using the Get-AzureStorageFile cmdlet.
+### $Xxxx
+Xxxxxxxxx x $$XxxxxXxxx$$ xxxxxx.
+Xxx xxx xxxxxx x xxxxx xxxx xx xxxxxx xxx xx xxxxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
 ```yaml
 Type: CloudFile
@@ -131,8 +131,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -FullUri
-Indicates that this cmdlet return the full blob URI and the shared access signature token.
+### $XxxxXxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxx xxx xxxx xxxx XXX xxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -146,8 +146,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -IPAddressOrRange
-@{Text=}
+### $XXXxxxxxxXxXxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -161,8 +161,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the path of the file relative to a Storage share.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxxxxx xx x Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -188,8 +188,8 @@ Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Permission
-Specifies the permissions for a Storage file.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxxx xxx x Xxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -203,8 +203,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-Specifies the stored access policy for a file.
+### $Xxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxx xxxxxx xxx x xxxx.
 
 ```yaml
 Type: String
@@ -218,8 +218,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Protocol
-@{Text=}
+### $Xxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]
@@ -233,8 +233,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ShareName
-Specifies the name of the Storage share.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -260,8 +260,8 @@ Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies the time at which the shared access signature becomes valid.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: DateTime]
@@ -275,16 +275,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[New-AzureStorageShareSASToken](07c8ad4e-7a32-4407-9120-1432126b7376)
+[Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx](07c8ad4e-7a32-4407-9120-1432126b7376)
 
 

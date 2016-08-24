@@ -6,37 +6,37 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Start-AzureRmAutomationDscCompilationJob
-## SYNOPSIS
-Compiles a DSC configuration in Automation.
+# Xxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxx
+## XXXXXXXX
+Xxxxxxxx x XXX xxxxxxxxxxxxx xx Xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Start-AzureRmAutomationDscCompilationJob [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-ConfigurationName] <String> [-ConfigurationData <IDictionary>] [-Parameters <IDictionary>]
 ```
 
-## DESCRIPTION
-The **Start-AzureRmAutomationDscCompilationJob** cmdlet compiles an APS Desired State Configuration (DSC) configuration in azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxx$$ xxxxxx xxxxxxxx xx XXX Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxxxxxxxxxxx xx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Compile an Azure DSC configuration in Automation
+### Xxxxxxx 0$ Xxxxxxx xx Xxxxx XXX xxxxxxxxxxxxx xx Xxxxxxxxxx
 ```
 PS C:\>$Params = @{"StringParam"="Hello World";"IntegerParam"=32}
 PS C:\> Start-AzureRmAutomationDscCompilationJob -ConfigurationName "Config01" -Parameters $Params -ResourceGroupName "ResourceGroup01"
 ```
 
-The first command creates a dictionary of parameters, and stores them in the $Params variable.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxxxxxxx xx xxxxxxxxxx$ xxx xxxxxx xxxx xx xxx $Xxxxxx xxxxxxxx.
 
-The second command compiles the DSC configuration named Config01.
-The command includes the values in $Params for DSC configuration parameters.
+Xxx xxxxxx xxxxxxx xxxxxxxx xxx XXX xxxxxxxxxxxxx xxxxx Xxxxxx00.
+Xxx xxxxxxx xxxxxxxx xxx xxxxxx xx $Xxxxxx xxx XXX xxxxxxxxxxxxx xxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account that contains the DSC configuration that this cmdlet compiles.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxxxxx xxx XXX xxxxxxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -50,8 +50,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ConfigurationData
-Specifies a dictionary of configuration data for DSC configuration.
+### $XxxxxxxxxxxxxXxxx
+Xxxxxxxxx x xxxxxxxxxx xx xxxxxxxxxxxxx xxxx xxx XXX xxxxxxxxxxxxx.
 
 ```yaml
 Type: IDictionary
@@ -65,8 +65,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ConfigurationName
-Specifies the name of the DSC configuration that this cmdlet compiles.
+### $XxxxxxxxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx XXX xxxxxxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -80,8 +80,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Parameters
-Specifies a dictionary of parameters that this cmdlet uses to compile the DSC configuration.
+### $Xxxxxxxxxx
+Xxxxxxxxx x xxxxxxxxxx xx xxxxxxxxxx xxxx xxxx xxxxxx xxxx xx xxxxxxx xxx XXX xxxxxxxxxxxxx.
 
 ```yaml
 Type: IDictionary
@@ -95,8 +95,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group in which this cmdlet compiles a configuration.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -110,16 +110,16 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationDscCompilationJob](cbd50659-1e44-425c-9b97-a58be040e3b9)
+[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxx](cbd50659-1e44-425c-9b97-a58be040e3b9)
 
-[Get-AzureRmAutomationDscCompilationJobOutput](0375f514-6679-4488-be72-816df6f13124)
+[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxxXxxxxx](0375f514-6679-4488-be72-816df6f13124)
 
 

@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageTableSASToken
-## SYNOPSIS
-Generates an SAS token for an azure_2 Storage table.
+# Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx
+## XXXXXXXX
+Xxxxxxxxx xx XXX xxxxx xxx xx xxxxx$0 Xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageTableSASToken [-Name] <String> [-Context <AzureStorageContext>] [-EndPartitionKey <String>]
  [-EndRowKey <String>] [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>]
@@ -20,7 +20,7 @@ New-AzureStorageTableSASToken [-Name] <String> [-Context <AzureStorageContext>] 
  [-StartRowKey <String>] [-StartTime <DateTime]>] -Policy <String>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageTableSASToken [-Name] <String> [-Context <AzureStorageContext>] [-EndPartitionKey <String>]
  [-EndRowKey <String>] [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>] [-Permission <String>]
@@ -28,40 +28,40 @@ New-AzureStorageTableSASToken [-Name] <String> [-Context <AzureStorageContext>] 
  [-StartRowKey <String>] [-StartTime <DateTime]>]
 ```
 
-## DESCRIPTION
-The **New-AzureStorageTableSASToken** cmdlet generates a Shared Access Signature (SAS) token for an azure_2 Storage table.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx$$ xxxxxx xxxxxxxxx x Xxxxxx Xxxxxx Xxxxxxxxx $XXX$ xxxxx xxx xx xxxxx$0 Xxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Generate an SAS token that has full permissions for a table
+### Xxxxxxx 0$ Xxxxxxxx xx XXX xxxxx xxxx xxx xxxx xxxxxxxxxxx xxx x xxxxx
 ```
 C:\PS>New-AzureStorageTableSASToken -Name "ContosoResources" -Permission "raud"
 ```
 
-This command generates an SAS token with full permissions for the table named ContosoResources.
-That token is for read, add, update, and delete permissions.
+Xxxx xxxxxxx xxxxxxxxx xx XXX xxxxx xxxx xxxx xxxxxxxxxxx xxx xxx xxxxx xxxxx XxxxxxxXxxxxxxxx.
+Xxxx xxxxx xx xxx xxxx$ xxx$ xxxxxx$ xxx xxxxxx xxxxxxxxxxx.
 
-### Example 2: Generate an SAS token for a range of partitions
+### Xxxxxxx 0$ Xxxxxxxx xx XXX xxxxx xxx x xxxxx xx xxxxxxxxxx
 ```
 C:\PS>New-AzureStorageTableSASToken -Name "ContosoResources" -Permission "raud" -StartPartitionKey "a" -EndPartitionKey "b"
 ```
 
-This command generates and SAS token with full permissions for the table named ContosoResources.
-The command limits the token to the range that the *StartPartitionKey* and *EndPartitionKey* parameters specify.
+Xxxx xxxxxxx xxxxxxxxx xxx XXX xxxxx xxxx xxxx xxxxxxxxxxx xxx xxx xxxxx xxxxx XxxxxxxXxxxxxxxx.
+Xxx xxxxxxx xxxxxx xxx xxxxx xx xxx xxxxx xxxx xxx $XxxxxXxxxxxxxxXxx$ xxx $XxxXxxxxxxxxXxx$ xxxxxxxxxx xxxxxxx.
 
-### Example 3: Generate an SAS token that has a stored access policy for a table
+### Xxxxxxx 0$ Xxxxxxxx xx XXX xxxxx xxxx xxx x xxxxxx xxxxxx xxxxxx xxx x xxxxx
 ```
 C:\PS>New-AzureStorageTableSASToken -Name "ContosoResources" -Policy "ClientPolicy01"
 ```
 
-This command generates an SAS token for the table named ContosoResources.
-The command specifies the stored access policy named ClientPolicy01.
+Xxxx xxxxxxx xxxxxxxxx xx XXX xxxxx xxx xxx xxxxx xxxxx XxxxxxxXxxxxxxxx.
+Xxx xxxxxxx xxxxxxxxx xxx xxxxxx xxxxxx xxxxxx xxxxx XxxxxxXxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -75,8 +75,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -EndPartitionKey
-Specifies the partition key of the end of the range for the token that this cmdlet creates.
+### $XxxXxxxxxxxxXxx
+Xxxxxxxxx xxx xxxxxxxxx xxx xx xxx xxx xx xxx xxxxx xxx xxx xxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -90,8 +90,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -EndRowKey
-Specifies the row key for the end of the range for the token that this cmdlet creates.
+### $XxxXxxXxx
+Xxxxxxxxx xxx xxx xxx xxx xxx xxx xx xxx xxxxx xxx xxx xxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -105,8 +105,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-Specifies when the SAS token expires.
+### $XxxxxxXxxx
+Xxxxxxxxx xxxx xxx XXX xxxxx xxxxxxx.
 
 ```yaml
 Type: DateTime]
@@ -120,8 +120,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FullUri
-Indicates that this cmdlet returns the full queue URI with the SAS token.
+### $XxxxXxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxxx xxxxx XXX xxxx xxx XXX xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -135,8 +135,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -IPAddressOrRange
-@{Text=}
+### $XXXxxxxxxXxXxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -150,9 +150,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of an azure_2 Storage table.
-This cmdlet creates an SAS token for the table that this parameter specifies.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xx xxxxx$0 Xxxxxxx xxxxx.
+Xxxx xxxxxx xxxxxxx xx XXX xxxxx xxx xxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -166,8 +166,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Permission
-Specifies permissions for an azure_2 Storage table.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxxxxxxxxxx xxx xx xxxxx$0 Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -181,8 +181,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-Specifies a stored access policy, which includes the permissions for this SAS token.
+### $Xxxxxx
+Xxxxxxxxx x xxxxxx xxxxxx xxxxxx$ xxxxx xxxxxxxx xxx xxxxxxxxxxx xxx xxxx XXX xxxxx.
 
 ```yaml
 Type: String
@@ -196,8 +196,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Protocol
-@{Text=}
+### $Xxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]
@@ -211,8 +211,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StartPartitionKey
-Specifies the partition key of the start of the range for the token that this cmdlet creates.
+### $XxxxxXxxxxxxxxXxx
+Xxxxxxxxx xxx xxxxxxxxx xxx xx xxx xxxxx xx xxx xxxxx xxx xxx xxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -226,8 +226,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StartRowKey
-Specifies the row key for the start of the range for the token that this cmdlet creates.
+### $XxxxxXxxXxx
+Xxxxxxxxx xxx xxx xxx xxx xxx xxxxx xx xxx xxxxx xxx xxx xxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -241,8 +241,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies when the SAS token becomes valid.
+### $XxxxxXxxx
+Xxxxxxxxx xxxx xxx XXX xxxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: DateTime]
@@ -256,14 +256,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
 

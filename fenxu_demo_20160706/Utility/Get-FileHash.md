@@ -4,43 +4,43 @@ online version: http://go.microsoft.com/fwlink/?LinkId=517145
 schema: 2.0.0
 ---
 
-# Get-FileHash
-## SYNOPSIS
-{{Fill in the Synopsis}}
+# Xxx$XxxxXxxx
+## XXXXXXXX
+$$Xxxx xx xxx Xxxxxxxx$$
 
-## SYNTAX
+## XXXXXX
 
-### Path (Default)
+### Xxxx $Xxxxxxx$
 ```
 Get-FileHash [-Path] <String[]> [-Algorithm <String>]
 ```
 
-### LiteralPath
+### XxxxxxxXxxx
 ```
 Get-FileHash -LiteralPath <String[]> [-Algorithm <String>]
 ```
 
-### Stream
+### Xxxxxx
 ```
 Get-FileHash -InputStream <Stream> [-Algorithm <String>]
 ```
 
-## DESCRIPTION
-{{Fill in the Description}}
+## XXXXXXXXXXX
+$$Xxxx xx xxx Xxxxxxxxxxx$$
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 PS C:\> {{ Add example code here }}
 ```
 
-{{ Add example description here }}
+$$ Xxx xxxxxxx xxxxxxxxxxx xxxx $$
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Algorithm
-{{Fill Algorithm Description}}
+### $Xxxxxxxxx
+$$Xxxx Xxxxxxxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: String
@@ -55,8 +55,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputStream
-{{Fill InputStream Description}}
+### $XxxxxXxxxxx
+$$Xxxx XxxxxXxxxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: Stream
@@ -70,8 +70,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -LiteralPath
-{{Fill LiteralPath Description}}
+### $XxxxxxxXxxx
+$$Xxxx XxxxxxxXxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: String[]
@@ -85,8 +85,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Path
-{{Fill Path Description}}
+### $Xxxx
+$$Xxxx Xxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: String[]
@@ -100,18 +100,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String[]
+### Xxxxxx.Xxxxxx$$
 
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Object
+### Xxxxxx.Xxxxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[http://go.microsoft.com/fwlink/?LinkId=517145](http://go.microsoft.com/fwlink/?LinkId=517145)
+[xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000](http://go.microsoft.com/fwlink/?LinkId=517145)
 

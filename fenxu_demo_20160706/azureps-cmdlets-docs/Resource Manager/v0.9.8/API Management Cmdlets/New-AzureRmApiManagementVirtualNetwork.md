@@ -6,53 +6,39 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureRmApiManagementVirtualNetwork
-## SYNOPSIS
-Creates an instance of PsApiManagementVirtualNetwork.
+# Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx xx xxxxxxxx xx XxXxxXxxxxxxxxxXxxxxxxXxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureRmApiManagementVirtualNetwork -Location <String> -SubnetName <String> -VnetId <Guid>
 ```
 
-## DESCRIPTION
-The **New-AzureRmApiManagementVirtualNetwork** cmdlet is a helper command to create an instance of **PsApiManagementVirtualNetwork**.
-This command is used with Set-AzureRmApiManagementVirtualNetworks cmdlet.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxXxxxxxx$$ xxxxxx xx x xxxxxx xxxxxxx xx xxxxxx xx xxxxxxxx xx $$XxXxxXxxxxxxxxxXxxxxxxXxxxxxx$$.
+Xxxx xxxxxxx xx xxxx xxxx Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxXxxxxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a virtual network
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxxxxxx
 ```
 PS C:\>$VirtualNetworks = @()
 PS C:\> $VirtualNetworks += New-AzureRmApiManagementVirtualNetwork -Location "East US" -SubtenName "ContosoNet" -VnetId "089D3F4D-B986-4DFD-9259-9112BA7A1F03"
 PS C:\> Set-AzureRmApiManagementVirtualNetworks -ResourceGroupName "ContosoGroup" -Name "ContosoApi" -VirtualNetworks $VirtualNetworks
 ```
 
-This example creates a virtual network and then calls the **Set-AzureRmApiManagementVirtualNetworks** cmdlet.
+Xxxx xxxxxxx xxxxxxx x xxxxxxx xxxxxxx xxx xxxx xxxxx xxx $$Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxXxxxxxxx$$ xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Location
-Specifies the location of the virtual network in which this cmdlet creates the instance.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xx xxx xxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxx xxx xxxxxxxx.
 
-Valid values are: 
+Xxxxx xxxxxx xxx$ 
 
--- North Central US
--- South Central US
--- Central US
--- West Europe
--- North Europe
--- West US
--- East US
--- East US 2
--- Japan East
--- Japan West
--- Brazil South
--- Southeast Asia
--- East Asia
--- Australia East
--- Australia Southeast
+$$ Xxxxx Xxxxxxx XX $$ Xxxxx Xxxxxxx XX $$ Xxxxxxx XX $$ Xxxx Xxxxxx $$ Xxxxx Xxxxxx $$ Xxxx XX $$ Xxxx XX $$ Xxxx XX 0 $$ Xxxxx Xxxx $$ Xxxxx Xxxx $$ Xxxxxx Xxxxx $$ Xxxxxxxxx Xxxx $$ Xxxx Xxxx $$ Xxxxxxxxx Xxxx $$ Xxxxxxxxx Xxxxxxxxx
 
 ```yaml
 Type: String
@@ -66,8 +52,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SubnetName
-Specifies the name of the sub network.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -81,8 +67,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -VnetId
-Specifies the identifier of the virtual network.
+### $XxxxXx
+Xxxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: Guid
@@ -96,14 +82,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Set-AzureRmApiManagementVirtualNetworks](c667ef41-1fb3-40c3-884a-8f008520a68c)
+[Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxXxxxxxxx](c667ef41-1fb3-40c3-884a-8f008520a68c)
 
 

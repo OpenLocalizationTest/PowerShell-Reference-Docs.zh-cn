@@ -4,11 +4,11 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293991
 schema: 2.0.0
 ---
 
-# New-Alias
-## SYNOPSIS
-Creates a new alias.
+# Xxx$Xxxxx
+## XXXXXXXX
+Xxxxxxx x xxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-Alias [-Name] <String> [-Value] <String> [-Description <String>] [-Option <ScopedItemOptions>] [-PassThru]
@@ -16,37 +16,37 @@ New-Alias [-Name] <String> [-Value] <String> [-Description <String>] [-Option <S
  [-Confirm]
 ```
 
-## DESCRIPTION
-The New-Alias cmdlet creates a new alias in the current Windows PowerShell session.
-Aliases created by using New-Alias are not saved after you exit the session or close Windows PowerShell.
-You can use the Export-Alias cmdlet to save your alias information to a file.
-You can later use Import-Alias to retrieve that saved alias information.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxx xxxxxx xxxxxxx x xxx xxxxx xx xxx xxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xxxxxxx xxxxxxx xx xxxxx Xxx$Xxxxx xxx xxx xxxxx xxxxx xxx xxxx xxx xxxxxxx xx xxxxx Xxxxxxx XxxxxXxxxx.
+Xxx xxx xxx xxx Xxxxxx$Xxxxx xxxxxx xx xxxx xxxx xxxxx xxxxxxxxxxx xx x xxxx.
+Xxx xxx xxxxx xxx Xxxxxx$Xxxxx xx xxxxxxxx xxxx xxxxx xxxxx xxxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>new-alias list get-childitem
 ```
 
-This command creates an alias named "list" to represent the Get-ChildItem cmdlet.
+Xxxx xxxxxxx xxxxxxx xx xxxxx xxxxx $xxxx$ xx xxxxxxxxx xxx Xxx$XxxxxXxxx xxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>new-alias -name w -value get-wmiobject -description "quick wmi alias" -option ReadOnly
 PS C:\>get-alias -name w | format-list *
 ```
 
-This command creates an alias named "w" to represent the Get-WMIObject cmdlet.
-It creates a description, "quick wmi alias", for the alias and makes it read only.
-The last line of the command uses Get-Alias to get the new alias and pipes it to Format-List to display all of the information about it.
+Xxxx xxxxxxx xxxxxxx xx xxxxx xxxxx $x$ xx xxxxxxxxx xxx Xxx$XXXXxxxxx xxxxxx.
+Xx xxxxxxx x xxxxxxxxxxx$ $xxxxx xxx xxxxx$$ xxx xxx xxxxx xxx xxxxx xx xxxx xxxx.
+Xxx xxxx xxxx xx xxx xxxxxxx xxxx Xxx$Xxxxx xx xxx xxx xxx xxxxx xxx xxxxx xx xx Xxxxxx$Xxxx xx xxxxxxx xxx xx xxx xxxxxxxxxxx xxxxx xx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Description
-Specifies a description of the alias.
-You can type any string.
-If the description includes spaces, enclose it in quotation marks.
+### $Xxxxxxxxxxx
+Xxxxxxxxx x xxxxxxxxxxx xx xxx xxxxx.
+Xxx xxx xxxx xxx xxxxxx.
+Xx xxx xxxxxxxxxxx xxxxxxxx xxxxxx$ xxxxxxx xx xx xxxxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -60,8 +60,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-If set, act like set-alias if the alias named already exists.
+### $Xxxxx
+Xx xxx$ xxx xxxx xxx$xxxxx xx xxx xxxxx xxxxx xxxxxxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -75,8 +75,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -91,8 +91,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -106,9 +106,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the new alias.
-You can use any alphanumeric characters in an alias, but the first character cannot be a number.
+### $Xxxx
+Xxxxxxxxx xxx xxx xxxxx.
+Xxx xxx xxx xxx xxxxxxxxxxxx xxxxxxxxxx xx xx xxxxx$ xxx xxx xxxxx xxxxxxxxx xxxxxx xx x xxxxxx.
 
 ```yaml
 Type: String
@@ -122,18 +122,17 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Option
-Sets the value of the Options property of the alias.
+### $Xxxxxx
+Xxxx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx xx xxx xxxxx.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- None: Sets no options. ("None" is the default.)
--- ReadOnly: Can be deleted. Cannot be not changed, except by using the Force parameter.
--- Constant: Cannot be deleted or changed.
--- Private: The alias is available only in the current scope.
--- AllScope: The alias is copied to any new scopes that are created.
+$$ Xxxx$ Xxxx xx xxxxxxx. $$Xxxx$ xx xxx xxxxxxx.$ $$ XxxxXxxx$ Xxx xx xxxxxxx. Xxxxxx xx xxx xxxxxxx$ xxxxxx xx xxxxx xxx Xxxxx xxxxxxxxx.
+$$ Xxxxxxxx$ Xxxxxx xx xxxxxxx xx xxxxxxx.
+$$ Xxxxxxx$ Xxx xxxxx xx xxxxxxxxx xxxx xx xxx xxxxxxx xxxxx.
+$$ XxxXxxxx$ Xxx xxxxx xx xxxxxx xx xxx xxx xxxxxx xxxx xxx xxxxxxx.
 
-To see the Options property of all aliases in the session, type "get-alias | format-table -property name, options -autosize".
+Xx xxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxxx xx xxx xxxxxxx$ xxxx $xxx$xxxxx $ xxxxxx$xxxxx $xxxxxxxx xxxx$ xxxxxxx $xxxxxxxx$.
 
 ```yaml
 Type: ScopedItemOptions
@@ -148,9 +147,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Returns an object representing the new alias.
-By default, this cmdlet does not generate any output.
+### $XxxxXxxx
+Xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxx xxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -164,11 +163,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Scope
-Specifies the scope of the new alias.
-Valid values are "Global", "Local", or "Script", or a number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).
-"Local" is the default.
-For more information, see about_Scopes.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx xx xxx xxx xxxxx.
+Xxxxx xxxxxx xxx $Xxxxxx$$ $Xxxxx$$ xx $Xxxxxx$$ xx x xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxx $0 xxxxxxx xxx xxxxxx xx xxxxxx$ xxxxx 0 xx xxx xxxxxxx xxxxx xxx 0 xx xxx xxxxxx$.
+$Xxxxx$ xx xxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx.
 
 ```yaml
 Type: String
@@ -182,8 +181,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Value
-Specifies the name of the cmdlet or command element that is being aliased.
+### $Xxxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xx xxxxxxx xxxxxxx xxxx xx xxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -197,8 +196,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -212,10 +211,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -229,29 +228,29 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None or System.Management.Automation.AliasInfo
-When you use the Passthru parameter, New-Alias generates a System.Management.Automation.AliasInfo object representing the new alias.
-Otherwise, this cmdlet does not generate any output.
+### Xxxx xx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxXxxx
+Xxxx xxx xxx xxx Xxxxxxxx xxxxxxxxx$ Xxx$Xxxxx xxxxxxxxx x Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxXxxx xxxxxx xxxxxxxxxxxx xxx xxx xxxxx.
+Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
-To create a new alias, use Set-Alias or New-Alias.
-To change an alias, use Set-Alias.
-To delete an alias, use Remove-Item.
+## XXXXX
+Xx xxxxxx x xxx xxxxx$ xxx Xxx$Xxxxx xx Xxx$Xxxxx.
+Xx xxxxxx xx xxxxx$ xxx Xxx$Xxxxx.
+Xx xxxxxx xx xxxxx$ xxx Xxxxxx$Xxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Export-Alias]()
+[Xxxxxx$Xxxxx]()
 
-[Get-Alias]()
+[Xxx$Xxxxx]()
 
-[Import-Alias]()
+[Xxxxxx$Xxxxx]()
 
-[Set-Alias]()
+[Xxx$Xxxxx]()
 

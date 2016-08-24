@@ -4,11 +4,11 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293985
 schema: 2.0.0
 ---
 
-# Import-PSSession
-## SYNOPSIS
-Imports commands from another session into the current session.
+# Xxxxxx$XXXxxxxxx
+## XXXXXXXX
+Xxxxxxx xxxxxxxx xxxx xxxxxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Import-PSSession [-Prefix <String>] [-DisableNameChecking] [[-CommandName] <String[]>] [-AllowClobber]
@@ -18,51 +18,51 @@ Import-PSSession [-Prefix <String>] [-DisableNameChecking] [[-CommandName] <Stri
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Import-PSSession cmdlet imports commands (such as cmdlets, functions, and aliases) from a PSSession on a local or remote computer into the current session.
-You can import any command that the Get-Command cmdlet can find in the PSSession.
+## XXXXXXXXXXX
+Xxx Xxxxxx$XXXxxxxxx xxxxxx xxxxxxx xxxxxxxx $xxxx xx xxxxxxx$ xxxxxxxxx$ xxx xxxxxxx$ xxxx x XXXxxxxxx xx x xxxxx xx xxxxxx xxxxxxxx xxxx xxx xxxxxxx xxxxxxx.
+Xxx xxx xxxxxx xxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xxx xxxx xx xxx XXXxxxxxx.
 
-Use an Import-PSSession command to import commands from a customized shell, such as a Microsoft Exchange Server shell, or from a session that includes Windows PowerShell modules and snap-ins or other elements that are not in the current session.
+Xxx xx Xxxxxx$XXXxxxxxx xxxxxxx xx xxxxxx xxxxxxxx xxxx x xxxxxxxxxx xxxxx$ xxxx xx x Xxxxxxxxx Xxxxxxxx Xxxxxx xxxxx$ xx xxxx x xxxxxxx xxxx xxxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxx xxx xxxx$xxx xx xxxxx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx xxxxxxx.
 
-To import commands, first use the New-PSSession cmdlet to create a PSSession.
-Then, use the Import-PSSession cmdlet to import the commands.
-By default, Import-PSSession imports all commands except for commands that have the same names as commands in the current session.
-To import all the commands, use the AllowClobber parameter.
+Xx xxxxxx xxxxxxxx$ xxxxx xxx xxx Xxx$XXXxxxxxx xxxxxx xx xxxxxx x XXXxxxxxx.
+Xxxx$ xxx xxx Xxxxxx$XXXxxxxxx xxxxxx xx xxxxxx xxx xxxxxxxx.
+Xx xxxxxxx$ Xxxxxx$XXXxxxxxx xxxxxxx xxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxx xxxx xxx xxxx xxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxxxxx xxx xxx xxxxxxxx$ xxx xxx XxxxxXxxxxxx xxxxxxxxx.
 
-You can use imported commands just as you would use any command in the session.
-When you use an imported command, the imported part of the command runs implicitly in the session from which it was imported.
-However, the remote operations are handled entirely by Windows PowerShell.
-You need not even be aware of them, except that you must keep the connection to the other session (PSSession) open.
-If you close it, the imported commands are no longer available.
+Xxx xxx xxx xxxxxxxx xxxxxxxx xxxx xx xxx xxxxx xxx xxx xxxxxxx xx xxx xxxxxxx.
+Xxxx xxx xxx xx xxxxxxxx xxxxxxx$ xxx xxxxxxxx xxxx xx xxx xxxxxxx xxxx xxxxxxxxxx xx xxx xxxxxxx xxxx xxxxx xx xxx xxxxxxxx.
+Xxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxxxxx xxxxxxxx xx Xxxxxxx XxxxxXxxxx.
+Xxx xxxx xxx xxxx xx xxxxx xx xxxx$ xxxxxx xxxx xxx xxxx xxxx xxx xxxxxxxxxx xx xxx xxxxx xxxxxxx $XXXxxxxxx$ xxxx.
+Xx xxx xxxxx xx$ xxx xxxxxxxx xxxxxxxx xxx xx xxxxxx xxxxxxxxx.
 
-Because imported commands might take longer to run than local commands, Import-PSSession adds an AsJob parameter to every imported command.
-This parameter allows you to run the command as a Windows PowerShell background job.
-For more information, see about_Jobs.
+Xxxxxxx xxxxxxxx xxxxxxxx xxxxx xxxx xxxxxx xx xxx xxxx xxxxx xxxxxxxx$ Xxxxxx$XXXxxxxxx xxxx xx XxXxx xxxxxxxxx xx xxxxx xxxxxxxx xxxxxxx.
+Xxxx xxxxxxxxx xxxxxx xxx xx xxx xxx xxxxxxx xx x Xxxxxxx XxxxxXxxxx xxxxxxxxxx xxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxx.
 
-When you use Import-PSSession, Windows PowerShell adds the imported commands to a temporary module that exists only in your session and returns an object that represents the module.
-To create a persistent module that you can use in future sessions, use the Export-PSSession cmdlet.
+Xxxx xxx xxx Xxxxxx$XXXxxxxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxxxxx xxxxxxxx xx x xxxxxxxxx xxxxxx xxxx xxxxxx xxxx xx xxxx xxxxxxx xxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxx.
+Xx xxxxxx x xxxxxxxxxx xxxxxx xxxx xxx xxx xxx xx xxxxxx xxxxxxxx$ xxx xxx Xxxxxx$XXXxxxxxx xxxxxx.
 
-The Import-PSSession cmdlet uses the implicit remoting feature of Windows PowerShell.
-When you import commands into the current session, they run implicitly in the original session or in a  similar session on the originating computer.
+Xxx Xxxxxx$XXXxxxxxx xxxxxx xxxx xxx xxxxxxxx xxxxxxxx xxxxxxx xx Xxxxxxx XxxxxXxxxx.
+Xxxx xxx xxxxxx xxxxxxxx xxxx xxx xxxxxxx xxxxxxx$ xxxx xxx xxxxxxxxxx xx xxx xxxxxxxx xxxxxxx xx xx x  xxxxxxx xxxxxxx xx xxx xxxxxxxxxxx xxxxxxxx.
 
-Beginning in Windows PowerShell 3.0, you can use the Import-Module cmdlet to import modules from a remote session into the current session.
-This feature uses implicit remoting.
-It is equivalent to using Import-PSSession to import selected modules from a remote session into the current session.
+Xxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0$ xxx xxx xxx xxx Xxxxxx$Xxxxxx xxxxxx xx xxxxxx xxxxxxx xxxx x xxxxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx.
+Xxxx xxxxxxx xxxx xxxxxxxx xxxxxxxx.
+Xx xx xxxxxxxxxx xx xxxxx Xxxxxx$XXXxxxxxx xx xxxxxx xxxxxxxx xxxxxxx xxxx x xxxxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$s = New-PSSession -ComputerName Server01
 
 PS C:\>Import-PSSession -Session $s
 ```
 
-This command imports all commands from a PSSession on the Server01 computer into the current session, except for commands that have the same names as commands in the current session.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxx xxxx x XXXxxxxxx xx xxx Xxxxxx00 xxxxxxxx xxxx xxx xxxxxxx xxxxxxx$ xxxxxx xxx xxxxxxxx xxxx xxxx xxx xxxx xxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-Because this command does not use the CommandName parameter, it also imports all of the formatting data required for the imported commands.
+Xxxxxxx xxxx xxxxxxx xxxx xxx xxx xxx XxxxxxxXxxx xxxxxxxxx$ xx xxxx xxxxxxx xxx xx xxx xxxxxxxxxx xxxx xxxxxxxx xxx xxx xxxxxxxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$s = New-PSSession https://ps.testlabs.com/powershell
 PS C:\>Import-PSSession -Session $s -CommandName *-test -FormatTypeName *
@@ -70,19 +70,19 @@ PS C:\>New-Test -Name Test1
 PS C:\>Get-Test test1 | Run-Test
 ```
 
-These commands import the commands with names that end in "-test" from a PSSession into the local session, and then they show how to use an imported cmdlet.
+Xxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxx xxxxx xxxx xxx xx $$xxxx$ xxxx x XXXxxxxxx xxxx xxx xxxxx xxxxxxx$ xxx xxxx xxxx xxxx xxx xx xxx xx xxxxxxxx xxxxxx.
 
-The first command uses the New-PSSession cmdlet to create a PSSession.
-It saves the PSSession in the $s variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XXXxxxxxx xxxxxx xx xxxxxx x XXXxxxxxx.
+Xx xxxxx xxx XXXxxxxxx xx xxx $x xxxxxxxx.
 
-The second command uses the Import-PSSession cmdlet to import commands from the PSSession in $s into the current session.
-It uses the CommandName parameter to specify commands with the Test noun and the FormatTypeName parameter to import the formatting data for the Test commands.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxx$XXXxxxxxx xxxxxx xx xxxxxx xxxxxxxx xxxx xxx XXXxxxxxx xx $x xxxx xxx xxxxxxx xxxxxxx.
+Xx xxxx xxx XxxxxxxXxxx xxxxxxxxx xx xxxxxxx xxxxxxxx xxxx xxx Xxxx xxxx xxx xxx XxxxxxXxxxXxxx xxxxxxxxx xx xxxxxx xxx xxxxxxxxxx xxxx xxx xxx Xxxx xxxxxxxx.
 
-The third and fourth commands use the imported commands in the current session.
-Because imported commands are actually added to the current session, you use the local syntax to run them.
-You do not need to use the Invoke-Command cmdlet to run an imported command.
+Xxx xxxxx xxx xxxxxx xxxxxxxx xxx xxx xxxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xxxxxxx xxxxxxxx xxxxxxxx xxx xxxxxxxx xxxxx xx xxx xxxxxxx xxxxxxx$ xxx xxx xxx xxxxx xxxxxx xx xxx xxxx.
+Xxx xx xxx xxxx xx xxx xxx Xxxxxx$Xxxxxxx xxxxxx xx xxx xx xxxxxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$s1 = New-PSSession -ComputerName s1
 PS C:\>$s2 = New-PSSession -ComputerName s2
@@ -91,13 +91,13 @@ PS C:\>Import-PSSession -Session s2 -Type Cmdlet -Name Set-Test -FormatTypeName 
 PS C:\>New-Test Test1 | Set-Test -RunType Full
 ```
 
-This example shows that you can use imported cmdlets just as you would use local cmdlets.
+Xxxx xxxxxxx xxxxx xxxx xxx xxx xxx xxxxxxxx xxxxxxx xxxx xx xxx xxxxx xxx xxxxx xxxxxxx.
 
-These commands import the New-Test and Get-Test cmdlets from a PSSession on the Server01 computer and the Set-Test cmdlet from a PSSession on the Server02 computer.
+Xxxxx xxxxxxxx xxxxxx xxx Xxx$Xxxx xxx Xxx$Xxxx xxxxxxx xxxx x XXXxxxxxx xx xxx Xxxxxx00 xxxxxxxx xxx xxx Xxx$Xxxx xxxxxx xxxx x XXXxxxxxx xx xxx Xxxxxx00 xxxxxxxx.
 
-Even though the cmdlets were imported from different PSSessions, you can pipe an object from one cmdlet to another without error.
+Xxxx xxxxxx xxx xxxxxxx xxxx xxxxxxxx xxxx xxxxxxxxx XXXxxxxxxx$ xxx xxx xxxx xx xxxxxx xxxx xxx xxxxxx xx xxxxxxx xxxxxxx xxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$s = New-PSSession -ComputerName Server01
 PS C:\>Import-PSSession -Session $s -CommandName *-test* -FormatTypeName *
@@ -105,38 +105,38 @@ PS C:\>$batch = New-Test -Name Batch -AsJob
 PS C:\>Receive-Job $batch
 ```
 
-This example shows how to run an imported command as a background job.
+Xxxx xxxxxxx xxxxx xxx xx xxx xx xxxxxxxx xxxxxxx xx x xxxxxxxxxx xxx.
 
-Because imported commands might take longer to run than local commands, Import-PSSession adds an AsJob parameter to every imported command.
-The AsJob parameter lets you run the command as a background job.
+Xxxxxxx xxxxxxxx xxxxxxxx xxxxx xxxx xxxxxx xx xxx xxxx xxxxx xxxxxxxx$ Xxxxxx$XXXxxxxxx xxxx xx XxXxx xxxxxxxxx xx xxxxx xxxxxxxx xxxxxxx.
+Xxx XxXxx xxxxxxxxx xxxx xxx xxx xxx xxxxxxx xx x xxxxxxxxxx xxx.
 
-The first command creates a PSSession on the Server01 computer and saves the PSSession object in the $s variable.
+Xxx xxxxx xxxxxxx xxxxxxx x XXXxxxxxx xx xxx Xxxxxx00 xxxxxxxx xxx xxxxx xxx XXXxxxxxx xxxxxx xx xxx $x xxxxxxxx.
 
-The second command uses Import-PSSession to import the Test cmdlets from the PSSession in $s into the current session.
+Xxx xxxxxx xxxxxxx xxxx Xxxxxx$XXXxxxxxx xx xxxxxx xxx Xxxx xxxxxxx xxxx xxx XXXxxxxxx xx $x xxxx xxx xxxxxxx xxxxxxx.
 
-The third command uses the AsJob parameter of the imported New-Test cmdlet to run a New-Test command as a background job.
-The command saves the job object that New-Test returns in the $batch variable.
+Xxx xxxxx xxxxxxx xxxx xxx XxXxx xxxxxxxxx xx xxx xxxxxxxx Xxx$Xxxx xxxxxx xx xxx x Xxx$Xxxx xxxxxxx xx x xxxxxxxxxx xxx.
+Xxx xxxxxxx xxxxx xxx xxx xxxxxx xxxx Xxx$Xxxx xxxxxxx xx xxx $xxxxx xxxxxxxx.
 
-The fourth command uses the Receive-Job cmdlet to get the results of the job in the $batch variable.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxxx$Xxx xxxxxx xx xxx xxx xxxxxxx xx xxx xxx xx xxx $xxxxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$s = New-PSSession -ComputerName Server01
 PS C:\>Invoke-Command -Session $s {Import-Module TestManagement}
 PS C:\>Import-PSSession -Session $s -Module TestManagement
 ```
 
-This example shows how to import the cmdlets and functions from a Windows PowerShell module on a remote computer into the current session.
+Xxxx xxxxxxx xxxxx xxx xx xxxxxx xxx xxxxxxx xxx xxxxxxxxx xxxx x Xxxxxxx XxxxxXxxxx xxxxxx xx x xxxxxx xxxxxxxx xxxx xxx xxxxxxx xxxxxxx.
 
-The first command creates a PSSession on the Server01 computer and saves it in the $s variable.
+Xxx xxxxx xxxxxxx xxxxxxx x XXXxxxxxx xx xxx Xxxxxx00 xxxxxxxx xxx xxxxx xx xx xxx $x xxxxxxxx.
 
-The second command uses the Invoke-Command cmdlet to run an Import-Module command in the PSSession in $s.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxx$Xxxxxxx xxxxxx xx xxx xx Xxxxxx$Xxxxxx xxxxxxx xx xxx XXXxxxxxx xx $x.
 
-Typically, the module would be added to all sessions by an Import-Module command in a Windows PowerShell profile, but profiles are not run in PSSessions.
+Xxxxxxxxx$ xxx xxxxxx xxxxx xx xxxxx xx xxx xxxxxxxx xx xx Xxxxxx$Xxxxxx xxxxxxx xx x Xxxxxxx XxxxxXxxxx xxxxxxx$ xxx xxxxxxxx xxx xxx xxx xx XXXxxxxxxx.
 
-The third command uses the Module parameter of Import-PSSession to import the cmdlets and functions in the module into the current session.
+Xxx xxxxx xxxxxxx xxxx xxx Xxxxxx xxxxxxxxx xx Xxxxxx$XXXxxxxxx xx xxxxxx xxx xxxxxxx xxx xxxxxxxxx xx xxx xxxxxx xxxx xxx xxxxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Import-PSSession $s -CommandName Get-Date, SearchHelp  -FormatTypeName * -AllowClobber
 
@@ -157,16 +157,16 @@ ExportedVariables : {}
 NestedModules     : {}
 ```
 
-This example shows that Import-PSSession creates a module in a temporary file on disk.
-It also shows that all commands are converted into functions before they are imported into the current session.
+Xxxx xxxxxxx xxxxx xxxx Xxxxxx$XXXxxxxxx xxxxxxx x xxxxxx xx x xxxxxxxxx xxxx xx xxxx.
+Xx xxxx xxxxx xxxx xxx xxxxxxxx xxx xxxxxxxxx xxxx xxxxxxxxx xxxxxx xxxx xxx xxxxxxxx xxxx xxx xxxxxxx xxxxxxx.
 
-The command uses the Import-PSSession cmdlet to import a Get-Date cmdlet and a SearchHelp function into the current session.
+Xxx xxxxxxx xxxx xxx Xxxxxx$XXXxxxxxx xxxxxx xx xxxxxx x Xxx$Xxxx xxxxxx xxx x XxxxxxXxxx xxxxxxxx xxxx xxx xxxxxxx xxxxxxx.
 
-The Import-PSSession cmdlet returns a PSModuleInfo object that represents the temporary module.
-The value of the Path property shows that Import-PSSession created a script module (.psm1) file in a temporary location.
-The ExportedFunctions property shows that the Get-Date cmdlet and the SearchHelp function were both imported as functions.
+Xxx Xxxxxx$XXXxxxxxx xxxxxx xxxxxxx x XXXxxxxxXxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxxxx xxxxxx.
+Xxx xxxxx xx xxx Xxxx xxxxxxxx xxxxx xxxx Xxxxxx$XXXxxxxxx xxxxxxx x xxxxxx xxxxxx $.xxx0$ xxxx xx x xxxxxxxxx xxxxxxxx.
+Xxx XxxxxxxxXxxxxxxxx xxxxxxxx xxxxx xxxx xxx Xxx$Xxxx xxxxxx xxx xxx XxxxxxXxxx xxxxxxxx xxxx xxxx xxxxxxxx xx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Import-PSSession $s -CommandName Get-Date -FormatTypeName * -AllowClobber
 
@@ -187,37 +187,37 @@ PS C:\>Microsoft.PowerShell.Utility\Get-Date
 Sunday, March 15, 2009 2:08:26 PM
 ```
 
-This example shows how to run a command that is hidden by an imported command.
+Xxxx xxxxxxx xxxxx xxx xx xxx x xxxxxxx xxxx xx xxxxxx xx xx xxxxxxxx xxxxxxx.
 
-The first command imports a Get-Date cmdlet from the PSSession in the $s variable.
-Because the current session includes a Get-Date cmdlet, the AllowClobber parameter is required in the command.
+Xxx xxxxx xxxxxxx xxxxxxx x Xxx$Xxxx xxxxxx xxxx xxx XXXxxxxxx xx xxx $x xxxxxxxx.
+Xxxxxxx xxx xxxxxxx xxxxxxx xxxxxxxx x Xxx$Xxxx xxxxxx$ xxx XxxxxXxxxxxx xxxxxxxxx xx xxxxxxxx xx xxx xxxxxxx.
 
-The second command uses the All parameter of the Get-Command cmdlet to get all Get-Date commands in the current session.
-The output shows that the session includes the original Get-Date cmdlet and a Get-Date function.
-The Get-Date function runs the imported Get-Date cmdlet in the PSSession in $s.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxx xxxxxxxxx xx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx Xxx$Xxxx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxxxxx xxxxx xxxx xxx xxxxxxx xxxxxxxx xxx xxxxxxxx Xxx$Xxxx xxxxxx xxx x Xxx$Xxxx xxxxxxxx.
+Xxx Xxx$Xxxx xxxxxxxx xxxx xxx xxxxxxxx Xxx$Xxxx xxxxxx xx xxx XXXxxxxxx xx $x.
 
-The third command runs a Get-Date command.
-Because functions take precedence over cmdlets, Windows PowerShell runs the imported Get-Date function, which returns a Julian date.
+Xxx xxxxx xxxxxxx xxxx x Xxx$Xxxx xxxxxxx.
+Xxxxxxx xxxxxxxxx xxxx xxxxxxxxxx xxxx xxxxxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxxxxx Xxx$Xxxx xxxxxxxx$ xxxxx xxxxxxx x Xxxxxx xxxx.
 
-The fourth and fifth commands show how to use a qualified name to run a command that is hidden by an imported command.
+Xxx xxxxxx xxx xxxxx xxxxxxxx xxxx xxx xx xxx x xxxxxxxxx xxxx xx xxx x xxxxxxx xxxx xx xxxxxx xx xx xxxxxxxx xxxxxxx.
 
-The fourth command gets the name of the Windows PowerShell snap-in that added the original Get-Date cmdlet to the current session.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxx xx xxx Xxxxxxx XxxxxXxxxx xxxx$xx xxxx xxxxx xxx xxxxxxxx Xxx$Xxxx xxxxxx xx xxx xxxxxxx xxxxxxx.
 
-The fifth command uses the snap-in-qualified name of the Get-Date cmdlet to run a Get-Date command.
+Xxx xxxxx xxxxxxx xxxx xxx xxxx$xx$xxxxxxxxx xxxx xx xxx Xxx$Xxxx xxxxxx xx xxx x Xxx$Xxxx xxxxxxx.
 
-For more information about command precedence and hidden commands, see about_Command_Precedence.
+Xxx xxxx xxxxxxxxxxx xxxxx xxxxxxx xxxxxxxxxx xxx xxxxxx xxxxxxxx$ xxx xxxxx$Xxxxxxx$Xxxxxxxxxx.
 
-### -------------------------- EXAMPLE 8 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Import-PSSession -Session $s -CommandName *Item* -AllowClobber
 ```
 
-This command imports commands whose names include "Item" from the PSSession in $s.
-Because the command includes the CommandName parameter but not the FormatTypeData parameter, only the command is imported.
+Xxxx xxxxxxx xxxxxxx xxxxxxxx xxxxx xxxxx xxxxxxx $Xxxx$ xxxx xxx XXXxxxxxx xx $x.
+Xxxxxxx xxx xxxxxxx xxxxxxxx xxx XxxxxxxXxxx xxxxxxxxx xxx xxx xxx XxxxxxXxxxXxxx xxxxxxxxx$ xxxx xxx xxxxxxx xx xxxxxxxx.
 
-Use this command when you are using Import-PSSession to run a command on a remote computer and you already have the formatting data for the command in the current session.
+Xxx xxxx xxxxxxx xxxx xxx xxx xxxxx Xxxxxx$XXXxxxxxx xx xxx x xxxxxxx xx x xxxxxx xxxxxxxx xxx xxx xxxxxxx xxxx xxx xxxxxxxxxx xxxx xxx xxx xxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 9 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$m = Import-PSSession -Session $s -CommandName *bits* -FormatTypeName *bits*
 PS C:\>Get-Command -Module $m
@@ -233,27 +233,27 @@ Function        Start-BitsTransfer
 Function        Suspend-BitsTransfer
 ```
 
-This command shows how to use the Module parameter of Get-Command to find out which commands were imported into the session by an Import-PSSession command.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx Xxxxxx xxxxxxxxx xx Xxx$Xxxxxxx xx xxxx xxx xxxxx xxxxxxxx xxxx xxxxxxxx xxxx xxx xxxxxxx xx xx Xxxxxx$XXXxxxxxx xxxxxxx.
 
-The first command uses the Import-PSSession cmdlet to import commands whose names include "bits" from the PSSession in the $s variable.
-The Import-PSSession command returns a temporary module, and the command saves the module in the $m variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxxxxx$XXXxxxxxx xxxxxx xx xxxxxx xxxxxxxx xxxxx xxxxx xxxxxxx $xxxx$ xxxx xxx XXXxxxxxx xx xxx $x xxxxxxxx.
+Xxx Xxxxxx$XXXxxxxxx xxxxxxx xxxxxxx x xxxxxxxxx xxxxxx$ xxx xxx xxxxxxx xxxxx xxx xxxxxx xx xxx $x xxxxxxxx.
 
-The second command uses the Get-Command cmdlet to get the commands that are exported by the module in the $m variable.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxxx xx xxx $x xxxxxxxx.
 
-The Module parameter takes a string value, which is designed for the module name.
-However, when you submit a module object, Windows PowerShell uses the ToString method on the module object, which returns the module name.
+Xxx Xxxxxx xxxxxxxxx xxxxx x xxxxxx xxxxx$ xxxxx xx xxxxxxxx xxx xxx xxxxxx xxxx.
+Xxxxxxx$ xxxx xxx xxxxxx x xxxxxx xxxxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx XxXxxxxx xxxxxx xx xxx xxxxxx xxxxxx$ xxxxx xxxxxxx xxx xxxxxx xxxx.
 
-The Get-Command command is the equivalent of Get-Command $m.Name".
+Xxx Xxx$Xxxxxxx xxxxxxx xx xxx xxxxxxxxxx xx Xxx$Xxxxxxx $x.Xxxx$.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AllowClobber
-Imports the specified commands, even if they have the same names as commands in the current session.
+### $XxxxxXxxxxxx
+Xxxxxxx xxx xxxxxxxxx xxxxxxxx$ xxxx xx xxxx xxxx xxx xxxx xxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-If you import a command with the same name as a command in the current session, the imported command hides or replaces the original commands.
-For more information, see about_Command_Precedence.
+Xx xxx xxxxxx x xxxxxxx xxxx xxx xxxx xxxx xx x xxxxxxx xx xxx xxxxxxx xxxxxxx$ xxx xxxxxxxx xxxxxxx xxxxx xx xxxxxxxx xxx xxxxxxxx xxxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx$Xxxxxxxxxx.
 
-By default, Import-PSSession does not import commands that have the same name as commands in the current session.
+Xx xxxxxxx$ Xxxxxx$XXXxxxxxx xxxx xxx xxxxxx xxxxxxxx xxxx xxxx xxx xxxx xxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -267,10 +267,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ArgumentList
-Imports the variant of the command that results from using the specified arguments (parameter values).
+### $XxxxxxxxXxxx
+Xxxxxxx xxx xxxxxxx xx xxx xxxxxxx xxxx xxxxxxx xxxx xxxxx xxx xxxxxxxxx xxxxxxxxx $xxxxxxxxx xxxxxx$.
 
-For example, to import the variant of the Get-Item command in the certificate (Cert:) drive in the PSSession in $s, type "Import-PSSession -Session $s -command get-item -argumentlist cert:".
+Xxx xxxxxxx$ xx xxxxxx xxx xxxxxxx xx xxx Xxx$Xxxx xxxxxxx xx xxx xxxxxxxxxxx $Xxxx$$ xxxxx xx xxx XXXxxxxxx xx $x$ xxxx $Xxxxxx$XXXxxxxxx $Xxxxxxx $x $xxxxxxx xxx$xxxx $xxxxxxxxxxxx xxxx$$.
 
 ```yaml
 Type: Object[]
@@ -284,17 +284,17 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CommandName
-Imports only the commands with the specified names or name patterns.
-Wildcards are permitted.
-Use "CommandName" or its alias, "Name".
+### $XxxxxxxXxxx
+Xxxxxxx xxxx xxx xxxxxxxx xxxx xxx xxxxxxxxx xxxxx xx xxxx xxxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
+Xxx $XxxxxxxXxxx$ xx xxx xxxxx$ $Xxxx$.
 
-By default, Import-PSSession imports all commands from the session, except for commands that have the same names as commands in the current session.
-This prevents imported commands from hiding or replacing commands in the session.
-To import all commands, even those that hide or replace other commands, use the AllowClobber parameter.
+Xx xxxxxxx$ Xxxxxx$XXXxxxxxx xxxxxxx xxx xxxxxxxx xxxx xxx xxxxxxx$ xxxxxx xxx xxxxxxxx xxxx xxxx xxx xxxx xxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx xxxxxx xx xxxxxxxxx xxxxxxxx xx xxx xxxxxxx.
+Xx xxxxxx xxx xxxxxxxx$ xxxx xxxxx xxxx xxxx xx xxxxxxx xxxxx xxxxxxxx$ xxx xxx XxxxxXxxxxxx xxxxxxxxx.
 
-If you use the CommandName parameter, the formatting files for the commands are not imported unless you use the FormatTypeName parameter.
-Similarly, if you use the FormatTypeName parameter, no commands are imported unless you use the CommandName parameter.
+Xx xxx xxx xxx XxxxxxxXxxx xxxxxxxxx$ xxx xxxxxxxxxx xxxxx xxx xxx xxxxxxxx xxx xxx xxxxxxxx xxxxxx xxx xxx xxx XxxxxxXxxxXxxx xxxxxxxxx.
+Xxxxxxxxx$ xx xxx xxx xxx XxxxxxXxxxXxxx xxxxxxxxx$ xx xxxxxxxx xxx xxxxxxxx xxxxxx xxx xxx xxx XxxxxxxXxxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -308,20 +308,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CommandType
-Imports only the specified types of command objects.
-The default value is Cmdlet.
-Use "CommandType" or its alias, "Type".
+### $XxxxxxxXxxx
+Xxxxxxx xxxx xxx xxxxxxxxx xxxxx xx xxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxxx xx Xxxxxx.
+Xxx $XxxxxxxXxxx$ xx xxx xxxxx$ $Xxxx$.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- Alias: The Windows PowerShell aliases in the remote session.
--- All: The cmdlets and functions in the remote session.
--- Application: All the files other than Windows-PowerShell files in the paths that are listed in the Path environment variable ($env:path) in the remote session, including .txt, .exe, and .dll files.
--- Cmdlet: The cmdlets in the remote session. "Cmdlet" is the default.
--- ExternalScript: The .ps1 files in the paths listed in the Path environment variable ($env:path) in the remote session.
--- Filter and Function: The Windows PowerShell functions in the remote session.
--- Script: The script blocks in the remote session.
+$$ Xxxxx$ Xxx Xxxxxxx XxxxxXxxxx xxxxxxx xx xxx xxxxxx xxxxxxx.
+$$ Xxx$ Xxx xxxxxxx xxx xxxxxxxxx xx xxx xxxxxx xxxxxxx.
+$$ Xxxxxxxxxxx$ Xxx xxx xxxxx xxxxx xxxx Xxxxxxx$XxxxxXxxxx xxxxx xx xxx xxxxx xxxx xxx xxxxxx xx xxx Xxxx xxxxxxxxxxx xxxxxxxx $$xxx$xxxx$ xx xxx xxxxxx xxxxxxx$ xxxxxxxxx .xxx$ .xxx$ xxx .xxx xxxxx.
+$$ Xxxxxx$ Xxx xxxxxxx xx xxx xxxxxx xxxxxxx. $Xxxxxx$ xx xxx xxxxxxx.
+$$ XxxxxxxxXxxxxx$ Xxx .xx0 xxxxx xx xxx xxxxx xxxxxx xx xxx Xxxx xxxxxxxxxxx xxxxxxxx $$xxx$xxxx$ xx xxx xxxxxx xxxxxxx.
+$$ Xxxxxx xxx Xxxxxxxx$ Xxx Xxxxxxx XxxxxXxxxx xxxxxxxxx xx xxx xxxxxx xxxxxxx.
+$$ Xxxxxx$ Xxx xxxxxx xxxxxx xx xxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: CommandTypes
@@ -336,17 +336,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DisableNameChecking
-Suppresses the message that warns you when you import a cmdlet or function whose name includes an unapproved verb or a prohibited character.
+### $XxxxxxxXxxxXxxxxxxx
+Xxxxxxxxxx xxx xxxxxxx xxxx xxxxx xxx xxxx xxx xxxxxx x xxxxxx xx xxxxxxxx xxxxx xxxx xxxxxxxx xx xxxxxxxxxx xxxx xx x xxxxxxxxxx xxxxxxxxx.
 
-By default, when a module that you import exports cmdlets or functions that have unapproved verbs in their names, the Windows PowerShell displays the following warning message:
+Xx xxxxxxx$ xxxx x xxxxxx xxxx xxx xxxxxx xxxxxxx xxxxxxx xx xxxxxxxxx xxxx xxxx xxxxxxxxxx xxxxx xx xxxxx xxxxx$ xxx Xxxxxxx XxxxxXxxxx xxxxxxxx xxx xxxxxxxxx xxxxxxx xxxxxxx$
 
-"WARNING: Some imported command names include unapproved verbs which might make them less discoverable. 
-Use the Verbose parameter for more detail or type Get-Verb to see the list of approved verbs."
+$XXXXXXX$ Xxxx xxxxxxxx xxxxxxx xxxxx xxxxxxx xxxxxxxxxx xxxxx xxxxx xxxxx xxxx xxxx xxxx xxxxxxxxxxxx. Xxx xxx Xxxxxxx xxxxxxxxx xxx xxxx xxxxxx xx xxxx Xxx$Xxxx xx xxx xxx xxxx xx xxxxxxxx xxxxx.$
 
-This message is only a warning.
-The complete module is still imported, including the non-conforming commands.
-Although the message is displayed to module users, the naming problem should be fixed by the module author.
+Xxxx xxxxxxx xx xxxx x xxxxxxx.
+Xxx xxxxxxxx xxxxxx xx xxxxx xxxxxxxx$ xxxxxxxxx xxx xxx$xxxxxxxxxx xxxxxxxx.
+Xxxxxxxx xxx xxxxxxx xx xxxxxxxxx xx xxxxxx xxxxx$ xxx xxxxxx xxxxxxx xxxxxx xx xxxxx xx xxx xxxxxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -360,19 +359,19 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FormatTypeName
-Imports formatting instructions for the specified Microsoft .NET Framework types.
-Enter the type names.
-Wildcards are permitted.
+### $XxxxxxXxxxXxxx
+Xxxxxxx xxxxxxxxxx xxxxxxxxxxxx xxx xxx xxxxxxxxx Xxxxxxxxx .XXX Xxxxxxxxx xxxxx.
+Xxxxx xxx xxxx xxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
 
-The value of this parameter must be the name of a type that is returned by a Get-FormatData command in the session from which the commands are being imported.
-To get all of the formatting data in the remote session, type *.
+Xxx xxxxx xx xxxx xxxxxxxxx xxxx xx xxx xxxx xx x xxxx xxxx xx xxxxxxxx xx x Xxx$XxxxxxXxxx xxxxxxx xx xxx xxxxxxx xxxx xxxxx xxx xxxxxxxx xxx xxxxx xxxxxxxx.
+Xx xxx xxx xx xxx xxxxxxxxxx xxxx xx xxx xxxxxx xxxxxxx$ xxxx $.
 
-If the command does not include either the CommandName or FormatTypeName parameters, Import-PSSessionimports formatting instructions for all .NET Framework types returned by a Get-FormatData command in the remote session.
+Xx xxx xxxxxxx xxxx xxx xxxxxxx xxxxxx xxx XxxxxxxXxxx xx XxxxxxXxxxXxxx xxxxxxxxxx$ Xxxxxx$XXXxxxxxxxxxxxxx xxxxxxxxxx xxxxxxxxxxxx xxx xxx .XXX Xxxxxxxxx xxxxx xxxxxxxx xx x Xxx$XxxxxxXxxx xxxxxxx xx xxx xxxxxx xxxxxxx.
 
-If you use the FormatTypeName parameter, no commands are imported unless you use the CommandName parameter.
+Xx xxx xxx xxx XxxxxxXxxxXxxx xxxxxxxxx$ xx xxxxxxxx xxx xxxxxxxx xxxxxx xxx xxx xxx XxxxxxxXxxx xxxxxxxxx.
 
-Similarly, if you use the CommandName parameter, the formatting files for the commands are not imported unless you use the FormatTypeName parameter.
+Xxxxxxxxx$ xx xxx xxx xxx XxxxxxxXxxx xxxxxxxxx$ xxx xxxxxxxxxx xxxxx xxx xxx xxxxxxxx xxx xxx xxxxxxxx xxxxxx xxx xxx xxx XxxxxxXxxxXxxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -386,12 +385,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FullyQualifiedModule
-Specifies modules with names that are specified in the form of ModuleSpecification objects (described by the Remarks section of Module Specification Constructor (Hashtable) on MSDN).
-For example, the FullyQualifiedModule parameter accepts a module name that is specified in the format @{ModuleName = "modulename"; ModuleVersion = "version_number"} or @{ModuleName = "modulename"; ModuleVersion = "version_number"; Guid = "GUID"}.
-ModuleName and ModuleVersion are required, but Guid is optional.
+### $XxxxxXxxxxxxxxXxxxxx
+Xxxxxxxxx xxxxxxx xxxx xxxxx xxxx xxx xxxxxxxxx xx xxx xxxx xx XxxxxxXxxxxxxxxxxxx xxxxxxx $xxxxxxxxx xx xxx Xxxxxxx xxxxxxx xx Xxxxxx Xxxxxxxxxxxxx Xxxxxxxxxxx $Xxxxxxxxx$ xx XXXX$.
+Xxx xxxxxxx$ xxx XxxxxXxxxxxxxxXxxxxx xxxxxxxxx xxxxxxx x xxxxxx xxxx xxxx xx xxxxxxxxx xx xxx xxxxxx $$XxxxxxXxxx $ $xxxxxxxxxx$$ XxxxxxXxxxxxx $ $xxxxxxx$xxxxxx$$ xx $$XxxxxxXxxx $ $xxxxxxxxxx$$ XxxxxxXxxxxxx $ $xxxxxxx$xxxxxx$$ Xxxx $ $XXXX$$.
+XxxxxxXxxx xxx XxxxxxXxxxxxx xxx xxxxxxxx$ xxx Xxxx xx xxxxxxxx.
 
-You cannot specify the FullyQualifiedModule parameter in the same command as a Module parameter; the two parameters are mutually exclusive.
+Xxx xxxxxx xxxxxxx xxx XxxxxXxxxxxxxxXxxxxx xxxxxxxxx xx xxx xxxx xxxxxxx xx x Xxxxxx xxxxxxxxx$ xxx xxx xxxxxxxxxx xxx xxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: ModuleSpecification[]
@@ -405,11 +404,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-If you import a command with the same name as a command in the current session, the imported command hides or replaces the original commands.
-For more information, see about_Command_Precedence.
+### $XxxxxxxxxxxXxxxxx
+Xx xxx xxxxxx x xxxxxxx xxxx xxx xxxx xxxx xx x xxxxxxx xx xxx xxxxxxx xxxxxxx$ xxx xxxxxxxx xxxxxxx xxxxx xx xxxxxxxx xxx xxxxxxxx xxxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx$Xxxxxxxxxx.
 
-By default, Import-PSSession does not import commands that have the same name as commands in the current session.
+Xx xxxxxxx$ Xxxxxx$XXXxxxxxx xxxx xxx xxxxxx xxxxxxxx xxxx xxxx xxx xxxx xxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -424,11 +423,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-If you import a command with the same name as a command in the current session, the imported command hides or replaces the original commands.
-For more information, see about_Command_Precedence.
+### $XxxxxxxxxxxXxxxxxxx
+Xx xxx xxxxxx x xxxxxxx xxxx xxx xxxx xxxx xx x xxxxxxx xx xxx xxxxxxx xxxxxxx$ xxx xxxxxxxx xxxxxxx xxxxx xx xxxxxxxx xxx xxxxxxxx xxxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx$Xxxxxxxxxx.
 
-By default, Import-PSSession does not import commands that have the same name as commands in the current session.
+Xx xxxxxxx$ Xxxxxx$XXXxxxxxx xxxx xxx xxxxxx xxxxxxxx xxxx xxxx xxx xxxx xxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -442,14 +441,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Module
-Imports only the commands in the specified Windows PowerShell snap-ins and modules.
-Enter the snap-in and module names.
-Wildcards are not permitted.
+### $Xxxxxx
+Xxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxxxxxx Xxxxxxx XxxxxXxxxx xxxx$xxx xxx xxxxxxx.
+Xxxxx xxx xxxx$xx xxx xxxxxx xxxxx.
+Xxxxxxxxx xxx xxx xxxxxxxxx.
 
-Import-PSSession cannot import providers from a snap-in.
+Xxxxxx$XXXxxxxxx xxxxxx xxxxxx xxxxxxxxx xxxx x xxxx$xx.
 
-For more information, see about_PSSnapins and about_Modules.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$XXXxxxxxx xxx xxxxx$Xxxxxxx.
 
 ```yaml
 Type: String[]
@@ -463,12 +462,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Prefix
-Adds the specified prefix to the nouns in the names of imported commands.
+### $Xxxxxx
+Xxxx xxx xxxxxxxxx xxxxxx xx xxx xxxxx xx xxx xxxxx xx xxxxxxxx xxxxxxxx.
 
-Use this parameter to avoid name conflicts that might occur when different commands in the session have the same name.
+Xxx xxxx xxxxxxxxx xx xxxxx xxxx xxxxxxxxx xxxx xxxxx xxxxx xxxx xxxxxxxxx xxxxxxxx xx xxx xxxxxxx xxxx xxx xxxx xxxx.
 
-For example, if you specify the prefix "Remote" and then import a Get-Date cmdlet, the cmdlet is known in the session as "Get-RemoteDate" and it is not confused with the original Get-Date cmdlet.
+Xxx xxxxxxx$ xx xxx xxxxxxx xxx xxxxxx $Xxxxxx$ xxx xxxx xxxxxx x Xxx$Xxxx xxxxxx$ xxx xxxxxx xx xxxxx xx xxx xxxxxxx xx $Xxx$XxxxxxXxxx$ xxx xx xx xxx xxxxxxxx xxxx xxx xxxxxxxx Xxx$Xxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -482,11 +481,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Session
-Specifies the PSSession from which the cmdlets are imported.
-Enter a variable that contains a session object or a command that gets a session object, such as a New-PSSession or Get-PSSession command.
-You can specify only one session.
-This parameter is required.
+### $Xxxxxxx
+Xxxxxxxxx xxx XXXxxxxxx xxxx xxxxx xxx xxxxxxx xxx xxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx x xxxxxxx xxxxxx xx x xxxxxxx xxxx xxxx x xxxxxxx xxxxxx$ xxxx xx x Xxx$XXXxxxxxx xx Xxx$XXXxxxxxx xxxxxxx.
+Xxx xxx xxxxxxx xxxx xxx xxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: PSSession
@@ -500,13 +499,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Certificate
-Specifies the client certificate that is used to sign the format files (*.Format.ps1xml) or script module files (.psm1) in the temporary module that Import-PSSession creates.
+### $Xxxxxxxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxxxxxxx xxxx xx xxxx xx xxxx xxx xxxxxx xxxxx $$.Xxxxxx.xx0xxx$ xx xxxxxx xxxxxx xxxxx $.xxx0$ xx xxx xxxxxxxxx xxxxxx xxxx Xxxxxx$XXXxxxxxx xxxxxxx.
 
-Enter a variable that contains a certificate or a command or expression that gets the certificate.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx x xxxxxxxxxxx xx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxxxxxx.
 
-To find a certificate, use the Get-PfxCertificate cmdlet or use the Get-ChildItem cmdlet in the Certificate (Cert:) drive.
-If the certificate is not valid or does not have sufficient authority, the command fails.
+Xx xxxx x xxxxxxxxxxx$ xxx xxx Xxx$XxxXxxxxxxxxxx xxxxxx xx xxx xxx Xxx$XxxxxXxxx xxxxxx xx xxx Xxxxxxxxxxx $Xxxx$$ xxxxx.
+Xx xxx xxxxxxxxxxx xx xxx xxxxx xx xxxx xxx xxxx xxxxxxxxxx xxxxxxxxx$ xxx xxxxxxx xxxxx.
 
 ```yaml
 Type: X509Certificate2
@@ -520,66 +519,66 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe objects to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.PSModuleInfo
-Import-PSSession returns the same module object that New-Module and Get-Module cmdlets return.
-However, the imported module is temporary and exists only in the current session.
-To create a permanent module on disk, use the Export-PSSession cmdlet.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxxXxxx
+Xxxxxx$XXXxxxxxx xxxxxxx xxx xxxx xxxxxx xxxxxx xxxx Xxx$Xxxxxx xxx Xxx$Xxxxxx xxxxxxx xxxxxx.
+Xxxxxxx$ xxx xxxxxxxx xxxxxx xx xxxxxxxxx xxx xxxxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxxxx xxxxxx xx xxxx$ xxx xxx Xxxxxx$XXXxxxxxx xxxxxx.
 
-## NOTES
-Import-PSSession relies on the Windows PowerShell remoting infrastructure.
-To use this cmdlet, the computer must be configured for WS-Management remoting.
-For more information, see about_Remote and about_Remote_Requirements.
+## XXXXX
+Xxxxxx$XXXxxxxxx xxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxxx xxxxxxxxxxxxxx.
+Xx xxx xxxx xxxxxx$ xxx xxxxxxxx xxxx xx xxxxxxxxxx xxx XX$Xxxxxxxxxx xxxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx xxx xxxxx$Xxxxxx$Xxxxxxxxxxxx.
 
-Import-PSSession does not import variables or Windows PowerShell providers.
+Xxxxxx$XXXxxxxxx xxxx xxx xxxxxx xxxxxxxxx xx Xxxxxxx XxxxxXxxxx xxxxxxxxx.
 
-When you import commands that have the same names as commands in the current session, the imported commands can hide aliases, functions, and cmdlets in the session and they can replace functions and variables in the session.
-To prevent name conflicts, use the Prefix parameter.
-For more information, see about_Command_Precedence.
+Xxxx xxx xxxxxx xxxxxxxx xxxx xxxx xxx xxxx xxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx$ xxx xxxxxxxx xxxxxxxx xxx xxxx xxxxxxx$ xxxxxxxxx$ xxx xxxxxxx xx xxx xxxxxxx xxx xxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxx.
+Xx xxxxxxx xxxx xxxxxxxxx$ xxx xxx Xxxxxx xxxxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx$Xxxxxxxxxx.
 
-Import-PSSession converts all commands into functions before it imports them.
-As a result, imported commands behave a bit differently than they would if they retained their original command type.
-For example, if you import a cmdlet from a PSSession and then import a cmdlet with the same name from a module or snap-in, the cmdlet that is imported from the PSSession always runs by default because functions take precedence over cmdlets.
-Conversely, if you import an alias into a session that has an alias with the same name, the original alias is always used, because aliases take precedence over functions.
-For more information, see about_Command_Precedence.
+Xxxxxx$XXXxxxxxx xxxxxxxx xxx xxxxxxxx xxxx xxxxxxxxx xxxxxx xx xxxxxxx xxxx.
+Xx x xxxxxx$ xxxxxxxx xxxxxxxx xxxxxx x xxx xxxxxxxxxxx xxxx xxxx xxxxx xx xxxx xxxxxxxx xxxxx xxxxxxxx xxxxxxx xxxx.
+Xxx xxxxxxx$ xx xxx xxxxxx x xxxxxx xxxx x XXXxxxxxx xxx xxxx xxxxxx x xxxxxx xxxx xxx xxxx xxxx xxxx x xxxxxx xx xxxx$xx$ xxx xxxxxx xxxx xx xxxxxxxx xxxx xxx XXXxxxxxx xxxxxx xxxx xx xxxxxxx xxxxxxx xxxxxxxxx xxxx xxxxxxxxxx xxxx xxxxxxx.
+Xxxxxxxxxx$ xx xxx xxxxxx xx xxxxx xxxx x xxxxxxx xxxx xxx xx xxxxx xxxx xxx xxxx xxxx$ xxx xxxxxxxx xxxxx xx xxxxxx xxxx$ xxxxxxx xxxxxxx xxxx xxxxxxxxxx xxxx xxxxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx$Xxxxxxxxxx.
 
-Import-PSSession uses the Write-Progress cmdlet to display the progress of the command.
-You might see the progress bar while the command is running.
+Xxxxxx$XXXxxxxxx xxxx xxx Xxxxx$Xxxxxxxx xxxxxx xx xxxxxxx xxx xxxxxxxx xx xxx xxxxxxx.
+Xxx xxxxx xxx xxx xxxxxxxx xxx xxxxx xxx xxxxxxx xx xxxxxxx.
 
-To find the commands to import, Import-PSSession uses the Invoke-Command cmdlet to run a Get-Command command in the PSSession.
-To get formatting data for the commands, it uses the Get-FormatData cmdlet.
-You might see error messages from these cmdlets when you run an Import-PSSession command.
-Also, Import-PSSession cannot import commands from a PSSession that does not include the Get-Command, Get-FormatData, Select-Object, and Get-Help cmdlets.
+Xx xxxx xxx xxxxxxxx xx xxxxxx$ Xxxxxx$XXXxxxxxx xxxx xxx Xxxxxx$Xxxxxxx xxxxxx xx xxx x Xxx$Xxxxxxx xxxxxxx xx xxx XXXxxxxxx.
+Xx xxx xxxxxxxxxx xxxx xxx xxx xxxxxxxx$ xx xxxx xxx Xxx$XxxxxxXxxx xxxxxx.
+Xxx xxxxx xxx xxxxx xxxxxxxx xxxx xxxxx xxxxxxx xxxx xxx xxx xx Xxxxxx$XXXxxxxxx xxxxxxx.
+Xxxx$ Xxxxxx$XXXxxxxxx xxxxxx xxxxxx xxxxxxxx xxxx x XXXxxxxxx xxxx xxxx xxx xxxxxxx xxx Xxx$Xxxxxxx$ Xxx$XxxxxxXxxx$ Xxxxxx$Xxxxxx$ xxx Xxx$Xxxx xxxxxxx.
 
-Imported commands have the same limitations as other remote commands, including the inability to start a program with a user interface, such as Notepad.
+Xxxxxxxx xxxxxxxx xxxx xxx xxxx xxxxxxxxxxx xx xxxxx xxxxxx xxxxxxxx$ xxxxxxxxx xxx xxxxxxxxx xx xxxxx x xxxxxxx xxxx x xxxx xxxxxxxxx$ xxxx xx Xxxxxxx.
 
-Because Windows PowerShell profiles are not run in PSSessions, the commands that a profile adds to a session are not available to Import-PSSession.
-To import commands from a profile, use an Invoke-Command command to run the profile in the PSSession manually before importing commands.
+Xxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxxx xxx xxx xxx xx XXXxxxxxxx$ xxx xxxxxxxx xxxx x xxxxxxx xxxx xx x xxxxxxx xxx xxx xxxxxxxxx xx Xxxxxx$XXXxxxxxx.
+Xx xxxxxx xxxxxxxx xxxx x xxxxxxx$ xxx xx Xxxxxx$Xxxxxxx xxxxxxx xx xxx xxx xxxxxxx xx xxx XXXxxxxxx xxxxxxxx xxxxxx xxxxxxxxx xxxxxxxx.
 
-The temporary module that Import-PSSession creates might include a formatting file, even if the command does not import formatting data.
-If the command does not import formatting data, any formatting files that are created will not contain formatting data.
+Xxx xxxxxxxxx xxxxxx xxxx Xxxxxx$XXXxxxxxx xxxxxxx xxxxx xxxxxxx x xxxxxxxxxx xxxx$ xxxx xx xxx xxxxxxx xxxx xxx xxxxxx xxxxxxxxxx xxxx.
+Xx xxx xxxxxxx xxxx xxx xxxxxx xxxxxxxxxx xxxx$ xxx xxxxxxxxxx xxxxx xxxx xxx xxxxxxx xxxx xxx xxxxxxx xxxxxxxxxx xxxx.
 
-To use Import-PSSession, the execution policy in the current session cannot be Restricted or AllSigned, because the temporary module that Import-PSSession creates contains unsigned script files that are prohibited by these policies.
-To use Import-PSSession without changing the execution policy for the local computer, use the Scope parameter of Set-ExecutionPolicy to set a less restrictive execution policy for a single process.
+Xx xxx Xxxxxx$XXXxxxxxx$ xxx xxxxxxxxx xxxxxx xx xxx xxxxxxx xxxxxxx xxxxxx xx Xxxxxxxxxx xx XxxXxxxxx$ xxxxxxx xxx xxxxxxxxx xxxxxx xxxx Xxxxxx$XXXxxxxxx xxxxxxx xxxxxxxx xxxxxxxx xxxxxx xxxxx xxxx xxx xxxxxxxxxx xx xxxxx xxxxxxxx.
+Xx xxx Xxxxxx$XXXxxxxxx xxxxxxx xxxxxxxx xxx xxxxxxxxx xxxxxx xxx xxx xxxxx xxxxxxxx$ xxx xxx Xxxxx xxxxxxxxx xx Xxx$XxxxxxxxxXxxxxx xx xxx x xxxx xxxxxxxxxxx xxxxxxxxx xxxxxx xxx x xxxxxx xxxxxxx.
 
-In Windows PowerShell 2.0, help topics for commands that are imported from another session do not include the prefix that you assign by using the Prefix parameter.
-To get help for an imported command in Windows PowerShell 2.0, use the original (non-prefixed) command name.
+Xx Xxxxxxx XxxxxXxxxx 0.0$ xxxx xxxxxx xxx xxxxxxxx xxxx xxx xxxxxxxx xxxx xxxxxxx xxxxxxx xx xxx xxxxxxx xxx xxxxxx xxxx xxx xxxxxx xx xxxxx xxx Xxxxxx xxxxxxxxx.
+Xx xxx xxxx xxx xx xxxxxxxx xxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0$ xxx xxx xxxxxxxx $xxx$xxxxxxxx$ xxxxxxx xxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Export-PSSession]()
+[Xxxxxx$XXXxxxxxx]()
 
-[New-PSSession]()
+[Xxx$XXXxxxxxx]()
 
-[about_Command_Precedence]()
+[xxxxx$Xxxxxxx$Xxxxxxxxxx]()
 
-[about_PSSessions]()
+[xxxxx$XXXxxxxxxx]()
 
-[about_Jobs]()
+[xxxxx$Xxxx]()
 

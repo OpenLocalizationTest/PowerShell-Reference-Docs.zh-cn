@@ -4,47 +4,47 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294000
 schema: 2.0.0
 ---
 
-# Read-Host
-## SYNOPSIS
-Reads a line of input from the console.
+# Xxxx$Xxxx
+## XXXXXXXX
+Xxxxx x xxxx xx xxxxx xxxx xxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Read-Host [[-Prompt] <Object>] [-AsSecureString] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Read-Host cmdlet reads a line of input from the console.
-You can use it to prompt a user for input.
-Because you can save the input as a secure string, you can use this cmdlet to prompt users for secure data, such as passwords, as well as shared data.
+## XXXXXXXXXXX
+Xxx Xxxx$Xxxx xxxxxx xxxxx x xxxx xx xxxxx xxxx xxx xxxxxxx.
+Xxx xxx xxx xx xx xxxxxx x xxxx xxx xxxxx.
+Xxxxxxx xxx xxx xxxx xxx xxxxx xx x xxxxxx xxxxxx$ xxx xxx xxx xxxx xxxxxx xx xxxxxx xxxxx xxx xxxxxx xxxx$ xxxx xx xxxxxxxxx$ xx xxxx xx xxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$age = read-host "Please enter your age"
 ```
 
-This command displays the string "Please enter your age:" as a prompt.
-When a value is entered and the Enter key is pressed, the value is stored in the $age variable.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxx $Xxxxxx xxxxx xxxx xxx$$ xx x xxxxxx.
+Xxxx x xxxxx xx xxxxxxx xxx xxx Xxxxx xxx xx xxxxxxx$ xxx xxxxx xx xxxxxx xx xxx $xxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$pwd_secure_string = read-host "Enter a Password" -assecurestring
 ```
 
-This command displays the string "Enter a Password:" as a prompt.
-As a value is being entered, asterisks (*) appear on the console in place of the input.
-When the Enter key is pressed, the value is stored as a SecureString object in the $pwd_secure_string variable.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxx $Xxxxx x Xxxxxxxx$$ xx x xxxxxx.
+Xx x xxxxx xx xxxxx xxxxxxx$ xxxxxxxxx $$$ xxxxxx xx xxx xxxxxxx xx xxxxx xx xxx xxxxx.
+Xxxx xxx Xxxxx xxx xx xxxxxxx$ xxx xxxxx xx xxxxxx xx x XxxxxxXxxxxx xxxxxx xx xxx $xxx$xxxxxx$xxxxxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AsSecureString
-Displays asterisks (*) in place of the characters that the user types as input.
+### $XxXxxxxxXxxxxx
+Xxxxxxxx xxxxxxxxx $$$ xx xxxxx xx xxx xxxxxxxxxx xxxx xxx xxxx xxxxx xx xxxxx.
 
-When you use this parameter, the output of the Read-Host cmdlet is a SecureString object (System.Security.SecureString).
+Xxxx xxx xxx xxxx xxxxxxxxx$ xxx xxxxxx xx xxx Xxxx$Xxxx xxxxxx xx x XxxxxxXxxxxx xxxxxx $Xxxxxx.Xxxxxxxx.XxxxxxXxxxxx$.
 
 ```yaml
 Type: SwitchParameter
@@ -58,8 +58,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-When you use this parameter, the output of the Read-Host cmdlet is a SecureString object (System.Security.SecureString).
+### $XxxxxxxxxxxXxxxxx
+Xxxx xxx xxx xxxx xxxxxxxxx$ xxx xxxxxx xx xxx Xxxx$Xxxx xxxxxx xx x XxxxxxXxxxxx xxxxxx $Xxxxxx.Xxxxxxxx.XxxxxxXxxxxx$.
 
 ```yaml
 Type: ActionPreference
@@ -74,8 +74,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-When you use this parameter, the output of the Read-Host cmdlet is a SecureString object (System.Security.SecureString).
+### $XxxxxxxxxxxXxxxxxxx
+Xxxx xxx xxx xxxx xxxxxxxxx$ xxx xxxxxx xx xxx Xxxx$Xxxx xxxxxx xx x XxxxxxXxxxxx xxxxxx $Xxxxxx.Xxxxxxxx.XxxxxxXxxxxx$.
 
 ```yaml
 Type: String
@@ -89,11 +89,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Prompt
-Specifies the text of the prompt.
-Type a string.
-If the string includes spaces, enclose it in quotation marks.
-Windows PowerShell appends a colon (:) to the text that you enter.
+### $Xxxxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx.
+Xxxx x xxxxxx.
+Xx xxx xxxxxx xxxxxxxx xxxxxx$ xxxxxxx xx xx xxxxxxxxx xxxxx.
+Xxxxxxx XxxxxXxxxx xxxxxxx x xxxxx $$$ xx xxx xxxx xxxx xxx xxxxx.
 
 ```yaml
 Type: Object
@@ -107,28 +107,28 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.String or System.Security.SecureString
-If the AsSecureString parameter is used, Read-Host returns a SecureString.
-Otherwise, it returns a string.
+### Xxxxxx.Xxxxxx xx Xxxxxx.Xxxxxxxx.XxxxxxXxxxxx
+Xx xxx XxXxxxxxXxxxxx xxxxxxxxx xx xxxx$ Xxxx$Xxxx xxxxxxx x XxxxxxXxxxxx.
+Xxxxxxxxx$ xx xxxxxxx x xxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Clear-Host]()
+[Xxxxx$Xxxx]()
 
-[ConvertFrom-SecureString]()
+[XxxxxxxXxxx$XxxxxxXxxxxx]()
 
-[Get-Host]()
+[Xxx$Xxxx]()
 
-[Out-Host]()
+[Xxx$Xxxx]()
 
-[Write-Host]()
+[Xxxxx$Xxxx]()
 

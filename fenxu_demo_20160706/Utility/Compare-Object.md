@@ -4,11 +4,11 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293945
 schema: 2.0.0
 ---
 
-# Compare-Object
-## SYNOPSIS
-Compares two sets of objects.
+# Xxxxxxx$Xxxxxx
+## XXXXXXXX
+Xxxxxxxx xxx xxxx xx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Compare-Object [-ReferenceObject] <PSObject[]> [-DifferenceObject] <PSObject[]> [-SyncWindow <Int32>]
@@ -16,33 +16,33 @@ Compare-Object [-ReferenceObject] <PSObject[]> [-DifferenceObject] <PSObject[]> 
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Compare-Object cmdlet compares two sets of objects.
-One set of objects is the "reference set," and the other set is the "difference set."
+## XXXXXXXXXXX
+Xxx Xxxxxxx$Xxxxxx xxxxxx xxxxxxxx xxx xxxx xx xxxxxxx.
+Xxx xxx xx xxxxxxx xx xxx $xxxxxxxxx xxx$$ xxx xxx xxxxx xxx xx xxx $xxxxxxxxxx xxx.$
 
-The result of the comparison indicates whether a property value appeared only in the object from the reference set (indicated by the \<= symbol), only in the object from the difference set (indicated by the =\> symbol) or, if the IncludeEqual parameter is specified, in both objects (indicated by the == symbol).
+Xxx xxxxxx xx xxx xxxxxxxxxx xxxxxxxxx xxxxxxx x xxxxxxxx xxxxx xxxxxxxx xxxx xx xxx xxxxxx xxxx xxx xxxxxxxxx xxx $xxxxxxxxx xx xxx $$$ xxxxxx$$ xxxx xx xxx xxxxxx xxxx xxx xxxxxxxxxx xxx $xxxxxxxxx xx xxx $$$ xxxxxx$ xx$ xx xxx XxxxxxxXxxxx xxxxxxxxx xx xxxxxxxxx$ xx xxxx xxxxxxx $xxxxxxxxx xx xxx $$ xxxxxx$.
 
-NOTE:  If the reference set or the difference set is null ($null), Compare-Object generates a terminating error.
+XXXX$  Xx xxx xxxxxxxxx xxx xx xxx xxxxxxxxxx xxx xx xxxx $$xxxx$$ Xxxxxxx$Xxxxxx xxxxxxxxx x xxxxxxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>compare-object -referenceobject $(get-content C:\test\testfile1.txt) -differenceobject $(get-content C:\test\testfile2.txt)
 ```
 
-This command compares the contents of two text files.
-It displays only the lines that appear in one file or in the other file, not lines that appear in both files.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxx xx xxx xxxx xxxxx.
+Xx xxxxxxxx xxxx xxx xxxxx xxxx xxxxxx xx xxx xxxx xx xx xxx xxxxx xxxx$ xxx xxxxx xxxx xxxxxx xx xxxx xxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>compare-object -referenceobject $(get-content C:\Test\testfile1.txt) -differenceobject $(get-content C:\Test\testfile2.txt) -includeequal
 ```
 
-This command compares each line of content in two text files.
-It displays all lines of content from both files, indicating whether each line appears in only Textfile1.txt or Textfile2.txt or whether each line appears in both files.
+Xxxx xxxxxxx xxxxxxxx xxxx xxxx xx xxxxxxx xx xxx xxxx xxxxx.
+Xx xxxxxxxx xxx xxxxx xx xxxxxxx xxxx xxxx xxxxx$ xxxxxxxxxx xxxxxxx xxxx xxxx xxxxxxx xx xxxx Xxxxxxxx0.xxx xx Xxxxxxxx0.xxx xx xxxxxxx xxxx xxxx xxxxxxx xx xxxx xxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$processes_before = get-process
 PS C:\>notepad
@@ -50,22 +50,22 @@ PS C:\>$processes_after  = get-process
 PS C:\>compare-object -referenceobject $processes_before -differenceobject $processes_after
 ```
 
-These commands compare two sets of process objects.
+Xxxxx xxxxxxxx xxxxxxx xxx xxxx xx xxxxxxx xxxxxxx.
 
-The first command uses the Get-Process cmdlet to get the processes on the computer.
-It stores them in the $processes_before variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxxxx xx xxx xxxxxxxx.
+Xx xxxxxx xxxx xx xxx $xxxxxxxxx$xxxxxx xxxxxxxx.
 
-The second command starts Notepad.
+Xxx xxxxxx xxxxxxx xxxxxx Xxxxxxx.
 
-The third command uses the Get-Process cmdlet again and stores the resulting processes in the $processes_after variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xxxxx xxx xxxxxx xxx xxxxxxxxx xxxxxxxxx xx xxx $xxxxxxxxx$xxxxx xxxxxxxx.
 
-The fourth command uses the Compare-Object cmdlet to compare the two sets of process objects.
-It displaysthe differences between them, which include the new instance of Notepad.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxxx$Xxxxxx xxxxxx xx xxxxxxx xxx xxx xxxx xx xxxxxxx xxxxxxx.
+Xx xxxxxxxxxxx xxxxxxxxxxx xxxxxxx xxxx$ xxxxx xxxxxxx xxx xxx xxxxxxxx xx Xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -CaseSensitive
-Indicates that comparisons should be case-sensitive.
+### $XxxxXxxxxxxxx
+Xxxxxxxxx xxxx xxxxxxxxxxx xxxxxx xx xxxx$xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -79,8 +79,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Culture
-Specifies the culture to use for comparisons.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxx xxx xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -94,8 +94,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DifferenceObject
-Specifies the objects that are compared to the reference objects.
+### $XxxxxxxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: PSObject[]
@@ -109,8 +109,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -ExcludeDifferent
-Displays only the characteristics of compared objects that are equal.
+### $XxxxxxxXxxxxxxxx
+Xxxxxxxx xxxx xxx xxxxxxxxxxxxxxx xx xxxxxxxx xxxxxxx xxxx xxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -124,9 +124,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -IncludeEqual
-Displays characteristics of compared objects that are equal.
-By default, only characteristics that differ between the reference and difference objects are displayed.
+### $XxxxxxxXxxxx
+Xxxxxxxx xxxxxxxxxxxxxxx xx xxxxxxxx xxxxxxx xxxx xxx xxxxx.
+Xx xxxxxxx$ xxxx xxxxxxxxxxxxxxx xxxx xxxxxx xxxxxxx xxx xxxxxxxxx xxx xxxxxxxxxx xxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -140,8 +140,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -156,8 +156,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -171,9 +171,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Passes the objects that differed to the pipeline.
-By default, this cmdlet does not generate any output.
+### $XxxxXxxx
+Xxxxxx xxx xxxxxxx xxxx xxxxxxxx xx xxx xxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -187,8 +187,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Property
-Specifies the properties of the reference and difference objects to compare.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxx xxx xxxxxxxxxx xxxxxxx xx xxxxxxx.
 
 ```yaml
 Type: Object[]
@@ -202,8 +202,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ReferenceObject
-Objects used as a reference for comparison.
+### $XxxxxxxxxXxxxxx
+Xxxxxxx xxxx xx x xxxxxxxxx xxx xxxxxxxxxx.
 
 ```yaml
 Type: PSObject[]
@@ -217,10 +217,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SyncWindow
-Specifies the number of adjacent objects that Compare-Object inspects while looking for an match in a collection of objects.
-Compare-Object examines adjacent objects when it doesn't find the object in the same position in a collection.
-The default value is \[Int32\]::MaxValue, which means that Compare-Object examines the entire object collection.
+### $XxxxXxxxxx
+Xxxxxxxxx xxx xxxxxx xx xxxxxxxx xxxxxxx xxxx Xxxxxxx$Xxxxxx xxxxxxxx xxxxx xxxxxxx xxx xx xxxxx xx x xxxxxxxxxx xx xxxxxxx.
+Xxxxxxx$Xxxxxx xxxxxxxx xxxxxxxx xxxxxxx xxxx xx xxxxx$x xxxx xxx xxxxxx xx xxx xxxx xxxxxxxx xx x xxxxxxxxxx.
+Xxx xxxxxxx xxxxx xx $$Xxx00$$$$XxxXxxxx$ xxxxx xxxxx xxxx Xxxxxxx$Xxxxxx xxxxxxxx xxx xxxxxx xxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -234,34 +234,34 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe a DifferenceObject object to Compare-Object.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx x XxxxxxxxxxXxxxxx xxxxxx xx Xxxxxxx$Xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None, or the objects that are different
-When you use the PassThru parameter, Compare-Object returns the objects that differed.
-Otherwise, this cmdlet does not generate any output.
+### Xxxx$ xx xxx xxxxxxx xxxx xxx xxxxxxxxx
+Xxxx xxx xxx xxx XxxxXxxx xxxxxxxxx$ Xxxxxxx$Xxxxxx xxxxxxx xxx xxxxxxx xxxx xxxxxxxx.
+Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[ForEach-Object]()
+[XxxXxxx$Xxxxxx]()
 
-[Group-Object]()
+[Xxxxx$Xxxxxx]()
 
-[Measure-Object]()
+[Xxxxxxx$Xxxxxx]()
 
-[New-Object]()
+[Xxx$Xxxxxx]()
 
-[Select-Object]()
+[Xxxxxx$Xxxxxx]()
 
-[Sort-Object]()
+[Xxxx$Xxxxxx]()
 
-[Tee-Object]()
+[Xxx$Xxxxxx]()
 
-[Where-Object]()
+[Xxxxx$Xxxxxx]()
 

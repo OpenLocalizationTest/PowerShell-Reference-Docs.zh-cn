@@ -6,40 +6,39 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureRmAutomationConnectionType
-## SYNOPSIS
-Removes an Automation connection type.
+# Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxXxxx
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureRmAutomationConnectionType [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-Force] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureRmAutomationConnectionType** cmdlet removes a connection type from azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxXxxx$$ xxxxxx xxxxxxx x xxxxxxxxxx xxxx xxxx xxxxx$0 Xxxxxxxxxx.
 
-All connections that are associated with the connection type that you delete become unusable.
-Remove them, unless you create a new connection type that meets the following criteria: 
+Xxx xxxxxxxxxxx xxxx xxx xxxxxxxxxx xxxx xxx xxxxxxxxxx xxxx xxxx xxx xxxxxx xxxxxx xxxxxxxx.
+Xxxxxx xxxx$ xxxxxx xxx xxxxxx x xxx xxxxxxxxxx xxxx xxxx xxxxx xxx xxxxxxxxx xxxxxxxx$ 
 
--- The type has the same name as the original connection type. 
--- The type has the same field definitions as the original connection type.
-It can have additional fields.
+$$ Xxx xxxx xxx xxx xxxx xxxx xx xxx xxxxxxxx xxxxxxxxxx xxxx. $$ Xxx xxxx xxx xxx xxxx xxxxx xxxxxxxxxxx xx xxx xxxxxxxx xxxxxxxxxx xxxx.
+Xx xxx xxxx xxxxxxxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a connection type
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxxxx xxxx
 ```
 PS C:\>Remove-AzureRmAutomationConnectionType -AutomationAccountName "Contoso17" -Name "ContosoConnectionType" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command removes a connection type named ContosoConnectionType in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxxxx xxxx xxxxx XxxxxxxXxxxxxxxxxXxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account for which this cmdlet removes a connection type.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -53,8 +52,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-ps_force
+### $Xxxxx
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -68,8 +67,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the Automation connection type that this cmdlet removes.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxxxxx xxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -83,8 +82,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group from which this cmdlet removes an Automation connection type.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxxx xxxxx xxxx xxxxxx xxxxxxx xx Xxxxxxxxxx xxxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -98,8 +97,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -113,8 +112,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -128,14 +127,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Remove-AzureRmAutomationConnection](76dc3b3d-2dd3-49ad-a28c-afbfc754e020)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](76dc3b3d-2dd3-49ad-a28c-afbfc754e020)
 
 

@@ -4,98 +4,98 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293966
 schema: 2.0.0
 ---
 
-# Get-Date
-## SYNOPSIS
-Gets the current date and time.
+# Xxx$Xxxx
+## XXXXXXXX
+Xxxx xxx xxxxxxx xxxx xxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### net (Default)
+### xxx $Xxxxxxx$
 ```
 Get-Date [[-Date] <DateTime>] [-Year <Int32>] [-Month <Int32>] [-Day <Int32>] [-Hour <Int32>] [-Minute <Int32>]
  [-Second <Int32>] [-Millisecond <Int32>] [-DisplayHint <DisplayHintType>] [-Format <String>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### UFormat
+### XXxxxxx
 ```
 Get-Date [[-Date] <DateTime>] [-Year <Int32>] [-Month <Int32>] [-Day <Int32>] [-Hour <Int32>] [-Minute <Int32>]
  [-Second <Int32>] [-Millisecond <Int32>] [-DisplayHint <DisplayHintType>] [-UFormat <String>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-Date cmdlet gets a DateTime object that represents the current date or a date that you specify.
-It can format the date and time in several Windows and UNIX formats.
-You can use Get-Date to generate a date or time character string, and then send the string to other cmdlets or programs.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxx xxxxxx xxxx x XxxxXxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xxxx xx x xxxx xxxx xxx xxxxxxx.
+Xx xxx xxxxxx xxx xxxx xxx xxxx xx xxxxxxx Xxxxxxx xxx XXXX xxxxxxx.
+Xxx xxx xxx Xxx$Xxxx xx xxxxxxxx x xxxx xx xxxx xxxxxxxxx xxxxxx$ xxx xxxx xxxx xxx xxxxxx xx xxxxx xxxxxxx xx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Date -DisplayHint Date
 Tuesday, June 13, 2006
 ```
 
-This command gets a DateTime object, but it displays only the date.
-It uses the DisplayHint parameter to indicate that only the date is to be displayed.
+Xxxx xxxxxxx xxxx x XxxxXxxx xxxxxx$ xxx xx xxxxxxxx xxxx xxx xxxx.
+Xx xxxx xxx XxxxxxxXxxx xxxxxxxxx xx xxxxxxxx xxxx xxxx xxx xxxx xx xx xx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Date -Format g
 6/13/2006 12:43 PM
 ```
 
-This command gets the current date and time and formats it in short-date and short-time format.
-It uses the .NET Framework "g" format specifier (General \[short date and short time\]) to specify the format.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxx xxx xxxx xxx xxxxxxx xx xx xxxxx$xxxx xxx xxxxx$xxxx xxxxxx.
+Xx xxxx xxx .XXX Xxxxxxxxx $x$ xxxxxx xxxxxxxxx $Xxxxxxx $$xxxxx xxxx xxx xxxxx xxxx$$$ xx xxxxxxx xxx xxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Date -UFormat "%Y / %m / %d / %A / %Z"
 2006 / 06 / 13 / Tuesday / -07
 ```
 
-This command gets the current date and time and formats it as specified by the command.
-In this case, the format includes the full year (%Y), the two-digit numeric month (%m), the date (%d), the full day of the week (%A), and the offset from UTC ("Zulu").
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxx xxx xxxx xxx xxxxxxx xx xx xxxxxxxxx xx xxx xxxxxxx.
+Xx xxxx xxxx$ xxx xxxxxx xxxxxxxx xxx xxxx xxxx $$X$$ xxx xxx$xxxxx xxxxxxx xxxxx $$x$$ xxx xxxx $$x$$ xxx xxxx xxx xx xxx xxxx $$X$$ xxx xxx xxxxxx xxxx XXX $$Xxxx$$.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>(Get-Date -Year 2000 -Month 12 -Day 31).DayOfYear
 366
 ```
 
-This command displays the day of the year for the current date.
-For example, December 31 is the 365th day of 2006, but it is the 366th day of 2000.
+Xxxx xxxxxxx xxxxxxxx xxx xxx xx xxx xxxx xxx xxx xxxxxxx xxxx.
+Xxx xxxxxxx$ Xxxxxxxx 00 xx xxx 000xx xxx xx 0000$ xxx xx xx xxx 000xx xxx xx 0000.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = Get-Date
 PS C:\>$a.IsDaylightSavingTime()
 True
 ```
 
-These commands tell you whether the current date and time are adjusted for daylight savings time in the current locale.
+Xxxxx xxxxxxxx xxxx xxx xxxxxxx xxx xxxxxxx xxxx xxx xxxx xxx xxxxxxxx xxx xxxxxxxx xxxxxxx xxxx xx xxx xxxxxxx xxxxxx.
 
-The first command creates a variable named $a and then assigns the object retrieved by Get-Date to the $a variable.
-Then, it uses the IsDaylightSavingTime method on the object in $a.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxxxxx xxxxx $x xxx xxxx xxxxxxx xxx xxxxxx xxxxxxxxx xx Xxx$Xxxx xx xxx $x xxxxxxxx.
+Xxxx$ xx xxxx xxx XxXxxxxxxxXxxxxxXxxx xxxxxx xx xxx xxxxxx xx $x.
 
-To see the properties and methods of the DateTime object, type:
+Xx xxx xxx xxxxxxxxxx xxx xxxxxxx xx xxx XxxxXxxx xxxxxx$ xxxx$
 
-"Get-Date | get-member".
+$Xxx$Xxxx $ xxx$xxxxxx$.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = Get-Date
 PS C:\>$a.ToUniversalTime()
 Tuesday, June 13, 2006 8:09:19 PM
 ```
 
-These commands convert the current date and time to UTC time.
+Xxxxx xxxxxxxx xxxxxxx xxx xxxxxxx xxxx xxx xxxx xx XXX xxxx.
 
-The first command creates a variable named $a and then assigns the object retrieved by Get-Date to the $a variable.
-Then, it uses the ToUniversalTime method on the object in $a.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxxxxx xxxxx $x xxx xxxx xxxxxxx xxx xxxxxx xxxxxxxxx xx Xxx$Xxxx xx xxx $x xxxxxxxx.
+Xxxx$ xx xxxx xxx XxXxxxxxxxxXxxx xxxxxx xx xxx xxxxxx xx $x.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = Get-WmiObject Win32_Bios -Computer Server01
 PS C:\>$a | Format-List -Property Name, @{Label="BIOS Age";Expression={(Get-Date) - $_.ConvertToDateTime($_.ReleaseDate)}}
@@ -103,31 +103,31 @@ Name     : Default System BIOS
 BIOS Age : 1345.17:31:07.1091047
 ```
 
-Windows Management Instrumentation (WMI) uses a different date-time object than the .NET Framework date-time object that Get-Date returns.
-To use date-time information from WMI in a command with date-time information from Get-Date, you have to use the ConvertToDateTime method to convert WMI CIM_DATETIME objects to .NET Framework DateTime objects.
+Xxxxxxx Xxxxxxxxxx Xxxxxxxxxxxxxxx $XXX$ xxxx x xxxxxxxxx xxxx$xxxx xxxxxx xxxx xxx .XXX Xxxxxxxxx xxxx$xxxx xxxxxx xxxx Xxx$Xxxx xxxxxxx.
+Xx xxx xxxx$xxxx xxxxxxxxxxx xxxx XXX xx x xxxxxxx xxxx xxxx$xxxx xxxxxxxxxxx xxxx Xxx$Xxxx$ xxx xxxx xx xxx xxx XxxxxxxXxXxxxXxxx xxxxxx xx xxxxxxx XXX XXX$XXXXXXXX xxxxxxx xx .XXX Xxxxxxxxx XxxxXxxx xxxxxxx.
 
-The commands in this example display the name and age of the BIOS on a remote computer, Server01.
+Xxx xxxxxxxx xx xxxx xxxxxxx xxxxxxx xxx xxxx xxx xxx xx xxx XXXX xx x xxxxxx xxxxxxxx$ Xxxxxx00.
 
-The first command uses the Get-WmiObject cmdlet to get an instance of the Win32_BIOS class on Server01 and then stores it in the $a variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XxxXxxxxx xxxxxx xx xxx xx xxxxxxxx xx xxx Xxx00$XXXX xxxxx xx Xxxxxx00 xxx xxxx xxxxxx xx xx xxx $x xxxxxxxx.
 
-The second command uses the pipeline operator (|) to send the WMI object stored in $a to the Format-List cmdlet.
-The Property parameter of Format-List specifies two properties to display in the list, "Name" and "BIOS Age".
-The "BIOS Age" property is specified in a hash table.
-The table includes the Label key, which specifies the name of the property, and the Expression key, which contains the expression that calculates the BIOS age.
-The expression uses the ConvertToDateTime method to convert each instance of ReleaseDate to a .NET Framework DateTime object.
-Then, the value is subtracted from the value of the Get-Date cmdlet, which, without parameters, gets the current date.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxxxxxx xxxxxxxx $$$ xx xxxx xxx XXX xxxxxx xxxxxx xx $x xx xxx Xxxxxx$Xxxx xxxxxx.
+Xxx Xxxxxxxx xxxxxxxxx xx Xxxxxx$Xxxx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxxx xx xxx xxxx$ $Xxxx$ xxx $XXXX Xxx$.
+Xxx $XXXX Xxx$ xxxxxxxx xx xxxxxxxxx xx x xxxx xxxxx.
+Xxx xxxxx xxxxxxxx xxx Xxxxx xxx$ xxxxx xxxxxxxxx xxx xxxx xx xxx xxxxxxxx$ xxx xxx Xxxxxxxxxx xxx$ xxxxx xxxxxxxx xxx xxxxxxxxxx xxxx xxxxxxxxxx xxx XXXX xxx.
+Xxx xxxxxxxxxx xxxx xxx XxxxxxxXxXxxxXxxx xxxxxx xx xxxxxxx xxxx xxxxxxxx xx XxxxxxxXxxx xx x .XXX Xxxxxxxxx XxxxXxxx xxxxxx.
+Xxxx$ xxx xxxxx xx xxxxxxxxxx xxxx xxx xxxxx xx xxx Xxx$Xxxx xxxxxx$ xxxxx$ xxxxxxx xxxxxxxxxx$ xxxx xxx xxxxxxx xxxx.
 
-The backtick character (\`) is the line continuation character in Windows PowerShell.
+Xxx xxxxxxxx xxxxxxxxx $$$$ xx xxx xxxx xxxxxxxxxxxx xxxxxxxxx xx Xxxxxxx XxxxxXxxxx.
 
-### -------------------------- EXAMPLE 8 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Date
 Tuesday, June 13, 2006 12:43:42 PM
 ```
 
-This command gets a DateTime object and displays the current date and time in the long date and long time formats for the system locale, as though you typed "Get-Date -Format F".
+Xxxx xxxxxxx xxxx x XxxxXxxx xxxxxx xxx xxxxxxxx xxx xxxxxxx xxxx xxx xxxx xx xxx xxxx xxxx xxx xxxx xxxx xxxxxxx xxx xxx xxxxxx xxxxxx$ xx xxxxxx xxx xxxxx $Xxx$Xxxx $Xxxxxx X$.
 
-### -------------------------- EXAMPLE 9 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Date
 Tuesday, September 26, 2006 11:25:31 AM
@@ -144,20 +144,20 @@ PS C:\>Get-Date -Format F | Add-Content Test.txt
 # Adds Tuesday, September 26, 2006 11:25:31 AM
 ```
 
-These commands demonstrate how to use Get-Date with Add-Content and other cmdlets that convert the DateTime object that Get-Date generates to a string.
+Xxxxx xxxxxxxx xxxxxxxxxxx xxx xx xxx Xxx$Xxxx xxxx Xxx$Xxxxxxx xxx xxxxx xxxxxxx xxxx xxxxxxx xxx XxxxXxxx xxxxxx xxxx Xxx$Xxxx xxxxxxxxx xx x xxxxxx.
 
-The first command shows that the default display from a "Get-Date" command is in long-date and long-time format.
+Xxx xxxxx xxxxxxx xxxxx xxxx xxx xxxxxxx xxxxxxx xxxx x $Xxx$Xxxx$ xxxxxxx xx xx xxxx$xxxx xxx xxxx$xxxx xxxxxx.
 
-The second command shows that the default display from the ToString() method of the DateTime object is in short-date and short-time format.
+Xxx xxxxxx xxxxxxx xxxxx xxxx xxx xxxxxxx xxxxxxx xxxx xxx XxXxxxxx$$ xxxxxx xx xxx XxxxXxxx xxxxxx xx xx xxxxx$xxxx xxx xxxxx$xxxx xxxxxx.
 
-The third command uses a pipeline operator to send the DateTime object to the Add-Content cmdlet, which adds the content to the Test.txt file.
-Because Add-Content uses the ToString() method of the DateTime object, the date that is added is in short-date and short-time format.
+Xxx xxxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx xx xxxx xxx XxxxXxxx xxxxxx xx xxx Xxx$Xxxxxxx xxxxxx$ xxxxx xxxx xxx xxxxxxx xx xxx Xxxx.xxx xxxx.
+Xxxxxxx Xxx$Xxxxxxx xxxx xxx XxXxxxxx$$ xxxxxx xx xxx XxxxXxxx xxxxxx$ xxx xxxx xxxx xx xxxxx xx xx xxxxx$xxxx xxx xxxxx$xxxx xxxxxx.
 
-The fourth command uses the Format parameter of Get-Date to specify the format.
-When you use the Format or UFormat parameters, Get-Date generates a string, not a DateTime object.
-Then, when you send the string to Add-Content, it adds the string to the Test.txt file without changing it.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxx xxxxxxxxx xx Xxx$Xxxx xx xxxxxxx xxx xxxxxx.
+Xxxx xxx xxx xxx Xxxxxx xx XXxxxxx xxxxxxxxxx$ Xxx$Xxxx xxxxxxxxx x xxxxxx$ xxx x XxxxXxxx xxxxxx.
+Xxxx$ xxxx xxx xxxx xxx xxxxxx xx Xxx$Xxxxxxx$ xx xxxx xxx xxxxxx xx xxx Xxxx.xxx xxxx xxxxxxx xxxxxxxx xx.
 
-### -------------------------- EXAMPLE 10 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 00 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 The first command uses the Format parameter with a value of "o" to generate a timestamp string.
 PS C:\>Get-Date -Format o
@@ -175,15 +175,15 @@ Mode                LastWriteTime     Length Name
 d----          3/8/2012  11:01 AM            2012-03-08T11.00.24.4192623-08.00
 ```
 
-This example shows how to use the Get-Date cmdlet to create a timestamp and how to use the timestamp in or as part of a directory name.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx Xxx$Xxxx xxxxxx xx xxxxxx x xxxxxxxxx xxx xxx xx xxx xxx xxxxxxxxx xx xx xx xxxx xx x xxxxxxxxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Date
-Specifies a date and time.
-By default, Get-Date gets the current system date and time.
+### $Xxxx
+Xxxxxxxxx x xxxx xxx xxxx.
+Xx xxxxxxx$ Xxx$Xxxx xxxx xxx xxxxxxx xxxxxx xxxx xxx xxxx.
 
-Type the date in a format that is standard for the system locale, such as dd-MM-yyyy (German \[Germany\]) or MM/dd/yyyy (English \[United States\]).
+Xxxx xxx xxxx xx x xxxxxx xxxx xx xxxxxxxx xxx xxx xxxxxx xxxxxx$ xxxx xx xx$XX$xxxx $Xxxxxx $$Xxxxxxx$$$ xx XX$xx$xxxx $Xxxxxxx $$Xxxxxx Xxxxxx$$$.
 
 ```yaml
 Type: DateTime
@@ -197,13 +197,13 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Day
-Specifies the day of the month that is displayed.
-Enter a value from 1 to 31.
-The default is the current day.
+### $Xxx
+Xxxxxxxxx xxx xxx xx xxx xxxxx xxxx xx xxxxxxxxx.
+Xxxxx x xxxxx xxxx 0 xx 00.
+Xxx xxxxxxx xx xxx xxxxxxx xxx.
 
-If you specify a value that is greater than the number of days in the month, Windows PowerShell adds the number of days to the month and displays the result.
-For example, "Get-Date -Month 2 -Day 31" displays "March 3", not "February 31".
+Xx xxx xxxxxxx x xxxxx xxxx xx xxxxxxx xxxx xxx xxxxxx xx xxxx xx xxx xxxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxxx xx xxxx xx xxx xxxxx xxx xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx$ $Xxx$Xxxx $Xxxxx 0 $Xxx 00$ xxxxxxxx $Xxxxx 0$$ xxx $Xxxxxxxx 00$.
 
 ```yaml
 Type: Int32
@@ -217,17 +217,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DisplayHint
-Determines which elements of the date and time are displayed.
+### $XxxxxxxXxxx
+Xxxxxxxxxx xxxxx xxxxxxxx xx xxx xxxx xxx xxxx xxx xxxxxxxxx.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- Date: displays only the date
--- Time: displays only the time
--- DateTime: displays the date and time
+$$ Xxxx$ xxxxxxxx xxxx xxx xxxx $$ Xxxx$ xxxxxxxx xxxx xxx xxxx $$ XxxxXxxx$ xxxxxxxx xxx xxxx xxx xxxx
 
-DateTime is the default.
-This parameter does not affect the DateTime object that Get-Date gets.
+XxxxXxxx xx xxx xxxxxxx.
+Xxxx xxxxxxxxx xxxx xxx xxxxxx xxx XxxxXxxx xxxxxx xxxx Xxx$Xxxx xxxx.
 
 ```yaml
 Type: DisplayHintType
@@ -242,20 +240,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Format
-Displays the date and time in the Microsoft .NET Framework format indicated by the format specifier.
-Enter a format specifier.
-For a list of available format specifiers, see "DateTimeFormatInfo Class" in the MSDN (Microsoft Developer Network) library at http://msdn.microsoft.com/library/system.globalization.datetimeformatinfo.aspx.
+### $Xxxxxx
+Xxxxxxxx xxx xxxx xxx xxxx xx xxx Xxxxxxxxx .XXX Xxxxxxxxx xxxxxx xxxxxxxxx xx xxx xxxxxx xxxxxxxxx.
+Xxxxx x xxxxxx xxxxxxxxx.
+Xxx x xxxx xx xxxxxxxxx xxxxxx xxxxxxxxxx$ xxx $XxxxXxxxXxxxxxXxxx Xxxxx$ xx xxx XXXX $Xxxxxxxxx Xxxxxxxxx Xxxxxxx$ xxxxxxx xx xxxx$$$xxxx.xxxxxxxxx.xxx$xxxxxxx$xxxxxx.xxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxx.xxxx.
 
-When you use the Format parameter, Windows PowerShell gets only the properties of the DateTime object that it needs to display the date in the format that you specify.
-As a result, some of the properties and methods of DateTime objects might not be available.
+Xxxx xxx xxx xxx Xxxxxx xxxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxx xxxx xxx xxxxxxxxxx xx xxx XxxxXxxx xxxxxx xxxx xx xxxxx xx xxxxxxx xxx xxxx xx xxx xxxxxx xxxx xxx xxxxxxx.
+Xx x xxxxxx$ xxxx xx xxx xxxxxxxxxx xxx xxxxxxx xx XxxxXxxx xxxxxxx xxxxx xxx xx xxxxxxxxx.
 
-Starting in Windows PowerShell 5.0, you can use the following additional formats as values for the Format parameter.
+Xxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0$ xxx xxx xxx xxx xxxxxxxxx xxxxxxxxxx xxxxxxx xx xxxxxx xxx xxx Xxxxxx xxxxxxxxx.
 
--- FileDate - A file or path-friendly representation of the current date in local time. It is in the form of yyyymmdd ( using 4 digits, 2 digits, and 2 digits). An example of results when you use this format is 20150302.
--- FileDateUniversal - A file or path-friendly representation of the current date in universal time. It is in the form of yyyymmdd + 'Z' (using 4 digits, 2 digits, and 2 digits). An example of results when you use this format is 20150302Z.
--- FileDateTime - A file or path-friendly representation of the current date and time in local time, in 24-hour format. It is in the form of yyyymmdd + 'T' + hhmmssmsms, where msms is a four-character representation of milliseconds. An example of results when you use this format is 20150302T1240514987.
--- FileDateTimeUniversal - A file or path-friendly representation of the current date and time in universal time, in 24-hour format. It is in the form of yyyymmdd + 'T' + hhmmssmsms, where msms is a four-character representation of milliseconds, + 'Z'. An example of results when you use this format is 20150302T0840539947Z.
+$$ XxxxXxxx $ X xxxx xx xxxx$xxxxxxxx xxxxxxxxxxxxxx xx xxx xxxxxxx xxxx xx xxxxx xxxx. Xx xx xx xxx xxxx xx xxxxxxxx $ xxxxx 0 xxxxxx$ 0 xxxxxx$ xxx 0 xxxxxx$. Xx xxxxxxx xx xxxxxxx xxxx xxx xxx xxxx xxxxxx xx 00000000.
+$$ XxxxXxxxXxxxxxxxx $ X xxxx xx xxxx$xxxxxxxx xxxxxxxxxxxxxx xx xxx xxxxxxx xxxx xx xxxxxxxxx xxxx. Xx xx xx xxx xxxx xx xxxxxxxx $ $X$ $xxxxx 0 xxxxxx$ 0 xxxxxx$ xxx 0 xxxxxx$. Xx xxxxxxx xx xxxxxxx xxxx xxx xxx xxxx xxxxxx xx 00000000X.
+$$ XxxxXxxxXxxx $ X xxxx xx xxxx$xxxxxxxx xxxxxxxxxxxxxx xx xxx xxxxxxx xxxx xxx xxxx xx xxxxx xxxx$ xx 00$xxxx xxxxxx. Xx xx xx xxx xxxx xx xxxxxxxx $ $X$ $ xxxxxxxxxx$ xxxxx xxxx xx x xxxx$xxxxxxxxx xxxxxxxxxxxxxx xx xxxxxxxxxxxx. Xx xxxxxxx xx xxxxxxx xxxx xxx xxx xxxx xxxxxx xx 00000000X0000000000.
+$$ XxxxXxxxXxxxXxxxxxxxx $ X xxxx xx xxxx$xxxxxxxx xxxxxxxxxxxxxx xx xxx xxxxxxx xxxx xxx xxxx xx xxxxxxxxx xxxx$ xx 00$xxxx xxxxxx. Xx xx xx xxx xxxx xx xxxxxxxx $ $X$ $ xxxxxxxxxx$ xxxxx xxxx xx x xxxx$xxxxxxxxx xxxxxxxxxxxxxx xx xxxxxxxxxxxx$ $ $X$. Xx xxxxxxx xx xxxxxxx xxxx xxx xxx xxxx xxxxxx xx 00000000X0000000000X.
 
 ```yaml
 Type: String
@@ -269,10 +267,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Hour
-Specifies the hour that is displayed.
-Enter a value from 1 to 23.
-The default is the current hour.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xxxx xx xxxxxxxxx.
+Xxxxx x xxxxx xxxx 0 xx 00.
+Xxx xxxxxxx xx xxx xxxxxxx xxxx.
 
 ```yaml
 Type: Int32
@@ -286,8 +284,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Type the date in a format that is standard for the system locale, such as dd-MM-yyyy (German \[Germany\]) or MM/dd/yyyy (English \[United States\]).
+### $XxxxxxxxxxxXxxxxx
+Xxxx xxx xxxx xx x xxxxxx xxxx xx xxxxxxxx xxx xxx xxxxxx xxxxxx$ xxxx xx xx$XX$xxxx $Xxxxxx $$Xxxxxxx$$$ xx XX$xx$xxxx $Xxxxxxx $$Xxxxxx Xxxxxx$$$.
 
 ```yaml
 Type: ActionPreference
@@ -302,8 +300,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-Type the date in a format that is standard for the system locale, such as dd-MM-yyyy (German \[Germany\]) or MM/dd/yyyy (English \[United States\]).
+### $XxxxxxxxxxxXxxxxxxx
+Xxxx xxx xxxx xx x xxxxxx xxxx xx xxxxxxxx xxx xxx xxxxxx xxxxxx$ xxxx xx xx$XX$xxxx $Xxxxxx $$Xxxxxxx$$$ xx XX$xx$xxxx $Xxxxxxx $$Xxxxxx Xxxxxx$$$.
 
 ```yaml
 Type: String
@@ -317,29 +315,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Millisecond
-Specifies the milliseconds in the date.
-Enter a value from 0 to 999.
-The default is the current number of milliseconds.
+### $Xxxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxxxx xx xxx xxxx.
+Xxxxx x xxxxx xxxx 0 xx 000.
+Xxx xxxxxxx xx xxx xxxxxxx xxxxxx xx xxxxxxxxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Minute
-Specifies the minute that is displayed.
-Enter a value from 1 to 59.
-The default value is the current minutes.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: Int32
@@ -353,10 +334,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Month
-Specifies the month that is displayed.
-Enter a value from 1 to 12.
-The default is the current month.
+### $Xxxxxx
+Xxxxxxxxx xxx xxxxxx xxxx xx xxxxxxxxx.
+Xxxxx x xxxxx xxxx 0 xx 00.
+Xxx xxxxxxx xxxxx xx xxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: Int32
@@ -370,10 +351,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Second
-Specifies the second that is displayed.
-Enter a value from 1 to 59.
-The default is the current second.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx xxxx xx xxxxxxxxx.
+Xxxxx x xxxxx xxxx 0 xx 00.
+Xxx xxxxxxx xx xxx xxxxxxx xxxxx.
 
 ```yaml
 Type: Int32
@@ -387,12 +368,29 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -UFormat
-Displays the date and time in UNIX format.
-For a list of the format specifiers, see the Notes section.
+### $Xxxxxx
+Xxxxxxxxx xxx xxxxxx xxxx xx xxxxxxxxx.
+Xxxxx x xxxxx xxxx 0 xx 00.
+Xxx xxxxxxx xx xxx xxxxxxx xxxxxx.
 
-When you use the UFormat parameter, Windows PowerShell gets only the properties of the DateTime object that it needs to display the date in the format that you specify.
-As a result, some of the properties and methods of DateTime objects might not be available.
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $XXxxxxx
+Xxxxxxxx xxx xxxx xxx xxxx xx XXXX xxxxxx.
+Xxx x xxxx xx xxx xxxxxx xxxxxxxxxx$ xxx xxx Xxxxx xxxxxxx.
+
+Xxxx xxx xxx xxx XXxxxxx xxxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxx xxxx xxx xxxxxxxxxx xx xxx XxxxXxxx xxxxxx xxxx xx xxxxx xx xxxxxxx xxx xxxx xx xxx xxxxxx xxxx xxx xxxxxxx.
+Xx x xxxxxx$ xxxx xx xxx xxxxxxxxxx xxx xxxxxxx xx XxxxXxxx xxxxxxx xxxxx xxx xx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -406,10 +404,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Year
-Specifies the year that is displayed.
-Enter a value from 1 to 9999.
-The default is the current year.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xxxx xx xxxxxxxxx.
+Xxxxx x xxxxx xxxx 0 xx 0000.
+Xxx xxxxxxx xx xxx xxxxxxx xxxx.
 
 ```yaml
 Type: Int32
@@ -423,136 +421,136 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.DateTime or System.String
-When you use the Format or UFormat parameters, Get-Date returns a string.
-Otherwise, it returns a DateTime object.
+### Xxxxxx.XxxxXxxx xx Xxxxxx.Xxxxxx
+Xxxx xxx xxx xxx Xxxxxx xx XXxxxxx xxxxxxxxxx$ Xxx$Xxxx xxxxxxx x xxxxxx.
+Xxxxxxxxx$ xx xxxxxxx x XxxxXxxx xxxxxx.
 
-## NOTES
-By default, the date-time is displayed in long-date and long-time formats for the system locale.
+## XXXXX
+Xx xxxxxxx$ xxx xxxx$xxxx xx xxxxxxxxx xx xxxx$xxxx xxx xxxx$xxxx xxxxxxx xxx xxx xxxxxx xxxxxx.
 
-When you pipe a date to cmdlets that expect string input, such as the Add-Content cmdlet, Windows PowerShell converts the DateTime object to a string before adding it to the file.
-The default ToString() format is short date and long time.
-To specify an alternate format, use the Format or UFormat parameters of Get-Date.
+Xxxx xxx xxxx x xxxx xx xxxxxxx xxxx xxxxxx xxxxxx xxxxx$ xxxx xx xxx Xxx$Xxxxxxx xxxxxx$ Xxxxxxx XxxxxXxxxx xxxxxxxx xxx XxxxXxxx xxxxxx xx x xxxxxx xxxxxx xxxxxx xx xx xxx xxxx.
+Xxx xxxxxxx XxXxxxxx$$ xxxxxx xx xxxxx xxxx xxx xxxx xxxx.
+Xx xxxxxxx xx xxxxxxxxx xxxxxx$ xxx xxx Xxxxxx xx XXxxxxx xxxxxxxxxx xx Xxx$Xxxx.
 
-Uformat Values:
+Xxxxxxx Xxxxxx$
 
-The following are the values of the UFormat parameter.
-The format for the command is:
+Xxx xxxxxxxxx xxx xxx xxxxxx xx xxx XXxxxxx xxxxxxxxx.
+Xxx xxxxxx xxx xxx xxxxxxx xx$
 
-Get-Date -UFormat %\<value\>
+Xxx$Xxxx $XXxxxxx $$$xxxxx\>
 
-For example,
+Xxx xxxxxxx$
 
-Get-Date -UFormat %d
+Xxx$Xxxx $XXxxxxx $x
 
-Date-Time:
+Xxxx$Xxxx$
 
-Date and time - full
+Xxxx xxx xxxx $ xxxx
 
-(default) (Friday, June 16, 2006 10:31:27 AM)
+$xxxxxxx$ $Xxxxxx$ Xxxx 00$ 0000 00$00$00 XX$
 
-c     Date and time - abbreviated (Fri Jun 16 10:31:27 2006)
+x     Xxxx xxx xxxx $ xxxxxxxxxxx $Xxx Xxx 00 00$00$00 0000$
 
-Date:
+Xxxx$
 
-D    Date in mm/dd/yy format (06/14/06)
+X    Xxxx xx xx$xx$xx xxxxxx $00$00$00$
 
-x    Date in standard format for locale (09/12/07 for English-US)
+x    Xxxx xx xxxxxxxx xxxxxx xxx xxxxxx $00$00$00 xxx Xxxxxxx$XX$
 
-Year:
+Xxxx$
 
-C   Century (20 for 2006)
+X   Xxxxxxx $00 xxx 0000$
 
-Y   Year in 4-digit format (2006)
+X   Xxxx xx 0$xxxxx xxxxxx $0000$
 
-y   Year in 2-digit format (06)
+x   Xxxx xx 0$xxxxx xxxxxx $00$
 
-G   Same as 'Y'
+X   Xxxx xx $X$
 
-g   Same as 'y'
+x   Xxxx xx $x$
 
-Month:
+Xxxxx$
 
-b   Month name - abbreviated (Jan)
+x   Xxxxx xxxx $ xxxxxxxxxxx $Xxx$
 
-B   Month name - full (January)
+X   Xxxxx xxxx $ xxxx $Xxxxxxx$
 
-h   Same as 'b'
+x   Xxxx xx $x$
 
-m   Month number (06)
+x   Xxxxx xxxxxx $00$
 
-Week:
+Xxxx$
 
-W  Week of the year (00-52)
+X  Xxxx xx xxx xxxx $00$00$
 
-V   Week of the year (01-53)
+X   Xxxx xx xxx xxxx $00$00$
 
-U   Same as 'W'
+X   Xxxx xx $X$
 
-Day:
+Xxx$
 
-a   Day of the week - abbreviated name (Mon)
+x   Xxx xx xxx xxxx $ xxxxxxxxxxx xxxx $Xxx$
 
-A   Day of the week - full name (Monday)
+X   Xxx xx xxx xxxx $ xxxx xxxx $Xxxxxx$
 
-u   Day of the week - number (Monday = 1)
+x   Xxx xx xxx xxxx $ xxxxxx $Xxxxxx $ 0$
 
-d   Day of the month - 2 digits (05)
+x   Xxx xx xxx xxxxx $ 0 xxxxxx $00$
 
-e   Day of the month - digit preceded by a space ( 5)
+x   Xxx xx xxx xxxxx $ xxxxx xxxxxxxx xx x xxxxx $ 0$
 
-j    Day of the year - (1-366)
+x    Xxx xx xxx xxxx $ $0$000$
 
-w   Same as 'u'
+x   Xxxx xx $x$
 
-Time:
+Xxxx$
 
-p   AM or PM
+x   XX xx XX
 
-r   Time in 12-hour format (09:15:36 AM)
+x   Xxxx xx 00$xxxx xxxxxx $00$00$00 XX$
 
-R   Time in 24-hour format - no seconds (17:45)
+X   Xxxx xx 00$xxxx xxxxxx $ xx xxxxxxx $00$00$
 
-T   Time in 24 hour format (17:45:52)
+X   Xxxx xx 00 xxxx xxxxxx $00$00$00$
 
-X   Same as 'T'
+X   Xxxx xx $X$
 
-Z   Time zone offset from Universal Time Coordinate (UTC) (-07)
+X   Xxxx xxxx xxxxxx xxxx Xxxxxxxxx Xxxx Xxxxxxxxxx $XXX$ $$00$
 
-Hour:
+Xxxx$
 
-H   Hour in 24-hour format (17)
+X   Xxxx xx 00$xxxx xxxxxx $00$
 
-I    Hour in 12 hour format (05)
+X    Xxxx xx 00 xxxx xxxxxx $00$
 
-k   Same as 'H'
+x   Xxxx xx $X$
 
-l    Same as 'I' (Upper-case I = Lower-case L)
+x    Xxxx xx $X$ $Xxxxx$xxxx X $ Xxxxx$xxxx X$
 
-Minutes & Seconds:
+Xxxxxxx $ Xxxxxxx$
 
-M   Minutes (35)
+X   Xxxxxxx $00$
 
-S   Seconds (05)
+X   Xxxxxxx $00$
 
-s   Seconds elapsed since January 1, 1970 00:00:00 (1150451174.95705)
+x   Xxxxxxx xxxxxxx xxxxx Xxxxxxx 0$ 0000 00$00$00 $0000000000.00000$
 
-Special Characters:
+Xxxxxxx Xxxxxxxxxx$
 
-n   newline character (\n)
+x   xxxxxxx xxxxxxxxx $$x$
 
-t   Tab character (\t)
+x   Xxx xxxxxxxxx $$x$
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-TimeSpan]()
+[Xxx$XxxxXxxx]()
 
-[Set-Date]()
+[Xxx$Xxxx]()
 

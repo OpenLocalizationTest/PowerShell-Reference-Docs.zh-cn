@@ -6,47 +6,47 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureSBAuthorizationRule
-## SYNOPSIS
-Creates new Service Bus authorization rule
+# Xxx$XxxxxXXXxxxxxxxxxxxxXxxx
+## XXXXXXXX
+Xxxxxxx xxx Xxxxxxx Xxx xxxxxxxxxxxxx xxxx
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureSBAuthorizationRule [-Name] <String> [-Permission] [-Namespace] <String> [-EntityName] <String>
  [-EntityType] <ServiceBusEntityType> [[-PrimaryKey] <String>] [[-SecondaryKey] <String>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureSBAuthorizationRule [-Name] <String> [-Permission] [-Namespace] <String> [[-PrimaryKey] <String>]
  [[-SecondaryKey] <String>]
 ```
 
-## DESCRIPTION
-Creates new Service Bus authorization rule
+## XXXXXXXXXXX
+Xxxxxxx xxx Xxxxxxx Xxx xxxxxxxxxxxxx xxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------- Creates new authorization rule with generated primary key --------------
+### $$$$$$$$$$$$$$ Xxxxxxx xxx xxxxxxxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxx xxx $$$$$$$$$$$$$$
 ```
 C:\PS>New-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace -Permission $("Send")
 ```
 
-Creates new authorization rule on namespace level with Send permission
+Xxxxxxx xxx xxxxxxxxxxxxx xxxx xx xxxxxxxxx xxxxx xxxx Xxxx xxxxxxxxxx
 
-### -------------- Creates new authorization rule providing primary key --------------
+### $$$$$$$$$$$$$$ Xxxxxxx xxx xxxxxxxxxxxxx xxxx xxxxxxxxx xxxxxxx xxx $$$$$$$$$$$$$$
 ```
 C:\PS>New-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace -Permission $("Manage", "Listen", "Send") -EntityName MyEntity -EntityType Queue -PrimaryKey P+lL/Mnd2Z9sj5hwMrRyAxQDdX8RHfbdqU2eIAqs1rc=
 ```
 
-Creates new authorization rule on MyEntity Queue level with all permissions
+Xxxxxxx xxx xxxxxxxxxxxxx xxxx xx XxXxxxxx Xxxxx xxxxx xxxx xxx xxxxxxxxxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -EntityName
-The entity name to apply rule at.
+### $XxxxxxXxxx
+Xxx xxxxxx xxxx xx xxxxx xxxx xx.
 
 ```yaml
 Type: String
@@ -60,8 +60,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -EntityType
-The entity type (Queue, Topic, Relay, NotificationHub).
+### $XxxxxxXxxx
+Xxx xxxxxx xxxx $Xxxxx$ Xxxxx$ Xxxxx$ XxxxxxxxxxxxXxx$.
 
 ```yaml
 Type: ServiceBusEntityType
@@ -75,8 +75,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-The unique authorization rule name
+### $Xxxx
+Xxx xxxxxx xxxxxxxxxxxxx xxxx xxxx
 
 ```yaml
 Type: String
@@ -90,9 +90,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Namespace
-The namespace name to apply the authorization rule.
-If no EntityName provided the rule will be on the namespace level
+### $Xxxxxxxxx
+Xxx xxxxxxxxx xxxx xx xxxxx xxx xxxxxxxxxxxxx xxxx.
+Xx xx XxxxxxXxxx xxxxxxxx xxx xxxx xxxx xx xx xxx xxxxxxxxx xxxxx
 
 ```yaml
 Type: String
@@ -106,8 +106,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Permission
-The authorization permissions (Send, Manage, Listen)
+### $Xxxxxxxxxx
+Xxx xxxxxxxxxxxxx xxxxxxxxxxx $Xxxx$ Xxxxxx$ Xxxxxx$
 
 ```yaml
 Type: SwitchParameter
@@ -122,9 +122,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PrimaryKey
-The Shared Access Signature primary key.
-Will be generated if not provided
+### $XxxxxxxXxx
+Xxx Xxxxxx Xxxxxx Xxxxxxxxx xxxxxxx xxx.
+Xxxx xx xxxxxxxxx xx xxx xxxxxxxx
 
 ```yaml
 Type: String
@@ -138,8 +138,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SecondaryKey
-The Shared Access Signature secondary key
+### $XxxxxxxxxXxx
+Xxx Xxxxxx Xxxxxx Xxxxxxxxx xxxxxxxxx xxx
 
 ```yaml
 Type: String
@@ -153,18 +153,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureSBAuthorizationRule](07ab8d50-c6de-45f1-8576-99b76f798bca)
+[Xxx$XxxxxXXXxxxxxxxxxxxxXxxx](07ab8d50-c6de-45f1-8576-99b76f798bca)
 
-[Remove-AzureSBAuthorizationRule](7d4951b1-15ff-4fa4-9122-36538eee9cbe)
+[Xxxxxx$XxxxxXXXxxxxxxxxxxxxXxxx](7d4951b1-15ff-4fa4-9122-36538eee9cbe)
 
-[Set-AzureSBAuthorizationRule](c199f0d5-8f84-4106-ac4b-afc2192d1218)
+[Xxx$XxxxxXXXxxxxxxxxxxxxXxxx](c199f0d5-8f84-4106-ac4b-afc2192d1218)
 
 

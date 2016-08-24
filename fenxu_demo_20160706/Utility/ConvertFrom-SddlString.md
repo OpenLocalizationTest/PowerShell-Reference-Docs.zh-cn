@@ -4,32 +4,32 @@ online version: http://go.microsoft.com/fwlink/?LinkId=623636
 schema: 2.0.0
 ---
 
-# ConvertFrom-SddlString
-## SYNOPSIS
-{{Fill in the Synopsis}}
+# XxxxxxxXxxx$XxxxXxxxxx
+## XXXXXXXX
+$$Xxxx xx xxx Xxxxxxxx$$
 
-## SYNTAX
+## XXXXXX
 
 ```
 ConvertFrom-SddlString [-Sddl] <String> [-Type <Object>]
 ```
 
-## DESCRIPTION
-{{Fill in the Description}}
+## XXXXXXXXXXX
+$$Xxxx xx xxx Xxxxxxxxxxx$$
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 PS C:\> {{ Add example code here }}
 ```
 
-{{ Add example description here }}
+$$ Xxx xxxxxxx xxxxxxxxxxx xxxx $$
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Sddl
-{{Fill Sddl Description}}
+### $Xxxx
+$$Xxxx Xxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: String
@@ -43,8 +43,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Type
-{{Fill Type Description}}
+### $Xxxx
+$$Xxxx Xxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: Object
@@ -59,18 +59,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
+### Xxxx
 
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Object
+### Xxxxxx.Xxxxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[http://go.microsoft.com/fwlink/?LinkId=623636](http://go.microsoft.com/fwlink/?LinkId=623636)
+[xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000](http://go.microsoft.com/fwlink/?LinkId=623636)
 

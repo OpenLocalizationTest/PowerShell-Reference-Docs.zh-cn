@@ -4,32 +4,32 @@ online version: http://go.microsoft.com/fwlink/?LinkId=526726
 schema: 2.0.0
 ---
 
-# New-TemporaryFile
-## SYNOPSIS
-{{Fill in the Synopsis}}
+# Xxx$XxxxxxxxxXxxx
+## XXXXXXXX
+$$Xxxx xx xxx Xxxxxxxx$$
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-TemporaryFile [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-{{Fill in the Description}}
+## XXXXXXXXXXX
+$$Xxxx xx xxx Xxxxxxxxxxx$$
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 PS C:\> {{ Add example code here }}
 ```
 
-{{ Add example description here }}
+$$ Xxx xxxxxxx xxxxxxxxxxx xxxx $$
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Confirm
-{{Fill Confirm Description}}
+### $Xxxxxxx
+$$Xxxx Xxxxxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -43,8 +43,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-{{Fill WhatIf Description}}
+### $XxxxXx
+$$Xxxx XxxxXx Xxxxxxxxxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -58,19 +58,19 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-
-
-## OUTPUTS
-
-### System.IO.FileInfo
+### Xxxx
 
 
-## NOTES
+## XXXXXXX
 
-## RELATED LINKS
+### Xxxxxx.XX.XxxxXxxx
 
-[http://go.microsoft.com/fwlink/?LinkId=526726](http://go.microsoft.com/fwlink/?LinkId=526726)
+
+## XXXXX
+
+## XXXXXXX XXXXX
+
+[xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000](http://go.microsoft.com/fwlink/?LinkId=526726)
 

@@ -4,79 +4,79 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294008
 schema: 2.0.0
 ---
 
-# Select-String
-## SYNOPSIS
-Finds text in strings and files.
+# Xxxxxx$Xxxxxx
+## XXXXXXXX
+Xxxxx xxxx xx xxxxxxx xxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### File (Default)
+### Xxxx $Xxxxxxx$
 ```
 Select-String [-Pattern] <String[]> [-Path] <String[]> [-SimpleMatch] [-CaseSensitive] [-Quiet] [-List]
  [-Include <String[]>] [-Exclude <String[]>] [-NotMatch] [-AllMatches] [-Encoding <String>]
  [-Context <Int32[]>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Object
+### Xxxxxx
 ```
 Select-String -InputObject <PSObject> [-Pattern] <String[]> [-SimpleMatch] [-CaseSensitive] [-Quiet] [-List]
  [-Include <String[]>] [-Exclude <String[]>] [-NotMatch] [-AllMatches] [-Encoding <String>]
  [-Context <Int32[]>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### LiteralFile
+### XxxxxxxXxxx
 ```
 Select-String [-Pattern] <String[]> -LiteralPath <String[]> [-SimpleMatch] [-CaseSensitive] [-Quiet] [-List]
  [-Include <String[]>] [-Exclude <String[]>] [-NotMatch] [-AllMatches] [-Encoding <String>]
  [-Context <Int32[]>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Select-String cmdlet searches for text and text patterns in input strings and files.
-You can use it like Grep in UNIX and Findstr in Windows.
-You can type "Select-String" or its alias, "sls".
+## XXXXXXXXXXX
+Xxx Xxxxxx$Xxxxxx xxxxxx xxxxxxxx xxx xxxx xxx xxxx xxxxxxxx xx xxxxx xxxxxxx xxx xxxxx.
+Xxx xxx xxx xx xxxx Xxxx xx XXXX xxx Xxxxxxx xx Xxxxxxx.
+Xxx xxx xxxx $Xxxxxx$Xxxxxx$ xx xxx xxxxx$ $xxx$.
 
-Select-String is based on lines of text.
-By default, Select-String finds the first match in each line and, for each match, it displays the file name, line number, and all text in the line containing the match.
-However, you can direct it to detect multiple matches per line, display text before and after the match, or display only a Boolean value (true or false) that indicates whether a match is found.
+Xxxxxx$Xxxxxx xx xxxxx xx xxxxx xx xxxx.
+Xx xxxxxxx$ Xxxxxx$Xxxxxx xxxxx xxx xxxxx xxxxx xx xxxx xxxx xxx$ xxx xxxx xxxxx$ xx xxxxxxxx xxx xxxx xxxx$ xxxx xxxxxx$ xxx xxx xxxx xx xxx xxxx xxxxxxxxxx xxx xxxxx.
+Xxxxxxx$ xxx xxx xxxxxx xx xx xxxxxx xxxxxxxx xxxxxxx xxx xxxx$ xxxxxxx xxxx xxxxxx xxx xxxxx xxx xxxxx$ xx xxxxxxx xxxx x Xxxxxxx xxxxx $xxxx xx xxxxx$ xxxx xxxxxxxxx xxxxxxx x xxxxx xx xxxxx.
 
-Select-String uses regular expression matching, but it can also perform a simple match that searches the input for the text that you specify.
+Xxxxxx$Xxxxxx xxxx xxxxxxx xxxxxxxxxx xxxxxxxx$ xxx xx xxx xxxx xxxxxxx x xxxxxx xxxxx xxxx xxxxxxxx xxx xxxxx xxx xxx xxxx xxxx xxx xxxxxxx.
 
-Select-String can display all of the text matches or stop after the first match in each input file.
-It can also display all text that does not match the specified pattern.
-You can also specify that Select-String should expect a particular character encoding, such as when you are searching files of Unicode text.
+Xxxxxx$Xxxxxx xxx xxxxxxx xxx xx xxx xxxx xxxxxxx xx xxxx xxxxx xxx xxxxx xxxxx xx xxxx xxxxx xxxx.
+Xx xxx xxxx xxxxxxx xxx xxxx xxxx xxxx xxx xxxxx xxx xxxxxxxxx xxxxxxx.
+Xxx xxx xxxx xxxxxxx xxxx Xxxxxx$Xxxxxx xxxxxx xxxxxx x xxxxxxxxxx xxxxxxxxx xxxxxxxx$ xxxx xx xxxx xxx xxx xxxxxxxxx xxxxx xx Xxxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>"Hello","HELLO" | select-string -pattern "HELLO" -casesensitive
 ```
 
-This command performs a case-sensitive match of the text that was piped to the Select-String command.
+Xxxx xxxxxxx xxxxxxxx x xxxx$xxxxxxxxx xxxxx xx xxx xxxx xxxx xxx xxxxx xx xxx Xxxxxx$Xxxxxx xxxxxxx.
 
-As a result, Select-String finds only "HELLO", because "Hello" does not match.
+Xx x xxxxxx$ Xxxxxx$Xxxxxx xxxxx xxxx $XXXXX$$ xxxxxxx $Xxxxx$ xxxx xxx xxxxx.
 
-Because each of the quoted strings is treated as a line, without the CaseSensitive parameter, Select-String would recognize both of the strings as matches.
+Xxxxxxx xxxx xx xxx xxxxxx xxxxxxx xx xxxxxxx xx x xxxx$ xxxxxxx xxx XxxxXxxxxxxxx xxxxxxxxx$ Xxxxxx$Xxxxxx xxxxx xxxxxxxxx xxxx xx xxx xxxxxxx xx xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>select-string -path *.xml -pattern "the the"
 ```
 
-This command searches through all files with the .xml file name extension in the current directory and displays the lines in those files that include the string "the the".
+Xxxx xxxxxxx xxxxxxxx xxxxxxx xxx xxxxx xxxx xxx .xxx xxxx xxxx xxxxxxxxx xx xxx xxxxxxx xxxxxxxxx xxx xxxxxxxx xxx xxxxx xx xxxxx xxxxx xxxx xxxxxxx xxx xxxxxx $xxx xxx$.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>select-string -path $pshome\en-US\*.txt -pattern "@"
 ```
 
-This command searches the Windows PowerShell conceptual Help files (about_*.txt) for information about the use of the at sign (@).
+Xxxx xxxxxxx xxxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxxx Xxxx xxxxx $xxxxx$$.xxx$ xxx xxxxxxxxxxx xxxxx xxx xxx xx xxx xx xxxx $$$.
 
-To indicate the path, this command uses the value of the $pshome automatic variable, which stores the path to the Windows PowerShell installation directory.
-In this example, the command searches the en-US subdirectory, which contains the English (US) language Help files for Windows PowerShell.
+Xx xxxxxxxx xxx xxxx$ xxxx xxxxxxx xxxx xxx xxxxx xx xxx $xxxxxx xxxxxxxxx xxxxxxxx$ xxxxx xxxxxx xxx xxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxxxxx xxxxxxxxx.
+Xx xxxx xxxxxxx$ xxx xxxxxxx xxxxxxxx xxx xx$XX xxxxxxxxxxxx$ xxxxx xxxxxxxx xxx Xxxxxxx $XX$ xxxxxxxx Xxxx xxxxx xxx Xxxxxxx XxxxxXxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>function search-help
 {
@@ -85,64 +85,64 @@ PS C:\>function search-help
 }
 ```
 
-This simple function uses the Select-String cmdlet to search the Windows PowerShell Help files for a particular string.
-In this example, the function searches the "en-US" subdirectory for English-United States language files.
+Xxxx xxxxxx xxxxxxxx xxxx xxx Xxxxxx$Xxxxxx xxxxxx xx xxxxxx xxx Xxxxxxx XxxxxXxxxx Xxxx xxxxx xxx x xxxxxxxxxx xxxxxx.
+Xx xxxx xxxxxxx$ xxx xxxxxxxx xxxxxxxx xxx $xx$XX$ xxxxxxxxxxxx xxx Xxxxxxx$Xxxxxx Xxxxxx xxxxxxxx xxxxx.
 
-To use the function to find a string, such as "psdrive", type search-help psdrive.
+Xx xxx xxx xxxxxxxx xx xxxx x xxxxxx$ xxxx xx $xxxxxxx$$ xxxx xxxxxx$xxxx xxxxxxx.
 
-To use this function in any Windows PowerShell console, change the path to point to the Windows PowerShell Help files on your system, and then paste the function in your Windows PowerShell profile.
+Xx xxx xxxx xxxxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxx$ xxxxxx xxx xxxx xx xxxxx xx xxx Xxxxxxx XxxxxXxxxx Xxxx xxxxx xx xxxx xxxxxx$ xxx xxxx xxxxx xxx xxxxxxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$events = get-eventlog -logname application -newest 100
 PS C:\>$events | select-string -inputobject {$_.message} -pattern "failed"
 ```
 
-This example searches for the string "failed" in the 100 newest events in the Application log in Event Viewer.
+Xxxx xxxxxxx xxxxxxxx xxx xxx xxxxxx $xxxxxx$ xx xxx 000 xxxxxx xxxxxx xx xxx Xxxxxxxxxxx xxx xx Xxxxx Xxxxxx.
 
-The first command uses the Get-EventLog cmdlet to get the 100 most recent events from the Application event log.
-Then it stores the events in the $events variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XxxxxXxx xxxxxx xx xxx xxx 000 xxxx xxxxxx xxxxxx xxxx xxx Xxxxxxxxxxx xxxxx xxx.
+Xxxx xx xxxxxx xxx xxxxxx xx xxx $xxxxxx xxxxxxxx.
 
-The second command uses a pipeline operator (|) to send the objects in the $events variable to Select-String.
-It uses the InputObject parameter to represent the input from the $events variable.
-The value of the InputObject parameter is the Message property of each object as it travels through the pipeline.
-The current object is represented by the $_ symbol.
+Xxx xxxxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xx xxx $xxxxxx xxxxxxxx xx Xxxxxx$Xxxxxx.
+Xx xxxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxxxxx xxx xxxxx xxxx xxx $xxxxxx xxxxxxxx.
+Xxx xxxxx xx xxx XxxxxXxxxxx xxxxxxxxx xx xxx Xxxxxxx xxxxxxxx xx xxxx xxxxxx xx xx xxxxxxx xxxxxxx xxx xxxxxxxx.
+Xxx xxxxxxx xxxxxx xx xxxxxxxxxxx xx xxx $$ xxxxxx.
 
-As each event arrives in the pipeline, Select-String searches the value of its Message property for the "failed" string, and then displays any lines that include a match.
+Xx xxxx xxxxx xxxxxxx xx xxx xxxxxxxx$ Xxxxxx$Xxxxxx xxxxxxxx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx xxx xxx $xxxxxx$ xxxxxx$ xxx xxxx xxxxxxxx xxx xxxxx xxxx xxxxxxx x xxxxx.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-childitem c:\windows\system32\*.txt -recurse | select-string -pattern "Microsoft" -casesensitive
 ```
 
-This command examines all files in the subdirectories of C:\Windows\System32 with the .txt file name extension and searches for the string "Microsoft".
-The CaseSensitive parameter indicates that the "M" in "Microsoft" must be capitalized and that the rest of the characters must be lowercase for Select-String to find a match.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxx xx xxx xxxxxxxxxxxxxx xx X$$Xxxxxxx$Xxxxxx00 xxxx xxx .xxx xxxx xxxx xxxxxxxxx xxx xxxxxxxx xxx xxx xxxxxx $Xxxxxxxxx$.
+Xxx XxxxXxxxxxxxx xxxxxxxxx xxxxxxxxx xxxx xxx $X$ xx $Xxxxxxxxx$ xxxx xx xxxxxxxxxxx xxx xxxx xxx xxxx xx xxx xxxxxxxxxx xxxx xx xxxxxxxxx xxx Xxxxxx$Xxxxxx xx xxxx x xxxxx.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>select-string -path process.txt -pattern idle, svchost -notmatch
 ```
 
-This command finds lines of text in the Process.txt file that do not include the words "idle" or "svchost".
+Xxxx xxxxxxx xxxxx xxxxx xx xxxx xx xxx Xxxxxxx.xxx xxxx xxxx xx xxx xxxxxxx xxx xxxxx $xxxx$ xx $xxxxxxx$.
 
-### -------------------------- EXAMPLE 8 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$f = select-string -path audit.log -pattern "logon failed" -context 2, 3
 PS C:\>$f.count
 PS C:\>($f)[0].context | format-list
 ```
 
-The first command searches the Audit.Log file for the phrase "logon failed." It uses the Context parameter to capture 2 lines before the match and 3 lines after the match.
+Xxx xxxxx xxxxxxx xxxxxxxx xxx Xxxxx.Xxx xxxx xxx xxx xxxxxx $xxxxx xxxxxx.$ Xx xxxx xxx Xxxxxxx xxxxxxxxx xx xxxxxxx 0 xxxxx xxxxxx xxx xxxxx xxx 0 xxxxx xxxxx xxx xxxxx.
 
-The second command uses the Count property of object arrays to display the number of matches found, in this case, 2.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxx xxxxxxxx xx xxxxxx xxxxxx xx xxxxxxx xxx xxxxxx xx xxxxxxx xxxxx$ xx xxxx xxxx$ 0.
 
-The third command displays the lines stored in the Context property of the first MatchInfo object.
-It uses array notation to indicate the first match (match 0 in a zero-based array), and it uses the T:Microsoft.PowerShell.Commands.Format-List cmdlet to display the value of the Context property as a list.
+Xxx xxxxx xxxxxxx xxxxxxxx xxx xxxxx xxxxxx xx xxx Xxxxxxx xxxxxxxx xx xxx xxxxx XxxxxXxxx xxxxxx.
+Xx xxxx xxxxx xxxxxxxx xx xxxxxxxx xxx xxxxx xxxxx $xxxxx 0 xx x xxxx$xxxxx xxxxx$$ xxx xx xxxx xxx X$Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.Xxxxxx$Xxxx xxxxxx xx xxxxxxx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx xx x xxxx.
 
-The output consists of two MatchInfo objects, one for each match detected.
-The context lines are stored in the Context property of the MatchInfo object.
+Xxx xxxxxx xxxxxxxx xx xxx XxxxxXxxx xxxxxxx$ xxx xxx xxxx xxxxx xxxxxxxx.
+Xxx xxxxxxx xxxxx xxx xxxxxx xx xxx Xxxxxxx xxxxxxxx xx xxx XxxxxXxxx xxxxxx.
 
-### -------------------------- EXAMPLE 9 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>
 $a = get-childitem $pshome\en-us\about*.help.txt | select-string -pattern transcript
@@ -174,43 +174,27 @@ Length   : 10
 Value    : Transcript
 ```
 
-This example demonstrates the effect of the AllMatches parameter of Select-String.
-AllMatches finds all pattern matches in a line, instead of just finding the first match in each line.
+Xxxx xxxxxxx xxxxxxxxxxxx xxx xxxxxx xx xxx XxxXxxxxxx xxxxxxxxx xx Xxxxxx$Xxxxxx.
+XxxXxxxxxx xxxxx xxx xxxxxxx xxxxxxx xx x xxxx$ xxxxxxx xx xxxx xxxxxxx xxx xxxxx xxxxx xx xxxx xxxx.
 
-The first command in the example searches the Windows PowerShell conceptual Help files ("about" Help) for instances of the word "transcript".
-The output of the first command is saved in the $a variable.
+Xxx xxxxx xxxxxxx xx xxx xxxxxxx xxxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxxx Xxxx xxxxx $$xxxxx$ Xxxx$ xxx xxxxxxxxx xx xxx xxxx $xxxxxxxxxx$.
+Xxx xxxxxx xx xxx xxxxx xxxxxxx xx xxxxx xx xxx $x xxxxxxxx.
 
-The second command is identical, except that it uses the AllMatches parameter.
-The output of the second command is saved in the $b variable.
+Xxx xxxxxx xxxxxxx xx xxxxxxxxx$ xxxxxx xxxx xx xxxx xxx XxxXxxxxxx xxxxxxxxx.
+Xxx xxxxxx xx xxx xxxxxx xxxxxxx xx xxxxx xx xxx $x xxxxxxxx.
 
-When you display the value of the variables, the default display is identical, as shown in the example output.
+Xxxx xxx xxxxxxx xxx xxxxx xx xxx xxxxxxxxx$ xxx xxxxxxx xxxxxxx xx xxxxxxxxx$ xx xxxxx xx xxx xxxxxxx xxxxxx.
 
-However, the fifth and sixth commands display the value of the Matches property of each object.
-The Matches property of the first command contains just one match (that is, one System.Text.RegularExpressions.Match object), whereas the Matches property of the second command contains objects for both of the matches in the line.
+Xxxxxxx$ xxx xxxxx xxx xxxxx xxxxxxxx xxxxxxx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx xx xxxx xxxxxx.
+Xxx Xxxxxxx xxxxxxxx xx xxx xxxxx xxxxxxx xxxxxxxx xxxx xxx xxxxx $xxxx xx$ xxx Xxxxxx.Xxxx.XxxxxxxXxxxxxxxxxx.Xxxxx xxxxxx$$ xxxxxxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxx xxxxxxx xxxxxxxx xxxxxxx xxx xxxx xx xxx xxxxxxx xx xxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AllMatches
-Searches for more than one match in each line of text.
-Without this parameter, Select-String finds only the first match in each line of text.
+### $XxxXxxxxxx
+Xxxxxxxx xxx xxxx xxxx xxx xxxxx xx xxxx xxxx xx xxxx.
+Xxxxxxx xxxx xxxxxxxxx$ Xxxxxx$Xxxxxx xxxxx xxxx xxx xxxxx xxxxx xx xxxx xxxx xx xxxx.
 
-When Select-String finds more than one match in a line of text, it still emits only one MatchInfo object for the line, but the Matches property of the object contains all of the matches.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -CaseSensitive
-Makes matches case-sensitive.
-By default, matches are not case-sensitive.
+Xxxx Xxxxxx$Xxxxxx xxxxx xxxx xxxx xxx xxxxx xx x xxxx xx xxxx$ xx xxxxx xxxxx xxxx xxx XxxxxXxxx xxxxxx xxx xxx xxxx$ xxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxx xxxxxxxx xxx xx xxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -224,24 +208,40 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-Captures the specified number of lines before and after the line with the match.
-This allows you to view the match in context.
+### $XxxxXxxxxxxxx
+Xxxxx xxxxxxx xxxx$xxxxxxxxx.
+Xx xxxxxxx$ xxxxxxx xxx xxx xxxx$xxxxxxxxx.
 
-If you enter one number as the value of this parameter, that number determines the number of lines captured before and after the match.
-If you enter two numbers as the value, the first number determines the number of lines before the match and the second number determines the number of lines after the match.
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
 
-In the default display, lines with a match are indicated by a right angle bracket (ASCII 62) in the first column of the display.
-Unmarked lines are the context.
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
-This parameter does not change the number of objects generated by Select-String.
-Select-String generates one MatchInfo (Microsoft.PowerShell.Commands.MatchInfo) object for each match.
-The context is stored as an array of strings in the Context property of the object.
+### $Xxxxxxx
+Xxxxxxxx xxx xxxxxxxxx xxxxxx xx xxxxx xxxxxx xxx xxxxx xxx xxxx xxxx xxx xxxxx.
+Xxxx xxxxxx xxx xx xxxx xxx xxxxx xx xxxxxxx.
 
-When you pipe the output of a Select-String command to another Select-String command, the receiving command searches only the text in the matched line (the value of the Line property of the MatchInfo object), not the text in the context lines.
-As a result, the Context parameter is not valid on the receiving Select-String command.
+Xx xxx xxxxx xxx xxxxxx xx xxx xxxxx xx xxxx xxxxxxxxx$ xxxx xxxxxx xxxxxxxxxx xxx xxxxxx xx xxxxx xxxxxxxx xxxxxx xxx xxxxx xxx xxxxx.
+Xx xxx xxxxx xxx xxxxxxx xx xxx xxxxx$ xxx xxxxx xxxxxx xxxxxxxxxx xxx xxxxxx xx xxxxx xxxxxx xxx xxxxx xxx xxx xxxxxx xxxxxx xxxxxxxxxx xxx xxxxxx xx xxxxx xxxxx xxx xxxxx.
 
-When the context includes a match, the MatchInfo object for each match includes all of the context lines, but the overlapping lines appear only once in the display.
+Xx xxx xxxxxxx xxxxxxx$ xxxxx xxxx x xxxxx xxx xxxxxxxxx xx x xxxxx xxxxx xxxxxxx $XXXXX 00$ xx xxx xxxxx xxxxxx xx xxx xxxxxxx.
+Xxxxxxxx xxxxx xxx xxx xxxxxxx.
+
+Xxxx xxxxxxxxx xxxx xxx xxxxxx xxx xxxxxx xx xxxxxxx xxxxxxxxx xx Xxxxxx$Xxxxxx.
+Xxxxxx$Xxxxxx xxxxxxxxx xxx XxxxxXxxx $Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxXxxx$ xxxxxx xxx xxxx xxxxx.
+Xxx xxxxxxx xx xxxxxx xx xx xxxxx xx xxxxxxx xx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxx.
+
+Xxxx xxx xxxx xxx xxxxxx xx x Xxxxxx$Xxxxxx xxxxxxx xx xxxxxxx Xxxxxx$Xxxxxx xxxxxxx$ xxx xxxxxxxxx xxxxxxx xxxxxxxx xxxx xxx xxxx xx xxx xxxxxxx xxxx $xxx xxxxx xx xxx Xxxx xxxxxxxx xx xxx XxxxxXxxx xxxxxx$$ xxx xxx xxxx xx xxx xxxxxxx xxxxx.
+Xx x xxxxxx$ xxx Xxxxxxx xxxxxxxxx xx xxx xxxxx xx xxx xxxxxxxxx Xxxxxx$Xxxxxx xxxxxxx.
+
+Xxxx xxx xxxxxxx xxxxxxxx x xxxxx$ xxx XxxxxXxxx xxxxxx xxx xxxx xxxxx xxxxxxxx xxx xx xxx xxxxxxx xxxxx$ xxx xxx xxxxxxxxxxx xxxxx xxxxxx xxxx xxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: Int32[]
@@ -255,13 +255,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Encoding
-Specifies the character encoding that Select-String should assume when searching the file.
-The default is UTF8.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxx xxxxxxxx xxxx Xxxxxx$Xxxxxx xxxxxx xxxxxx xxxx xxxxxxxxx xxx xxxx.
+Xxx xxxxxxx xx XXX0.
 
-Valid values are "UTF7", "UTF8", "UTF32", "ASCII", "Unicode", "BigEndianUnicode", "Default", and "OEM".
-"Default" is the encoding of the system's current ANSI code page.
-"OEM" is the current original equipment manufacturer code page identifier for the operating system.
+Xxxxx xxxxxx xxx $XXX0$$ $XXX0$$ $XXX00$$ $XXXXX$$ $Xxxxxxx$$ $XxxXxxxxxXxxxxxx$$ $Xxxxxxx$$ xxx $XXX$.
+$Xxxxxxx$ xx xxx xxxxxxxx xx xxx xxxxxx$x xxxxxxx XXXX xxxx xxxx.
+$XXX$ xx xxx xxxxxxx xxxxxxxx xxxxxxxxx xxxxxxxxxxxx xxxx xxxx xxxxxxxxxx xxx xxx xxxxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -276,11 +276,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Exclude
-Exclude the specified items.
-The value of this parameter qualifies the Path parameter.
-Enter a path element or pattern, such as "*.txt".
-Wildcards are permitted.
+### $Xxxxxxx
+Xxxxxxx xxx xxxxxxxxx xxxxx.
+Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx Xxxx xxxxxxxxx.
+Xxxxx x xxxx xxxxxxx xx xxxxxxx$ xxxx xx $$.xxx$.
+Xxxxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -294,11 +294,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Include
-Include only the specified items.
-The value of this parameter qualifies the Path parameter.
-Enter a path element or pattern, such as "*.txt".
-Wildcards are permitted.
+### $Xxxxxxx
+Xxxxxxx xxxx xxx xxxxxxxxx xxxxx.
+Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx Xxxx xxxxxxxxx.
+Xxxxx x xxxx xxxxxxx xx xxxxxxx$ xxxx xx $$.xxx$.
+Xxxxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -312,8 +312,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-When Select-String finds more than one match in a line of text, it still emits only one MatchInfo object for the line, but the Matches property of the object contains all of the matches.
+### $XxxxxxxxxxxXxxxxx
+Xxxx Xxxxxx$Xxxxxx xxxxx xxxx xxxx xxx xxxxx xx x xxxx xx xxxx$ xx xxxxx xxxxx xxxx xxx XxxxxXxxx xxxxxx xxx xxx xxxx$ xxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxx xxxxxxxx xxx xx xxx xxxxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -328,8 +328,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-When Select-String finds more than one match in a line of text, it still emits only one MatchInfo object for the line, but the Matches property of the object contains all of the matches.
+### $XxxxxxxxxxxXxxxxxxx
+Xxxx Xxxxxx$Xxxxxx xxxxx xxxx xxxx xxx xxxxx xx x xxxx xx xxxx$ xx xxxxx xxxxx xxxx xxx XxxxxXxxx xxxxxx xxx xxx xxxx$ xxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxx xxxxxxxx xxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -343,15 +343,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the text to be searched.
-Enter a variable that contains the text, or type a command or expression that gets the text.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxx xx xx xxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxx.
 
-Using the InputObject parameter is not the same as piping strings to Select-String.
-The differences are as follows:
+Xxxxx xxx XxxxxXxxxxx xxxxxxxxx xx xxx xxx xxxx xx xxxxxx xxxxxxx xx Xxxxxx$Xxxxxx.
+Xxx xxxxxxxxxxx xxx xx xxxxxxx$
 
--- When you pipe more than one string (a "collection") to Select-String, Select-String searches for the specified text in each string and returns each string that contains the search text.
--- When you use the InputObject parameter to submit a collection of strings, Select-String treats the collection as a single combined string and returns the strings as a unit if it finds the search text in any string.
+$$ Xxxx xxx xxxx xxxx xxxx xxx xxxxxx $x $xxxxxxxxxx$$ xx Xxxxxx$Xxxxxx$ Xxxxxx$Xxxxxx xxxxxxxx xxx xxx xxxxxxxxx xxxx xx xxxx xxxxxx xxx xxxxxxx xxxx xxxxxx xxxx xxxxxxxx xxx xxxxxx xxxx.
+$$ Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxx x xxxxxxxxxx xx xxxxxxx$ Xxxxxx$Xxxxxx xxxxxx xxx xxxxxxxxxx xx x xxxxxx xxxxxxxx xxxxxx xxx xxxxxxx xxx xxxxxxx xx x xxxx xx xx xxxxx xxx xxxxxx xxxx xx xxx xxxxxx.
 
 ```yaml
 Type: PSObject
@@ -365,9 +365,9 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -List
-Returns only the first match in each input file.
-By default, Select-String returns a MatchInfo object for each match it finds.
+### $Xxxx
+Xxxxxxx xxxx xxx xxxxx xxxxx xx xxxx xxxxx xxxx.
+Xx xxxxxxx$ Xxxxxx$Xxxxxx xxxxxxx x XxxxxXxxx xxxxxx xxx xxxx xxxxx xx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -381,8 +381,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NotMatch
-Finds text that does not match the specified pattern.
+### $XxxXxxxx
+Xxxxx xxxx xxxx xxxx xxx xxxxx xxx xxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -396,13 +396,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the path to the files to be searched.
-Wildcards are permitted.
-The default location is the local directory.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxx xx xx xxxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
+Xxx xxxxxxx xxxxxxxx xx xxx xxxxx xxxxxxxxx.
 
-Specify files in the directory, such as "log1.txt", "*.doc", or "*.*".
-If you specify only a directory, the command fails.
+Xxxxxxx xxxxx xx xxx xxxxxxxxx$ xxxx xx $xxx0.xxx$$ $$.xxx$$ xx $$.$$.
+Xx xxx xxxxxxx xxxx x xxxxxxxxx$ xxx xxxxxxx xxxxx.
 
 ```yaml
 Type: String[]
@@ -416,12 +416,12 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Pattern
-Specifies the text to find.
-Type a string or regular expression.
-If you type a string, use the SimpleMatch parameter.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxx xx xxxx.
+Xxxx x xxxxxx xx xxxxxxx xxxxxxxxxx.
+Xx xxx xxxx x xxxxxx$ xxx xxx XxxxxxXxxxx xxxxxxxxx.
 
-To learn about regular expressions, see about_Regular_Expressions.
+Xx xxxxx xxxxx xxxxxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx$Xxxxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -435,9 +435,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Quiet
-Returns a Boolean value (true or false), instead of a MatchInfo object.
-The value is "true" if the pattern is found; otherwise, the value is "false".
+### $Xxxxx
+Xxxxxxx x Xxxxxxx xxxxx $xxxx xx xxxxx$$ xxxxxxx xx x XxxxxXxxx xxxxxx.
+Xxx xxxxx xx $xxxx$ xx xxx xxxxxxx xx xxxxx$ xxxxxxxxx$ xxx xxxxx xx $xxxxx$.
 
 ```yaml
 Type: SwitchParameter
@@ -451,10 +451,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SimpleMatch
-Uses a simple match rather than a regular expression match.
-In a simple match, Select-String searches the input for the text in the Pattern parameter.
-It does not interpret the value of the Pattern parameter as a regular expression statement.
+### $XxxxxxXxxxx
+Xxxx x xxxxxx xxxxx xxxxxx xxxx x xxxxxxx xxxxxxxxxx xxxxx.
+Xx x xxxxxx xxxxx$ Xxxxxx$Xxxxxx xxxxxxxx xxx xxxxx xxx xxx xxxx xx xxx Xxxxxxx xxxxxxxxx.
+Xx xxxx xxx xxxxxxxxx xxx xxxxx xx xxx Xxxxxxx xxxxxxxxx xx x xxxxxxx xxxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -468,12 +468,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -LiteralPath
-Specifies the path to the files to be searched.
-Unlike Path, the value of the LiteralPath parameter is used exactly as it is typed.
-No characters are interpreted as wildcards.
-If the path includes escape characters, enclose it in single quotation marks.
-Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxx xx xx xxxxxxxx.
+Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
+Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
+Xx xxx xxxx xxxxxxxx xxxxxx xxxxxxxxxx$ xxxxxxx xx xx xxxxxx xxxxxxxxx xxxxx.
+Xxxxxx xxxxxxxxx xxxxx xxxx Xxxxxxx XxxxxXxxxx xxx xx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -487,50 +487,50 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any object that has a ToString method to Select-String.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xxxx xxx x XxXxxxxx xxxxxx xx Xxxxxx$Xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.PowerShell.Commands.MatchInfo or System.Boolean
-By default, the output is a set of MatchInfo objects, one for each match found.
-If you use the Quiet parameter, the output is a Boolean value indicating whether the pattern was found.
+### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxXxxx xx Xxxxxx.Xxxxxxx
+Xx xxxxxxx$ xxx xxxxxx xx x xxx xx XxxxxXxxx xxxxxxx$ xxx xxx xxxx xxxxx xxxxx.
+Xx xxx xxx xxx Xxxxx xxxxxxxxx$ xxx xxxxxx xx x Xxxxxxx xxxxx xxxxxxxxxx xxxxxxx xxx xxxxxxx xxx xxxxx.
 
-## NOTES
-Select-String is like the Grep command in UNIX and the FindStr command in Windows.
+## XXXXX
+Xxxxxx$Xxxxxx xx xxxx xxx Xxxx xxxxxxx xx XXXX xxx xxx XxxxXxx xxxxxxx xx Xxxxxxx.
 
-The "sst" alias for the Select-String cmdlet was introduced in Windows PowerShell 3.0.
+Xxx $xxx$ xxxxx xxx xxx Xxxxxx$Xxxxxx xxxxxx xxx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
-To use Select-String, type the text that you want to find as the value of the Pattern parameter.
+Xx xxx Xxxxxx$Xxxxxx$ xxxx xxx xxxx xxxx xxx xxxx xx xxxx xx xxx xxxxx xx xxx Xxxxxxx xxxxxxxxx.
 
-To specify the text to be searched, do the following:
+Xx xxxxxxx xxx xxxx xx xx xxxxxxxx$ xx xxx xxxxxxxxx$
 
--- Type the text in a quoted string, and then pipe it to Select-String.
--- Store a text string in a variable, and then specify the variable as the value of the InputObject parameter.
--- If the text is stored in files, use the Path parameter to specify the path to the files.
+$$ Xxxx xxx xxxx xx x xxxxxx xxxxxx$ xxx xxxx xxxx xx xx Xxxxxx$Xxxxxx.
+$$ Xxxxx x xxxx xxxxxx xx x xxxxxxxx$ xxx xxxx xxxxxxx xxx xxxxxxxx xx xxx xxxxx xx xxx XxxxxXxxxxx xxxxxxxxx.
+$$ Xx xxx xxxx xx xxxxxx xx xxxxx$ xxx xxx Xxxx xxxxxxxxx xx xxxxxxx xxx xxxx xx xxx xxxxx.
 
-By default, Select-String interprets the value of the Pattern parameter as a regular expression.
-(For more information, see about_Regular_Expressions.) However, you can use the SimpleMatch parameter to override the regular expression matching.
-The SimpleMatch parameter finds instances of the value of the Pattern parameter in the input.
+Xx xxxxxxx$ Xxxxxx$Xxxxxx xxxxxxxxxx xxx xxxxx xx xxx Xxxxxxx xxxxxxxxx xx x xxxxxxx xxxxxxxxxx.
+$Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx$Xxxxxxxxxxx.$ Xxxxxxx$ xxx xxx xxx xxx XxxxxxXxxxx xxxxxxxxx xx xxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxxx.
+Xxx XxxxxxXxxxx xxxxxxxxx xxxxx xxxxxxxxx xx xxx xxxxx xx xxx Xxxxxxx xxxxxxxxx xx xxx xxxxx.
 
-The default output of Select-String is a MatchInfo object, which includes detailed information about the matches.
-The information in the object is useful when you are searching for text in files, because MatchInfo objects have properties such as Filename and Line.
-When the input is not from the file, the value of these parameters is "InputStream".
+Xxx xxxxxxx xxxxxx xx Xxxxxx$Xxxxxx xx x XxxxxXxxx xxxxxx$ xxxxx xxxxxxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxx.
+Xxx xxxxxxxxxxx xx xxx xxxxxx xx xxxxxx xxxx xxx xxx xxxxxxxxx xxx xxxx xx xxxxx$ xxxxxxx XxxxxXxxx xxxxxxx xxxx xxxxxxxxxx xxxx xx Xxxxxxxx xxx Xxxx.
+Xxxx xxx xxxxx xx xxx xxxx xxx xxxx$ xxx xxxxx xx xxxxx xxxxxxxxxx xx $XxxxxXxxxxx$.
 
-If you do not need the information in the MatchInfo object, use the Quiet parameter, which returns a Boolean value (true or false) to indicate whether it found a match, instead of a MatchInfo object.
+Xx xxx xx xxx xxxx xxx xxxxxxxxxxx xx xxx XxxxxXxxx xxxxxx$ xxx xxx Xxxxx xxxxxxxxx$ xxxxx xxxxxxx x Xxxxxxx xxxxx $xxxx xx xxxxx$ xx xxxxxxxx xxxxxxx xx xxxxx x xxxxx$ xxxxxxx xx x XxxxxXxxx xxxxxx.
 
-When matching phrases, Select-String uses the current culture that is set for the system.
-To find the current culture, use the T:Microsoft.PowerShell.Commands.Get-Culture cmdlet.
+Xxxx xxxxxxxx xxxxxxx$ Xxxxxx$Xxxxxx xxxx xxx xxxxxxx xxxxxxx xxxx xx xxx xxx xxx xxxxxx.
+Xx xxxx xxx xxxxxxx xxxxxxx$ xxx xxx X$Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.Xxx$Xxxxxxx xxxxxx.
 
-To find the properties of a MatchInfo object, type the following:
+Xx xxxx xxx xxxxxxxxxx xx x XxxxxXxxx xxxxxx$ xxxx xxx xxxxxxxxx$
 
-select-string -path test.txt -pattern "test" | get-member | format-list -property *
+xxxxxx$xxxxxx $xxxx xxxx.xxx $xxxxxxx $xxxx$ $ xxx$xxxxxx $ xxxxxx$xxxx $xxxxxxxx $
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[about_Comparison_Operators]()
+[xxxxx$Xxxxxxxxxx$Xxxxxxxxx]()
 
-[about_Regular_Expressions]()
+[xxxxx$Xxxxxxx$Xxxxxxxxxxx]()
 

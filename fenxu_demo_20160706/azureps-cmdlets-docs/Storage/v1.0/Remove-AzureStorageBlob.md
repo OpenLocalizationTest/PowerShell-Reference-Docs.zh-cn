@@ -6,63 +6,63 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureStorageBlob
-## SYNOPSIS
-Removes the specified storage blob.
+# Xxxxxx$XxxxxXxxxxxxXxxx
+## XXXXXXXX
+Xxxxxxx xxx xxxxxxxxx xxxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Remove-AzureStorageBlob [-Blob] <String> [-Container] <String> [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-DeleteSnapshot] [-Force] [-PassThru]
  [-ServerTimeoutPerRequest <Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Remove-AzureStorageBlob [-Blob] <String> [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-DeleteSnapshot] [-Force] [-PassThru] [-ServerTimeoutPerRequest <Int32]>]
  -CloudBlobContainer <CloudBlobContainer> [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Remove-AzureStorageBlob [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-DeleteSnapshot] [-Force] [-PassThru] [-ServerTimeoutPerRequest <Int32]>]
  -CloudBlob <CloudBlob> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureStorageBlob** cmdlet removes the specified blob from a storage account in azure_2.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxxxxxxXxxx$$ xxxxxx xxxxxxx xxx xxxxxxxxx xxxx xxxx x xxxxxxx xxxxxxx xx xxxxx$0.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a storage blob by name
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxxx xx xxxx
 ```
 PS C:\>Remove-AzureStorageBlob -Container "ContainerName" -Blob "BlobName"
 ```
 
-This command removes a blob identified by its name.
+Xxxx xxxxxxx xxxxxxx x xxxx xxxxxxxxxx xx xxx xxxx.
 
-### Example 2: Remove a storage blob using the pipeline
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxxx xxxxx xxx xxxxxxxx
 ```
 PS C:\>Get-AzureStorageBlob -Container "ContainerName" -Blob "BlobName" | Remove-AzureStorageBlob
 ```
 
-This command uses the pipeline.
+Xxxx xxxxxxx xxxx xxx xxxxxxxx.
 
-### Example 3: Remove storage blobs using the pipeline
+### Xxxxxxx 0$ Xxxxxx xxxxxxx xxxxx xxxxx xxx xxxxxxxx
 ```
 PS C:\>Get-AzureStorageContainer -Container container* | Remove-AzureStorageBlob -Blob "BlobName"
 ```
 
-This command uses the asterisk (*) wildcard character and the pipeline to retrieve the blob or blobs and then removes them.
+Xxxx xxxxxxx xxxx xxx xxxxxxxx $$$ xxxxxxxx xxxxxxxxx xxx xxx xxxxxxxx xx xxxxxxxx xxx xxxx xx xxxxx xxx xxxx xxxxxxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Blob
-Specifies the name of the blob you want to remove.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxx xxxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -76,10 +76,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ClientTimeoutPerRequest
-Specifies the client-side time-out interval, in seconds, for one service request.
-If the previous call fails in the specified interval, this cmdlet retries the request.
-If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -93,9 +93,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CloudBlob
-Specifies a cloud blob.
-To obtain a **CloudBlob** object, use the Get-AzureStorageBlob cmdlet.
+### $XxxxxXxxx
+Xxxxxxxxx x xxxxx xxxx.
+Xx xxxxxx x $$XxxxxXxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
 ```yaml
 Type: CloudBlob
@@ -109,9 +109,9 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -CloudBlobContainer
-Specifies a **CloudBlobContainer** object from the azure_2 Storage Client library.
-You can use the Get-AzureStorageContainer cmdlet to get it.
+### $XxxxxXxxxXxxxxxxxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx xxxx xxx xxxxx$0 Xxxxxxx Xxxxxx xxxxxxx.
+Xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx xx xxx xx.
 
 ```yaml
 Type: CloudBlobContainer
@@ -125,12 +125,12 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ConcurrentTaskCount
-Specifies the maximum concurrent network calls.
-You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
-The specified value is an absolute count and is not multiplied by the core count.
-This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
-The default value is 10.
+### $XxxxxxxxxxXxxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxxxxx xxx xxxx xxxxxx xxxxxxx xxxxxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxxx$ xxxx xx 000 xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx xxxxx xx 00.
 
 ```yaml
 Type: Int32]
@@ -144,8 +144,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Container
-Specifies the name of the container.
+### $Xxxxxxxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -159,9 +159,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies the azure_2 storage context.
-You can use the New-AzureStorageContext cmdlet to create it.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxxxx.
+Xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx xx xxxxxx xx.
 
 ```yaml
 Type: AzureStorageContext
@@ -175,10 +175,10 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -DeleteSnapshot
-Specifies that all snapshots be deleted, but not the base blob.
-If this parameter is not specified, the base blob and its snapshots are deleted together.
-The user is prompted to confirm the delete operation.
+### $XxxxxxXxxxxxxx
+Xxxxxxxxx xxxx xxx xxxxxxxxx xx xxxxxxx$ xxx xxx xxx xxxx xxxx.
+Xx xxxx xxxxxxxxx xx xxx xxxxxxxxx$ xxx xxxx xxxx xxx xxx xxxxxxxxx xxx xxxxxxx xxxxxxxx.
+Xxx xxxx xx xxxxxxxx xx xxxxxxx xxx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -192,8 +192,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Indicates that this cmdlet removes the blob and its snapshot without confirmation.
+### $Xxxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxxx xxx xxx xxxxxxxx xxxxxxx xxxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -207,9 +207,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Indicates that this cmdlet returns a **Boolean** that reflects the success of the operation.
-By default, this cmdlet does not return a value.
+### $XxxxXxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx x $$Xxxxxxx$$ xxxx xxxxxxxx xxx xxxxxxx xx xxx xxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx x xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -223,9 +223,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-Specifies the azure_2 profile for the cmdlet to read.
-If not specified, the cmdlet reads from the default profile.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxx xxx xxxxxx xx xxxx.
+Xx xxx xxxxxxxxx$ xxx xxxxxx xxxxx xxxx xxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: Int32]
@@ -239,8 +239,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -254,8 +254,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -269,18 +269,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageBlob](74bc4494-be41-4493-9939-e51e61dd09e6)
+[Xxx$XxxxxXxxxxxxXxxx](74bc4494-be41-4493-9939-e51e61dd09e6)
 
-[Get-AzureStorageBlobContent](15371eb7-da6a-4b26-bbda-b59a2eeedb1d)
+[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](15371eb7-da6a-4b26-bbda-b59a2eeedb1d)
 
-[Set-AzureStorageBlobContent](c3d50900-70d6-44af-b939-abe86fcf89e6)
+[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](c3d50900-70d6-44af-b939-abe86fcf89e6)
 
 

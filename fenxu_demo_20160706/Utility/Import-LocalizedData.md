@@ -4,11 +4,11 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293984
 schema: 2.0.0
 ---
 
-# Import-LocalizedData
-## SYNOPSIS
-Imports language-specific data into scripts and functions based on the UI culture that is selected for the operating system.
+# Xxxxxx$XxxxxxxxxXxxx
+## XXXXXXXX
+Xxxxxxx xxxxxxxx$xxxxxxxx xxxx xxxx xxxxxxx xxx xxxxxxxxx xxxxx xx xxx XX xxxxxxx xxxx xx xxxxxxxx xxx xxx xxxxxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Import-LocalizedData [[-BindingVariable] <String>] [[-UICulture] <String>] [-BaseDirectory <String>]
@@ -16,33 +16,32 @@ Import-LocalizedData [[-BindingVariable] <String>] [[-UICulture] <String>] [-Bas
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Import-LocalizedData cmdlet dynamically retrieves strings from a subdirectory whose name matches the UI language set for the current user of the operating system.
-It is designed to enable scripts to display user messages in the UI language selected by the current user.
+## XXXXXXXXXXX
+Xxx Xxxxxx$XxxxxxxxxXxxx xxxxxx xxxxxxxxxxx xxxxxxxxx xxxxxxx xxxx x xxxxxxxxxxxx xxxxx xxxx xxxxxxx xxx XX xxxxxxxx xxx xxx xxx xxxxxxx xxxx xx xxx xxxxxxxxx xxxxxx.
+Xx xx xxxxxxxx xx xxxxxx xxxxxxx xx xxxxxxx xxxx xxxxxxxx xx xxx XX xxxxxxxx xxxxxxxx xx xxx xxxxxxx xxxx.
 
-Import-LocalizedData imports data from .psd1 files in language-specific subdirectories of the script directory and saves them in a local variable that is specified in the command.
-The cmdlet selects the subdirectory and file based on the value of the $PSUICulture automatic variable.
-When you use the local variable in the script to display a user message, the message appears in the user's UI language.
+Xxxxxx$XxxxxxxxxXxxx xxxxxxx xxxx xxxx .xxx0 xxxxx xx xxxxxxxx$xxxxxxxx xxxxxxxxxxxxxx xx xxx xxxxxx xxxxxxxxx xxx xxxxx xxxx xx x xxxxx xxxxxxxx xxxx xx xxxxxxxxx xx xxx xxxxxxx.
+Xxx xxxxxx xxxxxxx xxx xxxxxxxxxxxx xxx xxxx xxxxx xx xxx xxxxx xx xxx $XXXXXxxxxxx xxxxxxxxx xxxxxxxx.
+Xxxx xxx xxx xxx xxxxx xxxxxxxx xx xxx xxxxxx xx xxxxxxx x xxxx xxxxxxx$ xxx xxxxxxx xxxxxxx xx xxx xxxx$x XX xxxxxxxx.
 
-You can use the parameters of Import-LocalizedData to specify an alternate UI culture, path, and file name, to add supported commands, and to suppress the error message that appears if the .psd1 files are not found.
+Xxx xxx xxx xxx xxxxxxxxxx xx Xxxxxx$XxxxxxxxxXxxx xx xxxxxxx xx xxxxxxxxx XX xxxxxxx$ xxxx$ xxx xxxx xxxx$ xx xxx xxxxxxxxx xxxxxxxx$ xxx xx xxxxxxxx xxx xxxxx xxxxxxx xxxx xxxxxxx xx xxx .xxx0 xxxxx xxx xxx xxxxx.
 
-The Import-LocalizedData cmdlet supports the script internationalization initiative that was introduced in Windows PowerShell 2.0.
-This initiative aims to better serve users worldwide by making it easy for scripts to display user messages in the UI language of the current user. 
-For more information about this and about the format of the .psd1 files, see about_Script_Internationalization (http://go.microsoft.com/fwlink/?LinkID=113262).
+Xxx Xxxxxx$XxxxxxxxxXxxx xxxxxx xxxxxxxx xxx xxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxx xxxx xxx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
+Xxxx xxxxxxxxxx xxxx xx xxxxxx xxxxx xxxxx xxxxxxxxx xx xxxxxx xx xxxx xxx xxxxxxx xx xxxxxxx xxxx xxxxxxxx xx xxx XX xxxxxxxx xx xxx xxxxxxx xxxx. Xxx xxxx xxxxxxxxxxx xxxxx xxxx xxx xxxxx xxx xxxxxx xx xxx .xxx0 xxxxx$ xxx xxxxx$Xxxxxx$Xxxxxxxxxxxxxxxxxxxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Import-LocalizedData -BindingVariable Messages
 ```
 
-This command imports text strings into the $Messages variable.
-It uses the default values of all other cmdlet parameters.
+Xxxx xxxxxxx xxxxxxx xxxx xxxxxxx xxxx xxx $Xxxxxxxx xxxxxxxx.
+Xx xxxx xxx xxxxxxx xxxxxx xx xxx xxxxx xxxxxx xxxxxxxxxx.
 
-If the command is included in the Archives.ps1 script in the C:\Test directory, and the value of the $PsUICulture automatic variable is zh-CN, Import-LocalizedData imports the Archives.psd1 file in the C:\test\zh-CN directory into the $Messages variable.
+Xx xxx xxxxxxx xx xxxxxxxx xx xxx Xxxxxxxx.xx0 xxxxxx xx xxx X$$Xxxx xxxxxxxxx$ xxx xxx xxxxx xx xxx $XxXXXxxxxxx xxxxxxxxx xxxxxxxx xx xx$XX$ Xxxxxx$XxxxxxxxxXxxx xxxxxxx xxx Xxxxxxxx.xxx0 xxxx xx xxx X$$xxxx$xx$XX xxxxxxxxx xxxx xxx $Xxxxxxxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Import-LocalizedData -FileName Test.psd1 -UICulture en-US
 
@@ -53,23 +52,23 @@ Msg2                           "This command requires the credentials of a membe
 Msg1                           "The Name parameter is missing from the command."
 ```
 
-This command is run at the command line; not in a script.
-It gets localized data strings from the Test.psd1 file and displays them at the command line.
-Because the command is not used in a script, the FileName parameter is required.
-The command uses the UICuture parameter to specify the en-US culture.
+Xxxx xxxxxxx xx xxx xx xxx xxxxxxx xxxx$ xxx xx x xxxxxx.
+Xx xxxx xxxxxxxxx xxxx xxxxxxx xxxx xxx Xxxx.xxx0 xxxx xxx xxxxxxxx xxxx xx xxx xxxxxxx xxxx.
+Xxxxxxx xxx xxxxxxx xx xxx xxxx xx x xxxxxx$ xxx XxxxXxxx xxxxxxxxx xx xxxxxxxx.
+Xxx xxxxxxx xxxx xxx XXXxxxxx xxxxxxxxx xx xxxxxxx xxx xx$XX xxxxxxx.
 
-Import-LocalizedData returns a hash table that contains the localized data strings.
+Xxxxxx$XxxxxxxxxXxxx xxxxxxx x xxxx xxxxx xxxx xxxxxxxx xxx xxxxxxxxx xxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Import-LocalizedData -BindingVariable msgTbl -UICulture ar-SA -FileName Simple -BaseDirectory C:\Data\Localized
 ```
 
-This command imports text strings into the $msgTbl  variable of a script.
+Xxxx xxxxxxx xxxxxxx xxxx xxxxxxx xxxx xxx $xxxXxx  xxxxxxxx xx x xxxxxx.
 
-It uses the UICulture parameter to direct the cmdlet to import data from the Simple.psd1 file in the ar-SA subdirectory of C:\Data\Localized.
+Xx xxxx xxx XXXxxxxxx xxxxxxxxx xx xxxxxx xxx xxxxxx xx xxxxxx xxxx xxxx xxx Xxxxxx.xxx0 xxxx xx xxx xx$XX xxxxxxxxxxxx xx X$$Xxxx$Xxxxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\># In C:\Test\en-US\Test.psd1:
 
@@ -93,19 +92,19 @@ Write-Host $Messages.Msg2
 This command requires the credentials of a member of the Administrators group on the computer.
 ```
 
-This example shows how to use localized data in a simple script.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxxxxxxxx xxxx xx x xxxxxx xxxxxx.
 
-The first part of the example shows the contents of the Test.psd1 file.
-It contains a ConvertFrom-StringData command that converts a series of named text strings into a hash table.
-The Test.psd1 file is located in the en-US subdirectory of the C:\Test directory that contains the script.
+Xxx xxxxx xxxx xx xxx xxxxxxx xxxxx xxx xxxxxxxx xx xxx Xxxx.xxx0 xxxx.
+Xx xxxxxxxx x XxxxxxxXxxx$XxxxxxXxxx xxxxxxx xxxx xxxxxxxx x xxxxxx xx xxxxx xxxx xxxxxxx xxxx x xxxx xxxxx.
+Xxx Xxxx.xxx0 xxxx xx xxxxxxx xx xxx xx$XX xxxxxxxxxxxx xx xxx X$$Xxxx xxxxxxxxx xxxx xxxxxxxx xxx xxxxxx.
 
-The second part of the example shows the contents of the Test.ps1 script.
-It contains an Import-LocalizedData command that imports the data from the matching .psd1 file into the $Messages variable and a Write-Host command that writes one of the messages in the $Messages variable to the host program.
+Xxx xxxxxx xxxx xx xxx xxxxxxx xxxxx xxx xxxxxxxx xx xxx Xxxx.xx0 xxxxxx.
+Xx xxxxxxxx xx Xxxxxx$XxxxxxxxxXxxx xxxxxxx xxxx xxxxxxx xxx xxxx xxxx xxx xxxxxxxx .xxx0 xxxx xxxx xxx $Xxxxxxxx xxxxxxxx xxx x Xxxxx$Xxxx xxxxxxx xxxx xxxxxx xxx xx xxx xxxxxxxx xx xxx $Xxxxxxxx xxxxxxxx xx xxx xxxx xxxxxxx.
 
-The last part of the example runs the script.
-The output shows that it displays the correct user message in the UI language set for the current user of the operating system.
+Xxx xxxx xxxx xx xxx xxxxxxx xxxx xxx xxxxxx.
+Xxx xxxxxx xxxxx xxxx xx xxxxxxxx xxx xxxxxxx xxxx xxxxxxx xx xxx XX xxxxxxxx xxx xxx xxx xxxxxxx xxxx xx xxx xxxxxxxxx xxxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\># In TestScript.ps1$UserMessages = DATA 
 
@@ -121,19 +120,19 @@ Import-LocalizedData -BindingVariable UserMessages
 $UserMessages.Msg1...
 ```
 
-This example shows how to use Import-LocalizedData to replace default text strings defined in the DATA section of a script.
+Xxxx xxxxxxx xxxxx xxx xx xxx Xxxxxx$XxxxxxxxxXxxx xx xxxxxxx xxxxxxx xxxx xxxxxxx xxxxxxx xx xxx XXXX xxxxxxx xx x xxxxxx.
 
-In this example, the DATA section of the TestScript.ps1 script contains a ConvertFrom-StringData command that converts the contents of the DATA section to a hash table and stores in the value of the $UserMessages variable.
+Xx xxxx xxxxxxx$ xxx XXXX xxxxxxx xx xxx XxxxXxxxxx.xx0 xxxxxx xxxxxxxx x XxxxxxxXxxx$XxxxxxXxxx xxxxxxx xxxx xxxxxxxx xxx xxxxxxxx xx xxx XXXX xxxxxxx xx x xxxx xxxxx xxx xxxxxx xx xxx xxxxx xx xxx $XxxxXxxxxxxx xxxxxxxx.
 
-The script also includes an Import-LocalizedData command, which imports a hash table of translated text strings from the TestScript.psd1 file in the subdirectory specified by the value of the $PsUICulture variable.
-If the command finds the .psd1 file, it saves the translated strings from the file in the value of the same $UserMessages variable, overwriting the hash table saved by the DATA section logic.
+Xxx xxxxxx xxxx xxxxxxxx xx Xxxxxx$XxxxxxxxxXxxx xxxxxxx$ xxxxx xxxxxxx x xxxx xxxxx xx xxxxxxxxxx xxxx xxxxxxx xxxx xxx XxxxXxxxxx.xxx0 xxxx xx xxx xxxxxxxxxxxx xxxxxxxxx xx xxx xxxxx xx xxx $XxXXXxxxxxx xxxxxxxx.
+Xx xxx xxxxxxx xxxxx xxx .xxx0 xxxx$ xx xxxxx xxx xxxxxxxxxx xxxxxxx xxxx xxx xxxx xx xxx xxxxx xx xxx xxxx $XxxxXxxxxxxx xxxxxxxx$ xxxxxxxxxxx xxx xxxx xxxxx xxxxx xx xxx XXXX xxxxxxx xxxxx.
 
-The third command displays the first message in the $UserMessages variable.
+Xxx xxxxx xxxxxxx xxxxxxxx xxx xxxxx xxxxxxx xx xxx $XxxxXxxxxxxx xxxxxxxx.
 
-If the Import-LocalizedData command finds a .psd1 file for the $PsUICulture language, the value of the $UserMessages variable contains the translated text strings.
-If the command fails for any reason, the command displays the default text strings defined in the DATA section of the script.
+Xx xxx Xxxxxx$XxxxxxxxxXxxx xxxxxxx xxxxx x .xxx0 xxxx xxx xxx $XxXXXxxxxxx xxxxxxxx$ xxx xxxxx xx xxx $XxxxXxxxxxxx xxxxxxxx xxxxxxxx xxx xxxxxxxxxx xxxx xxxxxxx.
+Xx xxx xxxxxxx xxxxx xxx xxx xxxxxx$ xxx xxxxxxx xxxxxxxx xxx xxxxxxx xxxx xxxxxxx xxxxxxx xx xxx XXXX xxxxxxx xx xxx xxxxxx.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\># In Day1.ps1
 
@@ -151,24 +150,24 @@ PS C:\>.\Day2.ps1
 Today is Tuesday
 ```
 
-This example shows how to suppress the error messages that appear when Import-LocalizedData cannot find the directories that match the user's UI culture or cannot find a .psd1 file for the script in those directories.
+Xxxx xxxxxxx xxxxx xxx xx xxxxxxxx xxx xxxxx xxxxxxxx xxxx xxxxxx xxxx Xxxxxx$XxxxxxxxxXxxx xxxxxx xxxx xxx xxxxxxxxxxx xxxx xxxxx xxx xxxx$x XX xxxxxxx xx xxxxxx xxxx x .xxx0 xxxx xxx xxx xxxxxx xx xxxxx xxxxxxxxxxx.
 
-You can use the ErrorAction common parameter with a value of SilentlyContinue to suppress the error message.
-This is especially useful when you have provided user messages in a default or "fallback" language, and no error message is needed.
+Xxx xxx xxx xxx XxxxxXxxxxx xxxxxx xxxxxxxxx xxxx x xxxxx xx XxxxxxxxXxxxxxxx xx xxxxxxxx xxx xxxxx xxxxxxx.
+Xxxx xx xxxxxxxxxx xxxxxx xxxx xxx xxxx xxxxxxxx xxxx xxxxxxxx xx x xxxxxxx xx $xxxxxxxx$ xxxxxxxx$ xxx xx xxxxx xxxxxxx xx xxxxxx.
 
-This example compares two scripts, Day1.ps1 and Day2.ps1, that include an Import-LocalizedData command.
-The scripts are identical, except that Day2 uses the ErrorAction common parameter with a value of SilentlyContinue.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxx$ Xxx0.xx0 xxx Xxx0.xx0$ xxxx xxxxxxx xx Xxxxxx$XxxxxxxxxXxxx xxxxxxx.
+Xxx xxxxxxx xxx xxxxxxxxx$ xxxxxx xxxx Xxx0 xxxx xxx XxxxxXxxxxx xxxxxx xxxxxxxxx xxxx x xxxxx xx XxxxxxxxXxxxxxxx.
 
-The sample output shows the results of running both scripts when the UI culture is set to fr-BE and there are no matching files or directories for that UI culture.
-Day1.ps1 displays an error message and English output.
-Day2.ps1 just displays the English output.
+Xxx xxxxxx xxxxxx xxxxx xxx xxxxxxx xx xxxxxxx xxxx xxxxxxx xxxx xxx XX xxxxxxx xx xxx xx xx$XX xxx xxxxx xxx xx xxxxxxxx xxxxx xx xxxxxxxxxxx xxx xxxx XX xxxxxxx.
+Xxx0.xx0 xxxxxxxx xx xxxxx xxxxxxx xxx Xxxxxxx xxxxxx.
+Xxx0.xx0 xxxx xxxxxxxx xxx Xxxxxxx xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -BaseDirectory
-Specifies the base directory where the .psd1 files are located.
-The default is the directory where the script is located.
-Import-LocalizedData searches for the .psd1 file for the script in a language-specific subdirectory of the base directory.
+### $XxxxXxxxxxxxx
+Xxxxxxxxx xxx xxxx xxxxxxxxx xxxxx xxx .xxx0 xxxxx xxx xxxxxxx.
+Xxx xxxxxxx xx xxx xxxxxxxxx xxxxx xxx xxxxxx xx xxxxxxx.
+Xxxxxx$XxxxxxxxxXxxx xxxxxxxx xxx xxx .xxx0 xxxx xxx xxx xxxxxx xx x xxxxxxxx$xxxxxxxx xxxxxxxxxxxx xx xxx xxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -182,18 +181,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -BindingVariable
-Specifies the variable into which the text strings are imported.
-Enter a variable name without a dollar sign ($).
+### $XxxxxxxXxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xxxx xxxxx xxx xxxx xxxxxxx xxx xxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxx x xxxxxx xxxx $$$.
 
-In Windows PowerShell 2.0, this parameter is required.
-In Windows PowerShell 3.0, this parameter is optional.
-If you omit this parameter, Import-LocalizedData returns a hash table of the text strings.
-The hash table is passed down the pipeline or displayed at the command line.
+Xx Xxxxxxx XxxxxXxxxx 0.0$ xxxx xxxxxxxxx xx xxxxxxxx.
+Xx Xxxxxxx XxxxxXxxxx 0.0$ xxxx xxxxxxxxx xx xxxxxxxx.
+Xx xxx xxxx xxxx xxxxxxxxx$ Xxxxxx$XxxxxxxxxXxxx xxxxxxx x xxxx xxxxx xx xxx xxxx xxxxxxx.
+Xxx xxxx xxxxx xx xxxxxx xxxx xxx xxxxxxxx xx xxxxxxxxx xx xxx xxxxxxx xxxx.
 
-When using Import-LocalizedData to replace default text strings specified in the DATA section of a script, assign the DATA section to a variable and enter the name of the DATA section variable in the value of the BindingVariable parameter.
-Then, when Import-LocalizedData saves the imported content in the BindingVariable, the imported data will replace the default text strings.
-If you are not specifying default text strings, you can select any variable name.
+Xxxx xxxxx Xxxxxx$XxxxxxxxxXxxx xx xxxxxxx xxxxxxx xxxx xxxxxxx xxxxxxxxx xx xxx XXXX xxxxxxx xx x xxxxxx$ xxxxxx xxx XXXX xxxxxxx xx x xxxxxxxx xxx xxxxx xxx xxxx xx xxx XXXX xxxxxxx xxxxxxxx xx xxx xxxxx xx xxx XxxxxxxXxxxxxxx xxxxxxxxx.
+Xxxx$ xxxx Xxxxxx$XxxxxxxxxXxxx xxxxx xxx xxxxxxxx xxxxxxx xx xxx XxxxxxxXxxxxxxx$ xxx xxxxxxxx xxxx xxxx xxxxxxx xxx xxxxxxx xxxx xxxxxxx.
+Xx xxx xxx xxx xxxxxxxxxx xxxxxxx xxxx xxxxxxx$ xxx xxx xxxxxx xxx xxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -207,16 +206,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FileName
-Specifies the name of the data file (.psd1) to be imported.
-Enter a file name.
-You can specify a file name that does not include its .psd1 file name extension, or you can specify the file name including the .psd1 file name extension.
+### $XxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxx $.xxx0$ xx xx xxxxxxxx.
+Xxxxx x xxxx xxxx.
+Xxx xxx xxxxxxx x xxxx xxxx xxxx xxxx xxx xxxxxxx xxx .xxx0 xxxx xxxx xxxxxxxxx$ xx xxx xxx xxxxxxx xxx xxxx xxxx xxxxxxxxx xxx .xxx0 xxxx xxxx xxxxxxxxx.
 
-The FileName parameter is required when Import-LocalizedData is not used in a script.
-Otherwise, the parameter is optional and the default value is the base name of the script.
-You can use this parameter to direct Import-LocalizedData to search for a different .psd1 file.
+Xxx XxxxXxxx xxxxxxxxx xx xxxxxxxx xxxx Xxxxxx$XxxxxxxxxXxxx xx xxx xxxx xx x xxxxxx.
+Xxxxxxxxx$ xxx xxxxxxxxx xx xxxxxxxx xxx xxx xxxxxxx xxxxx xx xxx xxxx xxxx xx xxx xxxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxxxx Xxxxxx$XxxxxxxxxXxxx xx xxxxxx xxx x xxxxxxxxx .xxx0 xxxx.
 
-For example, if the Filename is omitted and the script name is FindFiles.ps1, Import-LocalizedData searches for the FindFiles.psd1 data file.
+Xxx xxxxxxx$ xx xxx Xxxxxxxx xx xxxxxxx xxx xxx xxxxxx xxxx xx XxxxXxxxx.xx0$ Xxxxxx$XxxxxxxxxXxxx xxxxxxxx xxx xxx XxxxXxxxx.xxx0 xxxx xxxx.
 
 ```yaml
 Type: String
@@ -230,8 +229,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -246,8 +245,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -261,11 +260,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SupportedCommand
-Specifies cmdlets and functions that generate only data.
+### $XxxxxxxxxXxxxxxx
+Xxxxxxxxx xxxxxxx xxx xxxxxxxxx xxxx xxxxxxxx xxxx xxxx.
 
-Use this parameter to include cmdlets and functions that you have written or tested.
-For more information, see about_Script_Internationalization.
+Xxx xxxx xxxxxxxxx xx xxxxxxx xxxxxxx xxx xxxxxxxxx xxxx xxx xxxx xxxxxxx xx xxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx$Xxxxxxxxxxxxxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -279,16 +278,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -UICulture
-Specifies an alternate UI culture.
-The default is the value of the $PsUICulture automatic variable.
-Enter a UI culture in "\<language\>-\<region\>" format, such as en-US, de-DE, or ar-SA.
+### $XXXxxxxxx
+Xxxxxxxxx xx xxxxxxxxx XX xxxxxxx.
+Xxx xxxxxxx xx xxx xxxxx xx xxx $XxXXXxxxxxx xxxxxxxxx xxxxxxxx.
+Xxxxx x XX xxxxxxx xx $$$xxxxxxxx$$$$$xxxxxx$$$ xxxxxx$ xxxx xx xx$XX$ xx$XX$ xx xx$XX.
 
-The value of the UICulture parameter determines the language-specific subdirectory (within the base directory) from which Import-LocalizedData gets the .psd1 file for the script.
+Xxx xxxxx xx xxx XXXxxxxxx xxxxxxxxx xxxxxxxxxx xxx xxxxxxxx$xxxxxxxx xxxxxxxxxxxx $xxxxxx xxx xxxx xxxxxxxxx$ xxxx xxxxx Xxxxxx$XxxxxxxxxXxxx xxxx xxx .xxx0 xxxx xxx xxx xxxxxx.
 
-The cmdlet searches for a subdirectory with the same name as the value of  the UICulture parameter or the $PsUICulture automatic variable, such as "de-DE" or "ar-SA".
-If it cannot find the directory, or the directory does not contain a .psd1 file for the script, it searches for a subdirectory with the name of the language code, such as "de" or "ar".
-If it cannot find the subdirectory or .psd1 file, the command fails and the data is displayed in the default language specified in the script.
+Xxx xxxxxx xxxxxxxx xxx x xxxxxxxxxxxx xxxx xxx xxxx xxxx xx xxx xxxxx xx  xxx XXXxxxxxx xxxxxxxxx xx xxx $XxXXXxxxxxx xxxxxxxxx xxxxxxxx$ xxxx xx $xx$XX$ xx $xx$XX$.
+Xx xx xxxxxx xxxx xxx xxxxxxxxx$ xx xxx xxxxxxxxx xxxx xxx xxxxxxx x .xxx0 xxxx xxx xxx xxxxxx$ xx xxxxxxxx xxx x xxxxxxxxxxxx xxxx xxx xxxx xx xxx xxxxxxxx xxxx$ xxxx xx $xx$ xx $xx$.
+Xx xx xxxxxx xxxx xxx xxxxxxxxxxxx xx .xxx0 xxxx$ xxx xxxxxxx xxxxx xxx xxx xxxx xx xxxxxxxxx xx xxx xxxxxxx xxxxxxxx xxxxxxxxx xx xxx xxxxxx.
 
 ```yaml
 Type: String
@@ -302,42 +301,42 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Collections.Hashtable
-Import-LocalizedData saves the hash table in the variable that is specified by the value of the BindingVariable parameter.
+### Xxxxxx.Xxxxxxxxxxx.Xxxxxxxxx
+Xxxxxx$XxxxxxxxxXxxx xxxxx xxx xxxx xxxxx xx xxx xxxxxxxx xxxx xx xxxxxxxxx xx xxx xxxxx xx xxx XxxxxxxXxxxxxxx xxxxxxxxx.
 
-## NOTES
-Before using Import-LocalizedData, localize your user messages.
-Format the messages for each locale (UI culture) in a hash table of key/value pairs, and save the hash table in a file with the same name as the script and a .psd1 file name extension.
-Create a directory under the script directory for each supported UI culture, and then save the .psd1 file for each UI culture in the directory with the UI culture name.
+## XXXXX
+Xxxxxx xxxxx Xxxxxx$XxxxxxxxxXxxx$ xxxxxxxx xxxx xxxx xxxxxxxx.
+Xxxxxx xxx xxxxxxxx xxx xxxx xxxxxx $XX xxxxxxx$ xx x xxxx xxxxx xx xxx$xxxxx xxxxx$ xxx xxxx xxx xxxx xxxxx xx x xxxx xxxx xxx xxxx xxxx xx xxx xxxxxx xxx x .xxx0 xxxx xxxx xxxxxxxxx.
+Xxxxxx x xxxxxxxxx xxxxx xxx xxxxxx xxxxxxxxx xxx xxxx xxxxxxxxx XX xxxxxxx$ xxx xxxx xxxx xxx .xxx0 xxxx xxx xxxx XX xxxxxxx xx xxx xxxxxxxxx xxxx xxx XX xxxxxxx xxxx.
 
-For example, localize your user messages for the de-DE locale and format them in a hash table.
-Save the hash table in a \<ScriptName\>.psd1 file.
-Then create a de-DE subdirectory under the script directory, and save the de-DE \<ScriptName\>.psd1 file in the de-DE subdirectory.
-Repeat this method for each locale that you support.
+Xxx xxxxxxx$ xxxxxxxx xxxx xxxx xxxxxxxx xxx xxx xx$XX xxxxxx xxx xxxxxx xxxx xx x xxxx xxxxx.
+Xxxx xxx xxxx xxxxx xx x $$XxxxxxXxxx$$.xxx0 xxxx.
+Xxxx xxxxxx x xx$XX xxxxxxxxxxxx xxxxx xxx xxxxxx xxxxxxxxx$ xxx xxxx xxx xx$XX $$XxxxxxXxxx$$.xxx0 xxxx xx xxx xx$XX xxxxxxxxxxxx.
+Xxxxxx xxxx xxxxxx xxx xxxx xxxxxx xxxx xxx xxxxxxx.
 
-Import-LocalizedData performs a structured search for the localized user messages for a script.
+Xxxxxx$XxxxxxxxxXxxx xxxxxxxx x xxxxxxxxxx xxxxxx xxx xxx xxxxxxxxx xxxx xxxxxxxx xxx x xxxxxx.
 
-Import-LocalizedData begins the search in the directory where the script file is located (or the value of the BaseDirectory parameter).
-It then searches within the base directory for a subdirectory with the same name as the value of the $PsUICulture variable (or the value of the UICulture parameter), such as "de-DE" or "ar-SA".
-Then, it searches in that subdirectory for a .psd1 file with the same name as the script (or the value of the FileName parameter).
+Xxxxxx$XxxxxxxxxXxxx xxxxxx xxx xxxxxx xx xxx xxxxxxxxx xxxxx xxx xxxxxx xxxx xx xxxxxxx $xx xxx xxxxx xx xxx XxxxXxxxxxxxx xxxxxxxxx$.
+Xx xxxx xxxxxxxx xxxxxx xxx xxxx xxxxxxxxx xxx x xxxxxxxxxxxx xxxx xxx xxxx xxxx xx xxx xxxxx xx xxx $XxXXXxxxxxx xxxxxxxx $xx xxx xxxxx xx xxx XXXxxxxxx xxxxxxxxx$$ xxxx xx $xx$XX$ xx $xx$XX$.
+Xxxx$ xx xxxxxxxx xx xxxx xxxxxxxxxxxx xxx x .xxx0 xxxx xxxx xxx xxxx xxxx xx xxx xxxxxx $xx xxx xxxxx xx xxx XxxxXxxx xxxxxxxxx$.
 
-If Import-LocalizedData cannot find a subdirectory with the name of the UI culture, or the subdirectory does not contain a .psd1 file for the script, it searches for a .psd1 file for the script in a subdirectory with the name of the language code, such as "de" or "ar".
-If it cannot find the subdirectory or .psd1 file, the command fails, the data is displayed in the default language in the script, and an error message is displayed explaining that the data could not be imported.
-To suppress the message and fail gracefully, use the ErrorAction common parameter with a value of SilentlyContinue.
+Xx Xxxxxx$XxxxxxxxxXxxx xxxxxx xxxx x xxxxxxxxxxxx xxxx xxx xxxx xx xxx XX xxxxxxx$ xx xxx xxxxxxxxxxxx xxxx xxx xxxxxxx x .xxx0 xxxx xxx xxx xxxxxx$ xx xxxxxxxx xxx x .xxx0 xxxx xxx xxx xxxxxx xx x xxxxxxxxxxxx xxxx xxx xxxx xx xxx xxxxxxxx xxxx$ xxxx xx $xx$ xx $xx$.
+Xx xx xxxxxx xxxx xxx xxxxxxxxxxxx xx .xxx0 xxxx$ xxx xxxxxxx xxxxx$ xxx xxxx xx xxxxxxxxx xx xxx xxxxxxx xxxxxxxx xx xxx xxxxxx$ xxx xx xxxxx xxxxxxx xx xxxxxxxxx xxxxxxxxxx xxxx xxx xxxx xxxxx xxx xx xxxxxxxx.
+Xx xxxxxxxx xxx xxxxxxx xxx xxxx xxxxxxxxxx$ xxx xxx XxxxxXxxxxx xxxxxx xxxxxxxxx xxxx x xxxxx xx XxxxxxxxXxxxxxxx.
 
-If Import-LocalizedData finds the subdirectory and the .psd1 file, it imports the hash table of user messages into the value of the BindingVariable parameter in the command.
-Then, when you display a message from the hash table in the variable, the localized message is displayed.
+Xx Xxxxxx$XxxxxxxxxXxxx xxxxx xxx xxxxxxxxxxxx xxx xxx .xxx0 xxxx$ xx xxxxxxx xxx xxxx xxxxx xx xxxx xxxxxxxx xxxx xxx xxxxx xx xxx XxxxxxxXxxxxxxx xxxxxxxxx xx xxx xxxxxxx.
+Xxxx$ xxxx xxx xxxxxxx x xxxxxxx xxxx xxx xxxx xxxxx xx xxx xxxxxxxx$ xxx xxxxxxxxx xxxxxxx xx xxxxxxxxx.
 
-For more information, see about_Script_Internationalization (http://go.microsoft.com/fwlink/?LinkID=113262).
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx$Xxxxxxxxxxxxxxxxxxxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[about_Script_Internationalization]()
+[xxxxx$Xxxxxx$Xxxxxxxxxxxxxxxxxxxx]()
 

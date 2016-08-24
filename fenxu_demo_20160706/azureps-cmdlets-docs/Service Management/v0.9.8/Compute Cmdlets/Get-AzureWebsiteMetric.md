@@ -6,26 +6,26 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureWebsiteMetric
-## SYNOPSIS
-Gets metrics for the Azure website in the current subscription.
+# Xxx$XxxxxXxxxxxxXxxxxx
+## XXXXXXXX
+Xxxx xxxxxxx xxx xxx Xxxxx xxxxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureWebsiteMetric [[-Name] <String>] [[-MetricNames] <String[]>] [[-StartDate] <DateTime>]
  [[-EndDate] <DateTime>] [[-TimeGrain] <String>] [-InstanceDetails] [-SlotView] [-Slot <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Get-AzureWebsiteMetric cmdlet gets metrics for the Azure website in the current subscription.
+Xxx Xxx$XxxxxXxxxxxxXxxxxx xxxxxx xxxx xxxxxxx xxx xxx Xxxxx xxxxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get metrics for the last three hours on a per-instance level for a website
+### Xxxxxxx 0$ Xxx xxxxxxx xxx xxx xxxx xxxxx xxxxx xx x xxx$xxxxxxxx xxxxx xxx x xxxxxxx
 ```
 PS C:\>Get-AzureWebsiteMetric -Name "ContosoWebSite" -StartDate (get-date).AddHours(-3) -MetricNames "Requests" -InstanceDetails -SlotView -TimeGrain "PT1M" 
 $metrics[1].Data Name : Requests 
@@ -51,14 +51,14 @@ TimeCreated Total Minimum Maximum Count InstanceName
 8/11/2014 7:10:00 AM 9 1 RD00155DC24599
 ```
 
-This command gets metrics for the last three hours on a per-instance level for a website.
+Xxxx xxxxxxx xxxx xxxxxxx xxx xxx xxxx xxxxx xxxxx xx x xxx$xxxxxxxx xxxxx xxx x xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -EndDate
-Specifies the time, as a DateTime object, to stop getting metrics.
-To obtain a DateTime object, use the Get-Date cmdlet.
-For more information, type Get-Help Get-Date.
+### $XxxXxxx
+Xxxxxxxxx xxx xxxx$ xx x XxxxXxxx xxxxxx$ xx xxxx xxxxxxx xxxxxxx.
+Xx xxxxxx x XxxxXxxx xxxxxx$ xxx xxx Xxx$Xxxx xxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxxx Xxx$Xxxx Xxx$Xxxx.
 
 ```yaml
 Type: DateTime
@@ -72,9 +72,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -InstanceDetails
-Indicates that this cmdlet includes details on a per-instance level.
-If the web hosting plan runs on two or more computers, this cmdlet returns metrics for each computer.
+### $XxxxxxxxXxxxxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx xxxxxxx xx x xxx$xxxxxxxx xxxxx.
+Xx xxx xxx xxxxxxx xxxx xxxx xx xxx xx xxxx xxxxxxxxx$ xxxx xxxxxx xxxxxxx xxxxxxx xxx xxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -88,9 +88,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -MetricNames
-Specifies an array of metrics to get.
-If you do not specify this parameter, the cmdlet gets all metrics.
+### $XxxxxxXxxxx
+Xxxxxxxxx xx xxxxx xx xxxxxxx xx xxx.
+Xx xxx xx xxx xxxxxxx xxxx xxxxxxxxx$ xxx xxxxxx xxxx xxx xxxxxxx.
 
 ```yaml
 Type: String[]
@@ -104,9 +104,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of a website in the subscription.
-This parameter does not support wildcard characters.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxx xx xxx xxxxxxxxxxxx.
+Xxxx xxxxxxxxx xxxx xxx xxxxxxx xxxxxxxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -120,9 +120,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Slot
-Specifies the environment of a cloud service deployment.
-Valid values are: Production and Staging.
+### $Xxxx
+Xxxxxxxxx xxx xxxxxxxxxxx xx x xxxxx xxxxxxx xxxxxxxxxx.
+Xxxxx xxxxxx xxx$ Xxxxxxxxxx xxx Xxxxxxx.
 
 ```yaml
 Type: String
@@ -136,9 +136,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -SlotView
-Indicates that this cmdlet gets metrics for the host names that receive traffic at the current slot.
-If a swap occurs during the time period, the metrics are merged.
+### $XxxxXxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxx xxxxxxx xxx xxx xxxx xxxxx xxxx xxxxxxx xxxxxxx xx xxx xxxxxxx xxxx.
+Xx x xxxx xxxxxx xxxxxx xxx xxxx xxxxxx$ xxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -152,8 +152,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -StartDate
-Specifies the time, as a DateTime object, to start getting metrics.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx$ xx x XxxxXxxx xxxxxx$ xx xxxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: DateTime
@@ -167,15 +167,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -TimeGrain
-Specifies the time unit for metrics.
-Valid values are: 
+### $XxxxXxxxx
+Xxxxxxxxx xxx xxxx xxxx xxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- PT1M (Minute) 
--- PT1H (Hour) 
--- P1D (Day)
+$$ XX0X $Xxxxxx$ $$ XX0X $Xxxx$ $$ X0X $Xxx$
 
-The default value is PT1H.
+Xxx xxxxxxx xxxxx xx XX0X.
 
 ```yaml
 Type: String
@@ -189,20 +187,20 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
 ### 
-You can pass input to this cmdlet by property name, but not by value.
+Xxx xxx xxxx xxxxx xx xxxx xxxxxx xx xxxxxxxx xxxx$ xxx xxx xx xxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.WindowsAzure.Commands.Utilities.Websites.Services.WebEntities.MetricResponse
-By default, Get-AzureWebsiteMetric returns an array of MetricResponse objects.
+### Xxxxxxxxx.XxxxxxxXxxxx.Xxxxxxxx.Xxxxxxxxx.Xxxxxxxx.Xxxxxxxx.XxxXxxxxxxx.XxxxxxXxxxxxxx
+Xx xxxxxxx$ Xxx$XxxxxXxxxxxxXxxxxx xxxxxxx xx xxxxx xx XxxxxxXxxxxxxx xxxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
 

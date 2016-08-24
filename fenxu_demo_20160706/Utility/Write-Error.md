@@ -4,13 +4,13 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294028
 schema: 2.0.0
 ---
 
-# Write-Error
-## SYNOPSIS
-Writes an object to the error stream.
+# Xxxxx$Xxxxx
+## XXXXXXXX
+Xxxxxx xx xxxxxx xx xxx xxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### NoException (Default)
+### XxXxxxxxxxx $Xxxxxxx$
 ```
 Write-Error [-Message] <String> [-Category <ErrorCategory>] [-ErrorId <String>] [-TargetObject <Object>]
  [-RecommendedAction <String>] [-CategoryActivity <String>] [-CategoryReason <String>]
@@ -18,7 +18,7 @@ Write-Error [-Message] <String> [-Category <ErrorCategory>] [-ErrorId <String>] 
  [-InformationVariable <String>]
 ```
 
-### WithException
+### XxxxXxxxxxxxx
 ```
 Write-Error -Exception <Exception> [[-Message] <String>] [-Category <ErrorCategory>] [-ErrorId <String>]
  [-TargetObject <Object>] [-RecommendedAction <String>] [-CategoryActivity <String>] [-CategoryReason <String>]
@@ -26,72 +26,71 @@ Write-Error -Exception <Exception> [[-Message] <String>] [-Category <ErrorCatego
  [-InformationVariable <String>]
 ```
 
-### ErrorRecord
+### XxxxxXxxxxx
 ```
 Write-Error -ErrorRecord <ErrorRecord> [-RecommendedAction <String>] [-CategoryActivity <String>]
  [-CategoryReason <String>] [-CategoryTargetName <String>] [-CategoryTargetType <String>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Write-Error cmdlet declares a non-terminating error.
-By default, errors are sent in the error stream to the host program to be displayed, along with output.
+## XXXXXXXXXXX
+Xxx Xxxxx$Xxxxx xxxxxx xxxxxxxx x xxx$xxxxxxxxxxx xxxxx.
+Xx xxxxxxx$ xxxxxx xxx xxxx xx xxx xxxxx xxxxxx xx xxx xxxx xxxxxxx xx xx xxxxxxxxx$ xxxxx xxxx xxxxxx.
 
-To write a non-terminating error, enter an error message string, an ErrorRecord object, or an Exception object. 
-Use the other parameters of Write-Error to populate the error record.
+Xx xxxxx x xxx$xxxxxxxxxxx xxxxx$ xxxxx xx xxxxx xxxxxxx xxxxxx$ xx XxxxxXxxxxx xxxxxx$ xx xx Xxxxxxxxx xxxxxx. Xxx xxx xxxxx xxxxxxxxxx xx Xxxxx$Xxxxx xx xxxxxxxx xxx xxxxx xxxxxx.
 
-Non-terminating errors write an error to the error stream, but they do not stop command processing.
-If a non-terminating error is declared on one item in a collection of input items, the command continues to process the other items in the collection.
+Xxx$xxxxxxxxxxx xxxxxx xxxxx xx xxxxx xx xxx xxxxx xxxxxx$ xxx xxxx xx xxx xxxx xxxxxxx xxxxxxxxxx.
+Xx x xxx$xxxxxxxxxxx xxxxx xx xxxxxxxx xx xxx xxxx xx x xxxxxxxxxx xx xxxxx xxxxx$ xxx xxxxxxx xxxxxxxxx xx xxxxxxx xxx xxxxx xxxxx xx xxx xxxxxxxxxx.
 
-To declare a terminating error, use the Throw keyword.
-For more information, see about_Throw (http://go.microsoft.com/fwlink/?LinkID=145153).
+Xx xxxxxxx x xxxxxxxxxxx xxxxx$ xxx xxx Xxxxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-ChildItem | ForEach-Object { if ($_.GetType().ToString() -eq "Microsoft.Win32.RegistryKey") {Write-Error "Invalid object" -ErrorID B1 -Targetobject $_ } else {$_ } }
 ```
 
-This command declares a non-terminating error when the Get-ChildItem cmdlet returns a Microsoft.Win32.RegistryKey object, such as the objects in the HKLM: or HKCU: drives of the Windows PowerShell Registry provider.
+Xxxx xxxxxxx xxxxxxxx x xxx$xxxxxxxxxxx xxxxx xxxx xxx Xxx$XxxxxXxxx xxxxxx xxxxxxx x Xxxxxxxxx.Xxx00.XxxxxxxxXxx xxxxxx$ xxxx xx xxx xxxxxxx xx xxx XXXX$ xx XXXX$ xxxxxx xx xxx Xxxxxxx XxxxxXxxxx Xxxxxxxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Write-Error "Access denied."
 ```
 
-This command declares a non-terminating error and writes an "Access denied" error.
-The command uses the Message parameter to specify the message, but omits the optional Message parameter name.
+Xxxx xxxxxxx xxxxxxxx x xxx$xxxxxxxxxxx xxxxx xxx xxxxxx xx $Xxxxxx xxxxxx$ xxxxx.
+Xxx xxxxxxx xxxx xxx Xxxxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxxx$ xxx xxxxx xxx xxxxxxxx Xxxxxxx xxxxxxxxx xxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Write-Error -Message "Error: Too many input values." -Category InvalidArgument
 ```
 
-This command declares a non-terminating error and specifies an error category.
+Xxxx xxxxxxx xxxxxxxx x xxx$xxxxxxxxxxx xxxxx xxx xxxxxxxxx xx xxxxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$e = [System.Exception]@{$e = [System.Exception]@{Source="Get-ParameterNames.ps1";HelpLink="http://go.microsoft.com/fwlink/?LinkID=113425"}HelpLink="http://go.microsoft.com/fwlink/?LinkID=113425"}
 PS C:\> Write-Error $e -Message "Files not found. The $Files location does not contain any XML files."
 ```
 
-This command uses an Exception object to declare a non-terminating error.
+Xxxx xxxxxxx xxxx xx Xxxxxxxxx xxxxxx xx xxxxxxx x xxx$xxxxxxxxxxx xxxxx.
 
-The first command uses a hash table to create the System.Exception object.
-It saves the exception object in the $e variable.
-You can use a hash table to create any object of a type that has a null constructor.
+Xxx xxxxx xxxxxxx xxxx x xxxx xxxxx xx xxxxxx xxx Xxxxxx.Xxxxxxxxx xxxxxx.
+Xx xxxxx xxx xxxxxxxxx xxxxxx xx xxx $x xxxxxxxx.
+Xxx xxx xxx x xxxx xxxxx xx xxxxxx xxx xxxxxx xx x xxxx xxxx xxx x xxxx xxxxxxxxxxx.
 
-The second command uses the Write-Error cmdlet to declare a non-terminating error.
-The value of the Exception parameter is the Exception object in the $e variable.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxx$Xxxxx xxxxxx xx xxxxxxx x xxx$xxxxxxxxxxx xxxxx.
+Xxx xxxxx xx xxx Xxxxxxxxx xxxxxxxxx xx xxx Xxxxxxxxx xxxxxx xx xxx $x xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Category
-Specifies the category of the error.
-The default value is NotSpecified.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xx xxx xxxxx.
+Xxx xxxxxxx xxxxx xx XxxXxxxxxxxx.
 
-For information about the error categories, see "ErrorCategory Enumeration" in the MSDN (Microsoft Developer Network) library at http://go.microsoft.com/fwlink/?LinkId=143600.
+Xxx xxxxxxxxxxx xxxxx xxx xxxxx xxxxxxxxxx$ xxx $XxxxxXxxxxxxx Xxxxxxxxxxx$ xx xxx XXXX $Xxxxxxxxx Xxxxxxxxx Xxxxxxx$ xxxxxxx xx xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000.
 
 ```yaml
 Type: ErrorCategory
@@ -106,8 +105,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CategoryActivity
-Describes the action that caused the error.
+### $XxxxxxxxXxxxxxxx
+Xxxxxxxxx xxx xxxxxx xxxx xxxxxx xxx xxxxx.
 
 ```yaml
 Type: String
@@ -121,8 +120,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CategoryReason
-Explains how or why the activity caused the error.
+### $XxxxxxxxXxxxxx
+Xxxxxxxx xxx xx xxx xxx xxxxxxxx xxxxxx xxx xxxxx.
 
 ```yaml
 Type: String
@@ -136,8 +135,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CategoryTargetName
-Specifies the name of the object that was being processed when the error occurred.
+### $XxxxxxxxXxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx xxx xxxxx xxxxxxxxx xxxx xxx xxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -151,8 +150,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CategoryTargetType
-Specifies the type of the object that was being processed when the error occurred.
+### $XxxxxxxxXxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx xxx xxxxx xxxxxxxxx xxxx xxx xxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -166,9 +165,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ErrorId
-Specifies an ID string to identify the error.
-The string should be unique to the error.
+### $XxxxxXx
+Xxxxxxxxx xx XX xxxxxx xx xxxxxxxx xxx xxxxx.
+Xxx xxxxxx xxxxxx xx xxxxxx xx xxx xxxxx.
 
 ```yaml
 Type: String
@@ -182,11 +181,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ErrorRecord
-Specifies an error record object that represents the error.
-Use the properties of the object to describe the error.
+### $XxxxxXxxxxx
+Xxxxxxxxx xx xxxxx xxxxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxx.
+Xxx xxx xxxxxxxxxx xx xxx xxxxxx xx xxxxxxxx xxx xxxxx.
 
-To create an error record object, use the New-Object cmdlet or get an error record object from the array in the $Error automatic variable.
+Xx xxxxxx xx xxxxx xxxxxx xxxxxx$ xxx xxx Xxx$Xxxxxx xxxxxx xx xxx xx xxxxx xxxxxx xxxxxx xxxx xxx xxxxx xx xxx $Xxxxx xxxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: ErrorRecord
@@ -200,11 +199,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Exception
-Specifies an exception object that represents the error.
-Use the properties of the object to describe the error.
+### $Xxxxxxxxx
+Xxxxxxxxx xx xxxxxxxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxx.
+Xxx xxx xxxxxxxxxx xx xxx xxxxxx xx xxxxxxxx xxx xxxxx.
 
-To create an exception object, use a hash table or use the New-Object cmdlet.
+Xx xxxxxx xx xxxxxxxxx xxxxxx$ xxx x xxxx xxxxx xx xxx xxx Xxx$Xxxxxx xxxxxx.
 
 ```yaml
 Type: Exception
@@ -218,8 +217,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-For information about the error categories, see "ErrorCategory Enumeration" in the MSDN (Microsoft Developer Network) library at http://go.microsoft.com/fwlink/?LinkId=143600.
+### $XxxxxxxxxxxXxxxxx
+Xxx xxxxxxxxxxx xxxxx xxx xxxxx xxxxxxxxxx$ xxx $XxxxxXxxxxxxx Xxxxxxxxxxx$ xx xxx XXXX $Xxxxxxxxx Xxxxxxxxx Xxxxxxx$ xxxxxxx xx xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000.
 
 ```yaml
 Type: ActionPreference
@@ -234,8 +233,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-For information about the error categories, see "ErrorCategory Enumeration" in the MSDN (Microsoft Developer Network) library at http://go.microsoft.com/fwlink/?LinkId=143600.
+### $XxxxxxxxxxxXxxxxxxx
+Xxx xxxxxxxxxxx xxxxx xxx xxxxx xxxxxxxxxx$ xxx $XxxxxXxxxxxxx Xxxxxxxxxxx$ xx xxx XXXX $Xxxxxxxxx Xxxxxxxxx Xxxxxxx$ xxxxxxx xx xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000.
 
 ```yaml
 Type: String
@@ -249,10 +248,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Message
-Specifies the message text of the error. 
-If the text includes spaces or special characters, enclose it in quotation marks.
-You can also pipe a message string to Write-Error.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xx xxx xxxxx. Xx xxx xxxx xxxxxxxx xxxxxx xx xxxxxxx xxxxxxxxxx$ xxxxxxx xx xx xxxxxxxxx xxxxx.
+Xxx xxx xxxx xxxx x xxxxxxx xxxxxx xx Xxxxx$Xxxxx.
 
 ```yaml
 Type: String
@@ -278,8 +276,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -RecommendedAction
-Describes the action that the user should take to resolve or prevent the error.
+### $XxxxxxxxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxx xxxx xxx xxxx xxxxxx xxxx xx xxxxxxx xx xxxxxxx xxx xxxxx.
 
 ```yaml
 Type: String
@@ -293,9 +291,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TargetObject
-Specifies the object that was being processed when the error occurred.
-Enter the object (such as a string), a variable that contains the object, or a command that gets the object.
+### $XxxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxx xxxx xxx xxxxx xxxxxxxxx xxxx xxx xxxxx xxxxxxxx.
+Xxxxx xxx xxxxxx $xxxx xx x xxxxxx$$ x xxxxxxxx xxxx xxxxxxxx xxx xxxxxx$ xx x xxxxxxx xxxx xxxx xxx xxxxxx.
 
 ```yaml
 Type: Object
@@ -309,30 +307,30 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
-You can pipe a string that contains an error message to Write-Error.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx xx xxxxx xxxxxxx xx Xxxxx$Xxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### Error object
-Write-Error writes only to the error stream.
-It does not return any objects.
+### Xxxxx xxxxxx
+Xxxxx$Xxxxx xxxxxx xxxx xx xxx xxxxx xxxxxx.
+Xx xxxx xxx xxxxxx xxx xxxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Write-Debug]()
+[Xxxxx$Xxxxx]()
 
-[Write-Host]()
+[Xxxxx$Xxxx]()
 
-[Write-Output]()
+[Xxxxx$Xxxxxx]()
 
-[Write-Progress]()
+[Xxxxx$Xxxxxxxx]()
 
-[Write-Verbose]()
+[Xxxxx$Xxxxxxx]()
 
-[Write-Warning]()
+[Xxxxx$Xxxxxxx]()
 

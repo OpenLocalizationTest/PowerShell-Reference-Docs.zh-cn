@@ -6,64 +6,64 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageBlobContent
-## SYNOPSIS
-Downloads a storage blob.
+# Xxx$XxxxxXxxxxxxXxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxxxx x xxxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageBlobContent [-Blob] <String> [-Container] <String> [-CheckMd5]
  [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>]
  [-Destination <String>] [-Force] [-ServerTimeoutPerRequest <Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageBlobContent [-Blob] <String> [-CheckMd5] [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-Destination <String>] [-Force]
  [-ServerTimeoutPerRequest <Int32]>] -CloudBlobContainer <CloudBlobContainer> [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageBlobContent [-CheckMd5] [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-Destination <String>] [-Force] [-ServerTimeoutPerRequest <Int32]>]
  -CloudBlob <CloudBlob> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageBlobContent** cmdlet downloads the specified storage blob.
-If the blob name is not valid for the local computer, this cmdlet automatically resolves it if it is possible.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxXxxxxxx$$ xxxxxx xxxxxxxxx xxx xxxxxxxxx xxxxxxx xxxx.
+Xx xxx xxxx xxxx xx xxx xxxxx xxx xxx xxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxxxxxxxx xxxxxxxx xx xx xx xx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Download blob content by name
+### Xxxxxxx 0$ Xxxxxxxx xxxx xxxxxxx xx xxxx
 ```
 PS C:\>Get-AzureStorageBlobContent -Container "ContainerName" -Blob "Blob" -Destination "C:\test\"
 ```
 
-This command downloads a blob by name.
+Xxxx xxxxxxx xxxxxxxxx x xxxx xx xxxx.
 
-### Example 2: Download blob content using the pipeline
+### Xxxxxxx 0$ Xxxxxxxx xxxx xxxxxxx xxxxx xxx xxxxxxxx
 ```
 PS C:\>Get-AzureStorageBlob -Container containername -Blob blobname | Get-AzureStorageBlobContent
 ```
 
-This command uses the pipeline to find and download blob content.
+Xxxx xxxxxxx xxxx xxx xxxxxxxx xx xxxx xxx xxxxxxxx xxxx xxxxxxx.
 
-### Example 3: Download blob content using the pipeline and a wildcard character
+### Xxxxxxx 0$ Xxxxxxxx xxxx xxxxxxx xxxxx xxx xxxxxxxx xxx x xxxxxxxx xxxxxxxxx
 ```
 PS C:\>Get-AzureStorageContainer container* | Get-AzureStorageBlobContent -Blob "cbox.exe" -Destination "C:\test"
 ```
 
-This example uses the asterisk wildcard character and the pipeline to find and download blob content.
+Xxxx xxxxxxx xxxx xxx xxxxxxxx xxxxxxxx xxxxxxxxx xxx xxx xxxxxxxx xx xxxx xxx xxxxxxxx xxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Blob
-Specifies the name of the blob to be downloaded.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xx xx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -77,8 +77,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CheckMd5
-Specifies whether to check the Md5 sum for the downloaded file.
+### $XxxxxXx0
+Xxxxxxxxx xxxxxxx xx xxxxx xxx Xx0 xxx xxx xxx xxxxxxxxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -92,10 +92,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ClientTimeoutPerRequest
-Specifies the client-side time-out interval, in seconds, for one service request.
-If the previous call fails in the specified interval, this cmdlet retries the request.
-If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -109,9 +109,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CloudBlob
-Specifies a cloud blob.
-To obtain a **CloudBlob** object, use the Get-AzureStorageBlob cmdlet.
+### $XxxxxXxxx
+Xxxxxxxxx x xxxxx xxxx.
+Xx xxxxxx x $$XxxxxXxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
 ```yaml
 Type: CloudBlob
@@ -125,9 +125,9 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -CloudBlobContainer
-Specifies a **CloudBlobContainer** object from the azure_2 storage client library.
-You can create it or use the Get-AzureStorageContainer cmdlet.
+### $XxxxxXxxxXxxxxxxxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx xxxx xxx xxxxx$0 xxxxxxx xxxxxx xxxxxxx.
+Xxx xxx xxxxxx xx xx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
 
 ```yaml
 Type: CloudBlobContainer
@@ -141,14 +141,14 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ConcurrentTaskCount
-Specifies the maximum concurrent network calls.
-You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
-The specified value is an absolute count and is not multiplied by the core count.
-This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
-The default value is 10.
+### $XxxxxxxxxxXxxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxxxxx xxx xxxx xxxxxx xxxxxxx xxxxxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxxx$ xxxx xx 000 xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx xxxxx xx 00.
 
-The default value is 10.
+Xxx xxxxxxx xxxxx xx 00.
 
 ```yaml
 Type: Int32]
@@ -162,8 +162,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Container
-Specifies the name of container that has the blob you want to download.
+### $Xxxxxxxxx
+Xxxxxxxxx xxx xxxx xx xxxxxxxxx xxxx xxx xxx xxxx xxx xxxx xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -177,9 +177,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies the Azure storage account from which you want to download blob content.
-You can use the New-AzureStorageContext cmdlet to create a storage context.
+### $Xxxxxxx
+Xxxxxxxxx xxx Xxxxx xxxxxxx xxxxxxx xxxx xxxxx xxx xxxx xx xxxxxxxx xxxx xxxxxxx.
+Xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx xx xxxxxx x xxxxxxx xxxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -193,8 +193,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Destination
-Specifies the location to store the downloaded file.
+### $Xxxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xx xxxxx xxx xxxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -208,8 +208,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Overwrites an existing file without confirmation.
+### $Xxxxx
+Xxxxxxxxxx xx xxxxxxxx xxxx xxxxxxx xxxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -223,9 +223,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-Specifies the service side time-out interval, in seconds, for a request.
-If the specified interval elapses before the service processes the request, the storage service returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
+Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -239,8 +239,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -254,8 +254,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -269,21 +269,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-### AzureStorageContainer
+### XxxxxXxxxxxxXxxxxxxxx
 
-## NOTES
-If the blob name is invalid for local computer, this cmdlet autoresolves it, if it is possible.
+## XXXXX
+Xx xxx xxxx xxxx xx xxxxxxx xxx xxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxxxxxxx xx$ xx xx xx xxxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Set-AzureStorageBlobContent](c3d50900-70d6-44af-b939-abe86fcf89e6)
+[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](c3d50900-70d6-44af-b939-abe86fcf89e6)
 
-[Get-AzureStorageBlob](74bc4494-be41-4493-9939-e51e61dd09e6)
+[Xxx$XxxxxXxxxxxxXxxx](74bc4494-be41-4493-9939-e51e61dd09e6)
 
-[Remove-AzureStorageBlob](fddc1b9e-caf4-47d7-a6b2-a2b2bb50113a)
+[Xxxxxx$XxxxxXxxxxxxXxxx](fddc1b9e-caf4-47d7-a6b2-a2b2bb50113a)
 
 

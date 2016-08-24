@@ -4,60 +4,60 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293977
 schema: 2.0.0
 ---
 
-# Get-UICulture
-## SYNOPSIS
-Gets the current user interface (UI) culture settings in the operating system.
+# Xxx$XXXxxxxxx
+## XXXXXXXX
+Xxxx xxx xxxxxxx xxxx xxxxxxxxx $XX$ xxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-UICulture [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-UICulture cmdlet gets information about the current UI culture settings for Windows.
-The UI culture determines which text strings are used for user interface elements, such as menus and messages.
+## XXXXXXXXXXX
+Xxx Xxx$XXXxxxxxx xxxxxx xxxx xxxxxxxxxxx xxxxx xxx xxxxxxx XX xxxxxxx xxxxxxxx xxx Xxxxxxx.
+Xxx XX xxxxxxx xxxxxxxxxx xxxxx xxxx xxxxxxx xxx xxxx xxx xxxx xxxxxxxxx xxxxxxxx$ xxxx xx xxxxx xxx xxxxxxxx.
 
-You can also use the Get-Culture cmdlet, which gets the current culture on the system.
-The culture determines the display format of items such as numbers, currency, and dates.
+Xxx xxx xxxx xxx xxx Xxx$Xxxxxxx xxxxxx$ xxxxx xxxx xxx xxxxxxx xxxxxxx xx xxx xxxxxx.
+Xxx xxxxxxx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxx xxxx xx xxxxxxx$ xxxxxxxx$ xxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-uiculture
 ```
 
-This command gets the current UI culture information.
+Xxxx xxxxxxx xxxx xxx xxxxxxx XX xxxxxxx xxxxxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-uiculture | format-list *
 ```
 
-This command displays the values of all of the properties of the current UI culture in a list.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxx xx xxx xx xxx xxxxxxxxxx xx xxx xxxxxxx XX xxxxxxx xx x xxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>(get-uiculture).calendar
 ```
 
-This command displays the current values for the Calendar property of the current UI culture.
-Calendar is just one property of UI culture.
-To see all of the properties, type "get-uiculture | get-member".
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxx xxxxxx xxx xxx Xxxxxxxx xxxxxxxx xx xxx xxxxxxx XX xxxxxxx.
+Xxxxxxxx xx xxxx xxx xxxxxxxx xx XX xxxxxxx.
+Xx xxx xxx xx xxx xxxxxxxxxx$ xxxx $xxx$xxxxxxxxx $ xxx$xxxxxx$.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>(get-uiculture).datetimeformat.shortdatepattern
 ```
 
-This command displays the short date pattern for the current UI culture.
-To see all of the subproperties of the DateTimeFormat property of the UI culture, type "(get-uiculture).datetimeformat | gm".
+Xxxx xxxxxxx xxxxxxxx xxx xxxxx xxxx xxxxxxx xxx xxx xxxxxxx XX xxxxxxx.
+Xx xxx xxx xx xxx xxxxxxxxxxxxx xx xxx XxxxXxxxXxxxxx xxxxxxxx xx xxx XX xxxxxxx$ xxxx $$xxx$xxxxxxxxx$.xxxxxxxxxxxxxx $ xx$.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -72,8 +72,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -87,21 +87,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Globalization.CultureInfo, Microsoft.PowerShell.VistaCultureInfo
-Get-UICulture returns an object that represents the current UI culture.
-In Windows PowerShell 3.0, it returns a CultureInfo object.
-In Windows PowerShell 2.0, it returns a VistaCultureInfo object.
+### Xxxxxx.Xxxxxxxxxxxxx.XxxxxxxXxxx$ Xxxxxxxxx.XxxxxXxxxx.XxxxxXxxxxxxXxxx
+Xxx$XXXxxxxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx XX xxxxxxx.
+Xx Xxxxxxx XxxxxXxxxx 0.0$ xx xxxxxxx x XxxxxxxXxxx xxxxxx.
+Xx Xxxxxxx XxxxxXxxxx 0.0$ xx xxxxxxx x XxxxxXxxxxxxXxxx xxxxxx.
 
-## NOTES
-You can also use the $PsCulture and $PsUICulture variables.
-The $PsCulture variable stores the name of the current culture, and the $PsUICulture variable stores the name of the current UI culture.
+## XXXXX
+Xxx xxx xxxx xxx xxx $XxXxxxxxx xxx $XxXXXxxxxxx xxxxxxxxx.
+Xxx $XxXxxxxxx xxxxxxxx xxxxxx xxx xxxx xx xxx xxxxxxx xxxxxxx$ xxx xxx $XxXXXxxxxxx xxxxxxxx xxxxxx xxx xxxx xx xxx xxxxxxx XX xxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 

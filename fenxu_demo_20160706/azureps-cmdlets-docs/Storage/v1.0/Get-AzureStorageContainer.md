@@ -6,70 +6,51 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageContainer
-## SYNOPSIS
-Lists the storage containers.
+# Xxx$XxxxxXxxxxxxXxxxxxxxx
+## XXXXXXXX
+Xxxxx xxx xxxxxxx xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageContainer [[-Name] <String>] [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-ContinuationToken <BlobContinuationToken>]
  [-MaxCount <Int32]>] [-ServerTimeoutPerRequest <Int32]>]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageContainer [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-ContinuationToken <BlobContinuationToken>] [-MaxCount <Int32]>]
  [-ServerTimeoutPerRequest <Int32]>] -Prefix <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageContainer** cmdlet lists the storage containers associated with the storage account in azure_2.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxxxxx$$ xxxxxx xxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxxxxx xxxx xxx xxxxxxx xxxxxxx xx xxxxx$0.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get Azure Storage blob by name
+### Xxxxxxx 0$ Xxx Xxxxx Xxxxxxx xxxx xx xxxx
 ```
 PS C:\>Get-AzureStorageContainer -Name container*
 ```
 
-This example uses a wildcard character to return a list of all containers with a name that starts with container.
+Xxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxxx xx xxxxxx x xxxx xx xxx xxxxxxxxxx xxxx x xxxx xxxx xxxxxx xxxx xxxxxxxxx.
 
-### Example 2: Get Azure Storage container by container name prefix
+### Xxxxxxx 0$ Xxx Xxxxx Xxxxxxx xxxxxxxxx xx xxxxxxxxx xxxx xxxxxx
 ```
 PS C:\>Get-AzureStorageContainer -Prefix "container"
 ```
 
-This example uses the *Prefix* parameter to return a list of all containers with a name that starts with container.
+Xxxx xxxxxxx xxxx xxx $Xxxxxx$ xxxxxxxxx xx xxxxxx x xxxx xx xxx xxxxxxxxxx xxxx x xxxx xxxx xxxxxx xxxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-Specifies the client-side time-out interval, in seconds, for one service request.
-If the previous call fails in the specified interval, this cmdlet retries the request.
-If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
-
-```yaml
-Type: Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-Specifies the maximum concurrent network calls.
-You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
-The specified value is an absolute count and is not multiplied by the core count.
-This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
-The default value is 10.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -83,9 +64,28 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies the storage context.
-To create it, you can use the New-AzureStorageContext cmdlet.
+### $XxxxxxxxxxXxxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxxxxx xxx xxxx xxxxxx xxxxxxx xxxxxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxxx$ xxxx xx 000 xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx xxxxx xx 00.
+
+```yaml
+Type: Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxx.
+Xx xxxxxx xx$ xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -99,8 +99,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ContinuationToken
-Specifies a continuation token for the blob list.
+### $XxxxxxxxxxxxXxxxx
+Xxxxxxxxx x xxxxxxxxxxxx xxxxx xxx xxx xxxx xxxx.
 
 ```yaml
 Type: BlobContinuationToken
@@ -114,8 +114,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -MaxCount
-Specifies the maximum number of objects that this cmdlet returns.
+### $XxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: Int32]
@@ -129,10 +129,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the container name.
-If container name is empty, the cmdlet lists all the containers.
-Otherwise, it lists all containers that match the specified name or the regular name pattern.
+### $Xxxx
+Xxxxxxxxx xxx xxxxxxxxx xxxx.
+Xx xxxxxxxxx xxxx xx xxxxx$ xxx xxxxxx xxxxx xxx xxx xxxxxxxxxx.
+Xxxxxxxxx$ xx xxxxx xxx xxxxxxxxxx xxxx xxxxx xxx xxxxxxxxx xxxx xx xxx xxxxxxx xxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -146,9 +146,9 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Prefix
-Specifies a prefix used in the name of the container or containers you want to get.
-You can use this to find all containers that start with the same string, such as "my" or "test".
+### $Xxxxxx
+Xxxxxxxxx x xxxxxx xxxx xx xxx xxxx xx xxx xxxxxxxxx xx xxxxxxxxxx xxx xxxx xx xxx.
+Xxx xxx xxx xxxx xx xxxx xxx xxxxxxxxxx xxxx xxxxx xxxx xxx xxxx xxxxxx$ xxxx xx $xx$ xx $xxxx$.
 
 ```yaml
 Type: String
@@ -162,9 +162,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-Specifies the service side time-out interval, in seconds, for a request.
-If the specified interval elapses before the service processes the request, the storage service returns an error.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
+Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -178,18 +178,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureStorageContainer](f3da4bf0-aa3a-4853-a362-e3fc479688d6)
+[Xxx$XxxxxXxxxxxxXxxxxxxxx](f3da4bf0-aa3a-4853-a362-e3fc479688d6)
 
-[Remove-AzureStorageContainer](89d7ed7c-1db6-4e01-8981-8f34483039fd)
+[Xxxxxx$XxxxxXxxxxxxXxxxxxxxx](89d7ed7c-1db6-4e01-8981-8f34483039fd)
 
-[Set-AzureStorageContainerAcl](20680af5-8145-4eab-94d3-d710a62a062b)
+[Xxx$XxxxxXxxxxxxXxxxxxxxxXxx](20680af5-8145-4eab-94d3-d710a62a062b)
 
 

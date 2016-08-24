@@ -4,54 +4,54 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294007
 schema: 2.0.0
 ---
 
-# Select-Object
-## SYNOPSIS
-Selects objects or object properties.
+# Xxxxxx$Xxxxxx
+## XXXXXXXX
+Xxxxxxx xxxxxxx xx xxxxxx xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### DefaultParameter (Default)
+### XxxxxxxXxxxxxxxx $Xxxxxxx$
 ```
 Select-Object [-InputObject <PSObject>] [[-Property] <Object[]>] [-ExcludeProperty <String[]>]
  [-ExpandProperty <String>] [-Unique] [-Last <Int32>] [-First <Int32>] [-Skip <Int32>] [-Wait]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### SkipLastParameter
+### XxxxXxxxXxxxxxxxx
 ```
 Select-Object [-InputObject <PSObject>] [[-Property] <Object[]>] [-ExcludeProperty <String[]>]
  [-ExpandProperty <String>] [-Unique] [-SkipLast <Int32>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### IndexParameter
+### XxxxxXxxxxxxxx
 ```
 Select-Object [-InputObject <PSObject>] [-Unique] [-Wait] [-Index <Int32[]>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Select-Object cmdlet selects specified properties of an object or set of objects.
-It can also select unique objects, a specified number of objects, or objects in a specified position in an array.
+## XXXXXXXXXXX
+Xxx Xxxxxx$Xxxxxx xxxxxx xxxxxxx xxxxxxxxx xxxxxxxxxx xx xx xxxxxx xx xxx xx xxxxxxx.
+Xx xxx xxxx xxxxxx xxxxxx xxxxxxx$ x xxxxxxxxx xxxxxx xx xxxxxxx$ xx xxxxxxx xx x xxxxxxxxx xxxxxxxx xx xx xxxxx.
 
-To select objects from a collection, use the First, Last, Unique, Skip, and Index parameters.
-To select object properties, use the Property parameter.
-When you select properties, Select-Object returns new objects that have only the specified properties.
+Xx xxxxxx xxxxxxx xxxx x xxxxxxxxxx$ xxx xxx Xxxxx$ Xxxx$ Xxxxxx$ Xxxx$ xxx Xxxxx xxxxxxxxxx.
+Xx xxxxxx xxxxxx xxxxxxxxxx$ xxx xxx Xxxxxxxx xxxxxxxxx.
+Xxxx xxx xxxxxx xxxxxxxxxx$ Xxxxxx$Xxxxxx xxxxxxx xxx xxxxxxx xxxx xxxx xxxx xxx xxxxxxxxx xxxxxxxxxx.
 
-Beginning in Windows PowerShell 3.0, Select-Object includes an optimization feature that prevents commands from creating and processing objects that are not used.
-When you include a Select-Object command with the First or Index parameters in a command pipeline, Windows PowerShell stops the command that generates the objects as soon as the selected number of objects is generated, even when the command that generates the objects appears before the Select-Object command in the pipeline.
-To turn off this optimizing behavior, use the Wait parameter.
+Xxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0$ Xxxxxx$Xxxxxx xxxxxxxx xx xxxxxxxxxxxx xxxxxxx xxxx xxxxxxxx xxxxxxxx xxxx xxxxxxxx xxx xxxxxxxxxx xxxxxxx xxxx xxx xxx xxxx.
+Xxxx xxx xxxxxxx x Xxxxxx$Xxxxxx xxxxxxx xxxx xxx Xxxxx xx Xxxxx xxxxxxxxxx xx x xxxxxxx xxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxx xxx xxxxxxx xxxx xxxxxxxxx xxx xxxxxxx xx xxxx xx xxx xxxxxxxx xxxxxx xx xxxxxxx xx xxxxxxxxx$ xxxx xxxx xxx xxxxxxx xxxx xxxxxxxxx xxx xxxxxxx xxxxxxx xxxxxx xxx Xxxxxx$Xxxxxx xxxxxxx xx xxx xxxxxxxx.
+Xx xxxx xxx xxxx xxxxxxxxxx xxxxxxxx$ xxx xxx Xxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Process | Select-Object -Property ProcessName, Id, WS
 ```
 
-This command creates objects that have the Name, ID, and working set (WS) properties of process objects.
+Xxxx xxxxxxx xxxxxxx xxxxxxx xxxx xxxx xxx Xxxx$ XX$ xxx xxxxxxx xxx $XX$ xxxxxxxxxx xx xxxxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Process Explorer | Select-Object -Property ProcessName -ExpandProperty Modules | Format-List
 
@@ -67,14 +67,14 @@ FileName          : C:\WINDOWS\system32\00THotkey.exe
 BaseAddress       : 4194304
 ```
 
-This command gets information about the modules used by the processes on the computer.
-It uses Get-Process cmdlet to get the process on the computer.
-It uses the Select-Object cmdlet to create new objects with only the selected properties.
-The command uses the Property parameter of the Select-Object cmdlet to select the process names.
-Because the Modules property contains an ModuleProcess object that has many properties, the command uses the ExpandProperty parameter to get the properties of the objects in the Modules property of each process.
-The command uses the Format-List parameter to display the name and modules in of each process in a list.
+Xxxx xxxxxxx xxxx xxxxxxxxxxx xxxxx xxx xxxxxxx xxxx xx xxx xxxxxxxxx xx xxx xxxxxxxx.
+Xx xxxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxx xx xxx xxxxxxxx.
+Xx xxxx xxx Xxxxxx$Xxxxxx xxxxxx xx xxxxxx xxx xxxxxxx xxxx xxxx xxx xxxxxxxx xxxxxxxxxx.
+Xxx xxxxxxx xxxx xxx Xxxxxxxx xxxxxxxxx xx xxx Xxxxxx$Xxxxxx xxxxxx xx xxxxxx xxx xxxxxxx xxxxx.
+Xxxxxxx xxx Xxxxxxx xxxxxxxx xxxxxxxx xx XxxxxxXxxxxxx xxxxxx xxxx xxx xxxx xxxxxxxxxx$ xxx xxxxxxx xxxx xxx XxxxxxXxxxxxxx xxxxxxxxx xx xxx xxx xxxxxxxxxx xx xxx xxxxxxx xx xxx Xxxxxxx xxxxxxxx xx xxxx xxxxxxx.
+Xxx xxxxxxx xxxx xxx Xxxxxx$Xxxx xxxxxxxxx xx xxxxxxx xxx xxxx xxx xxxxxxx xx xx xxxx xxxxxxx xx x xxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Process | Sort-Object -Property WS | Select-Object -Last 5
 
@@ -87,14 +87,14 @@ Handles  NPM(K)    PM(K)      WS(K) VS(M)   CPU(s)     Id ProcessName
 1612     44        66080      92780   380   900.59   6132 INFOPATH
 ```
 
-This command gets the five processes that are using the most memory.
-The Get-Process cmdlet gets the processes on the computer.
-The Sort-Object cmdlet sorts the processes according to memory (working set) usage, and the Select-Object cmdlet selects only the last five members of the resulting array of objects.
+Xxxx xxxxxxx xxxx xxx xxxx xxxxxxxxx xxxx xxx xxxxx xxx xxxx xxxxxx.
+Xxx Xxx$Xxxxxxx xxxxxx xxxx xxx xxxxxxxxx xx xxx xxxxxxxx.
+Xxx Xxxx$Xxxxxx xxxxxx xxxxx xxx xxxxxxxxx xxxxxxxxx xx xxxxxx $xxxxxxx xxx$ xxxxx$ xxx xxx Xxxxxx$Xxxxxx xxxxxx xxxxxxx xxxx xxx xxxx xxxx xxxxxxx xx xxx xxxxxxxxx xxxxx xx xxxxxxx.
 
-The Wait parameter is not required in commands that include the Sort-Object cmdlet because Sort-Object processes all objects and then returns a collection.
-The Select-Object optimization is available only for commands that return objects individually as they are processed.
+Xxx Xxxx xxxxxxxxx xx xxx xxxxxxxx xx xxxxxxxx xxxx xxxxxxx xxx Xxxx$Xxxxxx xxxxxx xxxxxxx Xxxx$Xxxxxx xxxxxxxxx xxx xxxxxxx xxx xxxx xxxxxxx x xxxxxxxxxx.
+Xxx Xxxxxx$Xxxxxx xxxxxxxxxxxx xx xxxxxxxxx xxxx xxx xxxxxxxx xxxx xxxxxx xxxxxxx xxxxxxxxxxxx xx xxxx xxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-process | Select-Object -Property ProcessName,@{Name="Start Day"; Expression = {$_.StartTime.DayOfWeek}}
 
@@ -106,13 +106,13 @@ ati2evxx     Thursday
 ...
 ```
 
-This command gets the name and start day of the processes running on a computer.
+Xxxx xxxxxxx xxxx xxx xxxx xxx xxxxx xxx xx xxx xxxxxxxxx xxxxxxx xx x xxxxxxxx.
 
-The command uses the Get-Process cmdlet to get the processes on the computer.
-It passes the processes to the Select-Object cmdlet, which creates objects that have only the ProcessName parameter and a calculated property named "Start Day." The "Start Day" property is added by using a hash table with Name and Expression keys.
-The value of the Expression key is a script blocks that gets the StartTime property of each process and the DayofWeek property of the StartTime.
+Xxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxxxx xx xxx xxxxxxxx.
+Xx xxxxxx xxx xxxxxxxxx xx xxx Xxxxxx$Xxxxxx xxxxxx$ xxxxx xxxxxxx xxxxxxx xxxx xxxx xxxx xxx XxxxxxxXxxx xxxxxxxxx xxx x xxxxxxxxxx xxxxxxxx xxxxx $Xxxxx Xxx.$ Xxx $Xxxxx Xxx$ xxxxxxxx xx xxxxx xx xxxxx x xxxx xxxxx xxxx Xxxx xxx Xxxxxxxxxx xxxx.
+Xxx xxxxx xx xxx Xxxxxxxxxx xxx xx x xxxxxx xxxxxx xxxx xxxx xxx XxxxxXxxx xxxxxxxx xx xxxx xxxxxxx xxx xxx XxxxxXxxx xxxxxxxx xx xxx XxxxxXxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>"a","b","c","a","a","a" | Select-Object -Unique
 
@@ -121,62 +121,61 @@ b
 c
 ```
 
-This command uses the Unique parameter of Select-Object to get unique characters from an array of characters.
+Xxxx xxxxxxx xxxx xxx Xxxxxx xxxxxxxxx xx Xxxxxx$Xxxxxx xx xxx xxxxxx xxxxxxxxxx xxxx xx xxxxx xx xxxxxxxxxx.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = Get-Eventlog -Log "Windows PowerShell"
 PS C:\>$a | select-object -index 0, ($a.count - 1)
 ```
 
-These commands gets the first (newest) and last (oldest) events in the Windows Powershell event log.
+Xxxxx xxxxxxxx xxxx xxx xxxxx $xxxxxx$ xxx xxxx $xxxxxx$ xxxxxx xx xxx Xxxxxxx Xxxxxxxxxx xxxxx xxx.
 
-The command uses the Get-EventLog cmdlet to get all events in the Windows PowerShell log.
-It saves them in the $a variable.
+Xxx xxxxxxx xxxx xxx Xxx$XxxxxXxx xxxxxx xx xxx xxx xxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxx.
+Xx xxxxx xxxx xx xxx $x xxxxxxxx.
 
-The second command uses a pipeline operator (|) to send the events in $a to the Select-Object cmdlet.
-The Select-Object command uses the Index parameter to select events from the array of events in the $a variable.
-The index of the first event is 0.
-The index of the last event is the number of items in $a minus 1.
+Xxx xxxxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxx xx $x xx xxx Xxxxxx$Xxxxxx xxxxxx.
+Xxx Xxxxxx$Xxxxxx xxxxxxx xxxx xxx Xxxxx xxxxxxxxx xx xxxxxx xxxxxx xxxx xxx xxxxx xx xxxxxx xx xxx $x xxxxxxxx.
+Xxx xxxxx xx xxx xxxxx xxxxx xx 0.
+Xxx xxxxx xx xxx xxxx xxxxx xx xxx xxxxxx xx xxxxx xx $x xxxxx 0.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>New-PSSession -ComputerName (Get-Content Servers.txt | Select-Object -Skip 1)
 ```
 
-This command creates a new PSSession on each of the computers listed in the Servers.txt files, except for the first one.
+Xxxx xxxxxxx xxxxxxx x xxx XXXxxxxxx xx xxxx xx xxx xxxxxxxxx xxxxxx xx xxx Xxxxxxx.xxx xxxxx$ xxxxxx xxx xxx xxxxx xxx.
 
-This command uses the Select-Object cmdlet to select all but the first computer in a list of computer names.
-The resulting list of computers is set as the value of the ComputerName parameter of the New-PSSession cmdlet.
+Xxxx xxxxxxx xxxx xxx Xxxxxx$Xxxxxx xxxxxx xx xxxxxx xxx xxx xxx xxxxx xxxxxxxx xx x xxxx xx xxxxxxxx xxxxx.
+Xxx xxxxxxxxx xxxx xx xxxxxxxxx xx xxx xx xxx xxxxx xx xxx XxxxxxxxXxxx xxxxxxxxx xx xxx Xxx$XXXxxxxxx xxxxxx.
 
-### -------------------------- EXAMPLE 8 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-ChildItem *.txt -ReadOnly | Rename-Item -NewName {$_.BaseName + "-ro.txt"} -PassThru | Select-Object -First 5 -Wait
 ```
 
-This command adds a "-ro" suffix to the base names of text files that have the read-only attribute and then displays the first five files so the user can see a sample of the effect.
+Xxxx xxxxxxx xxxx x $$xx$ xxxxxx xx xxx xxxx xxxxx xx xxxx xxxxx xxxx xxxx xxx xxxx$xxxx xxxxxxxxx xxx xxxx xxxxxxxx xxx xxxxx xxxx xxxxx xx xxx xxxx xxx xxx x xxxxxx xx xxx xxxxxx.
 
-The command uses the ReadOnly dynamic parameter of the Get-ChildItem for FileSystem cmdlet to get read-only files.
-It uses a pipeline operator (|) to send the files to the Rename-Item cmdlet, which renames the file.
-It uses the Passthru parameter of Rename-Item to send the renamed files to the Select-Object cmdlet, which selects the first 5 for display.
+Xxx xxxxxxx xxxx xxx XxxxXxxx xxxxxxx xxxxxxxxx xx xxx Xxx$XxxxxXxxx xxx XxxxXxxxxx xxxxxx xx xxx xxxx$xxxx xxxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxx xx xxx Xxxxxx$Xxxx xxxxxx$ xxxxx xxxxxxx xxx xxxx.
+Xx xxxx xxx Xxxxxxxx xxxxxxxxx xx Xxxxxx$Xxxx xx xxxx xxx xxxxxxx xxxxx xx xxx Xxxxxx$Xxxxxx xxxxxx$ xxxxx xxxxxxx xxx xxxxx 0 xxx xxxxxxx.
 
-The Wait parameter of Select-Object prevents Windows PowerShell from stopping the Get-ChildItem cmdlet after it gets the first five read-only text files.
-Without this parameter, only the first five read-only files would be renamed.
+Xxx Xxxx xxxxxxxxx xx Xxxxxx$Xxxxxx xxxxxxxx Xxxxxxx XxxxxXxxxx xxxx xxxxxxxx xxx Xxx$XxxxxXxxx xxxxxx xxxxx xx xxxx xxx xxxxx xxxx xxxx$xxxx xxxx xxxxx.
+Xxxxxxx xxxx xxxxxxxxx$ xxxx xxx xxxxx xxxx xxxx$xxxx xxxxx xxxxx xx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ExcludeProperty
-Removes the specifies properties from the selection.
-Wildcards are permitted.
-This parameter is effective only when the command also includes the Property parameter.
+### $XxxxxxxXxxxxxxx
+Xxxxxxx xxx xxxxxxxxx xxxxxxxxxx xxxx xxx xxxxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxxx xxxx xxxx xxx xxxxxxx xxxx xxxxxxxx xxx Xxxxxxxx xxxxxxxxx.
 
-The value of the property parameter can be a calculated property, which is a hash table that specifies a name and calculates a value for the property display.
-Valid keys are:
+Xxx xxxxx xx xxx xxxxxxxx xxxxxxxxx xxx xx x xxxxxxxxxx xxxxxxxx$ xxxxx xx x xxxx xxxxx xxxx xxxxxxxxx x xxxx xxx xxxxxxxxxx x xxxxx xxx xxx xxxxxxxx xxxxxxx.
+Xxxxx xxxx xxx$
 
--- Name or Label \<string\>
--- Expression \<string\> or \<scriptblock\>
+$$ Xxxx xx Xxxxx $$xxxxxx$$$$$ Xxxxxxxxxx $$xxxxxx$$ xx $$xxxxxxxxxxx\>
 
-For more information, see the examples.
+Xxx xxxx xxxxxxxxxxx$ xxx xxx xxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -190,12 +189,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ExpandProperty
-Specifies a property to select, and indicates that an attempt should be made to expand that property. 
-Wildcards are permitted in the property name.
+### $XxxxxxXxxxxxxx
+Xxxxxxxxx x xxxxxxxx xx xxxxxx$ xxx xxxxxxxxx xxxx xx xxxxxxx xxxxxx xx xxxx xx xxxxxx xxxx xxxxxxxx. Xxxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xxxx.
 
-For example, if the specified property is an array, each value of the array is included in the output.
-If the property contains an object, the properties of that object are displayed in the output.
+Xxx xxxxxxx$ xx xxx xxxxxxxxx xxxxxxxx xx xx xxxxx$ xxxx xxxxx xx xxx xxxxx xx xxxxxxxx xx xxx xxxxxx.
+Xx xxx xxxxxxxx xxxxxxxx xx xxxxxx$ xxx xxxxxxxxxx xx xxxx xxxxxx xxx xxxxxxxxx xx xxx xxxxxx.
 
 ```yaml
 Type: String
@@ -209,11 +207,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Index
-Selects objects from an array based on their index values.
-Enter the indexes in a comma-separated list.
+### $Xxxxx
+Xxxxxxx xxxxxxx xxxx xx xxxxx xxxxx xx xxxxx xxxxx xxxxxx.
+Xxxxx xxx xxxxxxx xx x xxxxx$xxxxxxxxx xxxx.
 
-Indexes in an array begin with 0, where 0 represents the first value and (n-1) represents the last value.
+Xxxxxxx xx xx xxxxx xxxxx xxxx 0$ xxxxx 0 xxxxxxxxxx xxx xxxxx xxxxx xxx $x$0$ xxxxxxxxxx xxx xxxx xxxxx.
 
 ```yaml
 Type: Int32[]
@@ -227,14 +225,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-The value of the property parameter can be a calculated property, which is a hash table that specifies a name and calculates a value for the property display.
-Valid keys are:
+### $XxxxxxxxxxxXxxxxx
+Xxx xxxxx xx xxx xxxxxxxx xxxxxxxxx xxx xx x xxxxxxxxxx xxxxxxxx$ xxxxx xx x xxxx xxxxx xxxx xxxxxxxxx x xxxx xxx xxxxxxxxxx x xxxxx xxx xxx xxxxxxxx xxxxxxx.
+Xxxxx xxxx xxx$
 
--- Name or Label \<string\>
--- Expression \<string\> or \<scriptblock\>
+$$ Xxxx xx Xxxxx $$xxxxxx$$$$$ Xxxxxxxxxx $$xxxxxx$$ xx $$xxxxxxxxxxx\>
 
-For more information, see the examples.
+Xxx xxxx xxxxxxxxxxx$ xxx xxx xxxxxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -249,14 +246,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-The value of the property parameter can be a calculated property, which is a hash table that specifies a name and calculates a value for the property display.
-Valid keys are:
+### $XxxxxxxxxxxXxxxxxxx
+Xxx xxxxx xx xxx xxxxxxxx xxxxxxxxx xxx xx x xxxxxxxxxx xxxxxxxx$ xxxxx xx x xxxx xxxxx xxxx xxxxxxxxx x xxxx xxx xxxxxxxxxx x xxxxx xxx xxx xxxxxxxx xxxxxxx.
+Xxxxx xxxx xxx$
 
--- Name or Label \<string\>
--- Expression \<string\> or \<scriptblock\>
+$$ Xxxx xx Xxxxx $$xxxxxx$$$$$ Xxxxxxxxxx $$xxxxxx$$ xx $$xxxxxxxxxxx\>
 
-For more information, see the examples.
+Xxx xxxx xxxxxxxxxxx$ xxx xxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -270,12 +266,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies objects to send to the cmdlet through the pipeline.
-This parameter enables you to pipe objects to Select-Object.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxxxxxx xx xxxx xx xxx xxxxxx xxxxxxx xxx xxxxxxxx.
+Xxxx xxxxxxxxx xxxxxxx xxx xx xxxx xxxxxxx xx Xxxxxx$Xxxxxx.
 
-When you use the InputObject parameter with Select-Object, instead of piping command results to Select-Object, the InputObject value-even if the value is a collection that is the result of a command, such as -InputObject (Get-Process)-is treated as a single object.
-Because InputObject cannot return individual properties from an array or collection of objects, it is recommended that if you use Select-Object to filter a collection of objects for those objects that have specific values in defined properties, you use Select-Object in the pipeline, as shown in the examples in this topic.
+Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xxxx Xxxxxx$Xxxxxx$ xxxxxxx xx xxxxxx xxxxxxx xxxxxxx xx Xxxxxx$Xxxxxx$ xxx XxxxxXxxxxx xxxxx$xxxx xx xxx xxxxx xx x xxxxxxxxxx xxxx xx xxx xxxxxx xx x xxxxxxx$ xxxx xx $XxxxxXxxxxx $Xxx$Xxxxxxx$$xx xxxxxxx xx x xxxxxx xxxxxx.
+Xxxxxxx XxxxxXxxxxx xxxxxx xxxxxx xxxxxxxxxx xxxxxxxxxx xxxx xx xxxxx xx xxxxxxxxxx xx xxxxxxx$ xx xx xxxxxxxxxxx xxxx xx xxx xxx Xxxxxx$Xxxxxx xx xxxxxx x xxxxxxxxxx xx xxxxxxx xxx xxxxx xxxxxxx xxxx xxxx xxxxxxxx xxxxxx xx xxxxxxx xxxxxxxxxx$ xxx xxx Xxxxxx$Xxxxxx xx xxx xxxxxxxx$ xx xxxxx xx xxx xxxxxxxx xx xxxx xxxxx.
 
 ```yaml
 Type: PSObject
@@ -289,8 +285,8 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Last
-Specifies the number of objects to select from the end of an array of input objects.
+### $Xxxx
+Xxxxxxxxx xxx xxxxxx xx xxxxxxx xx xxxxxx xxxx xxx xxx xx xx xxxxx xx xxxxx xxxxxxx.
 
 ```yaml
 Type: Int32
@@ -304,16 +300,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Property
-Specifies the properties to select.
-Wildcards are permitted.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
 
-The value of the Property parameter can be a new calculated property.
-To create a calculated, property, use a hash table.
-Valid keys are:
+Xxx xxxxx xx xxx Xxxxxxxx xxxxxxxxx xxx xx x xxx xxxxxxxxxx xxxxxxxx.
+Xx xxxxxx x xxxxxxxxxx$ xxxxxxxx$ xxx x xxxx xxxxx.
+Xxxxx xxxx xxx$
 
--- Name (or Label) \<string\>
--- Expression \<string\> or \<script block\>
+$$ Xxxx $xx Xxxxx$ $$xxxxxx$$$$$ Xxxxxxxxxx $$xxxxxx$$ xx $$xxxxxx xxxxx\>
 
 ```yaml
 Type: Object[]
@@ -327,14 +322,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SkipLast
-The value of the property parameter can be a calculated property, which is a hash table that specifies a name and calculates a value for the property display.
-Valid keys are:
+### $XxxxXxxx
+Xxx xxxxx xx xxx xxxxxxxx xxxxxxxxx xxx xx x xxxxxxxxxx xxxxxxxx$ xxxxx xx x xxxx xxxxx xxxx xxxxxxxxx x xxxx xxx xxxxxxxxxx x xxxxx xxx xxx xxxxxxxx xxxxxxx.
+Xxxxx xxxx xxx$
 
--- Name or Label \<string\>
--- Expression \<string\> or \<scriptblock\>
+$$ Xxxx xx Xxxxx $$xxxxxx$$$$$ Xxxxxxxxxx $$xxxxxx$$ xx $$xxxxxxxxxxx\>
 
-For more information, see the examples.
+Xxx xxxx xxxxxxxxxxx$ xxx xxx xxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -348,11 +342,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Unique
-Specifies that if a subset of the input objects has identical properties and values, only a single member of the subset will be selected.
+### $Xxxxxx
+Xxxxxxxxx xxxx xx x xxxxxx xx xxx xxxxx xxxxxxx xxx xxxxxxxxx xxxxxxxxxx xxx xxxxxx$ xxxx x xxxxxx xxxxxx xx xxx xxxxxx xxxx xx xxxxxxxx.
 
-This parameter is case-sensitive.
-As a result, strings that differ only in character casing are considered to be unique.
+Xxxx xxxxxxxxx xx xxxx$xxxxxxxxx.
+Xx x xxxxxx$ xxxxxxx xxxx xxxxxx xxxx xx xxxxxxxxx xxxxxx xxx xxxxxxxxxx xx xx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -366,12 +360,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Wait
-Turns off optimization.
-Windows PowerShell runs commands in the order that they appear in the command pipeline and lets them generate all objects.
-By default, if you include a Select-Object command with the First or Index parameters in a command pipeline, Windows PowerShell stops the command that generates the objects as soon as the selected number of objects is generated.
+### $Xxxx
+Xxxxx xxx xxxxxxxxxxxx.
+Xxxxxxx XxxxxXxxxx xxxx xxxxxxxx xx xxx xxxxx xxxx xxxx xxxxxx xx xxx xxxxxxx xxxxxxxx xxx xxxx xxxx xxxxxxxx xxx xxxxxxx.
+Xx xxxxxxx$ xx xxx xxxxxxx x Xxxxxx$Xxxxxx xxxxxxx xxxx xxx Xxxxx xx Xxxxx xxxxxxxxxx xx x xxxxxxx xxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxx xxx xxxxxxx xxxx xxxxxxxxx xxx xxxxxxx xx xxxx xx xxx xxxxxxxx xxxxxx xx xxxxxxx xx xxxxxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: SwitchParameter
@@ -385,8 +379,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -First
-{{Fill First Description}}
+### $Xxxxx
+$$Xxxx Xxxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: Int32
@@ -400,8 +394,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Skip
-{{Fill Skip Description}}
+### $Xxxx
+$$Xxxx Xxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: Int32
@@ -415,29 +409,29 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any object to Select-Object.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xx Xxxxxx$Xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.PSObject
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
 
-## NOTES
-You can also refer to the Select-Object cmdlet by its built-in alias, "select".
-For more information, see about_Aliases.
+## XXXXX
+Xxx xxx xxxx xxxxx xx xxx Xxxxxx$Xxxxxx xxxxxx xx xxx xxxxx$xx xxxxx$ $xxxxxx$.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx.
 
-The optimization feature of Select-Object is available only for commands that write objects to the pipeline as they are processed.
-It has no effect on commands that buffer processed objects and write them as a collection.
-Writing objects immediately is a cmdlet design best practice.
-For more information, see "Write Single Records to the Pipeline" in "Strongly Encouraged Development Guidelines" at http://go.microsoft.com/fwlink/?LinkId=223385
+Xxx xxxxxxxxxxxx xxxxxxx xx Xxxxxx$Xxxxxx xx xxxxxxxxx xxxx xxx xxxxxxxx xxxx xxxxx xxxxxxx xx xxx xxxxxxxx xx xxxx xxx xxxxxxxxx.
+Xx xxx xx xxxxxx xx xxxxxxxx xxxx xxxxxx xxxxxxxxx xxxxxxx xxx xxxxx xxxx xx x xxxxxxxxxx.
+Xxxxxxx xxxxxxx xxxxxxxxxxx xx x xxxxxx xxxxxx xxxx xxxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx $Xxxxx Xxxxxx Xxxxxxx xx xxx Xxxxxxxx$ xx $Xxxxxxxx Xxxxxxxxxx Xxxxxxxxxxx Xxxxxxxxxx$ xx xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Group-Object]()
+[Xxxxx$Xxxxxx]()
 
-[Sort-Object]()
+[Xxxx$Xxxxxx]()
 
-[Where-Object]()
+[Xxxxx$Xxxxxx]()
 

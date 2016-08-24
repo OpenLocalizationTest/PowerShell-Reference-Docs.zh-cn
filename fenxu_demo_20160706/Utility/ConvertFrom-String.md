@@ -4,91 +4,91 @@ online version: http://go.microsoft.com/fwlink/?LinkID=507579
 schema: 2.0.0
 ---
 
-# ConvertFrom-String
-## SYNOPSIS
-Extracts and parses structured objects from string content.
+# XxxxxxxXxxx$Xxxxxx
+## XXXXXXXX
+Xxxxxxxx xxx xxxxxx xxxxxxxxxx xxxxxxx xxxx xxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### ByDelimiter (Default)
+### XxXxxxxxxxx $Xxxxxxx$
 ```
 ConvertFrom-String [-Delimiter <String>] [-PropertyNames <String[]>] -InputObject <String>
 ```
 
-### TemplateParsing
+### XxxxxxxxXxxxxxx
 ```
 ConvertFrom-String [-TemplateFile <String[]>] [-TemplateContent <String[]>] [-IncludeExtent] [-UpdateTemplate]
  -InputObject <String>
 ```
 
-## DESCRIPTION
-You can run the ConvertFrom-String cmdlet to add structure to unstructured string content.
-ConvertFrom-String generates an object by parsing text from a traditional text stream.
-For each string in the pipeline, the cmdlet splits the input by either a delimiter or a parse expression, and then assigns property names to each of the resulting split elements.
-You can provide these property names; if you do not, they are automatically generated for you.
+## XXXXXXXXXXX
+Xxx xxx xxx xxx XxxxxxxXxxx$Xxxxxx xxxxxx xx xxx xxxxxxxxx xx xxxxxxxxxxxx xxxxxx xxxxxxx.
+XxxxxxxXxxx$Xxxxxx xxxxxxxxx xx xxxxxx xx xxxxxxx xxxx xxxx x xxxxxxxxxxx xxxx xxxxxx.
+Xxx xxxx xxxxxx xx xxx xxxxxxxx$ xxx xxxxxx xxxxxx xxx xxxxx xx xxxxxx x xxxxxxxxx xx x xxxxx xxxxxxxxxx$ xxx xxxx xxxxxxx xxxxxxxx xxxxx xx xxxx xx xxx xxxxxxxxx xxxxx xxxxxxxx.
+Xxx xxx xxxxxxx xxxxx xxxxxxxx xxxxx$ xx xxx xx xxx$ xxxx xxx xxxxxxxxxxxxx xxxxxxxxx xxx xxx.
 
-The cmdlet's default parameter set, ByDelimiter, splits exactly on the regular expression delimiter.
-It does not perform quote matching or delimiter escaping as the Import-Csv cmdlet does.
+Xxx xxxxxx$x xxxxxxx xxxxxxxxx xxx$ XxXxxxxxxxx$ xxxxxx xxxxxxx xx xxx xxxxxxx xxxxxxxxxx xxxxxxxxx.
+Xx xxxx xxx xxxxxxx xxxxx xxxxxxxx xx xxxxxxxxx xxxxxxxx xx xxx Xxxxxx$Xxx xxxxxx xxxx.
 
-The cmdlet's alternate parameter set, TemplateParsing, generates elements from the groups that are captured by a regular expression.
+Xxx xxxxxx$x xxxxxxxxx xxxxxxxxx xxx$ XxxxxxxxXxxxxxx$ xxxxxxxxx xxxxxxxx xxxx xxx xxxxxx xxxx xxx xxxxxxxx xx x xxxxxxx xxxxxxxxxx.
 
-This cmdlet supports two modes: basic delimited parsing, and automatically-generated, example-driven parsing.
+Xxxx xxxxxx xxxxxxxx xxx xxxxx$ xxxxx xxxxxxxxx xxxxxxx$ xxx xxxxxxxxxxxxx$xxxxxxxxx$ xxxxxxx$xxxxxx xxxxxxx.
 
-Delimited parsing, by default, splits the input at white space, and assigns property names to the resulting groups.
-You can customize the delimiter by piping the ConvertFrom-String results into one of the Format-* cmdlets, or by adding the Delimiter parameter.
+Xxxxxxxxx xxxxxxx$ xx xxxxxxx$ xxxxxx xxx xxxxx xx xxxxx xxxxx$ xxx xxxxxxx xxxxxxxx xxxxx xx xxx xxxxxxxxx xxxxxx.
+Xxx xxx xxxxxxxxx xxx xxxxxxxxx xx xxxxxx xxx XxxxxxxXxxx$Xxxxxx xxxxxxx xxxx xxx xx xxx Xxxxxx$$ xxxxxxx$ xx xx xxxxxx xxx Xxxxxxxxx xxxxxxxxx.
 
-The cmdlet also supports automatically-generated, example-driven parsing based on the FlashExtract research work by Microsoft Research.
+Xxx xxxxxx xxxx xxxxxxxx xxxxxxxxxxxxx$xxxxxxxxx$ xxxxxxx$xxxxxx xxxxxxx xxxxx xx xxx XxxxxXxxxxxx xxxxxxxx xxxx xx Xxxxxxxxx Xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>"Hello World" | ConvertFrom-String
 ```
 
-The following example generates an object with default property names, P1 and P2.
-The results are "P1=Hello" and "P2=World".
+Xxx xxxxxxxxx xxxxxxx xxxxxxxxx xx xxxxxx xxxx xxxxxxx xxxxxxxx xxxxx$ X0 xxx X0.
+Xxx xxxxxxx xxx $X0$Xxxxx$ xxx $X0$Xxxxx$.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>"Hello World" | ConvertFrom-String -Delimiter "ll"
 ```
 
-The following example generates an object with "P1=He" and "P2=o World", by specifying the "ll" in "Hello " as the delimiter.
+Xxx xxxxxxxxx xxxxxxx xxxxxxxxx xx xxxxxx xxxx $X0$Xx$ xxx $X0$x Xxxxx$$ xx xxxxxxxxxx xxx $xx$ xx $Xxxxx $ xx xxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>"Phoebe Cat" | ConvertFrom-String -TemplateContent {PersonInfo*:{Name:Phoebe Cat}} PS C:\>$template = {PersonInfo*:{Name:Phoebe Cat}}
 "Phoebe Cat" | ConvertFrom-String -TemplateContent $template
 ```
 
-The following example uses an expression as the value of the TemplateContent parameter to instruct Windows PowerShell that the string you're piping to ConvertFrom-String has a property of Name.
+Xxx xxxxxxxxx xxxxxxx xxxx xx xxxxxxxxxx xx xxx xxxxx xx xxx XxxxxxxxXxxxxxx xxxxxxxxx xx xxxxxxxx Xxxxxxx XxxxxXxxxx xxxx xxx xxxxxx xxx$xx xxxxxx xx XxxxxxxXxxx$Xxxxxx xxx x xxxxxxxx xx Xxxx.
 
-You can also save the expression in a variable, then use the variable as the value of the TemplateContent parameter, as shown here.
+Xxx xxx xxxx xxxx xxx xxxxxxxxxx xx x xxxxxxxx$ xxxx xxx xxx xxxxxxxx xx xxx xxxxx xx xxx XxxxxxxxXxxxxxx xxxxxxxxx$ xx xxxxx xxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>"Hello World" | ConvertFrom-String -PropertyNames FirstWord,SecondWord
 ```
 
-The following example generates an object that contains two properties, FirstWord and SecondWord.
-The results are "FirstWord=Hello" and "SecondWord=World.
+Xxx xxxxxxxxx xxxxxxx xxxxxxxxx xx xxxxxx xxxx xxxxxxxx xxx xxxxxxxxxx$ XxxxxXxxx xxx XxxxxxXxxx.
+Xxx xxxxxxx xxx $XxxxxXxxx$Xxxxx$ xxx $XxxxxxXxxx$Xxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>"123 456" | ConvertFrom-String -PropertyNames String,Int
 ```
 
-The following example generates an object with default property names P1 and P2, but property types String and Int (for Integer) are identified.
-The results are "P1=123" and "P2=456".
-The second property is an integer, not a string.
+Xxx xxxxxxxxx xxxxxxx xxxxxxxxx xx xxxxxx xxxx xxxxxxx xxxxxxxx xxxxx X0 xxx X0$ xxx xxxxxxxx xxxxx Xxxxxx xxx Xxx $xxx Xxxxxxx$ xxx xxxxxxxxxx.
+Xxx xxxxxxx xxx $X0$000$ xxx $X0$000$.
+Xxx xxxxxx xxxxxxxx xx xx xxxxxxx$ xxx x xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Delimiter
-A regular expression that identifies the boundary between elements.
-Elements that are created by the split become properties in the resulting object.
-The delimiter is ultimately used in a call to System.Text.RegularExpressions.RegularExpression.Split().
+### $Xxxxxxxxx
+X xxxxxxx xxxxxxxxxx xxxx xxxxxxxxxx xxx xxxxxxxx xxxxxxx xxxxxxxx.
+Xxxxxxxx xxxx xxx xxxxxxx xx xxx xxxxx xxxxxx xxxxxxxxxx xx xxx xxxxxxxxx xxxxxx.
+Xxx xxxxxxxxx xx xxxxxxxxxx xxxx xx x xxxx xx Xxxxxx.Xxxx.XxxxxxxXxxxxxxxxxx.XxxxxxxXxxxxxxxxx.Xxxxx$$.
 
 ```yaml
 Type: String
@@ -102,8 +102,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -IncludeExtent
-Includes extent text property that is removed by default.
+### $XxxxxxxXxxxxx
+Xxxxxxxx xxxxxx xxxx xxxxxxxx xxxx xx xxxxxxx xx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -117,8 +117,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies strings received from the pipeline, or a variable that contains a string object.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxxxxxx xxxxxxxx xxxx xxx xxxxxxxx$ xx x xxxxxxxx xxxx xxxxxxxx x xxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -132,15 +132,15 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -PropertyNames
-One or more property names to which to assign split values in the resulting object.
-Every line of text that you split or parse generates elements that represent property values.
-If the element is the result of a capture group, and that capture group is named (for example, (?\<name\>) or (?'name') ), then the name of that capture group is assigned to the property.
+### $XxxxxxxxXxxxx
+Xxx xx xxxx xxxxxxxx xxxxx xx xxxxx xx xxxxxx xxxxx xxxxxx xx xxx xxxxxxxxx xxxxxx.
+Xxxxx xxxx xx xxxx xxxx xxx xxxxx xx xxxxx xxxxxxxxx xxxxxxxx xxxx xxxxxxxxx xxxxxxxx xxxxxx.
+Xx xxx xxxxxxx xx xxx xxxxxx xx x xxxxxxx xxxxx$ xxx xxxx xxxxxxx xxxxx xx xxxxx $xxx xxxxxxx$ $$$$xxxx$$$ xx $$$xxxx$$ $$ xxxx xxx xxxx xx xxxx xxxxxxx xxxxx xx xxxxxxxx xx xxx xxxxxxxx.
 
-If you provide any elements in the PropertyName array, those names are assigned to properties that have not yet been named.
+Xx xxx xxxxxxx xxx xxxxxxxx xx xxx XxxxxxxxXxxx xxxxx$ xxxxx xxxxx xxx xxxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxx xxxx xxxxx.
 
-If you provide more property names than there are fields, Windows PowerShell ignores the extra property names.
-If you do not specify enough property names to name all fields, Windows PowerShell automatically assigns numerical property names to any properties that are not named: P1, P2, etc.
+Xx xxx xxxxxxx xxxx xxxxxxxx xxxxx xxxx xxxxx xxx xxxxxx$ Xxxxxxx XxxxxXxxxx xxxxxxx xxx xxxxx xxxxxxxx xxxxx.
+Xx xxx xx xxx xxxxxxx xxxxxx xxxxxxxx xxxxx xx xxxx xxx xxxxxx$ Xxxxxxx XxxxxXxxxx xxxxxxxxxxxxx xxxxxxx xxxxxxxxx xxxxxxxx xxxxx xx xxx xxxxxxxxxx xxxx xxx xxx xxxxx$ X0$ X0$ xxx.
 
 ```yaml
 Type: String[]
@@ -154,10 +154,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TemplateContent
-Specifies an expression (or an expression saved as a variable) that describes the properties to which you want to assign strings.
-The syntax of a template field specification is the following: {\[optional-typecast\]name(sequence-spec, for example *):example-value}.
-An example is {PersonInfo*:{Name:Randolph LaBelle}.
+### $XxxxxxxxXxxxxxx
+Xxxxxxxxx xx xxxxxxxxxx $xx xx xxxxxxxxxx xxxxx xx x xxxxxxxx$ xxxx xxxxxxxxx xxx xxxxxxxxxx xx xxxxx xxx xxxx xx xxxxxx xxxxxxx.
+Xxx xxxxxx xx x xxxxxxxx xxxxx xxxxxxxxxxxxx xx xxx xxxxxxxxx$ $$$xxxxxxxx$xxxxxxxx$$xxxx$xxxxxxxx$xxxx$ xxx xxxxxxx $$$xxxxxxx$xxxxx$. Xx xxxxxxx xx $XxxxxxXxxx$$$Xxxx$Xxxxxxxx XxXxxxx$.
 
 ```yaml
 Type: String[]
@@ -171,18 +170,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TemplateFile
-Specifies a file that contains a template for the desired parsing of the string.
-In the template file, properties and their values are enclosed in brackets, as shown in the following example.
-If a property (such as the Name property in this example) (and its associated other properties) can appear multiple times, add an asterisk (*) to indicate that this results in multiple records (rather than extracting multiple properties into a single record.
+### $XxxxxxxxXxxx
+Xxxxxxxxx x xxxx xxxx xxxxxxxx x xxxxxxxx xxx xxx xxxxxxx xxxxxxx xx xxx xxxxxx.
+Xx xxx xxxxxxxx xxxx$ xxxxxxxxxx xxx xxxxx xxxxxx xxx xxxxxxxx xx xxxxxxxx$ xx xxxxx xx xxx xxxxxxxxx xxxxxxx.
+Xx x xxxxxxxx $xxxx xx xxx Xxxx xxxxxxxx xx xxxx xxxxxxx$ $xxx xxx xxxxxxxxxx xxxxx xxxxxxxxxx$ xxx xxxxxx xxxxxxxx xxxxx$ xxx xx xxxxxxxx $$$ xx xxxxxxxx xxxx xxxx xxxxxxx xx xxxxxxxx xxxxxxx $xxxxxx xxxx xxxxxxxxxx xxxxxxxx xxxxxxxxxx xxxx x xxxxxx xxxxxx.
 
-{Name*:Ana Trujillo}
+$Xxxx$$Xxx Xxxxxxxx$
 
-{City:Redmond}, {State:WA}
+$Xxxx$Xxxxxxx$$ $Xxxxx$XX$
 
-{Name*:Antonio Moreno}
+$Xxxx$$Xxxxxxx Xxxxxx$
 
-{City:Renton}, {State:WA}
+$Xxxx$Xxxxxx$$ $Xxxxx$XX$
 
 ```yaml
 Type: String[]
@@ -196,10 +195,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -UpdateTemplate
-Saves the results of a learning algorithm into a comment in the template file.
-This makes the algorithm learning process faster.
-To use UpdateTemplate, you must also specify a template file with the TemplateFile parameter.
+### $XxxxxxXxxxxxxx
+Xxxxx xxx xxxxxxx xx x xxxxxxxx xxxxxxxxx xxxx x xxxxxxx xx xxx xxxxxxxx xxxx.
+Xxxx xxxxx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx.
+Xx xxx XxxxxxXxxxxxxx$ xxx xxxx xxxx xxxxxxx x xxxxxxxx xxxx xxxx xxx XxxxxxxxXxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -213,21 +212,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
+### Xxxxxx.Xxxxxx
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[ConvertFrom-String: Example-based text parsing]()
+[XxxxxxxXxxx$Xxxxxx$ Xxxxxxx$xxxxx xxxx xxxxxxx]()
 
-[ConvertFrom-StringData]()
+[XxxxxxxXxxx$XxxxxxXxxx]()
 
-[ConvertFrom-Csv]()
+[XxxxxxxXxxx$Xxx]()
 
-[ConvertTo-Xml]()
+[XxxxxxxXx$Xxx]()
 

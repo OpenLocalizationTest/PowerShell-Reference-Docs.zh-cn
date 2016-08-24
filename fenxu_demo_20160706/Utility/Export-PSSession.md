@@ -4,11 +4,11 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293959
 schema: 2.0.0
 ---
 
-# Export-PSSession
-## SYNOPSIS
-Imports commands from another session and saves them in a Windows PowerShell module.
+# Xxxxxx$XXXxxxxxx
+## XXXXXXXX
+Xxxxxxx xxxxxxxx xxxx xxxxxxx xxxxxxx xxx xxxxx xxxx xx x Xxxxxxx XxxxxXxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Export-PSSession [-OutputModule] <String> [-Force] [-Encoding <String>] [[-CommandName] <String[]>]
@@ -18,45 +18,45 @@ Export-PSSession [-OutputModule] <String> [-Force] [-Encoding <String>] [[-Comma
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Export-PSSession cmdlet gets cmdlets, functions, aliases, and other command types from another PSSession on a local or remote computer and saves them in a Windows PowerShell module.
-To add the commands from the module to the current session, use the Import-Module cmdlet.
+## XXXXXXXXXXX
+Xxx Xxxxxx$XXXxxxxxx xxxxxx xxxx xxxxxxx$ xxxxxxxxx$ xxxxxxx$ xxx xxxxx xxxxxxx xxxxx xxxx xxxxxxx XXXxxxxxx xx x xxxxx xx xxxxxx xxxxxxxx xxx xxxxx xxxx xx x Xxxxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxxx xxxx xxx xxxxxx xx xxx xxxxxxx xxxxxxx$ xxx xxx Xxxxxx$Xxxxxx xxxxxx.
 
-Unlike Import-PSSession, which imports commands from another PSSession into the current session, Export-PSSession saves the commands in a module.
-The commands are not imported into the current session.
+Xxxxxx Xxxxxx$XXXxxxxxx$ xxxxx xxxxxxx xxxxxxxx xxxx xxxxxxx XXXxxxxxx xxxx xxx xxxxxxx xxxxxxx$ Xxxxxx$XXXxxxxxx xxxxx xxx xxxxxxxx xx x xxxxxx.
+Xxx xxxxxxxx xxx xxx xxxxxxxx xxxx xxx xxxxxxx xxxxxxx.
 
-To export commands, first use the New-PSSession cmdlet to create a PSSession that has the commands that you want to export.
-Then use the Export-PSSession cmdlet to export the commands.
-By default, Export-PSSession exports all commands, except for commands that exist in the current session, but you can use the CommandName parameters to specify the commands to export.
+Xx xxxxxx xxxxxxxx$ xxxxx xxx xxx Xxx$XXXxxxxxx xxxxxx xx xxxxxx x XXXxxxxxx xxxx xxx xxx xxxxxxxx xxxx xxx xxxx xx xxxxxx.
+Xxxx xxx xxx Xxxxxx$XXXxxxxxx xxxxxx xx xxxxxx xxx xxxxxxxx.
+Xx xxxxxxx$ Xxxxxx$XXXxxxxxx xxxxxxx xxx xxxxxxxx$ xxxxxx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxx xxxxxxx$ xxx xxx xxx xxx xxx XxxxxxxXxxx xxxxxxxxxx xx xxxxxxx xxx xxxxxxxx xx xxxxxx.
 
-The Export-PSSession cmdlet uses the implicit remoting feature of Windows PowerShell.
-When you import commands into the current session, they run implicitly  in the original session or in a  similar session on the originating computer.
+Xxx Xxxxxx$XXXxxxxxx xxxxxx xxxx xxx xxxxxxxx xxxxxxxx xxxxxxx xx Xxxxxxx XxxxxXxxxx.
+Xxxx xxx xxxxxx xxxxxxxx xxxx xxx xxxxxxx xxxxxxx$ xxxx xxx xxxxxxxxxx  xx xxx xxxxxxxx xxxxxxx xx xx x  xxxxxxx xxxxxxx xx xxx xxxxxxxxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$s = new-pssession -computerName Server01
 PS C:\>export-pssession -session $s -outputModule Server01
 ```
 
-The commands in this example export all commands from a PSSession on the Server01 computer to the Server01 module on the local computer except for commands that have the same names as commands in the current session.
-It also exports the formatting data for the commands.
+Xxx xxxxxxxx xx xxxx xxxxxxx xxxxxx xxx xxxxxxxx xxxx x XXXxxxxxx xx xxx Xxxxxx00 xxxxxxxx xx xxx Xxxxxx00 xxxxxx xx xxx xxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxx xxxx xxx xxxx xxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxxx xxxxxxx xxx xxxxxxxxxx xxxx xxx xxx xxxxxxxx.
 
-The first command creates a PSSession on the Server01 computer.
-The second command exports the commands and formatting data from the session into the Server01 module.
+Xxx xxxxx xxxxxxx xxxxxxx x XXXxxxxxx xx xxx Xxxxxx00 xxxxxxxx.
+Xxx xxxxxx xxxxxxx xxxxxxx xxx xxxxxxxx xxx xxxxxxxxxx xxxx xxxx xxx xxxxxxx xxxx xxx Xxxxxx00 xxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$s = new-pssession -ConnectionUri http://exchange.microsoft.com/mailbox -credential exchangeadmin01@hotmail.com -authentication negotiate
 PS C:\>export-pssession -session $r -module exch* -commandname get-*, set-* -formattypename * -outputModule $pshome\Modules\Exchange -encoding ASCII
 ```
 
-These commands export the Get and Set commands from a Microsoft Exchange Server snap-in on a remote computer to an Exchange module in the $pshome\Modules directory on the local computer.
+Xxxxx xxxxxxxx xxxxxx xxx Xxx xxx Xxx xxxxxxxx xxxx x Xxxxxxxxx Xxxxxxxx Xxxxxx xxxx$xx xx x xxxxxx xxxxxxxx xx xx Xxxxxxxx xxxxxx xx xxx $xxxxxx$Xxxxxxx xxxxxxxxx xx xxx xxxxx xxxxxxxx.
 
-Placing the module in the $pshome\Module directory makes it accessible to all users of the computer.
+Xxxxxxx xxx xxxxxx xx xxx $xxxxxx$Xxxxxx xxxxxxxxx xxxxx xx xxxxxxxxxx xx xxx xxxxx xx xxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$s = new-pssession -computerName Server01 -credential Server01\User01
 PS C:\>export-pssession -session $s -outputModule TestCmdlets -type cmdlet -commandname *test* -formattypename *
@@ -66,34 +66,34 @@ PS C:\>get-help test*
 PS C:\>test-files
 ```
 
-These commands export cmdlets from a PSSession on a remote computer and save them in a module on the local computer.
-Then, the commands add the cmdlets from the module to the current session so that they can be used.
+Xxxxx xxxxxxxx xxxxxx xxxxxxx xxxx x XXXxxxxxx xx x xxxxxx xxxxxxxx xxx xxxx xxxx xx x xxxxxx xx xxx xxxxx xxxxxxxx.
+Xxxx$ xxx xxxxxxxx xxx xxx xxxxxxx xxxx xxx xxxxxx xx xxx xxxxxxx xxxxxxx xx xxxx xxxx xxx xx xxxx.
 
-The first command creates a PSSession on the Server01 computer and saves it in the $s variable.
+Xxx xxxxx xxxxxxx xxxxxxx x XXXxxxxxx xx xxx Xxxxxx00 xxxxxxxx xxx xxxxx xx xx xxx $x xxxxxxxx.
 
-The second command exports the cmdlets whose names begin with "Test" from the PSSession in $s to the TestCmdlets module on the local computer.
+Xxx xxxxxx xxxxxxx xxxxxxx xxx xxxxxxx xxxxx xxxxx xxxxx xxxx $Xxxx$ xxxx xxx XXXxxxxxx xx $x xx xxx XxxxXxxxxxx xxxxxx xx xxx xxxxx xxxxxxxx.
 
-The third command uses the Remove-PSSession cmdlet to delete the PSSession in $s from the current session.
-This command shows that the PSSession need not be active to use the commands that were imported from it.
+Xxx xxxxx xxxxxxx xxxx xxx Xxxxxx$XXXxxxxxx xxxxxx xx xxxxxx xxx XXXxxxxxx xx $x xxxx xxx xxxxxxx xxxxxxx.
+Xxxx xxxxxxx xxxxx xxxx xxx XXXxxxxxx xxxx xxx xx xxxxxx xx xxx xxx xxxxxxxx xxxx xxxx xxxxxxxx xxxx xx.
 
-The fourth command, which can be run in any session at any time, uses the Import-Module cmdlet to add the cmdlets in the TestCmdlets module to the current session.
+Xxx xxxxxx xxxxxxx$ xxxxx xxx xx xxx xx xxx xxxxxxx xx xxx xxxx$ xxxx xxx Xxxxxx$Xxxxxx xxxxxx xx xxx xxx xxxxxxx xx xxx XxxxXxxxxxx xxxxxx xx xxx xxxxxxx xxxxxxx.
 
-The fifth command uses the Get-Help cmdlet to get help for cmdlets whose names begin with "Test." After the commands in a module are added to the current session, you can use the Get-Help and Get-Command cmdlets to learn about the imported commands, just as you would use them for any command in the session.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxx xxxxxx xx xxx xxxx xxx xxxxxxx xxxxx xxxxx xxxxx xxxx $Xxxx.$ Xxxxx xxx xxxxxxxx xx x xxxxxx xxx xxxxx xx xxx xxxxxxx xxxxxxx$ xxx xxx xxx xxx Xxx$Xxxx xxx Xxx$Xxxxxxx xxxxxxx xx xxxxx xxxxx xxx xxxxxxxx xxxxxxxx$ xxxx xx xxx xxxxx xxx xxxx xxx xxx xxxxxxx xx xxx xxxxxxx.
 
-The sixth command uses the Test-Files cmdlet, which was exported from the Server01 computer and added to the session.
+Xxx xxxxx xxxxxxx xxxx xxx Xxxx$Xxxxx xxxxxx$ xxxxx xxx xxxxxxxx xxxx xxx Xxxxxx00 xxxxxxxx xxx xxxxx xx xxx xxxxxxx.
 
-Although it is not evident, the Test-Files command actually runs in a remote session on the computer from which the command was imported.
-Windows PowerShell creates a session from information that is stored in the module.
+Xxxxxxxx xx xx xxx xxxxxxx$ xxx Xxxx$Xxxxx xxxxxxx xxxxxxxx xxxx xx x xxxxxx xxxxxxx xx xxx xxxxxxxx xxxx xxxxx xxx xxxxxxx xxx xxxxxxxx.
+Xxxxxxx XxxxxXxxxx xxxxxxx x xxxxxxx xxxx xxxxxxxxxxx xxxx xx xxxxxx xx xxx xxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>export-pssession -session $s -AllowClobber -outputModule AllCommands
 ```
 
-This command exports all commands and all formatting data from the PSSession in the $s variable into the current session.
-The command uses the AllowClobber parameter to include commands with the same names as commands in the current session.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxx xxx xxx xxxxxxxxxx xxxx xxxx xxx XXXxxxxxx xx xxx $x xxxxxxxx xxxx xxx xxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxx xxx XxxxxXxxxxxx xxxxxxxxx xx xxxxxxx xxxxxxxx xxxx xxx xxxx xxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$options = New-PSSessionOption -NoMachineProfile
 PS C:\>$s = new-pssession -computername Server01 -sessionoption $options
@@ -103,42 +103,42 @@ PS C:\>new-pssession -computername Server01 -sessionoption $options
 PS C:\>import-module Server01
 ```
 
-This example shows how to run the exported commands in a session with particular options when the PSSession from which the commands were exported is closed.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx xxxxxxxx xxxxxxxx xx x xxxxxxx xxxx xxxxxxxxxx xxxxxxx xxxx xxx XXXxxxxxx xxxx xxxxx xxx xxxxxxxx xxxx xxxxxxxx xx xxxxxx.
 
-When you use Export-PSSession, it saves information about the original PSSession in the module that it creates.
-When you import the module, if the original remote session is closed, the module will use any open remote session that connects to originating computer.
+Xxxx xxx xxx Xxxxxx$XXXxxxxxx$ xx xxxxx xxxxxxxxxxx xxxxx xxx xxxxxxxx XXXxxxxxx xx xxx xxxxxx xxxx xx xxxxxxx.
+Xxxx xxx xxxxxx xxx xxxxxx$ xx xxx xxxxxxxx xxxxxx xxxxxxx xx xxxxxx$ xxx xxxxxx xxxx xxx xxx xxxx xxxxxx xxxxxxx xxxx xxxxxxxx xx xxxxxxxxxxx xxxxxxxx.
 
-If the current session does not include a remote session to the originating computer, the commands in the module will re-establish a session to that computer.
-However, Export-PSSession does not save special options, such as those set by using the SessionOption parameter of New-PSSession, in the module.
+Xx xxx xxxxxxx xxxxxxx xxxx xxx xxxxxxx x xxxxxx xxxxxxx xx xxx xxxxxxxxxxx xxxxxxxx$ xxx xxxxxxxx xx xxx xxxxxx xxxx xx$xxxxxxxxx x xxxxxxx xx xxxx xxxxxxxx.
+Xxxxxxx$ Xxxxxx$XXXxxxxxx xxxx xxx xxxx xxxxxxx xxxxxxx$ xxxx xx xxxxx xxx xx xxxxx xxx XxxxxxxXxxxxx xxxxxxxxx xx Xxx$XXXxxxxxx$ xx xxx xxxxxx.
 
-Therefore, if you want to run the exported commands in a remote session with particular options, you need to create a remote session with the options that you want before you import the module.
+Xxxxxxxxx$ xx xxx xxxx xx xxx xxx xxxxxxxx xxxxxxxx xx x xxxxxx xxxxxxx xxxx xxxxxxxxxx xxxxxxx$ xxx xxxx xx xxxxxx x xxxxxx xxxxxxx xxxx xxx xxxxxxx xxxx xxx xxxx xxxxxx xxx xxxxxx xxx xxxxxx.
 
-The first command uses the New-PSSessionOption cmdlet to create a PSSessionOption object, and it saves the object in the $options variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XXXxxxxxxXxxxxx xxxxxx xx xxxxxx x XXXxxxxxxXxxxxx xxxxxx$ xxx xx xxxxx xxx xxxxxx xx xxx $xxxxxxx xxxxxxxx.
 
-The second command creates a PSSession that includes the specified options.
-The command uses the New-PSSession cmdlet to create a PSSession on the Server01 computer.
-It uses the SessionOption parameter to submit the option object in $options.
+Xxx xxxxxx xxxxxxx xxxxxxx x XXXxxxxxx xxxx xxxxxxxx xxx xxxxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxx xxx Xxx$XXXxxxxxx xxxxxx xx xxxxxx x XXXxxxxxx xx xxx Xxxxxx00 xxxxxxxx.
+Xx xxxx xxx XxxxxxxXxxxxx xxxxxxxxx xx xxxxxx xxx xxxxxx xxxxxx xx $xxxxxxx.
 
-The third command uses the Export-PSSession cmdlet to export commands from the PSSession in $s to the Server01 module.
+Xxx xxxxx xxxxxxx xxxx xxx Xxxxxx$XXXxxxxxx xxxxxx xx xxxxxx xxxxxxxx xxxx xxx XXXxxxxxx xx $x xx xxx Xxxxxx00 xxxxxx.
 
-The fourth command uses the Remove-PSSession cmdlet to delete the PSSession in the $s variable.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxx$XXXxxxxxx xxxxxx xx xxxxxx xxx XXXxxxxxx xx xxx $x xxxxxxxx.
 
-The fifth command uses the New-PSSession cmdlet to create a new PSSession that connects to the Server01 computer.
-This PSSession also uses the session options in the $options variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XXXxxxxxx xxxxxx xx xxxxxx x xxx XXXxxxxxx xxxx xxxxxxxx xx xxx Xxxxxx00 xxxxxxxx.
+Xxxx XXXxxxxxx xxxx xxxx xxx xxxxxxx xxxxxxx xx xxx $xxxxxxx xxxxxxxx.
 
-The sixth command uses the Import-Module cmdlet to import the commands from the Server01 module.
-The commands in the module run in the PSSession on the Server01 computer.
+Xxx xxxxx xxxxxxx xxxx xxx Xxxxxx$Xxxxxx xxxxxx xx xxxxxx xxx xxxxxxxx xxxx xxx Xxxxxx00 xxxxxx.
+Xxx xxxxxxxx xx xxx xxxxxx xxx xx xxx XXXxxxxxx xx xxx Xxxxxx00 xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AllowClobber
-Exports the specified commands, even if they have the same names as commands in the current session.
+### $XxxxxXxxxxxx
+Xxxxxxx xxx xxxxxxxxx xxxxxxxx$ xxxx xx xxxx xxxx xxx xxxx xxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-If you import a command with the same name as a command in the current session, the imported command hides or replaces the original commands.
-For more information, see about_Command_Precedence.
+Xx xxx xxxxxx x xxxxxxx xxxx xxx xxxx xxxx xx x xxxxxxx xx xxx xxxxxxx xxxxxxx$ xxx xxxxxxxx xxxxxxx xxxxx xx xxxxxxxx xxx xxxxxxxx xxxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx$Xxxxxxxxxx.
 
-Export-PSSession does not import commands that have the same names as commands in the current session.
-The default behavior is designed to prevent command name conflicts.
+Xxxxxx$XXXxxxxxx xxxx xxx xxxxxx xxxxxxxx xxxx xxxx xxx xxxx xxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxxxxxx xx xxxxxxxx xx xxxxxxx xxxxxxx xxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -152,10 +152,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ArgumentList
-Exports the variant of the command that results from using the specified arguments (parameter values).
+### $XxxxxxxxXxxx
+Xxxxxxx xxx xxxxxxx xx xxx xxxxxxx xxxx xxxxxxx xxxx xxxxx xxx xxxxxxxxx xxxxxxxxx $xxxxxxxxx xxxxxx$.
 
-For example, to export the variant of the Get-Item command in the certificate (Cert:) drive in the PSSession in $s, type "export-pssession -session $s -command get-item -argumentlist cert:".
+Xxx xxxxxxx$ xx xxxxxx xxx xxxxxxx xx xxx Xxx$Xxxx xxxxxxx xx xxx xxxxxxxxxxx $Xxxx$$ xxxxx xx xxx XXXxxxxxx xx $x$ xxxx $xxxxxx$xxxxxxxxx $xxxxxxx $x $xxxxxxx xxx$xxxx $xxxxxxxxxxxx xxxx$$.
 
 ```yaml
 Type: Object[]
@@ -169,17 +169,17 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CommandName
-Exports only the commands with the specified names or name patterns.
-Wildcards are permitted.
-Use "CommandName" or its alias, "Name".
+### $XxxxxxxXxxx
+Xxxxxxx xxxx xxx xxxxxxxx xxxx xxx xxxxxxxxx xxxxx xx xxxx xxxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
+Xxx $XxxxxxxXxxx$ xx xxx xxxxx$ $Xxxx$.
 
-By default, Export-PSSession exports all commands from the PSSession except for commands that have the same names as commands in the current session.
-This prevents imported commands from hiding or replacing commands in the current session.
-To export all commands, even those that hide or replace other commands, use the AllowClobber parameter.
+Xx xxxxxxx$ Xxxxxx$XXXxxxxxx xxxxxxx xxx xxxxxxxx xxxx xxx XXXxxxxxx xxxxxx xxx xxxxxxxx xxxx xxxx xxx xxxx xxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx xxxxxx xx xxxxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxxxxx xxx xxxxxxxx$ xxxx xxxxx xxxx xxxx xx xxxxxxx xxxxx xxxxxxxx$ xxx xxx XxxxxXxxxxxx xxxxxxxxx.
 
-If you use the CommandName parameter, the formatting files for the commands are not exported unless you use the FormatTypeName parameter.
-Similarly, if you use the FormatTypeName parameter, no commands are exported unless you use the CommandName parameter.
+Xx xxx xxx xxx XxxxxxxXxxx xxxxxxxxx$ xxx xxxxxxxxxx xxxxx xxx xxx xxxxxxxx xxx xxx xxxxxxxx xxxxxx xxx xxx xxx XxxxxxXxxxXxxx xxxxxxxxx.
+Xxxxxxxxx$ xx xxx xxx xxx XxxxxxXxxxXxxx xxxxxxxxx$ xx xxxxxxxx xxx xxxxxxxx xxxxxx xxx xxx xxx XxxxxxxXxxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -193,19 +193,19 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CommandType
-Exports only the specified types of command objects.
-Use "CommandType" or its alias, "Type".
+### $XxxxxxxXxxx
+Xxxxxxx xxxx xxx xxxxxxxxx xxxxx xx xxxxxxx xxxxxxx.
+Xxx $XxxxxxxXxxx$ xx xxx xxxxx$ $Xxxx$.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- Alias: All Windows PowerShell aliases in the current session.
--- All: All command types. It is the equivalent of "get-command *".
--- Application: All files other than Windows PowerShell files in paths listed in the Path environment variable ($env:path), including .txt, .exe, and .dll files.
--- Cmdlet: The cmdlets in the current session. "Cmdlet" is the default.
--- ExternalScript: All .ps1 files in the paths listed in the Path environment variable ($env:path).
--- Filter and Function: All Windows PowerShell functions.
--- Script: Script blocks in the current session.
+$$ Xxxxx$ Xxx Xxxxxxx XxxxxXxxxx xxxxxxx xx xxx xxxxxxx xxxxxxx.
+$$ Xxx$ Xxx xxxxxxx xxxxx. Xx xx xxx xxxxxxxxxx xx $xxx$xxxxxxx $$.
+$$ Xxxxxxxxxxx$ Xxx xxxxx xxxxx xxxx Xxxxxxx XxxxxXxxxx xxxxx xx xxxxx xxxxxx xx xxx Xxxx xxxxxxxxxxx xxxxxxxx $$xxx$xxxx$$ xxxxxxxxx .xxx$ .xxx$ xxx .xxx xxxxx.
+$$ Xxxxxx$ Xxx xxxxxxx xx xxx xxxxxxx xxxxxxx. $Xxxxxx$ xx xxx xxxxxxx.
+$$ XxxxxxxxXxxxxx$ Xxx .xx0 xxxxx xx xxx xxxxx xxxxxx xx xxx Xxxx xxxxxxxxxxx xxxxxxxx $$xxx$xxxx$.
+$$ Xxxxxx xxx Xxxxxxxx$ Xxx Xxxxxxx XxxxxXxxxx xxxxxxxxx.
+$$ Xxxxxx$ Xxxxxx xxxxxx xx xxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: CommandTypes
@@ -220,10 +220,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Encoding
-Specifies the encoding for the output files.
-Valid values are "Unicode", "UTF7", "UTF8", "ASCII", "UTF32", "BigEndianUnicode", "Default", and "OEM".
-The default is "UTF-8".
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xxx xxx xxxxxx xxxxx.
+Xxxxx xxxxxx xxx $Xxxxxxx$$ $XXX0$$ $XXX0$$ $XXXXX$$ $XXX00$$ $XxxXxxxxxXxxxxxx$$ $Xxxxxxx$$ xxx $XXX$.
+Xxx xxxxxxx xx $XXX$0$.
 
 ```yaml
 Type: String
@@ -238,8 +238,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Overwrites one or more existing output files, even if the file has the read-only attribute.
+### $Xxxxx
+Xxxxxxxxxx xxx xx xxxx xxxxxxxx xxxxxx xxxxx$ xxxx xx xxx xxxx xxx xxx xxxx$xxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -253,17 +253,17 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FormatTypeName
-Exports formatting instructions only for the specified Microsoft .NET Framework types.
-Enter the type names.
-By default, Export-PSSession exports formatting instructions for all .NET Framework types that are not in the System.Management.Automation namespace.
+### $XxxxxxXxxxXxxx
+Xxxxxxx xxxxxxxxxx xxxxxxxxxxxx xxxx xxx xxx xxxxxxxxx Xxxxxxxxx .XXX Xxxxxxxxx xxxxx.
+Xxxxx xxx xxxx xxxxx.
+Xx xxxxxxx$ Xxxxxx$XXXxxxxxx xxxxxxx xxxxxxxxxx xxxxxxxxxxxx xxx xxx .XXX Xxxxxxxxx xxxxx xxxx xxx xxx xx xxx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx xxxxxxxxx.
 
-The value of this parameter must be the name of a type that is returned by a Get-FormatData command in the session from which the commands are being imported.
-To get all of the formatting data in the remote session, type *.
+Xxx xxxxx xx xxxx xxxxxxxxx xxxx xx xxx xxxx xx x xxxx xxxx xx xxxxxxxx xx x Xxx$XxxxxxXxxx xxxxxxx xx xxx xxxxxxx xxxx xxxxx xxx xxxxxxxx xxx xxxxx xxxxxxxx.
+Xx xxx xxx xx xxx xxxxxxxxxx xxxx xx xxx xxxxxx xxxxxxx$ xxxx $.
 
-If you use the FormatTypeName parameter, no commands are exported unless you use the CommandName parameter.
+Xx xxx xxx xxx XxxxxxXxxxXxxx xxxxxxxxx$ xx xxxxxxxx xxx xxxxxxxx xxxxxx xxx xxx xxx XxxxxxxXxxx xxxxxxxxx.
 
-Similarly, if you use the CommandName parameter, the formatting files for the commands are not exported unless you use the FormatTypeName parameter.
+Xxxxxxxxx$ xx xxx xxx xxx XxxxxxxXxxx xxxxxxxxx$ xxx xxxxxxxxxx xxxxx xxx xxx xxxxxxxx xxx xxx xxxxxxxx xxxxxx xxx xxx xxx XxxxxxXxxxXxxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -277,12 +277,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FullyQualifiedModule
-Specifies modules with names that are specified in the form of ModuleSpecification objects (described by the Remarks section of Module Specification Constructor (Hashtable) on MSDN).
-For example, the FullyQualifiedModule parameter accepts a module name that is specified in the format @{ModuleName = "modulename"; ModuleVersion = "version_number"} or @{ModuleName = "modulename"; ModuleVersion = "version_number"; Guid = "GUID"}.
-ModuleName and ModuleVersion are required, but Guid is optional.
+### $XxxxxXxxxxxxxxXxxxxx
+Xxxxxxxxx xxxxxxx xxxx xxxxx xxxx xxx xxxxxxxxx xx xxx xxxx xx XxxxxxXxxxxxxxxxxxx xxxxxxx $xxxxxxxxx xx xxx Xxxxxxx xxxxxxx xx Xxxxxx Xxxxxxxxxxxxx Xxxxxxxxxxx $Xxxxxxxxx$ xx XXXX$.
+Xxx xxxxxxx$ xxx XxxxxXxxxxxxxxXxxxxx xxxxxxxxx xxxxxxx x xxxxxx xxxx xxxx xx xxxxxxxxx xx xxx xxxxxx $$XxxxxxXxxx $ $xxxxxxxxxx$$ XxxxxxXxxxxxx $ $xxxxxxx$xxxxxx$$ xx $$XxxxxxXxxx $ $xxxxxxxxxx$$ XxxxxxXxxxxxx $ $xxxxxxx$xxxxxx$$ Xxxx $ $XXXX$$.
+XxxxxxXxxx xxx XxxxxxXxxxxxx xxx xxxxxxxx$ xxx Xxxx xx xxxxxxxx.
 
-You cannot specify the FullyQualifiedModule parameter in the same command as a Module parameter; the two parameters are mutually exclusive.
+Xxx xxxxxx xxxxxxx xxx XxxxxXxxxxxxxxXxxxxx xxxxxxxxx xx xxx xxxx xxxxxxx xx x Xxxxxx xxxxxxxxx$ xxx xxx xxxxxxxxxx xxx xxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: ModuleSpecification[]
@@ -296,12 +296,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-If you import a command with the same name as a command in the current session, the imported command hides or replaces the original commands.
-For more information, see about_Command_Precedence.
+### $XxxxxxxxxxxXxxxxx
+Xx xxx xxxxxx x xxxxxxx xxxx xxx xxxx xxxx xx x xxxxxxx xx xxx xxxxxxx xxxxxxx$ xxx xxxxxxxx xxxxxxx xxxxx xx xxxxxxxx xxx xxxxxxxx xxxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx$Xxxxxxxxxx.
 
-Export-PSSession does not import commands that have the same names as commands in the current session.
-The default behavior is designed to prevent command name conflicts.
+Xxxxxx$XXXxxxxxx xxxx xxx xxxxxx xxxxxxxx xxxx xxxx xxx xxxx xxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxxxxxx xx xxxxxxxx xx xxxxxxx xxxxxxx xxxx xxxxxxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -316,12 +316,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-If you import a command with the same name as a command in the current session, the imported command hides or replaces the original commands.
-For more information, see about_Command_Precedence.
+### $XxxxxxxxxxxXxxxxxxx
+Xx xxx xxxxxx x xxxxxxx xxxx xxx xxxx xxxx xx x xxxxxxx xx xxx xxxxxxx xxxxxxx$ xxx xxxxxxxx xxxxxxx xxxxx xx xxxxxxxx xxx xxxxxxxx xxxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx$Xxxxxxxxxx.
 
-Export-PSSession does not import commands that have the same names as commands in the current session.
-The default behavior is designed to prevent command name conflicts.
+Xxxxxx$XXXxxxxxx xxxx xxx xxxxxx xxxxxxxx xxxx xxxx xxx xxxx xxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxxxxxx xx xxxxxxxx xx xxxxxxx xxxxxxx xxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -335,12 +335,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Module
-Exports only the commands in the specified Windows PowerShell snap-ins and modules.
-Enter the snap-in and module names.
-Wildcards are not permitted.
+### $Xxxxxx
+Xxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxxxxxx Xxxxxxx XxxxxXxxxx xxxx$xxx xxx xxxxxxx.
+Xxxxx xxx xxxx$xx xxx xxxxxx xxxxx.
+Xxxxxxxxx xxx xxx xxxxxxxxx.
 
-For more information, see about_PSSnapins and Import-Module.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$XXXxxxxxx xxx Xxxxxx$Xxxxxx.
 
 ```yaml
 Type: String[]
@@ -354,13 +354,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -OutputModule
-Specifies a path (optional) and name for the module that Export-PSSession creates.
-The default path is $home\Documents\WindowsPowerShell\Modules.
-This parameter is required.
+### $XxxxxxXxxxxx
+Xxxxxxxxx x xxxx $xxxxxxxx$ xxx xxxx xxx xxx xxxxxx xxxx Xxxxxx$XXXxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxx xx $xxxx$Xxxxxxxxx$XxxxxxxXxxxxXxxxx$Xxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx.
 
-If the module subdirectory or any of the files that Export-PSSession creates already exist, the command fails.
-To overwrite existing files, use the Force parameter.
+Xx xxx xxxxxx xxxxxxxxxxxx xx xxx xx xxx xxxxx xxxx Xxxxxx$XXXxxxxxx xxxxxxx xxxxxxx xxxxx$ xxx xxxxxxx xxxxx.
+Xx xxxxxxxxx xxxxxxxx xxxxx$ xxx xxx Xxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -374,10 +374,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Session
-Specifies the PSSession from which the commands are exported. 
-Enter a variable that contains a session object or a command that gets a session object, such as a Get-PSSession command.
-This parameter is required.
+### $Xxxxxxx
+Xxxxxxxxx xxx XXXxxxxxx xxxx xxxxx xxx xxxxxxxx xxx xxxxxxxx. Xxxxx x xxxxxxxx xxxx xxxxxxxx x xxxxxxx xxxxxx xx x xxxxxxx xxxx xxxx x xxxxxxx xxxxxx$ xxxx xx x Xxx$XXXxxxxxx xxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: PSSession
@@ -391,12 +390,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Certificate
-Specifies the client certificate that is used to sign the format files (*.Format.ps1xml) or script module files (.psm1) in the module that Export-PSSession creates.
-Enter a variable that contains a certificate or a command or expression that gets the certificate.
+### $Xxxxxxxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxxxxxxx xxxx xx xxxx xx xxxx xxx xxxxxx xxxxx $$.Xxxxxx.xx0xxx$ xx xxxxxx xxxxxx xxxxx $.xxx0$ xx xxx xxxxxx xxxx Xxxxxx$XXXxxxxxx xxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx x xxxxxxxxxxx xx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxxxxxx.
 
-To find a certificate, use the Get-PfxCertificate cmdlet or use the Get-ChildItem cmdlet in the Certificate (Cert:) drive.
-If the certificate is not valid or does not have sufficient authority, the command fails.
+Xx xxxx x xxxxxxxxxxx$ xxx xxx Xxx$XxxXxxxxxxxxxx xxxxxx xx xxx xxx Xxx$XxxxxXxxx xxxxxx xx xxx Xxxxxxxxxxx $Xxxx$$ xxxxx.
+Xx xxx xxxxxxxxxxx xx xxx xxxxx xx xxxx xxx xxxx xxxxxxxxxx xxxxxxxxx$ xxx xxxxxxx xxxxx.
 
 ```yaml
 Type: X509Certificate2
@@ -410,58 +409,58 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe objects to Export-PSSession.
+### Xxxx
+Xxx xxxxxx xxxx xxxxxxx xx Xxxxxx$XXXxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.IO.FileInfo
-Export-PSSession returns a list of files that comprise the module that it created.
+### Xxxxxx.XX.XxxxXxxx
+Xxxxxx$XXXxxxxxx xxxxxxx x xxxx xx xxxxx xxxx xxxxxxxx xxx xxxxxx xxxx xx xxxxxxx.
 
-## NOTES
-Export-PSSession relies on the Windows PowerShell remoting infrastructure.
-To use this cmdlet, the computer must be configured for remoting.
-For more information, see about_Remote_Requirements.
+## XXXXX
+Xxxxxx$XXXxxxxxx xxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxxx xxxxxxxxxxxxxx.
+Xx xxx xxxx xxxxxx$ xxx xxxxxxxx xxxx xx xxxxxxxxxx xxx xxxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx$Xxxxxxxxxxxx.
 
-You cannot use Export-PSSession to export a Windows PowerShell provider.
+Xxx xxxxxx xxx Xxxxxx$XXXxxxxxx xx xxxxxx x Xxxxxxx XxxxxXxxxx xxxxxxxx.
 
-Exported commands run implicitly in the PSSession from which they were exported.
-However, the details of running the commands remotely are handled entirely by Windows PowerShell.
-You can run the exported commands just as you would run local commands.
+Xxxxxxxx xxxxxxxx xxx xxxxxxxxxx xx xxx XXXxxxxxx xxxx xxxxx xxxx xxxx xxxxxxxx.
+Xxxxxxx$ xxx xxxxxxx xx xxxxxxx xxx xxxxxxxx xxxxxxxx xxx xxxxxxx xxxxxxxx xx Xxxxxxx XxxxxXxxxx.
+Xxx xxx xxx xxx xxxxxxxx xxxxxxxx xxxx xx xxx xxxxx xxx xxxxx xxxxxxxx.
 
-Export-Module captures and saves information about the PSSession in the module that it exports.
-If the PSSession from which the commands were exported is closed when you import the module, and there are no active PSSessions to the same computer, the commands in the module attempt to re-create the PSSession.
-If attempts to re-create the PSSession fail, the exported commands will not run.
+Xxxxxx$Xxxxxx xxxxxxxx xxx xxxxx xxxxxxxxxxx xxxxx xxx XXXxxxxxx xx xxx xxxxxx xxxx xx xxxxxxx.
+Xx xxx XXXxxxxxx xxxx xxxxx xxx xxxxxxxx xxxx xxxxxxxx xx xxxxxx xxxx xxx xxxxxx xxx xxxxxx$ xxx xxxxx xxx xx xxxxxx XXXxxxxxxx xx xxx xxxx xxxxxxxx$ xxx xxxxxxxx xx xxx xxxxxx xxxxxxx xx xx$xxxxxx xxx XXXxxxxxx.
+Xx xxxxxxxx xx xx$xxxxxx xxx XXXxxxxxx xxxx$ xxx xxxxxxxx xxxxxxxx xxxx xxx xxx.
 
-The session information that Export-Module captures and saves in the module does not include session options, such as those that you specify in the $PSSessionOption preference variable or by using the SessionOption parameters of  the New-PSSession, Enter-PSSession, or Invoke-Command cmdlet.
-If the original PSSession is closed when you import the module, the module will use another PSSession to the same computer, if one is available.
-To enable the imported commands to run in a correctly configured session, create a PSSession with the options that you want before you import the module.
+Xxx xxxxxxx xxxxxxxxxxx xxxx Xxxxxx$Xxxxxx xxxxxxxx xxx xxxxx xx xxx xxxxxx xxxx xxx xxxxxxx xxxxxxx xxxxxxx$ xxxx xx xxxxx xxxx xxx xxxxxxx xx xxx $XXXxxxxxxXxxxxx xxxxxxxxxx xxxxxxxx xx xx xxxxx xxx XxxxxxxXxxxxx xxxxxxxxxx xx  xxx Xxx$XXXxxxxxx$ Xxxxx$XXXxxxxxx$ xx Xxxxxx$Xxxxxxx xxxxxx.
+Xx xxx xxxxxxxx XXXxxxxxx xx xxxxxx xxxx xxx xxxxxx xxx xxxxxx$ xxx xxxxxx xxxx xxx xxxxxxx XXXxxxxxx xx xxx xxxx xxxxxxxx$ xx xxx xx xxxxxxxxx.
+Xx xxxxxx xxx xxxxxxxx xxxxxxxx xx xxx xx x xxxxxxxxx xxxxxxxxxx xxxxxxx$ xxxxxx x XXXxxxxxx xxxx xxx xxxxxxx xxxx xxx xxxx xxxxxx xxx xxxxxx xxx xxxxxx.
 
-To find the commands to export, Export-PSSession uses the Invoke-Command cmdlet to run a Get-Command command in the PSSession.
-To get and save formatting data for the commands, it uses the Get-FormatData and Export-FormatData cmdlets.
-You might see error messages from Invoke-Command, Get-Command, Get-FormatData, and Export-FormatData when you run an Export-PSSession command.
-Also, Export-PSSession cannot export commands from a session that does not include the Get-Command, Get-FormatData, Select-Object, and Get-Help cmdlets.
+Xx xxxx xxx xxxxxxxx xx xxxxxx$ Xxxxxx$XXXxxxxxx xxxx xxx Xxxxxx$Xxxxxxx xxxxxx xx xxx x Xxx$Xxxxxxx xxxxxxx xx xxx XXXxxxxxx.
+Xx xxx xxx xxxx xxxxxxxxxx xxxx xxx xxx xxxxxxxx$ xx xxxx xxx Xxx$XxxxxxXxxx xxx Xxxxxx$XxxxxxXxxx xxxxxxx.
+Xxx xxxxx xxx xxxxx xxxxxxxx xxxx Xxxxxx$Xxxxxxx$ Xxx$Xxxxxxx$ Xxx$XxxxxxXxxx$ xxx Xxxxxx$XxxxxxXxxx xxxx xxx xxx xx Xxxxxx$XXXxxxxxx xxxxxxx.
+Xxxx$ Xxxxxx$XXXxxxxxx xxxxxx xxxxxx xxxxxxxx xxxx x xxxxxxx xxxx xxxx xxx xxxxxxx xxx Xxx$Xxxxxxx$ Xxx$XxxxxxXxxx$ Xxxxxx$Xxxxxx$ xxx Xxx$Xxxx xxxxxxx.
 
-Export-PSSession uses the Write-Progress cmdlet to display the progress of the command.
-You might see the progress bar while the command is running.
+Xxxxxx$XXXxxxxxx xxxx xxx Xxxxx$Xxxxxxxx xxxxxx xx xxxxxxx xxx xxxxxxxx xx xxx xxxxxxx.
+Xxx xxxxx xxx xxx xxxxxxxx xxx xxxxx xxx xxxxxxx xx xxxxxxx.
 
-Exported commands have the same limitations as other remote commands, including the inability to start a program with a user interface, such as Notepad.
+Xxxxxxxx xxxxxxxx xxxx xxx xxxx xxxxxxxxxxx xx xxxxx xxxxxx xxxxxxxx$ xxxxxxxxx xxx xxxxxxxxx xx xxxxx x xxxxxxx xxxx x xxxx xxxxxxxxx$ xxxx xx Xxxxxxx.
 
-Because Windows PowerShell profiles are not run in PSSessions, the commands that a profile adds to a session are not available to Export-PSSession.
-To export commands from a profile, use an Invoke-Command command to run the profile in the PSSession manually before exporting commands.
+Xxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxxx xxx xxx xxx xx XXXxxxxxxx$ xxx xxxxxxxx xxxx x xxxxxxx xxxx xx x xxxxxxx xxx xxx xxxxxxxxx xx Xxxxxx$XXXxxxxxx.
+Xx xxxxxx xxxxxxxx xxxx x xxxxxxx$ xxx xx Xxxxxx$Xxxxxxx xxxxxxx xx xxx xxx xxxxxxx xx xxx XXXxxxxxx xxxxxxxx xxxxxx xxxxxxxxx xxxxxxxx.
 
-The module that Export-PSSession creates might include a formatting file, even if the command does not import formatting data.
-If the command does not import formatting data, any formatting files that are created will not contain formatting data.
+Xxx xxxxxx xxxx Xxxxxx$XXXxxxxxx xxxxxxx xxxxx xxxxxxx x xxxxxxxxxx xxxx$ xxxx xx xxx xxxxxxx xxxx xxx xxxxxx xxxxxxxxxx xxxx.
+Xx xxx xxxxxxx xxxx xxx xxxxxx xxxxxxxxxx xxxx$ xxx xxxxxxxxxx xxxxx xxxx xxx xxxxxxx xxxx xxx xxxxxxx xxxxxxxxxx xxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Import-Module]()
+[Xxxxxx$Xxxxxx]()
 
-[Import-PSSession]()
+[Xxxxxx$XXXxxxxxx]()
 
-[Invoke-Command]()
+[Xxxxxx$Xxxxxxx]()
 
-[New-PSSession]()
+[Xxx$XXXxxxxxx]()
 

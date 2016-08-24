@@ -6,35 +6,35 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Save-AzureServiceProjectPackage
-## SYNOPSIS
-Packages the service project into Azure cloud package (*.cspkg).
+# Xxxx$XxxxxXxxxxxxXxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxxx xxx xxxxxxx xxxxxxx xxxx Xxxxx xxxxx xxxxxxx $$.xxxxx$.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Save-AzureServiceProjectPackage [-Local]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Save-AzureServiceProjectPackage cmdlet packages the service project into an Azure cloud package (*.cspkg).
+Xxx Xxxx$XxxxxXxxxxxxXxxxxxxXxxxxxx xxxxxx xxxxxxxx xxx xxxxxxx xxxxxxx xxxx xx Xxxxx xxxxx xxxxxxx $$.xxxxx$.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Create a service project package
+### 0$ Xxxxxx x xxxxxxx xxxxxxx xxxxxxx
 ```
 PS C:\>Save-AzureServiceProjectPackage
 ```
 
-This example creates a *.cspgk for a service project named MyAzureServiceProject.
+Xxxx xxxxxxx xxxxxxx x $.xxxxx xxx x xxxxxxx xxxxxxx xxxxx XxXxxxxXxxxxxxXxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Local
-@{Text=}
+### $Xxxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -48,14 +48,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Publish-AzureServiceProject](4c0c0966-919e-49a6-9d38-c3c97355e281)
+[Xxxxxxx$XxxxxXxxxxxxXxxxxxx](4c0c0966-919e-49a6-9d38-c3c97355e281)
 
 

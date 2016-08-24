@@ -4,50 +4,50 @@ online version: http://go.microsoft.com/fwlink/?LinkID=403731
 schema: 2.0.0
 ---
 
-# Debug-Runspace
-## SYNOPSIS
-Starts an interactive debugging session with a runspace.
+# Xxxxx$Xxxxxxxx
+## XXXXXXXX
+Xxxxxx xx xxxxxxxxxxx xxxxxxxxx xxxxxxx xxxx x xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### RunspaceParameterSet (Default)
+### XxxxxxxxXxxxxxxxxXxx $Xxxxxxx$
 ```
 Debug-Runspace [-Runspace] <Runspace> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-### NameParameterSet
+### XxxxXxxxxxxxxXxx
 ```
 Debug-Runspace [-Name] <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-### IdParameterSet
+### XxXxxxxxxxxXxx
 ```
 Debug-Runspace [-Id] <Int32> [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf]
  [-Confirm]
 ```
 
-### InstanceIdParameterSet
+### XxxxxxxxXxXxxxxxxxxXxx
 ```
 Debug-Runspace [-InstanceId] <Guid> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-Debug-Runspace starts an interactive debugging session with a local or remote active runspace.
-You can find a runspace that you want to debug by first running Get-Process to find processes associated with Windows PowerShell, then Enter-PSHostProcess with the process ID specified in the Id parameter to attach to the process, and then Get-Runspace to list runspaces within the Windows PowerShell host process.
+## XXXXXXXXXXX
+Xxxxx$Xxxxxxxx xxxxxx xx xxxxxxxxxxx xxxxxxxxx xxxxxxx xxxx x xxxxx xx xxxxxx xxxxxx xxxxxxxx.
+Xxx xxx xxxx x xxxxxxxx xxxx xxx xxxx xx xxxxx xx xxxxx xxxxxxx Xxx$Xxxxxxx xx xxxx xxxxxxxxx xxxxxxxxxx xxxx Xxxxxxx XxxxxXxxxx$ xxxx Xxxxx$XXXxxxXxxxxxx xxxx xxx xxxxxxx XX xxxxxxxxx xx xxx Xx xxxxxxxxx xx xxxxxx xx xxx xxxxxxx$ xxx xxxx Xxx$Xxxxxxxx xx xxxx xxxxxxxxx xxxxxx xxx Xxxxxxx XxxxxXxxxx xxxx xxxxxxx.
 
-After you have selected a runspace to debug, if the runspace is currently running a command or script, or if the script has stopped at a breakpoint, Windows PowerShell opens a remote debugger session for the runspace.
-You can debug the runspace script in the same way remote session scripts are debugged.
+Xxxxx xxx xxxx xxxxxxxx x xxxxxxxx xx xxxxx$ xx xxx xxxxxxxx xx xxxxxxxxx xxxxxxx x xxxxxxx xx xxxxxx$ xx xx xxx xxxxxx xxx xxxxxxx xx x xxxxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxx x xxxxxx xxxxxxxx xxxxxxx xxx xxx xxxxxxxx.
+Xxx xxx xxxxx xxx xxxxxxxx xxxxxx xx xxx xxxx xxx xxxxxx xxxxxxx xxxxxxx xxx xxxxxxxx.
 
-You can only attach to a Windows PowerShell host process if you are an administrator on the computer that is running the process, or you are running the script that you want to debug.
-Also, you cannot enter the host process that is running the current Windows PowerShell session; you can only enter a host process that is running a different Windows PowerShell session.
-For example, if you are working in a PowerShell.exe session, you can't enter the host process for that session, but you can enter the host process of a running Windows PowerShell ISE session.
+Xxx xxx xxxx xxxxxx xx x Xxxxxxx XxxxxXxxxx xxxx xxxxxxx xx xxx xxx xx xxxxxxxxxxxxx xx xxx xxxxxxxx xxxx xx xxxxxxx xxx xxxxxxx$ xx xxx xxx xxxxxxx xxx xxxxxx xxxx xxx xxxx xx xxxxx.
+Xxxx$ xxx xxxxxx xxxxx xxx xxxx xxxxxxx xxxx xx xxxxxxx xxx xxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxx$ xxx xxx xxxx xxxxx x xxxx xxxxxxx xxxx xx xxxxxxx x xxxxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xxx xxxxxxx$ xx xxx xxx xxxxxxx xx x XxxxxXxxxx.xxx xxxxxxx$ xxx xxx$x xxxxx xxx xxxx xxxxxxx xxx xxxx xxxxxxx$ xxx xxx xxx xxxxx xxx xxxx xxxxxxx xx x xxxxxxx Xxxxxxx XxxxxXxxxx XXX xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Debug a remote runspace
+### Xxxxxxx 0$ Xxxxx x xxxxxx xxxxxxxx
 ```
 PS C:\>Get-Process -ComputerName WS10TestServer -Name *powershell*
 
@@ -78,24 +78,24 @@ At C:\TestWFVar1.ps1:83 char:1
 [Process:1152]: [RSDBG: 2]: PS C:\>>
 ```
 
-In this example, you debug a runspace that is open on a remote computer, WS10TestServer.
-In the first line of the command, you run Get-Process on the remote computer, and filter for Windows PowerShell host processes.
-In this example, you want to debug process ID 1152, the Windows PowerShell ISE host process.
+Xx xxxx xxxxxxx$ xxx xxxxx x xxxxxxxx xxxx xx xxxx xx x xxxxxx xxxxxxxx$ XX00XxxxXxxxxx.
+Xx xxx xxxxx xxxx xx xxx xxxxxxx$ xxx xxx Xxx$Xxxxxxx xx xxx xxxxxx xxxxxxxx$ xxx xxxxxx xxx Xxxxxxx XxxxxXxxxx xxxx xxxxxxxxx.
+Xx xxxx xxxxxxx$ xxx xxxx xx xxxxx xxxxxxx XX 0000$ xxx Xxxxxxx XxxxxXxxxx XXX xxxx xxxxxxx.
 
-In the second command, you run Enter-PSSession to open a remote session on WS10TestServer.
-In the third command, you attach to the Windows PowerShell ISE host process running on the remote server by running Enter-PSHostProcess, and specifying the ID of the host process that you obtained in the first command, 1152.
+Xx xxx xxxxxx xxxxxxx$ xxx xxx Xxxxx$XXXxxxxxx xx xxxx x xxxxxx xxxxxxx xx XX00XxxxXxxxxx.
+Xx xxx xxxxx xxxxxxx$ xxx xxxxxx xx xxx Xxxxxxx XxxxxXxxxx XXX xxxx xxxxxxx xxxxxxx xx xxx xxxxxx xxxxxx xx xxxxxxx Xxxxx$XXXxxxXxxxxxx$ xxx xxxxxxxxxx xxx XX xx xxx xxxx xxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxx xxxxxxx$ 0000.
 
-In the fourth command, you list available runspaces for process ID 1152 by running Get-Runspace.
-You note the ID number of the Busy runspace; it is running a script that you want to debug.
+Xx xxx xxxxxx xxxxxxx$ xxx xxxx xxxxxxxxx xxxxxxxxx xxx xxxxxxx XX 0000 xx xxxxxxx Xxx$Xxxxxxxx.
+Xxx xxxx xxx XX xxxxxx xx xxx Xxxx xxxxxxxx$ xx xx xxxxxxx x xxxxxx xxxx xxx xxxx xx xxxxx.
 
-In the last command, you start debugging an opened runspace that is running a script, TestWFVar1.ps1, by running Debug-Runspace, and identifying the runspace by its ID, 2, by adding the Id parameter.
-Because there's a breakpoint in the script, the debugger opens.
+Xx xxx xxxx xxxxxxx$ xxx xxxxx xxxxxxxxx xx xxxxxx xxxxxxxx xxxx xx xxxxxxx x xxxxxx$ XxxxXXXxx0.xx0$ xx xxxxxxx Xxxxx$Xxxxxxxx$ xxx xxxxxxxxxxx xxx xxxxxxxx xx xxx XX$ 0$ xx xxxxxx xxx Xx xxxxxxxxx.
+Xxxxxxx xxxxx$x x xxxxxxxxxx xx xxx xxxxxx$ xxx xxxxxxxx xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Id
-Specifies the ID number of a runspace.
-You can run Get-Runspace to show runspace IDs.
+### $Xx
+Xxxxxxxxx xxx XX xxxxxx xx x xxxxxxxx.
+Xxx xxx xxx Xxx$Xxxxxxxx xx xxxx xxxxxxxx XXx.
 
 ```yaml
 Type: Int32
@@ -109,8 +109,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -125,8 +125,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -140,8 +140,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InstanceId
-Specifies a runspace by its instance ID, a GUID that you can show by running Get-Runspace.
+### $XxxxxxxxXx
+Xxxxxxxxx x xxxxxxxx xx xxx xxxxxxxx XX$ x XXXX xxxx xxx xxx xxxx xx xxxxxxx Xxx$Xxxxxxxx.
 
 ```yaml
 Type: Guid
@@ -155,9 +155,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies a runspace by its name.
-You can run Get-Runspace to show the names of runspaces.
+### $Xxxx
+Xxxxxxxxx x xxxxxxxx xx xxx xxxx.
+Xxx xxx xxx Xxx$Xxxxxxxx xx xxxx xxx xxxxx xx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -171,9 +171,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Runspace
-Specifies a runspace object.
-The simplest way to provide a value for this parameter is to specify a variable that contains the results of a filtered Get-Runspace command.
+### $Xxxxxxxx
+Xxxxxxxxx x xxxxxxxx xxxxxx.
+Xxx xxxxxxxx xxx xx xxxxxxx x xxxxx xxx xxxx xxxxxxxxx xx xx xxxxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx x xxxxxxxx Xxx$Xxxxxxxx xxxxxxx.
 
 ```yaml
 Type: Runspace
@@ -187,8 +187,8 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -202,10 +202,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -219,31 +219,31 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.Runspaces.Runspace
-You can pipe the results of a Get-Runspace command to Debug-Runspace.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxx.Xxxxxxxx
+Xxx xxx xxxx xxx xxxxxxx xx x Xxx$Xxxxxxxx xxxxxxx xx Xxxxx$Xxxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
-Debug-Runspace works on runspaces that are in the Opened state.
-If a runspace state changes from Opened to another state, that runspace is automatically removed from the running list.
-A runspace is added to the running list only if it meets the following criteria.
+## XXXXX
+Xxxxx$Xxxxxxxx xxxxx xx xxxxxxxxx xxxx xxx xx xxx Xxxxxx xxxxx.
+Xx x xxxxxxxx xxxxx xxxxxxx xxxx Xxxxxx xx xxxxxxx xxxxx$ xxxx xxxxxxxx xx xxxxxxxxxxxxx xxxxxxx xxxx xxx xxxxxxx xxxx.
+X xxxxxxxx xx xxxxx xx xxx xxxxxxx xxxx xxxx xx xx xxxxx xxx xxxxxxxxx xxxxxxxx.
 
--- If it is coming from Invoke-Command; that is, it has an Invoke-Command GUID Id.
--- If it is coming from Debug-Runspace; that is, it has a Debug-Runspace GUID Id.
--- If it is coming from a Windows PowerShell workflow, and its workflow job ID is the same as the current active debugger workflow job ID.
+$$ Xx xx xx xxxxxx xxxx Xxxxxx$Xxxxxxx$ xxxx xx$ xx xxx xx Xxxxxx$Xxxxxxx XXXX Xx.
+$$ Xx xx xx xxxxxx xxxx Xxxxx$Xxxxxxxx$ xxxx xx$ xx xxx x Xxxxx$Xxxxxxxx XXXX Xx.
+$$ Xx xx xx xxxxxx xxxx x Xxxxxxx XxxxxXxxxx xxxxxxxx$ xxx xxx xxxxxxxx xxx XX xx xxx xxxx xx xxx xxxxxxx xxxxxx xxxxxxxx xxxxxxxx xxx XX.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[about_Debuggers]()
+[xxxxx$Xxxxxxxxx]()
 
-[Get-Process]()
+[Xxx$Xxxxxxx]()
 
-[Enter-PSHostProcess]()
+[Xxxxx$XXXxxxXxxxxxx]()
 
-[Get-Runspace]()
+[Xxx$Xxxxxxxx]()
 
-[Debug-Job]()
+[Xxxxx$Xxx]()
 

@@ -6,11 +6,11 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureStorageContainerAcl
-## SYNOPSIS
-Sets the public access permission to a storage container.
+# Xxx$XxxxxXxxxxxxXxxxxxxxxXxx
+## XXXXXXXX
+Xxxx xxx xxxxxx xxxxxx xxxxxxxxxx xx x xxxxxxx xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureStorageContainerAcl [-Name] <String> [-Permission] [-ClientTimeoutPerRequest <Int32]>]
@@ -18,50 +18,31 @@ Set-AzureStorageContainerAcl [-Name] <String> [-Permission] [-ClientTimeoutPerRe
  [-ServerTimeoutPerRequest <Int32]>]
 ```
 
-## DESCRIPTION
-The **Set-AzureStorageContainerAcl** cmdlet sets the public access permission to the specified storage container in azure_2.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxxxxxXxx$$ xxxxxx xxxx xxx xxxxxx xxxxxx xxxxxxxxxx xx xxx xxxxxxxxx xxxxxxx xxxxxxxxx xx xxxxx$0.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Set azure storage container ACL by name
+### Xxxxxxx 0$ Xxx xxxxx xxxxxxx xxxxxxxxx XXX xx xxxx
 ```
 PS C:\>Set-AzureStorageContainerAcl -Container "Container01" -Permission Off -PassThru
 ```
 
-This command creates a container that has no public access.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxxx xxxx xxx xx xxxxxx xxxxxx.
 
-### Example 2: Set azure storage container ACL by using the pipeline
+### Xxxxxxx 0$ Xxx xxxxx xxxxxxx xxxxxxxxx XXX xx xxxxx xxx xxxxxxxx
 ```
 PS C:\>Get-AzureStorageContainer container* | Set-AzureStorageContainerAcl -Permission Blob -PassThru
 ```
 
-This command gets all storage containers whose name starts with container and then passes the result on the pipeline to set the permission for them all to Blob access.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxxxxx xxxxx xxxx xxxxxx xxxx xxxxxxxxx xxx xxxx xxxxxx xxx xxxxxx xx xxx xxxxxxxx xx xxx xxx xxxxxxxxxx xxx xxxx xxx xx Xxxx xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-Specifies the client-side time-out interval, in seconds, for one service request.
-If the previous call fails in the specified interval, this cmdlet retries the request.
-If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
-
-```yaml
-Type: Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-Specifies the maximum concurrent network calls.
-You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
-The specified value is an absolute count and is not multiplied by the core count.
-This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
-The default value is 10.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -75,9 +56,28 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies the azure_2 storage context.
-You can create it by using the New-AzureStorageContext cmdlet.
+### $XxxxxxxxxxXxxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxxxxx xxx xxxx xxxxxx xxxxxxx xxxxxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxxx$ xxxx xx 000 xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx xxxxx xx 00.
+
+```yaml
+Type: Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxxxx.
+Xxx xxx xxxxxx xx xx xxxxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -91,8 +91,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies a container name.
+### $Xxxx
+Xxxxxxxxx x xxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -106,8 +106,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-passthru
+### $XxxxXxxx
+xxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -121,21 +121,19 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Permission
-Specifies the level of public access to this container.
-By default, the container and any blobs in it can be accessed only by the owner of the storage account.
-To grant anonymous users read permissions to a container and its blobs, you can set the container permissions to enable public access.
-Anonymous users can read blobs in a publicly available container without authenticating the request.
-psdx_paramvalues
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxx xx xxxxxx xxxxxx xx xxxx xxxxxxxxx.
+Xx xxxxxxx$ xxx xxxxxxxxx xxx xxx xxxxx xx xx xxx xx xxxxxxxx xxxx xx xxx xxxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxxxx xxxxxxxxx xxxxx xxxx xxxxxxxxxxx xx x xxxxxxxxx xxx xxx xxxxx$ xxx xxx xxx xxx xxxxxxxxx xxxxxxxxxxx xx xxxxxx xxxxxx xxxxxx.
+Xxxxxxxxx xxxxx xxx xxxx xxxxx xx x xxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxx xxxxxxxxxxxxxx xxx xxxxxxx.
+xxxx$xxxxxxxxxxx
 
---Container.
-Provides full read access to a container and its blobs.
-Clients can enumerate blobs in the container through anonymous request, but cannot enumerate containers in the storage account. 
---Blob.
-Provides read access to blob data in a container through anonymous request, but does not provide access to container data.
-Clients cannot enumerate blobs in the container by using anonymous request. 
---Off.
-Restricts access to only the storage account owner.
+$$Xxxxxxxxx.
+Xxxxxxxx xxxx xxxx xxxxxx xx x xxxxxxxxx xxx xxx xxxxx.
+Xxxxxxx xxx xxxxxxxxx xxxxx xx xxx xxxxxxxxx xxxxxxx xxxxxxxxx xxxxxxx$ xxx xxxxxx xxxxxxxxx xxxxxxxxxx xx xxx xxxxxxx xxxxxxx. $$Xxxx.
+Xxxxxxxx xxxx xxxxxx xx xxxx xxxx xx x xxxxxxxxx xxxxxxx xxxxxxxxx xxxxxxx$ xxx xxxx xxx xxxxxxx xxxxxx xx xxxxxxxxx xxxx.
+Xxxxxxx xxxxxx xxxxxxxxx xxxxx xx xxx xxxxxxxxx xx xxxxx xxxxxxxxx xxxxxxx. $$Xxx.
+Xxxxxxxxx xxxxxx xx xxxx xxx xxxxxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -150,10 +148,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-Specifies the service side time-out interval, in seconds, for a request.
-If the specified interval elapses before the service processes the request, the storage service returns an error.
-Server side time out for each request.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
+Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
+Xxxxxx xxxx xxxx xxx xxx xxxx xxxxxxx.
 
 ```yaml
 Type: Int32]
@@ -167,18 +165,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageContainer](4880a1a4-c947-4310-8317-0a837b8acb7f)
+[Xxx$XxxxxXxxxxxxXxxxxxxxx](4880a1a4-c947-4310-8317-0a837b8acb7f)
 
-[New-AzureStorageContainer](f3da4bf0-aa3a-4853-a362-e3fc479688d6)
+[Xxx$XxxxxXxxxxxxXxxxxxxxx](f3da4bf0-aa3a-4853-a362-e3fc479688d6)
 
-[Remove-AzureStorageContainer](89d7ed7c-1db6-4e01-8981-8f34483039fd)
+[Xxxxxx$XxxxxXxxxxxxXxxxxxxxx](89d7ed7c-1db6-4e01-8981-8f34483039fd)
 
 

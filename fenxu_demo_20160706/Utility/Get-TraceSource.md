@@ -4,43 +4,43 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293975
 schema: 2.0.0
 ---
 
-# Get-TraceSource
-## SYNOPSIS
-Gets the Windows PowerShell components that are instrumented for tracing.
+# Xxx$XxxxxXxxxxx
+## XXXXXXXX
+Xxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxxx xxxx xxx xxxxxxxxxxxx xxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-TraceSource [[-Name] <String[]>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-TraceSource cmdlet gets the trace sources for Windows PowerShell components that are currently in use.
-You can use the data to determine which Windows PowerShell components you can trace.
-When tracing, the component generates detailed messages about each step in its internal processing.
-Developers use the trace data to monitor data flow, program execution, and errors.
-The tracing cmdlets were designed for Windows PowerShell developers, but they are available to all users.
+## XXXXXXXXXXX
+Xxx Xxx$XxxxxXxxxxx xxxxxx xxxx xxx xxxxx xxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxxx xxxx xxx xxxxxxxxx xx xxx.
+Xxx xxx xxx xxx xxxx xx xxxxxxxxx xxxxx Xxxxxxx XxxxxXxxxx xxxxxxxxxx xxx xxx xxxxx.
+Xxxx xxxxxxx$ xxx xxxxxxxxx xxxxxxxxx xxxxxxxx xxxxxxxx xxxxx xxxx xxxx xx xxx xxxxxxxx xxxxxxxxxx.
+Xxxxxxxxxx xxx xxx xxxxx xxxx xx xxxxxxx xxxx xxxx$ xxxxxxx xxxxxxxxx$ xxx xxxxxx.
+Xxx xxxxxxx xxxxxxx xxxx xxxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxxx$ xxx xxxx xxx xxxxxxxxx xx xxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-traceSource  *provider*
 ```
 
-This command gets all of the trace sources that have names that include "provider".
+Xxxx xxxxxxx xxxx xxx xx xxx xxxxx xxxxxxx xxxx xxxx xxxxx xxxx xxxxxxx $xxxxxxxx$.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-tracesource
 ```
 
-This command gets all of the Windows PowerShell components that can be traced.
+Xxxx xxxxxxx xxxx xxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxxx xxxx xxx xx xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -55,8 +55,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -70,10 +70,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Gets only the specified trace sources.
-Wildcards are permitted.
-The parameter name ("Name") is optional.
+### $Xxxx
+Xxxx xxxx xxx xxxxxxxxx xxxxx xxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
+Xxx xxxxxxxxx xxxx $$Xxxx$$ xx xxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -87,21 +87,21 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
-You can pipe a string that contains the name of a trace source to Get-TraceSource.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx xxx xxxx xx x xxxxx xxxxxx xx Xxx$XxxxxXxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.PSTraceSource
-Get-TraceSource returns objects that represent the trace sources.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxxxx
+Xxx$XxxxxXxxxxx xxxxxxx xxxxxxx xxxx xxxxxxxxx xxx xxxxx xxxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Set-TraceSource]()
+[Xxx$XxxxxXxxxxx]()
 
-[Trace-Command]()
+[Xxxxx$Xxxxxxx]()
 

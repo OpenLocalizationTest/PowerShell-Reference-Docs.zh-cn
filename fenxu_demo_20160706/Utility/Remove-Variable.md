@@ -4,37 +4,37 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294006
 schema: 2.0.0
 ---
 
-# Remove-Variable
-## SYNOPSIS
-Deletes a variable and its value.
+# Xxxxxx$Xxxxxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxxxx xxx xxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-Variable [-Name] <String[]> [-Include <String[]>] [-Exclude <String[]>] [-Force] [-Scope <String>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Remove-Variable cmdlet deletes a variable and its value from the scope in which it is defined, such as the current session.
-You cannot use this cmdlet to delete variables that are set as constants or those that are owned by the system.
+## XXXXXXXXXXX
+Xxx Xxxxxx$Xxxxxxxx xxxxxx xxxxxxx x xxxxxxxx xxx xxx xxxxx xxxx xxx xxxxx xx xxxxx xx xx xxxxxxx$ xxxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxxxxx xxx xxxx xxxxxx xx xxxxxx xxxxxxxxx xxxx xxx xxx xx xxxxxxxxx xx xxxxx xxxx xxx xxxxx xx xxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>remove-variable Smp
 ```
 
-This command deletes the $Smp variable.
+Xxxx xxxxxxx xxxxxxx xxx $Xxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Exclude
-Omits the specified items.
-The value of this parameter qualifies the Name parameter.
-Enter a name element or pattern, such as "s*".
-Wildcards are permitted.
+### $Xxxxxxx
+Xxxxx xxx xxxxxxxxx xxxxx.
+Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx Xxxx xxxxxxxxx.
+Xxxxx x xxxx xxxxxxx xx xxxxxxx$ xxxx xx $x$$.
+Xxxxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -48,9 +48,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Allows the cmdlet to remove a variable even if it is read-only.
-Even using the Force parameter, the cmdlet cannot remove a constant.
+### $Xxxxx
+Xxxxxx xxx xxxxxx xx xxxxxx x xxxxxxxx xxxx xx xx xx xxxx$xxxx.
+Xxxx xxxxx xxx Xxxxx xxxxxxxxx$ xxx xxxxxx xxxxxx xxxxxx x xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -64,11 +64,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Include
-Deletes only the specified items.
-The value of this parameter qualifies the Name parameter.
-Enter a name element or pattern, such as "s*".
-Wildcards are permitted.
+### $Xxxxxxx
+Xxxxxxx xxxx xxx xxxxxxxxx xxxxx.
+Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx Xxxx xxxxxxxxx.
+Xxxxx x xxxx xxxxxxx xx xxxxxxx$ xxxx xx $x$$.
+Xxxxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -82,8 +82,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -98,8 +98,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -113,9 +113,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the variable to be removed.
-The parameter name ("Name") is optional.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xx xx xxxxxxx.
+Xxx xxxxxxxxx xxxx $$Xxxx$$ xx xxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -129,11 +129,11 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Scope
-Specifies the scope in which this alias is valid.
-Valid values are "Global", "Local", or "Script", or a number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).
-"Local" is the default.
-For more information, see about_Scopes.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx xx xxxxx xxxx xxxxx xx xxxxx.
+Xxxxx xxxxxx xxx $Xxxxxx$$ $Xxxxx$$ xx $Xxxxxx$$ xx x xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxx $0 xxxxxxx xxx xxxxxx xx xxxxxx$ xxxxx 0 xx xxx xxxxxxx xxxxx xxx 0 xx xxx xxxxxx$.
+$Xxxxx$ xx xxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx.
 
 ```yaml
 Type: String
@@ -147,8 +147,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -162,10 +162,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -179,32 +179,32 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSVariable
-You can pipe a variable object to Remove-Variable.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxxxx
+Xxx xxx xxxx x xxxxxxxx xxxxxx xx Xxxxxx$Xxxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-This cmdlet does not return any output.
+### Xxxx
+Xxxx xxxxxx xxxx xxx xxxxxx xxx xxxxxx.
 
-## NOTES
-Changes affect only the current scope, such as a session.
-To delete a variable from all sessions, add a Remove-Variable command to your Windows PowerShell profile.
+## XXXXX
+Xxxxxxx xxxxxx xxxx xxx xxxxxxx xxxxx$ xxxx xx x xxxxxxx.
+Xx xxxxxx x xxxxxxxx xxxx xxx xxxxxxxx$ xxx x Xxxxxx$Xxxxxxxx xxxxxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
 
-You can also refer to RemoveVariable by its built-in alias, "rv".
-For more information, see about_Aliases.
+Xxx xxx xxxx xxxxx xx XxxxxxXxxxxxxx xx xxx xxxxx$xx xxxxx$ $xx$.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Clear-Variable]()
+[Xxxxx$Xxxxxxxx]()
 
-[Get-Variable]()
+[Xxx$Xxxxxxxx]()
 
-[New-Variable]()
+[Xxx$Xxxxxxxx]()
 
-[Set-Variable]()
+[Xxx$Xxxxxxxx]()
 
-[about_Profiles]()
+[xxxxx$Xxxxxxxx]()
 

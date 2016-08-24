@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294025
 schema: 2.0.0
 ---
 
-# Update-TypeData
-## SYNOPSIS
-Updates the extended type data in the session.
+# Xxxxxx$XxxxXxxx
+## XXXXXXXX
+Xxxxxxx xxx xxxxxxxx xxxx xxxx xx xxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### FileSet (Default)
+### XxxxXxx $Xxxxxxx$
 ```
 Update-TypeData [[-AppendPath] <String[]>] [-PrependPath <String[]>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### DynamicTypeSet
+### XxxxxxxXxxxXxx
 ```
 Update-TypeData [-MemberType <PSMemberTypes>] [-MemberName <String>] [-Value <Object>] [-SecondValue <Object>]
  [-TypeConverter <Type>] [-TypeAdapter <Type>] [-SerializationMethod <String>]
@@ -27,50 +27,50 @@ Update-TypeData [-MemberType <PSMemberTypes>] [-MemberName <String>] [-Value <Ob
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### TypeDataSet
+### XxxxXxxxXxx
 ```
 Update-TypeData [-Force] [-TypeData] <TypeData[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Update-TypeData cmdlet updates the extended type data in the session by reloading the Types.ps1xml files into memory and adding new extended type data.
+## XXXXXXXXXXX
+Xxx Xxxxxx$XxxxXxxx xxxxxx xxxxxxx xxx xxxxxxxx xxxx xxxx xx xxx xxxxxxx xx xxxxxxxxx xxx Xxxxx.xx0xxx xxxxx xxxx xxxxxx xxx xxxxxx xxx xxxxxxxx xxxx xxxx.
 
-By default, Windows PowerShell loads extended type data as it is needed.
-Without parameters, Update-TypeData reloads all of the Types.ps1xml files that it has loaded in the session, including any type files that you added.
-You can use the parameters of Update-TypeData to add new type files and add and replace extended type data.
+Xx xxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxx xxxxxxxx xxxx xxxx xx xx xx xxxxxx.
+Xxxxxxx xxxxxxxxxx$ Xxxxxx$XxxxXxxx xxxxxxx xxx xx xxx Xxxxx.xx0xxx xxxxx xxxx xx xxx xxxxxx xx xxx xxxxxxx$ xxxxxxxxx xxx xxxx xxxxx xxxx xxx xxxxx.
+Xxx xxx xxx xxx xxxxxxxxxx xx Xxxxxx$XxxxXxxx xx xxx xxx xxxx xxxxx xxx xxx xxx xxxxxxx xxxxxxxx xxxx xxxx.
 
-The Update-TypeData cmdlet can be used to preload all type data.
-This feature is particularly useful when you are developing types and want to load those new types for testing purposes.
+Xxx Xxxxxx$XxxxXxxx xxxxxx xxx xx xxxx xx xxxxxxx xxx xxxx xxxx.
+Xxxx xxxxxxx xx xxxxxxxxxxxx xxxxxx xxxx xxx xxx xxxxxxxxxx xxxxx xxx xxxx xx xxxx xxxxx xxx xxxxx xxx xxxxxxx xxxxxxxx.
 
-Beginning in Windows PowerShell 3.0, you can use Update-TypeData to add and replace extended type data in the session without using a Types.ps1xml file.
-Type data that is added dynamically, that is, without a file, is added only to the current session.
-To add the type data to all sessions, add an Update-TypeData command to your Windows PowerShell profile.
-For more information, see about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).
+Xxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0$ xxx xxx xxx Xxxxxx$XxxxXxxx xx xxx xxx xxxxxxx xxxxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxxx xxxxx x Xxxxx.xx0xxx xxxx.
+Xxxx xxxx xxxx xx xxxxx xxxxxxxxxxx$ xxxx xx$ xxxxxxx x xxxx$ xx xxxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxx xxx xxxx xxxx xx xxx xxxxxxxx$ xxx xx Xxxxxx$XxxxXxxx xxxxxxx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
 
-Also, beginning in Windows PowerShell 3.0, you can use the Get-TypeData cmdlet to get the extended types in the current session and the Remove-TypeData cmdlet to delete extended types from the current session.
+Xxxx$ xxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0$ xxx xxx xxx xxx Xxx$XxxxXxxx xxxxxx xx xxx xxx xxxxxxxx xxxxx xx xxx xxxxxxx xxxxxxx xxx xxx Xxxxxx$XxxxXxxx xxxxxx xx xxxxxx xxxxxxxx xxxxx xxxx xxx xxxxxxx xxxxxxx.
 
-Exceptions that occur in properties, or from adding properties to an Update-TypeData command, do not report errors to StdErr.
-This is to suppress exceptions that would occur in many common types during formatting and outputting.
-If you are getting .NET Framework properties, you can work around the suppression of exceptions by using method syntax instead, as shown in the following example:
+Xxxxxxxxxx xxxx xxxxx xx xxxxxxxxxx$ xx xxxx xxxxxx xxxxxxxxxx xx xx Xxxxxx$XxxxXxxx xxxxxxx$ xx xxx xxxxxx xxxxxx xx XxxXxx.
+Xxxx xx xx xxxxxxxx xxxxxxxxxx xxxx xxxxx xxxxx xx xxxx xxxxxx xxxxx xxxxxx xxxxxxxxxx xxx xxxxxxxxxx.
+Xx xxx xxx xxxxxxx .XXX Xxxxxxxxx xxxxxxxxxx$ xxx xxx xxxx xxxxxx xxx xxxxxxxxxxx xx xxxxxxxxxx xx xxxxx xxxxxx xxxxxx xxxxxxx$ xx xxxxx xx xxx xxxxxxxxx xxxxxxx$
 
-"hello".get_Length()
+$xxxxx$.xxx$Xxxxxx$$
 
-Note that method syntax can only be used with .NET Framework properties.
-Properties that are added by running the Update-TypeData cmdlet cannot use method syntax.
+Xxxx xxxx xxxxxx xxxxxx xxx xxxx xx xxxx xxxx .XXX Xxxxxxxxx xxxxxxxxxx.
+Xxxxxxxxxx xxxx xxx xxxxx xx xxxxxxx xxx Xxxxxx$XxxxXxxx xxxxxx xxxxxx xxx xxxxxx xxxxxx.
 
-For more information about the *types.ps1xml files in Windows PowerShell, see about_Types.ps1xml (http://technet.microsoft.com/library/hh847881.aspx).
+Xxx xxxx xxxxxxxxxxx xxxxx xxx $xxxxx.xx0xxx xxxxx xx Xxxxxxx XxxxxXxxxx$ xxx xxxxx$Xxxxx.xx0xxx $xxxx$$$xxxxxxx.xxxxxxxxx.xxx$xxxxxxx$xx000000.xxxx$.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Update-Typedata
 ```
 
-This command updates the extended type configuration from the *.types.ps1xml files that have already been used in the session.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxx xxxx xxxxxxxxxxxxx xxxx xxx $.xxxxx.xx0xxx xxxxx xxxx xxxx xxxxxxx xxxx xxxx xx xxx xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 The first command updates the extended type configuration from the *.types.ps1xml files, processing the TypesA.types.ps1xml and TypesB.types.ps1xml files first.
 PS C:\>Update-Typedata -PrependPath TypesA.types.ps1xml, TypesB.types.ps1xml
@@ -83,25 +83,25 @@ PS C:\>Update-Typedata -PrependPath TypesA.types.ps1xml
 Update-Typedata
 ```
 
-This example show how to update the types in a type file multiple times in the same session.
+Xxxx xxxxxxx xxxx xxx xx xxxxxx xxx xxxxx xx x xxxx xxxx xxxxxxxx xxxxx xx xxx xxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Update-TypeData -TypeName System.DateTime -MemberType ScriptProperty -MemberName Quarter -Value {if ($this.Month -in @(1,2,3)) {"Q1"} elseif ($this.Month -in @(4,5,6)) {"Q2"} elseif ($this.Month -in @(7,8,9)) {"Q3"} else {"Q4"} }
 PS C:\>(Get-Date).QuarterQ1
 ```
 
-This example uses Update-TypeData to add the Quarter script property to System.DateTime objects in the current session, such as those returned by the Get-Date cmdlet.
+Xxxx xxxxxxx xxxx Xxxxxx$XxxxXxxx xx xxx xxx Xxxxxxx xxxxxx xxxxxxxx xx Xxxxxx.XxxxXxxx xxxxxxx xx xxx xxxxxxx xxxxxxx$ xxxx xx xxxxx xxxxxxxx xx xxx Xxx$Xxxx xxxxxx.
 
-The Update-TypeData command uses the TypeName parameter to specify the System.DateTime type, the MemberName parameter to specify a name for the new property, the MemberType property to specify the ScriptProperty type, and the Value parameter to specify the script that determines the annual quarter.
+Xxx Xxxxxx$XxxxXxxx xxxxxxx xxxx xxx XxxxXxxx xxxxxxxxx xx xxxxxxx xxx Xxxxxx.XxxxXxxx xxxx$ xxx XxxxxxXxxx xxxxxxxxx xx xxxxxxx x xxxx xxx xxx xxx xxxxxxxx$ xxx XxxxxxXxxx xxxxxxxx xx xxxxxxx xxx XxxxxxXxxxxxxx xxxx$ xxx xxx Xxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxx xxxxxxx.
 
-The value of the Value property is a script that calculates the current annual quarter.
-The script block the $this automatic variable to represent the current instance of the object and the In operator to determine whether the month value appears in each integer array.
-For more information about the In operator, see about_Comparison_Operators (http://go.microsoft.com/fwlink/?LinkID=113217).
+Xxx xxxxx xx xxx Xxxxx xxxxxxxx xx x xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xxxxxx xxxxxxx.
+Xxx xxxxxx xxxxx xxx $xxxx xxxxxxxxx xxxxxxxx xx xxxxxxxxx xxx xxxxxxx xxxxxxxx xx xxx xxxxxx xxx xxx Xx xxxxxxxx xx xxxxxxxxx xxxxxxx xxx xxxxx xxxxx xxxxxxx xx xxxx xxxxxxx xxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx xxx Xx xxxxxxxx$ xxx xxxxx$Xxxxxxxxxx$Xxxxxxxxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
 
-The second command gets the new Quarter property of the current date.
+Xxx xxxxxx xxxxxxx xxxx xxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxxx xxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Update-TypeData -TypeName System.DateTime -DefaultDisplayPropertySet DateTime, DayOfYear, Quarter
 PS C:\>Get-Date | Format-List
@@ -111,18 +111,18 @@ DayOfYear : 75
 Quarter   : Q1
 ```
 
-This example shows how to set the properties of a type that display in lists by default, that is, when no properties are specified.
-Because the type data is not specified in a Types.ps1xml file, it is effective only in the current session.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx xxxxxxxxxx xx x xxxx xxxx xxxxxxx xx xxxxx xx xxxxxxx$ xxxx xx$ xxxx xx xxxxxxxxxx xxx xxxxxxxxx.
+Xxxxxxx xxx xxxx xxxx xx xxx xxxxxxxxx xx x Xxxxx.xx0xxx xxxx$ xx xx xxxxxxxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
-The first command uses the Update-TypeData cmdlet to set the default list properties for the System.DateTime type.
-The command uses the TypeName parameter to specify the type and the DefaultDisplayPropertySet parameter to specify the default properties for a list.
-The selected properties include the new Quarter script property that was added in a previous example.
+Xxx xxxxx xxxxxxx xxxx xxx Xxxxxx$XxxxXxxx xxxxxx xx xxx xxx xxxxxxx xxxx xxxxxxxxxx xxx xxx Xxxxxx.XxxxXxxx xxxx.
+Xxx xxxxxxx xxxx xxx XxxxXxxx xxxxxxxxx xx xxxxxxx xxx xxxx xxx xxx XxxxxxxXxxxxxxXxxxxxxxXxx xxxxxxxxx xx xxxxxxx xxx xxxxxxx xxxxxxxxxx xxx x xxxx.
+Xxx xxxxxxxx xxxxxxxxxx xxxxxxx xxx xxx Xxxxxxx xxxxxx xxxxxxxx xxxx xxx xxxxx xx x xxxxxxxx xxxxxxx.
 
-The second command uses the Get-Date cmdlet to get a System.DateTime object that represents the current date.
-The command uses a pipeline operator (|) to send the DateTime object to the Format-List cmdlet.
-Because the Format-List command does not specify the properties to display in the list, Windows PowerShell uses the default values that were established by the Update-TypeData command.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxx$Xxxx xxxxxx xx xxx x Xxxxxx.XxxxXxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xxxx.
+Xxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx XxxxXxxx xxxxxx xx xxx Xxxxxx$Xxxx xxxxxx.
+Xxxxxxx xxx Xxxxxx$Xxxx xxxxxxx xxxx xxx xxxxxxx xxx xxxxxxxxxx xx xxxxxxx xx xxx xxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxxxx xxxxxx xxxx xxxx xxxxxxxxxxx xx xxx Xxxxxx$XxxxXxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Get-Module | Update-TypeData -MemberType ScriptProperty -MemberName SupportsUpdatableHelp -Value {if ($this.HelpInfoUri) {$True} else {$False}}
 Get-Module -ListAvailable | Format-Table Name, SupportsUpdatableHelp
@@ -142,25 +142,25 @@ ServerManager                                     True
 TroubleshootingPack                              False
 ```
 
-This example demonstrates that when you pipe an object to Update-TypeData, Update-TypeData adds extended type data for the object type.
+Xxxx xxxxxxx xxxxxxxxxxxx xxxx xxxx xxx xxxx xx xxxxxx xx Xxxxxx$XxxxXxxx$ Xxxxxx$XxxxXxxx xxxx xxxxxxxx xxxx xxxx xxx xxx xxxxxx xxxx.
 
-This technique is quicker than using the Get-Member cmdlet or the Get-Type method to get the object type.
-However, if you pipe a collection of objects to Update-TypeData, it updates the type data of the first object type and then returns an error for all other objects in the collection because the member is already defined on the type.
+Xxxx xxxxxxxxx xx xxxxxxx xxxx xxxxx xxx Xxx$Xxxxxx xxxxxx xx xxx Xxx$Xxxx xxxxxx xx xxx xxx xxxxxx xxxx.
+Xxxxxxx$ xx xxx xxxx x xxxxxxxxxx xx xxxxxxx xx Xxxxxx$XxxxXxxx$ xx xxxxxxx xxx xxxx xxxx xx xxx xxxxx xxxxxx xxxx xxx xxxx xxxxxxx xx xxxxx xxx xxx xxxxx xxxxxxx xx xxx xxxxxxxxxx xxxxxxx xxx xxxxxx xx xxxxxxx xxxxxxx xx xxx xxxx.
 
-The first command uses the Get-Module cmdlet to get the PSScheduledJob module.
-The command pipes the module object to the Update-TypeData cmdlet, which updates the type data for the System.Management.Automation.PSModuleInfo type and the types derived from it, such as the ModuleInfoGrouping type that Get-Module returns when you use the ListAvailable parameter in the command.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxx xxxxxx xx xxx xxx XXXxxxxxxxxXxx xxxxxx.
+Xxx xxxxxxx xxxxx xxx xxxxxx xxxxxx xx xxx Xxxxxx$XxxxXxxx xxxxxx$ xxxxx xxxxxxx xxx xxxx xxxx xxx xxx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxxXxxx xxxx xxx xxx xxxxx xxxxxxx xxxx xx$ xxxx xx xxx XxxxxxXxxxXxxxxxxx xxxx xxxx Xxx$Xxxxxx xxxxxxx xxxx xxx xxx xxx XxxxXxxxxxxxx xxxxxxxxx xx xxx xxxxxxx.
 
-The Update-TypeData commands adds the SupportsUpdatableHelp script property to all imported modules.
-The value of the Value parameter is a script that returns $True if the HelpInfoUri property of the module is populated and $False otherwise.
+Xxx Xxxxxx$XxxxXxxx xxxxxxxx xxxx xxx XxxxxxxxXxxxxxxxxXxxx xxxxxx xxxxxxxx xx xxx xxxxxxxx xxxxxxx.
+Xxx xxxxx xx xxx Xxxxx xxxxxxxxx xx x xxxxxx xxxx xxxxxxx $Xxxx xx xxx XxxxXxxxXxx xxxxxxxx xx xxx xxxxxx xx xxxxxxxxx xxx $Xxxxx xxxxxxxxx.
 
-The second command pipes the module objects from Get-Module to the Format-Table cmdlet, which displays the Name and SupportsUpdatableHelp properties of all modules in a list.
+Xxx xxxxxx xxxxxxx xxxxx xxx xxxxxx xxxxxxx xxxx Xxx$Xxxxxx xx xxx Xxxxxx$Xxxxx xxxxxx$ xxxxx xxxxxxxx xxx Xxxx xxx XxxxxxxxXxxxxxxxxXxxx xxxxxxxxxx xx xxx xxxxxxx xx x xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AppendPath
-Specifies the path to optional .ps1xml files.
-The specified files are loaded in the order that they are listed after the built-in files are loaded.
-You can also pipe an AppendPath value to Update-TypeData.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxxxxx .xx0xxx xxxxx.
+Xxx xxxxxxxxx xxxxx xxx xxxxxx xx xxx xxxxx xxxx xxxx xxx xxxxxx xxxxx xxx xxxxx$xx xxxxx xxx xxxxxx.
+Xxx xxx xxxx xxxx xx XxxxxxXxxx xxxxx xx Xxxxxx$XxxxXxxx.
 
 ```yaml
 Type: String[]
@@ -174,8 +174,8 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -190,8 +190,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -205,9 +205,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PrependPath
-Specifies the path to the optional .ps1xml files.
-The specified files are loaded in the order that they are listed before the built-in files are loaded.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx .xx0xxx xxxxx.
+Xxx xxxxxxxxx xxxxx xxx xxxxxx xx xxx xxxxx xxxx xxxx xxx xxxxxx xxxxxx xxx xxxxx$xx xxxxx xxx xxxxxx.
 
 ```yaml
 Type: String[]
@@ -221,15 +221,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DefaultDisplayProperty
-Specifies the property of the type that is displayed by the Format-Wide cmdlet when no other properties are specified.
+### $XxxxxxxXxxxxxxXxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xx xxx xxxx xxxx xx xxxxxxxxx xx xxx Xxxxxx$Xxxx xxxxxx xxxx xx xxxxx xxxxxxxxxx xxx xxxxxxxxx.
 
-Type the name of a standard or extended property of the type.
-The value of this parameter can be the name of a type that is added in the same command.
+Xxxx xxx xxxx xx x xxxxxxxx xx xxxxxxxx xxxxxxxx xx xxx xxxx.
+Xxx xxxxx xx xxxx xxxxxxxxx xxx xx xxx xxxx xx x xxxx xxxx xx xxxxx xx xxx xxxx xxxxxxx.
 
-This value is effective only when there are no wide views defined for the type in a Format.ps1xml file.
+Xxxx xxxxx xx xxxxxxxxx xxxx xxxx xxxxx xxx xx xxxx xxxxx xxxxxxx xxx xxx xxxx xx x Xxxxxx.xx0xxx xxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: String
@@ -243,37 +243,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DefaultDisplayPropertySet
-Specifies one or more properties of the type.
-These properties are displayed by the Format-List cmdlet when no other properties are specified.
+### $XxxxxxxXxxxxxxXxxxxxxxXxx
+Xxxxxxxxx xxx xx xxxx xxxxxxxxxx xx xxx xxxx.
+Xxxxx xxxxxxxxxx xxx xxxxxxxxx xx xxx Xxxxxx$Xxxx xxxxxx xxxx xx xxxxx xxxxxxxxxx xxx xxxxxxxxx.
 
-Type the names of standard or extended properties of the type.
-The value of this parameter can be the names of types that are added in the same command.
+Xxxx xxx xxxxx xx xxxxxxxx xx xxxxxxxx xxxxxxxxxx xx xxx xxxx.
+Xxx xxxxx xx xxxx xxxxxxxxx xxx xx xxx xxxxx xx xxxxx xxxx xxx xxxxx xx xxx xxxx xxxxxxx.
 
-This value is effective only when there are no list views defined for the type in a Format.ps1xml file.
+Xxxx xxxxx xx xxxxxxxxx xxxx xxxx xxxxx xxx xx xxxx xxxxx xxxxxxx xxx xxx xxxx xx x Xxxxxx.xx0xxx xxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
-
-```yaml
-Type: String[]
-Parameter Sets: DynamicTypeSet
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -DefaultKeyPropertySet
-Specifies one or more properties of the type.
-These properties are used by the Group-Object and Sort-Object cmdlets when no other properties are specified.
-
-Type the names of standard or extended properties of the type.
-The value of this parameter can be the names of types that are added in the same command.
-
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: String[]
@@ -287,10 +266,31 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Uses the specified type data, even if type data has already been specified for that type.
+### $XxxxxxxXxxXxxxxxxxXxx
+Xxxxxxxxx xxx xx xxxx xxxxxxxxxx xx xxx xxxx.
+Xxxxx xxxxxxxxxx xxx xxxx xx xxx Xxxxx$Xxxxxx xxx Xxxx$Xxxxxx xxxxxxx xxxx xx xxxxx xxxxxxxxxx xxx xxxxxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxx xxxxx xx xxxxxxxx xx xxxxxxxx xxxxxxxxxx xx xxx xxxx.
+Xxx xxxxx xx xxxx xxxxxxxxx xxx xx xxx xxxxx xx xxxxx xxxx xxx xxxxx xx xxx xxxx xxxxxxx.
+
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
+
+```yaml
+Type: String[]
+Parameter Sets: DynamicTypeSet
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxx
+Xxxx xxx xxxxxxxxx xxxx xxxx$ xxxx xx xxxx xxxx xxx xxxxxxx xxxx xxxxxxxxx xxx xxxx xxxx.
+
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: SwitchParameter
@@ -304,22 +304,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InheritPropertySerializationSet
-Determines whether the set of properties that are serialized is inherited.
-The default value is $Null
+### $XxxxxxxXxxxxxxxXxxxxxxxxxxxxXxx
+Xxxxxxxxxx xxxxxxx xxx xxx xx xxxxxxxxxx xxxx xxx xxxxxxxxxx xx xxxxxxxxx.
+Xxx xxxxxxx xxxxx xx $Xxxx
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- $True: The property set is inherited.
+$$ $Xxxx$ Xxx xxxxxxxx xxx xx xxxxxxxxx.
                          
--- $False: The property set is not inherited.
+$$ $Xxxxx$ Xxx xxxxxxxx xxx xx xxx xxxxxxxxx.
                          
--- $Null: Inheritance is not defined.
+$$ $Xxxx$ Xxxxxxxxxxx xx xxx xxxxxxx.
 
-This parameter is valid only when the value of the SerializationMethod parameter is SpecificProperties.
-When the value of this parameter is $False, the PropertySerializationSet parameter is required.
+Xxxx xxxxxxxxx xx xxxxx xxxx xxxx xxx xxxxx xx xxx XxxxxxxxxxxxxXxxxxx xxxxxxxxx xx XxxxxxxxXxxxxxxxxx.
+Xxxx xxx xxxxx xx xxxx xxxxxxxxx xx $Xxxxx$ xxx XxxxxxxxXxxxxxxxxxxxxXxx xxxxxxxxx xx xxxxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: Boolean
@@ -333,12 +333,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -MemberName
-Specifies the name of a property or method.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xx xxxxxx.
 
-Use this parameter with the TypeName, MemberType, Value and SecondValue parameters to add or change a property or method of a type.
+Xxx xxxx xxxxxxxxx xxxx xxx XxxxXxxx$ XxxxxxXxxx$ Xxxxx xxx XxxxxxXxxxx xxxxxxxxxx xx xxx xx xxxxxx x xxxxxxxx xx xxxxxx xx x xxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: String
@@ -352,16 +352,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -MemberType
-Specifies the type of the member to add or change.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xx xxx xx xxxxxx.
 
-Use this parameter with the TypeName, MemberType, Value and SecondValue parameters to add or change a property or method of a type.
+Xxx xxxx xxxxxxxxx xxxx xxx XxxxXxxx$ XxxxxxXxxx$ Xxxxx xxx XxxxxxXxxxx xxxxxxxxxx xx xxx xx xxxxxx x xxxxxxxx xx xxxxxx xx x xxxx.
 
-The valid values for this parameter are: AliasProperty, CodeMethod, CodeProperty, Noteproperty, ScriptMethod, and ScriptProperty.
+Xxx xxxxx xxxxxx xxx xxxx xxxxxxxxx xxx$ XxxxxXxxxxxxx$ XxxxXxxxxx$ XxxxXxxxxxxx$ Xxxxxxxxxxxx$ XxxxxxXxxxxx$ xxx XxxxxxXxxxxxxx.
 
-For information about these values, see "PSMemberTypes Enumeration" in MSDN at http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.psmembertypes(v=vs.85).aspx.
+Xxx xxxxxxxxxxx xxxxx xxxxx xxxxxx$ xxx $XXXxxxxxXxxxx Xxxxxxxxxxx$ xx XXXX xx xxxx$$$xxxx.xxxxxxxxx.xxx$xx$xx$xxxxxxx$xxxxxxx$xxxxxxx$xxxxxx.xxxxxxxxxx.xxxxxxxxxx.xxxxxxxxxxxxx$x$xx.00$.xxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: PSMemberTypes
@@ -376,9 +376,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PropertySerializationSet
-Specifies the names of properties that are serialized.
-Use this parameter when the value of the SerializationMethod parameter is SpecificProperties.
+### $XxxxxxxxXxxxxxxxxxxxxXxx
+Xxxxxxxxx xxx xxxxx xx xxxxxxxxxx xxxx xxx xxxxxxxxxx.
+Xxx xxxx xxxxxxxxx xxxx xxx xxxxx xx xxx XxxxxxxxxxxxxXxxxxx xxxxxxxxx xx XxxxxxxxXxxxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -392,20 +392,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SecondValue
-Specifies additional values for AliasProperty, ScriptProperty, CodeProperty, or CodeMethod members.
+### $XxxxxxXxxxx
+Xxxxxxxxx xxxxxxxxxx xxxxxx xxx XxxxxXxxxxxxx$ XxxxxxXxxxxxxx$ XxxxXxxxxxxx$ xx XxxxXxxxxx xxxxxxx.
 
-Use this parameter with the TypeName, MemberType, Value and SecondValue parameters to add or change a property or method of a type.
+Xxx xxxx xxxxxxxxx xxxx xxx XxxxXxxx$ XxxxxxXxxx$ Xxxxx xxx XxxxxxXxxxx xxxxxxxxxx xx xxx xx xxxxxx x xxxxxxxx xx xxxxxx xx x xxxx.
 
-When the value of the MemberType parameter is AliasProperty, the value of the SecondValue parameter must be a data type.
-Windows PowerShell converts ("casts") the value of the alias property to the specified type.
-For example, if you add an alias property that provides an alternate name for a string property, you can also specify a SecondValue of System.Int32 to convert the aliased string value to an integer.
+Xxxx xxx xxxxx xx xxx XxxxxxXxxx xxxxxxxxx xx XxxxxXxxxxxxx$ xxx xxxxx xx xxx XxxxxxXxxxx xxxxxxxxx xxxx xx x xxxx xxxx.
+Xxxxxxx XxxxxXxxxx xxxxxxxx $$xxxxx$$ xxx xxxxx xx xxx xxxxx xxxxxxxx xx xxx xxxxxxxxx xxxx.
+Xxx xxxxxxx$ xx xxx xxx xx xxxxx xxxxxxxx xxxx xxxxxxxx xx xxxxxxxxx xxxx xxx x xxxxxx xxxxxxxx$ xxx xxx xxxx xxxxxxx x XxxxxxXxxxx xx Xxxxxx.Xxx00 xx xxxxxxx xxx xxxxxxx xxxxxx xxxxx xx xx xxxxxxx.
 
-When the value of the MemberType parameter is ScriptProperty, you can use the SecondValue parameter to specify an additional script block.
-The script block in the value of the Value parameter gets the value of a variable.
-The script block in the value of the SecondValue parameter set the value of the variable.
+Xxxx xxx xxxxx xx xxx XxxxxxXxxx xxxxxxxxx xx XxxxxxXxxxxxxx$ xxx xxx xxx xxx XxxxxxXxxxx xxxxxxxxx xx xxxxxxx xx xxxxxxxxxx xxxxxx xxxxx.
+Xxx xxxxxx xxxxx xx xxx xxxxx xx xxx Xxxxx xxxxxxxxx xxxx xxx xxxxx xx x xxxxxxxx.
+Xxx xxxxxx xxxxx xx xxx xxxxx xx xxx XxxxxxXxxxx xxxxxxxxx xxx xxx xxxxx xx xxx xxxxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: Object
@@ -419,13 +419,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SerializationDepth
-Specifies how many levels of type objects are serialized as strings.
-The default value, 1, serializes the object and its properties.
-A value of 0 serializes the object, but not its properties.
-A value of 2 serializes the object, its properties, and any objects in property values.
+### $XxxxxxxxxxxxxXxxxx
+Xxxxxxxxx xxx xxxx xxxxxx xx xxxx xxxxxxx xxx xxxxxxxxxx xx xxxxxxx.
+Xxx xxxxxxx xxxxx$ 0$ xxxxxxxxxx xxx xxxxxx xxx xxx xxxxxxxxxx.
+X xxxxx xx 0 xxxxxxxxxx xxx xxxxxx$ xxx xxx xxx xxxxxxxxxx.
+X xxxxx xx 0 xxxxxxxxxx xxx xxxxxx$ xxx xxxxxxxxxx$ xxx xxx xxxxxxx xx xxxxxxxx xxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: Int32
@@ -439,36 +439,19 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SerializationMethod
-Specifies a serialization method for the type.
-A serialization method determines which properties of the type are serialized and the technique that is used to serialize them.
+### $XxxxxxxxxxxxxXxxxxx
+Xxxxxxxxx x xxxxxxxxxxxxx xxxxxx xxx xxx xxxx.
+X xxxxxxxxxxxxx xxxxxx xxxxxxxxxx xxxxx xxxxxxxxxx xx xxx xxxx xxx xxxxxxxxxx xxx xxx xxxxxxxxx xxxx xx xxxx xx xxxxxxxxx xxxx.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- AllPublicProperties: Serialize all public properties of the type. You can use the SerializationDepth parameter to determine whether child properties are serialized.
--- String: Serialize the type as a string. You can use the StringSerializationSource to specify a property of the type to use as the serialization result. Otherwise, the type is serialized by using the ToString method of the object.
--- SpecificProperties Serialize only the specified properties of this type. Use the PropertySerializationSet parameter to specify the properties of the type that are serialized. You can also use the InheritPropertySerializationSet parameter to determine whether the property set is inherited and the SerializationDepth parameter to determine whether child properties are serialized.
+$$ XxxXxxxxxXxxxxxxxxx$ Xxxxxxxxx xxx xxxxxx xxxxxxxxxx xx xxx xxxx. Xxx xxx xxx xxx XxxxxxxxxxxxxXxxxx xxxxxxxxx xx xxxxxxxxx xxxxxxx xxxxx xxxxxxxxxx xxx xxxxxxxxxx.
+$$ Xxxxxx$ Xxxxxxxxx xxx xxxx xx x xxxxxx. Xxx xxx xxx xxx XxxxxxXxxxxxxxxxxxxXxxxxx xx xxxxxxx x xxxxxxxx xx xxx xxxx xx xxx xx xxx xxxxxxxxxxxxx xxxxxx. Xxxxxxxxx$ xxx xxxx xx xxxxxxxxxx xx xxxxx xxx XxXxxxxx xxxxxx xx xxx xxxxxx.
+$$ XxxxxxxxXxxxxxxxxx Xxxxxxxxx xxxx xxx xxxxxxxxx xxxxxxxxxx xx xxxx xxxx. Xxx xxx XxxxxxxxXxxxxxxxxxxxxXxx xxxxxxxxx xx xxxxxxx xxx xxxxxxxxxx xx xxx xxxx xxxx xxx xxxxxxxxxx. Xxx xxx xxxx xxx xxx XxxxxxxXxxxxxxxXxxxxxxxxxxxxXxx xxxxxxxxx xx xxxxxxxxx xxxxxxx xxx xxxxxxxx xxx xx xxxxxxxxx xxx xxx XxxxxxxxxxxxxXxxxx xxxxxxxxx xx xxxxxxxxx xxxxxxx xxxxx xxxxxxxxxx xxx xxxxxxxxxx.
 
-In Windows PowerShell, serialization methods are stored in PSStandardMembers internal objects.
+Xx Xxxxxxx XxxxxXxxxx$ xxxxxxxxxxxxx xxxxxxx xxx xxxxxx xx XXXxxxxxxxXxxxxxx xxxxxxxx xxxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
-
-```yaml
-Type: String
-Parameter Sets: DynamicTypeSet
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -StringSerializationSource
-Specifies the name of a property of the type.
-The value of specified property is used as the serialization result.
-This parameter is valid only when the value of the SerializationMethod parameter is String.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: String
@@ -482,10 +465,27 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TargetTypeForDeserialization
-Specifies the type to which object of this type are converted when they are deserialized.
+### $XxxxxxXxxxxxxxxxxxxXxxxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xx xxx xxxx.
+Xxx xxxxx xx xxxxxxxxx xxxxxxxx xx xxxx xx xxx xxxxxxxxxxxxx xxxxxx.
+Xxxx xxxxxxxxx xx xxxxx xxxx xxxx xxx xxxxx xx xxx XxxxxxxxxxxxxXxxxxx xxxxxxxxx xx Xxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+```yaml
+Type: String
+Parameter Sets: DynamicTypeSet
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $XxxxxxXxxxXxxXxxxxxxxxxxxxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxxxxx xx xxxx xxxx xxx xxxxxxxxx xxxx xxxx xxx xxxxxxxxxxxx.
+
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: Type
@@ -499,31 +499,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TypeAdapter
-Specifies the type of a type adapter, such as Microsoft.PowerShell.Cim.CimInstanceAdapter.
-A type adapter enables Windows PowerShell to get the members of a type.
+### $XxxxXxxxxxx
+Xxxxxxxxx xxx xxxx xx x xxxx xxxxxxx$ xxxx xx Xxxxxxxxx.XxxxxXxxxx.Xxx.XxxXxxxxxxxXxxxxxx.
+X xxxx xxxxxxx xxxxxxx Xxxxxxx XxxxxXxxxx xx xxx xxx xxxxxxx xx x xxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
-
-```yaml
-Type: Type
-Parameter Sets: DynamicTypeSet
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -TypeConverter
-Specifies a type converter to convert values between different types.
-If a type converter is defined for a type, an instance of the type converter is used for the conversion.
-
-Enter a System.Type value that is derived from the System.ComponentModel.TypeConverter or System.Management.Automation.PSTypeConverter classes.
-
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: Type
@@ -537,12 +517,32 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TypeData
-Adds the specified type data to the session.
-Enter a variable that contains a TypeData object or a command that gets a TypeData object, such as a Get-TypeData command.
-You can also pipe a TypeData object to Update-TypeData.
+### $XxxxXxxxxxxxx
+Xxxxxxxxx x xxxx xxxxxxxxx xx xxxxxxx xxxxxx xxxxxxx xxxxxxxxx xxxxx.
+Xx x xxxx xxxxxxxxx xx xxxxxxx xxx x xxxx$ xx xxxxxxxx xx xxx xxxx xxxxxxxxx xx xxxx xxx xxx xxxxxxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxxx x Xxxxxx.Xxxx xxxxx xxxx xx xxxxxxx xxxx xxx Xxxxxx.XxxxxxxxxXxxxx.XxxxXxxxxxxxx xx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxXxxxxxxxx xxxxxxx.
+
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
+
+```yaml
+Type: Type
+Parameter Sets: DynamicTypeSet
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $XxxxXxxx
+Xxxx xxx xxxxxxxxx xxxx xxxx xx xxx xxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx x XxxxXxxx xxxxxx xx x xxxxxxx xxxx xxxx x XxxxXxxx xxxxxx$ xxxx xx x Xxx$XxxxXxxx xxxxxxx.
+Xxx xxx xxxx xxxx x XxxxXxxx xxxxxx xx Xxxxxx$XxxxXxxx.
+
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: TypeData[]
@@ -556,19 +556,19 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -TypeName
-Specifies the name of the type to extend.
+### $XxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xx xxxxxx.
 
-For types in the System namespace, enter the short name.
-Otherwise, the full type name is required.
-Wildcards are not supported.
+Xxx xxxxx xx xxx Xxxxxx xxxxxxxxx$ xxxxx xxx xxxxx xxxx.
+Xxxxxxxxx$ xxx xxxx xxxx xxxx xx xxxxxxxx.
+Xxxxxxxxx xxx xxx xxxxxxxxx.
 
-You can pipe type names to Update-TypeData.
-When you pipe an object to Update-TypeData, Update-TypeData gets the type name of the object and type data to the object type.
+Xxx xxx xxxx xxxx xxxxx xx Xxxxxx$XxxxXxxx.
+Xxxx xxx xxxx xx xxxxxx xx Xxxxxx$XxxxXxxx$ Xxxxxx$XxxxXxxx xxxx xxx xxxx xxxx xx xxx xxxxxx xxx xxxx xxxx xx xxx xxxxxx xxxx.
 
-Use this parameter with the MemberName, MemberType, Value and SecondValue parameters to add or change a property or method of a type.
+Xxx xxxx xxxxxxxxx xxxx xxx XxxxxxXxxx$ XxxxxxXxxx$ Xxxxx xxx XxxxxxXxxxx xxxxxxxxxx xx xxx xx xxxxxx x xxxxxxxx xx xxxxxx xx x xxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: String
@@ -582,14 +582,14 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Value
-Specifies the value of the property or method.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx xx xxx xxxxxxxx xx xxxxxx.
 
-If you add an AliasProperty, CodeProperty, ScriptProperty, or CodeMethod member, you can use the SecondValue parameter to add additional information..
+Xx xxx xxx xx XxxxxXxxxxxxx$ XxxxXxxxxxxx$ XxxxxxXxxxxxxx$ xx XxxxXxxxxx xxxxxx$ xxx xxx xxx xxx XxxxxxXxxxx xxxxxxxxx xx xxx xxxxxxxxxx xxxxxxxxxxx..
 
-Use this parameter with the MemberName, MemberType, Value and SecondValue parameters to add or change a property or method of a type.
+Xxx xxxx xxxxxxxxx xxxx xxx XxxxxxXxxx$ XxxxxxXxxx$ Xxxxx xxx XxxxxxXxxxx xxxxxxxxxx xx xxx xx xxxxxx x xxxxxxxx xx xxxxxx xx x xxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: Object
@@ -603,8 +603,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -618,10 +618,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -635,23 +635,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
-You can pipe a string that contains the values of the AppendPath, TypeName, or TypeData parameters to Update-TypeData.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx xxx xxxxxx xx xxx XxxxxxXxxx$ XxxxXxxx$ xx XxxxXxxx xxxxxxxxxx xx Xxxxxx$XxxxXxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-This cmdlet does not return any output.
+### Xxxx
+Xxxx xxxxxx xxxx xxx xxxxxx xxx xxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[about_Types.ps1xml]()
+[xxxxx$Xxxxx.xx0xxx]()
 
-[Get-TypeData]()
+[Xxx$XxxxXxxx]()
 
-[Remove-TypeData]()
+[Xxxxxx$XxxxXxxx]()
 

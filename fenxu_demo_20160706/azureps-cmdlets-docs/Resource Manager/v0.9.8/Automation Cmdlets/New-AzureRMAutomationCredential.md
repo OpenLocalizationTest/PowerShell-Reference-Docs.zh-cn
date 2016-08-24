@@ -6,23 +6,23 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureRMAutomationCredential
-## SYNOPSIS
-Creates an Automation credential.
+# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureRMAutomationCredential [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-Value] <PSCredential> [-Description <String>]
 ```
 
-## DESCRIPTION
-The **New-AzureRmAutomationCredential** cmdlet creates a credential as a **PSCredential** object in azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx$$ xxxxxx xxxxxxx x xxxxxxxxxx xx x $$XXXxxxxxxxxx$$ xxxxxx xx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a credential
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxxxx
 ```
 PS C:\>$User = "Contoso\PFuller"
 PS C:\> $Password = ConvertTo-SecureString "Password" -AsPlainText -Force
@@ -30,19 +30,19 @@ PS C:\> $Credential = New-Object -TypeName System.Management.Automation.PSCreden
 PS C:\> New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -Name "ContosoCredential" -Value $Credential -ResourceGroupName "ResourceGroup01"
 ```
 
-The first command assigns a user name to the $User variable.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxx xxxx xx xxx $Xxxx xxxxxxxx.
 
-The second command converts a plain text password into a secure string by using the ConvertTo-SecureString cmdlet.
-The command stores that object in the $Password variable.
+Xxx xxxxxx xxxxxxx xxxxxxxx x xxxxx xxxx xxxxxxxx xxxx x xxxxxx xxxxxx xx xxxxx xxx XxxxxxxXx$XxxxxxXxxxxx xxxxxx.
+Xxx xxxxxxx xxxxxx xxxx xxxxxx xx xxx $Xxxxxxxx xxxxxxxx.
 
-The third command creates a credential based on $User and $Password, and then stores it in the $Credential variable.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxxxxxxx xxxxx xx $Xxxx xxx $Xxxxxxxx$ xxx xxxx xxxxxx xx xx xxx $Xxxxxxxxxx xxxxxxxx.
 
-The final command creates an Automation credential named ContosoCredential that uses $Credential.
+Xxx xxxxx xxxxxxx xxxxxxx xx Xxxxxxxxxx xxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxx xxxx xxxx $Xxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account in which this cmdlet stores the credential.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxx xxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -56,8 +56,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Description
-Specifies a description for the credential.
+### $Xxxxxxxxxxx
+Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -71,8 +71,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies a name for the credential.
+### $Xxxx
+Xxxxxxxxx x xxxx xxx xxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -86,8 +86,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies a description for the resource group for which this cmdlet creates a credential.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -101,8 +101,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Value
-Specifies the credentials as a **PSCredential** object.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxxxxxxxx xx x $$XXXxxxxxxxxx$$ xxxxxx.
 
 ```yaml
 Type: PSCredential
@@ -116,20 +116,20 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.Azure.Commands.Automation.Model.CredentialInfo
+### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.XxxxxxxxxxXxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationCredential](ea09d4b6-ff25-4b91-b957-328222844689)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](ea09d4b6-ff25-4b91-b957-328222844689)
 
-[Remove-AzureRmAutomationCredential](6a171b2b-1fdc-4642-a3d5-495b39fa7cff)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](6a171b2b-1fdc-4642-a3d5-495b39fa7cff)
 
-[Set-AzureRmAutomationCredential](f0f039fd-2b0b-4993-8408-471e0f7ad10b)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](f0f039fd-2b0b-4993-8408-471e0f7ad10b)
 
 

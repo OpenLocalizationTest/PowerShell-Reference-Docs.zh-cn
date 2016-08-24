@@ -6,40 +6,40 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureRMAutomationCertificate
-## SYNOPSIS
-Creates an Automation certificate.
+# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxx
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureRMAutomationCertificate [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-Path] <String> [-Description <String>] [-Exportable] [-Password <SecureString>]
 ```
 
-## DESCRIPTION
-The **New-AzureRmAutomationCertificate** cmdlet creates a certificate in azure_2 Automation.
-Provide the path to a certificate file to upload.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx$$ xxxxxx xxxxxxx x xxxxxxxxxxx xx xxxxx$0 Xxxxxxxxxx.
+Xxxxxxx xxx xxxx xx x xxxxxxxxxxx xxxx xx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a new certificate
+### Xxxxxxx 0$ Xxxxxx x xxx xxxxxxxxxxx
 ```
 PS C:\>$Password = ConvertTo-SecureString -String "Password" -AsPlainText -Force
 PS C:\> New-AzureRmAutomationCertificate -AutomationAccountName "Contoso17" -Name "ContosoCertificate" -Path "./cert.pfx" -Password $Password -ResourceGroupName "ResourceGroup01"
 ```
 
-The first command converts a plain text password to be a secure string by using the ConvertTo-SecureString cmdlet.
-The command stores that object in the $Password variable.
+Xxx xxxxx xxxxxxx xxxxxxxx x xxxxx xxxx xxxxxxxx xx xx x xxxxxx xxxxxx xx xxxxx xxx XxxxxxxXx$XxxxxxXxxxxx xxxxxx.
+Xxx xxxxxxx xxxxxx xxxx xxxxxx xx xxx $Xxxxxxxx xxxxxxxx.
 
-The second command creates a certificate named ContosoCertificate.
-The command uses the password stored in $Password.
-The command specifies the account name and the path of the file that it uploads.
+Xxx xxxxxx xxxxxxx xxxxxxx x xxxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxxx.
+Xxx xxxxxxx xxxx xxx xxxxxxxx xxxxxx xx $Xxxxxxxx.
+Xxx xxxxxxx xxxxxxxxx xxx xxxxxxx xxxx xxx xxx xxxx xx xxx xxxx xxxx xx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account for which this cmdlet stores the certificate.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxx xxx xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -53,8 +53,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Description
-Specifies a description for the certificate.
+### $Xxxxxxxxxxx
+Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -68,8 +68,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Exportable
-Specifies whether the certificate can be exported.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxxxxxx xxx xxxxxxxxxxx xxx xx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -83,8 +83,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name for the certificate.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xxx xxx xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -98,8 +98,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Password
-Specifies the password for the certificate file.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xxx xxx xxxxxxxxxxx xxxx.
 
 ```yaml
 Type: SecureString
@@ -113,9 +113,9 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the path to a script file that this cmdlet uploads.
-The file can be a .cer or a .pfx file.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxx xxxx xxxx xxxx xxxxxx xxxxxxx.
+Xxx xxxx xxx xx x .xxx xx x .xxx xxxx.
 
 ```yaml
 Type: String
@@ -129,8 +129,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet creates a certificate.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -144,20 +144,20 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.Azure.Commands.Automation.Model.CertificateInfo
+### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.XxxxxxxxxxxXxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationCertificate](7e2d3105-ae14-40c6-a715-57d63c178cde)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx](7e2d3105-ae14-40c6-a715-57d63c178cde)
 
-[Remove-AzureRmAutomationCertificate](1ed3a0d7-541d-4a07-b0d6-4538f98450f7)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx](1ed3a0d7-541d-4a07-b0d6-4538f98450f7)
 
-[Set-AzureRmAutomationCertificate](77502783-0006-4288-917f-26f265ccfcbe)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx](77502783-0006-4288-917f-26f265ccfcbe)
 
 

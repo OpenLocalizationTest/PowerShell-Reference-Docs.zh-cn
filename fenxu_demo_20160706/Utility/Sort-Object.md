@@ -4,26 +4,26 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294017
 schema: 2.0.0
 ---
 
-# Sort-Object
-## SYNOPSIS
-Sorts objects by property values.
+# Xxxx$Xxxxxx
+## XXXXXXXX
+Xxxxx xxxxxxx xx xxxxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Sort-Object [-Descending] [-Unique] [-InputObject <PSObject>] [[-Property] <Object[]>] [-Culture <String>]
  [-CaseSensitive] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Sort-Object cmdlet sorts objects in ascending or descending order based on the values of properties of the object.
+## XXXXXXXXXXX
+Xxx Xxxx$Xxxxxx xxxxxx xxxxx xxxxxxx xx xxxxxxxxx xx xxxxxxxxxx xxxxx xxxxx xx xxx xxxxxx xx xxxxxxxxxx xx xxx xxxxxx.
 
-You can specify a single property or multiple properties (for a multi-key sort), and you can select a case-sensitive or case-insensitive sort.
-You can also direct Sort-Object to display only the objects with a unique value for a particular property.
+Xxx xxx xxxxxxx x xxxxxx xxxxxxxx xx xxxxxxxx xxxxxxxxxx $xxx x xxxxx$xxx xxxx$$ xxx xxx xxx xxxxxx x xxxx$xxxxxxxxx xx xxxx$xxxxxxxxxxx xxxx.
+Xxx xxx xxxx xxxxxx Xxxx$Xxxxxx xx xxxxxxx xxxx xxx xxxxxxx xxxx x xxxxxx xxxxx xxx x xxxxxxxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-childitem | sort-object
 
@@ -47,10 +47,10 @@ Mode                LastWriteTime     Length Name
 ...
 ```
 
-This command sorts the subdirectories and files in the current directory.
-Because no properties are specified, the files and directories are sorted in ascending alphabetical order by their default sort property, Name.
+Xxxx xxxxxxx xxxxx xxx xxxxxxxxxxxxxx xxx xxxxx xx xxx xxxxxxx xxxxxxxxx.
+Xxxxxxx xx xxxxxxxxxx xxx xxxxxxxxx$ xxx xxxxx xxx xxxxxxxxxxx xxx xxxxxx xx xxxxxxxxx xxxxxxxxxxxx xxxxx xx xxxxx xxxxxxx xxxx xxxxxxxx$ Xxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-childitem | sort-object -property length
 
@@ -67,9 +67,9 @@ Mode                LastWriteTime     Length Name
 -a---         7/29/2006   7:15 PM         84 test.ps1
 ```
 
-This command displays the files in the current directory in ascending order by file length.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxx xx xxx xxxxxxx xxxxxxxxx xx xxxxxxxxx xxxxx xx xxxx xxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | sort-object -property WS | select-object -last 5
 
@@ -82,14 +82,14 @@ Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName
 2145      58    93088      70680   619   396.69      3908 OUTLOOK
 ```
 
-This command displays the five processes on the computer with the greatest memory use based on the size of their working sets.
+Xxxx xxxxxxx xxxxxxxx xxx xxxx xxxxxxxxx xx xxx xxxxxxxx xxxx xxx xxxxxxxx xxxxxx xxx xxxxx xx xxx xxxx xx xxxxx xxxxxxx xxxx.
 
-The command uses the Get-Process cmdlet to get a list of processes.
-It uses a pipeline operator (|) to send the results to the Sort-Object cmdlet, which sorts the objects in working-set order.
+Xxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx x xxxx xx xxxxxxxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xx xxx Xxxx$Xxxxxx xxxxxx$ xxxxx xxxxx xxx xxxxxxx xx xxxxxxx$xxx xxxxx.
 
-Another pipeline operator sends the results to the Select-Object, which displays only the last five items in the list.
+Xxxxxxx xxxxxxxx xxxxxxxx xxxxx xxx xxxxxxx xx xxx Xxxxxx$Xxxxxx$ xxxxx xxxxxxxx xxxx xxx xxxx xxxx xxxxx xx xxx xxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-history | sort-object -descending
 
@@ -107,9 +107,9 @@ Id CommandLine
 42 gci *.txt
 ```
 
-This command sorts HistoryInfo objects using the Id property as the default key.
+Xxxx xxxxxxx xxxxx XxxxxxxXxxx xxxxxxx xxxxx xxx Xx xxxxxxxx xx xxx xxxxxxx xxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-service | sort-object -property @{Expression="Status";Descending=$true}, @{Expression="DisplayName";Descending=$false}
 
@@ -129,18 +129,18 @@ Stopped  ATI Smart          ATI Smart
 Stopped  ClipSrv            ClipBook
 ```
 
-This command displays the services on the computer in descending Status order and ascending DisplayName order.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxx xx xxx xxxxxxxx xx xxxxxxxxxx Xxxxxx xxxxx xxx xxxxxxxxx XxxxxxxXxxx xxxxx.
 
-The command uses the Get-Service cmdlet to get the services on the computer.
-It uses a pipeline operator (|) to send services to the Sort-Object cmdlet.
+Xxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxxx xx xxx xxxxxxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxxxxxxx xx xxx Xxxx$Xxxxxx xxxxxx.
 
-To sort one property in ascending order and another property in descending order, the command uses a hash table for the value of the Property parameter.
-The hash table uses an Expression key to specify the property name and an Ascending or Descending key to specify the sort order.
+Xx xxxx xxx xxxxxxxx xx xxxxxxxxx xxxxx xxx xxxxxxx xxxxxxxx xx xxxxxxxxxx xxxxx$ xxx xxxxxxx xxxx x xxxx xxxxx xxx xxx xxxxx xx xxx Xxxxxxxx xxxxxxxxx.
+Xxx xxxx xxxxx xxxx xx Xxxxxxxxxx xxx xx xxxxxxx xxx xxxxxxxx xxxx xxx xx Xxxxxxxxx xx Xxxxxxxxxx xxx xx xxxxxxx xxx xxxx xxxxx.
 
-The resulting display, which sorts the Status values in descending order, lists properties with a Status value of "Running" before those with a Status value of "Stopped".
-When sorted in ascending order, "Stopped" appears before "Running", because Status is an enumerated property in which the value of "Stopped" (1) is less than the value of "Running" (4).
+Xxx xxxxxxxxx xxxxxxx$ xxxxx xxxxx xxx Xxxxxx xxxxxx xx xxxxxxxxxx xxxxx$ xxxxx xxxxxxxxxx xxxx x Xxxxxx xxxxx xx $Xxxxxxx$ xxxxxx xxxxx xxxx x Xxxxxx xxxxx xx $Xxxxxxx$.
+Xxxx xxxxxx xx xxxxxxxxx xxxxx$ $Xxxxxxx$ xxxxxxx xxxxxx $Xxxxxxx$$ xxxxxxx Xxxxxx xx xx xxxxxxxxxx xxxxxxxx xx xxxxx xxx xxxxx xx $Xxxxxxx$ $0$ xx xxxx xxxx xxx xxxxx xx $Xxxxxxx$ $0$.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-childitem *.txt | sort-object -property @{Expression={$_.LastWriteTime - $_.CreationTime}; Ascending=$false} | Format-Table LastWriteTime, CreationTime
 
@@ -155,9 +155,9 @@ LastWriteTime                           CreationTime
 2/21/2006 10:21:30 AM                   2/21/2006 10:21:30 AM
 ```
 
-This command sorts text files in descending order by the time span between CreationTime and LastWriteTime.
+Xxxx xxxxxxx xxxxx xxxx xxxxx xx xxxxxxxxxx xxxxx xx xxx xxxx xxxx xxxxxxx XxxxxxxxXxxx xxx XxxxXxxxxXxxx.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-content servers.txt
 
@@ -176,14 +176,14 @@ server02
 test01
 ```
 
-These commands sort the names of servers in a text file.
-The second command uses the Sort-Object cmdlet with the Unique parameter to return a sorted list without duplicates.
+Xxxxx xxxxxxxx xxxx xxx xxxxx xx xxxxxxx xx x xxxx xxxx.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxx$Xxxxxx xxxxxx xxxx xxx Xxxxxx xxxxxxxxx xx xxxxxx x xxxxxx xxxx xxxxxxx xxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -CaseSensitive
-Indicates that the sort should be case sensitive.
-By default, sorting is not case sensitive.
+### $XxxxXxxxxxxxx
+Xxxxxxxxx xxxx xxx xxxx xxxxxx xx xxxx xxxxxxxxx.
+Xx xxxxxxx$ xxxxxxx xx xxx xxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -197,8 +197,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Culture
-Specifies the cultural configuration to use when sorting.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xxxxxxxxxxxxx xx xxx xxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -212,15 +212,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Descending
-Sorts the objects in descending order.
-The default is ascending order.
+### $Xxxxxxxxxx
+Xxxxx xxx xxxxxxx xx xxxxxxxxxx xxxxx.
+Xxx xxxxxxx xx xxxxxxxxx xxxxx.
 
-The Descending parameter applies to all properties.
-To sort by some properties in
+Xxx Xxxxxxxxxx xxxxxxxxx xxxxxxx xx xxx xxxxxxxxxx.
+Xx xxxx xx xxxx xxxxxxxxxx xx
 
-ascending order and others in descending order, you must specify their property values by using a hash table.
-For details, see the examples.
+xxxxxxxxx xxxxx xxx xxxxxx xx xxxxxxxxxx xxxxx$ xxx xxxx xxxxxxx xxxxx xxxxxxxx xxxxxx xx xxxxx x xxxx xxxxx.
+Xxx xxxxxxx$ xxx xxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -234,8 +234,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -250,8 +250,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -265,13 +265,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the objects to be sorted.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xx xxxxxx.
 
-When you use the InputObject parameter to submit a collection of items, Sort-Object receives one object that represents the collection.
-Because one object cannot be sorted, Sort-Object returns the entire collection unchanged.
+Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxx x xxxxxxxxxx xx xxxxx$ Xxxx$Xxxxxx xxxxxxxx xxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxxxxx.
+Xxxxxxx xxx xxxxxx xxxxxx xx xxxxxx$ Xxxx$Xxxxxx xxxxxxx xxx xxxxxx xxxxxxxxxx xxxxxxxxx.
 
-To sort objects, pipe them to Sort-Object.
+Xx xxxx xxxxxxx$ xxxx xxxx xx Xxxx$Xxxxxx.
 
 ```yaml
 Type: PSObject
@@ -285,25 +285,23 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Property
-Specifies the properties to use when sorting.
-Objects are sorted based on the values of these properties.
-Enter the names of the properties.
-Wildcards are permitted.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
+Xxxxxxx xxx xxxxxx xxxxx xx xxx xxxxxx xx xxxxx xxxxxxxxxx.
+Xxxxx xxx xxxxx xx xxx xxxxxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
 
-If you specify multiple properties, the objects are first sorted by the first property.
-If more than one object has the same value for the first property, those objects are sorted by the second property.
-This process continues until there are no more specified properties or no groups of objects.
+Xx xxx xxxxxxx xxxxxxxx xxxxxxxxxx$ xxx xxxxxxx xxx xxxxx xxxxxx xx xxx xxxxx xxxxxxxx.
+Xx xxxx xxxx xxx xxxxxx xxx xxx xxxx xxxxx xxx xxx xxxxx xxxxxxxx$ xxxxx xxxxxxx xxx xxxxxx xx xxx xxxxxx xxxxxxxx.
+Xxxx xxxxxxx xxxxxxxxx xxxxx xxxxx xxx xx xxxx xxxxxxxxx xxxxxxxxxx xx xx xxxxxx xx xxxxxxx.
 
-If you do not specify properties, the cmdlet sorts based on default properties for the object type.
+Xx xxx xx xxx xxxxxxx xxxxxxxxxx$ xxx xxxxxx xxxxx xxxxx xx xxxxxxx xxxxxxxxxx xxx xxx xxxxxx xxxx.
 
-The value of the Property parameter can be a calculated property.
-To create a calculated, property, use a hash table.
-Valid keys are:
+Xxx xxxxx xx xxx Xxxxxxxx xxxxxxxxx xxx xx x xxxxxxxxxx xxxxxxxx.
+Xx xxxxxx x xxxxxxxxxx$ xxxxxxxx$ xxx x xxxx xxxxx.
+Xxxxx xxxx xxx$
 
--- Expression \<string\> or \<script block\>
--- Ascending \<Boolean\>
--- Descending \<Boolean\>
+$$ Xxxxxxxxxx $$xxxxxx$$ xx $$xxxxxx xxxxx$$$$$ Xxxxxxxxx $$Xxxxxxx$$$$$ Xxxxxxxxxx $$Xxxxxxx\>
 
 ```yaml
 Type: Object[]
@@ -317,12 +315,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Unique
-Eliminates duplicates and returns only the unique members of the collection.
-You can use this parameter instead of using the Get-Unique cmdlet.
+### $Xxxxxx
+Xxxxxxxxxx xxxxxxxxxx xxx xxxxxxx xxxx xxx xxxxxx xxxxxxx xx xxx xxxxxxxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xxxxxxx xx xxxxx xxx Xxx$Xxxxxx xxxxxx.
 
-This parameter is case-insensitive.
-As a result, strings that differ only in character casing are considered to be the same (not unique).
+Xxxx xxxxxxxxx xx xxxx$xxxxxxxxxxx.
+Xx x xxxxxx$ xxxxxxx xxxx xxxxxx xxxx xx xxxxxxxxx xxxxxx xxx xxxxxxxxxx xx xx xxx xxxx $xxx xxxxxx$.
 
 ```yaml
 Type: SwitchParameter
@@ -336,30 +334,30 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe the objects to be sorted to Sort-Object.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxxx xx xx xxxxxx xx Xxxx$Xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.PSObject
-Sort-Object returns the sorted objects.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxxx$Xxxxxx xxxxxxx xxx xxxxxx xxxxxxx.
 
-## NOTES
-Sort-Object sorts objects based on the properties that you specify or the default sort properties for objects of that type.
+## XXXXX
+Xxxx$Xxxxxx xxxxx xxxxxxx xxxxx xx xxx xxxxxxxxxx xxxx xxx xxxxxxx xx xxx xxxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xx xxxx xxxx.
 
-If an object does not have one of the specified properties, the property value for that object is interpreted by the cmdlet as NULL and is placed at the end of the sort order.
+Xx xx xxxxxx xxxx xxx xxxx xxx xx xxx xxxxxxxxx xxxxxxxxxx$ xxx xxxxxxxx xxxxx xxx xxxx xxxxxx xx xxxxxxxxxxx xx xxx xxxxxx xx XXXX xxx xx xxxxxx xx xxx xxx xx xxx xxxx xxxxx.
 
-When sorting objects, Sort-Object uses the Compare method for each property.
-If a property does not implement IComparable, the cmdlet converts the property value to a string and uses the Compare method for System.String
+Xxxx xxxxxxx xxxxxxx$ Xxxx$Xxxxxx xxxx xxx Xxxxxxx xxxxxx xxx xxxx xxxxxxxx.
+Xx x xxxxxxxx xxxx xxx xxxxxxxxx XXxxxxxxxxx$ xxx xxxxxx xxxxxxxx xxx xxxxxxxx xxxxx xx x xxxxxx xxx xxxx xxx Xxxxxxx xxxxxx xxx Xxxxxx.Xxxxxx
 
-The Sort-Object cmdlet sorts objects in ascending or descending order based on the values of properties of the object.
+Xxx Xxxx$Xxxxxx xxxxxx xxxxx xxxxxxx xx xxxxxxxxx xx xxxxxxxxxx xxxxx xxxxx xx xxx xxxxxx xx xxxxxxxxxx xx xxx xxxxxx.
 
-If you sort on a property whose value is an enumeration, Sort-Object sorts the enumeration values in numeric order; it does not sort the enumeration member names.
-For example, if you sort services by status, services with a status of "Stopped" appear before services with a status of "Running", because the value of Status is a ServiceControllerStatus enumeration, in which "Stopped" has a value of 1 and "Running" has a value of 4.
+Xx xxx xxxx xx x xxxxxxxx xxxxx xxxxx xx xx xxxxxxxxxxx$ Xxxx$Xxxxxx xxxxx xxx xxxxxxxxxxx xxxxxx xx xxxxxxx xxxxx$ xx xxxx xxx xxxx xxx xxxxxxxxxxx xxxxxx xxxxx.
+Xxx xxxxxxx$ xx xxx xxxx xxxxxxxx xx xxxxxx$ xxxxxxxx xxxx x xxxxxx xx $Xxxxxxx$ xxxxxx xxxxxx xxxxxxxx xxxx x xxxxxx xx $Xxxxxxx$$ xxxxxxx xxx xxxxx xx Xxxxxx xx x XxxxxxxXxxxxxxxxxXxxxxx xxxxxxxxxxx$ xx xxxxx $Xxxxxxx$ xxx x xxxxx xx 0 xxx $Xxxxxxx$ xxx x xxxxx xx 0.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Group-Object]()
+[Xxxxx$Xxxxxx]()
 

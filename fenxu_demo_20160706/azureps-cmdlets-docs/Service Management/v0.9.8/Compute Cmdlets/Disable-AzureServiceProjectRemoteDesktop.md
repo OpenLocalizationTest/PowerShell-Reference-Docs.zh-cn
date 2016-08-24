@@ -6,34 +6,34 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Disable-AzureServiceProjectRemoteDesktop
-## SYNOPSIS
-Disables Remote Desktop access to a cloud service.
+# Xxxxxxx$XxxxxXxxxxxxXxxxxxxXxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxxx Xxxxxx Xxxxxxx xxxxxx xx x xxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Disable-AzureServiceProjectRemoteDesktop [-PassThru]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Disable-AzureServiceProjectRemoteDesktop disables remote desktop access to a hosted service.
-You must publish the service using the Publish-AzureServiceProject cmdlet after disabling Remote Desktop access for the change to take effect.
+Xxx Xxxxxxx$XxxxxXxxxxxxXxxxxxxXxxxxxXxxxxxx xxxxxxxx xxxxxx xxxxxxx xxxxxx xx x xxxxxx xxxxxxx.
+Xxx xxxx xxxxxxx xxx xxxxxxx xxxxx xxx Xxxxxxx$XxxxxXxxxxxxXxxxxxx xxxxxx xxxxx xxxxxxxxx Xxxxxx Xxxxxxx xxxxxx xxx xxx xxxxxx xx xxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -PassThru
-@{Text=}
+### $XxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -47,14 +47,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Enable-AzureServiceProjectRemoteDesktop](8d3f7f43-f8f6-4ecf-b8be-7c69cd10cde7)
+[Xxxxxx$XxxxxXxxxxxxXxxxxxxXxxxxxXxxxxxx](8d3f7f43-f8f6-4ecf-b8be-7c69cd10cde7)
 
 

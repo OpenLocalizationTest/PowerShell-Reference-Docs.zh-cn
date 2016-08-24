@@ -4,26 +4,26 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293973
 schema: 2.0.0
 ---
 
-# Get-PSCallStack
-## SYNOPSIS
-Displays the current call stack.
+# Xxx$XXXxxxXxxxx
+## XXXXXXXX
+Xxxxxxxx xxx xxxxxxx xxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-PSCallStack [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-PSCallStack cmdlet displays the current call stack.
+## XXXXXXXXXXX
+Xxx Xxx$XXXxxxXxxxx xxxxxx xxxxxxxx xxx xxxxxxx xxxx xxxxx.
 
-Although it is designed to be used with the Windows PowerShell debugger, you can use this cmdlet to display the call stack in a script or function outside of the debugger.
+Xxxxxxxx xx xx xxxxxxxx xx xx xxxx xxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxx$ xxx xxx xxx xxxx xxxxxx xx xxxxxxx xxx xxxx xxxxx xx x xxxxxx xx xxxxxxxx xxxxxxx xx xxx xxxxxxxx.
 
-To run a Get-PSCallStack command while in the debugger, type "k" or "get-pscallstack".
+Xx xxx x Xxx$XXXxxxXxxxx xxxxxxx xxxxx xx xxx xxxxxxxx$ xxxx $x$ xx $xxx$xxxxxxxxxxx$.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>function my-alias {
 $p = $args[0]
@@ -62,26 +62,26 @@ Get-Content cat
 Get-Content type
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This command uses the Get-PSCallStack cmdlet to display the call stack for My-Alias, a simple function that gets the aliases for a cmdlet name.
+Xxxx xxxxxxx xxxx xxx Xxx$XXXxxxXxxxx xxxxxx xx xxxxxxx xxx xxxx xxxxx xxx Xx$Xxxxx$ x xxxxxx xxxxxxxx xxxx xxxx xxx xxxxxxx xxx x xxxxxx xxxx.
 
-The first command enters the function at the Windows PowerShell prompt.
-The second command uses the Set-PSBreakpoint cmdlet to set a breakpoint on the My-Alias function.
-The third command uses the My-Alias function to get all of the aliases in the current session for the Get-Content cmdlet.
+Xxx xxxxx xxxxxxx xxxxxx xxx xxxxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxx.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxx$XXXxxxxxxxxx xxxxxx xx xxx x xxxxxxxxxx xx xxx Xx$Xxxxx xxxxxxxx.
+Xxx xxxxx xxxxxxx xxxx xxx Xx$Xxxxx xxxxxxxx xx xxx xxx xx xxx xxxxxxx xx xxx xxxxxxx xxxxxxx xxx xxx Xxx$Xxxxxxx xxxxxx.
 
-The debugger breaks in at the function call.
-Two consecutive step-into (s) commands begin executing the function line by line.
-Then, a Get-PSCallStack command is used to retrieve the call stack.
+Xxx xxxxxxxx xxxxxx xx xx xxx xxxxxxxx xxxx.
+Xxx xxxxxxxxxxx xxxx$xxxx $x$ xxxxxxxx xxxxx xxxxxxxxx xxx xxxxxxxx xxxx xx xxxx.
+Xxxx$ x Xxx$XXXxxxXxxxx xxxxxxx xx xxxx xx xxxxxxxx xxx xxxx xxxxx.
 
-The final command is a Step-Out command (o) that exits the debugger and continues executing the script to completion.
+Xxx xxxxx xxxxxxx xx x Xxxx$Xxx xxxxxxx $x$ xxxx xxxxx xxx xxxxxxxx xxx xxxxxxxxx xxxxxxxxx xxx xxxxxx xx xxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -96,8 +96,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -111,29 +111,29 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe objects to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.CallStackFrame
-Get-PSCallStack returns an object that represents the items in the call stack.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxXxxxxXxxxx
+Xxx$XXXxxxXxxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxx xx xxx xxxx xxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Disable-PSBreakpoint]()
+[Xxxxxxx$XXXxxxxxxxxx]()
 
-[Enable-PSBreakpoint]()
+[Xxxxxx$XXXxxxxxxxxx]()
 
-[Get-PSBreakpoint]()
+[Xxx$XXXxxxxxxxxx]()
 
-[Remove-PSBreakpoint]()
+[Xxxxxx$XXXxxxxxxxxx]()
 
-[Set-PSBreakpoint]()
+[Xxx$XXXxxxxxxxxx]()
 
-[about_Debuggers]()
+[xxxxx$Xxxxxxxxx]()
 

@@ -4,51 +4,51 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293967
 schema: 2.0.0
 ---
 
-# Get-Event
-## SYNOPSIS
-Gets the events in the event queue.
+# Xxx$Xxxxx
+## XXXXXXXX
+Xxxx xxx xxxxxx xx xxx xxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### BySource (Default)
+### XxXxxxxx $Xxxxxxx$
 ```
 Get-Event [[-SourceIdentifier] <String>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### ById
+### XxXx
 ```
 Get-Event [-EventIdentifier] <Int32> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Get-Event cmdlet gets events in the Windows PowerShell event queue for the current session.
-You can get all events or use the EventIdentifier or SourceIdentifier parameters to specify the events.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxx xxxxxx xxxx xxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxx xxxxx xxx xxx xxxxxxx xxxxxxx.
+Xxx xxx xxx xxx xxxxxx xx xxx xxx XxxxxXxxxxxxxxx xx XxxxxxXxxxxxxxxx xxxxxxxxxx xx xxxxxxx xxx xxxxxx.
 
-When an event occurs, it is added to the event queue.
-The event queue includes events for which you have registered, events created by using the New-Event cmdlet, and the event that is raised when Windows PowerShell exits.
-You can use Get-Event or Wait-Event to get the events.
+Xxxx xx xxxxx xxxxxx$ xx xx xxxxx xx xxx xxxxx xxxxx.
+Xxx xxxxx xxxxx xxxxxxxx xxxxxx xxx xxxxx xxx xxxx xxxxxxxxxx$ xxxxxx xxxxxxx xx xxxxx xxx Xxx$Xxxxx xxxxxx$ xxx xxx xxxxx xxxx xx xxxxxx xxxx Xxxxxxx XxxxxXxxxx xxxxx.
+Xxx xxx xxx Xxx$Xxxxx xx Xxxx$Xxxxx xx xxx xxx xxxxxx.
 
-This cmdlet does not get events from the Event Viewer logs.
-To get those events, use Get-WinEvent or Get-EventLog.
+Xxxx xxxxxx xxxx xxx xxx xxxxxx xxxx xxx Xxxxx Xxxxxx xxxx.
+Xx xxx xxxxx xxxxxx$ xxx Xxx$XxxXxxxx xx Xxx$XxxxxXxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-event
 ```
 
-This command gets all events in the event queue.
+Xxxx xxxxxxx xxxx xxx xxxxxx xx xxx xxxxx xxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-event -sourceIdentifier "PowerShell.ProcessCreated"
 ```
 
-This command gets events in which the value of the SourceIdentifier property is "PowerShell.ProcessCreated".
+Xxxx xxxxxxx xxxx xxxxxx xx xxxxx xxx xxxxx xx xxx XxxxxxXxxxxxxxxx xxxxxxxx xx $XxxxxXxxxx.XxxxxxxXxxxxxx$.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$events = get-event
 PS C:\>$events[0] | format-list -property *
@@ -76,29 +76,29 @@ TimeGenerated    : 11/13/2008 12:15:00 PM
 MessageData      :
 ```
 
-This example shows how to get events by using properties other than SourceIdentifier.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxxxxx xx xxxxx xxxxxxxxxx xxxxx xxxx XxxxxxXxxxxxxxxx.
 
-The first command gets all events in the event queue and saves them in the $events variable.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxx xx xxx xxxxx xxxxx xxx xxxxx xxxx xx xxx $xxxxxx xxxxxxxx.
 
-The second command uses array notation to get the first (0-index) event in the array in the $events variable.
-The command uses a pipeline operator (|) to send the event to the Format-List command, which displays all properties of the event in a list.
-This allows you to examine the properties of the event object.
+Xxx xxxxxx xxxxxxx xxxx xxxxx xxxxxxxx xx xxx xxx xxxxx $0$xxxxx$ xxxxx xx xxx xxxxx xx xxx $xxxxxx xxxxxxxx.
+Xxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxx xx xxx Xxxxxx$Xxxx xxxxxxx$ xxxxx xxxxxxxx xxx xxxxxxxxxx xx xxx xxxxx xx x xxxx.
+Xxxx xxxxxx xxx xx xxxxxxx xxx xxxxxxxxxx xx xxx xxxxx xxxxxx.
 
-The third command shows how to use the Where-Object cmdlet to get an event
+Xxx xxxxx xxxxxxx xxxxx xxx xx xxx xxx Xxxxx$Xxxxxx xxxxxx xx xxx xx xxxxx
 
-based on the time that it was generated.
+xxxxx xx xxx xxxx xxxx xx xxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-event -eventIdentifier 2
 ```
 
-This command gets the event with an event identifier of 2.
+Xxxx xxxxxxx xxxx xxx xxxxx xxxx xx xxxxx xxxxxxxxxx xx 0.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -EventIdentifier
-Gets only the events with the specified event identifier.
+### $XxxxxXxxxxxxxxx
+Xxxx xxxx xxx xxxxxx xxxx xxx xxxxxxxxx xxxxx xxxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -112,8 +112,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -128,8 +128,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -143,10 +143,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SourceIdentifier
-Gets only events with the specified source identifier.
-The default is all events in the event queue.
-Wildcards are not permitted.
+### $XxxxxxXxxxxxxxxx
+Xxxx xxxx xxxxxx xxxx xxx xxxxxxxxx xxxxxx xxxxxxxxxx.
+Xxx xxxxxxx xx xxx xxxxxx xx xxx xxxxx xxxxx.
+Xxxxxxxxx xxx xxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -160,46 +160,46 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.Management.Automation.PSEventArgs
-Get-Event returns a PSEventArgs object for each event.
-To see a description of this object, type "get-help get-event -full" and see the Notes section of the help topic.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxx
+Xxx$Xxxxx xxxxxxx x XXXxxxxXxxx xxxxxx xxx xxxx xxxxx.
+Xx xxx x xxxxxxxxxxx xx xxxx xxxxxx$ xxxx $xxx$xxxx xxx$xxxxx $xxxx$ xxx xxx xxx Xxxxx xxxxxxx xx xxx xxxx xxxxx.
 
-## NOTES
-Events, event subscriptions, and the event queue exist only in the current session.
-If you close the current session, the event queue is discarded and the event subscription is canceled.
+## XXXXX
+Xxxxxx$ xxxxx xxxxxxxxxxxxx$ xxx xxx xxxxx xxxxx xxxxx xxxx xx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxx xxx xxxxxxx xxxxxxx$ xxx xxxxx xxxxx xx xxxxxxxxx xxx xxx xxxxx xxxxxxxxxxxx xx xxxxxxxx.
 
-The Get-Event cmdlet returns a PSEventArgs object (System.Management.Automation.PSEventArgs) with the following properties.
+Xxx Xxx$Xxxxx xxxxxx xxxxxxx x XXXxxxxXxxx xxxxxx $Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxx$ xxxx xxx xxxxxxxxx xxxxxxxxxx.
 
--- ComputerName:  The name of the computer on which the event occurred. This property value is populated only when the event is forwarded from a remote computer.
--- RunspaceId:  A GUID that uniquely identifies the session in which the event occurred. This property value is populated only when the event is forwarded from a remote computer.
--- EventIdentifier: An integer (Int32) that uniquely identifies the event notification in the current session.
--- Sender: The object that generated the event. In the value of the Action parameter, the $Sender automatic variable contains the sender object.
--- SourceEventArgs: The first parameter that derives from EventArgs, if it exists. For example, in a timer elapsed event in which the signature has the form "Object sender, Timers.ElapsedEventArgs e", the SourceEventArgs property would contain the Timers.ElapsedEventArgs. In the value of the Action parameter, the $EventArgs automatic variable contains this value.
--- SourceArgs: All parameters of the original event signature. For a standard event signature, $Args\[0\] represents the sender, and $Args\[1\] represents the SourceEventArgs. In the value of the Action parameter, the $Args automatic variable contains this value.
--- SourceIdentifier:  A string that identifies the event subscription. In the value of the Action parameter, the SourceIdentifier property of the $Event automatic variable contains this value.
--- TimeGenerated: A DateTime object that represents the time at which the event was generated. In the value of the Action parameter, the TimeGenerated property of the $Event automatic variable contains this value.
---MessageData: Data associated with the event subscription. Users specify this data when they register an event. In the value of the Action parameter, the MessageData property of the $Event automatic variable contains this value.
+$$ XxxxxxxxXxxx$  Xxx xxxx xx xxx xxxxxxxx xx xxxxx xxx xxxxx xxxxxxxx. Xxxx xxxxxxxx xxxxx xx xxxxxxxxx xxxx xxxx xxx xxxxx xx xxxxxxxxx xxxx x xxxxxx xxxxxxxx.
+$$ XxxxxxxxXx$  X XXXX xxxx xxxxxxxx xxxxxxxxxx xxx xxxxxxx xx xxxxx xxx xxxxx xxxxxxxx. Xxxx xxxxxxxx xxxxx xx xxxxxxxxx xxxx xxxx xxx xxxxx xx xxxxxxxxx xxxx x xxxxxx xxxxxxxx.
+$$ XxxxxXxxxxxxxxx$ Xx xxxxxxx $Xxx00$ xxxx xxxxxxxx xxxxxxxxxx xxx xxxxx xxxxxxxxxxxx xx xxx xxxxxxx xxxxxxx.
+$$ Xxxxxx$ Xxx xxxxxx xxxx xxxxxxxxx xxx xxxxx. Xx xxx xxxxx xx xxx Xxxxxx xxxxxxxxx$ xxx $Xxxxxx xxxxxxxxx xxxxxxxx xxxxxxxx xxx xxxxxx xxxxxx.
+$$ XxxxxxXxxxxXxxx$ Xxx xxxxx xxxxxxxxx xxxx xxxxxxx xxxx XxxxxXxxx$ xx xx xxxxxx. Xxx xxxxxxx$ xx x xxxxx xxxxxxx xxxxx xx xxxxx xxx xxxxxxxxx xxx xxx xxxx $Xxxxxx xxxxxx$ Xxxxxx.XxxxxxxXxxxxXxxx x$$ xxx XxxxxxXxxxxXxxx xxxxxxxx xxxxx xxxxxxx xxx Xxxxxx.XxxxxxxXxxxxXxxx. Xx xxx xxxxx xx xxx Xxxxxx xxxxxxxxx$ xxx $XxxxxXxxx xxxxxxxxx xxxxxxxx xxxxxxxx xxxx xxxxx.
+$$ XxxxxxXxxx$ Xxx xxxxxxxxxx xx xxx xxxxxxxx xxxxx xxxxxxxxx. Xxx x xxxxxxxx xxxxx xxxxxxxxx$ $Xxxx$$0$$ xxxxxxxxxx xxx xxxxxx$ xxx $Xxxx$$0$$ xxxxxxxxxx xxx XxxxxxXxxxxXxxx. Xx xxx xxxxx xx xxx Xxxxxx xxxxxxxxx$ xxx $Xxxx xxxxxxxxx xxxxxxxx xxxxxxxx xxxx xxxxx.
+$$ XxxxxxXxxxxxxxxx$  X xxxxxx xxxx xxxxxxxxxx xxx xxxxx xxxxxxxxxxxx. Xx xxx xxxxx xx xxx Xxxxxx xxxxxxxxx$ xxx XxxxxxXxxxxxxxxx xxxxxxxx xx xxx $Xxxxx xxxxxxxxx xxxxxxxx xxxxxxxx xxxx xxxxx.
+$$ XxxxXxxxxxxxx$ X XxxxXxxx xxxxxx xxxx xxxxxxxxxx xxx xxxx xx xxxxx xxx xxxxx xxx xxxxxxxxx. Xx xxx xxxxx xx xxx Xxxxxx xxxxxxxxx$ xxx XxxxXxxxxxxxx xxxxxxxx xx xxx $Xxxxx xxxxxxxxx xxxxxxxx xxxxxxxx xxxx xxxxx.
+$$XxxxxxxXxxx$ Xxxx xxxxxxxxxx xxxx xxx xxxxx xxxxxxxxxxxx. Xxxxx xxxxxxx xxxx xxxx xxxx xxxx xxxxxxxx xx xxxxx. Xx xxx xxxxx xx xxx Xxxxxx xxxxxxxxx$ xxx XxxxxxxXxxx xxxxxxxx xx xxx $Xxxxx xxxxxxxxx xxxxxxxx xxxxxxxx xxxx xxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-Event]()
+[Xxx$Xxxxx]()
 
-[Register-EngineEvent]()
+[Xxxxxxxx$XxxxxxXxxxx]()
 
-[Register-ObjectEvent]()
+[Xxxxxxxx$XxxxxxXxxxx]()
 
-[Register-WmiEvent]()
+[Xxxxxxxx$XxxXxxxx]()
 
-[Remove-Event]()
+[Xxxxxx$Xxxxx]()
 
-[Unregister-Event]()
+[Xxxxxxxxxx$Xxxxx]()
 
-[Wait-Event]()
+[Xxxx$Xxxxx]()
 

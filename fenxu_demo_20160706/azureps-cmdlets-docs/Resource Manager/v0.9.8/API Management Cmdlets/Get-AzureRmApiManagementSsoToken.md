@@ -6,47 +6,32 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureRmApiManagementSsoToken
-## SYNOPSIS
-Gets a link with an SSO token to a deployed management portal of an API Management service.
+# Xxx$XxxxxXxXxxXxxxxxxxxxXxxXxxxx
+## XXXXXXXX
+Xxxx x xxxx xxxx xx XXX xxxxx xx x xxxxxxxx xxxxxxxxxx xxxxxx xx xx XXX Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureRmApiManagementSsoToken -Name <String> -ResourceGroupName <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmApiManagementSsoToken** cmdlet returns a link (URL) containing a single sign-on (SSO) token to a deployed management portal of an API Management service.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxXxxxxxxxxxXxxXxxxx$$ xxxxxx xxxxxxx x xxxx $XXX$ xxxxxxxxxx x xxxxxx xxxx$xx $XXX$ xxxxx xx x xxxxxxxx xxxxxxxxxx xxxxxx xx xx XXX Xxxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get the SSO token of an API Management service
+### Xxxxxxx 0$ Xxx xxx XXX xxxxx xx xx XXX Xxxxxxxxxx xxxxxxx
 ```
 PS C:\>Get-AzureRmApiManagementSsoToken -ResourceGroupName "Contoso" -Name "ContosoApi"
 ```
 
-This command gets the SSO token of an API Management service.
+Xxxx xxxxxxx xxxx xxx XXX xxxxx xx xx XXX Xxxxxxxxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Name
-Specifies the name of the API Management instance.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True(ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Specifies the name of resource group under which API Management exists.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx XXX Xxxxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -60,14 +45,29 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxxxxx xxxxx xxxxx xxxxx XXX Xxxxxxxxxx xxxxxx.
 
-## OUTPUTS
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
 
-## NOTES
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True(ByPropertyName)
+Accept wildcard characters: False
+```
 
-## RELATED LINKS
+## XXXXXX
 
-[Get-AzureRmApiManagement](e067ded3-a2e3-4d53-8628-0ebbafa62721)
+## XXXXXXX
+
+## XXXXX
+
+## XXXXXXX XXXXX
+
+[Xxx$XxxxxXxXxxXxxxxxxxxx](e067ded3-a2e3-4d53-8628-0ebbafa62721)
 
 

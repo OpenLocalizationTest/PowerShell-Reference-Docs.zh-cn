@@ -4,39 +4,39 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294033
 schema: 2.0.0
 ---
 
-# Write-Warning
-## SYNOPSIS
-Writes a warning message.
+# Xxxxx$Xxxxxxx
+## XXXXXXXX
+Xxxxxx x xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Write-Warning [-Message] <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Write-Warning cmdlet writes a warning message to the Windows PowerShell host.
-The response to the warning depends on the value of the user's $WarningPreference variable and the use of the WarningAction common parameter.
+## XXXXXXXXXXX
+Xxx Xxxxx$Xxxxxxx xxxxxx xxxxxx x xxxxxxx xxxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxx.
+Xxx xxxxxxxx xx xxx xxxxxxx xxxxxxx xx xxx xxxxx xx xxx xxxx$x $XxxxxxxXxxxxxxxxx xxxxxxxx xxx xxx xxx xx xxx XxxxxxxXxxxxx xxxxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>write-warning "This is only a test warning."
 ```
 
-This command displays the message "WARNING: This is only a test warning."
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxx $XXXXXXX$ Xxxx xx xxxx x xxxx xxxxxxx.$
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$w = "This is only a test warning."
 PS C:\>$w | write-warning
 ```
 
-This example shows that you can use a pipeline operator (|) to send a string to Write-Warning.
-You can save the string in a variable, as shown in this command, or pipe the string directly to Write-Warning.
+Xxxx xxxxxxx xxxxx xxxx xxx xxx xxx x xxxxxxxx xxxxxxxx $$$ xx xxxx x xxxxxx xx Xxxxx$Xxxxxxx.
+Xxx xxx xxxx xxx xxxxxx xx x xxxxxxxx$ xx xxxxx xx xxxx xxxxxxx$ xx xxxx xxx xxxxxx xxxxxxxx xx Xxxxx$Xxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$warningpreference
 Continue
@@ -56,18 +56,18 @@ At line:1 char:14
      + write-warning <<<<  "This is only a test message."
 ```
 
-This example shows the effect of the value of the $WarningPreference variable on a Write-Warning command.
+Xxxx xxxxxxx xxxxx xxx xxxxxx xx xxx xxxxx xx xxx $XxxxxxxXxxxxxxxxx xxxxxxxx xx x Xxxxx$Xxxxxxx xxxxxxx.
 
-The first command displays the default value of the $WarningPreference variable, which is "Continue".
-As a result, when you write a warning, the warning message is displayed and execution continues.
+Xxx xxxxx xxxxxxx xxxxxxxx xxx xxxxxxx xxxxx xx xxx $XxxxxxxXxxxxxxxxx xxxxxxxx$ xxxxx xx $Xxxxxxxx$.
+Xx x xxxxxx$ xxxx xxx xxxxx x xxxxxxx$ xxx xxxxxxx xxxxxxx xx xxxxxxxxx xxx xxxxxxxxx xxxxxxxxx.
 
-When you change the value of the $WarningPreference variable, the effect of the Write-Warning command changes again.
-A value of "SilentlyContinue" suppresses the warning.
-A value of "Stop" displays the warning and then stops execution of the command.
+Xxxx xxx xxxxxx xxx xxxxx xx xxx $XxxxxxxXxxxxxxxxx xxxxxxxx$ xxx xxxxxx xx xxx Xxxxx$Xxxxxxx xxxxxxx xxxxxxx xxxxx.
+X xxxxx xx $XxxxxxxxXxxxxxxx$ xxxxxxxxxx xxx xxxxxxx.
+X xxxxx xx $Xxxx$ xxxxxxxx xxx xxxxxxx xxx xxxx xxxxx xxxxxxxxx xx xxx xxxxxxx.
 
-For more information about the $WarningPreference variable, see about_Preference_Variables.
+Xxx xxxx xxxxxxxxxxx xxxxx xxx $XxxxxxxXxxxxxxxxx xxxxxxxx$ xxx xxxxx$Xxxxxxxxxx$Xxxxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>write-warning "This is only a test warning." -warningaction Inquire
 
@@ -77,19 +77,19 @@ Continue with this operation?
 [Y] Yes  [A] Yes to All  [H] Halt Command  [S] Suspend  [?] Help (default is "Y"):
 ```
 
-This example shows the effect of the WarningAction common parameter on a Write-Warning command.
-You can use the WarningAction common parameter with any cmdlet to determine how Windows PowerShell responds to warnings resulting from that command.
-The WarningAction common parameter overrides the value of the $WarningPreference only for that particular command.
+Xxxx xxxxxxx xxxxx xxx xxxxxx xx xxx XxxxxxxXxxxxx xxxxxx xxxxxxxxx xx x Xxxxx$Xxxxxxx xxxxxxx.
+Xxx xxx xxx xxx XxxxxxxXxxxxx xxxxxx xxxxxxxxx xxxx xxx xxxxxx xx xxxxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxx xx xxxxxxxx xxxxxxxxx xxxx xxxx xxxxxxx.
+Xxx XxxxxxxXxxxxx xxxxxx xxxxxxxxx xxxxxxxxx xxx xxxxx xx xxx $XxxxxxxXxxxxxxxxx xxxx xxx xxxx xxxxxxxxxx xxxxxxx.
 
-This command uses the Write-Warning cmdlet to display a warning.
-The WarningAction common parameter with a value of "Inquire" directs the system to prompt the user when the command displays a warning.
+Xxxx xxxxxxx xxxx xxx Xxxxx$Xxxxxxx xxxxxx xx xxxxxxx x xxxxxxx.
+Xxx XxxxxxxXxxxxx xxxxxx xxxxxxxxx xxxx x xxxxx xx $Xxxxxxx$ xxxxxxx xxx xxxxxx xx xxxxxx xxx xxxx xxxx xxx xxxxxxx xxxxxxxx x xxxxxxx.
 
-For more information about the WarningAction common parameter, see about_CommonParameters.
+Xxx xxxx xxxxxxxxxxx xxxxx xxx XxxxxxxXxxxxx xxxxxx xxxxxxxxx$ xxx xxxxx$XxxxxxXxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -104,8 +104,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -119,8 +119,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Message
-Specifies the warning message.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -134,37 +134,37 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
-You can pipe a string that contains the warning to Write-Warning.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx xxx xxxxxxx xx Xxxxx$Xxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-Write-Warning writes only to the warning stream.
-It does not generate any other output.
+### Xxxx
+Xxxxx$Xxxxxxx xxxxxx xxxx xx xxx xxxxxxx xxxxxx.
+Xx xxxx xxx xxxxxxxx xxx xxxxx xxxxxx.
 
-## NOTES
-The default value for the $WarningPreference variable is "Continue", which displays the warning and then continues executing the command.
-To determine valid values for a preference variable such as $WarningPreference, set it to a string of random characters, such as "abc".
-The resulting error message will list the valid values.
+## XXXXX
+Xxx xxxxxxx xxxxx xxx xxx $XxxxxxxXxxxxxxxxx xxxxxxxx xx $Xxxxxxxx$$ xxxxx xxxxxxxx xxx xxxxxxx xxx xxxx xxxxxxxxx xxxxxxxxx xxx xxxxxxx.
+Xx xxxxxxxxx xxxxx xxxxxx xxx x xxxxxxxxxx xxxxxxxx xxxx xx $XxxxxxxXxxxxxxxxx$ xxx xx xx x xxxxxx xx xxxxxx xxxxxxxxxx$ xxxx xx $xxx$.
+Xxx xxxxxxxxx xxxxx xxxxxxx xxxx xxxx xxx xxxxx xxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Write-Debug]()
+[Xxxxx$Xxxxx]()
 
-[Write-Error]()
+[Xxxxx$Xxxxx]()
 
-[Write-Host]()
+[Xxxxx$Xxxx]()
 
-[Write-Output]()
+[Xxxxx$Xxxxxx]()
 
-[Write-Progress]()
+[Xxxxx$Xxxxxxxx]()
 
-[Write-Verbose]()
+[Xxxxx$Xxxxxxx]()
 
-[about_CommonParameters]()
+[xxxxx$XxxxxxXxxxxxxxxx]()
 
-[about_Preference_Variables]()
+[xxxxx$Xxxxxxxxxx$Xxxxxxxxx]()
 

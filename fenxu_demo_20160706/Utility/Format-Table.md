@@ -4,11 +4,11 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293962
 schema: 2.0.0
 ---
 
-# Format-Table
-## SYNOPSIS
-Formats the output as a table.
+# Xxxxxx$Xxxxx
+## XXXXXXXX
+Xxxxxxx xxx xxxxxx xx x xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Format-Table [-AutoSize] [-HideTableHeaders] [-Wrap] [[-Property] <Object[]>] [-GroupBy <Object>]
@@ -16,112 +16,112 @@ Format-Table [-AutoSize] [-HideTableHeaders] [-Wrap] [[-Property] <Object[]>] [-
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Format-Table cmdlet formats the output of a command as a table with the selected properties of the object in each column.
-The object type determines the default layout and properties that are displayed in each column, but you can use the Property parameter to select the properties that you want to see.
+## XXXXXXXXXXX
+Xxx Xxxxxx$Xxxxx xxxxxx xxxxxxx xxx xxxxxx xx x xxxxxxx xx x xxxxx xxxx xxx xxxxxxxx xxxxxxxxxx xx xxx xxxxxx xx xxxx xxxxxx.
+Xxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xxxxxx xxx xxxxxxxxxx xxxx xxx xxxxxxxxx xx xxxx xxxxxx$ xxx xxx xxx xxx xxx Xxxxxxxx xxxxxxxxx xx xxxxxx xxx xxxxxxxxxx xxxx xxx xxxx xx xxx.
 
-You can also use a hash table to add calculated properties to an object before displaying it and to specify the column headings in the table.
-To add a calculated property, use the Property or GroupBy parameters.
+Xxx xxx xxxx xxx x xxxx xxxxx xx xxx xxxxxxxxxx xxxxxxxxxx xx xx xxxxxx xxxxxx xxxxxxxxxx xx xxx xx xxxxxxx xxx xxxxxx xxxxxxxx xx xxx xxxxx.
+Xx xxx x xxxxxxxxxx xxxxxxxx$ xxx xxx Xxxxxxxx xx XxxxxXx xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-pssnapin | format-table -auto
 ```
 
-This command formats information about Windows PowerShell snap-ins in a table.
-By default, they are formatted in a list.
-The Get-PSSnapin cmdlet gets objects representing the snap-ins.
-The pipeline operator (|) passes the object to the Format-Table command.
-Format-Table formats the objects in a table.
-The Autosize parameter adjusts the column widths to minimize truncation.
+Xxxx xxxxxxx xxxxxxx xxxxxxxxxxx xxxxx Xxxxxxx XxxxxXxxxx xxxx$xxx xx x xxxxx.
+Xx xxxxxxx$ xxxx xxx xxxxxxxxx xx x xxxx.
+Xxx Xxx$XXXxxxxx xxxxxx xxxx xxxxxxx xxxxxxxxxxxx xxx xxxx$xxx.
+Xxx xxxxxxxx xxxxxxxx $$$ xxxxxx xxx xxxxxx xx xxx Xxxxxx$Xxxxx xxxxxxx.
+Xxxxxx$Xxxxx xxxxxxx xxx xxxxxxx xx x xxxxx.
+Xxx Xxxxxxxx xxxxxxxxx xxxxxxx xxx xxxxxx xxxxxx xx xxxxxxxx xxxxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | sort-object -property basepriority | format-table -groupby basepriority -wrap
 ```
 
-This command displays the processes on the computer in groups with the same base priority.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xx xxxxxx xxxx xxx xxxx xxxx xxxxxxxx.
 
-The Get-Process cmdlet gets objects representing each process on the computer.
-The pipeline operator (|) passes the object to the Sort-Object cmdlet, which sorts the objects in order of their base priority.
+Xxx Xxx$Xxxxxxx xxxxxx xxxx xxxxxxx xxxxxxxxxxxx xxxx xxxxxxx xx xxx xxxxxxxx.
+Xxx xxxxxxxx xxxxxxxx $$$ xxxxxx xxx xxxxxx xx xxx Xxxx$Xxxxxx xxxxxx$ xxxxx xxxxx xxx xxxxxxx xx xxxxx xx xxxxx xxxx xxxxxxxx.
 
-Another pipeline operator passes the results to the Format-Table cmdlet.
-The GroupBy parameter arranges the data about the processes into groups based on the value of their BasePriority property.
-The Wrap parameter ensures that data is not truncated.
+Xxxxxxx xxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxx xx xxx Xxxxxx$Xxxxx xxxxxx.
+Xxx XxxxxXx xxxxxxxxx xxxxxxxx xxx xxxx xxxxx xxx xxxxxxxxx xxxx xxxxxx xxxxx xx xxx xxxxx xx xxxxx XxxxXxxxxxxx xxxxxxxx.
+Xxx Xxxx xxxxxxxxx xxxxxxx xxxx xxxx xx xxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | sort-object starttime | format-table -view starttime
 ```
 
-This command displays information about the processes on the computer in group based on the start date of the process.
-It uses the Get-Process cmdlet to get objects representing the processes on the computer.
-The pipeline operator (|) sends the output of Get-Process to the Sort-Object cmdlet, which sorts it based on the StartTime property.
-Another pipeline operator sends the sorted results to Format-Table.
+Xxxx xxxxxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xx xxxxx xxxxx xx xxx xxxxx xxxx xx xxx xxxxxxx.
+Xx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxxxxxx xxxxxxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxx.
+Xxx xxxxxxxx xxxxxxxx $$$ xxxxx xxx xxxxxx xx Xxx$Xxxxxxx xx xxx Xxxx$Xxxxxx xxxxxx$ xxxxx xxxxx xx xxxxx xx xxx XxxxxXxxx xxxxxxxx.
+Xxxxxxx xxxxxxxx xxxxxxxx xxxxx xxx xxxxxx xxxxxxx xx Xxxxxx$Xxxxx.
 
-The View parameter is used to select the StartTime view that is defined in the DotNetTypes.format.ps1xml formatting file for System.Diagnostics.Process objects, such as those returned by Get-Process.
-This view converts the StartTime of the process to a short date and then groups the processes by start date.
+Xxx Xxxx xxxxxxxxx xx xxxx xx xxxxxx xxx XxxxxXxxx xxxx xxxx xx xxxxxxx xx xxx XxxXxxXxxxx.xxxxxx.xx0xxx xxxxxxxxxx xxxx xxx Xxxxxx.Xxxxxxxxxxx.Xxxxxxx xxxxxxx$ xxxx xx xxxxx xxxxxxxx xx Xxx$Xxxxxxx.
+Xxxx xxxx xxxxxxxx xxx XxxxxXxxx xx xxx xxxxxxx xx x xxxxx xxxx xxx xxxx xxxxxx xxx xxxxxxxxx xx xxxxx xxxx.
 
-The DotNetTypes.format.ps1xml formatting file also contains a Priority view for processes, and you can create your own format.ps1xml files with customized views.
+Xxx XxxXxxXxxxx.xxxxxx.xx0xxx xxxxxxxxxx xxxx xxxx xxxxxxxx x Xxxxxxxx xxxx xxx xxxxxxxxx$ xxx xxx xxx xxxxxx xxxx xxx xxxxxx.xx0xxx xxxxx xxxx xxxxxxxxxx xxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-service | format-table -property Name, DependentServices
 ```
 
-This command displays all of the services on the computer in a table with two columns, Name and DependentServices.
-The command uses the Get-Service cmdlet to get all of the services on the computer.
-The pipeline operator (|) sends the results to the Format-Table cmdlet, which formats the output in a table.
-The Property parameter specifies the properties that appear in the table as columns.
-The name of the Property parameter is optional, so you can omit it ("format-table name, dependentservices").
+Xxxx xxxxxxx xxxxxxxx xxx xx xxx xxxxxxxx xx xxx xxxxxxxx xx x xxxxx xxxx xxx xxxxxxx$ Xxxx xxx XxxxxxxxxXxxxxxxx.
+Xxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xx xxx xxxxxxxx xx xxx xxxxxxxx.
+Xxx xxxxxxxx xxxxxxxx $$$ xxxxx xxx xxxxxxx xx xxx Xxxxxx$Xxxxx xxxxxx$ xxxxx xxxxxxx xxx xxxxxx xx x xxxxx.
+Xxx Xxxxxxxx xxxxxxxxx xxxxxxxxx xxx xxxxxxxxxx xxxx xxxxxx xx xxx xxxxx xx xxxxxxx.
+Xxx xxxx xx xxx Xxxxxxxx xxxxxxxxx xx xxxxxxxx$ xx xxx xxx xxxx xx $$xxxxxx$xxxxx xxxx$ xxxxxxxxxxxxxxxxx$$.
 
-Property and DependentServices are just two of the properties of service objects.
-To view all of the properties, type "get-service | get-member".
+Xxxxxxxx xxx XxxxxxxxxXxxxxxxx xxx xxxx xxx xx xxx xxxxxxxxxx xx xxxxxxx xxxxxxx.
+Xx xxxx xxx xx xxx xxxxxxxxxx$ xxxx $xxx$xxxxxxx $ xxx$xxxxxx$.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process notepad | format-table ProcessName, @{Label="TotalRunningTime"; Expression={(get-date) - $_.StartTime}}
 ```
 
-This command shows how to use a calculated property in a table.
-The command displays a table with the process name and total running time of all Notepad processes on the local computer.
-The total running time is calculated by subtracting the start time of each process from the current time.
+Xxxx xxxxxxx xxxxx xxx xx xxx x xxxxxxxxxx xxxxxxxx xx x xxxxx.
+Xxx xxxxxxx xxxxxxxx x xxxxx xxxx xxx xxxxxxx xxxx xxx xxxxx xxxxxxx xxxx xx xxx Xxxxxxx xxxxxxxxx xx xxx xxxxx xxxxxxxx.
+Xxx xxxxx xxxxxxx xxxx xx xxxxxxxxxx xx xxxxxxxxxxx xxx xxxxx xxxx xx xxxx xxxxxxx xxxx xxx xxxxxxx xxxx.
 
-The command uses the Get-Process cmdlet to get all processes named "Notepad" on the local computer.
-The pipeline operator (|) sends the results to Format-Table, which displays a table with two columns: ProcessName, a standard property of processes, and TotalRunningTime, a calculated property.
+Xxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxxxx xxxxx $Xxxxxxx$ xx xxx xxxxx xxxxxxxx.
+Xxx xxxxxxxx xxxxxxxx $$$ xxxxx xxx xxxxxxx xx Xxxxxx$Xxxxx$ xxxxx xxxxxxxx x xxxxx xxxx xxx xxxxxxx$ XxxxxxxXxxx$ x xxxxxxxx xxxxxxxx xx xxxxxxxxx$ xxx XxxxxXxxxxxxXxxx$ x xxxxxxxxxx xxxxxxxx.
 
-The TotalRunningTime property is specified by a hash table with two keys, Label and Expression.
-The name of the property is assigned to the Label key.
-The calculation is assigned to the Expression key.
-The expression gets the StartTime property of each process object and subtracts it from the result of a Get-Date command, which gets the current date (and time).
+Xxx XxxxxXxxxxxxXxxx xxxxxxxx xx xxxxxxxxx xx x xxxx xxxxx xxxx xxx xxxx$ Xxxxx xxx Xxxxxxxxxx.
+Xxx xxxx xx xxx xxxxxxxx xx xxxxxxxx xx xxx Xxxxx xxx.
+Xxx xxxxxxxxxxx xx xxxxxxxx xx xxx Xxxxxxxxxx xxx.
+Xxx xxxxxxxxxx xxxx xxx XxxxxXxxx xxxxxxxx xx xxxx xxxxxxx xxxxxx xxx xxxxxxxxx xx xxxx xxx xxxxxx xx x Xxx$Xxxx xxxxxxx$ xxxxx xxxx xxx xxxxxxx xxxx $xxx xxxx$.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$processes = get-wmiobject -ComputerName Server01 win32_process -filter "name='notepad.exe'"
 PS C:\>$processes | format-table ProcessName, @{ Label = "Total  Running Time"; Expression={(get-date) - $_.ConvertToDateTime($_.CreationDate)}}
 ```
 
-These commands are similar to the previous command, except that these commands use the Get-WmiObject cmdlet and the Win32_Process class to display information about Notepad processes on a remote computer.
+Xxxxx xxxxxxxx xxx xxxxxxx xx xxx xxxxxxxx xxxxxxx$ xxxxxx xxxx xxxxx xxxxxxxx xxx xxx Xxx$XxxXxxxxx xxxxxx xxx xxx Xxx00$Xxxxxxx xxxxx xx xxxxxxx xxxxxxxxxxx xxxxx Xxxxxxx xxxxxxxxx xx x xxxxxx xxxxxxxx.
 
-The first command uses the Get-WmiObject cmdlet to get instances of the Windows Management Instrumentation (WMI) Win32_Process class that describes all of the processes on the Server01 computer that are named Notepad.exe.
-The command stores the process information in the $processes variable.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XxxXxxxxx xxxxxx xx xxx xxxxxxxxx xx xxx Xxxxxxx Xxxxxxxxxx Xxxxxxxxxxxxxxx $XXX$ Xxx00$Xxxxxxx xxxxx xxxx xxxxxxxxx xxx xx xxx xxxxxxxxx xx xxx Xxxxxx00 xxxxxxxx xxxx xxx xxxxx Xxxxxxx.xxx.
+Xxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxxxx xx xxx $xxxxxxxxx xxxxxxxx.
 
-The second command uses a pipeline operator (|) to send the process information in the $processes variable to the Format-Table cmdlet, which displays the ProcessName of each process along with a new calculated property.
+Xxx xxxxxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xxxxxxxxxxx xx xxx $xxxxxxxxx xxxxxxxx xx xxx Xxxxxx$Xxxxx xxxxxx$ xxxxx xxxxxxxx xxx XxxxxxxXxxx xx xxxx xxxxxxx xxxxx xxxx x xxx xxxxxxxxxx xxxxxxxx.
 
-The command assigns the name of the new calculated property, Total Running Time, to the Label key.
-The script block that is assigned to the Expression key calculates how long the process has been running by subtracting the creation date of the process from the current date.
-The Get-Date cmdlet gets the current date.
-The ConvertToDateTime method converts the CreationDate property of the Win32_Process object from a WMI CIM_DATETIME object to a Microsoft .NET Framework DateTime object that can be compared with the output of Get-Date.
-Then, the converted creation date is subtracted from the current date.
-The result is the value of Total Running Time.
+Xxx xxxxxxx xxxxxxx xxx xxxx xx xxx xxx xxxxxxxxxx xxxxxxxx$ Xxxxx Xxxxxxx Xxxx$ xx xxx Xxxxx xxx.
+Xxx xxxxxx xxxxx xxxx xx xxxxxxxx xx xxx Xxxxxxxxxx xxx xxxxxxxxxx xxx xxxx xxx xxxxxxx xxx xxxx xxxxxxx xx xxxxxxxxxxx xxx xxxxxxxx xxxx xx xxx xxxxxxx xxxx xxx xxxxxxx xxxx.
+Xxx Xxx$Xxxx xxxxxx xxxx xxx xxxxxxx xxxx.
+Xxx XxxxxxxXxXxxxXxxx xxxxxx xxxxxxxx xxx XxxxxxxxXxxx xxxxxxxx xx xxx Xxx00$Xxxxxxx xxxxxx xxxx x XXX XXX$XXXXXXXX xxxxxx xx x Xxxxxxxxx .XXX Xxxxxxxxx XxxxXxxx xxxxxx xxxx xxx xx xxxxxxxx xxxx xxx xxxxxx xx Xxx$Xxxx.
+Xxxx$ xxx xxxxxxxxx xxxxxxxx xxxx xx xxxxxxxxxx xxxx xxx xxxxxxx xxxx.
+Xxx xxxxxx xx xxx xxxxx xx Xxxxx Xxxxxxx Xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutoSize
-Adjusts the column size and number of columns based on the width of the data.
-By default, the column size and number are determined by the view.
+### $XxxxXxxx
+Xxxxxxx xxx xxxxxx xxxx xxx xxxxxx xx xxxxxxx xxxxx xx xxx xxxxx xx xxx xxxx.
+Xx xxxxxxx$ xxx xxxxxx xxxx xxx xxxxxx xxx xxxxxxxxxx xx xxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -135,15 +135,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DisplayError
-Displays errors at the command line.
-This parameter is rarely used, but can be used as a debugging aid when you are formatting expressions in a Format-Table command, and the expressions do not appear to be working.
-The following shows an example of the results of adding the DisplayError parameter with an expression.
+### $XxxxxxxXxxxx
+Xxxxxxxx xxxxxx xx xxx xxxxxxx xxxx.
+Xxxx xxxxxxxxx xx xxxxxx xxxx$ xxx xxx xx xxxx xx x xxxxxxxxx xxx xxxx xxx xxx xxxxxxxxxx xxxxxxxxxxx xx x Xxxxxx$Xxxxx xxxxxxx$ xxx xxx xxxxxxxxxxx xx xxx xxxxxx xx xx xxxxxxx.
+Xxx xxxxxxxxx xxxxx xx xxxxxxx xx xxx xxxxxxx xx xxxxxx xxx XxxxxxxXxxxx xxxxxxxxx xxxx xx xxxxxxxxxx.
 
-PS \> Get-Date | Format-Table DayOfWeek,{ $_ / $null } -ShowError
-DayOfWeek  $_ / $null
+XX $$ Xxx$Xxxx $ Xxxxxx$Xxxxx XxxXxXxxx$$ $$ $ $xxxx $ $XxxxXxxxx XxxXxXxxx  $$ $ $xxxx
 --------- ------------
-Wednesday #ERR
+Xxxxxxxxx $XXX
 
 ```yaml
 Type: SwitchParameter
@@ -157,16 +156,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Expand
-Formats the collection object, as well as the objects in the collection.
-This parameter is designed to format objects that support the ICollection (System.Collections) interface.
-The default value is EnumOnly.
+### $Xxxxxx
+Xxxxxxx xxx xxxxxxxxxx xxxxxx$ xx xxxx xx xxx xxxxxxx xx xxx xxxxxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx xx xxxxxx xxxxxxx xxxx xxxxxxx xxx XXxxxxxxxxx $Xxxxxx.Xxxxxxxxxxx$ xxxxxxxxx.
+Xxx xxxxxxx xxxxx xx XxxxXxxx.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- EnumOnly: Displays the properties of the objects in the collection.
--- CoreOnly: Displays the properties of the collection object.
--- Both: Displays the properties of the collection object and the properties of objects in the collection.
+$$ XxxxXxxx$ Xxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxx xx xxx xxxxxxxxxx.
+$$ XxxxXxxx$ Xxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xxxxxx.
+$$ Xxxx$ Xxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xxxxxx xxx xxx xxxxxxxxxx xx xxxxxxx xx xxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -181,10 +180,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Directs the cmdlet to display all of the error information.
-Use with the DisplayError or ShowError parameters.
-By default, when an error object is written to the error or display streams, only some of the error information is displayed.
+### $Xxxxx
+Xxxxxxx xxx xxxxxx xx xxxxxxx xxx xx xxx xxxxx xxxxxxxxxxx.
+Xxx xxxx xxx XxxxxxxXxxxx xx XxxxXxxxx xxxxxxxxxx.
+Xx xxxxxxx$ xxxx xx xxxxx xxxxxx xx xxxxxxx xx xxx xxxxx xx xxxxxxx xxxxxxx$ xxxx xxxx xx xxx xxxxx xxxxxxxxxxx xx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -198,20 +197,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -GroupBy
-Arranges sorted output in separate tables based on a property value.
-For example, you can use GroupBy to list services in separate tables based on their status.
+### $XxxxxXx
+Xxxxxxxx xxxxxx xxxxxx xx xxxxxxxx xxxxxx xxxxx xx x xxxxxxxx xxxxx.
+Xxx xxxxxxx$ xxx xxx xxx XxxxxXx xx xxxx xxxxxxxx xx xxxxxxxx xxxxxx xxxxx xx xxxxx xxxxxx.
 
-Enter an expression or a property of the output.
-The output must be sorted before you send it to Format-Table.
+Xxxxx xx xxxxxxxxxx xx x xxxxxxxx xx xxx xxxxxx.
+Xxx xxxxxx xxxx xx xxxxxx xxxxxx xxx xxxx xx xx Xxxxxx$Xxxxx.
 
-The value of the GroupBy parameter can be a new calculated property.
-To create a calculated, property, use a hash table.
-Valid keys are:
+Xxx xxxxx xx xxx XxxxxXx xxxxxxxxx xxx xx x xxx xxxxxxxxxx xxxxxxxx.
+Xx xxxxxx x xxxxxxxxxx$ xxxxxxxx$ xxx x xxxx xxxxx.
+Xxxxx xxxx xxx$
 
--- Name (or Label) \<string\>
--- Expression \<string\> or \<script block\>
--- FormatString \<string\>
+$$ Xxxx $xx Xxxxx$ $$xxxxxx$$$$$ Xxxxxxxxxx $$xxxxxx$$ xx $$xxxxxx xxxxx$$$$$ XxxxxxXxxxxx $$xxxxxx\>
 
 ```yaml
 Type: Object
@@ -225,8 +222,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -HideTableHeaders
-Omits the column headings from the table.
+### $XxxxXxxxxXxxxxxx
+Xxxxx xxx xxxxxx xxxxxxxx xxxx xxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -240,8 +237,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -256,8 +253,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -271,9 +268,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the objects to be formatted.
-Enter a variable that contains the objects, or type a command or expression that gets the objects.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xx xxxxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
 ```yaml
 Type: PSObject
@@ -287,24 +284,20 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Property
-Specifies the object properties that appear in the display and the order in which they appear.
-Type one or more property names (separated by commas), or use a hash table to display a calculated property.
-Wildcards are permitted.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxx xxxxxxxxxx xxxx xxxxxx xx xxx xxxxxxx xxx xxx xxxxx xx xxxxx xxxx xxxxxx.
+Xxxx xxx xx xxxx xxxxxxxx xxxxx $xxxxxxxxx xx xxxxxx$$ xx xxx x xxxx xxxxx xx xxxxxxx x xxxxxxxxxx xxxxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
 
-If you omit this parameter, the properties that appear in the display depend on the object being displayed.
-The parameter name ("Property") is optional.
-You cannot use the Property and View parameters in the same command.
+Xx xxx xxxx xxxx xxxxxxxxx$ xxx xxxxxxxxxx xxxx xxxxxx xx xxx xxxxxxx xxxxxx xx xxx xxxxxx xxxxx xxxxxxxxx.
+Xxx xxxxxxxxx xxxx $$Xxxxxxxx$$ xx xxxxxxxx.
+Xxx xxxxxx xxx xxx Xxxxxxxx xxx Xxxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 
-The value of the Property parameter can be a new calculated property.
-To create a calculated, property, use a hash table.
-Valid keys are:
+Xxx xxxxx xx xxx Xxxxxxxx xxxxxxxxx xxx xx x xxx xxxxxxxxxx xxxxxxxx.
+Xx xxxxxx x xxxxxxxxxx$ xxxxxxxx$ xxx x xxxx xxxxx.
+Xxxxx xxxx xxx$
 
--- Name (or Label) \<string\>
--- Expression \<string\> or \<script block\>
--- FormatString \<string\>
--- Width \<int32\>
--- Alignment  (value can be "Left", "Center", or "Right")
+$$ Xxxx $xx Xxxxx$ $$xxxxxx$$$$$ Xxxxxxxxxx $$xxxxxx$$ xx $$xxxxxx xxxxx$$$$$ XxxxxxXxxxxx $$xxxxxx$$$$$ Xxxxx $$xxx00$$$$$ Xxxxxxxxx  $xxxxx xxx xx $Xxxx$$ $Xxxxxx$$ xx $Xxxxx$$
 
 ```yaml
 Type: Object[]
@@ -318,19 +311,17 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ShowError
-Sends errors through the pipeline.
-This parameter is rarely used, but can be used as a debugging aid when you are formatting expressions in a Format-Table command, and the expressions do not appear to be working.
-The following shows an example of the results of adding the ShowError parameter with an expression.
+### $XxxxXxxxx
+Xxxxx xxxxxx xxxxxxx xxx xxxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxx xxxx$ xxx xxx xx xxxx xx x xxxxxxxxx xxx xxxx xxx xxx xxxxxxxxxx xxxxxxxxxxx xx x Xxxxxx$Xxxxx xxxxxxx$ xxx xxx xxxxxxxxxxx xx xxx xxxxxx xx xx xxxxxxx.
+Xxx xxxxxxxxx xxxxx xx xxxxxxx xx xxx xxxxxxx xx xxxxxx xxx XxxxXxxxx xxxxxxxxx xxxx xx xxxxxxxxxx.
 
-PS \> Get-Date | Format-Table DayOfWeek,{ $_ / $null } -ShowError
-DayOfWeek  $_ / $null
+XX $$ Xxx$Xxxx $ Xxxxxx$Xxxxx XxxXxXxxx$$ $$ $ $xxxx $ $XxxxXxxxx XxxXxXxxx  $$ $ $xxxx
 --------- ------------
-Wednesday
+Xxxxxxxxx
 
-Failed to evaluate expression " $_ / $null ".
-    + CategoryInfo          : InvalidArgument: (10/30/2013 2:28:07 PM:PSObject) \[\], RuntimeException
-    + FullyQualifiedErrorId : mshExpressionError
+Xxxxxx xx xxxxxxxx xxxxxxxxxx $ $$ $ $xxxx $.
+$ XxxxxxxxXxxx          $ XxxxxxxXxxxxxxx$ $00$00$0000 0$00$00 XX$XXXxxxxx$ $$$$$ XxxxxxxXxxxxxxxx $ XxxxxXxxxxxxxxXxxxxXx $ xxxXxxxxxxxxxXxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -344,8 +335,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -View
-Specifies the name of an alternate table format or "view." You cannot use the Property and View parameters in the same command.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xx xxxxxxxxx xxxxx xxxxxx xx $xxxx.$ Xxx xxxxxx xxx xxx Xxxxxxxx xxx Xxxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -359,9 +350,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Wrap
-Displays text that exceeds the column width on the next line.
-By default, text that exceeds the column width is truncated.
+### $Xxxx
+Xxxxxxxx xxxx xxxx xxxxxxx xxx xxxxxx xxxxx xx xxx xxxx xxxx.
+Xx xxxxxxx$ xxxx xxxx xxxxxxx xxx xxxxxx xxxxx xx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -375,33 +366,33 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any object to Format-Table.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xx Xxxxxx$Xxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.PowerShell.Commands.Internal.Format
-Format-Table returns format objects that represent the table.
+### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.Xxxxxxxx.Xxxxxx
+Xxxxxx$Xxxxx xxxxxxx xxxxxx xxxxxxx xxxx xxxxxxxxx xxx xxxxx.
 
-## NOTES
-The GroupBy parameter assumes that the objects are sorted.
-Before using Format-Table to group the objects, use the Sort-Object cmdlet to sort them.
+## XXXXX
+Xxx XxxxxXx xxxxxxxxx xxxxxxx xxxx xxx xxxxxxx xxx xxxxxx.
+Xxxxxx xxxxx Xxxxxx$Xxxxx xx xxxxx xxx xxxxxxx$ xxx xxx Xxxx$Xxxxxx xxxxxx xx xxxx xxxx.
 
-The View parameter lets you specify an alternate format for the table.
-You can use the views defined in the *.format.PS1XML files in the Windows PowerShell directory or you can create your own views in new PS1XML files and then use the TUpdate-FormatData cmdlet to include them in Windows PowerShell.
+Xxx Xxxx xxxxxxxxx xxxx xxx xxxxxxx xx xxxxxxxxx xxxxxx xxx xxx xxxxx.
+Xxx xxx xxx xxx xxxxx xxxxxxx xx xxx $.xxxxxx.XX0XXX xxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxx xx xxx xxx xxxxxx xxxx xxx xxxxx xx xxx XX0XXX xxxxx xxx xxxx xxx xxx XXxxxxx$XxxxxxXxxx xxxxxx xx xxxxxxx xxxx xx Xxxxxxx XxxxxXxxxx.
 
-The alternate views for the View parameter must use the table format.
-If it does not, the command fails.
-If the alternate view is a list, use the Format-List cmdlet.
-If the alternate view is neither a list nor a table, use the T:Microsoft.PowerShell.Commands.Format-Custom cmdlet.
+Xxx xxxxxxxxx xxxxx xxx xxx Xxxx xxxxxxxxx xxxx xxx xxx xxxxx xxxxxx.
+Xx xx xxxx xxx$ xxx xxxxxxx xxxxx.
+Xx xxx xxxxxxxxx xxxx xx x xxxx$ xxx xxx Xxxxxx$Xxxx xxxxxx.
+Xx xxx xxxxxxxxx xxxx xx xxxxxxx x xxxx xxx x xxxxx$ xxx xxx X$Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.Xxxxxx$Xxxxxx xxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Format-Custom]()
+[Xxxxxx$Xxxxxx]()
 
-[Format-List]()
+[Xxxxxx$Xxxx]()
 
-[Format-Wide]()
+[Xxxxxx$Xxxx]()
 

@@ -6,32 +6,32 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Remove-AzureWebsiteJob
-## SYNOPSIS
-Removes an existing web job for a website
+# Xxxxxx$XxxxxXxxxxxxXxx
+## XXXXXXXX
+Xxxxxxx xx xxxxxxxx xxx xxx xxx x xxxxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureWebsiteJob [[-Name] <String>] [-Force] [-Slot <String>] -JobName <String> [-JobType]
 ```
 
-## DESCRIPTION
-Removes an existing web job for a website
+## XXXXXXXXXXX
+Xxxxxxx xx xxxxxxxx xxx xxx xxx x xxxxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Remove an existing web job for a website --------------
+### $$$$$$$$$$$$$$  Xxxxxx xx xxxxxxxx xxx xxx xxx x xxxxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Remove-AzureWebsiteJob -Name MyWebsite -JobName MyWebJob -JobType Continuous
 ```
 
-Removes a web job called MyWebJob for MyWebSite
+Xxxxxxx x xxx xxx xxxxxx XxXxxXxx xxx XxXxxXxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Force
-Indicates that this cmdlet removes the web job without prompting you for confirmation.
+### $Xxxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxx xxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -45,8 +45,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -JobName
-The web job name
+### $XxxXxxx
+Xxx xxx xxx xxxx
 
 ```yaml
 Type: String
@@ -60,9 +60,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -JobType
-The web job type.
-Can be 'triggered' or 'continuous'
+### $XxxXxxx
+Xxx xxx xxx xxxx.
+Xxx xx $xxxxxxxxx$ xx $xxxxxxxxxx$
 
 ```yaml
 Type: SwitchParameter
@@ -77,8 +77,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-The name of the Azure website
+### $Xxxx
+Xxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -92,8 +92,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Slot
-The slot name of the Azure website
+### $Xxxx
+Xxx xxxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -107,22 +107,22 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Remove-AzureWebsite](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
+[Xxxxxx$XxxxxXxxxxxx](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
 
-[Get-AzureWebsiteJob](5ef76b84-385f-419e-8aba-228d53ce2232)
+[Xxx$XxxxxXxxxxxxXxx](5ef76b84-385f-419e-8aba-228d53ce2232)
 
-[New-AzureWebsiteJob](89c77daa-24fd-4b27-b624-3486fe642722)
+[Xxx$XxxxxXxxxxxxXxx](89c77daa-24fd-4b27-b624-3486fe642722)
 
-[Start-AzureWebsiteJob](33bc54a9-76a7-45cd-92d5-662e16354fa3)
+[Xxxxx$XxxxxXxxxxxxXxx](33bc54a9-76a7-45cd-92d5-662e16354fa3)
 
-[Stop-AzureWebsiteJob](9698753f-0bfc-4845-b74e-6c6bed38a430)
+[Xxxx$XxxxxXxxxxxxXxx](9698753f-0bfc-4845-b74e-6c6bed38a430)
 
 

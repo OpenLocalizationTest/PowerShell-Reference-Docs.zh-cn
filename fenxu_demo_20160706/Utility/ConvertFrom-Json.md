@@ -4,28 +4,28 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293947
 schema: 2.0.0
 ---
 
-# ConvertFrom-Json
-## SYNOPSIS
-Converts a JSON-formatted string to a custom object.
+# XxxxxxxXxxx$Xxxx
+## XXXXXXXX
+Xxxxxxxx x XXXX$xxxxxxxxx xxxxxx xx x xxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 ConvertFrom-Json [-InputObject] <String> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The ConvertFrom-Json cmdlet converts a JSON-formatted string to a custom object (PSCustomObject) that has a property for each field in the JSON string.
-JSON is commonly used by web sites to provide a textual representation of objects.
+## XXXXXXXXXXX
+Xxx XxxxxxxXxxx$Xxxx xxxxxx xxxxxxxx x XXXX$xxxxxxxxx xxxxxx xx x xxxxxx xxxxxx $XXXxxxxxXxxxxx$ xxxx xxx x xxxxxxxx xxx xxxx xxxxx xx xxx XXXX xxxxxx.
+XXXX xx xxxxxxxx xxxx xx xxx xxxxx xx xxxxxxx x xxxxxxx xxxxxxxxxxxxxx xx xxxxxxx.
 
-To generate a JSON string from any object, use the ConvertTo-Json cmdlet.
+Xx xxxxxxxx x XXXX xxxxxx xxxx xxx xxxxxx$ xxx xxx XxxxxxxXx$Xxxx xxxxxx.
 
-This cmdlet is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 PS C:\>Get-Date | Select-Object -Property * | ConvertTo-Json | ConvertFrom-Json
 
@@ -60,39 +60,39 @@ TimeOfDay   : @{Ticks=723914009002; Days=0; Hours=20; Milliseconds=400; Minutes=
 Year        : 2012
 ```
 
-This command uses the ConvertTo-Json and ConvertFrom-Json cmdlets to convert a DateTime object from the Get-Date cmdlet to a JSON object.
+Xxxx xxxxxxx xxxx xxx XxxxxxxXx$Xxxx xxx XxxxxxxXxxx$Xxxx xxxxxxx xx xxxxxxx x XxxxXxxx xxxxxx xxxx xxx Xxx$Xxxx xxxxxx xx x XXXX xxxxxx.
 
-The command uses the Select-Object cmdlet to get all of the properties of the DateTime object.
-It uses the ConvertTo-Json cmdlet to convert the DateTime object to a JSON-formatted string and the ConvertFrom-Json cmdlet to convert the JSON-formatted string to a JSON object..
+Xxx xxxxxxx xxxx xxx Xxxxxx$Xxxxxx xxxxxx xx xxx xxx xx xxx xxxxxxxxxx xx xxx XxxxXxxx xxxxxx.
+Xx xxxx xxx XxxxxxxXx$Xxxx xxxxxx xx xxxxxxx xxx XxxxXxxx xxxxxx xx x XXXX$xxxxxxxxx xxxxxx xxx xxx XxxxxxxXxxx$Xxxx xxxxxx xx xxxxxxx xxx XXXX$xxxxxxxxx xxxxxx xx x XXXX xxxxxx..
 
-### Example 2
+### Xxxxxxx 0
 ```
 PS C:\>$j = Invoke-WebRequest -Uri http://search.twitter.com/search.json?q=PowerShell | ConvertFrom-Json
 ```
 
-This command uses the Invoke-WebRequest cmdlet to get JSON strings from a web service and then it uses the ConvertFrom-Json cmdlet to convert JSON content to objects that can be  managed in Windows PowerShell.
+Xxxx xxxxxxx xxxx xxx Xxxxxx$XxxXxxxxxx xxxxxx xx xxx XXXX xxxxxxx xxxx x xxx xxxxxxx xxx xxxx xx xxxx xxx XxxxxxxXxxx$Xxxx xxxxxx xx xxxxxxx XXXX xxxxxxx xx xxxxxxx xxxx xxx xx  xxxxxxx xx Xxxxxxx XxxxxXxxxx.
 
-You can also use the Invoke-RestMethod cmdlet, which automatically converts JSON content to objects.
+Xxx xxx xxxx xxx xxx Xxxxxx$XxxxXxxxxx xxxxxx$ xxxxx xxxxxxxxxxxxx xxxxxxxx XXXX xxxxxxx xx xxxxxxx.
 
-### Example 3
+### Xxxxxxx 0
 ```
 PS C:\>(Get-Content JsonFile.JSON) -join "`n" | ConvertFrom-Json
 ```
 
-This example shows how to use the ConvertFrom-Json cmdlet to convert a JSON file to a Windows PowerShell custom object.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx XxxxxxxXxxx$Xxxx xxxxxx xx xxxxxxx x XXXX xxxx xx x Xxxxxxx XxxxxXxxxx xxxxxx xxxxxx.
 
-The command uses Get-Content cmdlet to get the strings in a JSON file.
-It uses the Join operator to join the strings in the file into a single string that is delimited by newline characters (\`n).
-Then it uses the pipeline operator to send the delimited string to the ConvertFrom-Json cmdlet, which converts it to a custom object.
+Xxx xxxxxxx xxxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxx xx x XXXX xxxx.
+Xx xxxx xxx Xxxx xxxxxxxx xx xxxx xxx xxxxxxx xx xxx xxxx xxxx x xxxxxx xxxxxx xxxx xx xxxxxxxxx xx xxxxxxx xxxxxxxxxx $$$x$.
+Xxxx xx xxxx xxx xxxxxxxx xxxxxxxx xx xxxx xxx xxxxxxxxx xxxxxx xx xxx XxxxxxxXxxx$Xxxx xxxxxx$ xxxxx xxxxxxxx xx xx x xxxxxx xxxxxx.
 
-The Join operator is required, because the ConvertFrom-Json cmdlet expects a single string.
+Xxx Xxxx xxxxxxxx xx xxxxxxxx$ xxxxxxx xxx XxxxxxxXxxx$Xxxx xxxxxx xxxxxxx x xxxxxx xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-The InputObject parameter is required, but its value can be an empty string.
-When the input object is an empty string, ConvertFrom-Json does not generate any output.
-The InputObject value cannot be null ($null).
+### $XxxxxxxxxxxXxxxxx
+Xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxxxx$ xxx xxx xxxxx xxx xx xx xxxxx xxxxxx.
+Xxxx xxx xxxxx xxxxxx xx xx xxxxx xxxxxx$ XxxxxxxXxxx$Xxxx xxxx xxx xxxxxxxx xxx xxxxxx.
+Xxx XxxxxXxxxxx xxxxx xxxxxx xx xxxx $$xxxx$.
 
 ```yaml
 Type: ActionPreference
@@ -107,10 +107,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-The InputObject parameter is required, but its value can be an empty string.
-When the input object is an empty string, ConvertFrom-Json does not generate any output.
-The InputObject value cannot be null ($null).
+### $XxxxxxxxxxxXxxxxxxx
+Xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxxxx$ xxx xxx xxxxx xxx xx xx xxxxx xxxxxx.
+Xxxx xxx xxxxx xxxxxx xx xx xxxxx xxxxxx$ XxxxxxxXxxx$Xxxx xxxx xxx xxxxxxxx xxx xxxxxx.
+Xxx XxxxxXxxxxx xxxxx xxxxxx xx xxxx $$xxxx$.
 
 ```yaml
 Type: String
@@ -124,14 +124,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the JSON strings to convert to JSON objects.
-Enter a variable that contains the string, or type a command or expression that gets the string.
-You can also pipe a string to ConvertFrom-Json.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx XXXX xxxxxxx xx xxxxxxx xx XXXX xxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxx.
+Xxx xxx xxxx xxxx x xxxxxx xx XxxxxxxXxxx$Xxxx.
 
-The InputObject parameter is required, but its value can be an empty string.
-When the input object is an empty string, ConvertFrom-Json does not generate any output.
-The InputObject value cannot be null ($null).
+Xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxxxx$ xxx xxx xxxxx xxx xx xx xxxxx xxxxxx.
+Xxxx xxx xxxxx xxxxxx xx xx xxxxx xxxxxx$ XxxxxxxXxxx$Xxxx xxxx xxx xxxxxxxx xxx xxxxxx.
+Xxx XxxxxXxxxxx xxxxx xxxxxx xx xxxx $$xxxx$.
 
 ```yaml
 Type: String
@@ -145,25 +145,25 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
-You can pipe a JSON string to ConvertFrom-Json.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx x XXXX xxxxxx xx XxxxxxxXxxx$Xxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### PSCustomObject
+### XXXxxxxxXxxxxx
 
-## NOTES
-The ConvertFrom-Json cmdlet is implemented by using the JavaScriptSerializer class (http://msdn.microsoft.com/en-us/library/system.web.script.serialization.javascriptserializer(VS.100).aspx).
+## XXXXX
+Xxx XxxxxxxXxxx$Xxxx xxxxxx xx xxxxxxxxxxx xx xxxxx xxx XxxxXxxxxxXxxxxxxxxx xxxxx $xxxx$$$xxxx.xxxxxxxxx.xxx$xx$xx$xxxxxxx$xxxxxx.xxx.xxxxxx.xxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxx$XX.000$.xxxx$.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[An Introduction to JavaScript Object Notation (JSON) in JavaScript and .NET]()
+[Xx Xxxxxxxxxxxx xx XxxxXxxxxx Xxxxxx Xxxxxxxx $XXXX$ xx XxxxXxxxxx xxx .XXX]()
 
-[ConvertTo-Json]()
+[XxxxxxxXx$Xxxx]()
 
-[Invoke-WebRequest]()
+[Xxxxxx$XxxXxxxxxx]()
 
-[Invoke-RestMethod]()
+[Xxxxxx$XxxxXxxxxx]()
 

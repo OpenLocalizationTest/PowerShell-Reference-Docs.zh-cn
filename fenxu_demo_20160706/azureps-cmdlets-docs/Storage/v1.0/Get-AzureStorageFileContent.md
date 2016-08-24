@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageFileContent
-## SYNOPSIS
-Downloads the contents of a file.
+# Xxx$XxxxxXxxxxxxXxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxxxx xxx xxxxxxxx xx x xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageFileContent [-ShareName] <String> [-Path] <String> [[-Destination] <String>] [-CheckMd5]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
@@ -20,14 +20,14 @@ Get-AzureStorageFileContent [-ShareName] <String> [-Path] <String> [[-Destinatio
  [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageFileContent [-Share] <CloudFileShare> [-Path] <String> [[-Destination] <String>] [-CheckMd5]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>] [-Force]
  [-PassThru] [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageFileContent [-Directory] <CloudFileDirectory> [-Path] <String> [[-Destination] <String>]
  [-CheckMd5] [-ClientTimeoutPerRequest <Nullable [System.Int32]>]
@@ -35,34 +35,34 @@ Get-AzureStorageFileContent [-Directory] <CloudFileDirectory> [-Path] <String> [
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### UNNAMED_PARAMETER_SET_4
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureStorageFileContent [-File] <CloudFile> [[-Destination] <String>] [-CheckMd5]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>] [-Force]
  [-PassThru] [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageFileContent** cmdlet downloads the contents of a file, and then saves it to a destination that you specify.
-This cmdlet does not return the contents of the file.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxXxxxxxx$$ xxxxxx xxxxxxxxx xxx xxxxxxxx xx x xxxx$ xxx xxxx xxxxx xx xx x xxxxxxxxxxx xxxx xxx xxxxxxx.
+Xxxx xxxxxx xxxx xxx xxxxxx xxx xxxxxxxx xx xxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Download a file from a folder
+### Xxxxxxx 0$ Xxxxxxxx x xxxx xxxx x xxxxxx
 ```
 PS C:\>Get-AzureStorageFileContent -ShareName "ContosoShare06" -Path "ContosoWorkingFolder/CurrentDataFile"
 ```
 
-This command downloads a file that is named CurrentDataFile in the folder ContosoWorkingFolder from the file share ContosoShare06 to current folder.
+Xxxx xxxxxxx xxxxxxxxx x xxxx xxxx xx xxxxx XxxxxxxXxxxXxxx xx xxx xxxxxx XxxxxxxXxxxxxxXxxxxx xxxx xxx xxxx xxxxx XxxxxxxXxxxx00 xx xxxxxxx xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -CheckMd5
-If you specify the path of a file that does not exist, this cmdlet creates that file, and saves the contents in the new file.
-If you specify a path of a file that already exists and you specify the *Force* parameter, the cmdlet overwrites the file.
-If you specify a path of an existing file and you do not specify *Force*, the cmdlet prompts you before it continues.
+### $XxxxxXx0
+Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
 
-If you specify the path of a folder, this cmdlet attempts to create a file that has the name of the Azure storage file.
+Xx xxx xxxxxxx xxx xxxx xx x xxxxxx$ xxxx xxxxxx xxxxxxxx xx xxxxxx x xxxx xxxx xxx xxx xxxx xx xxx Xxxxx xxxxxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -76,31 +76,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ClientTimeoutPerRequest
-If you specify the path of a file that does not exist, this cmdlet creates that file, and saves the contents in the new file.
-If you specify a path of a file that already exists and you specify the *Force* parameter, the cmdlet overwrites the file.
-If you specify a path of an existing file and you do not specify *Force*, the cmdlet prompts you before it continues.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
 
-If you specify the path of a folder, this cmdlet attempts to create a file that has the name of the Azure storage file.
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-If you specify the path of a file that does not exist, this cmdlet creates that file, and saves the contents in the new file.
-If you specify a path of a file that already exists and you specify the *Force* parameter, the cmdlet overwrites the file.
-If you specify a path of an existing file and you do not specify *Force*, the cmdlet prompts you before it continues.
-
-If you specify the path of a folder, this cmdlet attempts to create a file that has the name of the Azure storage file.
+Xx xxx xxxxxxx xxx xxxx xx x xxxxxx$ xxxx xxxxxx xxxxxxxx xx xxxxxx x xxxx xxxx xxx xxx xxxx xx xxx Xxxxx xxxxxxx xxxx.
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -114,12 +95,31 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-If you specify the path of a file that does not exist, this cmdlet creates that file, and saves the contents in the new file.
-If you specify a path of a file that already exists and you specify the *Force* parameter, the cmdlet overwrites the file.
-If you specify a path of an existing file and you do not specify *Force*, the cmdlet prompts you before it continues.
+### $XxxxxxxxxxXxxxXxxxx
+Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
 
-If you specify the path of a folder, this cmdlet attempts to create a file that has the name of the Azure storage file.
+Xx xxx xxxxxxx xxx xxxx xx x xxxxxx$ xxxx xxxxxx xxxxxxxx xx xxxxxx x xxxx xxxx xxx xxx xxxx xx xxx Xxxxx xxxxxxx xxxx.
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
+
+Xx xxx xxxxxxx xxx xxxx xx x xxxxxx$ xxxx xxxxxx xxxxxxxx xx xxxxxx x xxxx xxxx xxx xxx xxxx xx xxx Xxxxx xxxxxxx xxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -133,15 +133,15 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Destination
-Specifies the destination path.
-This cmdlet downloads the file contents to the location that this parameter specifies.
+### $Xxxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxxx xxxx.
+Xxxx xxxxxx xxxxxxxxx xxx xxxx xxxxxxxx xx xxx xxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
-If you specify the path of a file that does not exist, this cmdlet creates that file, and saves the contents in the new file.
-If you specify a path of a file that already exists and you specify the *Force* parameter, the cmdlet overwrites the file.
-If you specify a path of an existing file and you do not specify *Force*, the cmdlet prompts you before it continues.
+Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
 
-If you specify the path of a folder, this cmdlet attempts to create a file that has the name of the Azure storage file.
+Xx xxx xxxxxxx xxx xxxx xx x xxxxxx$ xxxx xxxxxx xxxxxxxx xx xxxxxx x xxxx xxxx xxx xxx xxxx xx xxx Xxxxx xxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -155,11 +155,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Directory
-Specifies a folder as a **CloudFileDirectory** object.
-This cmdlet gets content for a file in the folder that this parameter specifies.
-To obtain a directory, use the New-AzureStorageDirectory cmdlet.
-You can also use the Get-AzureStorageFile cmdlet to obtain a directory.
+### $Xxxxxxxxx
+Xxxxxxxxx x xxxxxx xx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx.
+Xxxx xxxxxx xxxx xxxxxxx xxx x xxxx xx xxx xxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x xxxxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
+Xxx xxx xxxx xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx xx xxxxxx x xxxxxxxxx.
 
 ```yaml
 Type: CloudFileDirectory
@@ -173,10 +173,10 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -File
-Specifies a file as a **CloudFile** object.
-This cmdlet gets the file that this parameter specifies.
-To obtain a **CloudFile** object, use the Get-AzureStorageFile cmdlet.
+### $Xxxx
+Xxxxxxxxx x xxxx xx x $$XxxxxXxxx$$ xxxxxx.
+Xxxx xxxxxx xxxx xxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x $$XxxxxXxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
 ```yaml
 Type: CloudFile
@@ -190,31 +190,12 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -Force
-If you specify the path of a file that does not exist, this cmdlet creates that file, and saves the contents in the new file.
-If you specify a path of a file that already exists and you specify the *Force* parameter, the cmdlet overwrites the file.
-If you specify a path of an existing file and you do not specify *Force*, the cmdlet prompts you before it continues.
+### $Xxxxx
+Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
 
-If you specify the path of a folder, this cmdlet attempts to create a file that has the name of the Azure storage file.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -PassThru
-If you specify the path of a file that does not exist, this cmdlet creates that file, and saves the contents in the new file.
-If you specify a path of a file that already exists and you specify the *Force* parameter, the cmdlet overwrites the file.
-If you specify a path of an existing file and you do not specify *Force*, the cmdlet prompts you before it continues.
-
-If you specify the path of a folder, this cmdlet attempts to create a file that has the name of the Azure storage file.
+Xx xxx xxxxxxx xxx xxxx xx x xxxxxx$ xxxx xxxxxx xxxxxxxx xx xxxxxx x xxxx xxxx xxx xxx xxxx xx xxx Xxxxx xxxxxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -228,10 +209,29 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the path of a file.
-This cmdlet gets the contents the file that this parameter specifies.
-If the file does not exist, this cmdlet returns an error.
+### $XxxxXxxx
+Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
+
+Xx xxx xxxxxxx xxx xxxx xx x xxxxxx$ xxxx xxxxxx xxxxxxxx xx xxxxxx x xxxx xxxx xxx xxx xxxx xx xxx Xxxxx xxxxxxx xxxx.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx x xxxx.
+Xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: String
@@ -245,12 +245,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-If you specify the path of a file that does not exist, this cmdlet creates that file, and saves the contents in the new file.
-If you specify a path of a file that already exists and you specify the *Force* parameter, the cmdlet overwrites the file.
-If you specify a path of an existing file and you do not specify *Force*, the cmdlet prompts you before it continues.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
+Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
 
-If you specify the path of a folder, this cmdlet attempts to create a file that has the name of the Azure storage file.
+Xx xxx xxxxxxx xxx xxxx xx x xxxxxx$ xxxx xxxxxx xxxxxxxx xx xxxxxx x xxxx xxxx xxx xxx xxxx xx xxx Xxxxx xxxxxxx xxxx.
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -264,12 +264,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Share
-Specifies a **CloudFileShare** object.
-This cmdlet downloads the contents of the file in the share this parameter specifies.
-To obtain a **CloudFileShare** object, use the Get-AzureStorageShare cmdlet.
-This object contains the storage context.
-If you specify this parameter, do not specify the *Context* parameter.
+### $Xxxxx
+Xxxxxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx.
+Xxxx xxxxxx xxxxxxxxx xxx xxxxxxxx xx xxx xxxx xx xxx xxxxx xxxx xxxxxxxxx xxxxxxxxx.
+Xx xxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxx xxxxxx.
+Xxxx xxxxxx xxxxxxxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxx xxxx xxxxxxxxx$ xx xxx xxxxxxx xxx $Xxxxxxx$ xxxxxxxxx.
 
 ```yaml
 Type: CloudFileShare
@@ -283,9 +283,9 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### -ShareName
-Specifies the name of the file share.
-This cmdlet downloads the contents of the file in the share this parameter specifies.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxx xxxxxxxxx xxx xxxxxxxx xx xxx xxxx xx xxx xxxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -299,8 +299,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-psdx_confirmdesc
+### $Xxxxxxx
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -314,8 +314,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-psdx_whatifdesc
+### $XxxxXx
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -329,16 +329,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageFile](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
+[Xxx$XxxxxXxxxxxxXxxx](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
 
-[Set-AzureStorageFileContent](cd2e0aa7-3259-4aa5-8494-c432063d34e7)
+[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](cd2e0aa7-3259-4aa5-8494-c432063d34e7)
 
 

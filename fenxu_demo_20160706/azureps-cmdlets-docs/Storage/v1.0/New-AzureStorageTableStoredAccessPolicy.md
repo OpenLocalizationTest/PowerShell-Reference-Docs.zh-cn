@@ -6,34 +6,34 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageTableStoredAccessPolicy
-## SYNOPSIS
-Creates a stored access policy for an azure_2 storage table.
+# Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxx xxxxxx xxxxxx xxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureStorageTableStoredAccessPolicy [-Table] <String> [-Policy] <String> [-Context <AzureStorageContext>]
  [-ExpiryTime <DateTime]>] [-Permission <String>] [-StartTime <DateTime]>]
 ```
 
-## DESCRIPTION
-The **New-AzureStorageTableStoredAccessPolicy** cmdlet creates a stored access policy for an azure_2 storage table.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx$$ xxxxxx xxxxxxx x xxxxxx xxxxxx xxxxxx xxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a stored access policy in a table
+### Xxxxxxx 0$ Xxxxxx x xxxxxx xxxxxx xxxxxx xx x xxxxx
 ```
 PS C:\>New-AzureStorageTableStoredAccessPolicy -Table "MyTable" -Policy "Policy02"
 ```
 
-This command creates an access policy named Policy02 in the storage table named MyTable.
+Xxxx xxxxxxx xxxxxxx xx xxxxxx xxxxxx xxxxx Xxxxxx00 xx xxx xxxxxxx xxxxx xxxxx XxXxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -47,8 +47,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-Specifies the time at which the stored access policy becomes invalid.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: DateTime]
@@ -62,8 +62,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Permission
-Specifies the level of public access to this storage table.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxx xx xxxxxx xxxxxx xx xxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -77,8 +77,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-Specifies a stored access policy, which includes the permissions for this Shared Access Signature (SAS) token.
+### $Xxxxxx
+Xxxxxxxxx x xxxxxx xxxxxx xxxxxx$ xxxxx xxxxxxxx xxx xxxxxxxxxxx xxx xxxx Xxxxxx Xxxxxx Xxxxxxxxx $XXX$ xxxxx.
 
 ```yaml
 Type: String
@@ -92,8 +92,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies the time at which the stored access policy becomes valid.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: DateTime]
@@ -107,8 +107,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Table
-Specifies the azure_2 storage table name.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxx xxxx.
 
 ```yaml
 Type: String
@@ -122,20 +122,20 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageTableStoredAccessPolicy](a1536004-87a3-48a2-ad18-bf3fe95908c9)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](a1536004-87a3-48a2-ad18-bf3fe95908c9)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Remove-AzureStorageTableStoredAccessPolicy](e9ed3edb-61eb-4547-8228-968601cfbee5)
+[Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](e9ed3edb-61eb-4547-8228-968601cfbee5)
 
-[Set-AzureStorageTableStoredAccessPolicy](cd4016e4-c0aa-4963-beb7-144a5bd2d619)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](cd4016e4-c0aa-4963-beb7-144a5bd2d619)
 
 

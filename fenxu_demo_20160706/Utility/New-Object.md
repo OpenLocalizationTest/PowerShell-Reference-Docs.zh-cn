@@ -4,34 +4,34 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293993
 schema: 2.0.0
 ---
 
-# New-Object
-## SYNOPSIS
-Creates an instance of a Microsoft .NET Framework or COM object.
+# Xxx$Xxxxxx
+## XXXXXXXX
+Xxxxxxx xx xxxxxxxx xx x Xxxxxxxxx .XXX Xxxxxxxxx xx XXX xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### Net (Default)
+### Xxx $Xxxxxxx$
 ```
 New-Object [-TypeName] <String> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Com
+### Xxx
 ```
 New-Object [-ComObject] <String> [-Strict] [-Property <IDictionary>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The New-Object cmdlet creates an instance of a .NET Framework or COM object.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxxxx xxxxxx xxxxxxx xx xxxxxxxx xx x .XXX Xxxxxxxxx xx XXX xxxxxx.
 
-You can specify either the type of a .NET Framework class or a ProgID of a COM object.
-By default, you type the fully qualified name of a .NET Framework class and the cmdlet returns a reference to an instance of that class.
-To create an instance of a COM object, use the ComObject parameter and specify the ProgID of the object as its value.
+Xxx xxx xxxxxxx xxxxxx xxx xxxx xx x .XXX Xxxxxxxxx xxxxx xx x XxxxXX xx x XXX xxxxxx.
+Xx xxxxxxx$ xxx xxxx xxx xxxxx xxxxxxxxx xxxx xx x .XXX Xxxxxxxxx xxxxx xxx xxx xxxxxx xxxxxxx x xxxxxxxxx xx xx xxxxxxxx xx xxxx xxxxx.
+Xx xxxxxx xx xxxxxxxx xx x XXX xxxxxx$ xxx xxx XxxXxxxxx xxxxxxxxx xxx xxxxxxx xxx XxxxXX xx xxx xxxxxx xx xxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>New-Object -TypeName System.Version -ArgumentList "1.2.3.4"
 Major  Minor  Build  Revision
@@ -41,26 +41,26 @@ Major  Minor  Build  Revision
 1      2      3      4
 ```
 
-This command creates a System.Version object.
-It uses a "1.2.3.4" string as the constructor.
+Xxxx xxxxxxx xxxxxxx x Xxxxxx.Xxxxxxx xxxxxx.
+Xx xxxx x $0.0.0.0$ xxxxxx xx xxx xxxxxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$ie = New-Object -COMObject InternetExplorer.Application -Property @{Navigate2="www.microsoft.com"; Visible = $true}
 ```
 
-This command creates an instance of the COM object that represents the Internet Explorer application.
-The value of the Property parameter is a hash table that calls the Navigate2 method and sets the Visible property of the object to $true to make the application visible.
+Xxxx xxxxxxx xxxxxxx xx xxxxxxxx xx xxx XXX xxxxxx xxxx xxxxxxxxxx xxx Xxxxxxxx Xxxxxxxx xxxxxxxxxxx.
+Xxx xxxxx xx xxx Xxxxxxxx xxxxxxxxx xx x xxxx xxxxx xxxx xxxxx xxx Xxxxxxxx0 xxxxxx xxx xxxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxx xx $xxxx xx xxxx xxx xxxxxxxxxxx xxxxxxx.
 
-This command is the equivalent of the following:
+Xxxx xxxxxxx xx xxx xxxxxxxxxx xx xxx xxxxxxxxx$
 
-$ie = New-Object -COMObject InternetExplorer.Application
+$xx $ Xxx$Xxxxxx $XXXXxxxxx XxxxxxxxXxxxxxxx.Xxxxxxxxxxx
 
-$ie.Navigate2("www.microsoft.com")
+$xx.Xxxxxxxx0$$xxx.xxxxxxxxx.xxx$$
 
-$ie.Visible = $true
+$xx.Xxxxxxx $ $xxxx
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a=New-Object -COMObject Word.Application -Strict -Property @{Visible=$true}
 New-Object : The object written to the pipeline is an instance of the type
@@ -73,9 +73,9 @@ At line:1 char:14
 + $a=New-Object  <<<< -COM Word.Application -Strict; $a.visible=$true
 ```
 
-This example demonstrates that adding the Strict parameter causes the New-Object cmdlet to generate a non-terminating error when the COM object uses an interop assembly.
+Xxxx xxxxxxx xxxxxxxxxxxx xxxx xxxxxx xxx Xxxxxx xxxxxxxxx xxxxxx xxx Xxx$Xxxxxx xxxxxx xx xxxxxxxx x xxx$xxxxxxxxxxx xxxxx xxxx xxx XXX xxxxxx xxxx xx xxxxxxx xxxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 The first command uses the ComObject parameter of the New-Object cmdlet to create a COM object with the "Shell.Application" ProgID. It stores the resulting object in the $objShell variable.
 PS C:\>$objshell = New-Object -COMObject "Shell.Application"
@@ -168,14 +168,14 @@ The third command calls the ToggleDesktop method of the object to minimize the o
 PS C:\>$objshell.ToggleDesktop()
 ```
 
-This example shows how to create and use a COM object to manage your Windows desktop.
+Xxxx xxxxxxx xxxxx xxx xx xxxxxx xxx xxx x XXX xxxxxx xx xxxxxx xxxx Xxxxxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ArgumentList
-Specifies a list of arguments to pass to the constructor of the .NET Framework class.
-Separate elements in the list by using commas (,).
-The alias for ArgumentList is Args.
+### $XxxxxxxxXxxx
+Xxxxxxxxx x xxxx xx xxxxxxxxx xx xxxx xx xxx xxxxxxxxxxx xx xxx .XXX Xxxxxxxxx xxxxx.
+Xxxxxxxx xxxxxxxx xx xxx xxxx xx xxxxx xxxxxx $$$.
+Xxx xxxxx xxx XxxxxxxxXxxx xx Xxxx.
 
 ```yaml
 Type: Object[]
@@ -189,8 +189,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ComObject
-Specifies the programmatic identifier (ProgID) of the COM object.
+### $XxxXxxxxx
+Xxxxxxxxx xxx xxxxxxxxxxxx xxxxxxxxxx $XxxxXX$ xx xxx XXX xxxxxx.
 
 ```yaml
 Type: String
@@ -204,8 +204,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -220,8 +220,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -235,14 +235,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Property
-Sets property values and invokes methods of the new object.
+### $Xxxxxxxx
+Xxxx xxxxxxxx xxxxxx xxx xxxxxxx xxxxxxx xx xxx xxx xxxxxx.
 
-Enter a hash table in which the keys are the names of properties or methods and the values are property values or method arguments.
-New-Object creates the object and sets each property value and invokes each method in the order that they appear in the hash table.
+Xxxxx x xxxx xxxxx xx xxxxx xxx xxxx xxx xxx xxxxx xx xxxxxxxxxx xx xxxxxxx xxx xxx xxxxxx xxx xxxxxxxx xxxxxx xx xxxxxx xxxxxxxxx.
+Xxx$Xxxxxx xxxxxxx xxx xxxxxx xxx xxxx xxxx xxxxxxxx xxxxx xxx xxxxxxx xxxx xxxxxx xx xxx xxxxx xxxx xxxx xxxxxx xx xxx xxxx xxxxx.
 
-If the new object is derived from the PSObject class, and you specify a property that does not exist on the object, New-Object adds the specified property to the object as a NoteProperty.
-If the object is not a PSObject, the command generates a non-terminating error.
+Xx xxx xxx xxxxxx xx xxxxxxx xxxx xxx XXXxxxxx xxxxx$ xxx xxx xxxxxxx x xxxxxxxx xxxx xxxx xxx xxxxx xx xxx xxxxxx$ Xxx$Xxxxxx xxxx xxx xxxxxxxxx xxxxxxxx xx xxx xxxxxx xx x XxxxXxxxxxxx.
+Xx xxx xxxxxx xx xxx x XXXxxxxx$ xxx xxxxxxx xxxxxxxxx x xxx$xxxxxxxxxxx xxxxx.
 
 ```yaml
 Type: IDictionary
@@ -256,9 +256,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Strict
-Generates a non-terminating error when a COM object that you attempt to create uses an interop assembly.
-This feature distinguishes actual COM objects from .NET Framework objects with COM-callable wrappers.
+### $Xxxxxx
+Xxxxxxxxx x xxx$xxxxxxxxxxx xxxxx xxxx x XXX xxxxxx xxxx xxx xxxxxxx xx xxxxxx xxxx xx xxxxxxx xxxxxxxx.
+Xxxx xxxxxxx xxxxxxxxxxxxx xxxxxx XXX xxxxxxx xxxx .XXX Xxxxxxxxx xxxxxxx xxxx XXX$xxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -272,9 +272,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TypeName
-Specifies the fully qualified name of the .NET Framework class.
-You cannot specify both the TypeName parameter and the ComObject parameter.
+### $XxxxXxxx
+Xxxxxxxxx xxx xxxxx xxxxxxxxx xxxx xx xxx .XXX Xxxxxxxxx xxxxx.
+Xxx xxxxxx xxxxxxx xxxx xxx XxxxXxxx xxxxxxxxx xxx xxx XxxXxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -288,37 +288,37 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### Object
-New-Object returns the object that is created.
+### Xxxxxx
+Xxx$Xxxxxx xxxxxxx xxx xxxxxx xxxx xx xxxxxxx.
 
-## NOTES
-New-Object provides the most commonly-used functionality of the VBScript CreateObject function.
-A statement like Set objShell = CreateObject("Shell.Application") in VBScript can be translated to $objShell = New-Object -COMObject "Shell.Application" in Windows PowerShell.
+## XXXXX
+Xxx$Xxxxxx xxxxxxxx xxx xxxx xxxxxxxx$xxxx xxxxxxxxxxxxx xx xxx XXXxxxxx XxxxxxXxxxxx xxxxxxxx.
+X xxxxxxxxx xxxx Xxx xxxXxxxx $ XxxxxxXxxxxx$$Xxxxx.Xxxxxxxxxxx$$ xx XXXxxxxx xxx xx xxxxxxxxxx xx $xxxXxxxx $ Xxx$Xxxxxx $XXXXxxxxx $Xxxxx.Xxxxxxxxxxx$ xx Xxxxxxx XxxxxXxxxx.
 
-New-Object expands upon the functionality available in the Windows Script Host environment by making it easy to work with .NET Framework objects from the command line and within scripts.
+Xxx$Xxxxxx xxxxxxx xxxx xxx xxxxxxxxxxxxx xxxxxxxxx xx xxx Xxxxxxx Xxxxxx Xxxx xxxxxxxxxxx xx xxxxxx xx xxxx xx xxxx xxxx .XXX Xxxxxxxxx xxxxxxx xxxx xxx xxxxxxx xxxx xxx xxxxxx xxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Compare-Object]()
+[Xxxxxxx$Xxxxxx]()
 
-[ForEach-Object]()
+[XxxXxxx$Xxxxxx]()
 
-[Group-Object]()
+[Xxxxx$Xxxxxx]()
 
-[Measure-Object]()
+[Xxxxxxx$Xxxxxx]()
 
-[Select-Object]()
+[Xxxxxx$Xxxxxx]()
 
-[Sort-Object]()
+[Xxxx$Xxxxxx]()
 
-[Tee-Object]()
+[Xxx$Xxxxxx]()
 
-[Where-Object]()
+[Xxxxx$Xxxxxx]()
 

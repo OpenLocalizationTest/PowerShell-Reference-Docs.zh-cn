@@ -6,45 +6,45 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureRmAutomationModule
-## SYNOPSIS
-Gets metadata for modules from Automation.
+# Xxx$XxxxxXxXxxxxxxxxxXxxxxx
+## XXXXXXXX
+Xxxx xxxxxxxx xxx xxxxxxx xxxx Xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRmAutomationModule [-ResourceGroupName] <String> [-AutomationAccountName] <String>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRmAutomationModule [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationModule** cmdlet gets metadata for modules from azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxx$$ xxxxxx xxxx xxxxxxxx xxx xxxxxxx xxxx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all modules
+### Xxxxxxx 0$ Xxx xxx xxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationModule -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command gets all modules in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 2: Get a module
+### Xxxxxxx 0$ Xxx x xxxxxx
 ```
 PS C:\>Get-AzureRmAutomationModule -AutomationAccountName "Contoso17" -Name "ContosoModule" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command gets a module named ContosoModule in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx x xxxxxx xxxxx XxxxxxxXxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account for which this cmdlet gets module metadata.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -58,8 +58,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the module for which this cmdlet gets metadata.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -73,8 +73,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet gets module metadata.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -88,18 +88,18 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureRmAutomationModule](0cfa1dd4-11f2-4eb6-a354-46bf4286d00f)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxx](0cfa1dd4-11f2-4eb6-a354-46bf4286d00f)
 
-[Remove-AzureRmAutomationModule](762b2b43-579b-4869-98f9-882aaf224686)
+[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxx](762b2b43-579b-4869-98f9-882aaf224686)
 
-[Set-AzureRmAutomationModule](e47306c4-b17e-4651-8248-eb81ad448a17)
+[Xxx$XxxxxXxXxxxxxxxxxXxxxxx](e47306c4-b17e-4651-8248-eb81ad448a17)
 
 

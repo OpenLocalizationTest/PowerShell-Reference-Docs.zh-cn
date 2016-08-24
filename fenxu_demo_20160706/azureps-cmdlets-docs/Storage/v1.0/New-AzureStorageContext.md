@@ -6,144 +6,144 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageContext
-## SYNOPSIS
-Creates an azure_2 Storage context.
+# Xxx$XxxxxXxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageContext [-StorageAccountName] <String> [-Protocol] [-Anonymous] -Environment <String>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageContext [-StorageAccountName] <String> [-Endpoint <String>] [-Protocol] [-Anonymous]
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageContext -ConnectionString <String>
 ```
 
-### UNNAMED_PARAMETER_SET_4
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageContext [-StorageAccountName] <String> [-StorageAccountKey] <String> [-Endpoint <String>]
  [-Protocol]
 ```
 
-### UNNAMED_PARAMETER_SET_5
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageContext [-StorageAccountName] <String> [-Endpoint <String>] [-Protocol] -SasToken <String>
 ```
 
-### UNNAMED_PARAMETER_SET_6
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageContext [-StorageAccountName] <String> [-StorageAccountKey] <String> [-Protocol]
  -Environment <String>
 ```
 
-### UNNAMED_PARAMETER_SET_7
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageContext [-StorageAccountName] <String> -Environment <String> -SasToken <String>
 ```
 
-### UNNAMED_PARAMETER_SET_8
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 New-AzureStorageContext [-Local]
 ```
 
-## DESCRIPTION
-The **New-AzureStorageContext** cmdlet creates an azure_2 Storage context.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxxx$$ xxxxxx xxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a context by specifying a storage account name and key
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xx xxxxxxxxxx x xxxxxxx xxxxxxx xxxx xxx xxx
 ```
 C:\PS>New-AzureStorageContext -StorageAccountName "ContosoGeneral" -StorageAccountKey "< Storage Key for ContosoGeneral ends with == >"
 ```
 
-This command creates a context for the account named ContosoGeneral that uses the specified key.
+Xxxx xxxxxxx xxxxxxx x xxxxxxx xxx xxx xxxxxxx xxxxx XxxxxxxXxxxxxx xxxx xxxx xxx xxxxxxxxx xxx.
 
-### Example 2: Create a context by specifying a connection string
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xx xxxxxxxxxx x xxxxxxxxxx xxxxxx
 ```
 C:\PS>New-AzureStorageContext -ConnectionString "DefaultEndpointsProtocol=https;AccountName=ContosoGeneral;AccountKey=< Storage Key for ContosoGeneral ends with == >;"
 ```
 
-This command creates a context based on the specified connection string for the account ContosoGeneral.
+Xxxx xxxxxxx xxxxxxx x xxxxxxx xxxxx xx xxx xxxxxxxxx xxxxxxxxxx xxxxxx xxx xxx xxxxxxx XxxxxxxXxxxxxx.
 
-### Example 3: Create a context for an anonymous storage account
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxx xx xxxxxxxxx xxxxxxx xxxxxxx
 ```
 C:\PS>New-AzureStorageContext -StorageAccountName "ContosoGeneral" -Anonymous -Protocol "http"
 ```
 
-This command creates a context for anonymous use for the account named ContosoGeneral.
-The command specifies HTTP as a connection protocol.
+Xxxx xxxxxxx xxxxxxx x xxxxxxx xxx xxxxxxxxx xxx xxx xxx xxxxxxx xxxxx XxxxxxxXxxxxxx.
+Xxx xxxxxxx xxxxxxxxx XXXX xx x xxxxxxxxxx xxxxxxxx.
 
-### Example 4: Create a context by using the local development storage account
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xx xxxxx xxx xxxxx xxxxxxxxxxx xxxxxxx xxxxxxx
 ```
 C:\PS>New-AzureStorageContext -Local
 ```
 
-This command creates a context by using the local development storage account.
-The command specifies the *Local* parameter.
+Xxxx xxxxxxx xxxxxxx x xxxxxxx xx xxxxx xxx xxxxx xxxxxxxxxxx xxxxxxx xxxxxxx.
+Xxx xxxxxxx xxxxxxxxx xxx $Xxxxx$ xxxxxxxxx.
 
-### Example 5: Get the container for the local developer storage account
+### Xxxxxxx 0$ Xxx xxx xxxxxxxxx xxx xxx xxxxx xxxxxxxxx xxxxxxx xxxxxxx
 ```
 C:\PS>New-AzureStorageContext -Local | Get-AzureStorageContainer
 ```
 
-This command creates a context by using the local development storage account, and then passes the new context to the **Get-AzureStorageContainer** cmdlet by using the pipeline operator.
-The command gets the azure_2 Storage container for the local developer storage account.
+Xxxx xxxxxxx xxxxxxx x xxxxxxx xx xxxxx xxx xxxxx xxxxxxxxxxx xxxxxxx xxxxxxx$ xxx xxxx xxxxxx xxx xxx xxxxxxx xx xxx $$Xxx$XxxxxXxxxxxxXxxxxxxxx$$ xxxxxx xx xxxxx xxx xxxxxxxx xxxxxxxx.
+Xxx xxxxxxx xxxx xxx xxxxx$0 Xxxxxxx xxxxxxxxx xxx xxx xxxxx xxxxxxxxx xxxxxxx xxxxxxx.
 
-### Example 6: Get multiple containers
+### Xxxxxxx 0$ Xxx xxxxxxxx xxxxxxxxxx
 ```
 C:\PS>$Context01 = New-AzureStorageContext -Local 
 PS C:\> $Context02 = New-AzureStorageContext -StorageAccountName "ContosoGeneral" -StorageAccountKey "< Storage Key for ContosoGeneral ends with == >"
 PS C:\> ($Context01, $Context02) | Get-AzureStorageContainer
 ```
 
-The first command creates a context by using the local development storage account, and then stores that context in the $Context01 variable.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxxxx xx xxxxx xxx xxxxx xxxxxxxxxxx xxxxxxx xxxxxxx$ xxx xxxx xxxxxx xxxx xxxxxxx xx xxx $Xxxxxxx00 xxxxxxxx.
 
-The second command creates a context for the account named ContosoGeneral that uses the specified key, and then stores that context in the $Context02 variable.
+Xxx xxxxxx xxxxxxx xxxxxxx x xxxxxxx xxx xxx xxxxxxx xxxxx XxxxxxxXxxxxxx xxxx xxxx xxx xxxxxxxxx xxx$ xxx xxxx xxxxxx xxxx xxxxxxx xx xxx $Xxxxxxx00 xxxxxxxx.
 
-The final command gets the containers for the contexts stored in $Context01 and $Context02 by using **Get-AzureStorageContainer**.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxxxxx xxx xxx xxxxxxxx xxxxxx xx $Xxxxxxx00 xxx $Xxxxxxx00 xx xxxxx $$Xxx$XxxxxXxxxxxxXxxxxxxxx$$.
 
-### Example 7: Create a context with an endpoint
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxxx xx xxxxxxxx
 ```
 C:\PS>New-AzureStorageContext -StorageAccountName "ContosoGeneral" -StorageAccountKey "< Storage Key for ContosoGeneral ends with == >" -Endpoint "contosoaccount.core.windows.net"
 ```
 
-This command creates an azure_2 Storage context that has the specified storage endpoint.
-The command creates the context for the account named ContosoGeneral that uses the specified key.
+Xxxx xxxxxxx xxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx xxxx xxx xxx xxxxxxxxx xxxxxxx xxxxxxxx.
+Xxx xxxxxxx xxxxxxx xxx xxxxxxx xxx xxx xxxxxxx xxxxx XxxxxxxXxxxxxx xxxx xxxx xxx xxxxxxxxx xxx.
 
-### Example 8: Create a context with a specified environment
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxxx x xxxxxxxxx xxxxxxxxxxx
 ```
 C:\PS>New-AzureStorageContext -StorageAccountName "ContosoGeneral" -StorageAccountKey "< Storage Key for ContosoGeneral ends with == >" -Environment "AzureChinaCloud"
 ```
 
-This command creates an azure_2 storage context that has the specified azure_2 environment.
-The command creates the context for the account named ContosoGeneral that uses the specified key.
+Xxxx xxxxxxx xxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx xxxx xxx xxx xxxxxxxxx xxxxx$0 xxxxxxxxxxx.
+Xxx xxxxxxx xxxxxxx xxx xxxxxxx xxx xxx xxxxxxx xxxxx XxxxxxxXxxxxxx xxxx xxxx xxx xxxxxxxxx xxx.
 
-### Example 9: Create a context by using an SAS token
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xx xxxxx xx XXX xxxxx
 ```
 C:\PS>$SasToken = New-AzureStorageContainerSASToken -Name "ContosoMain" -Permission "raud"
 PS C:\> $Context = New-AzureStorageContext -StorageAccountName "ContosoGeneral" -SasToken $SasToken
 PS C:\> $Context | Get-AzureStorageBlob -Container "ContosoMain"
 ```
 
-The first command generates an SAS token by using the **New-AzureStorageContainerSASToken** cmdlet for the container named ContosoMain, and then stores that token in the $SasToken variable.
-That token is for read, add, update, and delete permissions.
+Xxx xxxxx xxxxxxx xxxxxxxxx xx XXX xxxxx xx xxxxx xxx $$Xxx$XxxxxXxxxxxxXxxxxxxxxXXXXxxxx$$ xxxxxx xxx xxx xxxxxxxxx xxxxx XxxxxxxXxxx$ xxx xxxx xxxxxx xxxx xxxxx xx xxx $XxxXxxxx xxxxxxxx.
+Xxxx xxxxx xx xxx xxxx$ xxx$ xxxxxx$ xxx xxxxxx xxxxxxxxxxx.
 
-The second command creates a context for the account named ContosoGeneral that uses the SAS token stored in $SasToken, and then stores that context in the $Context variable.
+Xxx xxxxxx xxxxxxx xxxxxxx x xxxxxxx xxx xxx xxxxxxx xxxxx XxxxxxxXxxxxxx xxxx xxxx xxx XXX xxxxx xxxxxx xx $XxxXxxxx$ xxx xxxx xxxxxx xxxx xxxxxxx xx xxx $Xxxxxxx xxxxxxxx.
 
-The final command lists all the blobs associated with the container named ContosoMain by using the context stored in $Context.
+Xxx xxxxx xxxxxxx xxxxx xxx xxx xxxxx xxxxxxxxxx xxxx xxx xxxxxxxxx xxxxx XxxxxxxXxxx xx xxxxx xxx xxxxxxx xxxxxx xx $Xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Anonymous
-Indicates that this cmdlet creates an azure_2 Storage context for anonymous logon.
+### $Xxxxxxxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx xxx xxxxxxxxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -157,8 +157,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ConnectionString
-Specifies a connection string for the azure_2 Storage context.
+### $XxxxxxxxxxXxxxxx
+Xxxxxxxxx x xxxxxxxxxx xxxxxx xxx xxx xxxxx$0 Xxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -172,8 +172,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Endpoint
-Specifies the endpoint for the azure_2 Storage context.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xxx xxx xxxxx$0 Xxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -187,10 +187,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Environment
-Specifies the azure_2 environment.
-psdx_paramvalues AzureCloud and AzureChinaCloud.
-For more information, type \[CODE_Snippit\]Get-Help Get-AzureEnvironment\[CODE_Snippit\].
+### $Xxxxxxxxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxxxxxx.
+xxxx$xxxxxxxxxxx XxxxxXxxxx xxx XxxxxXxxxxXxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxxx $$XXXX$Xxxxxxx$$Xxx$Xxxx Xxx$XxxxxXxxxxxxxxxx$$XXXX$Xxxxxxx$$.
 
 ```yaml
 Type: String
@@ -216,8 +216,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Local
-Indicates that this cmdlet creates a context by using the local development storage account.
+### $Xxxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx x xxxxxxx xx xxxxx xxx xxxxx xxxxxxxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -231,14 +231,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Protocol
-Specifies the protocol permitted for a request made with the account SAS.
-psdx_paramvalues
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xxxxxxxxx xxx x xxxxxxx xxxx xxxx xxx xxxxxxx XXX.
+xxxx$xxxxxxxxxxx
 
--- HttpsOnly
--- HttpsOrHttp
+$$ XxxxxXxxx $$ XxxxxXxXxxx
 
-The default value is HttpsOrHttp.
+Xxx xxxxxxx xxxxx xx XxxxxXxXxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -253,8 +252,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SasToken
-Specifies a Shared Access Signature (SAS) token for the context.
+### $XxxXxxxx
+Xxxxxxxxx x Xxxxxx Xxxxxx Xxxxxxxxx $XXX$ xxxxx xxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -268,9 +267,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StorageAccountKey
-Specifies an azure_2 Storage account key.
-This cmdlet creates a context for the key that this parameter specifies.
+### $XxxxxxxXxxxxxxXxx
+Xxxxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx xxx.
+Xxxx xxxxxx xxxxxxx x xxxxxxx xxx xxx xxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -284,9 +283,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StorageAccountName
-Specifies an azure_2 Storage account name.
-This cmdlet creates a context for the account that this parameter specifies.
+### $XxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx xxxx.
+Xxxx xxxxxx xxxxxxx x xxxxxxx xxx xxx xxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -300,18 +299,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-### AzureStorageContext
+### XxxxxXxxxxxxXxxxxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageBlob](74bc4494-be41-4493-9939-e51e61dd09e6)
+[Xxx$XxxxxXxxxxxxXxxx](74bc4494-be41-4493-9939-e51e61dd09e6)
 
-[New-AzureStorageContainerSASToken](dc3564e2-9ede-4901-8d62-f49017a03281)
+[Xxx$XxxxxXxxxxxxXxxxxxxxxXXXXxxxx](dc3564e2-9ede-4901-8d62-f49017a03281)
 
 

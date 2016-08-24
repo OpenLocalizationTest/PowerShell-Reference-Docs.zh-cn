@@ -4,11 +4,11 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294031
 schema: 2.0.0
 ---
 
-# Write-Progress
-## SYNOPSIS
-Displays a progress bar within a Windows PowerShell command window.
+# Xxxxx$Xxxxxxxx
+## XXXXXXXX
+Xxxxxxxx x xxxxxxxx xxx xxxxxx x Xxxxxxx XxxxxXxxxx xxxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Write-Progress [-Activity] <String> [[-Status] <String>] [[-Id] <Int32>] [-PercentComplete <Int32>]
@@ -16,22 +16,22 @@ Write-Progress [-Activity] <String> [[-Status] <String>] [[-Id] <Int32>] [-Perce
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Write-Progress cmdlet displays a progress bar in a Windows PowerShell command window that depicts the status of a running command or script.
-You can select the indicators that the bar reflects and the text that appears above and below the progress bar.
+## XXXXXXXXXXX
+Xxx Xxxxx$Xxxxxxxx xxxxxx xxxxxxxx x xxxxxxxx xxx xx x Xxxxxxx XxxxxXxxxx xxxxxxx xxxxxx xxxx xxxxxxx xxx xxxxxx xx x xxxxxxx xxxxxxx xx xxxxxx.
+Xxx xxx xxxxxx xxx xxxxxxxxxx xxxx xxx xxx xxxxxxxx xxx xxx xxxx xxxx xxxxxxx xxxxx xxx xxxxx xxx xxxxxxxx xxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>for ($i = 1; $i -le 100; $i++ )
 {write-progress -activity "Search in Progress" -status "$i% Complete:" -percentcomplete $i;}
 ```
 
-This command displays the progress of a For loop that counts from 1 to 100.
-The Write-Progress command includes a status bar heading ("activity"), a status line, and the variable $i (the counter in the For loop), which indicates the relative completeness of the task.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxx xx x Xxx xxxx xxxx xxxxxx xxxx 0 xx 000.
+Xxx Xxxxx$Xxxxxxxx xxxxxxx xxxxxxxx x xxxxxx xxx xxxxxxx $$xxxxxxxx$$$ x xxxxxx xxxx$ xxx xxx xxxxxxxx $x $xxx xxxxxxx xx xxx Xxx xxxx$$ xxxxx xxxxxxxxx xxx xxxxxxxx xxxxxxxxxxxx xx xxx xxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>for($i = 1; $i -lt 101; $i++ )
 {write-progress -activity Updating -status 'Progress->' -percentcomplete $i -currentOperation OuterLoop; `
@@ -48,12 +48,12 @@ Progress
 InnerLoop
 ```
 
-This example displays the progress of two nested For loops, each of which is represented by a progress bar.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxx xx xxx xxxxxx Xxx xxxxx$ xxxx xx xxxxx xx xxxxxxxxxxx xx x xxxxxxxx xxx.
 
-The Write-Progress command for the second progress bar includes the Id parameter that distinguishes it from the first progress bar.
-Without the Id parameter, the progress bars would be superimposed on each other instead of being displayed one below the other.
+Xxx Xxxxx$Xxxxxxxx xxxxxxx xxx xxx xxxxxx xxxxxxxx xxx xxxxxxxx xxx Xx xxxxxxxxx xxxx xxxxxxxxxxxxx xx xxxx xxx xxxxx xxxxxxxx xxx.
+Xxxxxxx xxx Xx xxxxxxxxx$ xxx xxxxxxxx xxxx xxxxx xx xxxxxxxxxxxx xx xxxx xxxxx xxxxxxx xx xxxxx xxxxxxxxx xxx xxxxx xxx xxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$events = get-eventlog -logname system
 PS C:\>$events | foreach-object -begin {clear-host;$i=0;$out=""} `
@@ -62,27 +62,27 @@ write-progress -activity "Searching Events" -status "Progress:" -percentcomplete
 -end {$out}
 ```
 
-This command displays the progress of a command to find the string "bios" in the System event log.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxx xx x xxxxxxx xx xxxx xxx xxxxxx $xxxx$ xx xxx Xxxxxx xxxxx xxx.
 
-In the first line of the command, the Get-EventLog cmdlet gets the events in the System log and stores them in the $events variable.
+Xx xxx xxxxx xxxx xx xxx xxxxxxx$ xxx Xxx$XxxxxXxx xxxxxx xxxx xxx xxxxxx xx xxx Xxxxxx xxx xxx xxxxxx xxxx xx xxx $xxxxxx xxxxxxxx.
 
-In the second line, the events are piped to the ForEach-Object cmdlet.
-Before processing begins, the Clear-Host cmdlet is used to clear the screen, the $i counter variable is set to zero, and the $out output variable is set to the empty string.
+Xx xxx xxxxxx xxxx$ xxx xxxxxx xxx xxxxx xx xxx XxxXxxx$Xxxxxx xxxxxx.
+Xxxxxx xxxxxxxxxx xxxxxx$ xxx Xxxxx$Xxxx xxxxxx xx xxxx xx xxxxx xxx xxxxxx$ xxx $x xxxxxxx xxxxxxxx xx xxx xx xxxx$ xxx xxx $xxx xxxxxx xxxxxxxx xx xxx xx xxx xxxxx xxxxxx.
 
-In the third line, which is the Process script block of the ForEach-Object cmdlet, the cmdlet searches the message property of each incoming object for "bios".
-If the string is found, the message is added to $out.
-Then, the $i counter variable is incremented to record that another event has been examined.
+Xx xxx xxxxx xxxx$ xxxxx xx xxx Xxxxxxx xxxxxx xxxxx xx xxx XxxXxxx$Xxxxxx xxxxxx$ xxx xxxxxx xxxxxxxx xxx xxxxxxx xxxxxxxx xx xxxx xxxxxxxx xxxxxx xxx $xxxx$.
+Xx xxx xxxxxx xx xxxxx$ xxx xxxxxxx xx xxxxx xx $xxx.
+Xxxx$ xxx $x xxxxxxx xxxxxxxx xx xxxxxxxxxxx xx xxxxxx xxxx xxxxxxx xxxxx xxx xxxx xxxxxxxx.
 
-The fourth line uses the Write-Progress cmdlet with values for the Activity and Status text fields that create the first and second lines of the progress bar heading, respectively.
-The PercentComplete parameter value is calculated by dividing the number of events that have been processed ($i) by the total number of events retrieved ($events.count) and then multiplying that result by 100.
+Xxx xxxxxx xxxx xxxx xxx Xxxxx$Xxxxxxxx xxxxxx xxxx xxxxxx xxx xxx Xxxxxxxx xxx Xxxxxx xxxx xxxxxx xxxx xxxxxx xxx xxxxx xxx xxxxxx xxxxx xx xxx xxxxxxxx xxx xxxxxxx$ xxxxxxxxxxxx.
+Xxx XxxxxxxXxxxxxxx xxxxxxxxx xxxxx xx xxxxxxxxxx xx xxxxxxxx xxx xxxxxx xx xxxxxx xxxx xxxx xxxx xxxxxxxxx $$x$ xx xxx xxxxx xxxxxx xx xxxxxx xxxxxxxxx $$xxxxxx.xxxxx$ xxx xxxx xxxxxxxxxxx xxxx xxxxxx xx 000.
 
-In the last line, the End parameter of the ForEach-Object cmdlet is used to display the messages that are stored in the $out variable.
+Xx xxx xxxx xxxx$ xxx Xxx xxxxxxxxx xx xxx XxxXxxx$Xxxxxx xxxxxx xx xxxx xx xxxxxxx xxx xxxxxxxx xxxx xxx xxxxxx xx xxx $xxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Activity
-Specifies the first line of text in the heading above the status bar.
-This text describes the activity whose progress is being reported.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxx xxxx xx xxxx xx xxx xxxxxxx xxxxx xxx xxxxxx xxx.
+Xxxx xxxx xxxxxxxxx xxx xxxxxxxx xxxxx xxxxxxxx xx xxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -96,9 +96,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Completed
-Indicates whether the progress bar is visible.
-If this parameter is omitted, Write-Progress displays progress information.
+### $Xxxxxxxxx
+Xxxxxxxxx xxxxxxx xxx xxxxxxxx xxx xx xxxxxxx.
+Xx xxxx xxxxxxxxx xx xxxxxxx$ Xxxxx$Xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -112,9 +112,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CurrentOperation
-Specifies the line of text below the progress bar.
-This text describes the operation that is currently taking place.
+### $XxxxxxxXxxxxxxxx
+Xxxxxxxxx xxx xxxx xx xxxx xxxxx xxx xxxxxxxx xxx.
+Xxxx xxxx xxxxxxxxx xxx xxxxxxxxx xxxx xx xxxxxxxxx xxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -128,10 +128,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Id
-Specifies an ID that distinguishes each progress bar from the others.
-Use this parameter when you are creating more than one progress bar in a single command.
-If the progress bars do not have different IDs, they are superimposed instead of being displayed in a series.
+### $Xx
+Xxxxxxxxx xx XX xxxx xxxxxxxxxxxxx xxxx xxxxxxxx xxx xxxx xxx xxxxxx.
+Xxx xxxx xxxxxxxxx xxxx xxx xxx xxxxxxxx xxxx xxxx xxx xxxxxxxx xxx xx x xxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xx xxx xxxx xxxxxxxxx XXx$ xxxx xxx xxxxxxxxxxxx xxxxxxx xx xxxxx xxxxxxxxx xx x xxxxxx.
 
 ```yaml
 Type: Int32
@@ -145,8 +145,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -161,8 +161,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -176,9 +176,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ParentId
-Identifies the parent activity of the current activity.
-Use the value -1 if the current activity has no parent activity.
+### $XxxxxxXx
+Xxxxxxxxxx xxx xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxx.
+Xxx xxx xxxxx $0 xx xxx xxxxxxx xxxxxxxx xxx xx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -192,9 +192,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PercentComplete
-Specifies the percentage of the activity that is completed.
-Use the value -1 if the percentage complete is unknown or not applicable.
+### $XxxxxxxXxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxx xxxx xx xxxxxxxxx.
+Xxx xxx xxxxx $0 xx xxx xxxxxxxxxx xxxxxxxx xx xxxxxxx xx xxx xxxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -208,9 +208,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SecondsRemaining
-Specifies the projected number of seconds remaining until the activity is completed.
-Use the value -1 if the number of seconds remaining is unknown or not applicable.
+### $XxxxxxxXxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxx xxxxxx xx xxxxxxx xxxxxxxxx xxxxx xxx xxxxxxxx xx xxxxxxxxx.
+Xxx xxx xxxxx $0 xx xxx xxxxxx xx xxxxxxx xxxxxxxxx xx xxxxxxx xx xxx xxxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -224,8 +224,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SourceId
-Identifies the source of the record.
+### $XxxxxxXx
+Xxxxxxxxxx xxx xxxxxx xx xxx xxxxxx.
 
 ```yaml
 Type: Int32
@@ -239,9 +239,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Status
-Specifies the second line of text in the heading above the status bar.
-This text describes current state of the activity.
+### $Xxxxxx
+Xxxxxxxxx xxx xxxxxx xxxx xx xxxx xx xxx xxxxxxx xxxxx xxx xxxxxx xxx.
+Xxxx xxxx xxxxxxxxx xxxxxxx xxxxx xx xxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -255,35 +255,35 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None
-You cannot pipe input to this cmdlet.
+### Xxxx
+Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-Write-Progress does not generate any output.
+### Xxxx
+Xxxxx$Xxxxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
-If the progress bar does not appear, check the value of the $ProgressPreference variable.
-If the value is set to SilentlyContinue, the progress bar is not displayed.
-For more information about Windows PowerShell preferences, see about_Preference_Variables.
+## XXXXX
+Xx xxx xxxxxxxx xxx xxxx xxx xxxxxx$ xxxxx xxx xxxxx xx xxx $XxxxxxxxXxxxxxxxxx xxxxxxxx.
+Xx xxx xxxxx xx xxx xx XxxxxxxxXxxxxxxx$ xxx xxxxxxxx xxx xx xxx xxxxxxxxx.
+Xxx xxxx xxxxxxxxxxx xxxxx Xxxxxxx XxxxxXxxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxxxxx$Xxxxxxxxx.
 
-The parameters of the cmdlet correspond to the properties of the ProgressRecord class (System.Management.Automation.ProgressRecord).
-For more information, see the ProgressRecord topic in the Windows PowerShell Software Development Kit (SDK).
+Xxx xxxxxxxxxx xx xxx xxxxxx xxxxxxxxxx xx xxx xxxxxxxxxx xx xxx XxxxxxxxXxxxxx xxxxx $Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxxxxXxxxxx$.
+Xxx xxxx xxxxxxxxxxx$ xxx xxx XxxxxxxxXxxxxx xxxxx xx xxx Xxxxxxx XxxxxXxxxx Xxxxxxxx Xxxxxxxxxxx Xxx $XXX$.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Write-Debug]()
+[Xxxxx$Xxxxx]()
 
-[Write-Error]()
+[Xxxxx$Xxxxx]()
 
-[Write-Host]()
+[Xxxxx$Xxxx]()
 
-[Write-Output]()
+[Xxxxx$Xxxxxx]()
 
-[Write-Verbose]()
+[Xxxxx$Xxxxxxx]()
 
-[Write-Warning]()
+[Xxxxx$Xxxxxxx]()
 

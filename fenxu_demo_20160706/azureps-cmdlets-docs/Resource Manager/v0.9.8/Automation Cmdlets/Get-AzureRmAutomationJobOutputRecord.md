@@ -6,38 +6,38 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureRmAutomationJobOutputRecord
-## SYNOPSIS
-Gets the full output of an Automation job output record.
+# Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxXxxxxx
+## XXXXXXXX
+Xxxx xxx xxxx xxxxxx xx xx Xxxxxxxxxx xxx xxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureRmAutomationJobOutputRecord [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-JobId] <Guid> [-Id] <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationJobOutputRecord** cmdlet gets the full output of an Automation job output record.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxXxxxxx$$ xxxxxx xxxx xxx xxxx xxxxxx xx xx Xxxxxxxxxx xxx xxxxxx xxxxxx.
 
-Although the **Get-AzureRmAutomationJobOutput** cmdlet lists one or more job output records, it returns only a summary, as a string, of the value of any output record.
-It does not return the full value of an output record's outputted value in its original type.
-In addition, the summary has a maximum length, which the full value that this cmdlet outputs may exceed.
-Unlike **Get-AzureRmAutomationJobOutput**, this cmdlet returns the full value in its originally outputted type, for any output record's outputted value.
+Xxxxxxxx xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxx$$ xxxxxx xxxxx xxx xx xxxx xxx xxxxxx xxxxxxx$ xx xxxxxxx xxxx x xxxxxxx$ xx x xxxxxx$ xx xxx xxxxx xx xxx xxxxxx xxxxxx.
+Xx xxxx xxx xxxxxx xxx xxxx xxxxx xx xx xxxxxx xxxxxx$x xxxxxxxxx xxxxx xx xxx xxxxxxxx xxxx.
+Xx xxxxxxxx$ xxx xxxxxxx xxx x xxxxxxx xxxxxx$ xxxxx xxx xxxx xxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxxxxx.
+Xxxxxx $$Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxx$$$ xxxx xxxxxx xxxxxxx xxx xxxx xxxxx xx xxx xxxxxxxxxx xxxxxxxxx xxxx$ xxx xxx xxxxxx xxxxxx$x xxxxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get the full output of an Automation job
+### Xxxxxxx 0$ Xxx xxx xxxx xxxxxx xx xx Xxxxxxxxxx xxx
 ```
 PS C:\>Get-AzureRmAutomationJobOutput -AutomationAccountName "Contoso17" -Id 2989b069-24fe-40b9-b3bd-cb7e5eac4b64 -ResourceGroupName "ResourceGroup01" -Stream "Any" | Get-AzureRmAutomationJobOutputRecord
 ```
 
-This command gets the full output of the job that has the specified job ID.
+Xxxx xxxxxxx xxxx xxx xxxx xxxxxx xx xxx xxx xxxx xxx xxx xxxxxxxxx xxx XX.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of an Automation account for which this cmdlet gets a job output record.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxx x xxx xxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -51,8 +51,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Id
-Specifies the ID of a job output record for this cmdlet to retrieve.
+### $Xx
+Xxxxxxxxx xxx XX xx x xxx xxxxxx xxxxxx xxx xxxx xxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -66,8 +66,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -JobId
-Specifies the ID of a job for which this cmdlet gets an output record.
+### $XxxXx
+Xxxxxxxxx xxx XX xx x xxx xxx xxxxx xxxx xxxxxx xxxx xx xxxxxx xxxxxx.
 
 ```yaml
 Type: Guid
@@ -81,8 +81,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet gets a job output record.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxx x xxx xxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -96,14 +96,14 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationJobOutput](03d80a68-8443-42e0-87bc-5d0e22ac3a57)
+[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxx](03d80a68-8443-42e0-87bc-5d0e22ac3a57)
 
 

@@ -6,11 +6,11 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureStorageShareStoredAccessPolicy
-## SYNOPSIS
-Gets stored access policies for a Storage share.
+# Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx
+## XXXXXXXX
+Xxxx xxxxxx xxxxxx xxxxxxxx xxx x Xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureStorageShareStoredAccessPolicy [-ShareName] <String> [[-Policy] <String>]
@@ -18,45 +18,30 @@ Get-AzureStorageShareStoredAccessPolicy [-ShareName] <String> [[-Policy] <String
  [-Context <AzureStorageContext>] [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-## DESCRIPTION
-The **Get-AzureStorageShareStoredAccessPolicy** cmdlet gets stored access policies for an azure_2 Storage share.
-To get a particular policy, specify it by name.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx$$ xxxxxx xxxx xxxxxx xxxxxx xxxxxxxx xxx xx xxxxx$0 Xxxxxxx xxxxx.
+Xx xxx x xxxxxxxxxx xxxxxx$ xxxxxxx xx xx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get a stored access policy in a share
+### Xxxxxxx 0$ Xxx x xxxxxx xxxxxx xxxxxx xx x xxxxx
 ```
 PS C:\>Get-AzureStorageShareStoredAccessPolicy -ShareName "ContosoShare" -Policy "GeneralPolicy"
 ```
 
-This command gets a stored access policy named GeneralPolicy in ContosoShare.
+Xxxx xxxxxxx xxxx x xxxxxx xxxxxx xxxxxx xxxxx XxxxxxxXxxxxx xx XxxxxxxXxxxx.
 
-### Example 2: Get all the stored access policies in share
+### Xxxxxxx 0$ Xxx xxx xxx xxxxxx xxxxxx xxxxxxxx xx xxxxx
 ```
 PS C:\>Get-AzureStorageShareStoredAccessPolicy -ShareName "ContosoShare"
 ```
 
-This command gets all stored access policies in ContosoShare.
+Xxxx xxxxxxx xxxx xxx xxxxxx xxxxxx xxxxxxxx xx XxxxxxxXxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-@{Text=}
-
-```yaml
-Type: Nullable [System.Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -70,8 +55,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-@{Text=}
+### $XxxxxxxxxxXxxxXxxxx
+$$Xxxx$$
+
+```yaml
+Type: Nullable [System.Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: AzureStorageContext
@@ -85,8 +85,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Policy
-@{Text=}
+### $Xxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -100,8 +100,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-@{Text=}
+### $XxxxxxXxxxxxxXxxXxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Nullable [System.Int32]
@@ -115,8 +115,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ShareName
-Specifies the Storage share name for which this cmdlet gets policies.
+### $XxxxxXxxx
+Xxxxxxxxx xxx Xxxxxxx xxxxx xxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -130,20 +130,20 @@ Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[New-AzureStorageShareStoredAccessPolicy](d5b956f0-92ca-4246-9860-dfa96f17ed8a)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](d5b956f0-92ca-4246-9860-dfa96f17ed8a)
 
-[Remove-AzureStorageShareStoredAccessPolicy](af46a7c9-dd40-4d0d-9950-56f661dada33)
+[Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](af46a7c9-dd40-4d0d-9950-56f661dada33)
 
-[Set-AzureStorageShareStoredAccessPolicy](738f47b7-e244-40b1-9b2e-3b6f4e348c8f)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](738f47b7-e244-40b1-9b2e-3b6f4e348c8f)
 
 

@@ -6,60 +6,60 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureRmAutomationDscCompilationJob
-## SYNOPSIS
-Gets DSC compilation jobs in Automation.
+# Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxx
+## XXXXXXXX
+Xxxx XXX xxxxxxxxxxx xxxx xx Xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRmAutomationDscCompilationJob [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-EndTime <DateTimeOffset]>] [-StartTime <DateTimeOffset]>] [-Status]
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRmAutomationDscCompilationJob [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  -Id <Guid>
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRmAutomationDscCompilationJob [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-EndTime <DateTimeOffset]>] [-StartTime <DateTimeOffset]>] [-Status] -ConfigurationName <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationDscCompilationJob** cmdlet gets APS Desired State Configuration (DSC) compilation jobs in azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxx$$ xxxxxx xxxx XXX Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxxxxxxxxx xxxx xx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all DSC compilation jobs
+### Xxxxxxx 0$ Xxx xxx XXX xxxxxxxxxxx xxxx
 ```
 PS C:\>Get-AzureRmAutomationDscCompilationJob -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17"
 ```
 
-This command gets all compilation jobs in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxxxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 2: Get DSC compilation jobs for a configuration
+### Xxxxxxx 0$ Xxx XXX xxxxxxxxxxx xxxx xxx x xxxxxxxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationDscCompilationJob -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17" -ConfigurationName "ContosoConfiguration"
 ```
 
-This command gets all compilation jobs for the DSC configuration named ContosoConfiguration in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxxxx xxxx xxx xxx XXX xxxxxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 3: Get a specific DSC compilation job
+### Xxxxxxx 0$ Xxx x xxxxxxxx XXX xxxxxxxxxxx xxx
 ```
 PS C:\>Get-AzureRmAutomationDscCompilationJob -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17" -Id c0a1718e-d8be-4fa3-91b6-82e1d3a36298
 ```
 
-This command gets the compilation job with the specified ID in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxxxx xxx xxxx xxx xxxxxxxxx XX xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies the name of the Automation account that contains DSC compilation jobs that this cmdlet gets.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxxxxx XXX xxxxxxxxxxx xxxx xxxx xxxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -73,8 +73,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ConfigurationName
-Specifies the name of the DSC configuration for which this cmdlet gets compilation jobs.
+### $XxxxxxxxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx XXX xxxxxxxxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -88,9 +88,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -EndTime
-Specifies an end time.
-This cmdlet gets compilations jobs that started up to the time that this parameter specifies.
+### $XxxXxxx
+Xxxxxxxxx xx xxx xxxx.
+Xxxx xxxxxx xxxx xxxxxxxxxxxx xxxx xxxx xxxxxxx xx xx xxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: DateTimeOffset]
@@ -104,8 +104,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Id
-Specifies the unique ID of the DSC compilation job that this cmdlet gets.
+### $Xx
+Xxxxxxxxx xxx xxxxxx XX xx xxx XXX xxxxxxxxxxx xxx xxxx xxxx xxxxxx xxxx.
 
 ```yaml
 Type: Guid
@@ -119,8 +119,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group in which this cmdlet gets DSC compilation jobs.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xx xxxxx xxxx xxxxxx xxxx XXX xxxxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -134,9 +134,9 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies a start time.
-This cmdlet gets jobs that start at or after the time that this parameter specifies.
+### $XxxxxXxxx
+Xxxxxxxxx x xxxxx xxxx.
+Xxxx xxxxxx xxxx xxxx xxxx xxxxx xx xx xxxxx xxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: DateTimeOffset]
@@ -150,21 +150,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Status
-Specifies the status of jobs that this cmdlet gets.
-Valid values are: 
+### $Xxxxxx
+Xxxxxxxxx xxx xxxxxx xx xxxx xxxx xxxx xxxxxx xxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Completed 
--- Failed 
--- Queued 
--- Starting 
--- Resuming 
--- Running 
--- Stopped 
--- Stopping 
--- Suspended 
--- Suspending 
--- Activating
+$$ Xxxxxxxxx $$ Xxxxxx $$ Xxxxxx $$ Xxxxxxxx $$ Xxxxxxxx $$ Xxxxxxx $$ Xxxxxxx $$ Xxxxxxxx $$ Xxxxxxxxx $$ Xxxxxxxxxx $$ Xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -179,16 +169,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureRmAutomationDscCompilationJobOutput](0375f514-6679-4488-be72-816df6f13124)
+[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxxXxxxxx](0375f514-6679-4488-be72-816df6f13124)
 
-[Start-AzureRmAutomationDscCompilationJob](d1d461ab-138f-42f2-8faf-e651a8310b08)
+[Xxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxx](d1d461ab-138f-42f2-8faf-e651a8310b08)
 
 

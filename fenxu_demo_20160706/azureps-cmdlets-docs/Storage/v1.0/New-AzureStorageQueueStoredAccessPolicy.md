@@ -6,34 +6,34 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureStorageQueueStoredAccessPolicy
-## SYNOPSIS
-Creates a stored access policy for an azure_2 storage queue.
+# Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx
+## XXXXXXXX
+Xxxxxxx x xxxxxx xxxxxx xxxxxx xxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureStorageQueueStoredAccessPolicy [-Queue] <String> [-Policy] <String> [-Context <AzureStorageContext>]
  [-ExpiryTime <DateTime]>] [-Permission <String>] [-StartTime <DateTime]>]
 ```
 
-## DESCRIPTION
-The **New-AzureStorageQueueStoredAccessPolicy** cmdlet creates a stored access policy for an azure_2 storage queue.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx$$ xxxxxx xxxxxxx x xxxxxx xxxxxx xxxxxx xxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a stored access policy in a storage queue
+### Xxxxxxx 0$ Xxxxxx x xxxxxx xxxxxx xxxxxx xx x xxxxxxx xxxxx
 ```
 PS C:\>New-AzureStorageQueueStoredAccessPolicy -Queue "MyQueue" -Policy "Policy01"
 ```
 
-This command creates an access policy named Policy01 in the storage queue named MyQueue.
+Xxxx xxxxxxx xxxxxxx xx xxxxxx xxxxxx xxxxx Xxxxxx00 xx xxx xxxxxxx xxxxx xxxxx XxXxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -47,8 +47,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-Specifies the time at which the stored access policy becomes invalid.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: DateTime]
@@ -62,8 +62,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Permission
-Specifies the level of public access to this storage queue.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxx xx xxxxxx xxxxxx xx xxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -77,8 +77,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-Specifies a stored access policy, which includes the permissions for this SAS token.
+### $Xxxxxx
+Xxxxxxxxx x xxxxxx xxxxxx xxxxxx$ xxxxx xxxxxxxx xxx xxxxxxxxxxx xxx xxxx XXX xxxxx.
 
 ```yaml
 Type: String
@@ -92,8 +92,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Queue
-Specifies the azure_2 storage queue name.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxx xxxx.
 
 ```yaml
 Type: String
@@ -107,8 +107,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies the time at which the stored access policy becomes valid.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: DateTime]
@@ -122,20 +122,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageQueueStoredAccessPolicy](f5420030-d139-44d7-847b-86ae910b98cd)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](f5420030-d139-44d7-847b-86ae910b98cd)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Remove-AzureStorageQueueStoredAccessPolicy](8d80d1be-2e66-4372-9d51-2afff62d011d)
+[Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](8d80d1be-2e66-4372-9d51-2afff62d011d)
 
-[Set-AzureStorageQueueStoredAccessPolicy](02396020-02c8-4736-a00e-8d7112e27286)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](02396020-02c8-4736-a00e-8d7112e27286)
 
 

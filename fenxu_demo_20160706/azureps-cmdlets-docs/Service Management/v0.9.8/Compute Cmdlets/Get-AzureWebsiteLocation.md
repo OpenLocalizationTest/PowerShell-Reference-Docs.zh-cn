@@ -6,41 +6,41 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureWebsiteLocation
-## SYNOPSIS
-Gets all available website locations.
+# Xxx$XxxxxXxxxxxxXxxxxxxx
+## XXXXXXXX
+Xxxx xxx xxxxxxxxx xxxxxxx xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureWebsiteLocation
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-Gets all of the available website locations for the current subscription
+Xxxx xxx xx xxx xxxxxxxxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxx xxxxxxxxxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Get all available locations
+### 0$ Xxx xxx xxxxxxxxx xxxxxxxxx
 ```
 PS C:\>Get-AzureWebsiteLocations
 ```
 
-This example gets all of the available website locations for the current subscription.
+Xxxx xxxxxxx xxxx xxx xx xxx xxxxxxxxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxx xxxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
+[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
 
 

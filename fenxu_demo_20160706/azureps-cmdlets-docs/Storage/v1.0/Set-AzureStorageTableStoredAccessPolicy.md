@@ -6,34 +6,34 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureStorageTableStoredAccessPolicy
-## SYNOPSIS
-Sets the stored access policy for an azure_2 storage table.
+# Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx
+## XXXXXXXX
+Xxxx xxx xxxxxx xxxxxx xxxxxx xxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureStorageTableStoredAccessPolicy [-Table] <String> [-Policy] <String> [-Context <AzureStorageContext>]
  [-ExpiryTime <DateTime]>] [-NoExpiryTime] [-NoStartTime] [-Permission <String>] [-StartTime <DateTime]>]
 ```
 
-## DESCRIPTION
-The **Set-AzureStorageTableStoredAccessPolicy** cmdlet set the stored access policy for an azure_2 storage table.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx$$ xxxxxx xxx xxx xxxxxx xxxxxx xxxxxx xxx xx xxxxx$0 xxxxxxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Set a stored access policy in table with full permission
+### Xxxxxxx 0$ Xxx x xxxxxx xxxxxx xxxxxx xx xxxxx xxxx xxxx xxxxxxxxxx
 ```
 PS C:\>Set-AzureStorageTableStoredAccessPolicy -Table "MyTable" -Policy "Policy08"
 ```
 
-This command sets an access policy named Policy08 for storage table named MyTable.
+Xxxx xxxxxxx xxxx xx xxxxxx xxxxxx xxxxx Xxxxxx00 xxx xxxxxxx xxxxx xxxxx XxXxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Context
-Specifies an azure_2 storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -47,8 +47,8 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ExpiryTime
-Specifies the time at which the stored access policy expires.
+### $XxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: DateTime]
@@ -62,8 +62,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NoExpiryTime
-Indicates that the access policy has no expiration date.
+### $XxXxxxxxXxxx
+Xxxxxxxxx xxxx xxx xxxxxx xxxxxx xxx xx xxxxxxxxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -77,8 +77,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NoStartTime
-Indicates that the start time is set to $Null.
+### $XxXxxxxXxxx
+Xxxxxxxxx xxxx xxx xxxxx xxxx xx xxx xx $Xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -92,8 +92,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Permission
-Specifies the level of public access to this storage table.
+### $Xxxxxxxxxx
+Xxxxxxxxx xxx xxxxx xx xxxxxx xxxxxx xx xxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -107,8 +107,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Policy
-Specifies a stored access policy, which includes the permissions for this SAS token.
+### $Xxxxxx
+Xxxxxxxxx x xxxxxx xxxxxx xxxxxx$ xxxxx xxxxxxxx xxx xxxxxxxxxxx xxx xxxx XXX xxxxx.
 
 ```yaml
 Type: String
@@ -122,8 +122,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StartTime
-Specifies the time at which the stored access policy becomes valid.
+### $XxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxx xxxxxxx xxxxx.
 
 ```yaml
 Type: DateTime]
@@ -137,8 +137,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Table
-Specifies the azure_2 storage table name.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxx xxxx.
 
 ```yaml
 Type: String
@@ -152,20 +152,20 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageTableStoredAccessPolicy](a1536004-87a3-48a2-ad18-bf3fe95908c9)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](a1536004-87a3-48a2-ad18-bf3fe95908c9)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[New-AzureStorageTableStoredAccessPolicy](27f043ca-0c6b-4952-afd7-a2e12e73b402)
+[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](27f043ca-0c6b-4952-afd7-a2e12e73b402)
 
-[Remove-AzureStorageTableStoredAccessPolicy](e9ed3edb-61eb-4547-8228-968601cfbee5)
+[Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](e9ed3edb-61eb-4547-8228-968601cfbee5)
 
 

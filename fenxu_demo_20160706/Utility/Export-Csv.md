@@ -4,46 +4,46 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293957
 schema: 2.0.0
 ---
 
-# Export-Csv
-## SYNOPSIS
-Converts objects into a series of comma-separated (CSV) strings and saves the strings in a CSV file.
+# Xxxxxx$Xxx
+## XXXXXXXX
+Xxxxxxxx xxxxxxx xxxx x xxxxxx xx xxxxx$xxxxxxxxx $XXX$ xxxxxxx xxx xxxxx xxx xxxxxxx xx x XXX xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### Delimiter (Default)
+### Xxxxxxxxx $Xxxxxxx$
 ```
 Export-Csv -InputObject <PSObject> [[-Path] <String>] [-LiteralPath <String>] [-Force] [-NoClobber]
  [-Encoding <String>] [-Append] [[-Delimiter] <Char>] [-NoTypeInformation]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### UseCulture
+### XxxXxxxxxx
 ```
 Export-Csv -InputObject <PSObject> [[-Path] <String>] [-LiteralPath <String>] [-Force] [-NoClobber]
  [-Encoding <String>] [-Append] [-UseCulture] [-NoTypeInformation] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Export-CSV cmdlet creates a CSV file of the objects that you submit.
-Each object is represented as a line or row of the CSV.
-The row consists of a comma-separated list of the values of object properties.
-You can use this cmdlet to create spreadsheets and share data with programs that take CSV files as input.
+## XXXXXXXXXXX
+Xxx Xxxxxx$XXX xxxxxx xxxxxxx x XXX xxxx xx xxx xxxxxxx xxxx xxx xxxxxx.
+Xxxx xxxxxx xx xxxxxxxxxxx xx x xxxx xx xxx xx xxx XXX.
+Xxx xxx xxxxxxxx xx x xxxxx$xxxxxxxxx xxxx xx xxx xxxxxx xx xxxxxx xxxxxxxxxx.
+Xxx xxx xxx xxxx xxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxxx xxxx xxxx xxxxxxxx xxxx xxxx XXX xxxxx xx xxxxx.
 
-NOTE: Do not format objects before sending them to the Export-CSV cmdlet.
-If you do, the format properties are represented in the CSV file, instead of the properties of the original objects.
-To export only selected properties of an object, use the Select-Object cmdlet.
+XXXX$ Xx xxx xxxxxx xxxxxxx xxxxxx xxxxxxx xxxx xx xxx Xxxxxx$XXX xxxxxx.
+Xx xxx xx$ xxx xxxxxx xxxxxxxxxx xxx xxxxxxxxxxx xx xxx XXX xxxx$ xxxxxxx xx xxx xxxxxxxxxx xx xxx xxxxxxxx xxxxxxx.
+Xx xxxxxx xxxx xxxxxxxx xxxxxxxxxx xx xx xxxxxx$ xxx xxx Xxxxxx$Xxxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process wmiprvse | select-object basePriority,ID,SessionID,WorkingSet | export-csv -path data.csv
 ```
 
-This command selects a few properties of the WmiPrvse process and exports them to a CSV file named Data.csv.
+Xxxx xxxxxxx xxxxxxx x xxx xxxxxxxxxx xx xxx XxxXxxxx xxxxxxx xxx xxxxxxx xxxx xx x XXX xxxx xxxxx Xxxx.xxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | export-csv processes.csv
 PS C:\>get-process | export-csv processes.csv
@@ -53,10 +53,10 @@ PS C:\>get-process | export-csv processes.csv
 __NounName,Name,Handles,VM,WS,PM,NPM,Path,Company,CPU,FileVersion,... Process,powershell,626,201666560,76058624,61943808,11960,C:\WINDOWS... Process,powershell,257,151920640,38322176,37052416,7836,C:\WINDOWS\...
 ```
 
-This command exports objects representing the processes on the computer to the Processes.csv file in the current directory.
-Because it does not specify a delimiter, a comma (,) is used to separate the fields in the file.
+Xxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xx xxx Xxxxxxxxx.xxx xxxx xx xxx xxxxxxx xxxxxxxxx.
+Xxxxxxx xx xxxx xxx xxxxxxx x xxxxxxxxx$ x xxxxx $$$ xx xxxx xx xxxxxxxx xxx xxxxxx xx xxx xxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | export-csv processes.csv -Delimiter ";"
 
@@ -65,19 +65,19 @@ PS C:\>get-process | export-csv processes.csv -Delimiter ";"
 __NounName;Name;Handles;VM;WS;PM;NPM;Path;Company;CPU;FileVersion;... Process;powershell;626;201666560;76058624;61943808;11960;C:\WINDOWS... Process;powershell;257;151920640;38322176;37052416;7836;C:\WINDOWS\...
 ```
 
-This command exports objects representing the processes on the computer to the Processes.csv file in the current directory.
-It uses the Delimiter parameter to specify the semicolon (;).
-As a result, the fields in the file are separated by semicolons.
+Xxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xx xxx Xxxxxxxxx.xxx xxxx xx xxx xxxxxxx xxxxxxxxx.
+Xx xxxx xxx Xxxxxxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxxxxx $$$.
+Xx x xxxxxx$ xxx xxxxxx xx xxx xxxx xxx xxxxxxxxx xx xxxxxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | export-csv processes.csv -UseCulture
 ```
 
-This command exports objects representing the processes on the computer to the Processes.csv file in the current directory.
-It uses the UseCulture parameter to direct Export-CSV to use the delimiter specified by the ListSeparator property of the current culture.
+Xxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xx xxx Xxxxxxxxx.xxx xxxx xx xxx xxxxxxx xxxxxxxxx.
+Xx xxxx xxx XxxXxxxxxx xxxxxxxxx xx xxxxxx Xxxxxx$XXX xx xxx xxx xxxxxxxxx xxxxxxxxx xx xxx XxxxXxxxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | export-csv processes.csv -NoTypeInformation
 PS C:\>get-process | export-csv processes.csv -NoTypeInformation
@@ -86,10 +86,10 @@ PS C:\>get-process | export-csv processes.csv -NoTypeInformation
 __NounName,Name,Handles,VM,WS,PM,NPM,Path,Company,CPU,FileVersion,... Process,powershell,626,201666560,76058624,61943808,11960,C:\WINDOWS... Process,powershell,257,151920640,38322176,37052416,7836,C:\WINDOWS\...
 ```
 
-This command exports objects representing the processes on the computer to the Processes.csv file in the current directory.
-It uses the NoTypeInformation parameter to suppress the type information in the file.
+Xxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xx xxx Xxxxxxxxx.xxx xxxx xx xxx xxxxxxx xxxxxxxxx.
+Xx xxxx xxx XxXxxxXxxxxxxxxxx xxxxxxxxx xx xxxxxxxx xxx xxxx xxxxxxxxxxx xx xxx xxxx.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 The first command uses the Get-ChildItem cmdlet to do a recursive search in the D: drive for files with the .ps1 file name extension. It uses a pipeline operator to sends the results to the Where-Object cmdlet, which gets only files that were created after January 1, 2011, and then saves them in the ScriptFiles variable. 
 PS C:\>$scriptFiles = Get-ChildItem D:\* -include *.ps1 -recurse | where-object {$_.creationtime -gt "01/01/2011"}
@@ -101,9 +101,9 @@ The third command uses a pipeline operator (|) to send the script file informati
 PS C:\>$scriptFiles | export-csv -append -path \\Archive01\Scripts\Scripts.csv
 ```
 
-These commands add information about new Windows PowerShell scripts to a script inventory file.
+Xxxxx xxxxxxxx xxx xxxxxxxxxxx xxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxx xx x xxxxxx xxxxxxxxx xxxx.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 The first command shows how to select properties of an object and export them to a CSV file. This command uses the Get-Date cmdlet to get the current date and time. It uses the Select-Object cmdlet to select the desired properties, and the Export-CSV cmdlet to export the object and its properties to the Date.csv file. The output shows the expected content in the Date.csv file.
 PS C:\>get-date | select-object -property DateTime, Day, DayOfWeek, DayOfYear | export-csv -path Date.csv
@@ -116,24 +116,24 @@ PS C:\>get-date | format-table -property DateTime, Day, DayOfWeek, DayOfYear | e
 #In Date.csv: "ClassId2e4f51ef21dd47e99d3c952918aff9cd","pageHeaderEntry","pageFooterEntry","autosizeInfo","shapeInfo","groupingEntry""033ecb2bc07a4d43b5ef94ed5a35d280",,,,"Microsoft.PowerShell.Commands.Internal.Format.TableHeaderInfo","9e210fe47d09416682b841769c78b8a3",,,,,"27c87ef9bbda4f709f6b4002fa4af63c",,,,,"4ec4f0187cb04f4cb6973460dfe252df",,,,,"cf522b78d86c486691226b40aa69e95c",,,,,
 ```
 
-This example demonstrates one of most common problems that users encounter when using the Export-CSV cmdlet.
-It explains how to recognize and avoid this error.
+Xxxx xxxxxxx xxxxxxxxxxxx xxx xx xxxx xxxxxx xxxxxxxx xxxx xxxxx xxxxxxxxx xxxx xxxxx xxx Xxxxxx$XXX xxxxxx.
+Xx xxxxxxxx xxx xx xxxxxxxxx xxx xxxxx xxxx xxxxx.
 
-Because a CSV file has a table format, it might seem natural to use the Format-Table cmdlet to format the  data in a table to prepare it for export as a CSV file.
-Also, the Format-Table cmdlet allows you to select object properties easily.
+Xxxxxxx x XXX xxxx xxx x xxxxx xxxxxx$ xx xxxxx xxxx xxxxxxx xx xxx xxx Xxxxxx$Xxxxx xxxxxx xx xxxxxx xxx  xxxx xx x xxxxx xx xxxxxxx xx xxx xxxxxx xx x XXX xxxx.
+Xxxx$ xxx Xxxxxx$Xxxxx xxxxxx xxxxxx xxx xx xxxxxx xxxxxx xxxxxxxxxx xxxxxx.
 
-However, when you format the data in a table and then export it, you are exporting a table object, not your original data object.
-The resulting CSV file is not useful.
+Xxxxxxx$ xxxx xxx xxxxxx xxx xxxx xx x xxxxx xxx xxxx xxxxxx xx$ xxx xxx xxxxxxxxx x xxxxx xxxxxx$ xxx xxxx xxxxxxxx xxxx xxxxxx.
+Xxx xxxxxxxxx XXX xxxx xx xxx xxxxxx.
 
-This example shows how to select object properties by using the Select-Object cmdlet, and it shows the Export-CSV formats the data correctly in a CSV file without any preparatory formatting by another cmdlet.
+Xxxx xxxxxxx xxxxx xxx xx xxxxxx xxxxxx xxxxxxxxxx xx xxxxx xxx Xxxxxx$Xxxxxx xxxxxx$ xxx xx xxxxx xxx Xxxxxx$XXX xxxxxxx xxx xxxx xxxxxxxxx xx x XXX xxxx xxxxxxx xxx xxxxxxxxxxx xxxxxxxxxx xx xxxxxxx xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Append
-Adds the CSV output to the end of the specified file.
-Without this parameter, Export-CSV replaces the file contents without warning.
+### $Xxxxxx
+Xxxx xxx XXX xxxxxx xx xxx xxx xx xxx xxxxxxxxx xxxx.
+Xxxxxxx xxxx xxxxxxxxx$ Xxxxxx$XXX xxxxxxxx xxx xxxx xxxxxxxx xxxxxxx xxxxxxx.
 
-This parameter is introduced in Windows PowerShell 3.0.
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: SwitchParameter
@@ -147,11 +147,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Delimiter
-Specifies a delimiter to separate the property values.
-The default is a comma (,).
-Enter a character, such as a colon (:).
-To specify a semicolon (;), enclose it in quotation marks.
+### $Xxxxxxxxx
+Xxxxxxxxx x xxxxxxxxx xx xxxxxxxx xxx xxxxxxxx xxxxxx.
+Xxx xxxxxxx xx x xxxxx $$$.
+Xxxxx x xxxxxxxxx$ xxxx xx x xxxxx $$$.
+Xx xxxxxxx x xxxxxxxxx $$$$ xxxxxxx xx xx xxxxxxxxx xxxxx.
 
 ```yaml
 Type: Char
@@ -165,10 +165,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Encoding
-Specifies the encoding for the exported CSV file.
-Valid values are Unicode, UTF7, UTF8, ASCII, UTF32, BigEndianUnicode, Default, and OEM.
-The default is ASCII.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xxx xxx xxxxxxxx XXX xxxx.
+Xxxxx xxxxxx xxx Xxxxxxx$ XXX0$ XXX0$ XXXXX$ XXX00$ XxxXxxxxxXxxxxxx$ Xxxxxxx$ xxx XXX.
+Xxx xxxxxxx xx XXXXX.
 
 ```yaml
 Type: String
@@ -183,8 +183,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Overwrites the file specified in path without prompting.
+### $Xxxxx
+Xxxxxxxxxx xxx xxxx xxxxxxxxx xx xxxx xxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -198,8 +198,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-This parameter is introduced in Windows PowerShell 3.0.
+### $XxxxxxxxxxxXxxxxx
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: ActionPreference
@@ -214,8 +214,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-This parameter is introduced in Windows PowerShell 3.0.
+### $XxxxxxxxxxxXxxxxxxx
+Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
 
 ```yaml
 Type: String
@@ -229,10 +229,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the objects to export as CSV strings.
-Enter a variable that contains the objects or type a command or expression that gets the objects.
-You can also pipe objects to Export-CSV.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxxxxx xx XXX xxxxxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
+Xxx xxx xxxx xxxx xxxxxxx xx Xxxxxx$XXX.
 
 ```yaml
 Type: PSObject
@@ -246,9 +246,9 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -NoClobber
-Do not overwrite (replace the contents) of an existing file.
-By default, if a file exists in the specified path, Export-CSV overwrites the file without warning.
+### $XxXxxxxxx
+Xx xxx xxxxxxxxx $xxxxxxx xxx xxxxxxxx$ xx xx xxxxxxxx xxxx.
+Xx xxxxxxx$ xx x xxxx xxxxxx xx xxx xxxxxxxxx xxxx$ Xxxxxx$XXX xxxxxxxxxx xxx xxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -262,9 +262,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NoTypeInformation
-Omits the type information from the CSV file.
-By default, the first line of the CSV file contains "#TYPE " followed by the fully-qualified name of the type of the object.
+### $XxXxxxXxxxxxxxxxx
+Xxxxx xxx xxxx xxxxxxxxxxx xxxx xxx XXX xxxx.
+Xx xxxxxxx$ xxx xxxxx xxxx xx xxx XXX xxxx xxxxxxxx $$XXXX $ xxxxxxxx xx xxx xxxxx$xxxxxxxxx xxxx xx xxx xxxx xx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -278,9 +278,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the path to the CSV output file.
-This parameter is required.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx XXX xxxxxx xxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -294,12 +294,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -UseCulture
-Use the list separator for the current culture as the item delimiter.
-The default is a comma (,).
+### $XxxXxxxxxx
+Xxx xxx xxxx xxxxxxxxx xxx xxx xxxxxxx xxxxxxx xx xxx xxxx xxxxxxxxx.
+Xxx xxxxxxx xx x xxxxx $$$.
 
-This parameter is very useful in scripts that are being distributed to users worldwide.
-To find the list separator for a culture, use the following command: (Get-Culture).TextInfo.ListSeparator.
+Xxxx xxxxxxxxx xx xxxx xxxxxx xx xxxxxxx xxxx xxx xxxxx xxxxxxxxxxx xx xxxxx xxxxxxxxx.
+Xx xxxx xxx xxxx xxxxxxxxx xxx x xxxxxxx$ xxx xxx xxxxxxxxx xxxxxxx$ $Xxx$Xxxxxxx$.XxxxXxxx.XxxxXxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -313,12 +313,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -LiteralPath
-Specifies the path to the CSV output file.
-Unlike Path, the value of the LiteralPath parameter is used exactly as it is typed.
-No characters are interpreted as wildcards.
-If the path includes escape characters, enclose it in single quotation marks.
-Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx XXX xxxxxx xxxx.
+Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
+Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
+Xx xxx xxxx xxxxxxxx xxxxxx xxxxxxxxxx$ xxxxxxx xx xx xxxxxx xxxxxxxxx xxxxx.
+Xxxxxx xxxxxxxxx xxxxx xxxx Xxxxxxx XxxxxXxxxx xxx xx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -332,8 +332,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -347,10 +347,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -364,49 +364,49 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any object with an Extended Type System (ETS) adapter to Export-CSV.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xxxx xx Xxxxxxxx Xxxx Xxxxxx $XXX$ xxxxxxx xx Xxxxxx$XXX.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.String
-The CSV list is sent to the file designated in the Path parameter.
+### Xxxxxx.Xxxxxx
+Xxx XXX xxxx xx xxxx xx xxx xxxx xxxxxxxxxx xx xxx Xxxx xxxxxxxxx.
 
-## NOTES
-The Export-CSV cmdlet converts the objects that you submit into a series of CSV variable-length strings and saves them in the specified text file.
-You can use Export-CSV to save objects in a CSV file and then use the Import-CSV cmdlet to create objects from the text in the CSV file.
+## XXXXX
+Xxx Xxxxxx$XXX xxxxxx xxxxxxxx xxx xxxxxxx xxxx xxx xxxxxx xxxx x xxxxxx xx XXX xxxxxxxx$xxxxxx xxxxxxx xxx xxxxx xxxx xx xxx xxxxxxxxx xxxx xxxx.
+Xxx xxx xxx Xxxxxx$XXX xx xxxx xxxxxxx xx x XXX xxxx xxx xxxx xxx xxx Xxxxxx$XXX xxxxxx xx xxxxxx xxxxxxx xxxx xxx xxxx xx xxx XXX xxxx.
 
-In the CSV file, each object is represented by a comma-separated list of the property values of the object.
-The property values are converted to strings (by using the ToString() method of the object), so they are generally represented by the name of the property value.
-Export-CSV does not export the methods of the object.
+Xx xxx XXX xxxx$ xxxx xxxxxx xx xxxxxxxxxxx xx x xxxxx$xxxxxxxxx xxxx xx xxx xxxxxxxx xxxxxx xx xxx xxxxxx.
+Xxx xxxxxxxx xxxxxx xxx xxxxxxxxx xx xxxxxxx $xx xxxxx xxx XxXxxxxx$$ xxxxxx xx xxx xxxxxx$$ xx xxxx xxx xxxxxxxxx xxxxxxxxxxx xx xxx xxxx xx xxx xxxxxxxx xxxxx.
+Xxxxxx$XXX xxxx xxx xxxxxx xxx xxxxxxx xx xxx xxxxxx.
 
-The format of an exported file is as follows:
+Xxx xxxxxx xx xx xxxxxxxx xxxx xx xx xxxxxxx$
 
--- The first line of the CSV file contains the string '#TYPE ' followed by the fully qualified name of the object, such as #TYPE System.Diagnostics.Process. To suppress this line, use the NoTypeInformation parameter.
--- The next line of the CSV file represents the column headers. It contains a comma-separated list of the names of all the properties of the first object.
--- Additional lines of the file consist of comma-separated lists of the property values of each object.
+$$ Xxx xxxxx xxxx xx xxx XXX xxxx xxxxxxxx xxx xxxxxx $$XXXX $ xxxxxxxx xx xxx xxxxx xxxxxxxxx xxxx xx xxx xxxxxx$ xxxx xx $XXXX Xxxxxx.Xxxxxxxxxxx.Xxxxxxx. Xx xxxxxxxx xxxx xxxx$ xxx xxx XxXxxxXxxxxxxxxxx xxxxxxxxx.
+$$ Xxx xxxx xxxx xx xxx XXX xxxx xxxxxxxxxx xxx xxxxxx xxxxxxx. Xx xxxxxxxx x xxxxx$xxxxxxxxx xxxx xx xxx xxxxx xx xxx xxx xxxxxxxxxx xx xxx xxxxx xxxxxx.
+$$ Xxxxxxxxxx xxxxx xx xxx xxxx xxxxxxx xx xxxxx$xxxxxxxxx xxxxx xx xxx xxxxxxxx xxxxxx xx xxxx xxxxxx.
 
-When you submit multiple objects to Export-CSV, Export-CSV organizes the file based on the properties of the first object that you submit.
-If the remaining objects do not have one of the specified properties, the property value of that object is null, as represented by two consecutive commas.
-If the remaining objects have additional properties, those property values are not included in the file.
+Xxxx xxx xxxxxx xxxxxxxx xxxxxxx xx Xxxxxx$XXX$ Xxxxxx$XXX xxxxxxxxx xxx xxxx xxxxx xx xxx xxxxxxxxxx xx xxx xxxxx xxxxxx xxxx xxx xxxxxx.
+Xx xxx xxxxxxxxx xxxxxxx xx xxx xxxx xxx xx xxx xxxxxxxxx xxxxxxxxxx$ xxx xxxxxxxx xxxxx xx xxxx xxxxxx xx xxxx$ xx xxxxxxxxxxx xx xxx xxxxxxxxxxx xxxxxx.
+Xx xxx xxxxxxxxx xxxxxxx xxxx xxxxxxxxxx xxxxxxxxxx$ xxxxx xxxxxxxx xxxxxx xxx xxx xxxxxxxx xx xxx xxxx.
 
-You can use the Import-Csv cmdlet to re-create objects from the CSV strings in the files.
-The resulting objects are CSV versions of the original objects that consist of string representations of the property values and no methods.
+Xxx xxx xxx xxx Xxxxxx$Xxx xxxxxx xx xx$xxxxxx xxxxxxx xxxx xxx XXX xxxxxxx xx xxx xxxxx.
+Xxx xxxxxxxxx xxxxxxx xxx XXX xxxxxxxx xx xxx xxxxxxxx xxxxxxx xxxx xxxxxxx xx xxxxxx xxxxxxxxxxxxxxx xx xxx xxxxxxxx xxxxxx xxx xx xxxxxxx.
 
-The ConvertTo-Csv and ConvertFrom-Csv cmdlets to convert objects to CSV strings (and back).
-Export-CSV is the same as ConvertTo-CSV, except that it saves the CSV strings in a file.
+Xxx XxxxxxxXx$Xxx xxx XxxxxxxXxxx$Xxx xxxxxxx xx xxxxxxx xxxxxxx xx XXX xxxxxxx $xxx xxxx$.
+Xxxxxx$XXX xx xxx xxxx xx XxxxxxxXx$XXX$ xxxxxx xxxx xx xxxxx xxx XXX xxxxxxx xx x xxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[ConvertFrom-Csv]()
+[XxxxxxxXxxx$Xxx]()
 
-[ConvertTo-Csv]()
+[XxxxxxxXx$Xxx]()
 
-[Format-Table]()
+[Xxxxxx$Xxxxx]()
 
-[Import-Csv]()
+[Xxxxxx$Xxx]()
 
-[Select-Object]()
+[Xxxxxx$Xxxxxx]()
 

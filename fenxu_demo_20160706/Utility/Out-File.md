@@ -4,42 +4,42 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293996
 schema: 2.0.0
 ---
 
-# Out-File
-## SYNOPSIS
-Sends output to a file.
+# Xxx$Xxxx
+## XXXXXXXX
+Xxxxx xxxxxx xx x xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### ByPath (Default)
+### XxXxxx $Xxxxxxx$
 ```
 Out-File [-FilePath] <String> [[-Encoding] <String>] [-Append] [-Force] [-NoClobber] [-Width <Int32>]
  [-NoNewline] [-InputObject <PSObject>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-### ByLiteralPath
+### XxXxxxxxxXxxx
 ```
 Out-File -LiteralPath <String> [[-Encoding] <String>] [-Append] [-Force] [-NoClobber] [-Width <Int32>]
  [-NoNewline] [-InputObject <PSObject>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Out-File cmdlet sends output to a file.
-You can use this cmdlet instead of the redirection operator (\>) when you need to use its parameters.
+## XXXXXXXXXXX
+Xxx Xxx$Xxxx xxxxxx xxxxx xxxxxx xx x xxxx.
+Xxx xxx xxx xxxx xxxxxx xxxxxxx xx xxx xxxxxxxxxxx xxxxxxxx $$$$ xxxx xxx xxxx xx xxx xxx xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | out-file -filepath C:\Test1\process.txt
 ```
 
-This command sends a list of processes on the computer to the Process.txt file.
-If the file does not exist, Out-File creates it.
-Because the name of the FilePath parameter is optional, you can omit it and submit the equivalent command "get-process | outfile C:\Test1\process.txt".
+Xxxx xxxxxxx xxxxx x xxxx xx xxxxxxxxx xx xxx xxxxxxxx xx xxx Xxxxxxx.xxx xxxx.
+Xx xxx xxxx xxxx xxx xxxxx$ Xxx$Xxxx xxxxxxx xx.
+Xxxxxxx xxx xxxx xx xxx XxxxXxxx xxxxxxxxx xx xxxxxxxx$ xxx xxx xxxx xx xxx xxxxxx xxx xxxxxxxxxx xxxxxxx $xxx$xxxxxxx $ xxxxxxx X$$Xxxx0$xxxxxxx.xxx$.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | out-file C:\Test1\process.txt -noclobber
 
@@ -48,49 +48,49 @@ At line:1 char:23
 + get-process | out-file  <<<< process.txt -noclobber
 ```
 
-This command also sends a list of processes to the Process.txt file, but it uses the NoClobber parameter, which prevents an existing file from being overwritten.
-The output shows the error message that appears when NoClobber is used with an existing file.
+Xxxx xxxxxxx xxxx xxxxx x xxxx xx xxxxxxxxx xx xxx Xxxxxxx.xxx xxxx$ xxx xx xxxx xxx XxXxxxxxx xxxxxxxxx$ xxxxx xxxxxxxx xx xxxxxxxx xxxx xxxx xxxxx xxxxxxxxxxx.
+Xxx xxxxxx xxxxx xxx xxxxx xxxxxxx xxxx xxxxxxx xxxx XxXxxxxxx xx xxxx xxxx xx xxxxxxxx xxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>$a = get-process
 PS C:\>out-file -filepath C:\Test1\process.txt -inputobject $a -encoding ASCII -width 50
 ```
 
-These commands send a list of processes on the computer to the Process.txt file.
-The text is encoded in ASCII format so that it can be read by search programs like Findstr and Grep.
-By default, Out-File uses Unicode format.
+Xxxxx xxxxxxxx xxxx x xxxx xx xxxxxxxxx xx xxx xxxxxxxx xx xxx Xxxxxxx.xxx xxxx.
+Xxx xxxx xx xxxxxxx xx XXXXX xxxxxx xx xxxx xx xxx xx xxxx xx xxxxxx xxxxxxxx xxxx Xxxxxxx xxx Xxxx.
+Xx xxxxxxx$ Xxx$Xxxx xxxx Xxxxxxx xxxxxx.
 
-The first command gets the list of processes and stores them in the $a variable.
-The second command uses the Out-File cmdlet to send the list to the Process.txt file.
+Xxx xxxxx xxxxxxx xxxx xxx xxxx xx xxxxxxxxx xxx xxxxxx xxxx xx xxx $x xxxxxxxx.
+Xxx xxxxxx xxxxxxx xxxx xxx Xxx$Xxxx xxxxxx xx xxxx xxx xxxx xx xxx Xxxxxxx.xxx xxxx.
 
-The command uses the InputObject parameter to specify that the input is in the $a variable.
-It uses the Encoding parameter to convert the output to ASCII format.
-It uses the Width parameter to limit each line in the file to 50 characters.
-Because the lines of output are truncated at 50 characters, the rightmost column in the process table is omitted.
+Xxx xxxxxxx xxxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxxx xxxx xxx xxxxx xx xx xxx $x xxxxxxxx.
+Xx xxxx xxx Xxxxxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxx xx XXXXX xxxxxx.
+Xx xxxx xxx Xxxxx xxxxxxxxx xx xxxxx xxxx xxxx xx xxx xxxx xx 00 xxxxxxxxxx.
+Xxxxxxx xxx xxxxx xx xxxxxx xxx xxxxxxxxx xx 00 xxxxxxxxxx$ xxx xxxxxxxxx xxxxxx xx xxx xxxxxxx xxxxx xx xxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>set-location hklm:\software
 PS C:\>get-acl mycompany\mykey | out-file -filepath c:\ps\acl.txt
 PS C:\>get-acl mycompany\mykey | out-file -filepath filesystem::acl.txt
 ```
 
-These commands show how to use the Out-File cmdlet when you are not in a FileSystem drive.
+Xxxxx xxxxxxxx xxxx xxx xx xxx xxx Xxx$Xxxx xxxxxx xxxx xxx xxx xxx xx x XxxxXxxxxx xxxxx.
 
-The first command sets the current location to the HKLM:\Software registry key.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxxx xx xxx XXXX$$Xxxxxxxx xxxxxxxx xxx.
 
-The second and third commands have the same effect.
-They use the Get-Acl cmdlet to get the security descriptor of the MyKey registry subkey (HKLM\Software\MyCompany\MyKey).
-A pipeline operator passes the result to the Out-File cmdlet, which sends it to the Acl.txt file.
+Xxx xxxxxx xxx xxxxx xxxxxxxx xxxx xxx xxxx xxxxxx.
+Xxxx xxx xxx Xxx$Xxx xxxxxx xx xxx xxx xxxxxxxx xxxxxxxxxx xx xxx XxXxx xxxxxxxx xxxxxx $XXXX$Xxxxxxxx$XxXxxxxxx$XxXxx$.
+X xxxxxxxx xxxxxxxx xxxxxx xxx xxxxxx xx xxx Xxx$Xxxx xxxxxx$ xxxxx xxxxx xx xx xxx Xxx.xxx xxxx.
 
-Because Out-File is not supported by the Windows PowerShell Registry provider, you must specify either the file system drive name, such as "c:", or the name of the provider followed by two colons, "FileSystem::", in the value of the FilePath parameter.
-The second and third commands demonstrate these methods.
+Xxxxxxx Xxx$Xxxx xx xxx xxxxxxxxx xx xxx Xxxxxxx XxxxxXxxxx Xxxxxxxx xxxxxxxx$ xxx xxxx xxxxxxx xxxxxx xxx xxxx xxxxxx xxxxx xxxx$ xxxx xx $x$$$ xx xxx xxxx xx xxx xxxxxxxx xxxxxxxx xx xxx xxxxxx$ $XxxxXxxxxx$$$$ xx xxx xxxxx xx xxx XxxxXxxx xxxxxxxxx.
+Xxx xxxxxx xxx xxxxx xxxxxxxx xxxxxxxxxxx xxxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Append
-Adds the output to the end of an existing file, instead of replacing the file contents.
+### $Xxxxxx
+Xxxx xxx xxxxxx xx xxx xxx xx xx xxxxxxxx xxxx$ xxxxxxx xx xxxxxxxxx xxx xxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -104,14 +104,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Encoding
-Specifies the type of character encoding used in the file.
-Valid values are "Unicode", "UTF7", "UTF8", "UTF32", "ASCII", "BigEndianUnicode", "Default", and "OEM".
-"Unicode" is the default.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxx xx xxxxxxxxx xxxxxxxx xxxx xx xxx xxxx.
+Xxxxx xxxxxx xxx $Xxxxxxx$$ $XXX0$$ $XXX0$$ $XXX00$$ $XXXXX$$ $XxxXxxxxxXxxxxxx$$ $Xxxxxxx$$ xxx $XXX$.
+$Xxxxxxx$ xx xxx xxxxxxx.
 
-"Default" uses the encoding of the system's current ANSI code page.
+$Xxxxxxx$ xxxx xxx xxxxxxxx xx xxx xxxxxx$x xxxxxxx XXXX xxxx xxxx.
 
-"OEM" uses the current original equipment manufacturer code page identifier for the operating system.
+$XXX$ xxxx xxx xxxxxxx xxxxxxxx xxxxxxxxx xxxxxxxxxxxx xxxx xxxx xxxxxxxxxx xxx xxx xxxxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -126,8 +126,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FilePath
-Specifies the path to the output file.
+### $XxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -141,9 +141,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Allows the cmdlet to overwrite an existing read-only file.
-Even using the Force parameter, the cmdlet cannot override security restrictions.
+### $Xxxxx
+Xxxxxx xxx xxxxxx xx xxxxxxxxx xx xxxxxxxx xxxx$xxxx xxxx.
+Xxxx xxxxx xxx Xxxxx xxxxxxxxx$ xxx xxxxxx xxxxxx xxxxxxxx xxxxxxxx xxxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -157,8 +157,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -173,8 +173,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -188,9 +188,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the objects to be written to the file.
-Enter a variable that contains the objects or type a command or expression that gets the objects.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xx xxxxxxx xx xxx xxxx.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
 ```yaml
 Type: PSObject
@@ -204,10 +204,10 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -NoClobber
-Will not overwrite (replace the contents) of an existing file.
-By default, if a file exists in the specified path, Out-File overwrites the file without warning.
-If both Append and NoClobber are used, the output is appended to the existing file.
+### $XxXxxxxxx
+Xxxx xxx xxxxxxxxx $xxxxxxx xxx xxxxxxxx$ xx xx xxxxxxxx xxxx.
+Xx xxxxxxx$ xx x xxxx xxxxxx xx xxx xxxxxxxxx xxxx$ Xxx$Xxxx xxxxxxxxxx xxx xxxx xxxxxxx xxxxxxx.
+Xx xxxx Xxxxxx xxx XxXxxxxxx xxx xxxx$ xxx xxxxxx xx xxxxxxxx xx xxx xxxxxxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -221,11 +221,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Width
-Specifies the number of characters in each line of output.
-Any additional characters are truncated, not wrapped.
-If you omit this parameter, the width is determined by the characteristics of the host.
-The default for the Windows PowerShell console is 80 (characters).
+### $Xxxxx
+Xxxxxxxxx xxx xxxxxx xx xxxxxxxxxx xx xxxx xxxx xx xxxxxx.
+Xxx xxxxxxxxxx xxxxxxxxxx xxx xxxxxxxxx$ xxx xxxxxxx.
+Xx xxx xxxx xxxx xxxxxxxxx$ xxx xxxxx xx xxxxxxxxxx xx xxx xxxxxxxxxxxxxxx xx xxx xxxx.
+Xxx xxxxxxx xxx xxx Xxxxxxx XxxxxXxxxx xxxxxxx xx 00 $xxxxxxxxxx$.
 
 ```yaml
 Type: Int32
@@ -239,12 +239,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -LiteralPath
-Specifies the path to the output file.
-Unlike FilePath, the value of the LiteralPath parameter is used exactly as it is typed.
-No characters are interpreted as wildcards.
-If the path includes escape characters, enclose it in single quotation marks.
-Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx.
+Xxxxxx XxxxXxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
+Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
+Xx xxx xxxx xxxxxxxx xxxxxx xxxxxxxxxx$ xxxxxxx xx xx xxxxxx xxxxxxxxx xxxxx.
+Xxxxxx xxxxxxxxx xxxxx xxxx Xxxxxxx XxxxxXxxxx xxx xx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -258,8 +258,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -273,10 +273,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -290,8 +290,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NoNewline
-{{Fill NoNewline Description}}
+### $XxXxxxxxx
+$$Xxxx XxXxxxxxx Xxxxxxxxxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -305,39 +305,39 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any object to Out-File.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx xxxxxx xx Xxx$Xxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-Out-File does not generate any output.
+### Xxxx
+Xxx$Xxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
-The Out cmdlets do not format objects; they just render them and send them to the specified display destination.
-If you send an unformatted object to an Out cmdlet, the cmdlet sends it to a formatting cmdlet before rendering it.
+## XXXXX
+Xxx Xxx xxxxxxx xx xxx xxxxxx xxxxxxx$ xxxx xxxx xxxxxx xxxx xxx xxxx xxxx xx xxx xxxxxxxxx xxxxxxx xxxxxxxxxxx.
+Xx xxx xxxx xx xxxxxxxxxxx xxxxxx xx xx Xxx xxxxxx$ xxx xxxxxx xxxxx xx xx x xxxxxxxxxx xxxxxx xxxxxx xxxxxxxxx xx.
 
-The Out cmdlets do not have parameters for names or file paths.
-To send data to a cmdlet that contains the Out verb (an Out cmdlet), use a pipeline operator (|) to send the output of a Windows PowerShell command to the cmdlet.
-You can also store data in a variable and use the InputObject parameter to pass the data to the cmdlet.
-For help, see the examples.
+Xxx Xxx xxxxxxx xx xxx xxxx xxxxxxxxxx xxx xxxxx xx xxxx xxxxx.
+Xx xxxx xxxx xx x xxxxxx xxxx xxxxxxxx xxx Xxx xxxx $xx Xxx xxxxxx$$ xxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxx xx x Xxxxxxx XxxxxXxxxx xxxxxxx xx xxx xxxxxx.
+Xxx xxx xxxx xxxxx xxxx xx x xxxxxxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxx xxx xxxx xx xxx xxxxxx.
+Xxx xxxx$ xxx xxx xxxxxxxx.
 
-Out-File sends data, but it does not emit any output objects.
-If you pipe the output of Out-File to Get-Member, Get-Member reports that no objects have been specified.
+Xxx$Xxxx xxxxx xxxx$ xxx xx xxxx xxx xxxx xxx xxxxxx xxxxxxx.
+Xx xxx xxxx xxx xxxxxx xx Xxx$Xxxx xx Xxx$Xxxxxx$ Xxx$Xxxxxx xxxxxxx xxxx xx xxxxxxx xxxx xxxx xxxxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Out-Default]()
+[Xxx$Xxxxxxx]()
 
-[Out-Host]()
+[Xxx$Xxxx]()
 
-[Out-Null]()
+[Xxx$Xxxx]()
 
-[Out-Printer]()
+[Xxx$Xxxxxxx]()
 
-[Out-String]()
+[Xxx$Xxxxxx]()
 
-[Tee-Object]()
+[Xxx$Xxxxxx]()
 

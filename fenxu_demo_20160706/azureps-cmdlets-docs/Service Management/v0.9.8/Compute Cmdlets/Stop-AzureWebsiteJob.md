@@ -6,32 +6,32 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Stop-AzureWebsiteJob
-## SYNOPSIS
-Stops a web job for a website
+# Xxxx$XxxxxXxxxxxxXxx
+## XXXXXXXX
+Xxxxx x xxx xxx xxx x xxxxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 Stop-AzureWebsiteJob [[-Name] <String>] [-PassThru] [-Slot <String>] -JobName <String>
 ```
 
-## DESCRIPTION
-Stops a web job for a website
+## XXXXXXXXXXX
+Xxxxx x xxx xxx xxx x xxxxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Stop a web job for a website --------------
+### $$$$$$$$$$$$$$  Xxxx x xxx xxx xxx x xxxxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Stop-AzureWebsiteJob -Name MyWebsite -JobName MyWebJob -JobType Continuous
 ```
 
-Stops a web job called MyWebJob for MyWebSite
+Xxxxx x xxx xxx xxxxxx XxXxxXxx xxx XxXxxXxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -JobName
-The web job name
+### $XxxXxxx
+Xxx xxx xxx xxxx
 
 ```yaml
 Type: String
@@ -45,8 +45,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-The name of the Azure website
+### $Xxxx
+Xxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -60,9 +60,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Returns a boolean value indicating that the job stopped successfully.
-By default, this cmdlet does not return any output.
+### $XxxxXxxx
+Xxxxxxx x xxxxxxx xxxxx xxxxxxxxxx xxxx xxx xxx xxxxxxx xxxxxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -76,8 +76,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Slot
-The slot name of the Azure website
+### $Xxxx
+Xxx xxxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -91,22 +91,22 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Stop-AzureWebsite](62c5de93-e58b-4e57-85d0-8b7e75df1f31)
+[Xxxx$XxxxxXxxxxxx](62c5de93-e58b-4e57-85d0-8b7e75df1f31)
 
-[Get-AzureWebsiteJob](5ef76b84-385f-419e-8aba-228d53ce2232)
+[Xxx$XxxxxXxxxxxxXxx](5ef76b84-385f-419e-8aba-228d53ce2232)
 
-[New-AzureWebsiteJob](89c77daa-24fd-4b27-b624-3486fe642722)
+[Xxx$XxxxxXxxxxxxXxx](89c77daa-24fd-4b27-b624-3486fe642722)
 
-[Remove-AzureWebsiteJob](e25091a2-2472-4674-978c-ec1522631bc1)
+[Xxxxxx$XxxxxXxxxxxxXxx](e25091a2-2472-4674-978c-ec1522631bc1)
 
-[Start-AzureWebsiteJob](33bc54a9-76a7-45cd-92d5-662e16354fa3)
+[Xxxxx$XxxxxXxxxxxxXxx](33bc54a9-76a7-45cd-92d5-662e16354fa3)
 
 

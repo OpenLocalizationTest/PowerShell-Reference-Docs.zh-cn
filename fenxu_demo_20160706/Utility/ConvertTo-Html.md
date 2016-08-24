@@ -4,86 +4,86 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293950
 schema: 2.0.0
 ---
 
-# ConvertTo-Html
-## SYNOPSIS
-Converts Microsoft .NET Framework objects into HTML that can be displayed in a Web browser.
+# XxxxxxxXx$Xxxx
+## XXXXXXXX
+Xxxxxxxx Xxxxxxxxx .XXX Xxxxxxxxx xxxxxxx xxxx XXXX xxxx xxx xx xxxxxxxxx xx x Xxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### Page (Default)
+### Xxxx $Xxxxxxx$
 ```
 ConvertTo-Html [-InputObject <PSObject>] [[-Property] <Object[]>] [[-Body] <String[]>] [[-Head] <String[]>]
  [[-Title] <String>] [-As <String>] [-CssUri <Uri>] [-PostContent <String[]>] [-PreContent <String[]>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Fragment
+### Xxxxxxxx
 ```
 ConvertTo-Html [-InputObject <PSObject>] [[-Property] <Object[]>] [-As <String>] [-Fragment]
  [-PostContent <String[]>] [-PreContent <String[]>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The ConvertTo-Html cmdlet converts .NET Framework objects into HTML that can be displayed in a Web browser.
-You can use this cmdlet to display the output of a command in a Web page.
+## XXXXXXXXXXX
+Xxx XxxxxxxXx$Xxxx xxxxxx xxxxxxxx .XXX Xxxxxxxxx xxxxxxx xxxx XXXX xxxx xxx xx xxxxxxxxx xx x Xxx xxxxxxx.
+Xxx xxx xxx xxxx xxxxxx xx xxxxxxx xxx xxxxxx xx x xxxxxxx xx x Xxx xxxx.
 
-You can use the parameters of ConvertTo-Html to select object properties, to specify a table or list format, to specify the HTML page title, to add text before and after the object, and to return only the table or list fragment, instead of a strict DTD page.
+Xxx xxx xxx xxx xxxxxxxxxx xx XxxxxxxXx$Xxxx xx xxxxxx xxxxxx xxxxxxxxxx$ xx xxxxxxx x xxxxx xx xxxx xxxxxx$ xx xxxxxxx xxx XXXX xxxx xxxxx$ xx xxx xxxx xxxxxx xxx xxxxx xxx xxxxxx$ xxx xx xxxxxx xxxx xxx xxxxx xx xxxx xxxxxxxx$ xxxxxxx xx x xxxxxx XXX xxxx.
 
-When you submit multiple objects to ConvertTo-Html, Windows PowerShell creates the table (or list) based on the properties of the first object that you submit.
-If the remaining objects do not have one of the specified properties, the property value of that object is an empty cell.
-If the remaining objects have additional properties, those property values are not included in the file.
+Xxxx xxx xxxxxx xxxxxxxx xxxxxxx xx XxxxxxxXx$Xxxx$ Xxxxxxx XxxxxXxxxx xxxxxxx xxx xxxxx $xx xxxx$ xxxxx xx xxx xxxxxxxxxx xx xxx xxxxx xxxxxx xxxx xxx xxxxxx.
+Xx xxx xxxxxxxxx xxxxxxx xx xxx xxxx xxx xx xxx xxxxxxxxx xxxxxxxxxx$ xxx xxxxxxxx xxxxx xx xxxx xxxxxx xx xx xxxxx xxxx.
+Xx xxx xxxxxxxxx xxxxxxx xxxx xxxxxxxxxx xxxxxxxxxx$ xxxxx xxxxxxxx xxxxxx xxx xxx xxxxxxxx xx xxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>convertto-html -inputobject (get-date)
 ```
 
-This command creates an HTML page that displays the properties of the current date.
-It uses the InputObject parameter to submit the results of a Get-Date command to the ConvertTo-Html cmdlet.
+Xxxx xxxxxxx xxxxxxx xx XXXX xxxx xxxx xxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxx xxxx.
+Xx xxxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxx xxx xxxxxxx xx x Xxx$Xxxx xxxxxxx xx xxx XxxxxxxXx$Xxxx xxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-alias | convertto-html > aliases.htm
 PS C:\>invoke-item aliases.htm
 ```
 
-This command creates an HTML page that lists the Windows PowerShell aliases in the current console.
+Xxxx xxxxxxx xxxxxxx xx XXXX xxxx xxxx xxxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxx xx xxx xxxxxxx xxxxxxx.
 
-The command uses the Get-Alias cmdlet to get the aliases.
-It uses the pipeline operator (|) to send the aliases to the ConvertTo-Html cmdlet, which creates the HTML page.
+Xxx xxxxxxx xxxx xxx Xxx$Xxxxx xxxxxx xx xxx xxx xxxxxxx.
+Xx xxxx xxx xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xx xxx XxxxxxxXx$Xxxx xxxxxx$ xxxxx xxxxxxx xxx XXXX xxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-eventlog -logname "Windows PowerShell" | convertto-html > pslog.htm
 ```
 
-This command creates an HTML page called pslog.htm that displays the events in the Windows PowerShell event log on the local computer.
+Xxxx xxxxxxx xxxxxxx xx XXXX xxxx xxxxxx xxxxx.xxx xxxx xxxxxxxx xxx xxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxxx xxx xx xxx xxxxx xxxxxxxx.
 
-It uses the Get-EventLog cmdlet to get the events in the Windows PowerShell log and then uses the pipeline operator (|) to send the events to the ConvertTo-Html cmdlet.
+Xx xxxx xxx Xxx$XxxxxXxx xxxxxx xx xxx xxx xxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxx xxx xxxx xxxx xxx xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxx xx xxx XxxxxxxXx$Xxxx xxxxxx.
 
-The command also uses the redirection operator (\>) to send the HTML code to the pslog.htm file.
+Xxx xxxxxxx xxxx xxxx xxx xxxxxxxxxxx xxxxxxxx $$$$ xx xxxx xxx XXXX xxxx xx xxx xxxxx.xxx xxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-process | convertto-html -property Name, Path, Company -title "Process Information" > proc.htm; ii proc.htm
 ```
 
-These commands create and open an HTML page that lists the name, path, and company of the processes on the local computer.
+Xxxxx xxxxxxxx xxxxxx xxx xxxx xx XXXX xxxx xxxx xxxxx xxx xxxx$ xxxx$ xxx xxxxxxx xx xxx xxxxxxxxx xx xxx xxxxx xxxxxxxx.
 
-The first command uses the Get-Process cmdlet to get objects that represent the processes running on the computer.
-The command uses the pipeline operator (|) to send the process objects to the ConvertTo-Html cmdlet.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxxxxxx xxxx xxxxxxxxx xxx xxxxxxxxx xxxxxxx xx xxx xxxxxxxx.
+Xxx xxxxxxx xxxx xxx xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xxxxxxx xx xxx XxxxxxxXx$Xxxx xxxxxx.
 
-The command uses the Property parameter to select three properties of the process objects to be included in the table.
-The command uses the Title parameter to specify a title for the HTML page.
-The command also uses the redirection operator (\>) to send the resulting HTML to a file named Proc.htm.
+Xxx xxxxxxx xxxx xxx Xxxxxxxx xxxxxxxxx xx xxxxxx xxxxx xxxxxxxxxx xx xxx xxxxxxx xxxxxxx xx xx xxxxxxxx xx xxx xxxxx.
+Xxx xxxxxxx xxxx xxx Xxxxx xxxxxxxxx xx xxxxxxx x xxxxx xxx xxx XXXX xxxx.
+Xxx xxxxxxx xxxx xxxx xxx xxxxxxxxxxx xxxxxxxx $$$$ xx xxxx xxx xxxxxxxxx XXXX xx x xxxx xxxxx Xxxx.xxx.
 
-The second command uses the Invoke-Item cmdlet (alias = ii) to open the Proc.htm in the default browser.
-The two commands are separated by a semicolon (;).
+Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxx$Xxxx xxxxxx $xxxxx $ xx$ xx xxxx xxx Xxxx.xxx xx xxx xxxxxxx xxxxxxx.
+Xxx xxx xxxxxxxx xxx xxxxxxxxx xx x xxxxxxxxx $$$.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-service | convertto-html -CssUri "test.css"
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -94,22 +94,22 @@ PS C:\>get-service | convertto-html -CssUri "test.css"
 ...
 ```
 
-This command creates an HTML page of the service objects that the Get-Service cmdlet returns.
-The command uses the CssUri parameter to specify a cascading style sheet for the HTML page.
+Xxxx xxxxxxx xxxxxxx xx XXXX xxxx xx xxx xxxxxxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xxxxxxx.
+Xxx xxxxxxx xxxx xxx XxxXxx xxxxxxxxx xx xxxxxxx x xxxxxxxxx xxxxx xxxxx xxx xxx XXXX xxxx.
 
-The CssUri parameter adds an additional "\<link rel="stylesheet" type="text/css" tag to the resulting HTML.
-The HREF attribute in the tag contains the name of the style sheet.
+Xxx XxxXxx xxxxxxxxx xxxx xx xxxxxxxxxx $$$xxxx xxx$$xxxxxxxxxx$ xxxx$$xxxx$xxx$ xxx xx xxx xxxxxxxxx XXXX.
+Xxx XXXX xxxxxxxxx xx xxx xxx xxxxxxxx xxx xxxx xx xxx xxxxx xxxxx.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-service | convertto-html -as LIST > services.htm
 ```
 
-This command creates an HTML page of the service objects that the Get-Service cmdlet returns.
-The command uses the As parameter to specify a list format.
-The redirection operator (\>) sends the resulting HTML to the Services.htm file.
+Xxxx xxxxxxx xxxxxxx xx XXXX xxxx xx xxx xxxxxxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xxxxxxx.
+Xxx xxxxxxx xxxx xxx Xx xxxxxxxxx xx xxxxxxx x xxxx xxxxxx.
+Xxx xxxxxxxxxxx xxxxxxxx $$$$ xxxxx xxx xxxxxxxxx XXXX xx xxx Xxxxxxxx.xxx xxxx.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-date | cth -fragment
 <table>
@@ -122,52 +122,52 @@ PS C:\>get-date | cth -fragment
 </table>
 ```
 
-This command uses ConvertTo-Html to generate an HTML table of the current date.
-The command uses the Get-Date cmdlet to get the current date.
-It uses a pipeline operator (|) to send the results to the ConvertTo-Html cmdlet (aliased as "cth").
+Xxxx xxxxxxx xxxx XxxxxxxXx$Xxxx xx xxxxxxxx xx XXXX xxxxx xx xxx xxxxxxx xxxx.
+Xxx xxxxxxx xxxx xxx Xxx$Xxxx xxxxxx xx xxx xxx xxxxxxx xxxx.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xx xxx XxxxxxxXx$Xxxx xxxxxx $xxxxxxx xx $xxx$$.
 
-The ConvertTo-Html command includes the Fragment parameter, which limits the output to an HTML table.
-As a result, the other elements of an HTML page, such as the \<HEAD\> and \<BODY\> tags, are omitted.
+Xxx XxxxxxxXx$Xxxx xxxxxxx xxxxxxxx xxx Xxxxxxxx xxxxxxxxx$ xxxxx xxxxxx xxx xxxxxx xx xx XXXX xxxxx.
+Xx x xxxxxx$ xxx xxxxx xxxxxxxx xx xx XXXX xxxx$ xxxx xx xxx $$XXXX$$ xxx $$XXXX$$ xxxx$ xxx xxxxxxx.
 
-### -------------------------- EXAMPLE 8 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-eventlog -log "Windows PowerShell" | convertto-html -property id, level, task
 ```
 
-This command uses the Get-EventLog cmdlet to get events from the "Windows PowerShell" event log.
+Xxxx xxxxxxx xxxx xxx Xxx$XxxxxXxx xxxxxx xx xxx xxxxxx xxxx xxx $Xxxxxxx XxxxxXxxxx$ xxxxx xxx.
 
-It uses a pipeline operator (|) to send the events to the ConvertTo-Html cmdlet, which converts the events to HTML format.
+Xx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxx xx xxx XxxxxxxXx$Xxxx xxxxxx$ xxxxx xxxxxxxx xxx xxxxxx xx XXXX xxxxxx.
 
-The ConvertTo-Html command uses the Property parameter to select only the ID, Level, and Task properties of the event.
+Xxx XxxxxxxXx$Xxxx xxxxxxx xxxx xxx Xxxxxxxx xxxxxxxxx xx xxxxxx xxxx xxx XX$ Xxxxx$ xxx Xxxx xxxxxxxxxx xx xxx xxxxx.
 
-### -------------------------- EXAMPLE 9 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>get-service A* | ConvertTo-Html -title "Windows Services: Server01" -body (get-date) -pre 
 "<P>Generated by Corporate IT</P>" -post "For details, contact Corporate IT." > services.htm; ii services.htm
 ```
 
-This command creates and opens a Web page that displays the services on the computer that begin with "A".
-It uses the Title, Body, PreContent, and PostContent parameters of ConvertTo-Html to customize the output.
+Xxxx xxxxxxx xxxxxxx xxx xxxxx x Xxx xxxx xxxx xxxxxxxx xxx xxxxxxxx xx xxx xxxxxxxx xxxx xxxxx xxxx $X$.
+Xx xxxx xxx Xxxxx$ Xxxx$ XxxXxxxxxx$ xxx XxxxXxxxxxx xxxxxxxxxx xx XxxxxxxXx$Xxxx xx xxxxxxxxx xxx xxxxxx.
 
-The first part of the command uses the Get-Service cmdlet to get the services on the computer that begin with "A".
-The command uses a pipeline operator (|) to send the results to the ConvertTo-Html cmdlet.
-The command uses a redirection operator (\>) to send the output to the Services.htm file.
+Xxx xxxxx xxxx xx xxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxxx xx xxx xxxxxxxx xxxx xxxxx xxxx $X$.
+Xxx xxxxxxx xxxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxx xxxxxxx xx xxx XxxxxxxXx$Xxxx xxxxxx.
+Xxx xxxxxxx xxxx x xxxxxxxxxxx xxxxxxxx $$$$ xx xxxx xxx xxxxxx xx xxx Xxxxxxxx.xxx xxxx.
 
-A semicolon (;) ends the first command and starts a second command, which uses the Invoke-Item cmdlet (alias = "ii") to open the Services.htm file in the default browser.
+X xxxxxxxxx $$$ xxxx xxx xxxxx xxxxxxx xxx xxxxxx x xxxxxx xxxxxxx$ xxxxx xxxx xxx Xxxxxx$Xxxx xxxxxx $xxxxx $ $xx$$ xx xxxx xxx Xxxxxxxx.xxx xxxx xx xxx xxxxxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -As
-Determines whether the object is formatted as a table or a list.
-Valid values are TABLE and LIST.
-The default value is TABLE.
+### $Xx
+Xxxxxxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx xx x xxxxx xx x xxxx.
+Xxxxx xxxxxx xxx XXXXX xxx XXXX.
+Xxx xxxxxxx xxxxx xx XXXXX.
 
-The TABLE value generates an HTML table that resembles the Windows PowerShell table format.
-The header row displays the property names.
-Each table row represents an object and displays the object's values for each property.
+Xxx XXXXX xxxxx xxxxxxxxx xx XXXX xxxxx xxxx xxxxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxxx xxxxxx.
+Xxx xxxxxx xxx xxxxxxxx xxx xxxxxxxx xxxxx.
+Xxxx xxxxx xxx xxxxxxxxxx xx xxxxxx xxx xxxxxxxx xxx xxxxxx$x xxxxxx xxx xxxx xxxxxxxx.
 
-The LIST value generates a two-column HTML table for each object that resembles the Windows PowerShell list format.
-The first column displays the property name; the second column displays the property value.
+Xxx XXXX xxxxx xxxxxxxxx x xxx$xxxxxx XXXX xxxxx xxx xxxx xxxxxx xxxx xxxxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxx xxxxxx.
+Xxx xxxxx xxxxxx xxxxxxxx xxx xxxxxxxx xxxx$ xxx xxxxxx xxxxxx xxxxxxxx xxx xxxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -182,9 +182,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Body
-Specifies the text to add after the opening \<BODY\> tag.
-By default, there is no text in that position.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxx xxx xxxxxxx $$XXXX$$ xxx.
+Xx xxxxxxx$ xxxxx xx xx xxxx xx xxxx xxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -198,9 +198,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CssUri
-Specifies the Uniform Resource Identifier (URI) of the cascading style sheet (CSS) that is applied to the HTML file. 
-The URI is included in a style sheet link in the output.
+### $XxxXxx
+Xxxxxxxxx xxx Xxxxxxx Xxxxxxxx Xxxxxxxxxx $XXX$ xx xxx xxxxxxxxx xxxxx xxxxx $XXX$ xxxx xx xxxxxxx xx xxx XXXX xxxx. Xxx XXX xx xxxxxxxx xx x xxxxx xxxxx xxxx xx xxx xxxxxx.
 
 ```yaml
 Type: Uri
@@ -214,9 +213,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Fragment
-Generates only an HTML table.
-The HTML, HEAD, TITLE, and BODY tags are omitted.
+### $Xxxxxxxx
+Xxxxxxxxx xxxx xx XXXX xxxxx.
+Xxx XXXX$ XXXX$ XXXXX$ xxx XXXX xxxx xxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -230,10 +229,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Head
-Specifies the content of the \<HEAD\> tag.
-The default is "\<title\>HTML TABLE\</title\>". 
-If you use the Head parameter, the Title parameter is ignored.
+### $Xxxx
+Xxxxxxxxx xxx xxxxxxx xx xxx $$XXXX$$ xxx.
+Xxx xxxxxxx xx $$$xxxxx$$XXXX XXXXX$$$xxxxx$$$. Xx xxx xxx xxx Xxxx xxxxxxxxx$ xxx Xxxxx xxxxxxxxx xx xxxxxxx.
 
 ```yaml
 Type: String[]
@@ -247,13 +245,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-The TABLE value generates an HTML table that resembles the Windows PowerShell table format.
-The header row displays the property names.
-Each table row represents an object and displays the object's values for each property.
+### $XxxxxxxxxxxXxxxxx
+Xxx XXXXX xxxxx xxxxxxxxx xx XXXX xxxxx xxxx xxxxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxxx xxxxxx.
+Xxx xxxxxx xxx xxxxxxxx xxx xxxxxxxx xxxxx.
+Xxxx xxxxx xxx xxxxxxxxxx xx xxxxxx xxx xxxxxxxx xxx xxxxxx$x xxxxxx xxx xxxx xxxxxxxx.
 
-The LIST value generates a two-column HTML table for each object that resembles the Windows PowerShell list format.
-The first column displays the property name; the second column displays the property value.
+Xxx XXXX xxxxx xxxxxxxxx x xxx$xxxxxx XXXX xxxxx xxx xxxx xxxxxx xxxx xxxxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxx xxxxxx.
+Xxx xxxxx xxxxxx xxxxxxxx xxx xxxxxxxx xxxx$ xxx xxxxxx xxxxxx xxxxxxxx xxx xxxxxxxx xxxxx.
 
 ```yaml
 Type: ActionPreference
@@ -268,13 +266,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-The TABLE value generates an HTML table that resembles the Windows PowerShell table format.
-The header row displays the property names.
-Each table row represents an object and displays the object's values for each property.
+### $XxxxxxxxxxxXxxxxxxx
+Xxx XXXXX xxxxx xxxxxxxxx xx XXXX xxxxx xxxx xxxxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxxx xxxxxx.
+Xxx xxxxxx xxx xxxxxxxx xxx xxxxxxxx xxxxx.
+Xxxx xxxxx xxx xxxxxxxxxx xx xxxxxx xxx xxxxxxxx xxx xxxxxx$x xxxxxx xxx xxxx xxxxxxxx.
 
-The LIST value generates a two-column HTML table for each object that resembles the Windows PowerShell list format.
-The first column displays the property name; the second column displays the property value.
+Xxx XXXX xxxxx xxxxxxxxx x xxx$xxxxxx XXXX xxxxx xxx xxxx xxxxxx xxxx xxxxxxxxx xxx Xxxxxxx XxxxxXxxxx xxxx xxxxxx.
+Xxx xxxxx xxxxxx xxxxxxxx xxx xxxxxxxx xxxx$ xxx xxxxxx xxxxxx xxxxxxxx xxx xxxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -288,12 +286,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InputObject
-Specifies the objects to be represented in HTML.
-Enter a variable that contains the objects or type a command or expression that gets the objects.
+### $XxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xx xxxxxxxxxxx xx XXXX.
+Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
-If you use this parameter to submit multiple objects, such as all of the services on a computer, ConvertTo-Html creates a table that displays the properties of a collection or of an array of objects (System.Object\[\]).
-To create a table of the individual objects, use the pipeline operator to pipe the objects to ConvertTo-Html.
+Xx xxx xxx xxxx xxxxxxxxx xx xxxxxx xxxxxxxx xxxxxxx$ xxxx xx xxx xx xxx xxxxxxxx xx x xxxxxxxx$ XxxxxxxXx$Xxxx xxxxxxx x xxxxx xxxx xxxxxxxx xxx xxxxxxxxxx xx x xxxxxxxxxx xx xx xx xxxxx xx xxxxxxx $Xxxxxx.Xxxxxx$$$$$.
+Xx xxxxxx x xxxxx xx xxx xxxxxxxxxx xxxxxxx$ xxx xxx xxxxxxxx xxxxxxxx xx xxxx xxx xxxxxxx xx XxxxxxxXx$Xxxx.
 
 ```yaml
 Type: PSObject
@@ -307,9 +305,9 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -PostContent
-Specifies text to add after the closing \</TABLE\> tag.
-By default, there is no text in that position.
+### $XxxxXxxxxxx
+Xxxxxxxxx xxxx xx xxx xxxxx xxx xxxxxxx $$$XXXXX$$ xxx.
+Xx xxxxxxx$ xxxxx xx xx xxxx xx xxxx xxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -323,9 +321,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PreContent
-Specifies text to add before the opening \<TABLE\> tag.
-By default, there is no text in that position.
+### $XxxXxxxxxx
+Xxxxxxxxx xxxx xx xxx xxxxxx xxx xxxxxxx $$XXXXX$$ xxx.
+Xx xxxxxxx$ xxxxx xx xx xxxx xx xxxx xxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -339,14 +337,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Property
-Includes the specified properties of the objects in the HTML.
-The value of the Property parameter can be a new calculated property.
-To create a calculated property, use a hash table.
-Valid keys are:
+### $Xxxxxxxx
+Xxxxxxxx xxx xxxxxxxxx xxxxxxxxxx xx xxx xxxxxxx xx xxx XXXX.
+Xxx xxxxx xx xxx Xxxxxxxx xxxxxxxxx xxx xx x xxx xxxxxxxxxx xxxxxxxx.
+Xx xxxxxx x xxxxxxxxxx xxxxxxxx$ xxx x xxxx xxxxx.
+Xxxxx xxxx xxx$
 
--- Label \<string\> (unlike with Select-Object or Format-Table, the Name key is not supported)
--- Expression \<string\> or \<script block\>
+$$ Xxxxx $$xxxxxx$$ $xxxxxx xxxx Xxxxxx$Xxxxxx xx Xxxxxx$Xxxxx$ xxx Xxxx xxx xx xxx xxxxxxxxx$ $$ Xxxxxxxxxx $$xxxxxx$$ xx $$xxxxxx xxxxx\>
 
 ```yaml
 Type: Object[]
@@ -360,8 +357,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Title
-Specifies a title for the HTML file, that is, the text that appears between the \<TITLE\> tags.
+### $Xxxxx
+Xxxxxxxxx x xxxxx xxx xxx XXXX xxxx$ xxxx xx$ xxx xxxx xxxx xxxxxxx xxxxxxx xxx $$XXXXX$$ xxxx.
 
 ```yaml
 Type: String
@@ -375,30 +372,30 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Management.Automation.PSObject
-You can pipe any .NET object to ConvertTo-Html.
+### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+Xxx xxx xxxx xxx .XXX xxxxxx xx XxxxxxxXx$Xxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### System.String
-ConvertTo-Html returns series of strings that comprise valid HTML.
+### Xxxxxx.Xxxxxx
+XxxxxxxXx$Xxxx xxxxxxx xxxxxx xx xxxxxxx xxxx xxxxxxxx xxxxx XXXX.
 
-## NOTES
-To use this cmdlet, pipe one or more objects to the cmdlet or use the InputObject parameter to specify the object.
-When the input consists of multiple objects, the output of these two methods is quite different.
+## XXXXX
+Xx xxx xxxx xxxxxx$ xxxx xxx xx xxxx xxxxxxx xx xxx xxxxxx xx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxxx xxx xxxxxx.
+Xxxx xxx xxxxx xxxxxxxx xx xxxxxxxx xxxxxxx$ xxx xxxxxx xx xxxxx xxx xxxxxxx xx xxxxx xxxxxxxxx.
 
---  When you pipe multiple objects to a cmdlet, Windows PowerShell sends the objects to the cmdlet one at a time. As a result, ConvertTo-Html creates a table that displays the individual objects. For example, if you pipe the processes on a computer to ConvertTo-Html, the resulting table displays all of the processes.
---  When you use the InputObject parameter to submit multiple objects, ConvertTo-Html receives these objects as a collection or as an array. As a result, it creates a table that displays the array and its properties, not the items in the array. For example, if you use InputObject to submit the processes on a computer to ConvertTo-Html, the resulting table displays an object array (System.Object\[\]) and its properties.
+$$  Xxxx xxx xxxx xxxxxxxx xxxxxxx xx x xxxxxx$ Xxxxxxx XxxxxXxxxx xxxxx xxx xxxxxxx xx xxx xxxxxx xxx xx x xxxx. Xx x xxxxxx$ XxxxxxxXx$Xxxx xxxxxxx x xxxxx xxxx xxxxxxxx xxx xxxxxxxxxx xxxxxxx. Xxx xxxxxxx$ xx xxx xxxx xxx xxxxxxxxx xx x xxxxxxxx xx XxxxxxxXx$Xxxx$ xxx xxxxxxxxx xxxxx xxxxxxxx xxx xx xxx xxxxxxxxx.
+$$  Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxx xxxxxxxx xxxxxxx$ XxxxxxxXx$Xxxx xxxxxxxx xxxxx xxxxxxx xx x xxxxxxxxxx xx xx xx xxxxx. Xx x xxxxxx$ xx xxxxxxx x xxxxx xxxx xxxxxxxx xxx xxxxx xxx xxx xxxxxxxxxx$ xxx xxx xxxxx xx xxx xxxxx. Xxx xxxxxxx$ xx xxx xxx XxxxxXxxxxx xx xxxxxx xxx xxxxxxxxx xx x xxxxxxxx xx XxxxxxxXx$Xxxx$ xxx xxxxxxxxx xxxxx xxxxxxxx xx xxxxxx xxxxx $Xxxxxx.Xxxxxx$$$$$ xxx xxx xxxxxxxxxx.
 
-To comply with the XHTML Strict DTD,the DOCTYPE tag is modified accordingly:
+Xx xxxxxx xxxx xxx XXXXX Xxxxxx XXX$xxx XXXXXXX xxx xx xxxxxxxx xxxxxxxxxxx$
 
-(\<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"\>)
+$$$$XXXXXXX xxxx XXXXXX $$$$X0X$$XXX XXXXX 0.0 Xxxxxx$$XX$       $xxxx$$$xxx.x0.xxx$XX$xxxxx0$XXX$xxxxx0$xxxxxx.xxx$$$$
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[ConvertTo-Csv]()
+[XxxxxxxXx$Xxx]()
 
-[ConvertTo-Xml]()
+[XxxxxxxXx$Xxx]()
 

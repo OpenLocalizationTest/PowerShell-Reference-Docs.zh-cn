@@ -4,46 +4,46 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294018
 schema: 2.0.0
 ---
 
-# Start-Sleep
-## SYNOPSIS
-Suspends the activity in a script or session for the specified period of time.
+# Xxxxx$Xxxxx
+## XXXXXXXX
+Xxxxxxxx xxx xxxxxxxx xx x xxxxxx xx xxxxxxx xxx xxx xxxxxxxxx xxxxxx xx xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### Seconds (Default)
+### Xxxxxxx $Xxxxxxx$
 ```
 Start-Sleep [-Seconds] <Int32> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Milliseconds
+### Xxxxxxxxxxxx
 ```
 Start-Sleep -Milliseconds <Int32> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Start-Sleep cmdlet suspends the activity in a script or session for the specified period of time.
-You can use it for many tasks, such as waiting for an operation to complete or pausing before repeating an operation.
+## XXXXXXXXXXX
+Xxx Xxxxx$Xxxxx xxxxxx xxxxxxxx xxx xxxxxxxx xx x xxxxxx xx xxxxxxx xxx xxx xxxxxxxxx xxxxxx xx xxxx.
+Xxx xxx xxx xx xxx xxxx xxxxx$ xxxx xx xxxxxxx xxx xx xxxxxxxxx xx xxxxxxxx xx xxxxxxx xxxxxx xxxxxxxxx xx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Start-Sleep -s 15
 ```
 
-This command makes all commands in the session sleep for 15 seconds.
+Xxxx xxxxxxx xxxxx xxx xxxxxxxx xx xxx xxxxxxx xxxxx xxx 00 xxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>Start-Sleep -m 500
 ```
 
-This command makes all the commands in the session sleep for one-half of a second (500 milliseconds).
+Xxxx xxxxxxx xxxxx xxx xxx xxxxxxxx xx xxx xxxxxxx xxxxx xxx xxx$xxxx xx x xxxxxx $000 xxxxxxxxxxxx$.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -58,8 +58,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -73,9 +73,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Milliseconds
-Specifies how long the resource sleeps in milliseconds.
-The parameter can be abbreviated as "-m".
+### $Xxxxxxxxxxxx
+Xxxxxxxxx xxx xxxx xxx xxxxxxxx xxxxxx xx xxxxxxxxxxxx.
+Xxx xxxxxxxxx xxx xx xxxxxxxxxxx xx $$x$.
 
 ```yaml
 Type: Int32
@@ -89,9 +89,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Seconds
-Specifies how long the resource sleeps in seconds.
-You can omit the parameter name ("Seconds"), or you can abbreviate it as "-s".
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxx xxx xxxxxxxx xxxxxx xx xxxxxxx.
+Xxx xxx xxxx xxx xxxxxxxxx xxxx $$Xxxxxxx$$$ xx xxx xxx xxxxxxxxxx xx xx $$x$.
 
 ```yaml
 Type: Int32
@@ -105,19 +105,19 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.Int32
-You can pipe the number of seconds to Start-Sleep.
+### Xxxxxx.Xxx00
+Xxx xxx xxxx xxx xxxxxx xx xxxxxxx xx Xxxxx$Xxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-This cmdlet does not return any output.
+### Xxxx
+Xxxx xxxxxx xxxx xxx xxxxxx xxx xxxxxx.
 
-## NOTES
-You can also refer to Start-Sleep by its built-in alias, "sleep".
-For more information, see about_Aliases.
+## XXXXX
+Xxx xxx xxxx xxxxx xx Xxxxx$Xxxxx xx xxx xxxxx$xx xxxxx$ $xxxxx$.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 

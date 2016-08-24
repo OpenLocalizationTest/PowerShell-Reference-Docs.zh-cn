@@ -6,46 +6,43 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureServiceProject
-## SYNOPSIS
-Sets default location, subscription, slot, and storage account for the current service
+# Xxx$XxxxxXxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxx xxxxxxx xxxxxxxx$ xxxxxxxxxxxx$ xxxx$ xxx xxxxxxx xxxxxxx xxx xxx xxxxxxx xxxxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureServiceProject [[-Location] <String>] [[-Slot] <String>] [[-Storage] <String>] [-PassThru]
 ```
 
-## DESCRIPTION
-Sets the deployment location, slot, storage account, and subscription for the current service. 
-These values are used whenever the service is published to the cloud.
+## XXXXXXXXXXX
+Xxxx xxx xxxxxxxxxx xxxxxxxx$ xxxx$ xxxxxxx xxxxxxx$ xxx xxxxxxxxxxxx xxx xxx xxxxxxx xxxxxxx. Xxxxx xxxxxx xxx xxxx xxxxxxxx xxx xxxxxxx xx xxxxxxxxx xx xxx xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Basic Settings --------------
+### $$$$$$$$$$$$$$  Xxxxx Xxxxxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Set-AzureServiceProject -Location "North Central US" -Slot Production -Storage myStorageAccount -Subscription myAzureSubscription
 ```
 
-Sets the deployment location for the service to the North Central US region.
-Sets the deloyment slot to Production.
+Xxxx xxx xxxxxxxxxx xxxxxxxx xxx xxx xxxxxxx xx xxx Xxxxx Xxxxxxx XX xxxxxx.
+Xxxx xxx xxxxxxxxx xxxx xx Xxxxxxxxxx.
 
-Sets the storage account ahat will be used to stage the service definition to 'myStorageAccount'. 
-Sets the subscription
+Xxxx xxx xxxxxxx xxxxxxx xxxx xxxx xx xxxx xx xxxxx xxx xxxxxxx xxxxxxxxxx xx $xxXxxxxxxXxxxxxx$. Xxxx xxx xxxxxxxxxxxx
 
-that will host the service to 'mySubscription'. 
-Whenever the service is published to the cloud, it will be hosted in a
+xxxx xxxx xxxx xxx xxxxxxx xx $xxXxxxxxxxxxxx$. Xxxxxxxx xxx xxxxxxx xx xxxxxxxxx xx xxx xxxxx$ xx xxxx xx xxxxxx xx x
 
-data center in the North Central US region, it will update the deployment slot, and it will use the specified subscription
+xxxx xxxxxx xx xxx Xxxxx Xxxxxxx XX xxxxxx$ xx xxxx xxxxxx xxx xxxxxxxxxx xxxx$ xxx xx xxxx xxx xxx xxxxxxxxx xxxxxxxxxxxx
 
-and storage account.
+xxx xxxxxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Location
-The region in which the service will be hosted.
-This value is used whenever the service is published to the cloud.
-Possible values are: Anywhere Asia, Anywhere Europe, Anywhere US, East Asia, East US, North Central US, North Europe, South Central US, Southeast Asia, West Europe, West US.
+### $Xxxxxxxx
+Xxx xxxxxx xx xxxxx xxx xxxxxxx xxxx xx xxxxxx.
+Xxxx xxxxx xx xxxx xxxxxxxx xxx xxxxxxx xx xxxxxxxxx xx xxx xxxxx.
+Xxxxxxxx xxxxxx xxx$ Xxxxxxxx Xxxx$ Xxxxxxxx Xxxxxx$ Xxxxxxxx XX$ Xxxx Xxxx$ Xxxx XX$ Xxxxx Xxxxxxx XX$ Xxxxx Xxxxxx$ Xxxxx Xxxxxxx XX$ Xxxxxxxxx Xxxx$ Xxxx Xxxxxx$ Xxxx XX.
 
 ```yaml
 Type: String
@@ -59,9 +56,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Indicates that this cmdlet returns an object representing the item on which it operates.
-By default, this cmdlet does not generate any output.
+### $XxxxXxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxx xx xxxxx xx xxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -75,10 +72,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Slot
-The slot (production or staging) in which the service will be hosted.
-This value is used whenever the service is published to the cloud.
-Possible values are: Production, Staging.
+### $Xxxx
+Xxx xxxx $xxxxxxxxxx xx xxxxxxx$ xx xxxxx xxx xxxxxxx xxxx xx xxxxxx.
+Xxxx xxxxx xx xxxx xxxxxxxx xxx xxxxxxx xx xxxxxxxxx xx xxx xxxxx.
+Xxxxxxxx xxxxxx xxx$ Xxxxxxxxxx$ Xxxxxxx.
 
 ```yaml
 Type: String
@@ -92,9 +89,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Storage
-The storage account to be used when uploading the service package to the cloud.
-If the storage account doesn't exist, it will be created when the service is published to the cloud.
+### $Xxxxxxx
+Xxx xxxxxxx xxxxxxx xx xx xxxx xxxx xxxxxxxxx xxx xxxxxxx xxxxxxx xx xxx xxxxx.
+Xx xxx xxxxxxx xxxxxxx xxxxx$x xxxxx$ xx xxxx xx xxxxxxx xxxx xxx xxxxxxx xx xxxxxxxxx xx xxx xxxxx.
 
 ```yaml
 Type: String
@@ -108,19 +105,19 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
-node-dev, php-dev, python-dev
+## XXXXX
+xxxx$xxx$ xxx$xxx$ xxxxxx$xxx
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Publish-AzureServiceProject](4c0c0966-919e-49a6-9d38-c3c97355e281)
+[Xxxxxxx$XxxxxXxxxxxxXxxxxxx](4c0c0966-919e-49a6-9d38-c3c97355e281)
 
-[Set-AzureServiceProjectRole](80fb7e11-389d-4341-9568-e1a1bc1789df)
+[Xxx$XxxxxXxxxxxxXxxxxxxXxxx](80fb7e11-389d-4341-9568-e1a1bc1789df)
 
-[New-AzureServiceProject](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
+[Xxx$XxxxxXxxxxxxXxxxxxx](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
 
 

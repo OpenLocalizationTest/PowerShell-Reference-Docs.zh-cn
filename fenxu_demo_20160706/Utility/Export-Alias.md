@@ -4,74 +4,73 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293955
 schema: 2.0.0
 ---
 
-# Export-Alias
-## SYNOPSIS
-Exports information about currently defined aliases to a file.
+# Xxxxxx$Xxxxx
+## XXXXXXXX
+Xxxxxxx xxxxxxxxxxx xxxxx xxxxxxxxx xxxxxxx xxxxxxx xx x xxxx.
 
-## SYNTAX
+## XXXXXX
 
-### ByPath (Default)
+### XxXxxx $Xxxxxxx$
 ```
 Export-Alias [-Path] <String> [[-Name] <String[]>] [-PassThru] [-As <ExportAliasFormat>] [-Append] [-Force]
  [-NoClobber] [-Description <String>] [-Scope <String>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### ByLiteralPath
+### XxXxxxxxxXxxx
 ```
 Export-Alias -LiteralPath <String> [[-Name] <String[]>] [-PassThru] [-As <ExportAliasFormat>] [-Append]
  [-Force] [-NoClobber] [-Description <String>] [-Scope <String>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-## DESCRIPTION
-The Export-Alias cmdlet exports the aliases in the current session to a file. 
-If the output file does not exist, the cmdlet will create it.
+## XXXXXXXXXXX
+Xxx Xxxxxx$Xxxxx xxxxxx xxxxxxx xxx xxxxxxx xx xxx xxxxxxx xxxxxxx xx x xxxx. Xx xxx xxxxxx xxxx xxxx xxx xxxxx$ xxx xxxxxx xxxx xxxxxx xx.
 
-Export-Alias can export the aliases in a particular scope or all scopes, it can generate the data in CSV format or as a series of Set-Alias commands that you can add to a session or to a Windows PowerShell profile.
+Xxxxxx$Xxxxx xxx xxxxxx xxx xxxxxxx xx x xxxxxxxxxx xxxxx xx xxx xxxxxx$ xx xxx xxxxxxxx xxx xxxx xx XXX xxxxxx xx xx x xxxxxx xx Xxx$Xxxxx xxxxxxxx xxxx xxx xxx xxx xx x xxxxxxx xx xx x Xxxxxxx XxxxxXxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>export-alias -path alias.csv
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This command exports current alias information to a file named Alias.csv in the current directory.
+Xxxx xxxxxxx xxxxxxx xxxxxxx xxxxx xxxxxxxxxxx xx x xxxx xxxxx Xxxxx.xxx xx xxx xxxxxxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>export-alias -path alias.csv -noclobber
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This command exports the aliases in the current session to an Alias.csv file.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxx xx xxx xxxxxxx xxxxxxx xx xx Xxxxx.xxx xxxx.
 
-Because the NoClobber parameter is specified, the command will fail if an Alias.csv file already exists in the current directory.
+Xxxxxxx xxx XxXxxxxxx xxxxxxxxx xx xxxxxxxxx$ xxx xxxxxxx xxxx xxxx xx xx Xxxxx.xxx xxxx xxxxxxx xxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>export-alias -path alias.csv -append -description "Appended Aliases" -force
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This command appends the aliases in the current session to the Alias.csv file.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxx xx xxx xxxxxxx xxxxxxx xx xxx Xxxxx.xxx xxxx.
 
-The command uses the Description parameter to add a description to the comments at the top of the file.
+Xxx xxxxxxx xxxx xxx Xxxxxxxxxxx xxxxxxxxx xx xxx x xxxxxxxxxxx xx xxx xxxxxxxx xx xxx xxx xx xxx xxxx.
 
-The command also uses the Force parameter to overwrite any existing Alias.csv files, even if they have the read-only attribute.
+Xxx xxxxxxx xxxx xxxx xxx Xxxxx xxxxxxxxx xx xxxxxxxxx xxx xxxxxxxx Xxxxx.xxx xxxxx$ xxxx xx xxxx xxxx xxx xxxx$xxxx xxxxxxxxx.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>export-alias -path alias.ps1 -as script
 PS C:\> add-content -path $profile -value (get-content alias.ps1)
@@ -79,27 +78,27 @@ PS C:\> $s = new-pssession -computername Server01
 PS C:\> invoke-command -session $s -filepath .\alias.ps1
 ```
 
-Description
+Xxxxxxxxxxx
 
 -----------
 
-This example shows how to use the script file format that Export-Alias generates.
+Xxxx xxxxxxx xxxxx xxx xx xxx xxx xxxxxx xxxx xxxxxx xxxx Xxxxxx$Xxxxx xxxxxxxxx.
 
-The first command exports the aliases in the session to the Alias.ps1 file.
-It uses the As parameter with a value of Script to generate a file that contains a Set-Alias command for each alias.
+Xxx xxxxx xxxxxxx xxxxxxx xxx xxxxxxx xx xxx xxxxxxx xx xxx Xxxxx.xx0 xxxx.
+Xx xxxx xxx Xx xxxxxxxxx xxxx x xxxxx xx Xxxxxx xx xxxxxxxx x xxxx xxxx xxxxxxxx x Xxx$Xxxxx xxxxxxx xxx xxxx xxxxx.
 
-The second command adds the aliases in the Alias.ps1 file to the CurrentUser-CurrentHost profile.
-(The path to the profile is saved in the $profile variable.) The command uses the Get-Content cmdlet to get the aliases from the Alias.ps1 file and the Add-Content cmdlet to add them to the profile.
-For more information, see about_Profiles.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxxxxx xx xxx Xxxxx.xx0 xxxx xx xxx XxxxxxxXxxx$XxxxxxxXxxx xxxxxxx.
+$Xxx xxxx xx xxx xxxxxxx xx xxxxx xx xxx $xxxxxxx xxxxxxxx.$ Xxx xxxxxxx xxxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxx xxxxxxx xxxx xxx Xxxxx.xx0 xxxx xxx xxx Xxx$Xxxxxxx xxxxxx xx xxx xxxx xx xxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxxx.
 
-The third and fourth commands add the aliases in the Alias.ps1 file to a  remote session on the Server01 computer.
-The third command uses the New-PSSession cmdlet to create the session.
-The fourth command uses the FilePath parameter of the Invoke-Command cmdlet to run the Alias.ps1 file in the new session.
+Xxx xxxxx xxx xxxxxx xxxxxxxx xxx xxx xxxxxxx xx xxx Xxxxx.xx0 xxxx xx x  xxxxxx xxxxxxx xx xxx Xxxxxx00 xxxxxxxx.
+Xxx xxxxx xxxxxxx xxxx xxx Xxx$XXXxxxxxx xxxxxx xx xxxxxx xxx xxxxxxx.
+Xxx xxxxxx xxxxxxx xxxx xxx XxxxXxxx xxxxxxxxx xx xxx Xxxxxx$Xxxxxxx xxxxxx xx xxx xxx Xxxxx.xx0 xxxx xx xxx xxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Append
-Appends the output to the specified file, rather than overwriting the existing contents of that file.
+### $Xxxxxx
+Xxxxxxx xxx xxxxxx xx xxx xxxxxxxxx xxxx$ xxxxxx xxxx xxxxxxxxxxx xxx xxxxxxxx xxxxxxxx xx xxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -113,14 +112,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -As
-Determines the output format.
-CSV is the default.
+### $Xx
+Xxxxxxxxxx xxx xxxxxx xxxxxx.
+XXX xx xxx xxxxxxx.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- CSV: Comma-separated value (CSV) format.
--- Script: Creates a Set-Alias command for each exported alias. If you name the output file with a .ps1 file name extension, you can run it as a script to add the aliases to any session.
+$$ XXX$ Xxxxx$xxxxxxxxx xxxxx $XXX$ xxxxxx.
+$$ Xxxxxx$ Xxxxxxx x Xxx$Xxxxx xxxxxxx xxx xxxx xxxxxxxx xxxxx. Xx xxx xxxx xxx xxxxxx xxxx xxxx x .xx0 xxxx xxxx xxxxxxxxx$ xxx xxx xxx xx xx x xxxxxx xx xxx xxx xxxxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: ExportAliasFormat
@@ -135,9 +134,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Description
-Adds a description to the exported file.
-The description appears as a comment at the top of the file, following the header information.
+### $Xxxxxxxxxxx
+Xxxx x xxxxxxxxxxx xx xxx xxxxxxxx xxxx.
+Xxx xxxxxxxxxxx xxxxxxx xx x xxxxxxx xx xxx xxx xx xxx xxxx$ xxxxxxxxx xxx xxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -151,13 +150,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Overwrites the output file, even if the read-only attribute is set on the file.
+### $Xxxxx
+Xxxxxxxxxx xxx xxxxxx xxxx$ xxxx xx xxx xxxx$xxxx xxxxxxxxx xx xxx xx xxx xxxx.
 
-By default, Export-Alias overwrites files without warning, unless the read-only or hidden attribute is set or the NoClobber parameter is used in the command.
-The NoClobber parameter takes precedence over the Force parameter when both are used in a command.
+Xx xxxxxxx$ Xxxxxx$Xxxxx xxxxxxxxxx xxxxx xxxxxxx xxxxxxx$ xxxxxx xxx xxxx$xxxx xx xxxxxx xxxxxxxxx xx xxx xx xxx XxXxxxxxx xxxxxxxxx xx xxxx xx xxx xxxxxxx.
+Xxx XxXxxxxxx xxxxxxxxx xxxxx xxxxxxxxxx xxxx xxx Xxxxx xxxxxxxxx xxxx xxxx xxx xxxx xx x xxxxxxx.
 
-The Force parameter cannot force Export-Alias to overwrite files with the hidden attribute.
+Xxx Xxxxx xxxxxxxxx xxxxxx xxxxx Xxxxxx$Xxxxx xx xxxxxxxxx xxxxx xxxx xxx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -171,8 +170,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -187,8 +186,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -202,12 +201,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -LiteralPath
-Specifies the path to the output file.
-Unlike Path, the value of the LiteralPath parameter is used exactly as it is typed.
-No characters are interpreted as wildcards.
-If the path includes escape characters, enclose it in single quotation marks.
-Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx.
+Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
+Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
+Xx xxx xxxx xxxxxxxx xxxxxx xxxxxxxxxx$ xxxxxxx xx xx xxxxxx xxxxxxxxx xxxxx.
+Xxxxxx xxxxxxxxx xxxxx xxxx Xxxxxxx XxxxxXxxxx xxx xx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -221,11 +220,11 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the names of the aliases to export.
-Wildcards are permitted.
+### $Xxxx
+Xxxxxxxxx xxx xxxxx xx xxx xxxxxxx xx xxxxxx.
+Xxxxxxxxx xxx xxxxxxxxx.
 
-By default, Export-Alias exports all aliases in the session or scope.
+Xx xxxxxxx$ Xxxxxx$Xxxxx xxxxxxx xxx xxxxxxx xx xxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: String[]
@@ -239,13 +238,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -NoClobber
-Prevents Export-Alias from overwriting any files, even if the Force parameter is used in the command.
+### $XxXxxxxxx
+Xxxxxxxx Xxxxxx$Xxxxx xxxx xxxxxxxxxxx xxx xxxxx$ xxxx xx xxx Xxxxx xxxxxxxxx xx xxxx xx xxx xxxxxxx.
 
-If the NoClobber parameter is omitted, Export-Alias will overwrite an existing file without warning, unless the read-only attribute is set on the file.
-NoClobber takes precedence over the Force parameter, which permits Export-Alias to overwrite a file with the read-only attribute.
+Xx xxx XxXxxxxxx xxxxxxxxx xx xxxxxxx$ Xxxxxx$Xxxxx xxxx xxxxxxxxx xx xxxxxxxx xxxx xxxxxxx xxxxxxx$ xxxxxx xxx xxxx$xxxx xxxxxxxxx xx xxx xx xxx xxxx.
+XxXxxxxxx xxxxx xxxxxxxxxx xxxx xxx Xxxxx xxxxxxxxx$ xxxxx xxxxxxx Xxxxxx$Xxxxx xx xxxxxxxxx x xxxx xxxx xxx xxxx$xxxx xxxxxxxxx.
 
-NoClobber does not prevent the Append parameter from adding content to an existing file.
+XxXxxxxxx xxxx xxx xxxxxxx xxx Xxxxxx xxxxxxxxx xxxx xxxxxx xxxxxxx xx xx xxxxxxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -259,9 +258,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Returns objects that represent the aliases that were exported.
-By default, this cmdlet does not generate any output.
+### $XxxxXxxx
+Xxxxxxx xxxxxxx xxxx xxxxxxxxx xxx xxxxxxx xxxx xxxx xxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -275,10 +274,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the path to the output file.
-Wildcards are permitted, but the resulting path value must resolve to a single file name.
-This parameter is required.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx.
+Xxxxxxxxx xxx xxxxxxxxx$ xxx xxx xxxxxxxxx xxxx xxxxx xxxx xxxxxxx xx x xxxxxx xxxx xxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -292,12 +291,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Scope
-Specifies the scope from which the aliases should be exported.
+### $Xxxxx
+Xxxxxxxxx xxx xxxxx xxxx xxxxx xxx xxxxxxx xxxxxx xx xxxxxxxx.
 
-Valid values are "Global", "Local", or "Script", or a number relative to the current scope (0 through the number of scopes where 0 is the current scope and 1 is its parent).
-"Local" is the default.
-For more information, see about_Scopes.
+Xxxxx xxxxxx xxx $Xxxxxx$$ $Xxxxx$$ xx $Xxxxxx$$ xx x xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxx $0 xxxxxxx xxx xxxxxx xx xxxxxx xxxxx 0 xx xxx xxxxxxx xxxxx xxx 0 xx xxx xxxxxx$.
+$Xxxxx$ xx xxx xxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx.
 
 ```yaml
 Type: String
@@ -311,8 +310,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -326,10 +325,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -343,27 +342,27 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### None.
-You cannot pipe objects to this cmdlet.
+### Xxxx.
+Xxx xxxxxx xxxx xxxxxxx xx xxxx xxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None or System.Management.Automation.AliasInfo
-When you use the Passthru parameter, Export-Alias returns a System.Management.Automation.AliasInfo object that represents the alias.
-Otherwise, this cmdlet does not generate any output.
+### Xxxx xx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxXxxx
+Xxxx xxx xxx xxx Xxxxxxxx xxxxxxxxx$ Xxxxxx$Xxxxx xxxxxxx x Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxXxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxx.
+Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
-You can only Export-Aliases to a file.
+## XXXXX
+Xxx xxx xxxx Xxxxxx$Xxxxxxx xx x xxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-Alias]()
+[Xxx$Xxxxx]()
 
-[Import-Alias]()
+[Xxxxxx$Xxxxx]()
 
-[New-Alias]()
+[Xxx$Xxxxx]()
 
-[Set-Alias]()
+[Xxx$Xxxxx]()
 

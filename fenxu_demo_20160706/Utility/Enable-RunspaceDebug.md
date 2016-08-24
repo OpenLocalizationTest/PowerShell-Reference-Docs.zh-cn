@@ -4,61 +4,61 @@ online version:
 schema: 2.0.0
 ---
 
-# Enable-RunspaceDebug
-## SYNOPSIS
-Enables debugging on runspaces where any breakpoint is preserved until a debugger is attached.
+# Xxxxxx$XxxxxxxxXxxxx
+## XXXXXXXX
+Xxxxxxx xxxxxxxxx xx xxxxxxxxx xxxxx xxx xxxxxxxxxx xx xxxxxxxxx xxxxx x xxxxxxxx xx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### RunspaceNameParameterSet (Default)
+### XxxxxxxxXxxxXxxxxxxxxXxx $Xxxxxxx$
 ```
 Enable-RunspaceDebug [-BreakAll] [[-RunspaceName] <String[]>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### RunspaceIdParameterSet
+### XxxxxxxxXxXxxxxxxxxXxx
 ```
 Enable-RunspaceDebug [-BreakAll] [-RunspaceId] <Int32[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### RunspaceParameterSet
+### XxxxxxxxXxxxxxxxxXxx
 ```
 Enable-RunspaceDebug [-BreakAll] [-Runspace] <Runspace[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### RunspaceInstanceIdParameterSet
+### XxxxxxxxXxxxxxxxXxXxxxxxxxxXxx
 ```
 Enable-RunspaceDebug [-RunspaceInstanceId] <Guid[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### ProcessNameParameterSet
+### XxxxxxxXxxxXxxxxxxxxXxx
 ```
 Enable-RunspaceDebug [[-ProcessName] <String>] [[-AppDomainName] <String[]>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-This content is coming in a future release.
+## XXXXXXXXXXX
+Xxxx xxxxxxx xx xxxxxx xx x xxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 PS C:\>
 ```
 
-### 2:
+### 0$
 ```
 PS C:\>
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AppDomainName
-@{Text=}
+### $XxxXxxxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: String[]
@@ -72,8 +72,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -BreakAll
-@{Text=}
+### $XxxxxXxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -87,8 +87,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -103,8 +103,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -118,8 +118,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ProcessName
-@{Text=}
+### $XxxxxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -133,8 +133,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Runspace
-@{Text=}
+### $Xxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: Runspace[]
@@ -148,8 +148,8 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -RunspaceId
-@{Text=}
+### $XxxxxxxxXx
+$$Xxxx$$
 
 ```yaml
 Type: Int32[]
@@ -163,8 +163,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -RunspaceInstanceId
-@{Text=}
+### $XxxxxxxxXxxxxxxxXx
+$$Xxxx$$
 
 ```yaml
 Type: Guid[]
@@ -178,8 +178,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -RunspaceName
-@{Text=}
+### $XxxxxxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: String[]
@@ -193,11 +193,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 

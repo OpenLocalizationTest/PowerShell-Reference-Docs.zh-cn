@@ -6,34 +6,34 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Start-AzureService
-## SYNOPSIS
-Starts the specified hosted service in Windows Azure.
+# Xxxxx$XxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxx xxx xxxxxxxxx xxxxxx xxxxxxx xx Xxxxxxx Xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Start-AzureService [[-ServiceName] <String>] [[-Slot] <String>] [[-Subscription] <String>] [-PassThru]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Start-AzureService cmdlet starts the specified hosted service in Windows Azure, if the service is in the stopped state.
-Note that the Publish-AzureServiceProject cmdlet automatically attempts to start the service.
+Xxx Xxxxx$XxxxxXxxxxxx xxxxxx xxxxxx xxx xxxxxxxxx xxxxxx xxxxxxx xx Xxxxxxx Xxxxx$ xx xxx xxxxxxx xx xx xxx xxxxxxx xxxxx.
+Xxxx xxxx xxx Xxxxxxx$XxxxxXxxxxxxXxxxxxx xxxxxx xxxxxxxxxxxxx xxxxxxxx xx xxxxx xxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 PS C:\>
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -PassThru
-@{Text=}
+### $XxxxXxxx
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -47,9 +47,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServiceName
-Specifies the name of the hosted service to start.
-If no name is specified, the cmdlet starts the current hosted service.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxxxxx xx xxxxx.
+Xx xx xxxx xx xxxxxxxxx$ xxx xxxxxx xxxxxx xxx xxxxxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -63,8 +63,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Slot
-Specifies the deployment slot in which to start the service, either Staging or Production.
+### $Xxxx
+Xxxxxxxxx xxx xxxxxxxxxx xxxx xx xxxxx xx xxxxx xxx xxxxxxx$ xxxxxx Xxxxxxx xx Xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -78,8 +78,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Subscription
-Specifies the subscription to use when starting the specified service.
+### $Xxxxxxxxxxxx
+Xxxxxxxxx xxx xxxxxxxxxxxx xx xxx xxxx xxxxxxxx xxx xxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -93,18 +93,18 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Publish-AzureServiceProject](4c0c0966-919e-49a6-9d38-c3c97355e281)
+[Xxxxxxx$XxxxxXxxxxxxXxxxxxx](4c0c0966-919e-49a6-9d38-c3c97355e281)
 
-[Remove-AzureService](19376209-6c0d-46e0-ad98-b8e2f13c0893)
+[Xxxxxx$XxxxxXxxxxxx](19376209-6c0d-46e0-ad98-b8e2f13c0893)
 
-[Stop-AzureService](82d56ef9-9651-4224-9ba0-498750f6f551)
+[Xxxx$XxxxxXxxxxxx](82d56ef9-9651-4224-9ba0-498750f6f551)
 
 

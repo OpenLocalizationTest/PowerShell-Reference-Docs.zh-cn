@@ -6,37 +6,37 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Restore-AzureWebsiteDeployment
-## SYNOPSIS
-Redeploys a previous deployment of a website in Azure.
+# Xxxxxxx$XxxxxXxxxxxxXxxxxxxxxx
+## XXXXXXXX
+Xxxxxxxxx x xxxxxxxx xxxxxxxxxx xx x xxxxxxx xx Xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Restore-AzureWebsiteDeployment [[-Name] <String>] [[-CommitId] <String>] [-Force] [-Slot <String>] [-Confirm]
  [-WhatIf]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Restore-AzureWebsiteDeployment cmdlet redeploys a previous deployment of a website in Azure.
-This process replaces the current deployment with the selected deployment.
+Xxx Xxxxxxx$XxxxxXxxxxxxXxxxxxxxxx xxxxxx xxxxxxxxx x xxxxxxxx xxxxxxxxxx xx x xxxxxxx xx Xxxxx.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxx xxx xxxxxxxx xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Redeploy a site
+### Xxxxxxx 0$ Xxxxxxxx x xxxx
 ```
 PS C:\>Restore-AzureWebsiteDeployment -Name "ContosoSite" -CommitId "f876543210"
 ```
 
-This command redeploys the deployment that has the ID f876543210 for the website named ContosoSite.
+Xxxx xxxxxxx xxxxxxxxx xxx xxxxxxxxxx xxxx xxx xxx XX x000000000 xxx xxx xxxxxxx xxxxx XxxxxxxXxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -CommitId
-Specifies the identifier of the deployment to redeploy.
+### $XxxxxxXx
+Xxxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -50,8 +50,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-If enabled, redeploys the previous deployment without prompting for confirmation.
+### $Xxxxx
+Xx xxxxxxx$ xxxxxxxxx xxx xxxxxxxx xxxxxxxxxx xxxxxxx xxxxxxxxx xxx xxxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -65,8 +65,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the website to redeploy.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -80,8 +80,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Slot
-Specifies the slot name.
+### $Xxxx
+Xxxxxxxxx xxx xxxx xxxx.
 
 ```yaml
 Type: String
@@ -95,8 +95,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+### $Xxxxxxx
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -110,10 +110,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+### $XxxxXx
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -127,14 +127,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
 

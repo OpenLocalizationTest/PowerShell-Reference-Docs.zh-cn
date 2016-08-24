@@ -4,11 +4,11 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294010
 schema: 2.0.0
 ---
 
-# Send-MailMessage
-## SYNOPSIS
-Sends an e-mail message.
+# Xxxx$XxxxXxxxxxx
+## XXXXXXXX
+Xxxxx xx x$xxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Send-MailMessage [-Attachments <String[]>] [-Bcc <String[]>] [[-Body] <String>] [-BodyAsHtml]
@@ -18,44 +18,44 @@ Send-MailMessage [-Attachments <String[]>] [-Bcc <String[]>] [[-Body] <String>] 
  [-InformationVariable <String>]
 ```
 
-## DESCRIPTION
-The Send-MailMessage cmdlet sends an e-mail message from within Windows PowerShell.
+## XXXXXXXXXXX
+Xxx Xxxx$XxxxXxxxxxx xxxxxx xxxxx xx x$xxxx xxxxxxx xxxx xxxxxx Xxxxxxx XxxxxXxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------------------- EXAMPLE 1 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>send-mailmessage -to "User01 <user01@example.com>" -from "User02 <user02@example.com>" -subject "Test mail"
 ```
 
-This command sends an e-mail message from User01 to User02.
+Xxxx xxxxxxx xxxxx xx x$xxxx xxxxxxx xxxx Xxxx00 xx Xxxx00.
 
-The mail message has a subject, which is required, but it does not have a body, which is optional.
-Also, because the SmtpServer parameter is not specified, Send-MailMessage uses the value of the $PSEmailServer preference variable for the SMTP server.
+Xxx xxxx xxxxxxx xxx x xxxxxxx$ xxxxx xx xxxxxxxx$ xxx xx xxxx xxx xxxx x xxxx$ xxxxx xx xxxxxxxx.
+Xxxx$ xxxxxxx xxx XxxxXxxxxx xxxxxxxxx xx xxx xxxxxxxxx$ Xxxx$XxxxXxxxxxx xxxx xxx xxxxx xx xxx $XXXxxxxXxxxxx xxxxxxxxxx xxxxxxxx xxx xxx XXXX xxxxxx.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>send-mailmessage -from "User01 <user01@example.com>" -to "User02 <user02@example.com>", "User03 <user03@example.com>" -subject "Sending the Attachment" -body "Forgot to send the attachment. Sending now." -Attachments "data.csv" -priority High -dno onSuccess, onFailure -smtpServer smtp.fabrikam.com
 ```
 
-This command sends an e-mail message with an attachment from User01 to two other users.
+Xxxx xxxxxxx xxxxx xx x$xxxx xxxxxxx xxxx xx xxxxxxxxxx xxxx Xxxx00 xx xxx xxxxx xxxxx.
 
-It specifies a priority value of "High" and requests a delivery notification by e-mail when the e-mail messages are delivered or when they fail.
+Xx xxxxxxxxx x xxxxxxxx xxxxx xx $Xxxx$ xxx xxxxxxxx x xxxxxxxx xxxxxxxxxxxx xx x$xxxx xxxx xxx x$xxxx xxxxxxxx xxx xxxxxxxxx xx xxxx xxxx xxxx.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$ XXXXXXX 0 $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\>send-mailmessage -to "User01 <user01@example.com>" -from "ITGroup <itdept@example.com>" -cc "User02 <user02@example.com>" -bcc "ITMgr <itmgr@example.com>" -subject "Don't forget today's meeting!" -credential domain01\admin01 -useSSL
 ```
 
-This command sends an e-mail message from User01 to the ITGroup mailing list with a copy (CC) to User02 and a blind carbon copy (BCC) to the IT manager (ITMgr).
+Xxxx xxxxxxx xxxxx xx x$xxxx xxxxxxx xxxx Xxxx00 xx xxx XXXxxxx xxxxxxx xxxx xxxx x xxxx $XX$ xx Xxxx00 xxx x xxxxx xxxxxx xxxx $XXX$ xx xxx XX xxxxxxx $XXXxx$.
 
-The command uses the credentials of a domain administrator and the UseSSL parameter.
+Xxx xxxxxxx xxxx xxx xxxxxxxxxxx xx x xxxxxx xxxxxxxxxxxxx xxx xxx XxxXXX xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Attachments
-Specifies the path and file names of files to be attached to the e-mail message.
-You can use this parameter or pipe the paths and file names to Send-MailMessage.
+### $Xxxxxxxxxxx
+Xxxxxxxxx xxx xxxx xxx xxxx xxxxx xx xxxxx xx xx xxxxxxxx xx xxx x$xxxx xxxxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxx xxx xxxxx xxx xxxx xxxxx xx Xxxx$XxxxXxxxxxx.
 
 ```yaml
 Type: String[]
@@ -69,9 +69,9 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Bcc
-Specifies the e-mail addresses that receive a copy of the mail but are not listed as recipients of the message.
-Enter names (optional) and the e-mail address, such as "Name \<someone@example.com\>".
+### $Xxx
+Xxxxxxxxx xxx x$xxxx xxxxxxxxx xxxx xxxxxxx x xxxx xx xxx xxxx xxx xxx xxx xxxxxx xx xxxxxxxxxx xx xxx xxxxxxx.
+Xxxxx xxxxx $xxxxxxxx$ xxx xxx x$xxxx xxxxxxx$ xxxx xx $Xxxx $$xxxxxxx$xxxxxxx.xxx$$$.
 
 ```yaml
 Type: String[]
@@ -85,8 +85,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Body
-Specifies the body (content) of the e-mail message.
+### $Xxxx
+Xxxxxxxxx xxx xxxx $xxxxxxx$ xx xxx x$xxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -100,8 +100,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -BodyAsHtml
-Indicates that the value of the Body parameter contains HTML.
+### $XxxxXxXxxx
+Xxxxxxxxx xxxx xxx xxxxx xx xxx Xxxx xxxxxxxxx xxxxxxxx XXXX.
 
 ```yaml
 Type: SwitchParameter
@@ -115,9 +115,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Cc
-Specifies the e-mail addresses to which a carbon copy (CC) of the e-mail message is sent.
-Enter names (optional) and the e-mail address, such as "Name \<someone@example.com\>".
+### $Xx
+Xxxxxxxxx xxx x$xxxx xxxxxxxxx xx xxxxx x xxxxxx xxxx $XX$ xx xxx x$xxxx xxxxxxx xx xxxx.
+Xxxxx xxxxx $xxxxxxxx$ xxx xxx x$xxxx xxxxxxx$ xxxx xx $Xxxx $$xxxxxxx$xxxxxxx.xxx$$$.
 
 ```yaml
 Type: String[]
@@ -131,12 +131,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Credential
-Specifies a user account that has permission to perform this action.
-The default is the current user.
+### $Xxxxxxxxxx
+Xxxxxxxxx x xxxx xxxxxxx xxxx xxx xxxxxxxxxx xx xxxxxxx xxxx xxxxxx.
+Xxx xxxxxxx xx xxx xxxxxxx xxxx.
 
-Type a user name, such as "User01" or "Domain01\User01".
-Or, enter a PSCredential object, such as one from the Get-Credential cmdlet.
+Xxxx x xxxx xxxx$ xxxx xx $Xxxx00$ xx $Xxxxxx00$Xxxx00$.
+Xx$ xxxxx x XXXxxxxxxxxx xxxxxx$ xxxx xx xxx xxxx xxx Xxx$Xxxxxxxxxx xxxxxx.
 
 ```yaml
 Type: PSCredential
@@ -150,21 +150,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DeliveryNotificationOption
-Specifies the delivery notification options for the e-mail message.
-You can specify multiple values.
-"None" is the default value. 
-The alias for this parameter is "dno".
+### $XxxxxxxxXxxxxxxxxxxxXxxxxx
+Xxxxxxxxx xxx xxxxxxxx xxxxxxxxxxxx xxxxxxx xxx xxx x$xxxx xxxxxxx.
+Xxx xxx xxxxxxx xxxxxxxx xxxxxx.
+$Xxxx$ xx xxx xxxxxxx xxxxx. Xxx xxxxx xxx xxxx xxxxxxxxx xx $xxx$.
 
-The delivery notifications are sent in an e-mail message to the address specified in the value of the To parameter.
+Xxx xxxxxxxx xxxxxxxxxxxxx xxx xxxx xx xx x$xxxx xxxxxxx xx xxx xxxxxxx xxxxxxxxx xx xxx xxxxx xx xxx Xx xxxxxxxxx.
 
-Valid values are:
+Xxxxx xxxxxx xxx$
 
--- None: No notification.
--- OnSuccess: Notify if the delivery is successful.
--- OnFailure: Notify if the delivery is unsuccessful.
--- Delay: Notify if the delivery is delayed.
--- Never: Never notify.
+$$ Xxxx$ Xx xxxxxxxxxxxx.
+$$ XxXxxxxxx$ Xxxxxx xx xxx xxxxxxxx xx xxxxxxxxxx.
+$$ XxXxxxxxx$ Xxxxxx xx xxx xxxxxxxx xx xxxxxxxxxxxx.
+$$ Xxxxx$ Xxxxxx xx xxx xxxxxxxx xx xxxxxxx.
+$$ Xxxxx$ Xxxxx xxxxxx.
 
 ```yaml
 Type: DeliveryNotificationOptions
@@ -179,10 +178,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Encoding
-Specifies the encoding used for the body and subject.
-Valid values are ASCII, UTF8, UTF7, UTF32, Unicode, BigEndianUnicode, Default, and OEM.
-ASCII is the default.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xxxx xxx xxx xxxx xxx xxxxxxx.
+Xxxxx xxxxxx xxx XXXXX$ XXX0$ XXX0$ XXX00$ Xxxxxxx$ XxxXxxxxxXxxxxxx$ Xxxxxxx$ xxx XXX.
+XXXXX xx xxx xxxxxxx.
 
 ```yaml
 Type: Encoding
@@ -196,10 +195,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -From
-Specifies the address from which the mail is sent.
-Enter a name (optional) and e-mail address, such as "Name \<someone@example.com\>".
-This parameter is required.
+### $Xxxx
+Xxxxxxxxx xxx xxxxxxx xxxx xxxxx xxx xxxx xx xxxx.
+Xxxxx x xxxx $xxxxxxxx$ xxx x$xxxx xxxxxxx$ xxxx xx $Xxxx $$xxxxxxx$xxxxxxx.xxx$$$.
+Xxxx xxxxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -213,8 +212,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-@{Text=}
+### $XxxxxxxxxxxXxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: ActionPreference
@@ -229,8 +228,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-@{Text=}
+### $XxxxxxxxxxxXxxxxxxx
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -244,10 +243,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Port
-Specifies an alternate port on the SMTP server.
-The default value is 25, which is the default SMTP port.
-This parameter is available in Windows PowerShell 3.0 and newer releases.
+### $Xxxx
+Xxxxxxxxx xx xxxxxxxxx xxxx xx xxx XXXX xxxxxx.
+Xxx xxxxxxx xxxxx xx 00$ xxxxx xx xxx xxxxxxx XXXX xxxx.
+Xxxx xxxxxxxxx xx xxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0 xxx xxxxx xxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -261,10 +260,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Priority
-Specifies the priority of the e-mail message.
-The valid values for this are Normal, High, and Low.
-Normal is the default.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xx xxx x$xxxx xxxxxxx.
+Xxx xxxxx xxxxxx xxx xxxx xxx Xxxxxx$ Xxxx$ xxx Xxx.
+Xxxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: MailPriority
@@ -279,11 +278,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SmtpServer
-Specifies the name of the SMTP server that sends the e-mail message.
+### $XxxxXxxxxx
+Xxxxxxxxx xxx xxxx xx xxx XXXX xxxxxx xxxx xxxxx xxx x$xxxx xxxxxxx.
 
-The default value is the value of the $PSEmailServer preference variable.
-If the preference variable is not set and this parameter is omitted, the command fails.
+Xxx xxxxxxx xxxxx xx xxx xxxxx xx xxx $XXXxxxxXxxxxx xxxxxxxxxx xxxxxxxx.
+Xx xxx xxxxxxxxxx xxxxxxxx xx xxx xxx xxx xxxx xxxxxxxxx xx xxxxxxx$ xxx xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -297,9 +296,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Subject
-Specifies the subject of the e-mail message.
-This parameter is required.
+### $Xxxxxxx
+Xxxxxxxxx xxx xxxxxxx xx xxx x$xxxx xxxxxxx.
+Xxxx xxxxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -313,10 +312,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -To
-Specifies the addresses to which the mail is sent.
-Enter names (optional) and the e-mail address, such as "Name \<someone@example.com\>".
-This parameter is required.
+### $Xx
+Xxxxxxxxx xxx xxxxxxxxx xx xxxxx xxx xxxx xx xxxx.
+Xxxxx xxxxx $xxxxxxxx$ xxx xxx x$xxxx xxxxxxx$ xxxx xx $Xxxx $$xxxxxxx$xxxxxxx.xxx$$$.
+Xxxx xxxxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: String[]
@@ -330,9 +329,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -UseSsl
-Uses the Secure Sockets Layer (SSL) protocol to establish a connection to the remote computer to send mail.
-By default, SSL is not used.
+### $XxxXxx
+Xxxx xxx Xxxxxx Xxxxxxx Xxxxx $XXX$ xxxxxxxx xx xxxxxxxxx x xxxxxxxxxx xx xxx xxxxxx xxxxxxxx xx xxxx xxxx.
+Xx xxxxxxx$ XXX xx xxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -346,17 +345,17 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-### System.String
-You can pipe the path and file names of attachments to Send-MailMessage.
+### Xxxxxx.Xxxxxx
+Xxx xxx xxxx xxx xxxx xxx xxxx xxxxx xx xxxxxxxxxxx xx Xxxx$XxxxXxxxxxx.
 
-## OUTPUTS
+## XXXXXXX
 
-### None
-This cmdlet does not generate any output.
+### Xxxx
+Xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 

@@ -6,73 +6,73 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Get-AzureRMAutomationScheduledRunbook
-## SYNOPSIS
-Gets Automation runbooks and associated schedules.
+# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxXxxxxxx
+## XXXXXXXX
+Xxxx Xxxxxxxxxx xxxxxxxx xxx xxxxxxxxxx xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
-### UNNAMED_PARAMETER_SET_1
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRMAutomationScheduledRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
 ```
 
-### UNNAMED_PARAMETER_SET_2
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRMAutomationScheduledRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  -JobScheduleId <Guid]>
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRMAutomationScheduledRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  -RunbookName <String> -ScheduleName <String>
 ```
 
-### UNNAMED_PARAMETER_SET_4
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRMAutomationScheduledRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  -RunbookName <String>
 ```
 
-### UNNAMED_PARAMETER_SET_5
+### XXXXXXX$XXXXXXXXX$XXX$0
 ```
 Get-AzureRMAutomationScheduledRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  -ScheduleName <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationScheduledRunbook** cmdlet gets one or more azure_2 Automation runbooks and associated schedules.
-By default, this cmdlet gets all scheduled runbooks.
-Specify the name of a runbook or a schedule or both to see specific runbook schedules.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxXxxxxxx$$ xxxxxx xxxx xxx xx xxxx xxxxx$0 Xxxxxxxxxx xxxxxxxx xxx xxxxxxxxxx xxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxxx xxxxxxxx.
+Xxxxxxx xxx xxxx xx x xxxxxxx xx x xxxxxxxx xx xxxx xx xxx xxxxxxxx xxxxxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all scheduled runbooks
+### Xxxxxxx 0$ Xxx xxx xxxxxxxxx xxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationScheduledRunbook -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command gets all scheduled runbooks in the azure_2 Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxx xxxxxxxx xx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 2: Get all schedules associated with a runbook
+### Xxxxxxx 0$ Xxx xxx xxxxxxxxx xxxxxxxxxx xxxx x xxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationScheduledRunbook -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01" -RunbookName "Runbk01"
 ```
 
-This command gets all scheduled runbooks for the runbook Runbk01 in the azure_2 Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxx xxxxxxxx xxx xxx xxxxxxx Xxxxx00 xx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 3: Get all runbooks associated with a schedule
+### Xxxxxxx 0$ Xxx xxx xxxxxxxx xxxxxxxxxx xxxx x xxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationScheduledRunbook -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01" -ScheduleName "Schedule01"
 ```
 
-This command gets all scheduled runbooks for the schedule Schedule01 in the azure_2 Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxx xxxxxxxx xxx xxx xxxxxxxx Xxxxxxxx00 xx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -AutomationAccountName
-Specifies an Automation account for the runbook on which this cmdlet operates.
+### $XxxxxxxxxxXxxxxxxXxxx
+Xxxxxxxxx xx Xxxxxxxxxx xxxxxxx xxx xxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -86,8 +86,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -JobScheduleId
-Specifies the ID of a scheduled job that this cmdlet gets.
+### $XxxXxxxxxxxXx
+Xxxxxxxxx xxx XX xx x xxxxxxxxx xxx xxxx xxxx xxxxxx xxxx.
 
 ```yaml
 Type: Guid]
@@ -101,8 +101,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group for scheduled runbooks that this cmdlet gets.
+### $XxxxxxxxXxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxxxxxx xxxxxxxx xxxx xxxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -116,8 +116,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -RunbookName
-Specifies the name of a runbook for which this cmdlet gets scheduled runbooks.
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -131,8 +131,8 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ScheduleName
-Specifies the name of a schedule for which this cmdlet gets scheduled runbooks.
+### $XxxxxxxxXxxx
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -146,18 +146,18 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-### Microsoft.Azure.Commands.Automation.Model.JobSchedule
+### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.XxxXxxxxxxx
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Register-AzureRmAutomationScheduledRunbook](34edfa3b-7ef9-4aab-bb17-5ea725a22ed4)
+[Xxxxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxXxxxxxx](34edfa3b-7ef9-4aab-bb17-5ea725a22ed4)
 
-[Unregister-AzureRmAutomationScheduledRunbook](a56fc467-f64d-4453-9b55-cdd5cad1aa98)
+[Xxxxxxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxXxxxxxx](a56fc467-f64d-4453-9b55-cdd5cad1aa98)
 
 

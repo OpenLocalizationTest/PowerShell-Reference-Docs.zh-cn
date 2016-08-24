@@ -6,26 +6,26 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Set-AzureStorageCORSRule
-## SYNOPSIS
-Sets the CORS rules for a type of Storage service.
+# Xxx$XxxxxXxxxxxxXXXXXxxx
+## XXXXXXXX
+Xxxx xxx XXXX xxxxx xxx x xxxx xx Xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureStorageCORSRule [-ServiceType] [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-PassThru] [-ServerTimeoutPerRequest <Int32]>] -CorsRules <PSCorsRule[]>
 ```
 
-## DESCRIPTION
-The **Set-AzureStorageCORSRule** cmdlet sets the Cross-Origin Resource Sharing (CORS) rules for a type of azure_2 Storage service.
-The types of storage services for this cmdlet are Blob, Table, Queue, and File.
-This cmdlet overwrites the existing rules.
-To see the current rules, use the Get-AzureStorageCORSRule cmdlet.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxxxxxxXXXXXxxx$$ xxxxxx xxxx xxx Xxxxx$Xxxxxx Xxxxxxxx Xxxxxxx $XXXX$ xxxxx xxx x xxxx xx xxxxx$0 Xxxxxxx xxxxxxx.
+Xxx xxxxx xx xxxxxxx xxxxxxxx xxx xxxx xxxxxx xxx Xxxx$ Xxxxx$ Xxxxx$ xxx Xxxx.
+Xxxx xxxxxx xxxxxxxxxx xxx xxxxxxxx xxxxx.
+Xx xxx xxx xxxxxxx xxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXXXXXxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Assign CORS rules to the blob service
+### Xxxxxxx 0$ Xxxxxx XXXX xxxxx xx xxx xxxx xxxxxxx
 ```
 PS C:\>$CorsRules = (@{
     AllowedHeaders=@("x-ms-blob-content-type","x-ms-blob-content-disposition");
@@ -41,12 +41,12 @@ PS C:\>$CorsRules = (@{
 PS C:\> Set-AzureStorageCORSRule -ServiceType Blob -CorsRules $CorsRules
 ```
 
-The first command assigns an array of rules to the $CorsRules variable.
-This command uses standard extends over several lines in this code block.
+Xxx xxxxx xxxxxxx xxxxxxx xx xxxxx xx xxxxx xx xxx $XxxxXxxxx xxxxxxxx.
+Xxxx xxxxxxx xxxx xxxxxxxx xxxxxxx xxxx xxxxxxx xxxxx xx xxxx xxxx xxxxx.
 
-The second command assigns the rules in $CorsRules to the Blob service type.
+Xxx xxxxxx xxxxxxx xxxxxxx xxx xxxxx xx $XxxxXxxxx xx xxx Xxxx xxxxxxx xxxx.
 
-### Example 2: Change properties of a CORS rule for blob service
+### Xxxxxxx 0$ Xxxxxx xxxxxxxxxx xx x XXXX xxxx xxx xxxx xxxxxxx
 ```
 PS C:\>$CorsRules = Get-AzureStorageCORSRule -ServiceType Blob
 PS C:\> $CorsRules[0].AllowedHeaders = @("x-ms-blob-content-type", "x-ms-blob-content-disposition")
@@ -54,39 +54,20 @@ PS C:\> $CorsRules[0].AllowedMethods = @("Get", "Connect", "Merge")
 PS C:\> Set-AzureStorageCORSRule -ServiceType Blob -CorsRules $CorsRules
 ```
 
-The first command gets the current CORS rules for the Blob type by using the **Get-AzureStorageCORSRule** cmdlet.
-The command stores the rules in the $CorsRules array variable.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxx XXXX xxxxx xxx xxx Xxxx xxxx xx xxxxx xxx $$Xxx$XxxxxXxxxxxxXXXXXxxx$$ xxxxxx.
+Xxx xxxxxxx xxxxxx xxx xxxxx xx xxx $XxxxXxxxx xxxxx xxxxxxxx.
 
-The second and third commands modify the first rule in $CorsRules.
+Xxx xxxxxx xxx xxxxx xxxxxxxx xxxxxx xxx xxxxx xxxx xx $XxxxXxxxx.
 
-The final command assigns the rules in $CorsRules to the Blob service type.
-The revised rules overwrite the current CORS rules.
+Xxx xxxxx xxxxxxx xxxxxxx xxx xxxxx xx $XxxxXxxxx xx xxx Xxxx xxxxxxx xxxx.
+Xxx xxxxxxx xxxxx xxxxxxxxx xxx xxxxxxx XXXX xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -ClientTimeoutPerRequest
-Specifies the client-side time-out interval, in seconds, for one service request.
-If the previous call fails in the specified interval, this cmdlet retries the request.
-If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
-
-```yaml
-Type: Int32]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConcurrentTaskCount
-Specifies the maximum concurrent network calls.
-You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
-The specified value is an absolute count and is not multiplied by the core count.
-This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
-The default value is 10.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
+Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
+Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
 
 ```yaml
 Type: Int32]
@@ -100,9 +81,28 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies an azure_2 Storage context.
-To obtain a context, use the New-AzureStorageContext cmdlet.
+### $XxxxxxxxxxXxxxXxxxx
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
+Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
+Xxxx xxxxxxxxx xxx xxxx xxxxxx xxxxxxx xxxxxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxxx$ xxxx xx 000 xxxxxxxx xxx xxxxxx.
+Xxx xxxxxxx xxxxx xx 00.
+
+```yaml
+Type: Int32]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### $Xxxxxxx
+Xxxxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -116,9 +116,9 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -CorsRules
-Specifies an array of CORS rules.
-You can retrieve the existing rules using the Get-AzureStorageCORSRule cmdlet.
+### $XxxxXxxxx
+Xxxxxxxxx xx xxxxx xx XXXX xxxxx.
+Xxx xxx xxxxxxxx xxx xxxxxxxx xxxxx xxxxx xxx Xxx$XxxxxXxxxxxxXXXXXxxx xxxxxx.
 
 ```yaml
 Type: PSCorsRule[]
@@ -132,9 +132,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PassThru
-Indicates that this cmdlet returns a Boolean that reflects the success of the operation.
-By default, this cmdlet does not return a value.
+### $XxxxXxxx
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx x Xxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxx xxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx x xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -148,8 +148,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerTimeoutPerRequest
-Specifies the length of the time-out period for the server part of a request.
+### $XxxxxxXxxxxxxXxxXxxxxxx
+Xxxxxxxxx xxx xxxxxx xx xxx xxxx$xxx xxxxxx xxx xxx xxxxxx xxxx xx x xxxxxxx.
 
 ```yaml
 Type: Int32]
@@ -163,14 +163,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServiceType
-Specifies the azure_2 Storage service type for which this cmdlet assigns rules.
-psdx_paramvalues
+### $XxxxxxxXxxx
+Xxxxxxxxx xxx xxxxx$0 Xxxxxxx xxxxxxx xxxx xxx xxxxx xxxx xxxxxx xxxxxxx xxxxx.
+xxxx$xxxxxxxxxxx
 
--- Blob 
--- Table 
--- Queue 
--- File
+$$ Xxxx $$ Xxxxx $$ Xxxxx $$ Xxxx
 
 ```yaml
 Type: SwitchParameter
@@ -185,18 +182,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Get-AzureStorageCORSRule](accfb0fd-ad3a-4415-abce-a98b8073e82b)
+[Xxx$XxxxxXxxxxxxXXXXXxxx](accfb0fd-ad3a-4415-abce-a98b8073e82b)
 
-[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Remove-AzureStorageCORSRule](ea872c93-797e-49a5-8e97-640a56aadceb)
+[Xxxxxx$XxxxxXxxxxxxXXXXXxxx](ea872c93-797e-49a5-8e97-640a56aadceb)
 
 

@@ -6,11 +6,11 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# New-AzureWebsite
-## SYNOPSIS
-Create a new website to run in Azure.
+# Xxx$XxxxxXxxxxxx
+## XXXXXXXX
+Xxxxxx x xxx xxxxxxx xx xxx xx Xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureWebsite [[-Name] <String>] [[-Location] <String>] [[-Hostname] <String>]
@@ -18,50 +18,34 @@ New-AzureWebsite [[-Name] <String>] [[-Location] <String>] [[-Hostname] <String>
  [-GithubRepository <String>] [-Slot <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The cmdlet creates a new website to run in Azure and prepares for deployment through Github.
+Xxx xxxxxx xxxxxxx x xxx xxxxxxx xx xxx xx Xxxxx xxx xxxxxxxx xxx xxxxxxxxxx xxxxxxx Xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Create a new website with Git
+### 0$ Xxxxxx x xxx xxxxxxx xxxx Xxx
 ```
 PS C:\>New-AzureWebsite mySite -Git
 ```
 
-This example creates a new website in Azure and a local Git repository to use for deploying files to the new website.
+Xxxx xxxxxxx xxxxxxx x xxx xxxxxxx xx Xxxxx xxx x xxxxx Xxx xxxxxxxxxx xx xxx xxx xxxxxxxxx xxxxx xx xxx xxx xxxxxxx.
 
-### 2: Create website integrated with Github
+### 0$ Xxxxxx xxxxxxx xxxxxxxxxx xxxx Xxxxxx
 ```
 PS C:\>New-AzureWebsite mysite -Github -GithubRepository myaccount/myrepo
 ```
 
-This example creates a new website linked to a Github repository named myaccount/myrepo.
-Commits to the Github repository are pushed to the website in Azure.
+Xxxx xxxxxxx xxxxxxx x xxx xxxxxxx xxxxxx xx x Xxxxxx xxxxxxxxxx xxxxx xxxxxxxxx$xxxxxx.
+Xxxxxxx xx xxx Xxxxxx xxxxxxxxxx xxx xxxxxx xx xxx xxxxxxx xx Xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-### -Git
-Sets up a local Git repository and links it to the website.
-If specified, this parameter sets up a Git repository in the local directory and add a remote repository named 'azure' that links to the website in Azure.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: 
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -GitHub
-If enabled, this parameter links the new website to an existing Github repository.
-Commits to the Giuthub repository are pushed to the website in Azure.
+### $Xxx
+Xxxx xx x xxxxx Xxx xxxxxxxxxx xxx xxxxx xx xx xxx xxxxxxx.
+Xx xxxxxxxxx$ xxxx xxxxxxxxx xxxx xx x Xxx xxxxxxxxxx xx xxx xxxxx xxxxxxxxx xxx xxx x xxxxxx xxxxxxxxxx xxxxx $xxxxx$ xxxx xxxxx xx xxx xxxxxxx xx Xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -75,8 +59,24 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -GithubCredentials
-Specifies the user name and password credentials to connect to Github.
+### $XxxXxx
+Xx xxxxxxx$ xxxx xxxxxxxxx xxxxx xxx xxx xxxxxxx xx xx xxxxxxxx Xxxxxx xxxxxxxxxx.
+Xxxxxxx xx xxx Xxxxxxx xxxxxxxxxx xxx xxxxxx xx xxx xxxxxxx xx Xxxxx.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: 
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### $XxxxxxXxxxxxxxxxx
+Xxxxxxxxx xxx xxxx xxxx xxx xxxxxxxx xxxxxxxxxxx xx xxxxxxx xx Xxxxxx.
 
 ```yaml
 Type: PSCredential
@@ -90,9 +90,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -GithubRepository
-Specifies the full name of the Github repository to link to this website.
-For example, myaccount/myrepo.
+### $XxxxxxXxxxxxxxxx
+Xxxxxxxxx xxx xxxx xxxx xx xxx Xxxxxx xxxxxxxxxx xx xxxx xx xxxx xxxxxxx.
+Xxx xxxxxxx$ xxxxxxxxx$xxxxxx.
 
 ```yaml
 Type: String
@@ -106,8 +106,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Hostname
-Specifies an alternative host name for the new website.
+### $Xxxxxxxx
+Xxxxxxxxx xx xxxxxxxxxxx xxxx xxxx xxx xxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -121,8 +121,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Location
-Specifies the location of the data center where you want to deploy the website.
+### $Xxxxxxxx
+Xxxxxxxxx xxx xxxxxxxx xx xxx xxxx xxxxxx xxxxx xxx xxxx xx xxxxxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -136,8 +136,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies a name for the website.
+### $Xxxx
+Xxxxxxxxx x xxxx xxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -151,8 +151,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PublishingUsername
-The user name you have specified in the Azure Portal for Git deployment.
+### $XxxxxxxxxxXxxxxxxx
+Xxx xxxx xxxx xxx xxxx xxxxxxxxx xx xxx Xxxxx Xxxxxx xxx Xxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -166,8 +166,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Slot
-Specifies a slot name for the website.
+### $Xxxx
+Xxxxxxxxx x xxxx xxxx xxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -181,14 +181,14 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
-[Set-AzureWebsite](7b386051-005d-499d-a106-1eb34d5c9f47)
+[Xxx$XxxxxXxxxxxx](7b386051-005d-499d-a106-1eb34d5c9f47)
 
 

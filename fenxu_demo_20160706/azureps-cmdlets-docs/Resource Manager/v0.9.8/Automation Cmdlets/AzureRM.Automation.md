@@ -8,219 +8,219 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# AzureRM.Automation Module
-## Description
-{{Manually Enter Description Here}}
+# XxxxxXX.Xxxxxxxxxx Xxxxxx
+## Xxxxxxxxxxx
+$$Xxxxxxxx Xxxxx Xxxxxxxxxxx Xxxx$$
 
-## AzureRM.Automation Cmdlets
-### [Export-AzureRmAutomationDscConfiguration](Export-AzureRmAutomationDscConfiguration.md)
-{{Manually Enter Export-AzureRmAutomationDscConfiguration Description Here}}
+## XxxxxXX.Xxxxxxxxxx Xxxxxxx
+### [Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](Export-AzureRmAutomationDscConfiguration.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Export-AzureRmAutomationDscNodeReportContent](Export-AzureRmAutomationDscNodeReportContent.md)
-{{Manually Enter Export-AzureRmAutomationDscNodeReportContent Description Here}}
+### [Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxXxxxxxx](Export-AzureRmAutomationDscNodeReportContent.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Export-AzureRMAutomationRunbook](Export-AzureRMAutomationRunbook.md)
-{{Manually Enter Export-AzureRMAutomationRunbook Description Here}}
+### [Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx](Export-AzureRMAutomationRunbook.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRmAutomationAccount](Get-AzureRmAutomationAccount.md)
-{{Manually Enter Get-AzureRmAutomationAccount Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](Get-AzureRmAutomationAccount.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRMAutomationCertificate](Get-AzureRMAutomationCertificate.md)
-{{Manually Enter Get-AzureRMAutomationCertificate Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxx](Get-AzureRMAutomationCertificate.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRMAutomationConnection](Get-AzureRMAutomationConnection.md)
-{{Manually Enter Get-AzureRMAutomationConnection Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx](Get-AzureRMAutomationConnection.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRMAutomationCredential](Get-AzureRMAutomationCredential.md)
-{{Manually Enter Get-AzureRMAutomationCredential Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx](Get-AzureRMAutomationCredential.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRmAutomationDscCompilationJobOutput](Get-AzureRmAutomationDscCompilationJobOutput.md)
-{{Manually Enter Get-AzureRmAutomationDscCompilationJobOutput Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxxXxxxxx](Get-AzureRmAutomationDscCompilationJobOutput.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRmAutomationDscCompilationJob](Get-AzureRmAutomationDscCompilationJob.md)
-{{Manually Enter Get-AzureRmAutomationDscCompilationJob Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxx](Get-AzureRmAutomationDscCompilationJob.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRmAutomationDscConfiguration](Get-AzureRmAutomationDscConfiguration.md)
-{{Manually Enter Get-AzureRmAutomationDscConfiguration Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](Get-AzureRmAutomationDscConfiguration.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRmAutomationDscNodeConfiguration](Get-AzureRmAutomationDscNodeConfiguration.md)
-{{Manually Enter Get-AzureRmAutomationDscNodeConfiguration Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxxxxxxxx](Get-AzureRmAutomationDscNodeConfiguration.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRmAutomationDscNodeReport](Get-AzureRmAutomationDscNodeReport.md)
-{{Manually Enter Get-AzureRmAutomationDscNodeReport Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxx](Get-AzureRmAutomationDscNodeReport.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRmAutomationDscNode](Get-AzureRmAutomationDscNode.md)
-{{Manually Enter Get-AzureRmAutomationDscNode Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxXxxx](Get-AzureRmAutomationDscNode.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRmAutomationDscOnboardingMetaconfig](Get-AzureRmAutomationDscOnboardingMetaconfig.md)
-{{Manually Enter Get-AzureRmAutomationDscOnboardingMetaconfig Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxXxxxxxxxxx](Get-AzureRmAutomationDscOnboardingMetaconfig.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRMAutomationHybridWorkerGroup](Get-AzureRMAutomationHybridWorkerGroup.md)
-{{Manually Enter Get-AzureRMAutomationHybridWorkerGroup Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxXxxxxxXxxxx](Get-AzureRMAutomationHybridWorkerGroup.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxXxxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRmAutomationJobOutputRecord](Get-AzureRmAutomationJobOutputRecord.md)
-{{Manually Enter Get-AzureRmAutomationJobOutputRecord Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxXxxxxx](Get-AzureRmAutomationJobOutputRecord.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRMAutomationJobOutput](Get-AzureRMAutomationJobOutput.md)
-{{Manually Enter Get-AzureRMAutomationJobOutput Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxXxxxxx](Get-AzureRMAutomationJobOutput.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRMAutomationJob](Get-AzureRMAutomationJob.md)
-{{Manually Enter Get-AzureRMAutomationJob Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxx](Get-AzureRMAutomationJob.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRmAutomationModule](Get-AzureRmAutomationModule.md)
-{{Manually Enter Get-AzureRmAutomationModule Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxxxx](Get-AzureRmAutomationModule.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRmAutomationRegistrationInfo](Get-AzureRmAutomationRegistrationInfo.md)
-{{Manually Enter Get-AzureRmAutomationRegistrationInfo Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxxxXxxx](Get-AzureRmAutomationRegistrationInfo.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRMAutomationRunbook](Get-AzureRMAutomationRunbook.md)
-{{Manually Enter Get-AzureRMAutomationRunbook Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxx](Get-AzureRMAutomationRunbook.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRMAutomationScheduledRunbook](Get-AzureRMAutomationScheduledRunbook.md)
-{{Manually Enter Get-AzureRMAutomationScheduledRunbook Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxXxxxxxx](Get-AzureRMAutomationScheduledRunbook.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRMAutomationSchedule](Get-AzureRMAutomationSchedule.md)
-{{Manually Enter Get-AzureRMAutomationSchedule Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx](Get-AzureRMAutomationSchedule.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRMAutomationVariable](Get-AzureRMAutomationVariable.md)
-{{Manually Enter Get-AzureRMAutomationVariable Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx](Get-AzureRMAutomationVariable.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureRMAutomationWebhook](Get-AzureRMAutomationWebhook.md)
-{{Manually Enter Get-AzureRMAutomationWebhook Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxx](Get-AzureRMAutomationWebhook.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Import-AzureRmAutomationDscConfiguration](Import-AzureRmAutomationDscConfiguration.md)
-{{Manually Enter Import-AzureRmAutomationDscConfiguration Description Here}}
+### [Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](Import-AzureRmAutomationDscConfiguration.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Import-AzureRmAutomationDscNodeConfiguration](Import-AzureRmAutomationDscNodeConfiguration.md)
-{{Manually Enter Import-AzureRmAutomationDscNodeConfiguration Description Here}}
+### [Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxxxxxxxx](Import-AzureRmAutomationDscNodeConfiguration.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Import-AzureRMAutomationRunbook](Import-AzureRMAutomationRunbook.md)
-{{Manually Enter Import-AzureRMAutomationRunbook Description Here}}
+### [Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx](Import-AzureRMAutomationRunbook.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRmAutomationAccount](New-AzureRmAutomationAccount.md)
-{{Manually Enter New-AzureRmAutomationAccount Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](New-AzureRmAutomationAccount.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRMAutomationCertificate](New-AzureRMAutomationCertificate.md)
-{{Manually Enter New-AzureRMAutomationCertificate Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxx](New-AzureRMAutomationCertificate.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRMAutomationConnection](New-AzureRMAutomationConnection.md)
-{{Manually Enter New-AzureRMAutomationConnection Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx](New-AzureRMAutomationConnection.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRMAutomationCredential](New-AzureRMAutomationCredential.md)
-{{Manually Enter New-AzureRMAutomationCredential Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx](New-AzureRMAutomationCredential.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRmAutomationKey](New-AzureRmAutomationKey.md)
-{{Manually Enter New-AzureRmAutomationKey Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxx](New-AzureRmAutomationKey.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRmAutomationModule](New-AzureRmAutomationModule.md)
-{{Manually Enter New-AzureRmAutomationModule Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxxxx](New-AzureRmAutomationModule.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRMAutomationRunbook](New-AzureRMAutomationRunbook.md)
-{{Manually Enter New-AzureRMAutomationRunbook Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxx](New-AzureRMAutomationRunbook.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRMAutomationSchedule](New-AzureRMAutomationSchedule.md)
-{{Manually Enter New-AzureRMAutomationSchedule Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx](New-AzureRMAutomationSchedule.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRMAutomationVariable](New-AzureRMAutomationVariable.md)
-{{Manually Enter New-AzureRMAutomationVariable Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx](New-AzureRMAutomationVariable.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRMAutomationWebhook](New-AzureRMAutomationWebhook.md)
-{{Manually Enter New-AzureRMAutomationWebhook Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxx](New-AzureRMAutomationWebhook.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Publish-AzureRMAutomationRunbook](Publish-AzureRMAutomationRunbook.md)
-{{Manually Enter Publish-AzureRMAutomationRunbook Description Here}}
+### [Xxxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx](Publish-AzureRMAutomationRunbook.md)
+$$Xxxxxxxx Xxxxx Xxxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Register-AzureRmAutomationDscNode](Register-AzureRmAutomationDscNode.md)
-{{Manually Enter Register-AzureRmAutomationDscNode Description Here}}
+### [Xxxxxxxx$XxxxxXxXxxxxxxxxxXxxXxxx](Register-AzureRmAutomationDscNode.md)
+$$Xxxxxxxx Xxxxx Xxxxxxxx$XxxxxXxXxxxxxxxxxXxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Register-AzureRMAutomationScheduledRunbook](Register-AzureRMAutomationScheduledRunbook.md)
-{{Manually Enter Register-AzureRMAutomationScheduledRunbook Description Here}}
+### [Xxxxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxXxxxxxx](Register-AzureRMAutomationScheduledRunbook.md)
+$$Xxxxxxxx Xxxxx Xxxxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRmAutomationAccount](Remove-AzureRmAutomationAccount.md)
-{{Manually Enter Remove-AzureRmAutomationAccount Description Here}}
+### [Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](Remove-AzureRmAutomationAccount.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRMAutomationCertificate](Remove-AzureRMAutomationCertificate.md)
-{{Manually Enter Remove-AzureRMAutomationCertificate Description Here}}
+### [Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxx](Remove-AzureRMAutomationCertificate.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRmAutomationConnectionType](Remove-AzureRmAutomationConnectionType.md)
-{{Manually Enter Remove-AzureRmAutomationConnectionType Description Here}}
+### [Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxXxxx](Remove-AzureRmAutomationConnectionType.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRMAutomationConnection](Remove-AzureRMAutomationConnection.md)
-{{Manually Enter Remove-AzureRMAutomationConnection Description Here}}
+### [Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx](Remove-AzureRMAutomationConnection.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRMAutomationCredential](Remove-AzureRMAutomationCredential.md)
-{{Manually Enter Remove-AzureRMAutomationCredential Description Here}}
+### [Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx](Remove-AzureRMAutomationCredential.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRmAutomationDscConfiguration](Remove-AzureRmAutomationDscConfiguration.md)
-{{Manually Enter Remove-AzureRmAutomationDscConfiguration Description Here}}
+### [Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](Remove-AzureRmAutomationDscConfiguration.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRmAutomationDscNodeConfiguration](Remove-AzureRmAutomationDscNodeConfiguration.md)
-{{Manually Enter Remove-AzureRmAutomationDscNodeConfiguration Description Here}}
+### [Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxxxxxxxx](Remove-AzureRmAutomationDscNodeConfiguration.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRmAutomationModule](Remove-AzureRmAutomationModule.md)
-{{Manually Enter Remove-AzureRmAutomationModule Description Here}}
+### [Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxx](Remove-AzureRmAutomationModule.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRMAutomationRunbook](Remove-AzureRMAutomationRunbook.md)
-{{Manually Enter Remove-AzureRMAutomationRunbook Description Here}}
+### [Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx](Remove-AzureRMAutomationRunbook.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRMAutomationSchedule](Remove-AzureRMAutomationSchedule.md)
-{{Manually Enter Remove-AzureRMAutomationSchedule Description Here}}
+### [Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxx](Remove-AzureRMAutomationSchedule.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRMAutomationVariable](Remove-AzureRMAutomationVariable.md)
-{{Manually Enter Remove-AzureRMAutomationVariable Description Here}}
+### [Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxx](Remove-AzureRMAutomationVariable.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureRMAutomationWebhook](Remove-AzureRMAutomationWebhook.md)
-{{Manually Enter Remove-AzureRMAutomationWebhook Description Here}}
+### [Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx](Remove-AzureRMAutomationWebhook.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Resume-AzureRMAutomationJob](Resume-AzureRMAutomationJob.md)
-{{Manually Enter Resume-AzureRMAutomationJob Description Here}}
+### [Xxxxxx$XxxxxXXXxxxxxxxxxXxx](Resume-AzureRMAutomationJob.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXXXxxxxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureRmAutomationAccount](Set-AzureRmAutomationAccount.md)
-{{Manually Enter Set-AzureRmAutomationAccount Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](Set-AzureRmAutomationAccount.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureRMAutomationCertificate](Set-AzureRMAutomationCertificate.md)
-{{Manually Enter Set-AzureRMAutomationCertificate Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxx](Set-AzureRMAutomationCertificate.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureRMAutomationConnectionFieldValue](Set-AzureRMAutomationConnectionFieldValue.md)
-{{Manually Enter Set-AzureRMAutomationConnectionFieldValue Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxXxxxxXxxxx](Set-AzureRMAutomationConnectionFieldValue.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxXxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureRMAutomationCredential](Set-AzureRMAutomationCredential.md)
-{{Manually Enter Set-AzureRMAutomationCredential Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx](Set-AzureRMAutomationCredential.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureRmAutomationDscNode](Set-AzureRmAutomationDscNode.md)
-{{Manually Enter Set-AzureRmAutomationDscNode Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxXxxx](Set-AzureRmAutomationDscNode.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureRmAutomationModule](Set-AzureRmAutomationModule.md)
-{{Manually Enter Set-AzureRmAutomationModule Description Here}}
+### [Xxx$XxxxxXxXxxxxxxxxxXxxxxx](Set-AzureRmAutomationModule.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxXxxxxxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureRMAutomationRunbook](Set-AzureRMAutomationRunbook.md)
-{{Manually Enter Set-AzureRMAutomationRunbook Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxx](Set-AzureRMAutomationRunbook.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureRMAutomationSchedule](Set-AzureRMAutomationSchedule.md)
-{{Manually Enter Set-AzureRMAutomationSchedule Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx](Set-AzureRMAutomationSchedule.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureRMAutomationVariable](Set-AzureRMAutomationVariable.md)
-{{Manually Enter Set-AzureRMAutomationVariable Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx](Set-AzureRMAutomationVariable.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureRMAutomationWebhook](Set-AzureRMAutomationWebhook.md)
-{{Manually Enter Set-AzureRMAutomationWebhook Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxXxxxxxx](Set-AzureRMAutomationWebhook.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Start-AzureRmAutomationDscCompilationJob](Start-AzureRmAutomationDscCompilationJob.md)
-{{Manually Enter Start-AzureRmAutomationDscCompilationJob Description Here}}
+### [Xxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxx](Start-AzureRmAutomationDscCompilationJob.md)
+$$Xxxxxxxx Xxxxx Xxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Start-AzureRMAutomationRunbook](Start-AzureRMAutomationRunbook.md)
-{{Manually Enter Start-AzureRMAutomationRunbook Description Here}}
+### [Xxxxx$XxxxxXXXxxxxxxxxxXxxxxxx](Start-AzureRMAutomationRunbook.md)
+$$Xxxxxxxx Xxxxx Xxxxx$XxxxxXXXxxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Stop-AzureRMAutomationJob](Stop-AzureRMAutomationJob.md)
-{{Manually Enter Stop-AzureRMAutomationJob Description Here}}
+### [Xxxx$XxxxxXXXxxxxxxxxxXxx](Stop-AzureRMAutomationJob.md)
+$$Xxxxxxxx Xxxxx Xxxx$XxxxxXXXxxxxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Suspend-AzureRMAutomationJob](Suspend-AzureRMAutomationJob.md)
-{{Manually Enter Suspend-AzureRMAutomationJob Description Here}}
+### [Xxxxxxx$XxxxxXXXxxxxxxxxxXxx](Suspend-AzureRMAutomationJob.md)
+$$Xxxxxxxx Xxxxx Xxxxxxx$XxxxxXXXxxxxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Unregister-AzureRmAutomationDscNode](Unregister-AzureRmAutomationDscNode.md)
-{{Manually Enter Unregister-AzureRmAutomationDscNode Description Here}}
+### [Xxxxxxxxxx$XxxxxXxXxxxxxxxxxXxxXxxx](Unregister-AzureRmAutomationDscNode.md)
+$$Xxxxxxxx Xxxxx Xxxxxxxxxx$XxxxxXxXxxxxxxxxxXxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Unregister-AzureRMAutomationScheduledRunbook](Unregister-AzureRMAutomationScheduledRunbook.md)
-{{Manually Enter Unregister-AzureRMAutomationScheduledRunbook Description Here}}
+### [Xxxxxxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxXxxxxxx](Unregister-AzureRMAutomationScheduledRunbook.md)
+$$Xxxxxxxx Xxxxx Xxxxxxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
 
