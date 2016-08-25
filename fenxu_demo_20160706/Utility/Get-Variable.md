@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293979
 schema: 2.0.0
 ---
 
-# Xxx$Xxxxxxxx
+# Get-Variable
 ## XXXXXXXX
 Xxxx xxx xxxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
@@ -56,7 +56,7 @@ Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxxx$Xxxxxx xxxxxx xx xxxx xxx xxxxxxxxx xxxx xxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Exclude
 Xxxxx xxx xxxxxxxxx xxxxx.
 Xxxxxxxxx xxx xxxxxxxxx.
 
@@ -72,7 +72,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Include
 Xxxxxxxxx xxxx xxx xxxxx xxxx xxxxx xxx xxxxxx xxxx xxx$ xxxxxxxxx xxx xxxxxx.
 Xxxxxxxxx xxx xxxxxxxxx.
 
@@ -88,7 +88,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -104,7 +104,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -119,7 +119,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx.
 Xxxxxxxxx xxx xxxxxxxxx.
 Xxx xxx xxxx xxxx x xxxxxxxx xxxx xx Xxx$Xxxxxxxx.
@@ -136,7 +136,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Scope
 Xxxx xxxx xxx xxxxxxxxx xx xxx xxxxxxxxx xxxxx.
 Xxxxx xxxxxx xxx $Xxxxxx$$ $Xxxxx$$ xx $Xxxxxx$$ xx x xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxx $0 xxxxxxx xxx xxxxxx xx xxxxxx$ xxxxx 0 xx xxx xxxxxxx xxxxx xxx 0 xx xxx xxxxxx$.
 $Xxxxx$ xx xxx xxxxxxx.
@@ -154,7 +154,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -ValueOnly
 Xxxx xxxx xxx xxxxx xx xxx xxxxxxxx.
 
 ```yaml
@@ -171,12 +171,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx xxx xxxxxxxx xxxx xx Xxx$Xxxxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxxxx
+### System.Management.Automation.PSVariable
 Xxx$Xxxxxxxx xxxxxxx x Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxx xxxxxxxx xxxx xx xxxx.
 Xxx xxxxxx xxxx xxxxxxx xx xxx xxxxxxxx.
 
@@ -186,11 +186,11 @@ Xx xxxxxx xxxxxxxxxxx xxxxxxxxx$ xxx xxx xxx xxx xxxxxxxxxxx xxxxxxxx xxxxxxxx.
 
 ## XXXXXXX XXXXX
 
-[Xxxxx$Xxxxxxxx]()
+[Clear-Variable]()
 
-[Xxx$Xxxxxxxx]()
+[New-Variable]()
 
-[Xxxxxx$Xxxxxxxx]()
+[Remove-Variable]()
 
-[Xxx$Xxxxxxxx]()
+[Set-Variable]()
 

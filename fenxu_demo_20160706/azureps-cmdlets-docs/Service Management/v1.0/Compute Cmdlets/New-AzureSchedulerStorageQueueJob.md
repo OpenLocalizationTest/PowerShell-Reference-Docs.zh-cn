@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureSchedulerStorageQueueJob
-## SYNOPSIS
-Creates a scheduler job that has a Storage action.
+## XXXXXXXX
+Xxxxxxx x xxxxxxxxx xxx xxxx xxx x Xxxxxxx xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -30,38 +30,38 @@ New-AzureSchedulerStorageQueueJob [-EndTime <DateTime>] [-ErrorActionHeaders <Ha
  [-StorageQueueMessage <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The New-AzureSchedulerStorageQueueJob cmdlet creates a scheduler job that has an Azure Storage action.
+Xxx Xxx$XxxxxXxxxxxxxxXxxxxxxXxxxxXxx xxxxxx xxxxxxx x xxxxxxxxx xxx xxxx xxx xx Xxxxx Xxxxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a Storage job that runs once
+### Xxxxxxx 0$ Xxxxxx x Xxxxxxx xxx xxxx xxxx xxxx
 ```
 PS C:\>New-AzureSchedulerStorageQueueJob -JobCollectionName "JobCollection01" -JobName "Job01" -Location "North Central US" -StorageQueueAccount "ContosoStorageAccount" -StorageQueueName "ContosoStorageQueue" -SASToken "?sv=2012-02-12&si=samplePolicy%2F30%2F2014%206%3A37%3A36%20PM&sig=vLQEbSfZbTFh7q3YrzlxBeL%2BjiYKp0gE6lMJ0a5Nb4M%3D"
 ```
 
-This command creates a scheduler Storage job as part of the collection named JobCollection01.
-The command specifies the Storage account, queue name, and SAS token.
-The job runs once, immediately.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxxx Xxxxxxx xxx xx xxxx xx xxx xxxxxxxxxx xxxxx XxxXxxxxxxxxx00.
+Xxx xxxxxxx xxxxxxxxx xxx Xxxxxxx xxxxxxx$ xxxxx xxxx$ xxx XXX xxxxx.
+Xxx xxx xxxx xxxx$ xxxxxxxxxxx.
 
-### Example 2: Create a Storage job that runs a specified number of times
+### Xxxxxxx 0$ Xxxxxx x Xxxxxxx xxx xxxx xxxx x xxxxxxxxx xxxxxx xx xxxxx
 ```
 PS C:\>New-AzureSchedulerStorageQueueJob -JobCollectionName "JobCollection01" -JobName "Job12" -Location "North Central US"-StorageQueueAccount "ContosoStorageAccount" -StorageQueueName "ContosoStorageQueue" -SASToken "?sv=2012-02-12&si=samplePolicy%2F30%2F2014%206%3A37%3A36%20PM&sig=vLQEbSfZbTFh7q3YrzlxBeL%2BjiYKp0gE6lMJ0a5Nb4M%3D" -ExecutionCount 20 -Frequency "Hour" -Interval 2
 ```
 
-This command creates a scheduler Storage job as part of the collection named JobCollection01.
-The command specifies the Storage account, queue name, and SAS token.
-The job runs 20 times in total, twice every hour.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxxx Xxxxxxx xxx xx xxxx xx xxx xxxxxxxxxx xxxxx XxxXxxxxxxxxx00.
+Xxx xxxxxxx xxxxxxxxx xxx Xxxxxxx xxxxxxx$ xxxxx xxxx$ xxx XXX xxxxx.
+Xxx xxx xxxx 00 xxxxx xx xxxxx$ xxxxx xxxxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -EndTime
-Specifies a time, as a DateTime object, for the scheduler to stop initiating the job.
-To obtain a DateTime object, use the Get-Date cmdlet.
-For more information, type Get-Help Get-Date.
+Xxxxxxxxx x xxxx$ xx x XxxxXxxx xxxxxx$ xxx xxx xxxxxxxxx xx xxxx xxxxxxxxxx xxx xxx.
+Xx xxxxxx x XxxxXxxx xxxxxx$ xxx xxx Xxx$Xxxx xxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxxx Xxx$Xxxx Xxx$Xxxx.
 
 ```yaml
 Type: DateTime
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionHeaders
-Specifies headers as a hash table.
+Xxxxxxxxx xxxxxxx xx x xxxx xxxxx.
 
 ```yaml
 Type: Hashtable
@@ -91,14 +91,10 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionMethod
-Specifies the method for HTTP and HTTPS action types.
-Valid values are: 
+Xxxxxxxxx xxx xxxxxx xxx XXXX xxx XXXXX xxxxxx xxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- GET
--- PUT
--- POST
--- HEAD
--- DELETE
+$$ XXX $$ XXX $$ XXXX $$ XXXX $$ XXXXXX
 
 ```yaml
 Type: String
@@ -113,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionQueueMessageBody
-Specifies the body for Storage job actions.
+Xxxxxxxxx xxx xxxx xxx Xxxxxxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -128,7 +124,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionRequestBody
-Specifies the body for PUT and POST job actions.
+Xxxxxxxxx xxx xxxx xxx XXX xxx XXXX xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -143,7 +139,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionSASToken
-Specifies the Shared Access Signature (SAS) token for the Storage queue.
+Xxxxxxxxx xxx Xxxxxx Xxxxxx Xxxxxxxxx $XXX$ xxxxx xxx xxx Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -158,7 +154,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionStorageAccount
-Specifies the name of the Storage account.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -173,7 +169,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionStorageQueue
-Specifies the name of the Storage queue.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -188,7 +184,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionURI
-Specifies the URI for the error job action.
+Xxxxxxxxx xxx XXX xxx xxx xxxxx xxx xxxxxx.
 
 ```yaml
 Type: Uri
@@ -203,8 +199,8 @@ Accept wildcard characters: False
 ```
 
 ### -ExecutionCount
-Specifies the number occurrences of a job that run.
-By default, a job recurs indefinitely.
+Xxxxxxxxx xxx xxxxxx xxxxxxxxxxx xx x xxx xxxx xxx.
+Xx xxxxxxx$ x xxx xxxxxx xxxxxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -219,7 +215,7 @@ Accept wildcard characters: False
 ```
 
 ### -Frequency
-Specifies the maximum frequency for this scheduler job.
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxx xxxxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -234,7 +230,7 @@ Accept wildcard characters: False
 ```
 
 ### -Interval
-Specifies the interval of recurrence at the frequency specified by using the Frequency parameter.
+Xxxxxxxxx xxx xxxxxxxx xx xxxxxxxxxx xx xxx xxxxxxxxx xxxxxxxxx xx xxxxx xxx Xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -249,7 +245,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobCollectionName
-Specifies the name of the collection to contain the scheduler job.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxx xx xxxxxxx xxx xxxxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -264,7 +260,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobName
-Specifies the name for the scheduler job.
+Xxxxxxxxx xxx xxxx xxx xxx xxxxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -279,7 +275,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobState
-Specifies the state for the scheduler job.
+Xxxxxxxxx xxx xxxxx xxx xxx xxxxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -294,20 +290,10 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the name of the location that hosts the cloud service.
-Valid values are: 
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxxx xxx xxxxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Anywhere Asia
--- Anywhere Europe
--- Anywhere US
--- East Asia
--- East US
--- North Central US
--- North Europe
--- South Central US
--- Southeast Asia
--- West Europe
--- West US
+$$ Xxxxxxxx Xxxx $$ Xxxxxxxx Xxxxxx $$ Xxxxxxxx XX $$ Xxxx Xxxx $$ Xxxx XX $$ Xxxxx Xxxxxxx XX $$ Xxxxx Xxxxxx $$ Xxxxx Xxxxxxx XX $$ Xxxxxxxxx Xxxx $$ Xxxx Xxxxxx $$ Xxxx XX
 
 ```yaml
 Type: String
@@ -322,7 +308,7 @@ Accept wildcard characters: False
 ```
 
 ### -SASToken
-Specifies the SAS token for the Storage queue.
+Xxxxxxxxx xxx XXX xxxxx xxx xxx Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -337,7 +323,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartTime
-Specifies a time, as a DateTime object, for the job to start.
+Xxxxxxxxx x xxxx$ xx x XxxxXxxx xxxxxx$ xxx xxx xxx xx xxxxx.
 
 ```yaml
 Type: DateTime
@@ -352,7 +338,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageQueueAccount
-Specifies the Storage account name.
+Xxxxxxxxx xxx Xxxxxxx xxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -367,7 +353,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageQueueMessage
-Specifies the queue message for Storage job.
+Xxxxxxxxx xxx xxxxx xxxxxxx xxx Xxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -382,7 +368,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageQueueName
-Specifies the name of the Storage queue.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -396,13 +382,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Set-AzureSchedulerStorageQueueJob](29c40d46-86c3-4f67-94f7-484371fdfba5)
 

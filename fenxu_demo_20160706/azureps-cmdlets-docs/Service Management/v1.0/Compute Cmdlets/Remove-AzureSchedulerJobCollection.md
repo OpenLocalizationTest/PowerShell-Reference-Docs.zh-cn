@@ -7,43 +7,43 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-AzureSchedulerJobCollection
-## SYNOPSIS
-Deletes a scheduler job collection.
+## XXXXXXXX
+Xxxxxxx x xxxxxxxxx xxx xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureSchedulerJobCollection [[-Location] <String>] [-JobCollectionName] <String> [-Force]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Remove-AzureSchedulerJobCollection cmdlet deletes a scheduler job collection and any jobs under that collection.
+Xxx Xxxxxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx xxxxxx xxxxxxx x xxxxxxxxx xxx xxxxxxxxxx xxx xxx xxxx xxxxx xxxx xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Delete a job collection for a location
+### Xxxxxxx 0$ Xxxxxx x xxx xxxxxxxxxx xxx x xxxxxxxx
 ```
 PS C:\>Remove-AzureSchedulerJobCollection -Location "North Central US" -JobCollectionName "JobCollection01"
 ```
 
-This command deletes the scheduler job collection named JobCollection01 in the North Central US location.
-The command also deletes the jobs under JobCollection01.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxx xxx xxxxxxxxxx xxxxx XxxXxxxxxxxxx00 xx xxx Xxxxx Xxxxxxx XX xxxxxxxx.
+Xxx xxxxxxx xxxx xxxxxxx xxx xxxx xxxxx XxxXxxxxxxxxx00.
 
-### Example 2: Delete a job location
+### Xxxxxxx 0$ Xxxxxx x xxx xxxxxxxx
 ```
 PS C:\>Remove-AzureSchedulerJobCollection -JobCollectionName "JobCollection02"
 ```
 
-This command deletes the scheduler job collection named JobCollection02.
-The command also deletes the jobs under JobCollection02.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxx xxx xxxxxxxxxx xxxxx XxxXxxxxxxxxx00.
+Xxx xxxxxxx xxxx xxxxxxx xxx xxxx xxxxx XxxXxxxxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Force
-Indicates that this cmdlet removes the scheduler job collection without prompting you for confirmation.
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxxxxxxxx xxx xxxxxxxxxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -58,7 +58,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobCollectionName
-Specifies the name of the scheduler job collection to delete.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -73,20 +73,10 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the name of the location that hosts the cloud service.
-Valid values are: 
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxxx xxx xxxxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Anywhere Asia
--- Anywhere Europe
--- Anywhere US
--- East Asia
--- East US
--- North Central US
--- North Europe
--- South Central US
--- Southeast Asia
--- West Europe
--- West US
+$$ Xxxxxxxx Xxxx $$ Xxxxxxxx Xxxxxx $$ Xxxxxxxx XX $$ Xxxx Xxxx $$ Xxxx XX $$ Xxxxx Xxxxxxx XX $$ Xxxxx Xxxxxx $$ Xxxxx Xxxxxxx XX $$ Xxxxxxxxx Xxxx $$ Xxxx Xxxxxx $$ Xxxx XX
 
 ```yaml
 Type: String
@@ -100,13 +90,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureSchedulerJobCollection](1f6e64a2-021e-4ad7-93a4-9e1138607f01)
 

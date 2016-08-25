@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XXXxxxXXXxxxxx
+# New-WAPackVMSubnet
 ## XXXXXXXX
 
 ## XXXXXX
@@ -35,7 +35,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 $$Xxxx$$
 
 ```yaml
@@ -50,7 +50,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Subnet
 $$Xxxx$$
 
 ```yaml
@@ -65,7 +65,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXxx
+### -VNet
 $$Xxxx$$
 
 ```yaml

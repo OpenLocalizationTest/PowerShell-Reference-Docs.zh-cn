@@ -6,20 +6,20 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxXXXXxxxx
+# New-AzureStorageFileSASToken
 ## XXXXXXXX
 Xxxxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxx x Xxxxxxx xxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 New-AzureStorageFileSASToken [-ShareName] <String> [-Path] <String> [-Context <AzureStorageContext>]
  [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>] [-Permission <String>]
  [-Protocol <Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]>] [-StartTime <DateTime]>]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 New-AzureStorageFileSASToken [-ShareName] <String> [-Path] <String> [-Context <AzureStorageContext>]
  [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>]
@@ -27,14 +27,14 @@ New-AzureStorageFileSASToken [-ShareName] <String> [-Path] <String> [-Context <A
  -Policy <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 New-AzureStorageFileSASToken [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>]
  [-Permission <String>] [-Protocol <Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]>]
  [-StartTime <DateTime]>] -File <CloudFile>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_4
 ```
 New-AzureStorageFileSASToken [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>]
  [-Protocol <Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]>] [-StartTime <DateTime]>]
@@ -72,7 +72,7 @@ Xxx xxxxx xxxxxxx xxxxx xxxxx xxxx xxxxxx xx $XxxXxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -100,7 +100,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -ExpiryTime
 Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
@@ -115,7 +115,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -File
 Xxxxxxxxx x $$XxxxxXxxx$$ xxxxxx.
 Xxx xxx xxxxxx x xxxxx xxxx xx xxxxxx xxx xx xxxxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
@@ -131,7 +131,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxx
+### -FullUri
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxx xxx xxxx xxxx XXX xxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxx.
 
 ```yaml
@@ -146,7 +146,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXXxxxxxxXxXxxxx
+### -IPAddressOrRange
 $$Xxxx$$
 
 ```yaml
@@ -161,7 +161,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxxxxx xx x Xxxxxxx xxxxx.
 
 ```yaml
@@ -188,7 +188,7 @@ Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxx
+### -Permission
 Xxxxxxxxx xxx xxxxxxxxxxx xxx x Xxxxxxx xxxx.
 
 ```yaml
@@ -203,7 +203,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Policy
 Xxxxxxxxx xxx xxxxxx xxxxxx xxxxxx xxx x xxxx.
 
 ```yaml
@@ -218,7 +218,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Protocol
 $$Xxxx$$
 
 ```yaml
@@ -233,7 +233,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -ShareName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxx xxxxx.
 
 ```yaml
@@ -260,7 +260,7 @@ Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -StartTime
 Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxx.
 
 ```yaml
@@ -283,8 +283,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx](07c8ad4e-7a32-4407-9120-1432126b7376)
+[New-AzureStorageShareSASToken](07c8ad4e-7a32-4407-9120-1432126b7376)
 
 

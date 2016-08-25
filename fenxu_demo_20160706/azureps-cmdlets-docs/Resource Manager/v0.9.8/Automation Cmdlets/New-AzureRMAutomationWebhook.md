@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxxxxxx
+# New-AzureRMAutomationWebhook
 ## XXXXXXXX
 Xxxxxxx x xxxxxxx xxx xx Xxxxxxxxxx xxxxxxx.
 
@@ -51,7 +51,7 @@ Xxx xxxxxxx xxxxxxx xxx xxxxxxxxxx xx $Xxxxxx xx xxx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
@@ -66,7 +66,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -ExpiryTime
 Xxxxxxxxx xxx xxxxxx xxxx xxx xxx xxxxxxx xx x $$XxxxXxxxXxxxxx$$ xxxxxx.
 Xxx xxx xxxxxxx x xxxxxx xx x $$XxxxXxxx$$ xxxx xxx xx xxxxxxxxx xx x xxxxx $$XxxxXxxxXxxxxx$$.
 
@@ -82,7 +82,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 xx$xxxxx
 
 ```yaml
@@ -97,7 +97,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxXxxxxxx
+### -IsEnabled
 Xxxxxxxxx xxxxxxx xxx xxxxxxx xx xxxxxxx.
 
 ```yaml
@@ -112,7 +112,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx xxxxxxx.
 
 ```yaml
@@ -127,7 +127,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxx
+### -Parameters
 Xxxxxxxxx x xxxxxxxxxx xx xxx$xxxxx xxxxx.
 Xxx xxxx xxx xxx xxxxxxx xxxxxxxxx xxxxx.
 Xxx xxxxxx xxx xxx xxxxxxx xxxxxxxxx xxxxxx.
@@ -145,7 +145,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
@@ -160,7 +160,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -RunbookName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xx xxxxxxxxx xx xxx xxxxxxx.
 
 ```yaml
@@ -175,7 +175,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -190,7 +190,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -213,10 +213,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](048bf33a-0bc1-4433-92e0-bd906f6edb8d)
+[Get-AzureRmAutomationWebhook](048bf33a-0bc1-4433-92e0-bd906f6edb8d)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](8dadbd54-8df1-4b9e-b853-97893e3ad73a)
+[Remove-AzureRmAutomationWebhook](8dadbd54-8df1-4b9e-b853-97893e3ad73a)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](b2f5cd9e-5886-4ccc-89ea-9e66e5c67818)
+[Set-AzureRmAutomationWebhook](b2f5cd9e-5886-4ccc-89ea-9e66e5c67818)
 
 

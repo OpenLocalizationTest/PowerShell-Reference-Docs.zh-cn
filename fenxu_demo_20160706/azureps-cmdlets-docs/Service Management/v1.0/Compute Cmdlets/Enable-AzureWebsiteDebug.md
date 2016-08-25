@@ -7,31 +7,31 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Enable-AzureWebsiteDebug
-## SYNOPSIS
-Enables the website's debug
+## XXXXXXXX
+Xxxxxxx xxx xxxxxxx$x xxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 Enable-AzureWebsiteDebug [[-Name] <String>] [-PassThru] [-Slot <String>] [-Version]
 ```
 
-## DESCRIPTION
-Enables the website's debug feature in Visual Studio
+## XXXXXXXXXXX
+Xxxxxxx xxx xxxxxxx$x xxxxx xxxxxxx xx Xxxxxx Xxxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Enable debugging of Visual Studio 2013 --------------
+### $$$$$$$$$$$$$$  Xxxxxx xxxxxxxxx xx Xxxxxx Xxxxxx 0000 $$$$$$$$$$$$$$
 ```
 C:\PS>Enable-AzureWebsiteDebug -Name MyWebsite -Version VS2013
 ```
 
-Enables debugging on VS 2013
+Xxxxxxx xxxxxxxxx xx XX 0000
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-The name of the Azure website
+Xxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -46,7 +46,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Flag to return true if succeeded
+Xxxx xx xxxxxx xxxx xx xxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-The slot name of the Azure website
+Xxx xxxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -Version
-The Visual Studio version
+Xxx Xxxxxx Xxxxxx xxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -91,13 +91,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Disable-AzureWebsiteDebug](007cc1d1-12ff-4ef0-a480-39b958aff004)
 

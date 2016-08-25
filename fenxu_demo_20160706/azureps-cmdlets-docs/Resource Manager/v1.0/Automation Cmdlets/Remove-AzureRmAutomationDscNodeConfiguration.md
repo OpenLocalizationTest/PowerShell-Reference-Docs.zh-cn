@@ -7,31 +7,31 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-AzureRmAutomationDscNodeConfiguration
-## SYNOPSIS
-Removes metadata from DSC node configurations in Automation.
+## XXXXXXXX
+Xxxxxxx xxxxxxxx xxxx XXX xxxx xxxxxxxxxxxxxx xx Xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureRmAutomationDscNodeConfiguration [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-Force] [-IgnoreNodeMappings] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureRmAutomationDscNodeConfiguration** cmdlet removes metadata from APS Desired State Configuration (DSC) node configurations in azure_2 Automation.
-Automation stores DSC node configuration as a Managed Object Format (MOF) configuration document.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxxxxxxxx$$ xxxxxx xxxxxxx xxxxxxxx xxxx XXX Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxx xxxxxxxxxxxxxx xx xxxxx$0 Xxxxxxxxxx.
+Xxxxxxxxxx xxxxxx XXX xxxx xxxxxxxxxxxxx xx x Xxxxxxx Xxxxxx Xxxxxx $XXX$ xxxxxxxxxxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of an Automation account that contains the DSC node configurations for which this cmdlet removes metadata.
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxxx xxxxxxxx xxx XXX xxxx xxxxxxxxxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -46,7 +46,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-ps_force
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -IgnoreNodeMappings
-Indicates that this cmdlet ignores node mappings.
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the DSC node configuration for which this cmdlet removes metadata.
+Xxxxxxxxx xxx xxxx xx xxx XXX xxxx xxxxxxxxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -91,8 +91,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group.
-This cmdlet removes metadata for DSC node configurations in the resource group that this parameter specifies.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx.
+Xxxx xxxxxx xxxxxxx xxxxxxxx xxx XXX xxxx xxxxxxxxxxxxxx xx xxx xxxxxxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -107,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -122,7 +122,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -136,13 +136,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationDscNodeConfiguration](16207dee-029f-4659-ab6f-f636f869b82b)
 

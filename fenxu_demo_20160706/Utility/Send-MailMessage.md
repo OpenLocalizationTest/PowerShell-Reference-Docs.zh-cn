@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294010
 schema: 2.0.0
 ---
 
-# Xxxx$XxxxXxxxxxx
+# Send-MailMessage
 ## XXXXXXXX
 Xxxxx xx x$xxxx xxxxxxx.
 
@@ -53,7 +53,7 @@ Xxx xxxxxxx xxxx xxx xxxxxxxxxxx xx x xxxxxx xxxxxxxxxxxxx xxx xxx XxxXXX xxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxxxx
+### -Attachments
 Xxxxxxxxx xxx xxxx xxx xxxx xxxxx xx xxxxx xx xx xxxxxxxx xx xxx x$xxxx xxxxxxx.
 Xxx xxx xxx xxxx xxxxxxxxx xx xxxx xxx xxxxx xxx xxxx xxxxx xx Xxxx$XxxxXxxxxxx.
 
@@ -69,7 +69,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxx
+### -Bcc
 Xxxxxxxxx xxx x$xxxx xxxxxxxxx xxxx xxxxxxx x xxxx xx xxx xxxx xxx xxx xxx xxxxxx xx xxxxxxxxxx xx xxx xxxxxxx.
 Xxxxx xxxxx $xxxxxxxx$ xxx xxx x$xxxx xxxxxxx$ xxxx xx $Xxxx $$xxxxxxx$xxxxxxx.xxx$$$.
 
@@ -85,7 +85,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Body
 Xxxxxxxxx xxx xxxx $xxxxxxx$ xx xxx x$xxxx xxxxxxx.
 
 ```yaml
@@ -100,7 +100,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxXxxx
+### -BodyAsHtml
 Xxxxxxxxx xxxx xxx xxxxx xx xxx Xxxx xxxxxxxxx xxxxxxxx XXXX.
 
 ```yaml
@@ -115,7 +115,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xx
+### -Cc
 Xxxxxxxxx xxx x$xxxx xxxxxxxxx xx xxxxx x xxxxxx xxxx $XX$ xx xxx x$xxxx xxxxxxx xx xxxx.
 Xxxxx xxxxx $xxxxxxxx$ xxx xxx x$xxxx xxxxxxx$ xxxx xx $Xxxx $$xxxxxxx$xxxxxxx.xxx$$$.
 
@@ -131,7 +131,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxx
+### -Credential
 Xxxxxxxxx x xxxx xxxxxxx xxxx xxx xxxxxxxxxx xx xxxxxxx xxxx xxxxxx.
 Xxx xxxxxxx xx xxx xxxxxxx xxxx.
 
@@ -150,7 +150,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxxxxxxxxXxxxxx
+### -DeliveryNotificationOption
 Xxxxxxxxx xxx xxxxxxxx xxxxxxxxxxxx xxxxxxx xxx xxx x$xxxx xxxxxxx.
 Xxx xxx xxxxxxx xxxxxxxx xxxxxx.
 $Xxxx$ xx xxx xxxxxxx xxxxx. Xxx xxxxx xxx xxxx xxxxxxxxx xx $xxx$.
@@ -178,7 +178,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Encoding
 Xxxxxxxxx xxx xxxxxxxx xxxx xxx xxx xxxx xxx xxxxxxx.
 Xxxxx xxxxxx xxx XXXXX$ XXX0$ XXX0$ XXX00$ Xxxxxxx$ XxxXxxxxxXxxxxxx$ Xxxxxxx$ xxx XXX.
 XXXXX xx xxx xxxxxxx.
@@ -195,7 +195,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -From
 Xxxxxxxxx xxx xxxxxxx xxxx xxxxx xxx xxxx xx xxxx.
 Xxxxx x xxxx $xxxxxxxx$ xxx x$xxxx xxxxxxx$ xxxx xx $Xxxx $$xxxxxxx$xxxxxxx.xxx$$$.
 Xxxx xxxxxxxxx xx xxxxxxxx.
@@ -212,7 +212,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -228,7 +228,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -243,7 +243,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Port
 Xxxxxxxxx xx xxxxxxxxx xxxx xx xxx XXXX xxxxxx.
 Xxx xxxxxxx xxxxx xx 00$ xxxxx xx xxx xxxxxxx XXXX xxxx.
 Xxxx xxxxxxxxx xx xxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0 xxx xxxxx xxxxxxxx.
@@ -260,7 +260,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Priority
 Xxxxxxxxx xxx xxxxxxxx xx xxx x$xxxx xxxxxxx.
 Xxx xxxxx xxxxxx xxx xxxx xxx Xxxxxx$ Xxxx$ xxx Xxx.
 Xxxxxx xx xxx xxxxxxx.
@@ -278,7 +278,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxx
+### -SmtpServer
 Xxxxxxxxx xxx xxxx xx xxx XXXX xxxxxx xxxx xxxxx xxx x$xxxx xxxxxxx.
 
 Xxx xxxxxxx xxxxx xx xxx xxxxx xx xxx $XXXxxxxXxxxxx xxxxxxxxxx xxxxxxxx.
@@ -296,7 +296,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Subject
 Xxxxxxxxx xxx xxxxxxx xx xxx x$xxxx xxxxxxx.
 Xxxx xxxxxxxxx xx xxxxxxxx.
 
@@ -312,7 +312,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xx
+### -To
 Xxxxxxxxx xxx xxxxxxxxx xx xxxxx xxx xxxx xx xxxx.
 Xxxxx xxxxx $xxxxxxxx$ xxx xxx x$xxxx xxxxxxx$ xxxx xx $Xxxx $$xxxxxxx$xxxxxxx.xxx$$$.
 Xxxx xxxxxxxxx xx xxxxxxxx.
@@ -329,7 +329,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxx
+### -UseSsl
 Xxxx xxx Xxxxxx Xxxxxxx Xxxxx $XXX$ xxxxxxxx xx xxxxxxxxx x xxxxxxxxxx xx xxx xxxxxx xxxxxxxx xx xxxx xxxx.
 Xx xxxxxxx$ XXX xx xxx xxxx.
 
@@ -347,12 +347,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx xxx xxxx xxx xxxx xxxxx xx xxxxxxxxxxx xx Xxxx$XxxxXxxxxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ## XXXXX

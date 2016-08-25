@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx
+# Set-AzureRMAutomationSchedule
 ## XXXXXXXX
 Xxxxxxxx xx Xxxxxxxxxx xxxxxxxx.
 
@@ -31,7 +31,7 @@ Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxxxxx xxxxx Xxxxxxxx00.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxxx.
 
 ```yaml
@@ -46,7 +46,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Description
 Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxx.
 
 ```yaml
@@ -61,7 +61,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxXxxxxxx
+### -IsEnabled
 Xxxxxxxxx xxxxxxx xxxx xxxxxx xxxxxxx xxx xxxxxxxx.
 
 ```yaml
@@ -76,7 +76,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xxx xxx xxxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
@@ -91,7 +91,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxxx.
 
 ```yaml
@@ -110,16 +110,16 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.Xxxxxxxx
+### Microsoft.Azure.Commands.Automation.Model.Schedule
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](73a4a9ba-477c-41e6-9193-2be97182e07d)
+[Get-AzureRmAutomationSchedule](73a4a9ba-477c-41e6-9193-2be97182e07d)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](36c11dd3-5843-49d2-8baa-9f5aa737d345)
+[New-AzureRmAutomationSchedule](36c11dd3-5843-49d2-8baa-9f5aa737d345)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxx](633c3e61-0da0-4a01-897b-e81c6e571196)
+[Remove-AzureRmAutomationSchedule](633c3e61-0da0-4a01-897b-e81c6e571196)
 
 

@@ -7,32 +7,32 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureRMAutomationSchedule
-## SYNOPSIS
-Modifies an Automation schedule.
+## XXXXXXXX
+Xxxxxxxx xx Xxxxxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureRMAutomationSchedule [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  [-Description <String>] [-IsEnabled <Boolean]>]
 ```
 
-## DESCRIPTION
-The **Set-AzureRmAutomationSchedule** cmdlet modifies a schedule in azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx$$ xxxxxx xxxxxxxx x xxxxxxxx xx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Modify a schedule
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxx
 ```
 PS C:\>Set-AzureRmAutomationSchedule -AutomationAccountName "Contoso17" -Name "Schedule01" -Description "Automation Schedule" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command modifies the description of the schedule named Schedule01.
+Xxxx xxxxxxx xxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxxxxx xxxxx Xxxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of an Automation account for which this cmdlet modifies a schedule.
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxxx.
 
 ```yaml
 Type: String
@@ -47,7 +47,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-Specifies a description for the schedule.
+Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -IsEnabled
-Specifies whether this cmdlet enables the schedule.
+Xxxxxxxxx xxxxxxx xxxx xxxxxx xxxxxxx xxx xxxxxxxx.
 
 ```yaml
 Type: Boolean]
@@ -77,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name for the schedule that this cmdlet modifies.
+Xxxxxxxxx xxx xxxx xxx xxx xxxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -92,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet modifies a schedule.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxxx.
 
 ```yaml
 Type: String
@@ -106,15 +106,15 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
 ### Microsoft.Azure.Commands.Automation.Model.Schedule
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationSchedule](73a4a9ba-477c-41e6-9193-2be97182e07d)
 

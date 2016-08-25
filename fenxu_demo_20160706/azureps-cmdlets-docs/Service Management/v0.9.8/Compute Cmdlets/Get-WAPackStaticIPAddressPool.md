@@ -6,17 +6,17 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XXXxxxXxxxxxXXXxxxxxxXxxx
+# Get-WAPackStaticIPAddressPool
 ## XXXXXXXX
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-WAPackStaticIPAddressPool [-VMSubnet] <VMSubnet>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-WAPackStaticIPAddressPool [-VMSubnet] <VMSubnet> [-Name] <String>
 ```
@@ -41,7 +41,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 $$Xxxx$$
 
 ```yaml
@@ -56,7 +56,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXXxxxxx
+### -VMSubnet
 $$Xxxx$$
 
 ```yaml

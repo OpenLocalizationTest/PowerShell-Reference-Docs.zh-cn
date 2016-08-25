@@ -7,32 +7,32 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureMediaServicesKey
-## SYNOPSIS
-Updates Azure Media Services account keys.
+## XXXXXXXX
+Xxxxxxx Xxxxx Xxxxx Xxxxxxxx xxxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureMediaServicesKey [-Name] <String> [-KeyType] [-Force] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The New-AzureMediaServicesKey cmdlet updates the Primary or Secondary key for the specified Media Services account.
+Xxx Xxx$XxxxxXxxxxXxxxxxxxXxx xxxxxx xxxxxxx xxx Xxxxxxx xx Xxxxxxxxx xxx xxx xxx xxxxxxxxx Xxxxx Xxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Update a Media Services account key
+### 0$ Xxxxxx x Xxxxx Xxxxxxxx xxxxxxx xxx
 ```
 PS C:\> New-AzureMediaServicesKey -Name "mediaservicesaccount" -KeyType "Primary" -Force
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Force
-If the â€"Force switch is specified, the key generation is not confirmed.
+Xx xxx $$$Xxxxx xxxxxx xx xxxxxxxxx$ xxx xxx xxxxxxxxxx xx xxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -47,7 +47,7 @@ Accept wildcard characters: False
 ```
 
 ### -KeyType
-The Media Services key type \<Primary|Secondary\>.
+Xxx Xxxxx Xxxxxxxx xxx xxxx $$Xxxxxxx$Xxxxxxxxx$$.
 
 ```yaml
 Type: SwitchParameter
@@ -63,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the Media Services account.
+Xxx xxxx xx xxx Xxxxx Xxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -93,9 +93,9 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -109,13 +109,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [How to use Azure PowerShell for Media Services](http://go.microsoft.com/fwlink/?LinkId=324179)
 

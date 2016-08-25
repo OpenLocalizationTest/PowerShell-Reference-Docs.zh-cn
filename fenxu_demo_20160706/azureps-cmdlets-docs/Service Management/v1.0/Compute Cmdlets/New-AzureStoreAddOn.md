@@ -7,42 +7,42 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureStoreAddOn
-## SYNOPSIS
-Buys a new add-on instance.
+## XXXXXXXX
+Xxxx x xxx xxx$xx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureStoreAddOn [-Name] <String> [-AddOn] <String> [-Plan] <String> [-Location] <String>
  [[-PromotionCode] <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-Buys a new add-on instance from the Azure Store.
+Xxxx x xxx xxx$xx xxxxxxxx xxxx xxx Xxxxx Xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 PS C:\>New-AzureStoreAddOn MyAddOn AddonId PlanId "West US"
 ```
 
-This example buys an add-on named MyAddOn with a PlanId in West US location.
+Xxxx xxxxxxx xxxx xx xxx$xx xxxxx XxXxxXx xxxx x XxxxXx xx Xxxx XX xxxxxxxx.
 
-### Example 2
+### Xxxxxxx 0
 ```
 PS C:\>New-AzureStoreAddOn MyAddOn AddonId PlanId "West US" MyPromoCode
 ```
 
-This example uses a promotional code to buy an add-on.
+Xxxx xxxxxxx xxxx x xxxxxxxxxxx xxxx xx xxx xx xxx$xx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AddOn
-Specifies the add-on ID.
+Xxxxxxxxx xxx xxx$xx XX.
 
 ```yaml
 Type: String
@@ -57,7 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the add-on instance location.
+Xxxxxxxxx xxx xxx$xx xxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -72,7 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the add-on instance.
+Xxxxxxxxx xxx xxxx xx xxx xxx$xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -87,7 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -Plan
-Specifies the plan ID.
+Xxxxxxxxx xxx xxxx XX.
 
 ```yaml
 Type: String
@@ -102,7 +102,7 @@ Accept wildcard characters: False
 ```
 
 ### -PromotionCode
-Specifies a promotion code to apply to the purchase.
+Xxxxxxxxx x xxxxxxxxx xxxx xx xxxxx xx xxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -116,13 +116,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureStoreAddOn](ceb557b5-e9af-4797-8385-94078de84662)
 

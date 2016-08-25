@@ -6,19 +6,19 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxxx$XxxxxXxxxxxxXxxxxxx
+# Publish-AzureWebsiteProject
 ## XXXXXXXX
 Xxxxxxx x Xxxxxx Xxxxxx xxx xxxxxxx xx x Xxxxxxxxx Xxxxx xxx xxxx xxxxx XxxXxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Publish-AzureWebsiteProject [[-Name] <String>] [-ProjectFile] <String> [[-Configuration] <String>]
  [[-ConnectionString] <Hashtable>] [-Slot <String>]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Publish-AzureWebsiteProject [[-Name] <String>] [-Package] <String> [[-ConnectionString] <Hashtable>]
  [-Slot <String>]
@@ -89,7 +89,7 @@ Xxxxxx xxxx $XxxxxxxXxxxxxxxxx xx x xxxxxxx xxxxxxxxx xxxxx xxxx xxxxx xx xxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxxxxxx
+### -Configuration
 Xxx xxxxxxxxxxxxx xxxx xx xxxxx xxx Xxxxxx Xxxxxx xxx xxxxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -104,7 +104,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxxx
+### -ConnectionString
 Xxx xxxxxxxxxx xxxxxxx xx xxx xxx xxx xxxxxxxxxx.
 
 ```yaml
@@ -119,7 +119,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxx xxx xxxx xxxx.
 
 ```yaml
@@ -134,7 +134,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Package
 Xxx XxxXxxxxx xxxxxxx xxxxxx xxx xxx xxxx xx xxx Xxxxxx Xxxxxx xxx xxxxxxxxxxx xxxxxxx xx xx xxxxxxxxx.
 
 ```yaml
@@ -149,7 +149,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -ProjectFile
 Xxx Xxxxxx Xxxxxx xxx xxxxxxxxxxx xxxxxxx xx xx xxxxxxxxx.
 
 ```yaml
@@ -164,7 +164,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxx xxx xxxx xxxx xxxx.
 
 ```yaml
@@ -187,12 +187,12 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
-[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
+[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
 
-[Xxxxxx$XxxxxXxxxxxx](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
+[Remove-AzureWebsite](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
 
-[Xxx$XxxxxXxxxxxx](7b386051-005d-499d-a106-1eb34d5c9f47)
+[Set-AzureWebsite](7b386051-005d-499d-a106-1eb34d5c9f47)
 
 

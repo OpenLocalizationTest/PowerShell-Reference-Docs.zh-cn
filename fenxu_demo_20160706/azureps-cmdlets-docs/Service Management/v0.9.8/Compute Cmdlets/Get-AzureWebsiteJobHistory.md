@@ -6,23 +6,23 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxXxxxxxx
+# Get-AzureWebsiteJobHistory
 ## XXXXXXXX
 Xxxx x xxx xxx xxxxxxx
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureWebsiteJobHistory [[-Name] <String>] [-Slot <String>] -JobName <String> [-Latest]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureWebsiteJobHistory [[-Name] <String>] [-Slot <String>] -JobName <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 Get-AzureWebsiteJobHistory [[-Name] <String>] [-Slot <String>] -JobName <String> -RunId <String>
 ```
@@ -55,7 +55,7 @@ Xxxx xxx xxxx xxxxx xxx xxxx xx 00 xxx XxXxxXxx
 
 ## XXXXXXXXXX
 
-### $XxxXxxx
+### -JobName
 Xxx xxx xxx xxxx
 
 ```yaml
@@ -70,7 +70,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Latest
 Xx xxxxxxxxx$ xxxxxx xxx xxxxxx xxx xxxxxxx.
 
 ```yaml
@@ -85,7 +85,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
@@ -100,7 +100,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXx
+### -RunId
 Xxx xx xx xxx xxx xxxxxxx xxx xxxx xx xxx
 
 ```yaml
@@ -115,7 +115,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxx xxxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
@@ -138,14 +138,14 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
-[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
+[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
 
-[Xxx$XxxxxXxxxxxxXxx](5ef76b84-385f-419e-8aba-228d53ce2232)
+[Get-AzureWebsiteJob](5ef76b84-385f-419e-8aba-228d53ce2232)
 
-[Xxx$XxxxxXxxxxxxXxx](89c77daa-24fd-4b27-b624-3486fe642722)
+[New-AzureWebsiteJob](89c77daa-24fd-4b27-b624-3486fe642722)
 
-[Xxxxxx$XxxxxXxxxxxxXxx](e25091a2-2472-4674-978c-ec1522631bc1)
+[Remove-AzureWebsiteJob](e25091a2-2472-4674-978c-ec1522631bc1)
 
 

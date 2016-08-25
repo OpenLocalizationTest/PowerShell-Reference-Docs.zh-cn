@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxx
+# New-AzureStorageTable
 ## XXXXXXXX
 Xxxxxxx x xxxxxxx xxxxx.
 
@@ -38,7 +38,7 @@ Xx xxxx xxx $$Xxxxx$$ xxxxxx xx xxx .XXX $$Xxxxxx$$ xxxxx xxx xxxx xxxxxx xxx xx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xxx xxxxxxx xxxxxxx.
 Xx xxxxxx xx$ xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -54,7 +54,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx xxx xxxxx.
 
 ```yaml
@@ -77,8 +77,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxx](5e8a9e67-ad04-4430-b057-a63cfb99585e)
+[Get-AzureStorageTable](5e8a9e67-ad04-4430-b057-a63cfb99585e)
 
-[Xxxxxx$XxxxxXxxxxxxXxxxx](f287198d-609e-4ac1-9221-9ce5453a732e)
+[Remove-AzureStorageTable](f287198d-609e-4ac1-9221-9ce5453a732e)
 
 

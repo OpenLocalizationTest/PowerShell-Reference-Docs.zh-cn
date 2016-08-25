@@ -7,31 +7,31 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-AzureWebsiteJob
-## SYNOPSIS
-Removes an existing web job for a website
+## XXXXXXXX
+Xxxxxxx xx xxxxxxxx xxx xxx xxx x xxxxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureWebsiteJob [[-Name] <String>] [-Force] [-Slot <String>] -JobName <String> [-JobType]
 ```
 
-## DESCRIPTION
-Removes an existing web job for a website
+## XXXXXXXXXXX
+Xxxxxxx xx xxxxxxxx xxx xxx xxx x xxxxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Remove an existing web job for a website --------------
+### $$$$$$$$$$$$$$  Xxxxxx xx xxxxxxxx xxx xxx xxx x xxxxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Remove-AzureWebsiteJob -Name MyWebsite -JobName MyWebJob -JobType Continuous
 ```
 
-Removes a web job called MyWebJob for MyWebSite
+Xxxxxxx x xxx xxx xxxxxx XxXxxXxx xxx XxXxxXxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Force
-Indicates that this cmdlet removes the web job without prompting you for confirmation.
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxx xxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -46,7 +46,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobName
-The web job name
+Xxx xxx xxx xxxx
 
 ```yaml
 Type: String
@@ -61,8 +61,8 @@ Accept wildcard characters: False
 ```
 
 ### -JobType
-The web job type.
-Can be 'triggered' or 'continuous'
+Xxx xxx xxx xxxx.
+Xxx xx $xxxxxxxxx$ xx $xxxxxxxxxx$
 
 ```yaml
 Type: SwitchParameter
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the Azure website
+Xxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-The slot name of the Azure website
+Xxx xxxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -107,13 +107,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Remove-AzureWebsite](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
 

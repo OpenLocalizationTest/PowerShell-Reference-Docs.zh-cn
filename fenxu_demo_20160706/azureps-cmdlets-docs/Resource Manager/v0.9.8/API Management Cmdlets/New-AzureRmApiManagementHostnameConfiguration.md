@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx
+# New-AzureRmApiManagementHostnameConfiguration
 ## XXXXXXXX
 Xxxxxxx xx xxxxxxxx xx XxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx.
 
@@ -31,7 +31,7 @@ Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxxxx xx xxxxxxxx xx $$XxXxxXxxxxxxxxxXxxxxxxxXxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxxxxxx
+### -CertificateThumbprint
 Xxxxxxxxx xxx xxxxxxxxxxx xxxxxxxxxx.
 Xxx xxxxxxxxxxx xxxx xx xxxxx xxxxxxxx xxxx xxx Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxx xxxxxx.
 
@@ -47,7 +47,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Hostname
 Xxxxxxxxx xxx xxxxxx xxxx xxxx xxx xxxxx xxxx xxxxxx xxxxxxx xxx $$XxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx$$ xxxxxxxx.
 
 ```yaml
@@ -70,8 +70,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxx](2a7ef835-586c-4e86-a243-3cc0e9623d71)
+[Import-AzureRmApiManagementHostnameCertificate](2a7ef835-586c-4e86-a243-3cc0e9623d71)
 
-[Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxx](dd997f04-b85b-409c-8c69-a5e659c768e3)
+[Set-AzureRmApiManagementHostnames](dd997f04-b85b-409c-8c69-a5e659c768e3)
 
 

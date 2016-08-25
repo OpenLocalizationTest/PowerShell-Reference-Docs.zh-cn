@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxx
+# New-AzureSBNamespace
 ## XXXXXXXX
 Xxxxxxx x xxxxxxxxx.
 
@@ -35,7 +35,7 @@ Xxx xxxxxx xxxxxxx xxx xx xxxx xxxxxxx xxxx xxxxxxxxxx xxx xxxxxxxxxx xxx xxxxx 
 
 ## XXXXXXXXXX
 
-### $XxxxxxXXXXxxxxxxxx
+### -CreateACSNamespace
 Xxxxxxxxx xxxxxxx xx xxxxxx xx xxxxxxxxxx XXX xxxxxxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
 ```yaml
@@ -50,7 +50,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Location
 Xxxxxxxxx x xxxxxx xxx xxx xxx xxxxxxxxx.
 
 ```yaml
@@ -65,7 +65,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx xxx xxxxxxxxx.
 
 ```yaml
@@ -80,7 +80,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxXxxx
+### -NamespaceType
 Xxxxxxx x xxxxxxx xx xxx xxx xxxxxxxxx xxx Xxxxxxxxx xx Xxxxxxxxxxxx Xxxx.
 
 ```yaml
@@ -104,6 +104,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXXXxxxxxxxx](d8478eeb-c378-4806-87e2-ca5732900c4f)
+[Remove-AzureSBNamespace](d8478eeb-c378-4806-87e2-ca5732900c4f)
 
 

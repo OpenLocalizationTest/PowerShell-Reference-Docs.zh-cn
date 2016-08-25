@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxxxxxxXxx
+# Remove-AzureWebsiteJob
 ## XXXXXXXX
 Xxxxxxx xx xxxxxxxx xxx xxx xxx x xxxxxxx
 
@@ -30,7 +30,7 @@ Xxxxxxx x xxx xxx xxxxxx XxXxxXxx xxx XxXxxXxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxx xxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxxxxxxx.
 
 ```yaml
@@ -45,7 +45,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -JobName
 Xxx xxx xxx xxxx
 
 ```yaml
@@ -60,7 +60,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -JobType
 Xxx xxx xxx xxxx.
 Xxx xx $xxxxxxxxx$ xx $xxxxxxxxxx$
 
@@ -77,7 +77,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
@@ -92,7 +92,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxx xxxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
@@ -115,14 +115,14 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxxxxxx](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
+[Remove-AzureWebsite](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
 
-[Xxx$XxxxxXxxxxxxXxx](5ef76b84-385f-419e-8aba-228d53ce2232)
+[Get-AzureWebsiteJob](5ef76b84-385f-419e-8aba-228d53ce2232)
 
-[Xxx$XxxxxXxxxxxxXxx](89c77daa-24fd-4b27-b624-3486fe642722)
+[New-AzureWebsiteJob](89c77daa-24fd-4b27-b624-3486fe642722)
 
-[Xxxxx$XxxxxXxxxxxxXxx](33bc54a9-76a7-45cd-92d5-662e16354fa3)
+[Start-AzureWebsiteJob](33bc54a9-76a7-45cd-92d5-662e16354fa3)
 
-[Xxxx$XxxxxXxxxxxxXxx](9698753f-0bfc-4845-b74e-6c6bed38a430)
+[Stop-AzureWebsiteJob](9698753f-0bfc-4845-b74e-6c6bed38a430)
 
 

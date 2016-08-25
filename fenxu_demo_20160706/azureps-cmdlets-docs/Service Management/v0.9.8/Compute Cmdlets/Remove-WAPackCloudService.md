@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XXXxxxXxxxxXxxxxxx
+# Remove-WAPackCloudService
 ## XXXXXXXX
 
 ## XXXXXX
@@ -35,7 +35,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $XxxxxXxxxxxx
+### -CloudService
 $$Xxxx$$
 
 ```yaml
@@ -50,7 +50,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 $$Xxxx$$
 
 ```yaml
@@ -65,7 +65,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 $$Xxxx$$
 
 ```yaml
@@ -80,7 +80,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -95,7 +95,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.

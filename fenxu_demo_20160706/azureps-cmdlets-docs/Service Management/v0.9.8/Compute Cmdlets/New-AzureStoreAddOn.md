@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxXxxXx
+# New-AzureStoreAddOn
 ## XXXXXXXX
 Xxxx x xxx xxx$xx xxxxxxxx.
 
@@ -41,7 +41,7 @@ Xxxx xxxxxxx xxxx x xxxxxxxxxxx xxxx xx xxx xx xxx$xx.
 
 ## XXXXXXXXXX
 
-### $XxxXx
+### -AddOn
 Xxxxxxxxx xxx xxx$xx XX.
 
 ```yaml
@@ -56,7 +56,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Location
 Xxxxxxxxx xxx xxx$xx xxxxxxxx xxxxxxxx.
 
 ```yaml
@@ -71,7 +71,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxx$xx xxxxxxxx.
 
 ```yaml
@@ -86,7 +86,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Plan
 Xxxxxxxxx xxx xxxx XX.
 
 ```yaml
@@ -101,7 +101,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxXxxx
+### -PromotionCode
 Xxxxxxxxx x xxxxxxxxx xxxx xx xxxxx xx xxx xxxxxxxx.
 
 ```yaml
@@ -124,10 +124,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxXxxXx](ceb557b5-e9af-4797-8385-94078de84662)
+[Get-AzureStoreAddOn](ceb557b5-e9af-4797-8385-94078de84662)
 
-[Xxxxxx$XxxxxXxxxxXxxXx](38bb8f09-dcc3-4356-b346-354dd186feca)
+[Remove-AzureStoreAddOn](38bb8f09-dcc3-4356-b346-354dd186feca)
 
-[Xxx$XxxxxXxxxxXxxXx](545b82f5-330f-48c7-b2b1-d6a1c630ac28)
+[Set-AzureStoreAddOn](545b82f5-330f-48c7-b2b1-d6a1c630ac28)
 
 

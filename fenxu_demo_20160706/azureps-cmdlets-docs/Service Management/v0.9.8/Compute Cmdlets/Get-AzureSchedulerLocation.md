@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxxxXxxxxxxx
+# Get-AzureSchedulerLocation
 ## XXXXXXXX
 Xxxx xxxxxxxxx xxxxxxxxx xxxxxxxxx.
 
@@ -41,10 +41,10 @@ Xxxx xxxxxxx xxxx xxxxxxxxx xxxxxxxxx xxxxxxxxx.
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxxxXxx](aaed4c39-d209-4663-b058-b480553ee6a9)
+[Get-AzureSchedulerJob](aaed4c39-d209-4663-b058-b480553ee6a9)
 
-[Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx](1f6e64a2-021e-4ad7-93a4-9e1138607f01)
+[Get-AzureSchedulerJobCollection](1f6e64a2-021e-4ad7-93a4-9e1138607f01)
 
-[Xxx$XxxxxXxxxxxxxxXxxXxxxxxx](9fb989da-e4be-4a11-9c86-6b601afae100)
+[Get-AzureSchedulerJobHistory](9fb989da-e4be-4a11-9c86-6b601afae100)
 
 

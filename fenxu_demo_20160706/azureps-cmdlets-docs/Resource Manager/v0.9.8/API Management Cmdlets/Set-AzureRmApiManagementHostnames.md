@@ -6,18 +6,18 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxx
+# Set-AzureRmApiManagementHostnames
 ## XXXXXXXX
 Xxxx x xxxxxx xxxxxxxx xxxxxxxxxxxxx xxx xx XXX Xxxxxxxxxx xxxxxxx xxxxx xx xxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Set-AzureRmApiManagementHostnames [-PassThru] -ApiManagement <PsApiManagement>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Set-AzureRmApiManagementHostnames [-PassThru]
  [-PortalHostnameConfiguration <PsApiManagementHostnameConfiguration>]
@@ -51,7 +51,7 @@ Xxx xxxx xx xxxxxx xxxxxxxxxxxxx xxxxxxxxxxxx xxx xxxx xxxxx xxx xxxxxx xxxxxxxx
 
 ## XXXXXXXXXX
 
-### $XxxXxxxxxxxxx
+### -ApiManagement
 Xxxxxxxxx xxx $$XxXxxXxxxxxxxxx$$ xxxxxxxx xxxx xxxx xxxxxx xxxx xxx $XxxxxxXxxxxxxxXxxxxxxxxxxxx$ xxx $XxxxxXxxxxxxxXxxxxxxxxxxxx$ xxxxxxxxxx xxxx.
 
 ```yaml
@@ -66,7 +66,7 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx XXX Xxxxxxxxxx xxxxxxxx.
 
 ```yaml
@@ -81,7 +81,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 xxxxxxxx
 
 ```yaml
@@ -96,7 +96,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxxXxxxxxxxxxxxx
+### -PortalHostnameConfiguration
 Xxxxxxxxx xxx xxxxxx xxxxxx xxxxxxxx xxxxxxxxxxxxx.
 Xxxxxxx $xxxx xx xxx xxxxxx xxxx xxx xxxxxxx xxxxxxxx.
 
@@ -112,7 +112,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxxxXxxxxxxxxxxxx
+### -ProxyHostnameConfiguration
 Xxxxxxxxx xxx xxxxxx xxxxx xxxxxxxx xxxxxxxxxxxxx.
 Xxxxxxx $xxxx xxxx xxx xxxxxxx xxxxxxxx.
 
@@ -128,7 +128,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxxxx xxxxx xxx XXX Xxxxxxxxxx xxxxxxxx xxxxxx.
 
 ```yaml
@@ -151,8 +151,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxx](2a7ef835-586c-4e86-a243-3cc0e9623d71)
+[Import-AzureRmApiManagementHostnameCertificate](2a7ef835-586c-4e86-a243-3cc0e9623d71)
 
-[Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx](73f73a6f-470c-4dd6-95c4-a1302fabb0dd)
+[New-AzureRmApiManagementHostnameConfiguration](73f73a6f-470c-4dd6-95c4-a1302fabb0dd)
 
 

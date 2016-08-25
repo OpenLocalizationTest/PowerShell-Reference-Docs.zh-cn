@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293945
 schema: 2.0.0
 ---
 
-# Xxxxxxx$Xxxxxx
+# Compare-Object
 ## XXXXXXXX
 Xxxxxxxx xxx xxxx xx xxxxxxx.
 
@@ -64,7 +64,7 @@ Xx xxxxxxxxxxx xxxxxxxxxxx xxxxxxx xxxx$ xxxxx xxxxxxx xxx xxx xxxxxxxx xx Xxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxXxxxxxxxx
+### -CaseSensitive
 Xxxxxxxxx xxxx xxxxxxxxxxx xxxxxx xx xxxx$xxxxxxxxx.
 
 ```yaml
@@ -79,7 +79,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Culture
 Xxxxxxxxx xxx xxxxxxx xx xxx xxx xxxxxxxxxxx.
 
 ```yaml
@@ -94,7 +94,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxxx
+### -DifferenceObject
 Xxxxxxxxx xxx xxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -109,7 +109,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxxx
+### -ExcludeDifferent
 Xxxxxxxx xxxx xxx xxxxxxxxxxxxxxx xx xxxxxxxx xxxxxxx xxxx xxx xxxxx.
 
 ```yaml
@@ -124,7 +124,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxx
+### -IncludeEqual
 Xxxxxxxx xxxxxxxxxxxxxxx xx xxxxxxxx xxxxxxx xxxx xxx xxxxx.
 Xx xxxxxxx$ xxxx xxxxxxxxxxxxxxx xxxx xxxxxx xxxxxxx xxx xxxxxxxxx xxx xxxxxxxxxx xxxxxxx xxx xxxxxxxxx.
 
@@ -140,7 +140,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -156,7 +156,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -171,7 +171,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxx xxx xxxxxxx xxxx xxxxxxxx xx xxx xxxxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -187,7 +187,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Property
 Xxxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxx xxx xxxxxxxxxx xxxxxxx xx xxxxxxx.
 
 ```yaml
@@ -202,7 +202,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxXxxxxx
+### -ReferenceObject
 Xxxxxxx xxxx xx x xxxxxxxxx xxx xxxxxxxxxx.
 
 ```yaml
@@ -217,7 +217,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxx
+### -SyncWindow
 Xxxxxxxxx xxx xxxxxx xx xxxxxxxx xxxxxxx xxxx Xxxxxxx$Xxxxxx xxxxxxxx xxxxx xxxxxxx xxx xx xxxxx xx x xxxxxxxxxx xx xxxxxxx.
 Xxxxxxx$Xxxxxx xxxxxxxx xxxxxxxx xxxxxxx xxxx xx xxxxx$x xxxx xxx xxxxxx xx xxx xxxx xxxxxxxx xx x xxxxxxxxxx.
 Xxx xxxxxxx xxxxx xx $$Xxx00$$$$XxxXxxxx$ xxxxx xxxxx xxxx Xxxxxxx$Xxxxxx xxxxxxxx xxx xxxxxx xxxxxx xxxxxxxxxx.
@@ -236,12 +236,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx x XxxxxxxxxxXxxxxx xxxxxx xx Xxxxxxx$Xxxxxx.
 
 ## XXXXXXX
 
-### Xxxx$ xx xxx xxxxxxx xxxx xxx xxxxxxxxx
+### None, or the objects that are different
 Xxxx xxx xxx xxx XxxxXxxx xxxxxxxxx$ Xxxxxxx$Xxxxxx xxxxxxx xxx xxxxxxx xxxx xxxxxxxx.
 Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -249,19 +249,19 @@ Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ## XXXXXXX XXXXX
 
-[XxxXxxx$Xxxxxx]()
+[ForEach-Object]()
 
-[Xxxxx$Xxxxxx]()
+[Group-Object]()
 
-[Xxxxxxx$Xxxxxx]()
+[Measure-Object]()
 
-[Xxx$Xxxxxx]()
+[New-Object]()
 
-[Xxxxxx$Xxxxxx]()
+[Select-Object]()
 
-[Xxxx$Xxxxxx]()
+[Sort-Object]()
 
-[Xxx$Xxxxxx]()
+[Tee-Object]()
 
-[Xxxxx$Xxxxxx]()
+[Where-Object]()
 

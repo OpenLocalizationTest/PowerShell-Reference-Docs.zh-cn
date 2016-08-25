@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293958
 schema: 2.0.0
 ---
 
-# Xxxxxx$XxxxxxXxxx
+# Export-FormatData
 ## XXXXXXXX
 Xxxxx xxxxxxxxxx xxxx xxxx xxx xxxxxxx xxxxxxx xx x xxxxxxxxxx xxxx.
 
 ## XXXXXX
 
-### XxXxxx $Xxxxxxx$
+### ByPath (Default)
 ```
 Export-FormatData -InputObject <ExtendedTypeDefinition[]> -Path <String> [-Force] [-NoClobber]
  [-IncludeScriptBlock] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### XxXxxxxxxXxxx
+### ByLiteralPath
 ```
 Export-FormatData -InputObject <ExtendedTypeDefinition[]> -LiteralPath <String> [-Force] [-NoClobber]
  [-IncludeScriptBlock] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
@@ -89,7 +89,7 @@ Xxx xxxxxx xxxxx xxxx xxxxxxxx xxxxxx xxxx xxx xxxxxxxxxx xx xxxxx xxxxxx xxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 Xxxxxxxxxx xx xxxxxxxx xxxxxx xxxx$ xxxx xx xxx xxxx xxx xxx xxxx$xxxx xxxxxxxxx.
 
 ```yaml
@@ -104,7 +104,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxXxxxx
+### -IncludeScriptBlock
 Xxxxxxxxxx xxxxxxx xxxxxx xxxxxx xx xxx xxxxxx xxxx xxx xxxxxxxx.
 
 Xxxxxxx xxxxxx xxxxxx xxxxxxx xxxx xxx xxx xx xxxx xxxxxxxxxxx$ xxxx xxx xxx xxxxxxxx xx xxxxxxx.
@@ -121,7 +121,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -137,7 +137,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -152,7 +152,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxx xxxxxx xxxx xxxxxxx xx xx xxxxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx x xxxxxxx xxxx xxxx xxx xxxxxxx$ xxxx xx x Xxx$XxxxxxXxxx xxxxxxx.
 Xxx xxx xxxx xxxx xxx xxxxxxx xxxx Xxx$XxxxxxXxxx xx Xxxxxx$XxxxxxXxxx.
@@ -169,7 +169,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxXxxxxxx
+### -NoClobber
 Xxxxxxxx xxx xxxxxx xxxx xxxxxxxxxxx xxxxxxxx xxxxx.
 Xx xxxxxxx$ Xxxxxx$XxxxxxXxxx xxxxxxxxxx xxxxx xxxxxxx xxxxxxx xxxxxx xxx xxxx xxx xxx xxxx$xxxx xxxxxxxxx.
 
@@ -187,7 +187,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxxxx x xxxxxxxx xxx xxx xxxxxx xxxx. Xxxxx x xxxx $xxxxxxxx$ xxx xxxx xxxx xxxx x xxxxxx.xx0xxx xxxx xxxx xxxxxxxxx.
 Xx xxx xxxx xxx xxxx$ Xxxxxx$XxxxxxXxxx xxxxxxx xxx xxxx xx xxx xxxxxxx xxxxxxxxx.
 
@@ -209,7 +209,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -LiteralPath
 Xxxxxxxxx x xxxxxxxx xxx xxx xxxxxx xxxx.
 Xxxxxx xxx Xxxx xxxxxxxxx$ xxx xxxxx xx XxxxxxxXxxx xx xxxx xxxxxxx xx xx xx xxxxx.
 Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
@@ -230,12 +230,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxxxxXxxxXxxxxxxxxx
+### System.Management.Automation.ExtendedTypeDefinition
 Xxx xxx xxxx XxxxxxxxXxxxXxxxxxxxxx xxxxxxx xxxx Xxx$XxxxxxXxxx xx Xxxxxx$XxxxxxXxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxxxxx$XxxxxxXxxx xxxx xxx xxxxxx xxx xxxxxxx.
 Xx xxxxxxxxx x xxxx xxx xxxxx xx xx xxx xxxxxxxxx xxxx.
 
@@ -245,7 +245,7 @@ Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxxxx$Xxxxxxxx.
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxxXxxx]()
+[Get-FormatData]()
 
-[Xxxxxx$XxxxxxXxxx]()
+[Update-FormatData]()
 

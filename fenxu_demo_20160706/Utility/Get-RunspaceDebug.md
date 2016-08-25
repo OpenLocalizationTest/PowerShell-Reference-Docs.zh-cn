@@ -4,37 +4,37 @@ online version:
 schema: 2.0.0
 ---
 
-# Xxx$XxxxxxxxXxxxx
+# Get-RunspaceDebug
 ## XXXXXXXX
 Xxxxx xxxxxxxx xxxxxxxxx xxxxxxx.
 
 ## XXXXXX
 
-### XxxxxxxxXxxxXxxxxxxxxXxx $Xxxxxxx$
+### RunspaceNameParameterSet (Default)
 ```
 Get-RunspaceDebug [[-RunspaceName] <String[]>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### XxxxxxxxXxxxxxxxxXxx
+### RunspaceParameterSet
 ```
 Get-RunspaceDebug [-Runspace] <Runspace[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### XxxxxxxxXxXxxxxxxxxXxx
+### RunspaceIdParameterSet
 ```
 Get-RunspaceDebug [-RunspaceId] <Int32[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### XxxxxxxxXxxxxxxxXxXxxxxxxxxXxx
+### RunspaceInstanceIdParameterSet
 ```
 Get-RunspaceDebug [-RunspaceInstanceId] <Guid[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### XxxxxxxXxxxXxxxxxxxxXxx
+### ProcessNameParameterSet
 ```
 Get-RunspaceDebug [[-ProcessName] <String>] [[-AppDomainName] <String[]>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
@@ -57,7 +57,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $XxxXxxxxxXxxx
+### -AppDomainName
 $$Xxxx$$
 
 ```yaml
@@ -72,7 +72,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -88,7 +88,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -103,7 +103,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -ProcessName
 $$Xxxx$$
 
 ```yaml
@@ -118,7 +118,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Runspace
 $$Xxxx$$
 
 ```yaml
@@ -133,7 +133,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXx
+### -RunspaceId
 $$Xxxx$$
 
 ```yaml
@@ -148,7 +148,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxxxxXx
+### -RunspaceInstanceId
 $$Xxxx$$
 
 ```yaml
@@ -163,7 +163,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxx
+### -RunspaceName
 $$Xxxx$$
 
 ```yaml

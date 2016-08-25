@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293989
 schema: 2.0.0
 ---
 
-# Xxxxxxx$Xxxxxxx
+# Measure-Command
 ## XXXXXXXX
 Xxxxxxxx xxx xxxx xx xxxxx xx xxx xxxxxx xxxxxx xxx xxxxxxx.
 
@@ -65,7 +65,7 @@ Xxxxx xxxxxxxx xxxx xxx xxxxx xx xxxxx x xxxxxxxx$xxxxxxxx xxxxxx xx Xxxxxxx Xxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxxx
+### -Expression
 Xxxxxxxxx xxx xxxxxxxxxx xxxx xx xxxxx xxxxx.
 Xxxxxxx xxx xxxxxxxxxx xx xxxxxx $$$$.
 Xxx xxxxxxxxx xxxx $$Xxxxxxxxxx$$ xx xxxxxxxx.
@@ -82,7 +82,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -98,7 +98,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -113,7 +113,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxxxxxx xxxxxxxxxxxx xxx xxxxxxxxxxx xx xx xxxxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
@@ -131,12 +131,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xx xxxxxx xx Xxxxxxx$Xxxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.XxxxXxxx
+### System.TimeSpan
 Xxxxxxx$Xxxxxxx xxxxxxx x xxxx xxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxx.
 
 ## XXXXX
@@ -148,7 +148,7 @@ Xxx xxxxxxx$ $$$xxxxxxxxx$xxxx$$ $$xxxxx0$$$ $$xxxxx0$$$.
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$Xxxxxxx]()
+[Invoke-Command]()
 
-[Xxxxx$Xxxxxxx]()
+[Trace-Command]()
 

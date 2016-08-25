@@ -1,1 +1,1 @@
-# Xxxxx xxxx xxxx xxx Xxxx Xxxxxxxxxx
+# Index test file for Open Publishing

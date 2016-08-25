@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxxxxxx
+# Remove-AzureWebsite
 ## XXXXXXXX
 Xxxxxxx xxx xxxxxxxxx xxxxxxx xxxx Xxxxx.
 
@@ -40,7 +40,7 @@ Xxxx xxxxxxx xxxxxxx xxx xxxxxxx xxxxx $xxXxxx$ xxxxxxx xxxxxxxxx xxx xxxxxxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 Xx xxxxxxxxx$ xxxxxxx xxx xxxxxxxxx xxxxxxx xxxxxxx xxxxxxxxx xxx xxxxxxxxxxxx.
 
 ```yaml
@@ -55,7 +55,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xx xxxxxx.
 
 ```yaml
@@ -70,7 +70,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxxxxxxxx xxx xxxx xxxx xx xxx xxxxxxx.
 
 ```yaml
@@ -85,7 +85,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -100,7 +100,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -125,6 +125,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
 

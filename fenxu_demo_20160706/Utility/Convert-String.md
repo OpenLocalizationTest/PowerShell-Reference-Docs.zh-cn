@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/?LinkId=528577
 schema: 2.0.0
 ---
 
-# Xxxxxxx$Xxxxxx
+# Convert-String
 ## XXXXXXXX
 $$Xxxx xx xxx Xxxxxxxx$$
 
@@ -29,7 +29,7 @@ $$ Xxx xxxxxxx xxxxxxxxxxx xxxx $$
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Example
 $$Xxxx Xxxxxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -44,7 +44,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 $$Xxxx XxxxxXxxxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -61,16 +61,16 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.Object
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000](http://go.microsoft.com/fwlink/?LinkId=528577)
+[http://go.microsoft.com/fwlink/?LinkId=528577](http://go.microsoft.com/fwlink/?LinkId=528577)
 

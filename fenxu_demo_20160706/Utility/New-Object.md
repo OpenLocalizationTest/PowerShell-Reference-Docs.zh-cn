@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293993
 schema: 2.0.0
 ---
 
-# Xxx$Xxxxxx
+# New-Object
 ## XXXXXXXX
 Xxxxxxx xx xxxxxxxx xx x Xxxxxxxxx .XXX Xxxxxxxxx xx XXX xxxxxx.
 
 ## XXXXXX
 
-### Xxx $Xxxxxxx$
+### Net (Default)
 ```
 New-Object [-TypeName] <String> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Xxx
+### Com
 ```
 New-Object [-ComObject] <String> [-Strict] [-Property <IDictionary>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
@@ -172,7 +172,7 @@ Xxxx xxxxxxx xxxxx xxx xx xxxxxx xxx xxx x XXX xxxxxx xx xxxxxx xxxx Xxxxxxx xxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxXxxx
+### -ArgumentList
 Xxxxxxxxx x xxxx xx xxxxxxxxx xx xxxx xx xxx xxxxxxxxxxx xx xxx .XXX Xxxxxxxxx xxxxx.
 Xxxxxxxx xxxxxxxx xx xxx xxxx xx xxxxx xxxxxx $$$.
 Xxx xxxxx xxx XxxxxxxxXxxx xx Xxxx.
@@ -189,7 +189,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxx
+### -ComObject
 Xxxxxxxxx xxx xxxxxxxxxxxx xxxxxxxxxx $XxxxXX$ xx xxx XXX xxxxxx.
 
 ```yaml
@@ -204,7 +204,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -220,7 +220,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -235,7 +235,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Property
 Xxxx xxxxxxxx xxxxxx xxx xxxxxxx xxxxxxx xx xxx xxx xxxxxx.
 
 Xxxxx x xxxx xxxxx xx xxxxx xxx xxxx xxx xxx xxxxx xx xxxxxxxxxx xx xxxxxxx xxx xxx xxxxxx xxx xxxxxxxx xxxxxx xx xxxxxx xxxxxxxxx.
@@ -256,7 +256,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Strict
 Xxxxxxxxx x xxx$xxxxxxxxxxx xxxxx xxxx x XXX xxxxxx xxxx xxx xxxxxxx xx xxxxxx xxxx xx xxxxxxx xxxxxxxx.
 Xxxx xxxxxxx xxxxxxxxxxxxx xxxxxx XXX xxxxxxx xxxx .XXX Xxxxxxxxx xxxxxxx xxxx XXX$xxxxxxxx xxxxxxxx.
 
@@ -272,7 +272,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -TypeName
 Xxxxxxxxx xxx xxxxx xxxxxxxxx xxxx xx xxx .XXX Xxxxxxxxx xxxxx.
 Xxx xxxxxx xxxxxxx xxxx xxx XxxxXxxx xxxxxxxxx xxx xxx XxxXxxxxx xxxxxxxxx.
 
@@ -290,12 +290,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx
+### Object
 Xxx$Xxxxxx xxxxxxx xxx xxxxxx xxxx xx xxxxxxx.
 
 ## XXXXX
@@ -306,19 +306,19 @@ Xxx$Xxxxxx xxxxxxx xxxx xxx xxxxxxxxxxxxx xxxxxxxxx xx xxx Xxxxxxx Xxxxxx Xxxx x
 
 ## XXXXXXX XXXXX
 
-[Xxxxxxx$Xxxxxx]()
+[Compare-Object]()
 
-[XxxXxxx$Xxxxxx]()
+[ForEach-Object]()
 
-[Xxxxx$Xxxxxx]()
+[Group-Object]()
 
-[Xxxxxxx$Xxxxxx]()
+[Measure-Object]()
 
-[Xxxxxx$Xxxxxx]()
+[Select-Object]()
 
-[Xxxx$Xxxxxx]()
+[Sort-Object]()
 
-[Xxx$Xxxxxx]()
+[Tee-Object]()
 
-[Xxxxx$Xxxxxx]()
+[Where-Object]()
 

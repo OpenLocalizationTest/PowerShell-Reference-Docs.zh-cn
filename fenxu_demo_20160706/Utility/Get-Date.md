@@ -4,20 +4,20 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293966
 schema: 2.0.0
 ---
 
-# Xxx$Xxxx
+# Get-Date
 ## XXXXXXXX
 Xxxx xxx xxxxxxx xxxx xxx xxxx.
 
 ## XXXXXX
 
-### xxx $Xxxxxxx$
+### net (Default)
 ```
 Get-Date [[-Date] <DateTime>] [-Year <Int32>] [-Month <Int32>] [-Day <Int32>] [-Hour <Int32>] [-Minute <Int32>]
  [-Second <Int32>] [-Millisecond <Int32>] [-DisplayHint <DisplayHintType>] [-Format <String>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### XXxxxxx
+### UFormat
 ```
 Get-Date [[-Date] <DateTime>] [-Year <Int32>] [-Month <Int32>] [-Day <Int32>] [-Hour <Int32>] [-Minute <Int32>]
  [-Second <Int32>] [-Millisecond <Int32>] [-DisplayHint <DisplayHintType>] [-UFormat <String>]
@@ -179,7 +179,7 @@ Xxxx xxxxxxx xxxxx xxx xx xxx xxx Xxx$Xxxx xxxxxx xx xxxxxx x xxxxxxxxx xxx xxx 
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Date
 Xxxxxxxxx x xxxx xxx xxxx.
 Xx xxxxxxx$ Xxx$Xxxx xxxx xxx xxxxxxx xxxxxx xxxx xxx xxxx.
 
@@ -197,7 +197,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxx
+### -Day
 Xxxxxxxxx xxx xxx xx xxx xxxxx xxxx xx xxxxxxxxx.
 Xxxxx x xxxxx xxxx 0 xx 00.
 Xxx xxxxxxx xx xxx xxxxxxx xxx.
@@ -217,7 +217,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -DisplayHint
 Xxxxxxxxxx xxxxx xxxxxxxx xx xxx xxxx xxx xxxx xxx xxxxxxxxx.
 
 Xxxxx xxxxxx xxx$
@@ -240,7 +240,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Format
 Xxxxxxxx xxx xxxx xxx xxxx xx xxx Xxxxxxxxx .XXX Xxxxxxxxx xxxxxx xxxxxxxxx xx xxx xxxxxx xxxxxxxxx.
 Xxxxx x xxxxxx xxxxxxxxx.
 Xxx x xxxx xx xxxxxxxxx xxxxxx xxxxxxxxxx$ xxx $XxxxXxxxXxxxxxXxxx Xxxxx$ xx xxx XXXX $Xxxxxxxxx Xxxxxxxxx Xxxxxxx$ xxxxxxx xx xxxx$$$xxxx.xxxxxxxxx.xxx$xxxxxxx$xxxxxx.xxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxx.xxxx.
@@ -267,7 +267,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Hour
 Xxxxxxxxx xxx xxxx xxxx xx xxxxxxxxx.
 Xxxxx x xxxxx xxxx 0 xx 00.
 Xxx xxxxxxx xx xxx xxxxxxx xxxx.
@@ -284,7 +284,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxxx xxx xxxx xx x xxxxxx xxxx xx xxxxxxxx xxx xxx xxxxxx xxxxxx$ xxxx xx xx$XX$xxxx $Xxxxxx $$Xxxxxxx$$$ xx XX$xx$xxxx $Xxxxxxx $$Xxxxxx Xxxxxx$$$.
 
 ```yaml
@@ -300,7 +300,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxxx xxx xxxx xx x xxxxxx xxxx xx xxxxxxxx xxx xxx xxxxxx xxxxxx$ xxxx xx xx$XX$xxxx $Xxxxxx $$Xxxxxxx$$$ xx XX$xx$xxxx $Xxxxxxx $$Xxxxxx Xxxxxx$$$.
 
 ```yaml
@@ -315,7 +315,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Millisecond
 Xxxxxxxxx xxx xxxxxxxxxxxx xx xxx xxxx.
 Xxxxx x xxxxx xxxx 0 xx 000.
 Xxx xxxxxxx xx xxx xxxxxxx xxxxxx xx xxxxxxxxxxxx.
@@ -334,7 +334,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Minute
 Xxxxxxxxx xxx xxxxxx xxxx xx xxxxxxxxx.
 Xxxxx x xxxxx xxxx 0 xx 00.
 Xxx xxxxxxx xxxxx xx xxx xxxxxxx xxxxxxx.
@@ -351,7 +351,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Month
 Xxxxxxxxx xxx xxxxx xxxx xx xxxxxxxxx.
 Xxxxx x xxxxx xxxx 0 xx 00.
 Xxx xxxxxxx xx xxx xxxxxxx xxxxx.
@@ -368,7 +368,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Second
 Xxxxxxxxx xxx xxxxxx xxxx xx xxxxxxxxx.
 Xxxxx x xxxxx xxxx 0 xx 00.
 Xxx xxxxxxx xx xxx xxxxxxx xxxxxx.
@@ -385,7 +385,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXxxxxx
+### -UFormat
 Xxxxxxxx xxx xxxx xxx xxxx xx XXXX xxxxxx.
 Xxx x xxxx xx xxx xxxxxx xxxxxxxxxx$ xxx xxx Xxxxx xxxxxxx.
 
@@ -404,7 +404,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Year
 Xxxxxxxxx xxx xxxx xxxx xx xxxxxxxxx.
 Xxxxx x xxxxx xxxx 0 xx 0000.
 Xxx xxxxxxx xx xxx xxxxxxx xxxx.
@@ -423,12 +423,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.XxxxXxxx xx Xxxxxx.Xxxxxx
+### System.DateTime or System.String
 Xxxx xxx xxx xxx Xxxxxx xx XXxxxxx xxxxxxxxxx$ Xxx$Xxxx xxxxxxx x xxxxxx.
 Xxxxxxxxx$ xx xxxxxxx x XxxxXxxx xxxxxx.
 
@@ -550,7 +550,7 @@ x   Xxx xxxxxxxxx $$x$
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxXxxx]()
+[New-TimeSpan]()
 
-[Xxx$Xxxx]()
+[Set-Date]()
 

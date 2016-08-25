@@ -4,23 +4,23 @@ online version:
 schema: 2.0.0
 ---
 
-# Xxx$Xxxxxxxx
+# Get-Runspace
 ## XXXXXXXX
 Xxxx xxxxxx xxxxxxxxx xxxxxx x Xxxxxxx XxxxxXxxxx xxxx xxxxxxx.
 
 ## XXXXXX
 
-### XxxxXxxxxxxxxXxx $Xxxxxxx$
+### NameParameterSet (Default)
 ```
 Get-Runspace [[-Name] <String[]>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### XxXxxxxxxxxXxx
+### IdParameterSet
 ```
 Get-Runspace [-Id] <Int32[]> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### XxxxxxxxXxXxxxxxxxxXxx
+### InstanceIdParameterSet
 ```
 Get-Runspace [-InstanceId] <Guid[]> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
@@ -42,7 +42,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $Xx
+### -Id
 $$Xxxx$$
 
 ```yaml
@@ -57,7 +57,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -73,7 +73,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -88,7 +88,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXx
+### -InstanceId
 $$Xxxx$$
 
 ```yaml
@@ -103,7 +103,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 $$Xxxx$$
 
 ```yaml

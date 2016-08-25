@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx
+# Remove-AzureStorageTableStoredAccessPolicy
 ## XXXXXXXX
 Xxxxxxx x xxxxxx xxxxxx xxxxxx xxxx xx xxxxx$0 xxxxxxx xxxxx.
 
@@ -31,7 +31,7 @@ Xxxx xxxxxxx xxxxxxx xxxxxx xxxxx Xxxxxx00 xxxx xxxxxxx xxxxx xxxxx XxXxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -47,7 +47,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 xx$xxxxx
 
 ```yaml
@@ -62,7 +62,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx x $$Xxxxxxx$$ xxxx xxxxxxxx xxx xxxxxxx xx xxx xxxxxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx x xxxxx.
 
@@ -78,7 +78,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Policy
 Xxxxxxxxx xxx xxxxxx xxxxxx xxxxxx$ xxxxx xxxxxxxx xxx xxxxxxxxxxx xxx xxxx XXX xxxxx.
 
 ```yaml
@@ -93,7 +93,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Table
 Xxxxxxxxx xxx xxxxx$0 xxxxx xxxx.
 
 ```yaml
@@ -108,7 +108,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -123,7 +123,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -146,12 +146,12 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](a1536004-87a3-48a2-ad18-bf3fe95908c9)
+[Get-AzureStorageTableStoredAccessPolicy](a1536004-87a3-48a2-ad18-bf3fe95908c9)
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](27f043ca-0c6b-4952-afd7-a2e12e73b402)
+[New-AzureStorageTableStoredAccessPolicy](27f043ca-0c6b-4952-afd7-a2e12e73b402)
 
-[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](cd4016e4-c0aa-4963-beb7-144a5bd2d619)
+[Set-AzureStorageTableStoredAccessPolicy](cd4016e4-c0aa-4963-beb7-144a5bd2d619)
 
 

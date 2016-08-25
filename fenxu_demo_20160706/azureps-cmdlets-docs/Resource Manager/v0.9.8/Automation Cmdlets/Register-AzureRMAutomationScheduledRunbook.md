@@ -6,18 +6,18 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxXxxxxxx
+# Register-AzureRMAutomationScheduledRunbook
 ## XXXXXXXX
 Xxxxxxxxxx x xxxxxxx xx x xxxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Register-AzureRMAutomationScheduledRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Register-AzureRMAutomationScheduledRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Parameters <IDictionary>] -RunbookName <String> -ScheduleName <String>
@@ -38,7 +38,7 @@ Xxxx xxxxxxx xxxxxxxxxx xxx xxxxxxx xxxxx Xxxxx00 xxxx xxx xxxxxxxx xxxxx Xxxxx0
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xx Xxxxxxxxxx xxxxxxx xxx xxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
@@ -53,7 +53,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxx
+### -Parameters
 Xxxxxxxxx x xxxx xxxxx xx xxx$xxxxx xxxxx.
 Xxx xxxx xxx xxxxxxx xxxxxxxxx xxxxx.
 Xxx xxxxxx xxx xxxxxxx xxxxxxxxx xxxxxx.
@@ -71,7 +71,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxx xxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -86,7 +86,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -RunbookName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxx xxxx xxxxxx xxxxxxxxxx xx x xxxxxxxx.
 
 ```yaml
@@ -101,7 +101,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxx
+### -ScheduleName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xx xxxxx xxxx xxxxxx xxxxxxxxxx x xxxxxxx.
 
 ```yaml
@@ -120,14 +120,14 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.XxxXxxxxxxx
+### Microsoft.Azure.Commands.Automation.Model.JobSchedule
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxXxxxxxx](cfac4e12-2a1f-4b2c-873b-f5a3f9c4a2ce)
+[Get-AzureRmAutomationScheduledRunbook](cfac4e12-2a1f-4b2c-873b-f5a3f9c4a2ce)
 
-[Xxxxxxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxXxxxxxx](a56fc467-f64d-4453-9b55-cdd5cad1aa98)
+[Unregister-AzureRmAutomationScheduledRunbook](a56fc467-f64d-4453-9b55-cdd5cad1aa98)
 
 

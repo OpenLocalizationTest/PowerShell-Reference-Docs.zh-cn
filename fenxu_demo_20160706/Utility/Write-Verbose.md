@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294032
 schema: 2.0.0
 ---
 
-# Xxxxx$Xxxxxxx
+# Write-Verbose
 ## XXXXXXXX
 Xxxxxx xxxx xx xxx xxxxxxx xxxxxxx xxxxxx.
 
@@ -48,7 +48,7 @@ Xxx xxxxxx xxxxxxx xxxxxx x xxxxxxx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -64,7 +64,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -79,7 +79,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Message
 Xxxxxxxxx xxx xxxxxxx xx xxxxxxx.
 Xxxx xxxxxxxxx xx xxxxxxxx.
 Xxx xxx xxxx xxxx x xxxxxxx xxxxxx xx Xxxxx$Xxxxxxx.
@@ -98,12 +98,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx xxx xxxxxxx xx Xxxxx$Xxxxxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxxxx$Xxxxxxx xxxxxx xxxx xx xxx xxxxxxx xxxxxxx xxxxxx.
 
 ## XXXXX
@@ -115,9 +115,9 @@ Xxx xxxx xxxxxxxxxxx xxxxx xxx $XxxxxxxXxxxxxxxxx xxxxxxxx$ xxx xxxxx$Xxxxxxxxxx
 
 ## XXXXXXX XXXXX
 
-[Xxxxx$Xxxxx]()
+[Write-Error]()
 
-[Xxxxx$Xxxxxxx]()
+[Write-Warning]()
 
-[xxxxx$Xxxxxxxxxx$Xxxxxxxxx]()
+[about_Preference_Variables]()
 

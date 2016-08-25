@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxxxxxx
+# New-AzureRMAutomationRunbook
 ## XXXXXXXX
 Xxxxxxx xx Xxxxxxxxxx xxxxxxx.
 
@@ -32,7 +32,7 @@ Xxxx xxxxxxx xxxxxxx x xxxxxxx xxxxx Xxxxxxx00 xx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
@@ -47,7 +47,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Description
 Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxx.
 
 ```yaml
@@ -62,7 +62,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxxx
+### -LogProgress
 Xxxxxxxxx xxxxxxx xxx xxxxxxx xxxx xxxxxxxx.
 
 ```yaml
@@ -77,7 +77,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxx
+### -LogVerbose
 Xxxxxxxxx xxxxxxx xxxxxxx xxxxxxxx xxxxxxxx xxxxxxxxxxx.
 
 ```yaml
@@ -92,7 +92,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx xxxxxxx.
 
 ```yaml
@@ -107,7 +107,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
@@ -122,7 +122,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Tags
 Xxxxxxxxx x xxxxxxxxxx xx xxxx xxx xxx xxx xxxxxxx.
 
 ```yaml
@@ -137,7 +137,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Type
 Xxxxxxxxx xxx xxxx xx xxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 Xxxxx xxxxxx xxx$ 
 
@@ -163,24 +163,24 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.Xxx
+### Microsoft.Azure.Commands.Automation.Model.Job
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](614eee0d-f18e-4843-bed6-6cf43db59f75)
+[Export-AzureRmAutomationRunbook](614eee0d-f18e-4843-bed6-6cf43db59f75)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](71da0434-5c0f-498f-91f2-f09117dfa7ca)
+[Get-AzureRmAutomationRunbook](71da0434-5c0f-498f-91f2-f09117dfa7ca)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](6e05b8c0-5782-4580-b4e3-778e951be608)
+[Import-AzureRmAutomationRunbook](6e05b8c0-5782-4580-b4e3-778e951be608)
 
-[Xxxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](68a3d64a-280b-4285-b588-72c7a8c25942)
+[Publish-AzureRmAutomationRunbook](68a3d64a-280b-4285-b588-72c7a8c25942)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](073fedf2-2bbd-4173-946a-b79f88dc3c92)
+[Remove-AzureRmAutomationRunbook](073fedf2-2bbd-4173-946a-b79f88dc3c92)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](80b64633-ceab-4609-bb58-e11ab99e9c35)
+[Set-AzureRmAutomationRunbook](80b64633-ceab-4609-bb58-e11ab99e9c35)
 
-[Xxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](5c86545a-93dd-4b3c-96b2-fa6ed740448d)
+[Start-AzureRmAutomationRunbook](5c86545a-93dd-4b3c-96b2-fa6ed740448d)
 
 

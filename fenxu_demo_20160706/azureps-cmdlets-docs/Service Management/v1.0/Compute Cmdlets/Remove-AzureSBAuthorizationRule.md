@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-AzureSBAuthorizationRule
-## SYNOPSIS
-Removes existing Service Bus authorization rule
+## XXXXXXXX
+Xxxxxxx xxxxxxxx Xxxxxxx Xxx xxxxxxxxxxxxx xxxx
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -23,29 +23,29 @@ Remove-AzureSBAuthorizationRule [-Name] <String> [-Namespace] <String> [-EntityN
 Remove-AzureSBAuthorizationRule [-Name] <String> [-Namespace] <String> [-PassThru]
 ```
 
-## DESCRIPTION
-Removes existing Service Bus authorization rule
+## XXXXXXXXXXX
+Xxxxxxx xxxxxxxx Xxxxxxx Xxx xxxxxxxxxxxxx xxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------- Remove authorization rule at namespace level --------------
+### $$$$$$$$$$$$$$ Xxxxxx xxxxxxxxxxxxx xxxx xx xxxxxxxxx xxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Remove-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace
 ```
 
-Removes authorization rule MyRule from MyNamespace
+Xxxxxxx xxxxxxxxxxxxx xxxx XxXxxx xxxx XxXxxxxxxxx
 
-### -------------- Remove authorization rule for a Queue --------------
+### $$$$$$$$$$$$$$ Xxxxxx xxxxxxxxxxxxx xxxx xxx x Xxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Remove-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace -EntityName MyEntity -EntityType Queue
 ```
 
-Removes authorization rule called MyRule for a MyEntity Queue on MyNamespace
+Xxxxxxx xxxxxxxxxxxxx xxxx xxxxxx XxXxxx xxx x XxXxxxxx Xxxxx xx XxXxxxxxxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -EntityName
-The entity name to apply rule at.
+Xxx xxxxxx xxxx xx xxxxx xxxx xx.
 
 ```yaml
 Type: String
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -EntityType
-The entity type (Queue, Topic, Relay, NotificationHub).
+Xxx xxxxxx xxxx $Xxxxx$ Xxxxx$ Xxxxx$ XxxxxxxxxxxxXxx$.
 
 ```yaml
 Type: ServiceBusEntityType
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The unique authorization rule name
+Xxx xxxxxx xxxxxxxxxxxxx xxxx xxxx
 
 ```yaml
 Type: String
@@ -90,8 +90,8 @@ Accept wildcard characters: False
 ```
 
 ### -Namespace
-The namespace name to apply the authorization rule.
-If no EntityName provided the rule will be on the namespace level
+Xxx xxxxxxxxx xxxx xx xxxxx xxx xxxxxxxxxxxxx xxxx.
+Xx xx XxxxxxXxxx xxxxxxxx xxx xxxx xxxx xx xx xxx xxxxxxxxx xxxxx
 
 ```yaml
 Type: String
@@ -106,8 +106,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Indicates that this cmdlet returns an object representing the item on which it operates.
-By default, this cmdlet does not generate any output.
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxx xx xxxxx xx xxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -121,13 +121,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureSBAuthorizationRule](07ab8d50-c6de-45f1-8576-99b76f798bca)
 

@@ -7,34 +7,34 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Restart-AzureWebsite
-## SYNOPSIS
-Stops and then restarts the specified website.
+## XXXXXXXX
+Xxxxx xxx xxxx xxxxxxxx xxx xxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Restart-AzureWebsite [[-Name] <String>] [-PassThru] [-Slot <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Restart-AzureWebsite cmdlet stops and then restarts the specified website.
+Xxx Xxxxxxx$XxxxxXxxxxxx xxxxxx xxxxx xxx xxxx xxxxxxxx xxx xxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Restart a website
+### 0$ Xxxxxxx x xxxxxxx
 ```
 PS C:\>Restart-AzureWebsite â€"Name MyWebsite
 ```
 
-This example restarts a website named MyWebsite.
+Xxxx xxxxxxx xxxxxxxx x xxxxxxx xxxxx XxXxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-Specifies the name of the Azure website to restart.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxx xxxxxxx xx xxxxxxx.
 
 ```yaml
 Type: String
@@ -49,7 +49,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -64,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Specifies the slot name of the website.
+Xxxxxxxxx xxx xxxx xxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -78,13 +78,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 

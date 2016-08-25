@@ -4,27 +4,27 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294008
 schema: 2.0.0
 ---
 
-# Xxxxxx$Xxxxxx
+# Select-String
 ## XXXXXXXX
 Xxxxx xxxx xx xxxxxxx xxx xxxxx.
 
 ## XXXXXX
 
-### Xxxx $Xxxxxxx$
+### File (Default)
 ```
 Select-String [-Pattern] <String[]> [-Path] <String[]> [-SimpleMatch] [-CaseSensitive] [-Quiet] [-List]
  [-Include <String[]>] [-Exclude <String[]>] [-NotMatch] [-AllMatches] [-Encoding <String>]
  [-Context <Int32[]>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Xxxxxx
+### Object
 ```
 Select-String -InputObject <PSObject> [-Pattern] <String[]> [-SimpleMatch] [-CaseSensitive] [-Quiet] [-List]
  [-Include <String[]>] [-Exclude <String[]>] [-NotMatch] [-AllMatches] [-Encoding <String>]
  [-Context <Int32[]>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### XxxxxxxXxxx
+### LiteralFile
 ```
 Select-String [-Pattern] <String[]> -LiteralPath <String[]> [-SimpleMatch] [-CaseSensitive] [-Quiet] [-List]
  [-Include <String[]>] [-Exclude <String[]>] [-NotMatch] [-AllMatches] [-Encoding <String>]
@@ -190,7 +190,7 @@ Xxx Xxxxxxx xxxxxxxx xx xxx xxxxx xxxxxxx xxxxxxxx xxxx xxx xxxxx $xxxx xx$ xxx 
 
 ## XXXXXXXXXX
 
-### $XxxXxxxxxx
+### -AllMatches
 Xxxxxxxx xxx xxxx xxxx xxx xxxxx xx xxxx xxxx xx xxxx.
 Xxxxxxx xxxx xxxxxxxxx$ Xxxxxx$Xxxxxx xxxxx xxxx xxx xxxxx xxxxx xx xxxx xxxx xx xxxx.
 
@@ -208,7 +208,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxxxx
+### -CaseSensitive
 Xxxxx xxxxxxx xxxx$xxxxxxxxx.
 Xx xxxxxxx$ xxxxxxx xxx xxx xxxx$xxxxxxxxx.
 
@@ -224,7 +224,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxx xxx xxxxxxxxx xxxxxx xx xxxxx xxxxxx xxx xxxxx xxx xxxx xxxx xxx xxxxx.
 Xxxx xxxxxx xxx xx xxxx xxx xxxxx xx xxxxxxx.
 
@@ -255,7 +255,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Encoding
 Xxxxxxxxx xxx xxxxxxxxx xxxxxxxx xxxx Xxxxxx$Xxxxxx xxxxxx xxxxxx xxxx xxxxxxxxx xxx xxxx.
 Xxx xxxxxxx xx XXX0.
 
@@ -276,7 +276,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Exclude
 Xxxxxxx xxx xxxxxxxxx xxxxx.
 Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx Xxxx xxxxxxxxx.
 Xxxxx x xxxx xxxxxxx xx xxxxxxx$ xxxx xx $$.xxx$.
@@ -294,7 +294,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Include
 Xxxxxxx xxxx xxx xxxxxxxxx xxxxx.
 Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx Xxxx xxxxxxxxx.
 Xxxxx x xxxx xxxxxxx xx xxxxxxx$ xxxx xx $$.xxx$.
@@ -312,7 +312,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxxx Xxxxxx$Xxxxxx xxxxx xxxx xxxx xxx xxxxx xx x xxxx xx xxxx$ xx xxxxx xxxxx xxxx xxx XxxxxXxxx xxxxxx xxx xxx xxxx$ xxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxx xxxxxxxx xxx xx xxx xxxxxxx.
 
 ```yaml
@@ -328,7 +328,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxxx Xxxxxx$Xxxxxx xxxxx xxxx xxxx xxx xxxxx xx x xxxx xx xxxx$ xx xxxxx xxxxx xxxx xxx XxxxxXxxx xxxxxx xxx xxx xxxx$ xxx xxx Xxxxxxx xxxxxxxx xx xxx xxxxxx xxxxxxxx xxx xx xxx xxxxxxx.
 
 ```yaml
@@ -343,7 +343,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxx xxxx xx xx xxxxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxx.
 
@@ -365,7 +365,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -List
 Xxxxxxx xxxx xxx xxxxx xxxxx xx xxxx xxxxx xxxx.
 Xx xxxxxxx$ Xxxxxx$Xxxxxx xxxxxxx x XxxxxXxxx xxxxxx xxx xxxx xxxxx xx xxxxx.
 
@@ -381,7 +381,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxx
+### -NotMatch
 Xxxxx xxxx xxxx xxxx xxx xxxxx xxx xxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -396,7 +396,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxxxx xxx xxxx xx xxx xxxxx xx xx xxxxxxxx.
 Xxxxxxxxx xxx xxxxxxxxx.
 Xxx xxxxxxx xxxxxxxx xx xxx xxxxx xxxxxxxxx.
@@ -416,7 +416,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Pattern
 Xxxxxxxxx xxx xxxx xx xxxx.
 Xxxx x xxxxxx xx xxxxxxx xxxxxxxxxx.
 Xx xxx xxxx x xxxxxx$ xxx xxx XxxxxxXxxxx xxxxxxxxx.
@@ -435,7 +435,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Quiet
 Xxxxxxx x Xxxxxxx xxxxx $xxxx xx xxxxx$$ xxxxxxx xx x XxxxxXxxx xxxxxx.
 Xxx xxxxx xx $xxxx$ xx xxx xxxxxxx xx xxxxx$ xxxxxxxxx$ xxx xxxxx xx $xxxxx$.
 
@@ -451,7 +451,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxx
+### -SimpleMatch
 Xxxx x xxxxxx xxxxx xxxxxx xxxx x xxxxxxx xxxxxxxxxx xxxxx.
 Xx x xxxxxx xxxxx$ Xxxxxx$Xxxxxx xxxxxxxx xxx xxxxx xxx xxx xxxx xx xxx Xxxxxxx xxxxxxxxx.
 Xx xxxx xxx xxxxxxxxx xxx xxxxx xx xxx Xxxxxxx xxxxxxxxx xx x xxxxxxx xxxxxxxxxx xxxxxxxxx.
@@ -468,7 +468,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -LiteralPath
 Xxxxxxxxx xxx xxxx xx xxx xxxxx xx xx xxxxxxxx.
 Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
 Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
@@ -489,12 +489,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxx xxxxxx xxxx xxx x XxXxxxxx xxxxxx xx Xxxxxx$Xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxXxxx xx Xxxxxx.Xxxxxxx
+### Microsoft.PowerShell.Commands.MatchInfo or System.Boolean
 Xx xxxxxxx$ xxx xxxxxx xx x xxx xx XxxxxXxxx xxxxxxx$ xxx xxx xxxx xxxxx xxxxx.
 Xx xxx xxx xxx Xxxxx xxxxxxxxx$ xxx xxxxxx xx x Xxxxxxx xxxxx xxxxxxxxxx xxxxxxx xxx xxxxxxx xxx xxxxx.
 
@@ -530,7 +530,7 @@ xxxxxx$xxxxxx $xxxx xxxx.xxx $xxxxxxx $xxxx$ $ xxx$xxxxxx $ xxxxxx$xxxx $xxxxxxx
 
 ## XXXXXXX XXXXX
 
-[xxxxx$Xxxxxxxxxx$Xxxxxxxxx]()
+[about_Comparison_Operators]()
 
-[xxxxx$Xxxxxxx$Xxxxxxxxxxx]()
+[about_Regular_Expressions]()
 

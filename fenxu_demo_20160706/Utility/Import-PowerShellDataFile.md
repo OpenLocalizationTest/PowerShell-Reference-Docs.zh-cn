@@ -4,18 +4,18 @@ online version: http://go.microsoft.com/fwlink/?LinkID=623621
 schema: 2.0.0
 ---
 
-# Xxxxxx$XxxxxXxxxxXxxxXxxx
+# Import-PowerShellDataFile
 ## XXXXXXXX
 $$Xxxx xx xxx Xxxxxxxx$$
 
 ## XXXXXX
 
-### XxXxxx $Xxxxxxx$
+### ByPath (Default)
 ```
 Import-PowerShellDataFile [[-Path] <String[]>]
 ```
 
-### XxXxxxxxxXxxx
+### ByLiteralPath
 ```
 Import-PowerShellDataFile [-LiteralPath <String[]>]
 ```
@@ -34,7 +34,7 @@ $$ Xxx xxxxxxx xxxxxxxxxxx xxxx $$
 
 ## XXXXXXXXXX
 
-### $XxxxxxxXxxx
+### -LiteralPath
 $$Xxxx XxxxxxxXxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -49,7 +49,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 $$Xxxx Xxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -66,17 +66,17 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx$$
+### System.String[]
 
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxxx.Xxxxxxxxx
+### System.Collections.Hashtable
 
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000](http://go.microsoft.com/fwlink/?LinkID=623621)
+[http://go.microsoft.com/fwlink/?LinkID=623621](http://go.microsoft.com/fwlink/?LinkID=623621)
 

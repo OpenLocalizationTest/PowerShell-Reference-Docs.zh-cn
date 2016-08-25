@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx
+# Get-AzureStorageServiceMetricsProperty
 ## XXXXXXXX
 Xxxx xxxxxxx xxxxxxxxxx xxx xxx xxxxx$0 Xxxxxxx xxxxxxx.
 
@@ -30,7 +30,7 @@ Xxxx xxxxxxx xxxx xxxxxxx xxxxxxxxxx xxx xxxx xxxxxxx xxx xxx Xxxx xxxxxxx xxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -46,7 +46,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -MetricsType
 Xxxxxxxxx x xxxxxxx xxxx.
 Xxxx xxxxxx xxxx xxx xxxxx$0 Xxxxxxx xxxxxxx xxxxxxx xxxxxxxxxx xxx xxx xxxxxxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 xxxx$xxxxxxxxxxx Xxxx xxx Xxxxxx.
@@ -64,7 +64,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -ServiceType
 Xxxxxxxxx xxx xxxxxxx xxxxxxx xxxx.
 Xxxx xxxxxx xxxx xxx xxxxxxx xxxxxxxxxx xxx xxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 xxxx$xxxxxxxxxxx
@@ -94,8 +94,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx](ae9762aa-8104-4bb4-a3e5-ec3b3ce748a5)
+[Set-AzureStorageServiceMetricsProperty](ae9762aa-8104-4bb4-a3e5-ec3b3ce748a5)
 
 

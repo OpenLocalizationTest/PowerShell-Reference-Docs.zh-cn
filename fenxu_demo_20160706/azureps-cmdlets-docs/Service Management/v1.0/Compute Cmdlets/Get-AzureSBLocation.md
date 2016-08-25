@@ -7,39 +7,39 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureSBLocation
-## SYNOPSIS
-Gets the location of the Service Bus.
+## XXXXXXXX
+Xxxx xxx xxxxxxxx xx xxx Xxxxxxx Xxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureSBLocation
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Get-AzureSBLocation cmdlet returns the locations from which the Service Bus is available.
+Xxx Xxx$XxxxxXXXxxxxxxx xxxxxx xxxxxxx xxx xxxxxxxxx xxxx xxxxx xxx Xxxxxxx Xxx xx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Get the Service Bus location
+### 0$ Xxx xxx Xxxxxxx Xxx xxxxxxxx
 ```
 PS C:\>Get-AzureSBLocation
 ```
 
-This example gets the location of the Service Bus.
+Xxxx xxxxxxx xxxx xxx xxxxxxxx xx xxx Xxxxxxx Xxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureSBNamespace](1d1be2c9-46f9-4413-8766-77361f7f4116)
 

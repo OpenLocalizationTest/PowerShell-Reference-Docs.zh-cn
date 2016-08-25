@@ -7,33 +7,33 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureRMAutomationRunbook
-## SYNOPSIS
-Creates an Automation runbook.
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureRMAutomationRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  [-Description <String>] [-LogProgress <Boolean]>] [-LogVerbose <Boolean]>] [-Tags <IDictionary>] [-Type]
 ```
 
-## DESCRIPTION
-The **New-AzureRmAutomationRunbook** cmdlet creates an empty azure_2 Automation runbook by using APS.
-Specify a name for the runbook.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxx xx xxxxx xxxxx$0 Xxxxxxxxxx xxxxxxx xx xxxxx XXX.
+Xxxxxxx x xxxx xxx xxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a runbook
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx
 ```
 PS C:\>New-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbook02" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command creates a runbook named Runbook02 in the azure_2 Automation account named Contoso17.
+Xxxx xxxxxxx xxxxxxx x xxxxxxx xxxxx Xxxxxxx00 xx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account in which this cmdlet creates a runbook.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -48,7 +48,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-Specifies a description for the runbook.
+Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -63,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -LogProgress
-Specifies whether the runbook logs progress.
+Xxxxxxxxx xxxxxxx xxx xxxxxxx xxxx xxxxxxxx.
 
 ```yaml
 Type: Boolean]
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -LogVerbose
-Specifies whether logging includes detailed information.
+Xxxxxxxxx xxxxxxx xxxxxxx xxxxxxxx xxxxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: Boolean]
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies a name for the runbook.
+Xxxxxxxxx x xxxx xxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -108,7 +108,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet creates a runbook.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -123,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-Specifies a dictionary of tags for the new runbook.
+Xxxxxxxxx x xxxxxxxxxx xx xxxx xxx xxx xxx xxxxxxx.
 
 ```yaml
 Type: IDictionary
@@ -138,17 +138,13 @@ Accept wildcard characters: False
 ```
 
 ### -Type
-Specifies the type of runbook that this cmdlet creates.
-Valid values are: 
+Xxxxxxxxx xxx xxxx xx xxxxxxx xxxx xxxx xxxxxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- PowerShell
--- GraphicalPowerShell
--- PowerShellWorkflow
--- GraphicalPowerShellWorkflow
--- Graph 
+$$ XxxxxXxxxx $$ XxxxxxxxxXxxxxXxxxx $$ XxxxxXxxxxXxxxxxxx $$ XxxxxxxxxXxxxxXxxxxXxxxxxxx $$ Xxxxx 
 
-The value Graph is obsolete.
-It is equivalent to GraphicalPowerShellWorkflow.
+Xxx xxxxx Xxxxx xx xxxxxxxx.
+Xx xx xxxxxxxxxx xx XxxxxxxxxXxxxxXxxxxXxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -163,15 +159,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
 ### Microsoft.Azure.Commands.Automation.Model.Job
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Export-AzureRmAutomationRunbook](614eee0d-f18e-4843-bed6-6cf43db59f75)
 

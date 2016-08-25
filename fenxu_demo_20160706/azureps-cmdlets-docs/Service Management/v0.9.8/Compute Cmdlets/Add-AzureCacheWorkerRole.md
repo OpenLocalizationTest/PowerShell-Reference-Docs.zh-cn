@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxXxxxxxXxxx
+# Add-AzureCacheWorkerRole
 ## XXXXXXXX
 Xxxx x xxxxxxxxx xxxxx xxxxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
@@ -33,7 +33,7 @@ Xxxx xxxxxxx xxxx x xxxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxx
+### -Instances
 Xxxxxxxxx xxx xxxxxx xx xxxxxx xxxx xxxxxxxxx xx xxxxxx xx xxx xxxxx xxxxxx xxxx.
 
 ```yaml
@@ -48,7 +48,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxx xxxxxx xxxx.
 
 ```yaml
@@ -71,10 +71,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxxxxxxxXxxx](a836221d-899c-40af-b2f7-0629c13e3de3)
+[Enable-AzureMemcacheRole](a836221d-899c-40af-b2f7-0629c13e3de3)
 
-[Xxx$XxxxxXxxxXxxXxxx](72be1e83-84e2-49fc-aa52-b3d3dd0490a3)
+[Add-AzureNodeWebRole](72be1e83-84e2-49fc-aa52-b3d3dd0490a3)
 
-[Xxx$XxxxxXXXXxxXxxx](6dd8d854-912d-4281-977c-ff3ec15ccf51)
+[Add-AzurePHPWebRole](6dd8d854-912d-4281-977c-ff3ec15ccf51)
 
 

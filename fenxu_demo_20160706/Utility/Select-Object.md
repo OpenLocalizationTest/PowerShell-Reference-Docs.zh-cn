@@ -4,27 +4,27 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294007
 schema: 2.0.0
 ---
 
-# Xxxxxx$Xxxxxx
+# Select-Object
 ## XXXXXXXX
 Xxxxxxx xxxxxxx xx xxxxxx xxxxxxxxxx.
 
 ## XXXXXX
 
-### XxxxxxxXxxxxxxxx $Xxxxxxx$
+### DefaultParameter (Default)
 ```
 Select-Object [-InputObject <PSObject>] [[-Property] <Object[]>] [-ExcludeProperty <String[]>]
  [-ExpandProperty <String>] [-Unique] [-Last <Int32>] [-First <Int32>] [-Skip <Int32>] [-Wait]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### XxxxXxxxXxxxxxxxx
+### SkipLastParameter
 ```
 Select-Object [-InputObject <PSObject>] [[-Property] <Object[]>] [-ExcludeProperty <String[]>]
  [-ExpandProperty <String>] [-Unique] [-SkipLast <Int32>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### XxxxxXxxxxxxxx
+### IndexParameter
 ```
 Select-Object [-InputObject <PSObject>] [-Unique] [-Wait] [-Index <Int32[]>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
@@ -165,7 +165,7 @@ Xxxxxxx xxxx xxxxxxxxx$ xxxx xxx xxxxx xxxx xxxx$xxxx xxxxx xxxxx xx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxXxxxxxxx
+### -ExcludeProperty
 Xxxxxxx xxx xxxxxxxxx xxxxxxxxxx xxxx xxx xxxxxxxxx.
 Xxxxxxxxx xxx xxxxxxxxx.
 Xxxx xxxxxxxxx xx xxxxxxxxx xxxx xxxx xxx xxxxxxx xxxx xxxxxxxx xxx Xxxxxxxx xxxxxxxxx.
@@ -189,7 +189,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxx
+### -ExpandProperty
 Xxxxxxxxx x xxxxxxxx xx xxxxxx$ xxx xxxxxxxxx xxxx xx xxxxxxx xxxxxx xx xxxx xx xxxxxx xxxx xxxxxxxx. Xxxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xxxx.
 
 Xxx xxxxxxx$ xx xxx xxxxxxxxx xxxxxxxx xx xx xxxxx$ xxxx xxxxx xx xxx xxxxx xx xxxxxxxx xx xxx xxxxxx.
@@ -207,7 +207,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Index
 Xxxxxxx xxxxxxx xxxx xx xxxxx xxxxx xx xxxxx xxxxx xxxxxx.
 Xxxxx xxx xxxxxxx xx x xxxxx$xxxxxxxxx xxxx.
 
@@ -225,7 +225,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxx xxxxx xx xxx xxxxxxxx xxxxxxxxx xxx xx x xxxxxxxxxx xxxxxxxx$ xxxxx xx x xxxx xxxxx xxxx xxxxxxxxx x xxxx xxx xxxxxxxxxx x xxxxx xxx xxx xxxxxxxx xxxxxxx.
 Xxxxx xxxx xxx$
 
@@ -246,7 +246,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxx xxxxx xx xxx xxxxxxxx xxxxxxxxx xxx xx x xxxxxxxxxx xxxxxxxx$ xxxxx xx x xxxx xxxxx xxxx xxxxxxxxx x xxxx xxx xxxxxxxxxx x xxxxx xxx xxx xxxxxxxx xxxxxxx.
 Xxxxx xxxx xxx$
 
@@ -266,7 +266,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxxxxxx xx xxxx xx xxx xxxxxx xxxxxxx xxx xxxxxxxx.
 Xxxx xxxxxxxxx xxxxxxx xxx xx xxxx xxxxxxx xx Xxxxxx$Xxxxxx.
 
@@ -285,7 +285,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Last
 Xxxxxxxxx xxx xxxxxx xx xxxxxxx xx xxxxxx xxxx xxx xxx xx xx xxxxx xx xxxxx xxxxxxx.
 
 ```yaml
@@ -300,7 +300,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Property
 Xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx.
 Xxxxxxxxx xxx xxxxxxxxx.
 
@@ -322,7 +322,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -SkipLast
 Xxx xxxxx xx xxx xxxxxxxx xxxxxxxxx xxx xx x xxxxxxxxxx xxxxxxxx$ xxxxx xx x xxxx xxxxx xxxx xxxxxxxxx x xxxx xxx xxxxxxxxxx x xxxxx xxx xxx xxxxxxxx xxxxxxx.
 Xxxxx xxxx xxx$
 
@@ -342,7 +342,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Unique
 Xxxxxxxxx xxxx xx x xxxxxx xx xxx xxxxx xxxxxxx xxx xxxxxxxxx xxxxxxxxxx xxx xxxxxx$ xxxx x xxxxxx xxxxxx xx xxx xxxxxx xxxx xx xxxxxxxx.
 
 Xxxx xxxxxxxxx xx xxxx$xxxxxxxxx.
@@ -360,7 +360,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Wait
 Xxxxx xxx xxxxxxxxxxxx.
 Xxxxxxx XxxxxXxxxx xxxx xxxxxxxx xx xxx xxxxx xxxx xxxx xxxxxx xx xxx xxxxxxx xxxxxxxx xxx xxxx xxxx xxxxxxxx xxx xxxxxxx.
 Xx xxxxxxx$ xx xxx xxxxxxx x Xxxxxx$Xxxxxx xxxxxxx xxxx xxx Xxxxx xx Xxxxx xxxxxxxxxx xx x xxxxxxx xxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxx xxx xxxxxxx xxxx xxxxxxxxx xxx xxxxxxx xx xxxx xx xxx xxxxxxxx xxxxxx xx xxxxxxx xx xxxxxxxxx.
@@ -379,7 +379,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -First
 $$Xxxx Xxxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -394,7 +394,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Skip
 $$Xxxx Xxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -411,12 +411,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxx xxxxxx xx Xxxxxx$Xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 
 ## XXXXX
 Xxx xxx xxxx xxxxx xx xxx Xxxxxx$Xxxxxx xxxxxx xx xxx xxxxx$xx xxxxx$ $xxxxxx$.
@@ -429,9 +429,9 @@ Xxx xxxx xxxxxxxxxxx$ xxx $Xxxxx Xxxxxx Xxxxxxx xx xxx Xxxxxxxx$ xx $Xxxxxxxx Xx
 
 ## XXXXXXX XXXXX
 
-[Xxxxx$Xxxxxx]()
+[Group-Object]()
 
-[Xxxx$Xxxxxx]()
+[Sort-Object]()
 
-[Xxxxx$Xxxxxx]()
+[Where-Object]()
 

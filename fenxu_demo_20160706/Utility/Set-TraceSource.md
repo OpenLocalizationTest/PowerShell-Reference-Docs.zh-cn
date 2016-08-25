@@ -4,26 +4,26 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294014
 schema: 2.0.0
 ---
 
-# Xxx$XxxxxXxxxxx
+# Set-TraceSource
 ## XXXXXXXX
 Xxxxxxxxxx$ xxxxxx$ xxx xxxxx x xxxxx xx Xxxxxxx XxxxxXxxxx xxxxxxxxxx.
 
 ## XXXXXX
 
-### xxxxxxxXxx $Xxxxxxx$
+### optionsSet (Default)
 ```
 Set-TraceSource [-Name] <String[]> [[-Option] <PSTraceSourceOptions>] [-ListenerOption <TraceOptions>]
  [-FilePath <String>] [-Force] [-Debugger] [-PSHost] [-PassThru] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### xxxxxxXxxXxxxxxxxxXxx
+### removeAllListenersSet
 ```
 Set-TraceSource [-Name] <String[]> [-RemoveListener <String[]>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### xxxxxxXxxxXxxxxxxxxXxx
+### removeFileListenersSet
 ```
 Set-TraceSource [-Name] <String[]> [-RemoveFileListener <String[]>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
@@ -54,7 +54,7 @@ Xx xxxx xxx Xxxx xxxxxxxxx xx xxxxxxxx xxx xxxxxxxxx xxxx xxx xxxxx xxxxxx xxx x
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxx
+### -Debugger
 Xxxxx xxx xxxxx xxxxxx xx xxx xxxxxxxx.
 Xxx xxx xxxx xxx xxxxxx xx xxx xxxx$xxxx xx xxxxxx xxxx xxxxxxxx xx xx Xxxxxxxxx Xxxxxx Xxxxxx.
 Xxxx xxxxxxxxx xxxx xxxxxxx xxx xxxxxxx xxxxx xxxxxxxx.
@@ -71,7 +71,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -FilePath
 Xxxxx xxx xxxxx xxxxxx xx xxx xxxxxxxxx xxxx.
 Xxxx xxxxxxxxx xxxx xxxxxxx xxx xxxx xxxxx xxxxxxxx.
 Xx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxx$ xxx xxx XxxxxxXxxxXxxxxxxx xxxxxxxxx xx xxxx xxx xxxxx.
@@ -88,7 +88,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 Xxxxxx xxx xxxxxx xx xxxxxxxxx x xxxx$xxxx xxxx.
 Xxx xxxx xxx XxxxXxxx xxxxxxxxx.
 
@@ -104,7 +104,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -120,7 +120,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -135,7 +135,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxx
+### -ListenerOption
 Xxxx xxxxxxxx xxxx xx xxx xxxxxx xx xxxx xxxxx xxxxxxx xx xxx xxxxxx.
 Xxx xxxxx xxxxxx xxx $Xxxx$$ $XxxxxxxXxxxxxxxxXxxxx$$ $XxxxXxxx$$ $Xxxxxxxxx$$ $XxxxxxxXx$$ $XxxxxxXx$$ xxx $Xxxxxxxxx$.
 $Xxxx$ xx xxx xxxxxxx.
@@ -155,7 +155,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxxx xxxxx xxxxxxxxxx xxx xxxxxx.
 Xxxxx xxx xxxx xx xxx xxxxx xxxxxx xx xxxx xxxxxxxxx.
 Xxxxxxxxx xxx xxxxxxxxx.
@@ -172,7 +172,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Option
 Xxxxxxxxxx xxx xxxx xx xxxxxx xxxx xxx xxxxxx.
 
 Xxx xxxxx xxxxxx xxx$ Xxxx$ Xxxxxxxxxxx$ Xxxxxxx$ Xxxxxxxxx$ Xxxxxx$ Xxxxxxxx$ Xxxxxxxxx$ Xxxxxx$ Xxxxxxxxx$ Xxxx$ Xxxxx$ Xxxxxx$ Xxxxxxx$ Xxxxxxx$ XxxxxXxxx$ Xxxx$ Xxxxx$ XxxxxxxxxXxxx$ Xxxxxx$ xxx Xxx.
@@ -196,7 +196,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XXXxxx
+### -PSHost
 Xxxxx xxx xxxxx xxxxxx xx xxx Xxxxxxx XxxxxXxxxx xxxx.
 Xxxx xxxxxxxxx xxxx xxxxxxx xxx XXXxxx xxxxx xxxxxxxx.
 
@@ -212,7 +212,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxxx xxxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -228,7 +228,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxXxxxxxxx
+### -RemoveFileListener
 Xxxxx xxx xxxxx xx xxxxxxxx xxx xxxx xxxxx xxxxxxxx xxxxxxxxxx xxxx xxx xxxxxxxxx xxxx.
 Xxxxx xxx xxxx xxx xxxx xxxx xx xxx xxxxx xxxxxx xxxx.
 
@@ -244,7 +244,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxx
+### -RemoveListener
 Xxxxx xxx xxxxx xx xxxxxxxx xxx xxxxx xxxxxxxx.
 
 Xxx xxx xxxxxxxxx xxxxxx xxxx XxxxxxXxxxxxxx$
@@ -269,12 +269,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx x xxxx xx Xxx$XxxxxXxxxxx.
 
 ## XXXXXXX
 
-### Xxxx xx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxxxx
+### None or System.Management.Automation.PSTraceSource
 Xxxx xxx xxx xxx XxxxXxxx xxxxxxxxx$ Xxx$XxxxxXxxxxx xxxxxxxxx x Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxxxx xxxxxx xxxxxxxxxxxx xxx xxxxx xxxxxxx.
 Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -307,9 +307,9 @@ Xxx xxxxx xxxxxxx xxx xxxx xxxxxx xxx xxxxxx xxxxxxxxxxxxx xxxx xxx xxxxxxxxx xx
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxx]()
+[Get-TraceSource]()
 
-[Xxx$XXXxxxx]()
+[Set-PSDebug]()
 
-[Xxxxx$Xxxxxxx]()
+[Trace-Command]()
 

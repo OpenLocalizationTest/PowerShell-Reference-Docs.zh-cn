@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxxxxxxxx
+# Import-AzureRmAutomationDscNodeConfiguration
 ## XXXXXXXX
 Xxxxxxx x XXX xxxxxxxx xx x XXX xxxx xxxxxxxxxxxxx xx Xxxxxxxxxx.
 
@@ -34,7 +34,7 @@ Xx xxxxx xx xx xxxxxxxx XXX xxxx xxxxxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxxxxx.xxxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxx xxxx xxxxxx xxxxxxx x XXX xxxx xxxxxxxxxxxxx.
 
 ```yaml
@@ -49,7 +49,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxxxXxxx
+### -ConfigurationName
 Xxxxxxxxx xxx xxxx xx x XXX xxxxxxxxxxxxx xx Xxxxxxxxxx xx xxx xx xxx xxxxxxxxx xxx xxxxxxxxx xxx xxx xxxx xxxxxxxxxxxxx xx xxxxxx.
 
 ```yaml
@@ -64,7 +64,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx xx xxxxxxxx XXX xxxx xxxxxxxxxxxxx xx Xxxxxxxxxx.
 
 ```yaml
@@ -79,7 +79,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxxxx xxx xxxx xx xxx XXX xxxxxxxxxxxxx xxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -94,7 +94,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x XXX xxxx xxxxxxxxxxxxx.
 
 ```yaml
@@ -109,7 +109,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -124,7 +124,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -147,8 +147,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](091cd841-4aaf-45de-a8f2-6f973fb9c91b)
+[Export-AzureRmAutomationDscConfiguration](091cd841-4aaf-45de-a8f2-6f973fb9c91b)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](cd411497-be17-46f7-8708-519f02312553)
+[Get-AzureRmAutomationDscConfiguration](cd411497-be17-46f7-8708-519f02312553)
 
 

@@ -7,32 +7,32 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureRMAutomationWebhook
-## SYNOPSIS
-Modifies a webhook for an Automation runbook.
+## XXXXXXXX
+Xxxxxxxx x xxxxxxx xxx xx Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureRMAutomationWebhook [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  [-IsEnabled] <Boolean]> [[-Parameters] <IDictionary>]
 ```
 
-## DESCRIPTION
-The **Set-AzureRmAutomationWebhook** cmdlet modifies a webhook for an azure_2 Automation runbook.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxxx x xxxxxxx xxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Disable a webhook
+### Xxxxxxx 0$ Xxxxxxx x xxxxxxx
 ```
 PS C:\>Set-AzureAutomationWebhook -Name "Webhook01" -ResourceGroup "ResourceGroup01" -AutomationAccountName "AutomationAccount01" -IsEnabled $False
 ```
 
-This command disables a webhook named Webhook01 in the Automation account named AutomationAccount01.
+Xxxx xxxxxxx xxxxxxxx x xxxxxxx xxxxx Xxxxxxx00 xx xxx Xxxxxxxxxx xxxxxxx xxxxx XxxxxxxxxxXxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of an Automation account in which this cmdlet modifies a webhook.
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -47,7 +47,7 @@ Accept wildcard characters: False
 ```
 
 ### -IsEnabled
-Specifies whether the webhook is enabled.
+Xxxxxxxxx xxxxxxx xxx xxxxxxx xx xxxxxxx.
 
 ```yaml
 Type: Boolean]
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies a name of the webhook that this cmdlet modifies.
+Xxxxxxxxx x xxxx xx xxx xxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -77,10 +77,10 @@ Accept wildcard characters: False
 ```
 
 ### -Parameters
-Specifies a dictionary of key/value pairs.
-The keys are the runbook parameter names.
-The values are the runbook parameter values.
-When the runbook starts in response to a webhook, these parameters are passed to the runbook.
+Xxxxxxxxx x xxxxxxxxxx xx xxx$xxxxx xxxxx.
+Xxx xxxx xxx xxx xxxxxxx xxxxxxxxx xxxxx.
+Xxx xxxxxx xxx xxx xxxxxxx xxxxxxxxx xxxxxx.
+Xxxx xxx xxxxxxx xxxxxx xx xxxxxxxx xx x xxxxxxx$ xxxxx xxxxxxxxxx xxx xxxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: IDictionary
@@ -95,7 +95,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet modifies a webhook.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -109,13 +109,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationWebhook](048bf33a-0bc1-4433-92e0-bd906f6edb8d)
 

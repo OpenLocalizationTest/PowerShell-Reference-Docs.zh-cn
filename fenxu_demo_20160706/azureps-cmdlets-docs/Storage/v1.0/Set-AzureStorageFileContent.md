@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxXxxxxxx
+# Set-AzureStorageFileContent
 ## XXXXXXXX
 Xxxxxxx xxx xxxxxxxx xx x xxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Set-AzureStorageFileContent [-ShareName] <String> [-Source] <String> [[-Path] <String>]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
@@ -20,14 +20,14 @@ Set-AzureStorageFileContent [-ShareName] <String> [-Source] <String> [[-Path] <S
  [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Set-AzureStorageFileContent [-Share] <CloudFileShare> [-Source] <String> [[-Path] <String>]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>] [-Force]
  [-PassThru] [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 Set-AzureStorageFileContent [-Directory] <CloudFileDirectory> [-Source] <String> [[-Path] <String>]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>] [-Force]
@@ -70,7 +70,7 @@ Xxx xxxx xxxxxxxxxxx xxxxx xxxxxx xxxxxx$ xxxx $$XXXX$Xxxxxxx$$Xxx$Xxxx xxxxx$Xx
 
 ## XXXXXXXXXX
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ClientTimeoutPerRequest
 $$Xxxx$$
 
 ```yaml
@@ -85,7 +85,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxXxxxx
+### -ConcurrentTaskCount
 $$Xxxx$$
 
 ```yaml
@@ -100,7 +100,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Context
 $$Xxxx$$
 
 ```yaml
@@ -115,7 +115,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Directory
 Xxxxxxxxx x xxxxxx xx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx.
 Xxxx xxxxxx xxxxxxx xxx xxxx xx xxx xxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 Xx xxxxxx x xxxxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
@@ -133,7 +133,7 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 $$Xxxx$$
 
 ```yaml
@@ -148,7 +148,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 $$Xxxx$$
 
 ```yaml
@@ -163,7 +163,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 $$Xxxx$$
 
 ```yaml
@@ -178,7 +178,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ServerTimeoutPerRequest
 $$Xxxx$$
 
 ```yaml
@@ -193,7 +193,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Share
 Xxxxxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx.
 Xxxx xxxxxx xxxxxxx xx x xxxx xx xxx xxxx xxxxx xxxx xxxxxxxxx xxxxxxxxx.
 Xx xxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxx xxxxxx.
@@ -212,7 +212,7 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -ShareName
 Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx.
 Xxxx xxxxxx xxxxxxx xx x xxxx xx xxx xxxx xxxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -228,7 +228,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Source
 $$Xxxx$$
 
 ```yaml
@@ -243,7 +243,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -258,7 +258,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -281,10 +281,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxxxxxxXxxxxxxxx](2cbd0756-0224-43b0-8e22-a7316b7e24c2)
+[Remove-AzureStorageDirectory](2cbd0756-0224-43b0-8e22-a7316b7e24c2)
 
-[Xxx$XxxxxXxxxxxxXxxxxxxxx](2eea330c-759d-4dee-81e9-2e72de9f707e)
+[New-AzureStorageDirectory](2eea330c-759d-4dee-81e9-2e72de9f707e)
 
-[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](7e23b9f6-5f66-49a3-beb8-e2639c5234d7)
+[Get-AzureStorageFileContent](7e23b9f6-5f66-49a3-beb8-e2639c5234d7)
 
 

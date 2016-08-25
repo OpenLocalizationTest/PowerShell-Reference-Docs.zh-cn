@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxXxxxxxxxx
+# Add-AzureVMNetworkInterface
 ## XXXXXXXX
 Xxx x Xxxxxxx Xxxxxxxxx xx xxx XX
 
@@ -44,7 +44,7 @@ PS C:\> # Get the VM
 
 ## XXXXXXXXXX
 
-### $Xx
+### -Id
 Xx xx xxx Xxxxxxx Xxxxxxxxx.
 Xxxx xxx xx xxxxxx xxxxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
 
@@ -60,7 +60,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Profile
 ```yaml
 Type: AzureProfile
 Parameter Sets: (All)
@@ -73,7 +73,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XX
+### -VM
 Xxxxx XX Xxxxxx xx xxx xxx Xxxxxxx Xxxxxxxxx xx.
 Xxx xxxxx XX xxxxxx xxx xx xxxxxxx xxxx Xxx$XxxxxXXXxxxxx xxxxxx xx xxxxxx xxxxxxx xxx Xxx$XxxxxXX xxxxxx.
 

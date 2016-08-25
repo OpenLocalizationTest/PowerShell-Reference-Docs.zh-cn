@@ -4,13 +4,13 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293943
 schema: 2.0.0
 ---
 
-# Xxx$Xxxx
+# Add-Type
 ## XXXXXXXX
 Xxxx x Xxxxxxxxx .XXX Xxxxxxxxx xxxx $x xxxxx$ xx x Xxxxxxx XxxxxXxxxx xxxxxxx.
 
 ## XXXXXX
 
-### XxxxXxxxxx $Xxxxxxx$
+### FromSource (Default)
 ```
 Add-Type [-TypeDefinition] <String> [-Language <Language>] [-ReferencedAssemblies <String[]>]
  [-CodeDomProvider <CodeDomProvider>] [-CompilerParameters <CompilerParameters>] [-OutputAssembly <String>]
@@ -18,7 +18,7 @@ Add-Type [-TypeDefinition] <String> [-Language <Language>] [-ReferencedAssemblie
  [-InformationVariable <String>]
 ```
 
-### XxxxXxxxxx
+### FromMember
 ```
 Add-Type [-Name] <String> [-MemberDefinition] <String[]> [-Namespace <String>] [-UsingNamespace <String[]>]
  [-Language <Language>] [-ReferencedAssemblies <String[]>] [-CodeDomProvider <CodeDomProvider>]
@@ -26,21 +26,21 @@ Add-Type [-Name] <String> [-MemberDefinition] <String[]> [-Namespace <String>] [
  [-PassThru] [-IgnoreWarnings] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### XxxxXxxx
+### FromPath
 ```
 Add-Type [-Path] <String[]> [-ReferencedAssemblies <String[]>] [-CompilerParameters <CompilerParameters>]
  [-OutputAssembly <String>] [-OutputType <OutputAssemblyType>] [-PassThru] [-IgnoreWarnings]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### XxxxXxxxxxxXxxx
+### FromLiteralPath
 ```
 Add-Type -LiteralPath <String[]> [-ReferencedAssemblies <String[]>] [-CompilerParameters <CompilerParameters>]
  [-OutputAssembly <String>] [-OutputType <OutputAssemblyType>] [-PassThru] [-IgnoreWarnings]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### XxxxXxxxxxxxXxxx
+### FromAssemblyName
 ```
 Add-Type -AssemblyName <String[]> [-PassThru] [-IgnoreWarnings] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
@@ -257,7 +257,7 @@ Xxx xxxxx xxxxxxx xxxxx xxx Xxxx xxxxxx xx x xxxxxx xxxxxx xx xxx xxxx xxxxxx xx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxXxxx
+### -AssemblyName
 Xxxxxxxxx xxx xxxx xx xx xxxxxxxx xxxx xxxxxxxx xxx xxxxx.
 Xxx$Xxxx xxxxx xxx xxxxx xxxx xxx xxxxxxxxx xxxxxxxx.
 Xxxx xxxxxxxxx xx xxxxxxxx xxxx xxx xxx xxxxxxxx xxxxx xxxxx xx xx xxxxxxxx xxxx.
@@ -281,7 +281,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxXxxxxxxx
+### -CodeDomProvider
 Xxxxxxxxx x xxxx xxxxxxxxx xx xxxxxxxx.
 Xxx$Xxxx xxxx xxx xxxxxxxxx xxxxxxxx xx xxxxxxx xxx xxxxxx xxxx.
 Xxx xxxxxxx xx xxx XXxxxx xxxxxxxx. Xxx xxxx xxxxxxxxx xx xxx xxx xxxxx x xxxxxxxx xxxx xxxxxx xx xxxxxxxxx xx xxxxx xxx Xxxxxxxx xxxxxxxxx.
@@ -299,7 +299,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxxxxxx
+### -CompilerParameters
 Xxxxxxxxx xxx xxxxxxx xxx xxx xxxxxx xxxx xxxxxxxx.
 Xxxxx xxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxxxx xxxxxxxx.
 
@@ -320,7 +320,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxx
+### -IgnoreWarnings
 Xxxxxxx xxxxxxxx xxxxxxxx.
 Xxx xxxx xxxxxxxxx xx xxxxxxx Xxx$Xxxx xxxx xxxxxxxx xxxxxxxx xxxxxxxx xx xxxxxx.
 
@@ -336,7 +336,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxxxx xxx xxxx xx xxxxxx xxxx $xxxx xxxxx xx xxx $xxxxxxx xxxx$$ xx xx xxxxxxxx.
 Xxxxxxxx xxxxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xxxx.
 Xx xxx xxxxx x xxxxxx xx xxxxxxx xxxx$ Xxx$Xxxx xxxxxxxx xx xx xxx xxxx xxxx$ xxx xxxx xxxx xxx xxxx xxxx xx xxxx xxx xxxxxxxx.
@@ -357,7 +357,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxxxx xxx xxxx xx xxxxxx xxxx $xxxx xxxxx xx xxx $xxxxxxx xxxx$$ xx xx xxxxxxxx.
 Xxxxxxxx xxxxxxxxxx xxx xxxxxxxxx xx xxx xxxxxxxx xxxx.
 Xx xxx xxxxx x xxxxxx xx xxxxxxx xxxx$ Xxx$Xxxx xxxxxxxx xx xx xxx xxxx xxxx$ xxx xxxx xxxx xxx xxxx xxxx xx xxxx xxx xxxxxxxx.
@@ -377,7 +377,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Language
 Xxxxxxxxx xxx xxxxxxxx xxxx xx xxxx xx xxx xxxxxx xxxx.
 Xxx Xxx$Xxxx xxxxxx xxxx xxx xxxxx xx xxxx xxxxxxxxx xx xxxxxx xxx xxxxxxxxxxx XxxxXxxXxxxxxxx.
 Xxxxx xxxxxx xxx $XXxxxx$$ $XXxxxxXxxxxxx0$$ $XxxxxxXxxxx$$ xxx $XXxxxxx$.
@@ -396,7 +396,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -LiteralPath
 Xxxxxxxxx xxx xxxx xx xxxxxx xxxx xxxxx xx xxxxxxxx XXX xxxxx xxxx xxxxxxx xxx xxxxx.
 Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
 Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
@@ -415,7 +415,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxxxx
+### -MemberDefinition
 Xxxxxxxxx xxx xxxxxxxxxx xx xxxxxxx xxx xxx xxxxx.
 Xxx$Xxxx xxxxxxxxx xxx xxxxxxxx xxxx xxxx xx xxxxxxxx xx xxxxxxx xxx xxxxxxxxxx xx xxxxxxx.
 
@@ -434,7 +434,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxx xx xxxxxx.
 Xxxx xxxxxxxxx xx xxxxxxxx xxxx xxxxxxxxxx x xxxx xxxx x xxxxxx xxxxxxxxxx.
 
@@ -455,7 +455,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Namespace
 Xxxxxxxxx x xxxxxxxxx xxx xxx xxxx.
 
 Xx xxxx xxxxxxxxx xx xxx xxxxxxxx xx xxx xxxxxxx$ xxx xxxx xx xxxxxxx xx xxx Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxXxxx.XxxxXxxxxxxxxXxxxx xxxxxxxxx.
@@ -473,7 +473,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxx
+### -OutputAssembly
 Xxxxxxxxx x XXX xxxx xxx xxx xxxxxxxx xxxx xxx xxxxxxxxx xxxx xx xxx xxxxxxxx.
 Xxxxx x xxxx $xxxxxxxx$ xxx xxxx xxxx.
 Xxxxxxxx xxxxxxxxxx xxx xxxxxxxxx.
@@ -491,7 +491,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -OutputType
 Xxxxxxxxx xxx xxxxxx xxxx xx xxx xxxxxx xxxxxxxx.
 Xxxxx xxxxxx xxx Xxxxxxx$ XxxxxxxXxxxxxxxxxx$ xxx XxxxxxxXxxxxxxxxxx.
 Xxx xxxx xxxxxxxxxxx xxxxx xxx xxxxxx$ xxx $XxxxxxXxxxxxxxXxxx Xxxxxxxxxxx$ xx XXXX.
@@ -513,7 +513,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxx x Xxxxxx.Xxxxxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxx xxxx xxxx xxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -529,7 +529,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxxxx xxx xxxx xx xxxxxx xxxx xxxxx xx xxxxxxxx XXX xxxxx xxxx xxxxxxx xxx xxxxx.
 
 Xx xxx xxxxxx xxxxxx xxxx xxxxx$ Xxx$Xxxx xxxxxxxx xxx xxxx xx xxx xxxxx xxx xxxxxxx xx xx$xxxxxx xxxxxxxx xx xxx xxxxx.
@@ -550,7 +550,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxxxxxxx
+### -ReferencedAssemblies
 Xxxxxxxxx xxx xxxxxxxxxx xxxx xxxxx xxx xxxx xxxxxxx.
 Xx xxxxxxx$ Xxx$Xxxx xxxxxxxxxx Xxxxxx.xxx xxx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.xxx.
 Xxx xxxxxxxxxx xxxx xxx xxxxxxx xx xxxxx xxxx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxxxxxx.
@@ -569,7 +569,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxxxxx
+### -TypeDefinition
 Xxxxxxxxx xxx xxxxxx xxxx xxxx xxxxxxxx xxx xxxx xxxxxxxxxxx.
 Xxxxx xxx xxxxxx xxxx xx x xxxxxx xx xxxx$xxxxxx$ xx xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxx xxxx.
 Xxx xxxx xxxxxxxxxxx xxxxx xxxx$xxxxxxx$ xxx xxxxx$Xxxxxxx$Xxxxx $xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXX$000000$.
@@ -590,7 +590,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxxxx
+### -UsingNamespace
 Xxxxxxxxx xxxxx xxxxxxxxxx xxxx xxx xxxxxxxx xxx xxx xxxxx.
 Xxxx xx xxxx xxxx xxx Xxxxx xxxxxxx xx X$.
 
@@ -612,12 +612,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxxxxxx xx Xxx$Xxxx.
 
 ## XXXXXXX
 
-### Xxxx xx Xxxxxx.Xxxx
+### None or System.Type
 Xxxx xxx xxx xxx XxxxXxxx xxxxxxxxx$ Xxx$Xxxx xxxxxxx x Xxxxxx.Xxxx xxxxxx xxxx xxxxxxxxxx xxx xxx xxxx.
 Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -637,7 +637,7 @@ Xxx xxxx xxxxxxxxxxx xxxxx xxxx xxxxx$ xxx xxx Xxxxxxxxx .XXX Xxxxxxxxx XXX.
 
 ## XXXXXXX XXXXX
 
-[Xxx$Xxxxxx]()
+[Add-Member]()
 
-[Xxx$Xxxxxx]()
+[New-Object]()
 

@@ -7,45 +7,45 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureWebsiteJob
-## SYNOPSIS
-Gets the web jobs associated with a website
+## XXXXXXXX
+Xxxx xxx xxx xxxx xxxxxxxxxx xxxx x xxxxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureWebsiteJob [[-Name] <String>] [-JobName <String>] [-JobType <String>] [-Slot <String>]
 ```
 
-## DESCRIPTION
-Gets the web jobs associated with a website
+## XXXXXXXXXXX
+Xxxx xxx xxx xxxx xxxxxxxxxx xxxx x xxxxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Get specific web job info --------------
+### $$$$$$$$$$$$$$  Xxx xxxxxxxx xxx xxx xxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Get-AzureWebsiteJob -Name MyWebsite -JobName MyWebJob
 ```
 
-Gets a web job called MyWebJob from MyWebsite production slot
+Xxxx x xxx xxx xxxxxx XxXxxXxx xxxx XxXxxxxxx xxxxxxxxxx xxxx
 
-### --------------  Get all web jobs for a website --------------
+### $$$$$$$$$$$$$$  Xxx xxx xxx xxxx xxx x xxxxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Get-AzureWebsiteJob -Name MyWebsite
 ```
 
-Gets all web jobs associated with MyWebsite production slot
+Xxxx xxx xxx xxxx xxxxxxxxxx xxxx XxXxxxxxx xxxxxxxxxx xxxx
 
-### --------------  Get all triggered web jobs --------------
+### $$$$$$$$$$$$$$  Xxx xxx xxxxxxxxx xxx xxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Get-AzureWebsiteJob -Name MyWebsite -Slot staging -Type Triggered
 ```
 
-Gets all triggered web jobs from staging slot of MyWebsite
+Xxxx xxx xxxxxxxxx xxx xxxx xxxx xxxxxxx xxxx xx XxXxxxxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -JobName
-The web job name
+Xxx xxx xxx xxxx
 
 ```yaml
 Type: String
@@ -60,8 +60,8 @@ Accept wildcard characters: False
 ```
 
 ### -JobType
-The web job type.
-Can be 'triggered' or 'continuous'
+Xxx xxx xxx xxxx.
+Xxx xx $xxxxxxxxx$ xx $xxxxxxxxxx$
 
 ```yaml
 Type: String
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the Azure website
+Xxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -91,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-The slot name of the Azure website
+Xxx xxxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -105,13 +105,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 

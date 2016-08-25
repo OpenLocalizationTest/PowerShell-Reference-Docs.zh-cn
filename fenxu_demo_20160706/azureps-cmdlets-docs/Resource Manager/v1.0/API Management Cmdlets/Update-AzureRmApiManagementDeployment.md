@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Update-AzureRmApiManagementDeployment
-## SYNOPSIS
-Updates deployment of an API Management Service.
+## XXXXXXXX
+Xxxxxxx xxxxxxxxxx xx xx XXX Xxxxxxxxxx Xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -25,19 +25,19 @@ Update-AzureRmApiManagementDeployment
 Update-AzureRmApiManagementDeployment [-PassThru] -ApiManagement <PsApiManagement>
 ```
 
-## DESCRIPTION
-The **Update-AzureRmApiManagementDeployment** cmdlet updates current deployments of an API Management service.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxxx$$ xxxxxx xxxxxxx xxxxxxx xxxxxxxxxxx xx xx XXX Xxxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Update a deployment of an ApiManagement instance
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxxxx xx xx XxxXxxxxxxxxx xxxxxxxx
 ```
 PS C:\>Update-AzureRmApiManagementDeployment -ResourceGroupName "Contoso" -Name "ContosoApi" -Sku "Standard" -Capacity 3
 ```
 
-This command updates deployment of an API Management instance to a three unit capacity standard.
+Xxxx xxxxxxx xxxxxxx xxxxxxxxxx xx xx XXX Xxxxxxxxxx xxxxxxxx xx x xxxxx xxxx xxxxxxxx xxxxxxxx.
 
-### Example 2: Get an ApiManagement instance and rescale it
+### Xxxxxxx 0$ Xxx xx XxxXxxxxxxxxx xxxxxxxx xxx xxxxxxx xx
 ```
 PS C:\>$ApiManagement = Get-AzureRmApiManagement -ResourceGroupName "Contoso" -Name "ContosoApi"
 PS C:\> $ApiManagement.Sku = "Premium"
@@ -46,12 +46,12 @@ PS C:\> $ApiManagement.AddRegion("Central US", "Premium", 3)
 PS C:\> Update-AzureRmApiManagementDeployment -ApiManagement $ApiManagement
 ```
 
-This example gets an Api Management instance, scales it to five premium units and then adds an additional three units to the premium region.
+Xxxx xxxxxxx xxxx xx Xxx Xxxxxxxxxx xxxxxxxx$ xxxxxx xx xx xxxx xxxxxxx xxxxx xxx xxxx xxxx xx xxxxxxxxxx xxxxx xxxxx xx xxx xxxxxxx xxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AdditionalRegions
-Specifies additional deployment regions of azure_2 API Management.
+Xxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxx xx xxxxx$0 XXX Xxxxxxxxxx.
 
 ```yaml
 Type: 0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]
@@ -66,8 +66,8 @@ Accept wildcard characters: False
 ```
 
 ### -ApiManagement
-Specifies the **PsApiManagement** instance to get deployment configuration from.
-Use this parameter if the instance already has all the required changes.
+Xxxxxxxxx xxx $$XxXxxXxxxxxxxxx$$ xxxxxxxx xx xxx xxxxxxxxxx xxxxxxxxxxxxx xxxx.
+Xxx xxxx xxxxxxxxx xx xxx xxxxxxxx xxxxxxx xxx xxx xxx xxxxxxxx xxxxxxx.
 
 ```yaml
 Type: PsApiManagement
@@ -82,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -Capacity
-Specifies the SKU capacity of the master azure_2 API Management deployment region.
+Xxxxxxxxx xxx XXX xxxxxxxx xx xxx xxxxxx xxxxx$0 XXX Xxxxxxxxxx xxxxxxxxxx xxxxxx.
 
 ```yaml
 Type: Int32
@@ -97,25 +97,11 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the location of the master API Management deployment region.
+Xxxxxxxxx xxx xxxxxxxx xx xxx xxxxxx XXX Xxxxxxxxxx xxxxxxxxxx xxxxxx.
 
-Valid values are: 
+Xxxxx xxxxxx xxx$ 
 
--- North Central US
--- South Central US
--- Central US
--- West Europe
--- North Europe
--- West US
--- East US
--- East US 2
--- Japan East
--- Japan West
--- Brazil South
--- Southeast Asia
--- East Asia
--- Australia East
--- Australia Southeast
+$$ Xxxxx Xxxxxxx XX $$ Xxxxx Xxxxxxx XX $$ Xxxxxxx XX $$ Xxxx Xxxxxx $$ Xxxxx Xxxxxx $$ Xxxx XX $$ Xxxx XX $$ Xxxx XX 0 $$ Xxxxx Xxxx $$ Xxxxx Xxxx $$ Xxxxxx Xxxxx $$ Xxxxxxxxx Xxxx $$ Xxxx Xxxx $$ Xxxxxxxxx Xxxx $$ Xxxxxxxxx Xxxxxxxxx
 
 ```yaml
 Type: String
@@ -130,7 +116,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of API Management that this cmdlet updates.
+Xxxxxxxxx xxx xxxx xx XXX Xxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -145,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-passthru
+xxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -160,7 +146,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of resource group under which API Management exists.
+Xxxxxxxxx xxx xxxx xx xxxxxxxx xxxxx xxxxx xxxxx XXX Xxxxxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -175,13 +161,11 @@ Accept wildcard characters: False
 ```
 
 ### -Sku
-Specifies the tier of the master azure_2 API Management deployment region.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxxx$0 XXX Xxxxxxxxxx xxxxxxxxxx xxxxxx.
 
-Valid values are: 
+Xxxxx xxxxxx xxx$ 
 
--- Developer
--- Standard
--- Premium
+$$ Xxxxxxxxx $$ Xxxxxxxx $$ Xxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -197,7 +181,7 @@ Accept wildcard characters: False
 ```
 
 ### -VirtualNetwork
-Specifies the Virtual Network configuration of the master azure_2 API Management deployment region.
+Xxxxxxxxx xxx Xxxxxxx Xxxxxxx xxxxxxxxxxxxx xx xxx xxxxxx xxxxx$0 XXX Xxxxxxxxxx xxxxxxxxxx xxxxxx.
 
 ```yaml
 Type: PsApiManagementVirtualNetwork
@@ -211,13 +195,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmApiManagement](e067ded3-a2e3-4d53-8628-0ebbafa62721)
 

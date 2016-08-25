@@ -7,32 +7,32 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureRMAutomationRunbook
-## SYNOPSIS
-Modifies a runbook.
+## XXXXXXXX
+Xxxxxxxx x xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureRMAutomationRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  [-Description <String>] [-LogProgress <Boolean]>] [-LogVerbose <Boolean]>] [-Tags <IDictionary>]
 ```
 
-## DESCRIPTION
-The **Set-AzureRmAutomationRunbook** cmdlet modifies the configuration of an azure_2 Automation runbook in APS.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxxx xxx xxxxxxxxxxxxx xx xx xxxxx$0 Xxxxxxxxxx xxxxxxx xx XXX.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Enable verbose logging for a runbook
+### Xxxxxxx 0$ Xxxxxx xxxxxxx xxxxxxx xxx x xxxxxxx
 ```
 PS C:\>Set-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbook02" -LogVerbose $True -ResourceGroupName "ResourceGroup01"
 ```
 
-This command enables verbose logging for the jobs of the specified runbook in the azure_2 Automation account named Contoso17.
+Xxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxx xxx xxxx xx xxx xxxxxxxxx xxxxxxx xx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account in which this cmdlet modifies a runbook.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -47,7 +47,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-Specifies a description for the runbook.
+Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -LogProgress
-Specifies whether the runbook logs progress.
+Xxxxxxxxx xxxxxxx xxx xxxxxxx xxxx xxxxxxxx.
 
 ```yaml
 Type: Boolean]
@@ -77,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -LogVerbose
-Specifies whether logging includes detailed information.
+Xxxxxxxxx xxxxxxx xxxxxxx xxxxxxxx xxxxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: Boolean]
@@ -92,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the runbook that this cmdlet modifies.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -107,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet modifies a runbook.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -122,7 +122,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-Specifies a dictionary of tags to replace the current tags of the modified runbook.
+Xxxxxxxxx x xxxxxxxxxx xx xxxx xx xxxxxxx xxx xxxxxxx xxxx xx xxx xxxxxxxx xxxxxxx.
 
 ```yaml
 Type: IDictionary
@@ -136,15 +136,15 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
 ### Microsoft.Azure.Commands.Automation.Model.Runbook
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Export-AzureRmAutomationRunbook](614eee0d-f18e-4843-bed6-6cf43db59f75)
 

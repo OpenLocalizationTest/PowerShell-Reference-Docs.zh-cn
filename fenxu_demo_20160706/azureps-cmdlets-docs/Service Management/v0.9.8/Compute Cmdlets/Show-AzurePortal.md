@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxx$XxxxxXxxxxx
+# Show-AzurePortal
 ## XXXXXXXX
 Xxxx xxx Xxxxx Xxxxxxxxxx Xxxxxx.
 
@@ -33,7 +33,7 @@ Xxxx xxxxxxx xxxxx x xxxxxxx xx xxx Xxxxx xxxxxx$ xxxxxxx xxxxxxxxxxx xxxxx x xx
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xx xxxx xx xxx xxxxxx.
 
 ```yaml
@@ -48,7 +48,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Realm
 Xxxxxxxxx xxx xxxxxxxxxxxx XX xx xxx xxx xxxxxxxxx xxxxxxxxxxxxxx xxxx xxxxxxxxxx xxx Xxxxx Xxxxxx.
 
 ```yaml
@@ -71,6 +71,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxx$XxxxxXxxxxxx](3b828275-d62a-4c04-9767-15d6f743557c)
+[Show-AzureWebsite](3b828275-d62a-4c04-9767-15d6f743557c)
 
 

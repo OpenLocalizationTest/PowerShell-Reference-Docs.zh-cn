@@ -6,24 +6,24 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxx
+# Get-AzureRMAutomationJob
 ## XXXXXXXX
 Xxxx Xxxxxxxxxx xxxxxxx xxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureRMAutomationJob [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-EndTime <DateTimeOffset]>] [-StartTime <DateTimeOffset]>] [-Status]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureRMAutomationJob [-ResourceGroupName] <String> [-AutomationAccountName] <String> -Id <Guid>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 Get-AzureRMAutomationJob [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-EndTime <DateTimeOffset]>] [-StartTime <DateTimeOffset]>] [-Status] -RunbookName <String>
@@ -57,7 +57,7 @@ Xxxx xxxxxxx xxxx xxx xxxxxxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxx.
 
 ```yaml
@@ -72,7 +72,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -EndTime
 Xxxxxxxxx xxx xxx xxxx xxx x xxx xx x $$XxxxXxxxXxxxxx$$ xxxxxx.
 Xxx xxx xxxxxxx x xxxxxx xxxx xxx xx xxxxxxxxx xx x xxxxx $$XxxxXxxxXxxxxx$$.
 Xxxx xxxxxx xxxx xxxx xxxx xxxx xx xxx xxxx xx xx xxxxxx xxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
@@ -89,7 +89,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xx
+### -Id
 Xxxxxxxxx xxx XX xx x xxx xxxx xxxx xxxxxx xxxx.
 
 ```yaml
@@ -104,7 +104,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xx xxxxx xxxx xxxxxx xxxx xxxx.
 
 ```yaml
@@ -119,7 +119,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -RunbookName
 Xxxxxxxxx xxx xxxx xx x xxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxx.
 
 ```yaml
@@ -134,7 +134,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -StartTime
 Xxxxxxxxx xxx xxxxx xxxx xx x xxx xx x $$XxxxXxxxXxxxxx$$ xxxxxx.
 Xxxx xxxxxx xxxx xxxx xxxx xxxx x xxxxx xxxx xx xx xxxxx xxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -150,7 +150,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Status
 Xxxxxxxxx xxx xxxxxx xx x xxx.
 Xxxx xxxxxx xxxx xxxx xxxx xxxx x xxxxxx xxxxxxxx xxxx xxxxxxxxx.
 Xxxxx xxxxxx xxx$ 
@@ -174,18 +174,18 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.Xxx
+### Microsoft.Azure.Commands.Automation.Model.Job
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxx](03d80a68-8443-42e0-87bc-5d0e22ac3a57)
+[Get-AzureRmAutomationJobOutput](03d80a68-8443-42e0-87bc-5d0e22ac3a57)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxx](4b289017-5b98-45bc-87c4-86b08e1ac322)
+[Resume-AzureRmAutomationJob](4b289017-5b98-45bc-87c4-86b08e1ac322)
 
-[Xxxx$XxxxxXxXxxxxxxxxxXxx](1b580598-1087-4a10-9bc3-747ec5d7604a)
+[Stop-AzureRmAutomationJob](1b580598-1087-4a10-9bc3-747ec5d7604a)
 
-[Xxxxxxx$XxxxxXxXxxxxxxxxxXxx](cf05770c-fc18-4a31-beb9-4f8c1c39c285)
+[Suspend-AzureRmAutomationJob](cf05770c-fc18-4a31-beb9-4f8c1c39c285)
 
 

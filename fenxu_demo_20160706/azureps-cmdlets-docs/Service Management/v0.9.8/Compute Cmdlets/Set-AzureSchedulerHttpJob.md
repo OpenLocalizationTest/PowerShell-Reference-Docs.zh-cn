@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxxxXxxxXxx
+# Set-AzureSchedulerHttpJob
 ## XXXXXXXX
 Xxxxxxx x xxxxxxxxx xxx xxxx xxx xx XXXX xxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Set-AzureSchedulerHttpJob [-ClientCertificatePassword <String>] [-ClientCertificatePfx <Object>]
  [-EndTime <DateTime>] [-ErrorActionHeaders <Hashtable>] [-ErrorActionMethod <String>]
@@ -23,20 +23,20 @@ Set-AzureSchedulerHttpJob [-ClientCertificatePassword <String>] [-ClientCertific
  [-StartTime <DateTime>] [-URI <Uri>] -JobCollectionName <String> -JobName <String> -Location <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Set-AzureSchedulerHttpJob [-ClientCertificatePassword <String>] [-ClientCertificatePfx <Object>]
  [-ErrorActionHeaders <Hashtable>] [-Headers <Hashtable>] [-JobState <String>] [-PassThru]
  -HttpAuthenticationType <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 Set-AzureSchedulerHttpJob [-EndTime <DateTime>] [-ErrorActionHeaders <Hashtable>] [-ExecutionCount <Int32>]
  [-Frequency <String>] [-Headers <Hashtable>] [-Interval <Int32>] [-JobState <String>] [-PassThru]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_4
 ```
 Set-AzureSchedulerHttpJob [-ErrorActionHeaders <Hashtable>] [-Headers <Hashtable>] [-JobState <String>]
  [-PassThru] [-RequestBody <String>]
@@ -67,7 +67,7 @@ Xxxx xxxxxxx xxxxxxx xxx XXX xx xxx xxx xxxxx Xxx00 xx xx xxxx$$$xxx.xxxxxxx.xxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxXxxxxxxxxxxXxxxxxxx
+### -ClientCertificatePassword
 $$Xxxx$$
 
 ```yaml
@@ -82,7 +82,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxxxxxXxx
+### -ClientCertificatePfx
 $$Xxxx$$
 
 ```yaml
@@ -97,7 +97,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -EndTime
 Xxxxxxxxx x xxxx$ xx x XxxxXxxx xxxxxx$ xxx xxx xxxxxxxxx xx xxxx xxxxxxxxxx xxxx.
 Xx xxxxxx x XxxxXxxx xxxxxx$ xxx xxx Xxx$Xxxx xxxxxx.
 Xxx xxxx xxxxxxxxxxx$ xxxx Xxx$Xxxx Xxx$Xxxx.
@@ -114,7 +114,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxXxxxxxx
+### -ErrorActionHeaders
 Xxxxxxxxx xxxxxxx xx x xxxxxxxxx.
 
 ```yaml
@@ -129,7 +129,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxXxxxxx
+### -ErrorActionMethod
 Xxxxxxxxx xxx xxxxxx xxx XXXX xxx XXXXX xxxxxx xxxxx.
 Xxxxx xxxxxx xxx$ 
 
@@ -147,7 +147,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxXxxxxXxxxxxxXxxx
+### -ErrorActionQueueMessageBody
 Xxxxxxxxx xxx xxxx xxx xxxxxxx xxx xxxxxxx.
 
 ```yaml
@@ -162,7 +162,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxXxxxxxxXxxx
+### -ErrorActionRequestBody
 Xxxxxxxxx xxx xxxx xxx XXX xxx XXXX xxx xxxxxxx.
 
 ```yaml
@@ -177,7 +177,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxXXXXxxxx
+### -ErrorActionSASToken
 Xxxxxxxxx xxx Xxxxxx Xxxxxx Xxxxxxxxx $XXX$ xxxxx xxx xxx xxxxxxx xxxxx.
 
 ```yaml
@@ -192,7 +192,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxXxxxxxxXxxxxxx
+### -ErrorActionStorageAccount
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxxxxx.
 
 ```yaml
@@ -207,7 +207,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxXxxxxxxXxxxx
+### -ErrorActionStorageQueue
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxxx.
 
 ```yaml
@@ -222,7 +222,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxXXX
+### -ErrorActionURI
 Xxxxxxxxx xxx XXX xxx xxx xxxxx xxx xxxxxx.
 
 ```yaml
@@ -237,7 +237,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxXxxxx
+### -ExecutionCount
 Xxxxxxxxx xxx xxxxxx xxxxxxxxxxx xx x xxx xxxx xxx.
 Xx xxxxxxx$ x xxx xxxxxx xxxxxxxxxxxx.
 
@@ -253,7 +253,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Frequency
 Xxxxxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxx xxxxxxxxx xxx.
 
 ```yaml
@@ -268,7 +268,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Headers
 Xxxxxxxxx xxx xxxxxxx xx x xxxx xxxxx.
 
 ```yaml
@@ -283,7 +283,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxxxxxxxxxXxxx
+### -HttpAuthenticationType
 $$Xxxx$$
 
 ```yaml
@@ -310,7 +310,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Interval
 Xxxxxxxxx xxx xxxxxxxx xx xxxxxxxxxx xx xxx xxxxxxxxx xxxxxxxxx xx xxxxx xxx Xxxxxxxxx xxxxxxxxx.
 
 ```yaml
@@ -325,7 +325,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxxxxxXxxx
+### -JobCollectionName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxx xxxx xxxxxxxx xxx xxxxxxxxx xxx xx xxxxxx.
 
 ```yaml
@@ -340,7 +340,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -JobName
 Xxxxxxxxx xxx xxxx xx xxxxxxxxx xxx xx xxxxxx.
 
 ```yaml
@@ -355,7 +355,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxx
+### -JobState
 Xxxxxxxxx xxx xxxxx xxx xxx xxxxxxxxx xxx.
 
 ```yaml
@@ -370,7 +370,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Location
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxxx xxx xxxxx xxxxxxx.
 Xxxxx xxxxxx xxx$ 
 
@@ -388,7 +388,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Method
 Xxxxxxxxx xxx xxxxxx xxx XXXX xxx XXXXX xxxxxx xxxxx.
 Xxxxx xxxxxx xxx$ 
 
@@ -406,7 +406,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxx xx xxxxx xx xxxxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -422,7 +422,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -RequestBody
 Xxxxxxxxx xxx xxxx xxx XXX xxx XXXX xxx xxxxxxx.
 
 ```yaml
@@ -437,7 +437,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -StartTime
 Xxxxxxxxx x xxxx$ xx x XxxxXxxx xxxxxx$ xxx xxx xxx xx xxxxx.
 
 ```yaml
@@ -452,7 +452,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXX
+### -URI
 Xxxxxxxxx x XXX xxx x xxx xxxxxx.
 
 ```yaml
@@ -475,6 +475,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxxxXxxxXxx](5e65fa22-f969-413e-b4a6-62242d022380)
+[New-AzureSchedulerHttpJob](5e65fa22-f969-413e-b4a6-62242d022380)
 
 

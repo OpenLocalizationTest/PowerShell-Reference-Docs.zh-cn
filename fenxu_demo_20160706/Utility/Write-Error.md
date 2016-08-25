@@ -4,13 +4,13 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294028
 schema: 2.0.0
 ---
 
-# Xxxxx$Xxxxx
+# Write-Error
 ## XXXXXXXX
 Xxxxxx xx xxxxxx xx xxx xxxxx xxxxxx.
 
 ## XXXXXX
 
-### XxXxxxxxxxx $Xxxxxxx$
+### NoException (Default)
 ```
 Write-Error [-Message] <String> [-Category <ErrorCategory>] [-ErrorId <String>] [-TargetObject <Object>]
  [-RecommendedAction <String>] [-CategoryActivity <String>] [-CategoryReason <String>]
@@ -18,7 +18,7 @@ Write-Error [-Message] <String> [-Category <ErrorCategory>] [-ErrorId <String>] 
  [-InformationVariable <String>]
 ```
 
-### XxxxXxxxxxxxx
+### WithException
 ```
 Write-Error -Exception <Exception> [[-Message] <String>] [-Category <ErrorCategory>] [-ErrorId <String>]
  [-TargetObject <Object>] [-RecommendedAction <String>] [-CategoryActivity <String>] [-CategoryReason <String>]
@@ -26,7 +26,7 @@ Write-Error -Exception <Exception> [[-Message] <String>] [-Category <ErrorCatego
  [-InformationVariable <String>]
 ```
 
-### XxxxxXxxxxx
+### ErrorRecord
 ```
 Write-Error -ErrorRecord <ErrorRecord> [-RecommendedAction <String>] [-CategoryActivity <String>]
  [-CategoryReason <String>] [-CategoryTargetName <String>] [-CategoryTargetType <String>]
@@ -86,7 +86,7 @@ Xxx xxxxx xx xxx Xxxxxxxxx xxxxxxxxx xx xxx Xxxxxxxxx xxxxxx xx xxx $x xxxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxx
+### -Category
 Xxxxxxxxx xxx xxxxxxxx xx xxx xxxxx.
 Xxx xxxxxxx xxxxx xx XxxXxxxxxxxx.
 
@@ -105,7 +105,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxxxx
+### -CategoryActivity
 Xxxxxxxxx xxx xxxxxx xxxx xxxxxx xxx xxxxx.
 
 ```yaml
@@ -120,7 +120,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxx
+### -CategoryReason
 Xxxxxxxx xxx xx xxx xxx xxxxxxxx xxxxxx xxx xxxxx.
 
 ```yaml
@@ -135,7 +135,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxxXxxx
+### -CategoryTargetName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx xxx xxxxx xxxxxxxxx xxxx xxx xxxxx xxxxxxxx.
 
 ```yaml
@@ -150,7 +150,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxxXxxx
+### -CategoryTargetType
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx xxx xxxxx xxxxxxxxx xxxx xxx xxxxx xxxxxxxx.
 
 ```yaml
@@ -165,7 +165,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXx
+### -ErrorId
 Xxxxxxxxx xx XX xxxxxx xx xxxxxxxx xxx xxxxx.
 Xxx xxxxxx xxxxxx xx xxxxxx xx xxx xxxxx.
 
@@ -181,7 +181,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -ErrorRecord
 Xxxxxxxxx xx xxxxx xxxxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxx.
 Xxx xxx xxxxxxxxxx xx xxx xxxxxx xx xxxxxxxx xxx xxxxx.
 
@@ -199,7 +199,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Exception
 Xxxxxxxxx xx xxxxxxxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxx.
 Xxx xxx xxxxxxxxxx xx xxx xxxxxx xx xxxxxxxx xxx xxxxx.
 
@@ -217,7 +217,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxx xxxxxxxxxxx xxxxx xxx xxxxx xxxxxxxxxx$ xxx $XxxxxXxxxxxxx Xxxxxxxxxxx$ xx xxx XXXX $Xxxxxxxxx Xxxxxxxxx Xxxxxxx$ xxxxxxx xx xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000.
 
 ```yaml
@@ -233,7 +233,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxx xxxxxxxxxxx xxxxx xxx xxxxx xxxxxxxxxx$ xxx $XxxxxXxxxxxxx Xxxxxxxxxxx$ xx xxx XXXX $Xxxxxxxxx Xxxxxxxxx Xxxxxxx$ xxxxxxx xx xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000.
 
 ```yaml
@@ -248,7 +248,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Message
 Xxxxxxxxx xxx xxxxxxx xxxx xx xxx xxxxx. Xx xxx xxxx xxxxxxxx xxxxxx xx xxxxxxx xxxxxxxxxx$ xxxxxxx xx xx xxxxxxxxx xxxxx.
 Xxx xxx xxxx xxxx x xxxxxxx xxxxxx xx Xxxxx$Xxxxx.
 
@@ -276,7 +276,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -RecommendedAction
 Xxxxxxxxx xxx xxxxxx xxxx xxx xxxx xxxxxx xxxx xx xxxxxxx xx xxxxxxx xxx xxxxx.
 
 ```yaml
@@ -291,7 +291,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxx
+### -TargetObject
 Xxxxxxxxx xxx xxxxxx xxxx xxx xxxxx xxxxxxxxx xxxx xxx xxxxx xxxxxxxx.
 Xxxxx xxx xxxxxx $xxxx xx x xxxxxx$$ x xxxxxxxx xxxx xxxxxxxx xxx xxxxxx$ xx x xxxxxxx xxxx xxxx xxx xxxxxx.
 
@@ -309,12 +309,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx xx xxxxx xxxxxxx xx Xxxxx$Xxxxx.
 
 ## XXXXXXX
 
-### Xxxxx xxxxxx
+### Error object
 Xxxxx$Xxxxx xxxxxx xxxx xx xxx xxxxx xxxxxx.
 Xx xxxx xxx xxxxxx xxx xxxxxxx.
 
@@ -322,15 +322,15 @@ Xx xxxx xxx xxxxxx xxx xxxxxxx.
 
 ## XXXXXXX XXXXX
 
-[Xxxxx$Xxxxx]()
+[Write-Debug]()
 
-[Xxxxx$Xxxx]()
+[Write-Host]()
 
-[Xxxxx$Xxxxxx]()
+[Write-Output]()
 
-[Xxxxx$Xxxxxxxx]()
+[Write-Progress]()
 
-[Xxxxx$Xxxxxxx]()
+[Write-Verbose]()
 
-[Xxxxx$Xxxxxxx]()
+[Write-Warning]()
 

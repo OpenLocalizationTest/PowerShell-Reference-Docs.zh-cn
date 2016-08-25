@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx
+# Set-AzureStorageServiceMetricsProperty
 ## XXXXXXXX
 Xxxxxxxx xxxxxxx xxxxxxxxxx xxx xxx xxxxx$0 Xxxxxxx xxxxxxx.
 
@@ -33,7 +33,7 @@ Xxxxxxx xxxx xxxxxxx xxxxxxxxx xxx $XxxxXxxx$ xxxxxxxxx$ xxx xxxxxxx xxxxxxxx xx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -49,7 +49,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxx
+### -MetricsLevel
 Xxxxxxxxx xxx xxxxxxx xxxxx xxxx xxxxx$0 Xxxxxxx xxxx xxx xxx xxxxxxx.
 xxxx$xxxxxxxxxxx
 
@@ -67,7 +67,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -MetricsType
 Xxxxxxxxx x xxxxxxx xxxx.
 Xxxx xxxxxx xxxx xxx xxxxx$0 Xxxxxxx xxxxxxx xxxxxxx xxxx xx xxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 xxxx$xxxxxxxxxxx Xxxx xxx Xxxxxx.
@@ -85,7 +85,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxxxx xxxx xxxx xxxxxxx xxxxxxx xxx xxxxxxx xxxxxxx xxxxxxxxxx.
 Xx xxx xx xxx xxxxxxx xxxx xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx x xxxxx.
 
@@ -101,7 +101,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxXxxx
+### -RetentionDays
 Xxxxxxxxx xxx xxxxxx xx xxxx xxxx xxx xxxxx$0 Xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxxxxxx.
 
 ```yaml
@@ -116,7 +116,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -ServiceType
 Xxxxxxxxx xxx xxxxxxx xxxxxxx xxxx.
 Xxxx xxxxxx xxxxxxxx xxx xxxxxxx xxxxxxxxxx xxx xxx xxxxxxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 xxxx$xxxxxxxxxxx
@@ -138,7 +138,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Version
 Xxxxxxxxx xxx xxxxxxx xx xxx xxxxx$0 Xxxxxxx xxxxxxx.
 Xxx xxxxxxx xxxxx xx 0.0.
 
@@ -162,8 +162,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx](59b6d8fb-70ff-4b9e-b6af-e303e1451dbb)
+[Get-AzureStorageServiceMetricsProperty](59b6d8fb-70ff-4b9e-b6af-e303e1451dbb)
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
 

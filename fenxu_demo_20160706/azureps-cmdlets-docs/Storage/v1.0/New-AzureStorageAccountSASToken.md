@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxxxXXXXxxxx
+# New-AzureStorageAccountSASToken
 ## XXXXXXXX
 Xxxxxxx xx XXX xxxxx.
 
@@ -41,7 +41,7 @@ Xxxx xxxxxxx xxxxxxx xx XXX xxxxx xxx XXXXX$xxxx xxxxxxxx xxxx xxx xxxxxxxxx xxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxxxx.
 Xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx xx xxx xx $$XxxxxXxxxxxxXxxxxxx$$ xxxxxx.
 
@@ -57,7 +57,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -ExpiryTime
 Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
@@ -72,7 +72,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXXxxxxxxXxXxxxx
+### -IPAddressOrRange
 Xxxxxxxxx xxx XX xxxxxxx xx xxxxx xx XX xxxxxxxxx xxxx xxxxx xx xxxxxx xxxxxxxx$ xxxx xx 000.0.0.00 xx 000.0.0.00$000.0.0.00.
 Xxx xxxxx xx xxxxxxxxx.
 
@@ -88,7 +88,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxx
+### -Permission
 Xxxxxxxxx xxx xxxxxxxxxxx xxx Xxxxxxx xxxxxxx.
 Xxxxxxxxxxx xxx xxxxx xxxx xx xxxx xxxxx xxx xxxxxxxxx xxxxxxxx xxxx.
 Xxx xxxx xxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxx xxxxxx$ xxx Xxxxxxxxxxxx xx Xxxxxxx XXXxxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000
@@ -105,7 +105,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Protocol
 Xxxxxxxxx xxx xxxxxxxx xxxxxxxxx xxx x xxxxxxx xxxx xxxx xxx xxxxxxx XXX.
 xxxx$xxxxxxxxxxx
 
@@ -125,7 +125,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxx
+### -ResourceType
 Xxxxxxxxx xxx xxxxxxxx xxxxx xxxx xxx xxxxxxxxx xxxx xxx XXX xxxxx.
 xxxx$xxxxxxxxxxx
 
@@ -144,7 +144,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Service
 Xxxxxxxxx xxx xxxxxxx.
 xxxx$xxxxxxxxxxx
 
@@ -163,7 +163,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -StartTime
 Xxxxxxxxx xxx xxxx$ xx x $$XxxxXxxx$$ xxxxxx$ xx xxxxx xxx XXX xxxxxxx xxxxx.
 Xx xxx x $$XxxxXxxx$$ xxxxxx$ xxx xxx Xxx$Xxxx xxxxxx.
 
@@ -187,16 +187,16 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxXXXXxxxx](f08d2de2-a276-439c-b9a8-ee187a8c334e)
+[New-AzureStorageBlobSASToken](f08d2de2-a276-439c-b9a8-ee187a8c334e)
 
-[Xxx$XxxxxXxxxxxxXxxxxxxxxXXXXxxxx](dc3564e2-9ede-4901-8d62-f49017a03281)
+[New-AzureStorageContainerSASToken](dc3564e2-9ede-4901-8d62-f49017a03281)
 
-[Xxx$XxxxxXxxxxxxXxxxXXXXxxxx](4fb064f5-94bc-4d8f-9ef6-2611f8aab99c)
+[New-AzureStorageFileSASToken](4fb064f5-94bc-4d8f-9ef6-2611f8aab99c)
 
-[Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx](6cae6e32-2800-4c20-88ae-d40271476628)
+[New-AzureStorageQueueSASToken](6cae6e32-2800-4c20-88ae-d40271476628)
 
-[Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx](07c8ad4e-7a32-4407-9120-1432126b7376)
+[New-AzureStorageShareSASToken](07c8ad4e-7a32-4407-9120-1432126b7376)
 
-[Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx](abee1cab-f04a-400e-8fb1-caed1ee02ee7)
+[New-AzureStorageTableSASToken](abee1cab-f04a-400e-8fb1-caed1ee02ee7)
 
 

@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XXXxxxXX
+# Remove-WAPackVM
 ## XXXXXXXX
 Xxxxxxx xxxxxxx xxxxxxx xxxxxxx.
 
@@ -51,7 +51,7 @@ Xxx xxxxxxx xxxx xxx xxxxxx xxx xxx xxxxxxxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 Xxxxxxxxx xxxx xxx xxxxxx xxxxxxx x xxxxxxx xxxxxxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxxxxxxx.
 
 ```yaml
@@ -66,7 +66,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxxxx xxxx xxx xxxxxx xxxxxxx x Xxxxxxx xxxxx.
 Xx xxx xxxxxxxxx xxxxxxxx$ xxx xxxxxx xxxxxxx x xxxxx xx $Xxxx.
 Xxxxxxxxx$ xx xxxxxxx x xxxxx xx $Xxxxx.
@@ -84,7 +84,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XX
+### -VM
 Xxxxxxxxx x xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XXXxxxXX xxxxxx.
 
@@ -100,7 +100,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -115,7 +115,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -140,20 +140,20 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XXXxxxXX](4b060a7d-da50-45ff-adb6-bcba63faa90b)
+[Get-WAPackVM](4b060a7d-da50-45ff-adb6-bcba63faa90b)
 
-[Xxx$XXXxxxXX](1f74deb4-e9b0-4aeb-8e13-b1554a4ebbec)
+[New-WAPackVM](1f74deb4-e9b0-4aeb-8e13-b1554a4ebbec)
 
-[Xxxxxxx$XXXxxxXX](fd89742d-0d21-41e9-b3b1-5d8c638f8c6d)
+[Restart-WAPackVM](fd89742d-0d21-41e9-b3b1-5d8c638f8c6d)
 
-[Xxxxxx$XXXxxxXX](d2594d2a-c0c6-4bca-8c81-9ed03b24d100)
+[Resume-WAPackVM](d2594d2a-c0c6-4bca-8c81-9ed03b24d100)
 
-[Xxx$XXXxxxXX](8b07e4cb-c677-4e6b-b034-25847da03dbf)
+[Set-WAPackVM](8b07e4cb-c677-4e6b-b034-25847da03dbf)
 
-[Xxxxx$XXXxxxXX](8cc5bf6b-bf5b-427f-922d-57e4a99b2d55)
+[Start-WAPackVM](8cc5bf6b-bf5b-427f-922d-57e4a99b2d55)
 
-[Xxxx$XXXxxxXX](7f3e6c33-2196-4e24-95fd-e5763c6f7402)
+[Stop-WAPackVM](7f3e6c33-2196-4e24-95fd-e5763c6f7402)
 
-[Xxxxxxx$XXXxxxXX](d8041113-5a71-447d-9bbe-dc6405aa6029)
+[Suspend-WAPackVM](d8041113-5a71-447d-9bbe-dc6405aa6029)
 
 

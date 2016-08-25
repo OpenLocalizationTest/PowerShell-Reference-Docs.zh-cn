@@ -7,32 +7,32 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureNetworkSecurityGroupConfig
-## SYNOPSIS
+## XXXXXXXX
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureNetworkSecurityGroupConfig [-Detailed] -VM <IPersistentVM>
 ```
 
-## DESCRIPTION
+## XXXXXXXXXXX
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 PS C:\>
 ```
 
-### 2:
+### 0$
 ```
 PS C:\>
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Detailed
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -47,7 +47,7 @@ Accept wildcard characters: False
 ```
 
 ### -VM
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: IPersistentVM
@@ -61,12 +61,12 @@ Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 

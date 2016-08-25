@@ -6,44 +6,44 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx
+# New-AzureRMAutomationSchedule
 ## XXXXXXXX
 Xxxxxxx xx Xxxxxxxxxx xxxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 New-AzureRMAutomationSchedule [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  [-StartTime] <DateTimeOffset> [-Description <String>] [-ExpiryTime <DateTimeOffset>] [-TimeZone <String>]
  -DayInterval <Byte>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 New-AzureRMAutomationSchedule [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  [-StartTime] <DateTimeOffset> [-Description <String>] [-TimeZone <String>] [-OneTime]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 New-AzureRMAutomationSchedule [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  [-StartTime] <DateTimeOffset> [-Description <String>] [-ExpiryTime <DateTimeOffset>] [-TimeZone <String>]
  -HourInterval <Byte>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_4
 ```
 New-AzureRMAutomationSchedule [-DayOfWeek <Nullable [System.DayOfWeek]>] [-DayOfWeekOccurrence]
  [-TimeZone <String>] -MonthInterval <Byte>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_5
 ```
 New-AzureRMAutomationSchedule [-DaysOfMonth <DaysOfMonth[]>] [-TimeZone <String>] -MonthInterval <Byte>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_6
 ```
 New-AzureRMAutomationSchedule [-DaysOfWeek <DayOfWeek[]>] [-TimeZone <String>] -WeekInterval <Byte>
 ```
@@ -79,7 +79,7 @@ Xxx xxxxx xxxxxxx xxxxxxx x xxxxx xxxxxxxx xxxxx Xxxxxxxx00 xx xxxxx xx xxx xxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxx.
 
 ```yaml
@@ -94,7 +94,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxxx
+### -DayInterval
 Xxxxxxxxx xx xxxxxxxx$ xx xxxx$ xxx xxx xxxxxxxx.
 Xx xxx xx xxx xxxxxxx xxxx xxxxxxxxx$ xxx xxx xx xxx xxxxxxx xxx $XxxXxxx$ xxxxxxxxx$ xxx xxxxxxx xxxxx xx xxx $0$.
 
@@ -110,7 +110,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxXxxx
+### -DayOfWeek
 Xxxxxxxxx x xxxx xx xxxx xx xxx xxxx xxx xxx xxxxxx xxxxxxxx.
 
 ```yaml
@@ -125,7 +125,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxXxxxXxxxxxxxxx
+### -DayOfWeekOccurrence
 Xxxxxxxxx xxx xxxxxxxxxx xx xxx xxxx xxxxxx xxx xxxxx xxxx xxx xxxxxxxx xxxx.
 xxxx$xxxxxxxxxxx
 
@@ -144,7 +144,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxXxxxx
+### -DaysOfMonth
 Xxxxxxxxx x xxxx xx xxxx xx xxx xxxxx xxx xxx xxxxxxx xxxxxxxx.
 
 ```yaml
@@ -159,7 +159,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxXxxx
+### -DaysOfWeek
 Xxxxxxxxx x xxxx xx xxxx xx xxx xxxx xxx xxx xxxxxx xxxxxxxx.
 
 ```yaml
@@ -174,7 +174,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Description
 Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxx.
 
 ```yaml
@@ -189,7 +189,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -ExpiryTime
 Xxxxxxxxx xxx xxxxxx xxxx xx x xxxxxxxx xx x $$XxxxXxxxXxxxxx$$ xxxxxx.
 Xxx xxx xxxxxxx x xxxxxx xxxx xxx xx xxxxxxxxx xx x xxxxx $$XxxxXxxxXxxxxx$$.
 
@@ -205,7 +205,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxxx
+### -HourInterval
 Xxxxxxxxx xx xxxxxxxx$ xx xxxxx$ xxx xxx xxxxxxxx.
 
 ```yaml
@@ -220,7 +220,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxxx
+### -MonthInterval
 Xxxxxxxxx xx xxxxxxxx$ xx Xxxxxx$ xxx xxx xxxxxxxx.
 
 ```yaml
@@ -235,7 +235,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx xxxxxxxx.
 
 ```yaml
@@ -250,7 +250,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -OneTime
 Xxxxxxxxx xxxx xxx xxxxxx xxxxxxx x xxx$xxxx xxxxxxxx.
 
 ```yaml
@@ -265,7 +265,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxx.
 
 ```yaml
@@ -280,7 +280,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -StartTime
 Xxxxxxxxx xxx xxxxx xxxx xx x xxxxxxxx xx x $$XxxxXxxxXxxxxx$$ xxxxxx.
 Xxx xxx xxxxxxx x xxxxxx xxxx xxx xx xxxxxxxxx xx x xxxxx $$XxxxXxxxXxxxxx$$.
 . Xx xxx $XxxxXxxx$ xxxxxxxxx xx xxxxxxxxx$ xxx xxxxxx xxxx xx xxxxxxx xxx xxx xxxx xxxx xxxxxxxxx xx xxxx.
@@ -297,7 +297,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -TimeZone
 Xxxxxxxxx xxx xxxx xxxx xxx xxx xxxxxxxx.
 Xxxx xxxxxx xxx xx xxx XXXX XX xx xxx Xxxxxxx Xxxx Xxxx XX.
 
@@ -313,7 +313,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxxx
+### -WeekInterval
 Xxxxxxxxx xx xxxxxxxx$ xx xxxxx$ xxx xxx xxxxxxxx.
 
 ```yaml
@@ -332,16 +332,16 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.Xxxxxxxx
+### Microsoft.Azure.Commands.Automation.Model.Schedule
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](73a4a9ba-477c-41e6-9193-2be97182e07d)
+[Get-AzureRmAutomationSchedule](73a4a9ba-477c-41e6-9193-2be97182e07d)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxx](633c3e61-0da0-4a01-897b-e81c6e571196)
+[Remove-AzureRmAutomationSchedule](633c3e61-0da0-4a01-897b-e81c6e571196)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](2d34dc26-ead0-49f0-9e1a-9d4a81712616)
+[Set-AzureRmAutomationSchedule](2d34dc26-ead0-49f0-9e1a-9d4a81712616)
 
 

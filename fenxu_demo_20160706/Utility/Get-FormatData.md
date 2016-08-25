@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293969
 schema: 2.0.0
 ---
 
-# Xxx$XxxxxxXxxx
+# Get-FormatData
 ## XXXXXXXX
 Xxxx xxx xxxxxxxxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
@@ -96,7 +96,7 @@ Xxx xxxxx xxxxxxx xxxxx xx xxxxxxx xx xxx xxxxxx.xx0xxx xxxx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -112,7 +112,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -127,7 +127,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -TypeName
 Xxxx xxxx xxx xxxxxxxxxx xxxx xxxx xxx xxxxxxxxx xxxx xxxxx.
 Xxxxx xxx xxxx xxxxx.
 Xxxxxxxxx xxx xxxxxxxxx.
@@ -146,18 +146,18 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxxxxXxxxXxxxxxxxxx
+### System.Management.Automation.ExtendedTypeDefinition
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxxXxxx]()
+[Export-FormatData]()
 
-[Xxxxxx$XxxxxxXxxx]()
+[Update-FormatData]()
 

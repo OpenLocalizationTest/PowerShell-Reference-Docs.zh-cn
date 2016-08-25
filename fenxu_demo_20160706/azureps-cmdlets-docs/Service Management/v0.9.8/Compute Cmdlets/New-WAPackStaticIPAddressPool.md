@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XXXxxxXxxxxxXXXxxxxxxXxxx
+# New-WAPackStaticIPAddressPool
 ## XXXXXXXX
 
 ## XXXXXX
@@ -36,7 +36,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $XXXxxxxxxXxxxxXxx
+### -IPAddressRangeEnd
 $$Xxxx$$
 
 ```yaml
@@ -51,7 +51,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXXxxxxxxXxxxxXxxxx
+### -IPAddressRangeStart
 $$Xxxx$$
 
 ```yaml
@@ -66,7 +66,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 $$Xxxx$$
 
 ```yaml
@@ -81,7 +81,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXXxxxxx
+### -VMSubnet
 $$Xxxx$$
 
 ```yaml

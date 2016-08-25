@@ -7,34 +7,34 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureAvailabilitySet
-## SYNOPSIS
-Get Availability Set properties
+## XXXXXXXX
+Xxx Xxxxxxxxxxxx Xxx xxxxxxxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureAvailabilitySet [-ResourceGroupName] <String> [[-Name] <String>] [-Profile <AzureProfile>]
 ```
 
-## DESCRIPTION
-This cmdlet allows you to discover information about a specified Availability Set or all Availability Sets within a Resource Group
+## XXXXXXXXXXX
+Xxxx xxxxxx xxxxxx xxx xx xxxxxxxx xxxxxxxxxxx xxxxx x xxxxxxxxx Xxxxxxxxxxxx Xxx xx xxx Xxxxxxxxxxxx Xxxx xxxxxx x Xxxxxxxx Xxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------------------  Get information about a specified Availability Set  --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$  Xxx xxxxxxxxxxx xxxxx x xxxxxxxxx Xxxxxxxxxxxx Xxx  $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\> Get-AzureAvailabilitySet ?ResourceGroupName ?RG1? ?Name ?MyASet?
 ```
 
-### --------------------------  Get information about all Availability Sets within a Resource Group  --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$  Xxx xxxxxxxxxxx xxxxx xxx Xxxxxxxxxxxx Xxxx xxxxxx x Xxxxxxxx Xxxxx  $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\> Get-AzureAvailabilitySet ?ResourceGroupName ?RG1?
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-Name of the Availability Set
+Xxxx xx xxx Xxxxxxxxxxxx Xxx
 
 ```yaml
 Type: String
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Name of the Resource Group containing the Avaialbility Set
+Xxxx xx xxx Xxxxxxxx Xxxxx xxxxxxxxxx xxx Xxxxxxxxxxxx Xxx
 
 ```yaml
 Type: String
@@ -76,12 +76,12 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 

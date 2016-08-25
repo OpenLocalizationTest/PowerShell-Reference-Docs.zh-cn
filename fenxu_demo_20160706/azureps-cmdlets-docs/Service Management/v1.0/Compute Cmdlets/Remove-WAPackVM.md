@@ -7,52 +7,52 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-WAPackVM
-## SYNOPSIS
-Removes virtual machine objects.
+## XXXXXXXX
+Xxxxxxx xxxxxxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-WAPackVM [-VM] <VirtualMachine> [-PassThru] [-Force] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
-This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+## XXXXXXXXXXX
+Xxxxx xxxxxx xxx xxxxxxxxxx xxx xxxx xx xxxxxxx xx xxx xxxxxx.
+Xxx xxx xxxxxxx xxxxxx$ xxx  Xxxxx XXXxxx Xxxxxxxxxxx$$$xxxx.xxxxxxxxx.xxx$xxxxxxx$xx000000.xxxx.
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.0 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxxx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xxxx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $xxx$xxxxxx xxxxx$.xxxxxxx.
 
-The Remove-WAPackVM cmdlet removes virtual machine objects.
+Xxx Xxxxxx$XXXxxxXX xxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove a virtual machine
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxxxxxx
 ```
 PS C:\>$VirtualMachine = Get-WAPackVM -Name "ContosoV126"
 PS C:\> Remove-WAPackVM -VM $VirtualMachine
 ```
 
-The first command gets the virtual machine named ContosoV126 by using the Get-WAPackVM cmdlet, and then stores that object in the $VirtualMachine variable.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx xxxxx XxxxxxxX000 xx xxxxx xxx Xxx$XXXxxxXX xxxxxx$ xxx xxxx xxxxxx xxxx xxxxxx xx xxx $XxxxxxxXxxxxxx xxxxxxxx.
 
-The second command removes the virtual machine stored in $VirtualMachine.
-The command prompts you for confirmation.
+Xxx xxxxxx xxxxxxx xxxxxxx xxx xxxxxxx xxxxxxx xxxxxx xx $XxxxxxxXxxxxxx.
+Xxx xxxxxxx xxxxxxx xxx xxx xxxxxxxxxxxx.
 
-### Example 2: Remove a virtual machine without confirmation
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxxxxxx xxxxxxx xxxxxxxxxxxx
 ```
 PS C:\>$VirtualMachine = Get-WAPackVM -Name "ContosoV126"
 PS C:\> Remove-WAPackVM -VM $VirtualMachine -Force
 ```
 
-The first command gets the virtual machine named ContosoV126 by using the Get-WAPackVM cmdlet, and then stores that object in the $VirtualMachine variable.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx xxxxx XxxxxxxX000 xx xxxxx xxx Xxx$XXXxxxXX xxxxxx$ xxx xxxx xxxxxx xxxx xxxxxx xx xxx $XxxxxxxXxxxxxx xxxxxxxx.
 
-The second command removes the virtual machine stored in $VirtualMachine.
-This command includes the Force parameter.
-The command does not prompt you for confirmation.
+Xxx xxxxxx xxxxxxx xxxxxxx xxx xxxxxxx xxxxxxx xxxxxx xx $XxxxxxxXxxxxxx.
+Xxxx xxxxxxx xxxxxxxx xxx Xxxxx xxxxxxxxx.
+Xxx xxxxxxx xxxx xxx xxxxxx xxx xxx xxxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Force
-Indicates that the cmdlet removes a virtual machine without prompting you for confirmation.
+Xxxxxxxxx xxxx xxx xxxxxx xxxxxxx x xxxxxxx xxxxxxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -67,10 +67,10 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Indicates that the cmdlet returns a Boolean value.
-If the operation succeeds, the cmdlet returns a value of $True.
-Otherwise, it returns a value of $False.
-By default, this cmdlet does not generate any output.
+Xxxxxxxxx xxxx xxx xxxxxx xxxxxxx x Xxxxxxx xxxxx.
+Xx xxx xxxxxxxxx xxxxxxxx$ xxx xxxxxx xxxxxxx x xxxxx xx $Xxxx.
+Xxxxxxxxx$ xx xxxxxxx x xxxxx xx $Xxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -85,8 +85,8 @@ Accept wildcard characters: False
 ```
 
 ### -VM
-Specifies a virtual machine.
-To obtain a virtual machine, use the Get-WAPackVM cmdlet.
+Xxxxxxxxx x xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XXXxxxXX xxxxxx.
 
 ```yaml
 Type: VirtualMachine
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -116,9 +116,9 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -132,13 +132,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-WAPackVM](4b060a7d-da50-45ff-adb6-bcba63faa90b)
 

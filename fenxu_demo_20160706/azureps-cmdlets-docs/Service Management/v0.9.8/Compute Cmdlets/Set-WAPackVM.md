@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XXXxxxXX
+# Set-WAPackVM
 ## XXXXXXXX
 Xxxxxxx xxx xxxx xxxxxxxxxx xx x xxxxxxx xxxxxxx.
 
@@ -39,7 +39,7 @@ Xxx xxxxx xxxxxxx xxxxxxx xxx xxxx xxxxxxx xxxxxx xx $XxxxXxxxxxx xx xxx xxxxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxx xxxx xxxxx xxx xxx xxxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -55,7 +55,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XX
+### -VM
 Xxxxxxxxx x xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XXXxxxXX xxxxxx.
 
@@ -71,7 +71,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XXXxxxXxxxxxx
+### -VMSizeProfile
 Xxxxxxxxx x xxxx xxxxxxx xxx x xxxxxxx xxxxxxx xx x XxxxxxxxXxxxxxx xxxxxx.
 Xx xxxxxx x xxxx xxxxxxx$ xxx xxx Xxx$XXXxxxXXXxxxXxxxxxx xxxxxx.
 
@@ -95,22 +95,22 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XXXxxxXX](4b060a7d-da50-45ff-adb6-bcba63faa90b)
+[Get-WAPackVM](4b060a7d-da50-45ff-adb6-bcba63faa90b)
 
-[Xxx$XXXxxxXX](1f74deb4-e9b0-4aeb-8e13-b1554a4ebbec)
+[New-WAPackVM](1f74deb4-e9b0-4aeb-8e13-b1554a4ebbec)
 
-[Xxxxxx$XXXxxxXX](76b51795-43e6-45c3-ade1-aa8ea61efc23)
+[Remove-WAPackVM](76b51795-43e6-45c3-ade1-aa8ea61efc23)
 
-[Xxxxxxx$XXXxxxXX](fd89742d-0d21-41e9-b3b1-5d8c638f8c6d)
+[Restart-WAPackVM](fd89742d-0d21-41e9-b3b1-5d8c638f8c6d)
 
-[Xxxxxx$XXXxxxXX](d2594d2a-c0c6-4bca-8c81-9ed03b24d100)
+[Resume-WAPackVM](d2594d2a-c0c6-4bca-8c81-9ed03b24d100)
 
-[Xxxxx$XXXxxxXX](8cc5bf6b-bf5b-427f-922d-57e4a99b2d55)
+[Start-WAPackVM](8cc5bf6b-bf5b-427f-922d-57e4a99b2d55)
 
-[Xxxx$XXXxxxXX](7f3e6c33-2196-4e24-95fd-e5763c6f7402)
+[Stop-WAPackVM](7f3e6c33-2196-4e24-95fd-e5763c6f7402)
 
-[Xxxxxxx$XXXxxxXX](d8041113-5a71-447d-9bbe-dc6405aa6029)
+[Suspend-WAPackVM](d8041113-5a71-447d-9bbe-dc6405aa6029)
 
-[Xxx$XXXxxxXXXxxxXxxxxxx](6dd436e0-b366-4a6b-adde-0aa6cdbfc3c6)
+[Get-WAPackVMSizeProfile](6dd436e0-b366-4a6b-adde-0aa6cdbfc3c6)
 
 

@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxxx$XxxxxXxxxxxxXxxxxxxxxx
+# Restore-AzureWebsiteDeployment
 ## XXXXXXXX
 Xxxxxxxxx x xxxxxxxx xxxxxxxxxx xx x xxxxxxx xx Xxxxx.
 
@@ -35,7 +35,7 @@ Xxxx xxxxxxx xxxxxxxxx xxx xxxxxxxxxx xxxx xxx xxx XX x000000000 xxx xxx xxxxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxXx
+### -CommitId
 Xxxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xx xxxxxxxx.
 
 ```yaml
@@ -50,7 +50,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 Xx xxxxxxx$ xxxxxxxxx xxx xxxxxxxx xxxxxxxxxx xxxxxxx xxxxxxxxx xxx xxxxxxxxxxxx.
 
 ```yaml
@@ -65,7 +65,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xx xxxxxxxx.
 
 ```yaml
@@ -80,7 +80,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxxxxxxxx xxx xxxx xxxx.
 
 ```yaml
@@ -95,7 +95,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -110,7 +110,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -135,6 +135,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
 

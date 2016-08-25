@@ -6,26 +6,26 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxx$XxxxxXxxxxxxXxxxXxxx
+# Start-AzureStorageFileCopy
 ## XXXXXXXX
 Xxxxxx xx xxxx x xxxxxx xxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Start-AzureStorageFileCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-DestContext <AzureStorageContext>] [-Force] [-ServerTimeoutPerRequest <Int32]>] -AbsoluteUri <String>
  -DestFilePath <String> -DestShareName <String> [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Start-AzureStorageFileCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>] [-Force]
  [-ServerTimeoutPerRequest <Int32]>] -AbsoluteUri <String> -DestFile <CloudFile> [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 Start-AzureStorageFileCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-DestContext <AzureStorageContext>] [-Force]
@@ -33,27 +33,27 @@ Start-AzureStorageFileCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskC
  -SrcContainerName <String> [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_4
 ```
 Start-AzureStorageFileCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-DestContext <AzureStorageContext>] [-Force] [-ServerTimeoutPerRequest <Int32]>] -DestFilePath <String>
  -DestShareName <String> -SrcBlobName <String> -SrcContainer <CloudBlobContainer> [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_5
 ```
 Start-AzureStorageFileCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>] [-Force]
  [-ServerTimeoutPerRequest <Int32]>] -DestFile <CloudFile> -SrcBlob <CloudBlob> [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_6
 ```
 Start-AzureStorageFileCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-DestContext <AzureStorageContext>] [-Force] [-ServerTimeoutPerRequest <Int32]>] -DestFilePath <String>
  -DestShareName <String> -SrcBlob <CloudBlob> [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_7
 ```
 Start-AzureStorageFileCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-DestContext <AzureStorageContext>] [-Force]
@@ -61,21 +61,21 @@ Start-AzureStorageFileCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskC
  -SrcShareName <String> [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_8
 ```
 Start-AzureStorageFileCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-DestContext <AzureStorageContext>] [-Force] [-ServerTimeoutPerRequest <Int32]>] -DestFilePath <String>
  -DestShareName <String> -SrcFilePath <String> -SrcShare <CloudFileShare> [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_9
 ```
 Start-AzureStorageFileCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-DestContext <AzureStorageContext>] [-Force] [-ServerTimeoutPerRequest <Int32]>] -DestFilePath <String>
  -DestShareName <String> -SrcFile <CloudFile> [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$00
+### UNNAMED_PARAMETER_SET_10
 ```
 Start-AzureStorageFileCopy [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>] [-Force]
  [-ServerTimeoutPerRequest <Int32]>] -DestFile <CloudFile> -SrcFile <CloudFile> [-Confirm] [-WhatIf]
@@ -104,7 +104,7 @@ Xxx xxxxxxx xxxxxxxxx xxxxxxxxx xxxx xxx xxxx xxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxXxx
+### -AbsoluteUri
 Xxxxxxxxx xxx XXX xx xxx xxxxxx xxxx.
 Xx xxx xxxxxx xxxxxxxx xxxxxxxx x xxxxxxxxxx$ xxx xxxx xxxxxxx xxx.
 
@@ -120,7 +120,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ClientTimeoutPerRequest
 Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
 Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
 Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
@@ -137,7 +137,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxXxxxx
+### -ConcurrentTaskCount
 Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
 Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
 Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
@@ -156,7 +156,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -172,7 +172,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxx
+### -DestContext
 Xxxxxxxxx xxx xxxxx$0 Xxxxxxx xxxxxxx xx xxx xxxxxxxxxxx.
 Xx xxxxxx x xxxxxxx$ xxx $$Xxx$XxxxxXxxxxxxXxxxxxx$$.
 
@@ -188,7 +188,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -DestFile
 Xxxxxxxxx x $$XxxxxXxxx$$ xxxxxx.
 Xxx xxx xxxxxx x xxxxx xxxx xx xxxxxx xxx xx xxxxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
@@ -204,7 +204,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxXxxx
+### -DestFilePath
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxxx xxxx xxxxxxxx xx xxx xxxxxxxxxxx xxxxx.
 
 ```yaml
@@ -219,7 +219,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxXxxx
+### -DestShareName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxxx xxxxx.
 
 ```yaml
@@ -234,7 +234,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 xx$xxxxx
 
 ```yaml
@@ -249,7 +249,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ServerTimeoutPerRequest
 Xxxxxxxxx xxx xxxxxx xx xxx xxxx$xxx xxxxxx xxx xxx xxxxxx xxxx xx x xxxxxxx.
 
 ```yaml
@@ -264,7 +264,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -SrcBlob
 Xxxxxxxxx x $$XxxxxXxxx$$ xxxxxx.
 Xxx xxx xxxxxx x xxxxx xxxx xx xxxxxx xxx xx xxxxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
@@ -280,7 +280,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxXxxx
+### -SrcBlobName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx.
 
 ```yaml
@@ -295,7 +295,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxxxx
+### -SrcContainer
 Xxxxxxxxx x xxxxx xxxx xxxxxxxxx xxxxxx.
 Xxx xxx xxxxxx xxxxx xxxx xxxxxxxxx xxxxxx xx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
 
@@ -311,7 +311,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxxxxXxxx
+### -SrcContainerName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxxxxxxx.
 
 ```yaml
@@ -326,7 +326,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -SrcFile
 Xxxxxxxxx x $$XxxxxXxxx$$ xxxxxx.
 Xxx xxx xxxxxx x xxxxx xxxx xx xxxxxx xxx xx xxxxx $$Xxx$XxxxxXxxxxxxXxxx$$.
 
@@ -342,7 +342,7 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxXxxx
+### -SrcFilePath
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx xxxxxxxx xx xxx xxxxxx xxxxxxxxx xx xxxxxx xxxxx.
 
 ```yaml
@@ -357,7 +357,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxx
+### -SrcShare
 Xxxxxxxxx x xxxxx xxxx xxxxx xxxxxx.
 Xxx xxx xxxxxx x xxxxx xxxx xxxxx xx xxxxxx xxx xx xxxxx xxx Xxx$XxxxxXxxxxxxXxxxx xxxxxx.
 
@@ -373,7 +373,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxXxxx
+### -SrcShareName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxxx.
 
 ```yaml
@@ -388,7 +388,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -403,7 +403,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -426,16 +426,16 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxx](74bc4494-be41-4493-9939-e51e61dd09e6)
+[Get-AzureStorageBlob](74bc4494-be41-4493-9939-e51e61dd09e6)
 
-[Xxx$XxxxxXxxxxxxXxxxxxxxx](4880a1a4-c947-4310-8317-0a837b8acb7f)
+[Get-AzureStorageContainer](4880a1a4-c947-4310-8317-0a837b8acb7f)
 
-[Xxx$XxxxxXxxxxxxXxxx](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
+[Get-AzureStorageFile](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
 
-[Xxx$XxxxxXxxxxxxXxxxx](10a13c83-d545-4729-99f9-048c774f32d7)
+[Get-AzureStorageShare](10a13c83-d545-4729-99f9-048c774f32d7)
 
-[Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx](248556e1-291f-4d27-b2e1-e00cc895b3a9)
+[Get-AzureStorageFileCopyState](248556e1-291f-4d27-b2e1-e00cc895b3a9)
 
-[Xxxx$XxxxxXxxxxxxXxxxXxxx](abc5a8cb-1151-4d5c-9230-d5c3a44f5a4c)
+[Stop-AzureStorageFileCopy](abc5a8cb-1151-4d5c-9230-d5c3a44f5a4c)
 
 

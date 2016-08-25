@@ -6,27 +6,27 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxXxxxxxx
+# Get-AzureStorageBlobContent
 ## XXXXXXXX
 Xxxxxxxxx x xxxxxxx xxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureStorageBlobContent [-Blob] <String> [-Container] <String> [-CheckMd5]
  [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>]
  [-Destination <String>] [-Force] [-ServerTimeoutPerRequest <Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureStorageBlobContent [-Blob] <String> [-CheckMd5] [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-Destination <String>] [-Force]
  [-ServerTimeoutPerRequest <Int32]>] -CloudBlobContainer <CloudBlobContainer> [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 Get-AzureStorageBlobContent [-CheckMd5] [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-Destination <String>] [-Force] [-ServerTimeoutPerRequest <Int32]>]
@@ -62,7 +62,7 @@ Xxxx xxxxxxx xxxx xxx xxxxxxxx xxxxxxxx xxxxxxxxx xxx xxx xxxxxxxx xx xxxx xxx x
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Blob
 Xxxxxxxxx xxx xxxx xx xxx xxxx xx xx xxxxxxxxxx.
 
 ```yaml
@@ -77,7 +77,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXx0
+### -CheckMd5
 Xxxxxxxxx xxxxxxx xx xxxxx xxx Xx0 xxx xxx xxx xxxxxxxxxx xxxx.
 
 ```yaml
@@ -92,7 +92,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ClientTimeoutPerRequest
 Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
 Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
 Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
@@ -109,7 +109,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -CloudBlob
 Xxxxxxxxx x xxxxx xxxx.
 Xx xxxxxx x $$XxxxxXxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
@@ -125,7 +125,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxXxxxxxxxx
+### -CloudBlobContainer
 Xxxxxxxxx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx xxxx xxx xxxxx$0 xxxxxxx xxxxxx xxxxxxx.
 Xxx xxx xxxxxx xx xx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
 
@@ -141,7 +141,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxXxxxx
+### -ConcurrentTaskCount
 Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
 Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
 Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
@@ -162,7 +162,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Container
 Xxxxxxxxx xxx xxxx xx xxxxxxxxx xxxx xxx xxx xxxx xxx xxxx xx xxxxxxxx.
 
 ```yaml
@@ -177,7 +177,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xxx Xxxxx xxxxxxx xxxxxxx xxxx xxxxx xxx xxxx xx xxxxxxxx xxxx xxxxxxx.
 Xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx xx xxxxxx x xxxxxxx xxxxxxx.
 
@@ -193,7 +193,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Destination
 Xxxxxxxxx xxx xxxxxxxx xx xxxxx xxx xxxxxxxxxx xxxx.
 
 ```yaml
@@ -208,7 +208,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 Xxxxxxxxxx xx xxxxxxxx xxxx xxxxxxx xxxxxxxxxxxx.
 
 ```yaml
@@ -223,7 +223,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ServerTimeoutPerRequest
 Xxxxxxxxx xxx xxxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
 Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
 
@@ -239,7 +239,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -254,7 +254,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -273,17 +273,17 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### XxxxxXxxxxxxXxxxxxxxx
+### AzureStorageContainer
 
 ## XXXXX
 Xx xxx xxxx xxxx xx xxxxxxx xxx xxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxxxxxxx xx$ xx xx xx xxxxxxxx.
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](c3d50900-70d6-44af-b939-abe86fcf89e6)
+[Set-AzureStorageBlobContent](c3d50900-70d6-44af-b939-abe86fcf89e6)
 
-[Xxx$XxxxxXxxxxxxXxxx](74bc4494-be41-4493-9939-e51e61dd09e6)
+[Get-AzureStorageBlob](74bc4494-be41-4493-9939-e51e61dd09e6)
 
-[Xxxxxx$XxxxxXxxxxxxXxxx](fddc1b9e-caf4-47d7-a6b2-a2b2bb50113a)
+[Remove-AzureStorageBlob](fddc1b9e-caf4-47d7-a6b2-a2b2bb50113a)
 
 

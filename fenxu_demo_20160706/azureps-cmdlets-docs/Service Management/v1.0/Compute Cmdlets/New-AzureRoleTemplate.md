@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureRoleTemplate
-## SYNOPSIS
-Creates web and worker role templates.
+## XXXXXXXX
+Xxxxxxx xxx xxx xxxxxx xxxx xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -22,41 +22,41 @@ New-AzureRoleTemplate [-Web] [[-Output] <String>]
 New-AzureRoleTemplate [-Worker] [[-Output] <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The New-AzureRoleTemplate cmdlet creates web and worker role templates.
+Xxx Xxx$XxxxxXxxxXxxxxxxx xxxxxx xxxxxxx xxx xxx xxxxxx xxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Create a web role template
+### 0$ Xxxxxx x xxx xxxx xxxxxxxx
 ```
 PS C:\>New-AzureRoleTemplate -Web
 ```
 
-This example creates a new web role template in a folder named WebRoleTemplate in the current directory.
+Xxxx xxxxxxx xxxxxxx x xxx xxx xxxx xxxxxxxx xx x xxxxxx xxxxx XxxXxxxXxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
-### 2: Create a worker role template
+### 0$ Xxxxxx x xxxxxx xxxx xxxxxxxx
 ```
 PS C:\>New-AzureRoleTemplate -Worker
 ```
 
-This example creates a new worker role template in a folder named WebRoleTemplate in the current directory.
+Xxxx xxxxxxx xxxxxxx x xxx xxxxxx xxxx xxxxxxxx xx x xxxxxx xxxxx XxxXxxxXxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
 
-### 3: Create a role template in a custom directory
+### 0$ Xxxxxx x xxxx xxxxxxxx xx x xxxxxx xxxxxxxxx
 ```
 PS C:\>New-AzureRoleTemplate -Web -Output C:\MyWebRoleTemplate
 ```
 
-This example creates a new web role template in directory named MyWebRoleTemplate, instead of in the current directory.
+Xxxx xxxxxxx xxxxxxx x xxx xxx xxxx xxxxxxxx xx xxxxxxxxx xxxxx XxXxxXxxxXxxxxxxx$ xxxxxxx xx xx xxx xxxxxxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Output
-Specifies the output path of generated template.
-\<Unclear to meâ€¦is this where you want to store the template that the cmdlet creates?
-Seems to be based on the example.\>
+Xxxxxxxxx xxx xxxxxx xxxx xx xxxxxxxxx xxxxxxxx.
+\<Xxxxxxx xx xx$$$xx xxxx xxxxx xxx xxxx xx xxxxx xxx xxxxxxxx xxxx xxx xxxxxx xxxxxxx$
+Xxxxx xx xx xxxxx xx xxx xxxxxxx.\>
 
 ```yaml
 Type: String
@@ -71,7 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -Web
-Specifies that you want to create a web role template.
+Xxxxxxxxx xxxx xxx xxxx xx xxxxxx x xxx xxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -Worker
-Specifies that you want to create a worker role template.
+Xxxxxxxxx xxxx xxx xxxx xx xxxxxx x xxxxxx xxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -100,13 +100,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Add-AzureWebRole](e973ae60-0350-4440-a0ea-03ca4da295c5)
 

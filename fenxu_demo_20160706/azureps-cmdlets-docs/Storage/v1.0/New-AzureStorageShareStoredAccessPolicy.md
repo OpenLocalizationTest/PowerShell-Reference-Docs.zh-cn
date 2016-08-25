@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx
+# New-AzureStorageShareStoredAccessPolicy
 ## XXXXXXXX
 Xxxxxxx x xxxxxx xxxxxx xxxxxx xx x Xxxxxxx xxxxx.
 
@@ -33,7 +33,7 @@ Xxxx xxxxxxx xxxxxxx x xxxxxx xxxxxx xxxxxx xxxx xxx xxxx xxxxxxxxxx xx x xxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ClientTimeoutPerRequest
 $$Xxxx$$
 
 ```yaml
@@ -48,7 +48,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxXxxxx
+### -ConcurrentTaskCount
 $$Xxxx$$
 
 ```yaml
@@ -63,7 +63,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Context
 $$Xxxx$$
 
 ```yaml
@@ -78,7 +78,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -ExpiryTime
 $$Xxxx$$
 
 ```yaml
@@ -93,7 +93,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxx
+### -Permission
 $$Xxxx$$
 
 ```yaml
@@ -108,7 +108,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Policy
 $$Xxxx$$
 
 ```yaml
@@ -123,7 +123,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ServerTimeoutPerRequest
 $$Xxxx$$
 
 ```yaml
@@ -138,7 +138,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -ShareName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxx xxxxx.
 
 ```yaml
@@ -153,7 +153,7 @@ Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -StartTime
 $$Xxxx$$
 
 ```yaml
@@ -176,12 +176,12 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](d3ad790c-c75f-4243-b128-7c778422ac64)
+[Get-AzureStorageShareStoredAccessPolicy](d3ad790c-c75f-4243-b128-7c778422ac64)
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](af46a7c9-dd40-4d0d-9950-56f661dada33)
+[Remove-AzureStorageShareStoredAccessPolicy](af46a7c9-dd40-4d0d-9950-56f661dada33)
 
-[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](738f47b7-e244-40b1-9b2e-3b6f4e348c8f)
+[Set-AzureStorageShareStoredAccessPolicy](738f47b7-e244-40b1-9b2e-3b6f4e348c8f)
 
 

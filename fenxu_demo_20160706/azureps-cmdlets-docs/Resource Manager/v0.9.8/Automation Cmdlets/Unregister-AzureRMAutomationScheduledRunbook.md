@@ -6,19 +6,19 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxxxxxx$XxxxxXXXxxxxxxxxxXxxxxxxxxXxxxxxx
+# Unregister-AzureRMAutomationScheduledRunbook
 ## XXXXXXXX
 Xxxxxxx xx xxxxxxxxxxx xxxxxxx x xxxxxxx xxx x xxxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Unregister-AzureRMAutomationScheduledRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Force] -JobScheduleId <Guid]> [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Unregister-AzureRMAutomationScheduledRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Force] -RunbookName <String> -ScheduleName <String> [-Confirm] [-WhatIf]
@@ -39,7 +39,7 @@ Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxxxx xxxxxxx xxx xxxxxxx xxxxx Xxxxx00 xxx xxx x
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xx Xxxxxxxxxx xxxxxxx xxx xxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
@@ -54,7 +54,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 xx$xxxxx
 
 ```yaml
@@ -69,7 +69,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxxxXx
+### -JobScheduleId
 Xxxxxxxxx xxx XX xx x xxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -84,7 +84,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxx xxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -99,7 +99,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -RunbookName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxx xxxx xxxxxx xxxxxxxxxxx xxxx x xxxxxxxx.
 
 ```yaml
@@ -114,7 +114,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxx
+### -ScheduleName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxxx xxxx xxxxxx xxxxxxxxxxx x xxxxxxx.
 
 ```yaml
@@ -129,7 +129,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -144,7 +144,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -167,8 +167,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxXxxxxxx](cfac4e12-2a1f-4b2c-873b-f5a3f9c4a2ce)
+[Get-AzureRmAutomationScheduledRunbook](cfac4e12-2a1f-4b2c-873b-f5a3f9c4a2ce)
 
-[Xxxxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxXxxxxxx](34edfa3b-7ef9-4aab-bb17-5ea725a22ed4)
+[Register-AzureRmAutomationScheduledRunbook](34edfa3b-7ef9-4aab-bb17-5ea725a22ed4)
 
 

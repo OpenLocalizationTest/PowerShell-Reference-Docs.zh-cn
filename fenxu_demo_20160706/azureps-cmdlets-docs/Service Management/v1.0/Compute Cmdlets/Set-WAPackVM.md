@@ -7,41 +7,41 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-WAPackVM
-## SYNOPSIS
-Changes the size properties of a virtual machine.
+## XXXXXXXX
+Xxxxxxx xxx xxxx xxxxxxxxxx xx x xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-WAPackVM [-VM] <VirtualMachine> [-VMSizeProfile] <HardwareProfile> [-PassThru]
 ```
 
-## DESCRIPTION
-These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
-This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+## XXXXXXXXXXX
+Xxxxx xxxxxx xxx xxxxxxxxxx xxx xxxx xx xxxxxxx xx xxx xxxxxx.
+Xxx xxx xxxxxxx xxxxxx$ xxx  Xxxxx XXXxxx Xxxxxxxxxxx$$$xxxx.xxxxxxxxx.xxx$xxxxxxx$xx000000.xxxx.
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.0 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxxx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xxxx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $xxx$xxxxxx xxxxx$.xxxxxxx.
 
-The Set-WAPackVM cmdlet changes the size properties of a virtual machine.
+Xxx Xxx$XXXxxxXX xxxxxx xxxxxxx xxx xxxx xxxxxxxxxx xx x xxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Specify the size for a virtual machine
+### Xxxxxxx 0$ Xxxxxxx xxx xxxx xxx x xxxxxxx xxxxxxx
 ```
 PS C:\>$VirtualMachine = Get-WAPackVM -Name "ContosoV126"PS C:\> $SizeProfile = Get-WAPackVMSizeProfile -Name "MediumSizeVM"PS C:\> Set-WAPackVM -VM $VirtualMachine -VMSizeProfile $SizeProfile
 ```
 
-The first command gets the virtual machine named ContosoV126 by using the Get-WAPackVM cmdlet, and then stores that object in the $VirtualMachine variable.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx xxxxx XxxxxxxX000 xx xxxxx xxx Xxx$XXXxxxXX xxxxxx$ xxx xxxx xxxxxx xxxx xxxxxx xx xxx $XxxxxxxXxxxxxx xxxxxxxx.
 
-The second command gets the size profile named MediumSizeVM by using the Get-WAPackVMSizeProfile cmdlet, and then stores that object in the $SizeProfile variable.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxx xxxxxxx xxxxx XxxxxxXxxxXX xx xxxxx xxx Xxx$XXXxxxXXXxxxXxxxxxx xxxxxx$ xxx xxxx xxxxxx xxxx xxxxxx xx xxx $XxxxXxxxxxx xxxxxxxx.
 
-The final command assigns the size profile stored in $SizeProfile to the virtual machine stored in $VirtualMachine.
+Xxx xxxxx xxxxxxx xxxxxxx xxx xxxx xxxxxxx xxxxxx xx $XxxxXxxxxxx xx xxx xxxxxxx xxxxxxx xxxxxx xx $XxxxxxxXxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -PassThru
-Returns an object representing the item with which you are working.
-By default, this cmdlet does not generate any output.
+Xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxx xxxx xxxxx xxx xxx xxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -56,8 +56,8 @@ Accept wildcard characters: False
 ```
 
 ### -VM
-Specifies a virtual machine.
-To obtain a virtual machine, use the Get-WAPackVM cmdlet.
+Xxxxxxxxx x xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XXXxxxXX xxxxxx.
 
 ```yaml
 Type: VirtualMachine
@@ -72,8 +72,8 @@ Accept wildcard characters: False
 ```
 
 ### -VMSizeProfile
-Specifies a size profile for a virtual machine as a HardwareProfile object.
-To obtain a size profile, use the Get-WAPackVMSizeProfile cmdlet.
+Xxxxxxxxx x xxxx xxxxxxx xxx x xxxxxxx xxxxxxx xx x XxxxxxxxXxxxxxx xxxxxx.
+Xx xxxxxx x xxxx xxxxxxx$ xxx xxx Xxx$XXXxxxXXXxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: HardwareProfile
@@ -87,13 +87,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-WAPackVM](4b060a7d-da50-45ff-adb6-bcba63faa90b)
 

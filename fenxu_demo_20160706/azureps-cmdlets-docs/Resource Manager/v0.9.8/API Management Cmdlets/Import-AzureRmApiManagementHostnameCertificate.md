@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxx
+# Import-AzureRmApiManagementHostnameCertificate
 ## XXXXXXXX
 Xxxxxxx x xxxxxxxxxxx xx x XXX xxxxxx xxx xx XXX Xxxxxxxxxx Xxxxxxx.
 
@@ -32,7 +32,7 @@ Xxxx xxxxxxx xxxxxxx x xxxxxxxxxxx xxx x xxxxx xxxxxx xxxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxXxxx
+### -HostnameType
 Xxxxxxxxx xxx xxxx xxxx xxxx xxxx xxxx xxxxxx xxxxx xxx xxxxxxxxxxx xxx.
 
 Xxxxx xxxxxx xxx$ 
@@ -52,7 +52,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx XXX Xxxxxxxxxx xxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -67,7 +67,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 xxxxxxxx
 
 ```yaml
@@ -82,7 +82,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxxx
+### -PfxPassword
 Xxxxxxxxx xxx xxxxxxxx xxx xxx .xxx xxxxxxxxxxx xxxx.
 
 ```yaml
@@ -97,7 +97,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -PfxPath
 Xxxxxxxxx xxx xxxx xx x .xxx xxxxxxxxxxx xxxx.
 
 ```yaml
@@ -112,7 +112,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xx xxxxxxxx xxxxx xxxxx xxxxx xxx XXX Xxxxxxxxxx xxxxxxxxxx xxxxxx.
 
 ```yaml
@@ -135,8 +135,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxxxx](73f73a6f-470c-4dd6-95c4-a1302fabb0dd)
+[New-AzureRmApiManagementHostnameConfiguration](73f73a6f-470c-4dd6-95c4-a1302fabb0dd)
 
-[Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxx](dd997f04-b85b-409c-8c69-a5e659c768e3)
+[Set-AzureRmApiManagementHostnames](dd997f04-b85b-409c-8c69-a5e659c768e3)
 
 

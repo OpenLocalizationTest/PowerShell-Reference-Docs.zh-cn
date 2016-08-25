@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293967
 schema: 2.0.0
 ---
 
-# Xxx$Xxxxx
+# Get-Event
 ## XXXXXXXX
 Xxxx xxx xxxxxx xx xxx xxxxx xxxxx.
 
 ## XXXXXX
 
-### XxXxxxxx $Xxxxxxx$
+### BySource (Default)
 ```
 Get-Event [[-SourceIdentifier] <String>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### XxXx
+### ById
 ```
 Get-Event [-EventIdentifier] <Int32> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
@@ -97,7 +97,7 @@ Xxxx xxxxxxx xxxx xxx xxxxx xxxx xx xxxxx xxxxxxxxxx xx 0.
 
 ## XXXXXXXXXX
 
-### $XxxxxXxxxxxxxxx
+### -EventIdentifier
 Xxxx xxxx xxx xxxxxx xxxx xxx xxxxxxxxx xxxxx xxxxxxxxxx.
 
 ```yaml
@@ -112,7 +112,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -128,7 +128,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -143,7 +143,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxxxx
+### -SourceIdentifier
 Xxxx xxxx xxxxxx xxxx xxx xxxxxxxxx xxxxxx xxxxxxxxxx.
 Xxx xxxxxxx xx xxx xxxxxx xx xxx xxxxx xxxxx.
 Xxxxxxxxx xxx xxx xxxxxxxxx.
@@ -162,12 +162,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxx
+### System.Management.Automation.PSEventArgs
 Xxx$Xxxxx xxxxxxx x XXXxxxxXxxx xxxxxx xxx xxxx xxxxx.
 Xx xxx x xxxxxxxxxxx xx xxxx xxxxxx$ xxxx $xxx$xxxx xxx$xxxxx $xxxx$ xxx xxx xxx Xxxxx xxxxxxx xx xxx xxxx xxxxx.
 
@@ -189,17 +189,17 @@ $$XxxxxxxXxxx$ Xxxx xxxxxxxxxx xxxx xxx xxxxx xxxxxxxxxxxx. Xxxxx xxxxxxx xxxx x
 
 ## XXXXXXX XXXXX
 
-[Xxx$Xxxxx]()
+[New-Event]()
 
-[Xxxxxxxx$XxxxxxXxxxx]()
+[Register-EngineEvent]()
 
-[Xxxxxxxx$XxxxxxXxxxx]()
+[Register-ObjectEvent]()
 
-[Xxxxxxxx$XxxXxxxx]()
+[Register-WmiEvent]()
 
-[Xxxxxx$Xxxxx]()
+[Remove-Event]()
 
-[Xxxxxxxxxx$Xxxxx]()
+[Unregister-Event]()
 
-[Xxxx$Xxxxx]()
+[Wait-Event]()
 

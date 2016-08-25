@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293970
 schema: 2.0.0
 ---
 
-# Xxx$Xxxx
+# Get-Host
 ## XXXXXXXX
 Xxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xxxx xxxxxxx.
 
@@ -195,7 +195,7 @@ Xx xxx xxx xx xxx xxxxxxxxxx xx xxx xxxxxx xx xxx $xxxx.xxxxxxxxxxx xxxxxxxx$ xx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -211,7 +211,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -228,12 +228,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxx.Xxxx.XxxxxxxxXxxx
+### System.Management.Automation.Internal.Host.InternalHost
 Xxx$Xxxx xxxxxxx x Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxx.Xxxx.XxxxxxxxXxxx xxxxxx.
 
 ## XXXXX
@@ -244,11 +244,11 @@ Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxxxx$Xxxxxxxxx.
 
 ## XXXXXXX XXXXX
 
-[Xxxxx$Xxxx]()
+[Clear-Host]()
 
-[Xxx$Xxxx]()
+[Out-Host]()
 
-[Xxxx$Xxxx]()
+[Read-Host]()
 
-[Xxxxx$Xxxx]()
+[Write-Host]()
 

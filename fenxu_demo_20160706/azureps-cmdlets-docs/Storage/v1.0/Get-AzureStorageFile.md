@@ -6,27 +6,27 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxx
+# Get-AzureStorageFile
 ## XXXXXXXX
 Xxxxx xxxxxxxxxxx xxx xxxxx xxx x xxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureStorageFile [-ShareName] <String> [[-Path] <String>]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
  [-Context <AzureStorageContext>] [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureStorageFile [-Share] <CloudFileShare> [[-Path] <String>]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 Get-AzureStorageFile [-Directory] <CloudFileDirectory> [[-Path] <String>]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
@@ -60,7 +60,7 @@ Xx xxxxx xxxx xxx xxxxxxxxx xxxxxxxx$ xxx xxxx xxxxxxxxx xx xx xxx $$Xxx$XxxxxXx
 
 ## XXXXXXXXXX
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ClientTimeoutPerRequest
 Xxxxxxxxx xxx xxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
 Xx xxx xxxxxxxx xxxx xxxxx xxxxxx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
 Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
@@ -77,7 +77,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxXxxxx
+### -ConcurrentTaskCount
 Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
 Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
 Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
@@ -96,7 +96,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx.
 Xx xxxxxx x Xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -112,7 +112,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Directory
 Xxxxxxxxx x xxxxxx xx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx.
 Xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 Xx xxxxxx x xxxxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
@@ -130,7 +130,7 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxxxx xxx xxxx xx x xxxxxx.
 
 Xx xxx xxxx xxx $Xxxx$ xxxxxxxxx$ $$Xxx$XxxxxXxxxxxxXxxx$$ xxxxx xxx xxxxxxxxxxx xxx xxxxx xx xxx xxxxxxxxx xxxx xxxxx xx xxxxxxxxx.
@@ -148,7 +148,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ServerTimeoutPerRequest
 Xxxxxxxxx xxx xxxxxxx$xxxx xxxxxxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
 Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx Xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
 
@@ -164,7 +164,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Share
 Xxxxxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx.
 Xxxx xxxxxx xxxx x xxxx xx xxxxxxxxx xxxx xxx xxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 Xx xxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxx xxxxxx.
@@ -183,7 +183,7 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -ShareName
 Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx.
 Xxxx xxxxxx xxxx x xxxx xx xxxxxxxxx xxxx xxx xxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -207,14 +207,14 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](7e23b9f6-5f66-49a3-beb8-e2639c5234d7)
+[Get-AzureStorageFileContent](7e23b9f6-5f66-49a3-beb8-e2639c5234d7)
 
-[Xxx$XxxxxXxxxxxxXxxxxxxxx](2eea330c-759d-4dee-81e9-2e72de9f707e)
+[New-AzureStorageDirectory](2eea330c-759d-4dee-81e9-2e72de9f707e)
 
-[Xxxxxx$XxxxxXxxxxxxXxxxxxxxx](2cbd0756-0224-43b0-8e22-a7316b7e24c2)
+[Remove-AzureStorageDirectory](2cbd0756-0224-43b0-8e22-a7316b7e24c2)
 
-[Xxxxxx$XxxxxXxxxxxxXxxx](c9eb0c34-12ba-4978-85b5-f52c71e9ddf3)
+[Remove-AzureStorageFile](c9eb0c34-12ba-4978-85b5-f52c71e9ddf3)
 
-[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](cd2e0aa7-3259-4aa5-8494-c432063d34e7)
+[Set-AzureStorageFileContent](cd2e0aa7-3259-4aa5-8494-c432063d34e7)
 
 

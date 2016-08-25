@@ -6,20 +6,20 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxx
+# Get-AzureStorageBlob
 ## XXXXXXXX
 Xxxxx xxxxx xx x xxxxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureStorageBlob [[-Blob] <String>] [-Container] <String> [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-ContinuationToken <BlobContinuationToken>]
  [-MaxCount <Int32]>] [-ServerTimeoutPerRequest <Int32]>]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureStorageBlob [-Container] <String> [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-ContinuationToken <BlobContinuationToken>] [-MaxCount <Int32]>]
@@ -81,7 +81,7 @@ Xxx xxxxx xxxxxxx xxxx xxx $$Xxxx$$ xxxxxxx xx xxxxxxx xxx xxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Blob
 Xxxxxxxxx x xxxx xx xxxx xxxxxxx$ xxxxx xxx xx xxxx xxx x xxxxxxxx xxxxxx.
 Xx xx xxxx xxxx xx xxxxxxxxx$ xxx xxxxxx xxxxx xxx xxx xxxxx xx xxx xxxxxxxxx xxxxxxxxx.
 Xx x xxxxx xx xxxxxxxxx xxx xxxx xxxxxxxxx$ xxx xxxxxx xxxxx xxx xxxxx xxxx xxxxx xxxx xxxxx xxxx xxxxxxxxx.
@@ -98,7 +98,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ClientTimeoutPerRequest
 Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
 Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
 Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
@@ -115,7 +115,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxXxxxx
+### -ConcurrentTaskCount
 Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
 Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
 Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
@@ -134,7 +134,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Container
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxx.
 
 ```yaml
@@ -149,7 +149,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xxx Xxxxx xxxxxxx xxxxxxx xxxx xxxxx xxx xxxx xx xxx x xxxx xx xxxxx.
 Xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx xx xxxxxx x xxxxxxx xxxxxxx.
 
@@ -165,7 +165,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxxXxxxx
+### -ContinuationToken
 Xxxxxxxxx x xxxxxxxxxxxx xxxxx xxx xxx xxxx xxxx.
 Xxx xxxx xxxxxxxxx xxx xxx $XxxXxxxx$ xxxxxxxxx xx xxxx xxxxx xx xxxxxxxx xxxxxxx.
 
@@ -181,7 +181,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxx
+### -MaxCount
 Xxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -196,7 +196,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Prefix
 Xxxxxxxxx x xxxxxx xxx xxx xxxx xxxxx xxxx xxx xxxx xx xxx.
 Xxxx xxxxxxxxx xxxx xxx xxxxxxx xxxxx xxxxxxx xxxxxxxxxxx xx xxxxxxxx xxxxxxxxxx xx xxxxxx.
 Xxxx xxxxx xxxx xx xxx xxxxxxxxx xxx xxxx xxxxx xxxxx $Xx$$ $XxXxxx0$$ xxx $XxXxxx0$ xxx xxx xxxxxxx $$Xxxxxx Xx$$$ xxx xxxxxx xxxxxxx xx xxxxx.
@@ -214,7 +214,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ServerTimeoutPerRequest
 Xxxxxxxxx xxx xxxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
 Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
 
@@ -234,17 +234,17 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### XxxxxXxxxxxxXxxx
+### AzureStorageBlob
 
 ## XXXXX
 XXXXXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](15371eb7-da6a-4b26-bbda-b59a2eeedb1d)
+[Get-AzureStorageBlobContent](15371eb7-da6a-4b26-bbda-b59a2eeedb1d)
 
-[Xxxxxx$XxxxxXxxxxxxXxxx](fddc1b9e-caf4-47d7-a6b2-a2b2bb50113a)
+[Remove-AzureStorageBlob](fddc1b9e-caf4-47d7-a6b2-a2b2bb50113a)
 
-[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](c3d50900-70d6-44af-b939-abe86fcf89e6)
+[Set-AzureStorageBlobContent](c3d50900-70d6-44af-b939-abe86fcf89e6)
 
 

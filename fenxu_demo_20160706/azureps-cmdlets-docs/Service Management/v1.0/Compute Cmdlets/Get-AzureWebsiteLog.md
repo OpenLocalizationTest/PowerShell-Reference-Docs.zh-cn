@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureWebsiteLog
-## SYNOPSIS
-Gets logs for the specified website.
+## XXXXXXXX
+Xxxx xxxx xxx xxx xxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -22,46 +22,46 @@ Get-AzureWebsiteLog [[-Name] <String>] [-ListPath] [-Slot <String>]
 Get-AzureWebsiteLog [[-Name] <String>] [[-Path] <String>] [[-Message] <String>] [-Tail] [-Slot <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-Gets log for the specified website.
+Xxxx xxx xxx xxx xxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 C:\PS>Get-AzureWebsiteLog -Tail
 ```
 
-This example starts log streaming for all application logs.
+Xxxx xxxxxxx xxxxxx xxx xxxxxxxxx xxx xxx xxxxxxxxxxx xxxx.
 
-### Example 2
+### Xxxxxxx 0
 ```
 C:\PS>Get-AzureWebsiteLog -Tail -Path http
 ```
 
-This example starts log streaming for http logs.
+Xxxx xxxxxxx xxxxxx xxx xxxxxxxxx xxx xxxx xxxx.
 
-### Example 3
+### Xxxxxxx 0
 ```
 C:\PS>Get-AzureWebsiteLog -Tail -Message Error
 ```
 
-This example starts log streaming and show error logs only.
+Xxxx xxxxxxx xxxxxx xxx xxxxxxxxx xxx xxxx xxxxx xxxx xxxx.
 
-### Example 4
+### Xxxxxxx 0
 ```
 C:\PS>Get-AzureWebsiteLog -Name MyWebsite -ListPath
 ```
 
-This example lists all available log paths in the website.
+Xxxx xxxxxxx xxxxx xxx xxxxxxxxx xxx xxxxx xx xxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -ListPath
-Specifies whether to list the log paths.
+Xxxxxxxxx xxxxxxx xx xxxx xxx xxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -76,8 +76,8 @@ Accept wildcard characters: False
 ```
 
 ### -Message
-A string which will be used to filter the log message.
-Only logs which contains this string will be retrieved.
+X xxxxxx xxxxx xxxx xx xxxx xx xxxxxx xxx xxx xxxxxxx.
+Xxxx xxxx xxxxx xxxxxxxx xxxx xxxxxx xxxx xx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -92,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the website.
+Xxx xxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -107,8 +107,8 @@ Accept wildcard characters: False
 ```
 
 ### -Path
-The path from which the log will be retrieved.
-By default it is Root, which means include all the paths.
+Xxx xxxx xxxx xxxxx xxx xxx xxxx xx xxxxxxxxx.
+Xx xxxxxxx xx xx Xxxx$ xxxxx xxxxx xxxxxxx xxx xxx xxxxx.
 
 ```yaml
 Type: String
@@ -123,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Specifies the slot name.
+Xxxxxxxxx xxx xxxx xxxx.
 
 ```yaml
 Type: String
@@ -138,7 +138,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tail
-Specifies whether to stream the logs.
+Xxxxxxxxx xxxxxxx xx xxxxxx xxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -152,13 +152,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 

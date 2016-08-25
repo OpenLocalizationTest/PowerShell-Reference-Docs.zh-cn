@@ -6,19 +6,19 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxxx$XxxxxXxxxxxxXxxxxxx
+# Publish-AzureServiceProject
 ## XXXXXXXX
 Xxxxxxx xxx xxxxxxx xxxxxxx xx Xxxxxxx Xxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Publish-AzureServiceProject [[-ServiceName] <String>] [-AffinityGroup <String>] [-DeploymentName <String>]
  [-ForceUpgrade] [-Launch] [-Location <String>] [-Slot <String>] [-StorageAccountName <String>]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Publish-AzureServiceProject [[-Package] <String>] [-Configuration] <String> [-AffinityGroup <String>]
  [-DeploymentName <String>] [-ForceUpgrade] [-Launch] [-Location <String>] [-Slot <String>]
@@ -50,7 +50,7 @@ Xxxxxxx x xxxxxxxxxx xxxxxxx $.xxxxx$ xxxx xx xxx xxxxxxx xxxxxxxxx xxx xxxx xxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxXxxxx
+### -AffinityGroup
 Xxxxxxxxx xxx xxxxxxxx xxxxx xxxx xxx xxxx xxx xxxxxxx xx xxx.
 
 ```yaml
@@ -65,7 +65,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxxxx
+### -Configuration
 Xxxxxxxxx xxx xxxxxxx xxxxxxxxxxxxx xxxx.
 Xx xxx xxxxxxx xxxx xxxxxxxxx$ xxxxxxx xxx Xxxxxxx xxxxxxxxx.
 
@@ -81,7 +81,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxx
+### -DeploymentName
 Xxxxxxxxx xxx xxxxxxxxxx xxxx.
 
 ```yaml
@@ -96,7 +96,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxx
+### -ForceUpgrade
 $$Xxxx$$
 
 ```yaml
@@ -111,7 +111,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Launch
 Xxxxx x xxxxxxx xxxxxx xx xxx xxx xxxx xxx xxxxxxxxxxx xxxxx xx xx xxxxxxxx.
 
 ```yaml
@@ -126,7 +126,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Location
 Xxx xxxxxx xx xxxxx xxx xxxxxxxxxxx xxxx xx xxxxxx.
 Xxxxxxxx xxxxxx xxx$ Xxxxxxxx Xxxx$ Xxxxxxxx Xxxxxx$ Xxxxxxxx XX$ Xxxx Xxxx$ Xxxx XX$ Xxxxx Xxxxxxx XX$ Xxxxx Xxxxxx$ Xxxxx Xxxxxxx XX$ Xxxxxxxxx Xxxx$ Xxxx Xxxxxx$ Xxxx XX. Xx xx Xxxxxxxx xx xxxxxxxxx$ xxx xxxxxxxx xxxxxxxxx xx xxx xxxx xxxx xx Xxx$XxxxxXxxxxxxXxxxxxx xxxx xx xxxx. Xx xx Xxxxxxxx xxx xxxx xxxxxxxxx$ xxx Xxxxxxxx xxxx xx xxxxxxxx xxxxxx xxxx $Xxxxx Xxxxxxx XX$ xxx $Xxxxx Xxxxxxx XX$ xxxxxxxxx.
 
@@ -142,7 +142,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Package
 Xxxxxxxxx xxx xxxxxxx xxxx xx xxxxxx.
 Xxxxxxx xxxxxx x xxxxx xxxx xxxx xxx xxx .xxxxx xxxx xxxx xxxxxxxxx xx x XXX xx x xxxx xxxx xxxxxxxx xxx xxxxxxx.
 Xx xxx xxxxxxx xxxx xxxxxxxxx$ xx xxx xxxxxxx xxx XxxxxxxXxxx xxxxxxxxx.
@@ -159,7 +159,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -ServiceName
 Xxxxxxxxx xxx xxxx xx xx xxxx xxx xxx xxxxxxx xxxx xxxxxxxxxx xx Xxxxxxx Xxxxx.
 Xxx xxxx xxxxxxxxxx xxxx xx xxx xxxxx xx xxx xxxxxxxx.xxx xxxxxxxxx xxxx xx xxxx xx xxxxxxx xxx xxxxxxx xxxx xxxxxx xx Xxxxxxx Xxxxx $xxxx xx$ xxxx.xxxxxxxx.xxx$.
 Xxx xxxx xxxxxxxxx xxxxx xxxxxxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxx xxxxx xxxx xxx xxxxxxx xxx xxxxxxx.
@@ -177,7 +177,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxx xxxxxxxxxx xxxx xx xx xxxx xxx xxxx xxxxxxx.
 Xxxxxxxx xxxxxx xxx $Xxxxxxx$ xxx $Xxxxxxxxxx$.
 Xx xx xxxx xx xxxxxxxxx$ xxx xxxx xxxxxxxx xx xxx xxxx xxxx xx Xxx$XxxxxXxxxxxxxxxXxxx xx xxxx.
@@ -195,7 +195,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxXxxx
+### -StorageAccountName
 Xxxxxxxxx xxx Xxxxxxx Xxxxx xxxxxxx xxxxxxx xxxx xx xx xxxx xxxxx xxxxxxxxxx xxx xxxxxxx.
 Xxxx xxxxx xx xxx xxxx xxxxx xxx xxxxxxx xx xxxxxxxxx.
 Xxxx xxxx xxxxxxxxx xx xxx xxxxxxxxx$ xxx xxxxx xx xxxxxxxx xxxx xxx xxxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxxx.
@@ -223,8 +223,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxxxxxxXxxxxxxXxxxxxXxxxxxx](8d3f7f43-f8f6-4ecf-b8be-7c69cd10cde7)
+[Enable-AzureServiceProjectRemoteDesktop](8d3f7f43-f8f6-4ecf-b8be-7c69cd10cde7)
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](c3baa783-e57a-46bd-abe4-6d06130eaaf0)
+[Set-AzureServiceProject](c3baa783-e57a-46bd-abe4-6d06130eaaf0)
 
 

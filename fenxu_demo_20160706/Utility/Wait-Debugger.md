@@ -4,7 +4,7 @@ online version:
 schema: 2.0.0
 ---
 
-# Xxxx$Xxxxxxxx
+# Wait-Debugger
 ## XXXXXXXX
 Xxxxx x xxxxxx xx xxx xxxxxxxx xxxxxx xxxxxxx xxx xxxx xxxxxxxxx xx xxx xxxxxx.
 
@@ -31,7 +31,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -47,7 +47,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml

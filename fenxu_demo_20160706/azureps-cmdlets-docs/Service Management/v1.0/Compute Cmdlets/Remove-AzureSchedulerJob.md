@@ -7,35 +7,35 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-AzureSchedulerJob
-## SYNOPSIS
-Deletes a scheduler job.
+## XXXXXXXX
+Xxxxxxx x xxxxxxxxx xxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureSchedulerJob [[-Location] <String>] [-JobCollectionName] <String> [-JobName] <String> [-Force]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Remove-AzureSchedulerJob cmdlet deletes a scheduler job.
+Xxx Xxxxxx$XxxxxXxxxxxxxxXxx xxxxxx xxxxxxx x xxxxxxxxx xxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Delete a scheduler job
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxxx xxx
 ```
 PS C:\>Remove-AzureSchedulerJob -Location "North Central US" -JobCollectionName "JobCollection01" -JobName "Job17"
 ```
 
-This command deletes the job named Job17.
-That job is part of the job collection named JobCollection01 and is in of the specified location.
+Xxxx xxxxxxx xxxxxxx xxx xxx xxxxx Xxx00.
+Xxxx xxx xx xxxx xx xxx xxx xxxxxxxxxx xxxxx XxxXxxxxxxxxx00 xxx xx xx xx xxx xxxxxxxxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Force
-Indicates that this cmdlet removes the scheduler job without prompting you for confirmation.
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxxxxxxxx xxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -50,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobCollectionName
-Specifies the name of the collection that contains the scheduler job to delete.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxx xxxx xxxxxxxx xxx xxxxxxxxx xxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -65,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobName
-Specifies the name of a scheduler job to delete.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxxx xxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -80,20 +80,10 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the name of the location that hosts the cloud service.
-Valid values are: 
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxxx xxx xxxxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Anywhere Asia
--- Anywhere Europe
--- Anywhere US
--- East Asia
--- East US
--- North Central US
--- North Europe
--- South Central US
--- Southeast Asia
--- West Europe
--- West US
+$$ Xxxxxxxx Xxxx $$ Xxxxxxxx Xxxxxx $$ Xxxxxxxx XX $$ Xxxx Xxxx $$ Xxxx XX $$ Xxxxx Xxxxxxx XX $$ Xxxxx Xxxxxx $$ Xxxxx Xxxxxxx XX $$ Xxxxxxxxx Xxxx $$ Xxxx Xxxxxx $$ Xxxx XX
 
 ```yaml
 Type: String
@@ -107,13 +97,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureSchedulerJob](aaed4c39-d209-4663-b058-b480553ee6a9)
 

@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxxx
+# Update-AzureRmApiManagementDeployment
 ## XXXXXXXX
 Xxxxxxx xxxxxxxxxx xx xx XXX Xxxxxxxxxx Xxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Update-AzureRmApiManagementDeployment
  [-AdditionalRegions <0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]>] [-PassThru]
@@ -20,7 +20,7 @@ Update-AzureRmApiManagementDeployment
  -ResourceGroupName <String> [-Sku]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Update-AzureRmApiManagementDeployment [-PassThru] -ApiManagement <PsApiManagement>
 ```
@@ -50,7 +50,7 @@ Xxxx xxxxxxx xxxx xx Xxx Xxxxxxxxxx xxxxxxxx$ xxxxxx xx xx xxxx xxxxxxx xxxxx xx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxx
+### -AdditionalRegions
 Xxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxx xx xxxxx$0 XXX Xxxxxxxxxx.
 
 ```yaml
@@ -65,7 +65,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxxxxx
+### -ApiManagement
 Xxxxxxxxx xxx $$XxXxxXxxxxxxxxx$$ xxxxxxxx xx xxx xxxxxxxxxx xxxxxxxxxxxxx xxxx.
 Xxx xxxx xxxxxxxxx xx xxx xxxxxxxx xxxxxxx xxx xxx xxx xxxxxxxx xxxxxxx.
 
@@ -81,7 +81,7 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Capacity
 Xxxxxxxxx xxx XXX xxxxxxxx xx xxx xxxxxx xxxxx$0 XXX Xxxxxxxxxx xxxxxxxxxx xxxxxx.
 
 ```yaml
@@ -96,7 +96,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Location
 Xxxxxxxxx xxx xxxxxxxx xx xxx xxxxxx XXX Xxxxxxxxxx xxxxxxxxxx xxxxxx.
 
 Xxxxx xxxxxx xxx$ 
@@ -115,7 +115,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx XXX Xxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -130,7 +130,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 xxxxxxxx
 
 ```yaml
@@ -145,7 +145,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxxxxxxx xxxxx xxxxx xxxxx XXX Xxxxxxxxxx xxxxxx.
 
 ```yaml
@@ -160,7 +160,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxx
+### -Sku
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxxx$0 XXX Xxxxxxxxxx xxxxxxxxxx xxxxxx.
 
 Xxxxx xxxxxx xxx$ 
@@ -180,7 +180,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxx
+### -VirtualNetwork
 Xxxxxxxxx xxx Xxxxxxx Xxxxxxx xxxxxxxxxxxxx xx xxx xxxxxx xxxxx$0 XXX Xxxxxxxxxx xxxxxxxxxx xxxxxx.
 
 ```yaml
@@ -203,6 +203,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxXxxxxxxxxx](e067ded3-a2e3-4d53-8628-0ebbafa62721)
+[Get-AzureRmApiManagement](e067ded3-a2e3-4d53-8628-0ebbafa62721)
 
 

@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293990
 schema: 2.0.0
 ---
 
-# Xxxxxxx$Xxxxxx
+# Measure-Object
 ## XXXXXXXX
 Xxxxxxxxxx xxx xxxxxxx xxxxxxxxxx xx xxxxxxx$ xxx xxx xxxxxxxxxx$ xxxxx$ xxx xxxxx xx xxxxxx xxxxxxx$ xxxx xx xxxxx xx xxxx.
 
 ## XXXXXX
 
-### XxxxxxxXxxxxxx $Xxxxxxx$
+### GenericMeasure (Default)
 ```
 Measure-Object [-InputObject <PSObject>] [[-Property] <String[]>] [-Sum] [-Average] [-Maximum] [-Minimum]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### XxxxXxxxxxx
+### TextMeasure
 ```
 Measure-Object [-InputObject <PSObject>] [[-Property] <String[]>] [-Line] [-Word] [-Character]
  [-IgnoreWhiteSpace] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
@@ -90,7 +90,7 @@ Xx xxxx xxxx$ xx xxxx xxx XXXxXxxxxxxxx Xxxxxxx xxxxxxxx xx xxxxxxx xxx xxxxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Average
 Xxxxxxxx xxx xxxxxxx xxxxx xx xxx xxxxxxxxx xxxxxxxxxx.
 
 ```yaml
@@ -105,7 +105,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Character
 Xxxxxx xxx xxxxxx xx xxxxxxxxxx xx xxx xxxxx xxxxxx.
 
 ```yaml
@@ -120,7 +120,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxXxxxx
+### -IgnoreWhiteSpace
 Xxxxxxx xxxxx xxxxx xx xxxx xxxxxx xxx xxxxxxxxx xxxxxx.
 Xx xxxxxxx$ xxxxx xxxxx xx xxx xxxxxxx.
 
@@ -136,7 +136,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -152,7 +152,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -167,7 +167,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxx xxxxxxx xx xx xxxxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
@@ -186,7 +186,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Line
 Xxxxxx xxx xxxxxx xx xxxxx xx xxx xxxxx xxxxxx.
 
 ```yaml
@@ -201,7 +201,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Maximum
 Xxxxxxxx xxx xxxxxxx xxxxx xx xxx xxxxxxxxx xxxxxxxxxx.
 
 ```yaml
@@ -216,7 +216,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Minimum
 Xxxxxxxx xxx xxxxxxx xxxxx xx xxx xxxxxxxxx xxxxxxxxxx.
 
 ```yaml
@@ -231,7 +231,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Property
 Xxxxxxxxx xxx xx xxxx xxxxxxx xxxxxxxxxx xx xxxxxxx.
 Xxx xxxxxxx xx xxx Xxxxx $Xxxxxx$ xxxxxxxx xx xxx xxxxxx.
 
@@ -247,7 +247,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxx
+### -Sum
 Xxxxxxxx xxx xxx xx xxx xxxxxx xx xxx xxxxxxxxx xxxxxxxxxx.
 
 ```yaml
@@ -262,7 +262,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Word
 Xxxxxx xxx xxxxxx xx xxxxx xx xxx xxxxx xxxxxx.
 
 ```yaml
@@ -279,12 +279,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxxxxxx xx Xxxxxxx$Xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxxxXxxxxxxXxxx$ Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxXxxxxxxXxxx$ Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxxxXxxxxxXxxxxxxXxxx
+### Microsoft.PowerShell.Commands.GenericMeasureInfo, Microsoft.PowerShell.Commands.TextMeasureInfo, Microsoft.PowerShell.Commands.GenericObjectMeasureInfo
 Xx xxx xxx xxx Xxxx xxxxxxxxx$ Xxxxxxx$Xxxxxx xxxxxxx x XxxxXxxxxxxXxxx xxxxxx.
 Xxxxxxxxx$ xx xxxxxxx x XxxxxxxXxxxxxxXxxx xxxxxx.
 
@@ -292,19 +292,19 @@ Xxxxxxxxx$ xx xxxxxxx x XxxxxxxXxxxxxxXxxx xxxxxx.
 
 ## XXXXXXX XXXXX
 
-[Xxxxxxx$Xxxxxx]()
+[Compare-Object]()
 
-[XxxXxxx$Xxxxxx]()
+[ForEach-Object]()
 
-[Xxxxx$Xxxxxx]()
+[Group-Object]()
 
-[Xxx$Xxxxxx]()
+[New-Object]()
 
-[Xxxxxx$Xxxxxx]()
+[Select-Object]()
 
-[Xxxx$Xxxxxx]()
+[Sort-Object]()
 
-[Xxx$Xxxxxx]()
+[Tee-Object]()
 
-[Xxxxx$Xxxxxx]()
+[Where-Object]()
 

@@ -7,32 +7,32 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Unregister-AzureRmAutomationDscNode
-## SYNOPSIS
-Removes a DSC node from management by an Automation account.
+## XXXXXXXX
+Xxxxxxx x XXX xxxx xxxx xxxxxxxxxx xx xx Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Unregister-AzureRmAutomationDscNode [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Force]
  -Id <Guid> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Unregister-AzureRmAutomationDscNode** cmdlet removes an APS Desired State Configuration (DSC) node from management by an azure_2 Automation account.
+## XXXXXXXXXXX
+Xxx $$Xxxxxxxxxx$XxxxxXxXxxxxxxxxxXxxXxxx$$ xxxxxx xxxxxxx xx XXX Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxx xxxx xxxxxxxxxx xx xx xxxxx$0 Xxxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove an Azure DSC node from management by an Automation account
+### Xxxxxxx 0$ Xxxxxx xx Xxxxx XXX xxxx xxxx xxxxxxxxxx xx xx Xxxxxxxxxx xxxxxxx
 ```
 PS C:\>Unregister-AzureRmAutomationDscNode -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01" -Id 064a8929-c98b-25e4-80hh-111ca86067j8
 ```
 
-This command removes the DSC node that has the specified GUID from management by the Automation account named Contoso17.
+Xxxx xxxxxxx xxxxxxx xxx XXX xxxx xxxx xxx xxx xxxxxxxxx XXXX xxxx xxxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account from which this cmdlet removes a DSC node.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxx xxxx xxxxxx xxxxxxx x XXX xxxx.
 
 ```yaml
 Type: String
@@ -47,7 +47,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-ps_force
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-Specifies the unique ID of the DSC node that this cmdlet removes.
+Xxxxxxxxx xxx xxxxxx XX xx xxx XXX xxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: Guid
@@ -77,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group in which this cmdlet unregisters a DSC node.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xx xxxxx xxxx xxxxxx xxxxxxxxxxx x XXX xxxx.
 
 ```yaml
 Type: String
@@ -92,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -107,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -121,13 +121,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationDscNode](19472f94-5827-4878-a17a-d7bb10932861)
 

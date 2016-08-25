@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxx
+# Get-AzureSBNamespace
 ## XXXXXXXX
 Xxxx xxx xxxxxxxxx.
 
@@ -33,7 +33,7 @@ Xxxx xxxxxxx xxxx xxx Xxxxxxx Xxx xxxxxxx xxxxxxxxxx xxxxxxxxxx xxxx xxx xxxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx x Xxxxxxx Xxx xxxxxxxxx xx xxxx xxx.
 
 ```yaml
@@ -56,6 +56,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXXXxxxxxxx](bff960ab-8d2e-43e7-879c-fc13559394df)
+[Get-AzureSBLocation](bff960ab-8d2e-43e7-879c-fc13559394df)
 
 

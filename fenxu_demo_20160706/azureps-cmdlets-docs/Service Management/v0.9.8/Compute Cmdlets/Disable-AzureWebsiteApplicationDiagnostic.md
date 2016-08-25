@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxxx$XxxxxXxxxxxxXxxxxxxxxxxXxxxxxxxxx
+# Disable-AzureWebsiteApplicationDiagnostic
 ## XXXXXXXX
 Xxxxxxxx xxxxxxxxxxx xxxxxxxxxxx xxx xx Xxxxx xxxxxxx.
 
@@ -41,7 +41,7 @@ Xxx xxxxxxxxx xxxxxxx xxxxxxxx xxxxxxxxxxx xxxxxxx xxxxx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -File
 Xxxxxxxxx xxxx xxx xxxx xx xxx xxx xxxx xxxxxx xx xxxxx xxx xxx xxxxx.
 
 ```yaml
@@ -56,7 +56,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx.
 
 ```yaml
@@ -71,7 +71,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxx xx xxxxxx xxxx xx xxxxxxxxx
 
 ```yaml
@@ -86,7 +86,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxxxxxxxx xxx xxxx xx xxxx.
 
 ```yaml
@@ -101,7 +101,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Storage
 Xxxxxxxxx xxxxx Xxxxx Xxxxxxx xx xxxxx xxx xxx xxxxx.
 
 ```yaml
@@ -124,14 +124,14 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxxxxxxXxxxxxxxxxxXxxxxxxxxx](5e0e5009-a69f-4621-a317-68a8109aabf8)
+[Enable-AzureWebsiteApplicationDiagnostic](5e0e5009-a69f-4621-a317-68a8109aabf8)
 
-[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
-[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
+[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
 
-[Xxxxxx$XxxxxXxxxxxx](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
+[Remove-AzureWebsite](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
 
-[Xxxxx$XxxxxXxxxxxx](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
+[Start-AzureWebsite](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
 
 

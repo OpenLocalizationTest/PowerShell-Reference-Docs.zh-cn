@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxx
+# Get-AzureLocation
 ## XXXXXXXX
 Xxxx xxx xxxxxxxxx xxxx xxxxxx xxxxxxxxx xxx xxx xxxxxxx Xxxxx xxxxxxxxxxxx.
 

@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294031
 schema: 2.0.0
 ---
 
-# Xxxxx$Xxxxxxxx
+# Write-Progress
 ## XXXXXXXX
 Xxxxxxxx x xxxxxxxx xxx xxxxxx x Xxxxxxx XxxxxXxxxx xxxxxxx xxxxxx.
 
@@ -80,7 +80,7 @@ Xx xxx xxxx xxxx$ xxx Xxx xxxxxxxxx xx xxx XxxXxxx$Xxxxxx xxxxxx xx xxxx xx xxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxx
+### -Activity
 Xxxxxxxxx xxx xxxxx xxxx xx xxxx xx xxx xxxxxxx xxxxx xxx xxxxxx xxx.
 Xxxx xxxx xxxxxxxxx xxx xxxxxxxx xxxxx xxxxxxxx xx xxxxx xxxxxxxx.
 
@@ -96,7 +96,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Completed
 Xxxxxxxxx xxxxxxx xxx xxxxxxxx xxx xx xxxxxxx.
 Xx xxxx xxxxxxxxx xx xxxxxxx$ Xxxxx$Xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxxxxx.
 
@@ -112,7 +112,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxxx
+### -CurrentOperation
 Xxxxxxxxx xxx xxxx xx xxxx xxxxx xxx xxxxxxxx xxx.
 Xxxx xxxx xxxxxxxxx xxx xxxxxxxxx xxxx xx xxxxxxxxx xxxxxx xxxxx.
 
@@ -128,7 +128,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xx
+### -Id
 Xxxxxxxxx xx XX xxxx xxxxxxxxxxxxx xxxx xxxxxxxx xxx xxxx xxx xxxxxx.
 Xxx xxxx xxxxxxxxx xxxx xxx xxx xxxxxxxx xxxx xxxx xxx xxxxxxxx xxx xx x xxxxxx xxxxxxx.
 Xx xxx xxxxxxxx xxxx xx xxx xxxx xxxxxxxxx XXx$ xxxx xxx xxxxxxxxxxxx xxxxxxx xx xxxxx xxxxxxxxx xx x xxxxxx.
@@ -145,7 +145,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -161,7 +161,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -176,7 +176,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXx
+### -ParentId
 Xxxxxxxxxx xxx xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxx.
 Xxx xxx xxxxx $0 xx xxx xxxxxxx xxxxxxxx xxx xx xxxxxx xxxxxxxx.
 
@@ -192,7 +192,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxx
+### -PercentComplete
 Xxxxxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxx xxxx xx xxxxxxxxx.
 Xxx xxx xxxxx $0 xx xxx xxxxxxxxxx xxxxxxxx xx xxxxxxx xx xxx xxxxxxxxxx.
 
@@ -208,7 +208,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxxx
+### -SecondsRemaining
 Xxxxxxxxx xxx xxxxxxxxx xxxxxx xx xxxxxxx xxxxxxxxx xxxxx xxx xxxxxxxx xx xxxxxxxxx.
 Xxx xxx xxxxx $0 xx xxx xxxxxx xx xxxxxxx xxxxxxxxx xx xxxxxxx xx xxx xxxxxxxxxx.
 
@@ -224,7 +224,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXx
+### -SourceId
 Xxxxxxxxxx xxx xxxxxx xx xxx xxxxxx.
 
 ```yaml
@@ -239,7 +239,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Status
 Xxxxxxxxx xxx xxxxxx xxxx xx xxxx xx xxx xxxxxxx xxxxx xxx xxxxxx xxx.
 Xxxx xxxx xxxxxxxxx xxxxxxx xxxxx xx xxx xxxxxxxx.
 
@@ -257,12 +257,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxxxx$Xxxxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ## XXXXX
@@ -275,15 +275,15 @@ Xxx xxxx xxxxxxxxxxx$ xxx xxx XxxxxxxxXxxxxx xxxxx xx xxx Xxxxxxx XxxxxXxxxx Xxx
 
 ## XXXXXXX XXXXX
 
-[Xxxxx$Xxxxx]()
+[Write-Debug]()
 
-[Xxxxx$Xxxxx]()
+[Write-Error]()
 
-[Xxxxx$Xxxx]()
+[Write-Host]()
 
-[Xxxxx$Xxxxxx]()
+[Write-Output]()
 
-[Xxxxx$Xxxxxxx]()
+[Write-Verbose]()
 
-[Xxxxx$Xxxxxxx]()
+[Write-Warning]()
 

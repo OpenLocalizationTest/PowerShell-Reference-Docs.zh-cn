@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxxxxxx
+# Get-AzureWebsiteDeployment
 ## XXXXXXXX
 Xxxx xxx xxxxxxxxxxx xxx x xxxxxxx.
 
@@ -41,7 +41,7 @@ Xxxx xxxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxx xxxxxxxxxx $x00000000$ xxx xx Xxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxXx
+### -CommitId
 Xxxxxxxxx xxx xxxxxx XX xxx xxx xxxxxxxxxx.
 
 ```yaml
@@ -56,7 +56,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Details
 Xxxxx xxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxxxxxx.
 
 ```yaml
@@ -71,7 +71,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxx
+### -MaxResults
 Xxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxx xxxx xxx xxxx xxx xxxxxxx xx xxxxxx.
 
 ```yaml
@@ -86,7 +86,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxx xxxxx xxx xxxx xx xxx xxxxxxxxxx xxxxxxxxxxx.
 
 ```yaml
@@ -101,7 +101,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxxxxxxxx xxx xxxx xxxx.
 
 ```yaml
@@ -124,8 +124,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxxx$XxxxxXxxxxxxXxxxxxxxxx](05b24030-ff70-48d2-8bed-d17d0451d4ca)
+[Restore-AzureWebsiteDeployment](05b24030-ff70-48d2-8bed-d17d0451d4ca)
 
-[Xxxx$XxxxxXxxxxxxXxx](f3c9cb3a-d628-48c5-a43c-dea1914f8eb6)
+[Save-AzureWebsiteLog](f3c9cb3a-d628-48c5-a43c-dea1914f8eb6)
 
 

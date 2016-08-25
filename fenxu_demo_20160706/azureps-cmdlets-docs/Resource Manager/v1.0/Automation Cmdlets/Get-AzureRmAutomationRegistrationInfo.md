@@ -7,31 +7,31 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureRmAutomationRegistrationInfo
-## SYNOPSIS
-Gets registration information for onboarding a DSC node or hybrid worker to Automation.
+## XXXXXXXX
+Xxxx xxxxxxxxxxxx xxxxxxxxxxx xxx xxxxxxxxxx x XXX xxxx xx xxxxxx xxxxxx xx Xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureRmAutomationRegistrationInfo [-ResourceGroupName] <String> [-AutomationAccountName] <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationRegistrationInfo** cmdlet gets the endpoint and keys required to onboard a Desired State Configuration (DSC) node or hybrid worker into an azure_2 Automation account.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxxxXxxx$$ xxxxxx xxxx xxx xxxxxxxx xxx xxxx xxxxxxxx xx xxxxxxx x Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxx xx xxxxxx xxxxxx xxxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get registration information
+### Xxxxxxx 0$ Xxx xxxxxxxxxxxx xxxxxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationRegistrationInfo -ResourceGroup "ResourceGroup01" -AutomationAccountName "AutomationAccount01"
 ```
 
-This command gets the registration information for the Automation account named AutomationAccount01 in the Resource Group named ResourceGroup01.
+Xxxx xxxxxxx xxxx xxx xxxxxxxxxxxx xxxxxxxxxxx xxx xxx Xxxxxxxxxx xxxxxxx xxxxx XxxxxxxxxxXxxxxxx00 xx xxx Xxxxxxxx Xxxxx xxxxx XxxxxxxxXxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of Automation account for which this cmdlet gets registration information.
+Xxxxxxxxx xxx xxxx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -46,8 +46,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group.
-This cmdlet gets registration information for the resource group that this parameter specifies.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx.
+Xxxx xxxxxx xxxx xxxxxxxxxxxx xxxxxxxxxxx xxx xxx xxxxxxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -61,13 +61,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationAccount](c9ec226d-3a4f-49d1-9b9f-df9d57bdfa43)
 

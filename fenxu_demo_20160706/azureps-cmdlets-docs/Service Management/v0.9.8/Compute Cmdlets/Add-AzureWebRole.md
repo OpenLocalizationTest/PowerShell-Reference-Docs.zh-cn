@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxXxxx
+# Add-AzureWebRole
 ## XXXXXXXX
 Xxxx x xxx xxxxxx xxxx.
 
@@ -56,7 +56,7 @@ Xxx xxxxxxx xxxxxxxxx x xxxxxx xxxxx XxXxxXxxxxxxxXxxxxx xx x xxxxxxxxxxx xxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxx
+### -Instances
 Xxxxxxxxx xxx xxxxxx xx xxxxxxxxx.
 
 ```yaml
@@ -71,7 +71,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxx xxxx.
 
 ```yaml
@@ -86,7 +86,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxx
+### -TemplateFolder
 Xxxxxxxxx xxx xxxxxxxx xxxxxx.
 
 ```yaml
@@ -109,8 +109,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxXxxx](77af980e-7b69-46b9-af3c-6d586710eff8)
+[Add-AzureWorkerRole](77af980e-7b69-46b9-af3c-6d586710eff8)
 
-[Xxx$XxxxxXxxxXxxxxxxx](03fbb075-4258-4eb3-a5d1-3ae0f599e361)
+[New-AzureRoleTemplate](03fbb075-4258-4eb3-a5d1-3ae0f599e361)
 
 

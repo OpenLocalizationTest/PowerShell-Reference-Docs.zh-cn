@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294027
 schema: 2.0.0
 ---
 
-# Xxxxx$Xxxxx
+# Write-Debug
 ## XXXXXXXX
 Xxxxxx x xxxxx xxxxxxx xx xxx xxxxxxx.
 
@@ -77,7 +77,7 @@ Xxx xxxx xxxxxxxxxxx xxxxx $XxxxxXxxxxxxxxx$ xxx xxxxx$Xxxxxxxxxx$Xxxxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -93,7 +93,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -108,7 +108,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Message
 Xxxxxxxxx xxx xxxxx xxxxxxx xx xxxx xx xxx xxxxxxx.
 
 ```yaml
@@ -125,12 +125,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx x xxxxx xxxxxxx xx Xxxxx$Xxxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxxxx$Xxxxx xxxxxx xxxx xx xxx xxxxx xxxxxx.
 Xx xxxx xxx xxxxxx xxx xxxxxx.
 
@@ -138,15 +138,15 @@ Xx xxxx xxx xxxxxx xxx xxxxxx.
 
 ## XXXXXXX XXXXX
 
-[Xxxxx$Xxxxx]()
+[Write-Error]()
 
-[Xxxxx$Xxxx]()
+[Write-Host]()
 
-[Xxxxx$Xxxxxx]()
+[Write-Output]()
 
-[Xxxxx$Xxxxxxxx]()
+[Write-Progress]()
 
-[Xxxxx$Xxxxxxx]()
+[Write-Verbose]()
 
-[Xxxxx$Xxxxxxx]()
+[Write-Warning]()
 

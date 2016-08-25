@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx
+# Set-AzureStorageServiceLoggingProperty
 ## XXXXXXXX
 Xxxxxxxx xxxxxxx xxx xxxxx$0 Xxxxxxx xxxxxxxx.
 
@@ -33,7 +33,7 @@ Xxxxxxx xxxx xxxxxxx xxxxxxxxx xxx $XxxxXxxx$ xxxxxxxxx$ xxx xxxxxxx xxxxxxxx xx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -49,7 +49,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxxxx
+### -LoggingOperations
 Xxxxxxxxx xx xxxxx xx xxxxx$0 Xxxxxxx xxxxxxx xxxxxxxxxx.
 xxxxx$0 Xxxxxxx xxxxxxxx xxxx xxx xxxxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 xxxx$xxxxxxxxxxx
@@ -68,7 +68,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxxxxxx xxxxxxx xxxxxxxxxx.
 Xx xxx xx xxx xxxxxxx xxxx xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx x xxxxx.
 
@@ -84,7 +84,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxXxxx
+### -RetentionDays
 Xxxxxxxxx xxx xxxxxx xx xxxx xxxx xxx xxxxx$0 Xxxxxxx xxxxxxx xxxxxxx xxxxxx xxxxxxxxxxx.
 
 ```yaml
@@ -99,7 +99,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -ServiceType
 Xxxxxxxxx xxx xxxxxxx xxxxxxx xxxx.
 Xxxx xxxxxx xxxxxxxx xxx xxxxxxx xxxxxxxxxx xxx xxx xxxxxxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 xxxx$xxxxxxxxxxx
@@ -121,7 +121,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Version
 Xxxxxxxxx xxx xxxxxxx xx xxx xxxxx$0 Xxxxxxx xxxxxxx xxxxxxx.
 Xxx xxxxxxx xxxxx xx 0.0.
 
@@ -145,8 +145,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx](02217f39-6c93-401b-8801-52fdd38ba751)
+[Get-AzureStorageServiceLoggingProperty](02217f39-6c93-401b-8801-52fdd38ba751)
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
 

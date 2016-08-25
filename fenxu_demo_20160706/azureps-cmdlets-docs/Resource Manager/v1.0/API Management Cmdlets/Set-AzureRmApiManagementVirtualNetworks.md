@@ -7,32 +7,32 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureRmApiManagementVirtualNetworks
-## SYNOPSIS
-Sets the VPN configuration for an API Management Service.
+## XXXXXXXX
+Xxxx xxx XXX xxxxxxxxxxxxx xxx xx XXX Xxxxxxxxxx Xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureRmApiManagementVirtualNetworks [-PassThru] [-VirtualNetworks <PsApiManagementVirtualNetwork[]>]
  -Name <String> -ResourceGroupName <String>
 ```
 
-## DESCRIPTION
-The **Set-AzureRmApiManagementVirtualNetworks** cmdlet sets Virtual Network configuration for an API Management service.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxXxxxxxxx$$ xxxxxx xxxx Xxxxxxx Xxxxxxx xxxxxxxxxxxxx xxx xx XXX Xxxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Set virtual networks for an API Management service
+### Xxxxxxx 0$ Xxx xxxxxxx xxxxxxxx xxx xx XXX Xxxxxxxxxx xxxxxxx
 ```
 PS C:\>Set-AzureRmApiManagementVirtualNetworks -ResourceGroupName "ContosoGroup" -Name "ContosoApi" -VirtualNetworks $VirtualNetworks
 ```
 
-This command sets virtual networks for an API Management service.
+Xxxx xxxxxxx xxxx xxxxxxx xxxxxxxx xxx xx XXX Xxxxxxxxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-Specifies the name of an API Management service.
+Xxxxxxxxx xxx xxxx xx xx XXX Xxxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -47,7 +47,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-passthru
+xxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group under which the API Management service exists.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxxxx xxxxx xxx XXX Xxxxxxxxxx xxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -77,8 +77,8 @@ Accept wildcard characters: False
 ```
 
 ### -VirtualNetworks
-Specifies an array of virtual networks configurations.
-Passing $null will remove the virtual network configuration.
+Xxxxxxxxx xx xxxxx xx xxxxxxx xxxxxxxx xxxxxxxxxxxxxx.
+Xxxxxxx $xxxx xxxx xxxxxx xxx xxxxxxx xxxxxxx xxxxxxxxxxxxx.
 
 ```yaml
 Type: PsApiManagementVirtualNetwork[]
@@ -92,13 +92,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [New-AzureRmApiManagementVirtualNetwork](ec96b443-15bf-4b19-b518-decb18c64749)
 

@@ -7,34 +7,34 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Switch-AzureWebsiteSlot
-## SYNOPSIS
-Swaps the production slot for a website with another slot.
-This works on websites with two slots only
+## XXXXXXXX
+Xxxxx xxx xxxxxxxxxx xxxx xxx x xxxxxxx xxxx xxxxxxx xxxx.
+Xxxx xxxxx xx xxxxxxxx xxxx xxx xxxxx xxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 Switch-AzureWebsiteSlot [[-Name] <String>] [[-Slot1] <String>] [[-Slot2] <String>] [-Force] [-Confirm]
  [-WhatIf]
 ```
 
-## DESCRIPTION
-Swaps the production slot for a website with another slot.
-This works on websites with two slots only
+## XXXXXXXXXXX
+Xxxxx xxx xxxxxxxxxx xxxx xxx x xxxxxxx xxxx xxxxxxx xxxx.
+Xxxx xxxxx xx xxxxxxxx xxxx xxx xxxxx xxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Switch Website Slot --------------
+### $$$$$$$$$$$$$$  Xxxxxx Xxxxxxx Xxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Switch-AzureWebsiteSlot -Name MyWebsite
 ```
 
-Switch the azure website MyWebsite backup slot with production slot
+Xxxxxx xxx xxxxx xxxxxxx XxXxxxxxx xxxxxx xxxx xxxx xxxxxxxxxx xxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Force
-Do not confirm the swap operation.
+Xx xxx xxxxxxx xxx xxxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -49,7 +49,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the website
+Xxx xxxx xx xxx xxxxxxx
 
 ```yaml
 Type: String
@@ -64,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot1
-Specifies the first slot.
+Xxxxxxxxx xxx xxxxx xxxx.
 
 ```yaml
 Type: String
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot2
-Specifies the second slot.
+Xxxxxxxxx xxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -109,9 +109,9 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -125,13 +125,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 

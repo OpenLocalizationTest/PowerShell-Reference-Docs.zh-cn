@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxXxxxxxxxXxx
+# New-AzureMediaServicesKey
 ## XXXXXXXX
 Xxxxxxx Xxxxx Xxxxx Xxxxxxxx xxxxxxx xxxx.
 
@@ -31,7 +31,7 @@ PS C:\> New-AzureMediaServicesKey -Name "mediaservicesaccount" -KeyType "Primary
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 Xx xxx $$$Xxxxx xxxxxx xx xxxxxxxxx$ xxx xxx xxxxxxxxxx xx xxx xxxxxxxxx.
 
 ```yaml
@@ -46,7 +46,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -KeyType
 Xxx Xxxxx Xxxxxxxx xxx xxxx $$Xxxxxxx$Xxxxxxxxx$$.
 
 ```yaml
@@ -62,7 +62,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxx xxxx xx xxx Xxxxx Xxxxxxxx xxxxxxx.
 
 ```yaml
@@ -77,7 +77,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -92,7 +92,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -117,6 +117,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx xx xxx Xxxxx XxxxxXxxxx xxx Xxxxx Xxxxxxxx](http://go.microsoft.com/fwlink/?LinkId=324179)
+[How to use Azure PowerShell for Media Services](http://go.microsoft.com/fwlink/?LinkId=324179)
 
 

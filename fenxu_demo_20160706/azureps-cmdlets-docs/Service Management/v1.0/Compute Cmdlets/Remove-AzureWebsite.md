@@ -7,41 +7,41 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-AzureWebsite
-## SYNOPSIS
-Removes the specified website from Azure.
+## XXXXXXXX
+Xxxxxxx xxx xxxxxxxxx xxxxxxx xxxx Xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureWebsite [[-Name] <String>] [-Force] [-Slot <String>] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Remove-AzureWebsite cmdlet removes the specified website from Azure, either with or without a prompt for confirmation.
+Xxx Xxxxxx$XxxxxXxxxxxx xxxxxx xxxxxxx xxx xxxxxxxxx xxxxxxx xxxx Xxxxx$ xxxxxx xxxx xx xxxxxxx x xxxxxx xxx xxxxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Remove the current website
+### 0$ Xxxxxx xxx xxxxxxx xxxxxxx
 ```
 PS C:\>Remove-AzureWebsite
 ```
 
-This example removes the website in Azure associated with the current directory
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxx xx Xxxxx xxxxxxxxxx xxxx xxx xxxxxxx xxxxxxxxx
 
-### 2: Remove a website without confirmation
+### 0$ Xxxxxx x xxxxxxx xxxxxxx xxxxxxxxxxxx
 ```
 PS C:\>Remove-AzureWebsite -Name mySite -Force
 ```
 
-This example deletes the website named 'mySite' without prompting for confirmation.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxx xxxxx $xxXxxx$ xxxxxxx xxxxxxxxx xxx xxxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Force
-If specified, deletes the specified website without prompting for confirmation.
+Xx xxxxxxxxx$ xxxxxxx xxx xxxxxxxxx xxxxxxx xxxxxxx xxxxxxxxx xxx xxxxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -56,7 +56,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the website to delete.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -71,7 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Specifies the slot name of the website.
+Xxxxxxxxx xxx xxxx xxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -101,9 +101,9 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -117,13 +117,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 

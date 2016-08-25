@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293998
 schema: 2.0.0
 ---
 
-# Xxx$Xxxxxxx
+# Out-Printer
 ## XXXXXXXX
 Xxxxx xxxxxx xx x xxxxxxx.
 
@@ -54,7 +54,7 @@ Xx xxxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxx xxx xxxxx xx xxx $x xxxxxxxx xx Xxx$Xx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -70,7 +70,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -85,7 +85,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxx xxxxxxx xx xx xxxx xx xxx xxxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
@@ -101,7 +101,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx  xxxxxxxxx xxxxxxx.
 Xxx xxxxxxxxx xxxx $$Xxxx$$ xx xxxxxxxx.
 
@@ -119,12 +119,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxx xxxxxx xx Xxx$Xxxxxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxx$Xxxxxxx xxxx xxx xxxxxx xxx xxxxxxx.
 
 ## XXXXX
@@ -144,13 +144,13 @@ Xx xxx xxxx xxx xxxxxx xx Xxx$Xxxxxxx xx Xxx$Xxxxxx$ Xxx$Xxxxxx xxxxxxx xxxx xx 
 
 ## XXXXXXX XXXXX
 
-[Xxx$Xxxxxxx]()
+[Out-Default]()
 
-[Xxx$Xxxx]()
+[Out-File]()
 
-[Xxx$Xxxx]()
+[Out-Host]()
 
-[Xxx$Xxxx]()
+[Out-Null]()
 
-[Xxx$Xxxxxx]()
+[Out-String]()
 

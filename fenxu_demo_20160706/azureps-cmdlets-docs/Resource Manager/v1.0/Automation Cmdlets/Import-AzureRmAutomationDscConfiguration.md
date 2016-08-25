@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Import-AzureRmAutomationDscConfiguration
-## SYNOPSIS
-Imports a DSC configuration into Automation.
+## XXXXXXXX
+Xxxxxxx x XXX xxxxxxxxxxxxx xxxx Xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Import-AzureRmAutomationDscConfiguration [-ResourceGroupName] <String> [-AutomationAccountName] <String>
@@ -18,25 +18,25 @@ Import-AzureRmAutomationDscConfiguration [-ResourceGroupName] <String> [-Automat
  -SourcePath <String> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Import-AzureRmAutomationDscConfiguration** cmdlet imports an APS Desired State Configuration (DSC) configuration into azure_2 Automation.
-Specify the path of an APS script that contains a single DSC configuration.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx$$ xxxxxx xxxxxxx xx XXX Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxxxxxxxxxxx xxxx xxxxx$0 Xxxxxxxxxx.
+Xxxxxxx xxx xxxx xx xx XXX xxxxxx xxxx xxxxxxxx x xxxxxx XXX xxxxxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Import a DSC configuration into Automation
+### Xxxxxxx 0$ Xxxxxx x XXX xxxxxxxxxxxxx xxxx Xxxxxxxxxx
 ```
 PS C:\>Import-AzureRmAutomationDscConfiguration -AutomationAccountName "Contoso17"-ResourceGroupName "ResourceGroup01" -SourcePath "C:\DSC\client.ps1" -Force
 ```
 
-This command imports the DSC configuration in the file named client.ps1 into the Automation account named Contoso17.
-The command specifies the *Force* parameter.
-If there is an existing DSC configuration, this command replaces it.
+Xxxx xxxxxxx xxxxxxx xxx XXX xxxxxxxxxxxxx xx xxx xxxx xxxxx xxxxxx.xx0 xxxx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
+Xxx xxxxxxx xxxxxxxxx xxx $Xxxxx$ xxxxxxxxx.
+Xx xxxxx xx xx xxxxxxxx XXX xxxxxxxxxxxxx$ xxxx xxxxxxx xxxxxxxx xx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account into which this cmdlet imports a DSC configuration.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxx xxxx xxxxxx xxxxxxx x XXX xxxxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -51,7 +51,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-Specifies a description of the configuration that this cmdlet imports.
+Xxxxxxxxx x xxxxxxxxxxx xx xxx xxxxxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -66,7 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-Indicates that this cmdlet replaces an existing DSC configuration in Automation.
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx xx xxxxxxxx XXX xxxxxxxxxxxxx xx Xxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -81,8 +81,8 @@ Accept wildcard characters: False
 ```
 
 ### -LogVerbose
-Specifies whether this cmdlet turns verbose logging on or off for compilation jobs of this DSC configuration.
-Specify a value of $True to turn verbose logging on or $False to turn it off.
+Xxxxxxxxx xxxxxxx xxxx xxxxxx xxxxx xxxxxxx xxxxxxx xx xx xxx xxx xxxxxxxxxxx xxxx xx xxxx XXX xxxxxxxxxxxxx.
+Xxxxxxx x xxxxx xx $Xxxx xx xxxx xxxxxxx xxxxxxx xx xx $Xxxxx xx xxxx xx xxx.
 
 ```yaml
 Type: Boolean]
@@ -97,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -Published
-Indicates that this cmdlet imports the DSC configuration in the published state.
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx XXX xxxxxxxxxxxxx xx xxx xxxxxxxxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -112,7 +112,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet imports a DSC configuration.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x XXX xxxxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -SourcePath
-Specifies the path of the wps_2 script that contains the DSC configuration that this cmdlet imports.
+Xxxxxxxxx xxx xxxx xx xxx xxx$0 xxxxxx xxxx xxxxxxxx xxx XXX xxxxxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -142,7 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-Specifies a dictionary of tags.
+Xxxxxxxxx x xxxxxxxxxx xx xxxx.
 
 ```yaml
 Type: IDictionary
@@ -157,7 +157,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -172,7 +172,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -186,13 +186,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Export-AzureRmAutomationDscConfiguration](091cd841-4aaf-45de-a8f2-6f973fb9c91b)
 

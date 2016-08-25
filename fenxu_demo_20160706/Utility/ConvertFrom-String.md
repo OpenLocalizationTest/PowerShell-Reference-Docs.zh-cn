@@ -4,18 +4,18 @@ online version: http://go.microsoft.com/fwlink/?LinkID=507579
 schema: 2.0.0
 ---
 
-# XxxxxxxXxxx$Xxxxxx
+# ConvertFrom-String
 ## XXXXXXXX
 Xxxxxxxx xxx xxxxxx xxxxxxxxxx xxxxxxx xxxx xxxxxx xxxxxxx.
 
 ## XXXXXX
 
-### XxXxxxxxxxx $Xxxxxxx$
+### ByDelimiter (Default)
 ```
 ConvertFrom-String [-Delimiter <String>] [-PropertyNames <String[]>] -InputObject <String>
 ```
 
-### XxxxxxxxXxxxxxx
+### TemplateParsing
 ```
 ConvertFrom-String [-TemplateFile <String[]>] [-TemplateContent <String[]>] [-IncludeExtent] [-UpdateTemplate]
  -InputObject <String>
@@ -85,7 +85,7 @@ Xxx xxxxxx xxxxxxxx xx xx xxxxxxx$ xxx x xxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxx
+### -Delimiter
 X xxxxxxx xxxxxxxxxx xxxx xxxxxxxxxx xxx xxxxxxxx xxxxxxx xxxxxxxx.
 Xxxxxxxx xxxx xxx xxxxxxx xx xxx xxxxx xxxxxx xxxxxxxxxx xx xxx xxxxxxxxx xxxxxx.
 Xxx xxxxxxxxx xx xxxxxxxxxx xxxx xx x xxxx xx Xxxxxx.Xxxx.XxxxxxxXxxxxxxxxxx.XxxxxxxXxxxxxxxxx.Xxxxx$$.
@@ -102,7 +102,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxx
+### -IncludeExtent
 Xxxxxxxx xxxxxx xxxx xxxxxxxx xxxx xx xxxxxxx xx xxxxxxx.
 
 ```yaml
@@ -117,7 +117,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxxxxxx xxxxxxxx xxxx xxx xxxxxxxx$ xx x xxxxxxxx xxxx xxxxxxxx x xxxxxx xxxxxx.
 
 ```yaml
@@ -132,7 +132,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxx
+### -PropertyNames
 Xxx xx xxxx xxxxxxxx xxxxx xx xxxxx xx xxxxxx xxxxx xxxxxx xx xxx xxxxxxxxx xxxxxx.
 Xxxxx xxxx xx xxxx xxxx xxx xxxxx xx xxxxx xxxxxxxxx xxxxxxxx xxxx xxxxxxxxx xxxxxxxx xxxxxx.
 Xx xxx xxxxxxx xx xxx xxxxxx xx x xxxxxxx xxxxx$ xxx xxxx xxxxxxx xxxxx xx xxxxx $xxx xxxxxxx$ $$$$xxxx$$$ xx $$$xxxx$$ $$ xxxx xxx xxxx xx xxxx xxxxxxx xxxxx xx xxxxxxxx xx xxx xxxxxxxx.
@@ -154,7 +154,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxxx
+### -TemplateContent
 Xxxxxxxxx xx xxxxxxxxxx $xx xx xxxxxxxxxx xxxxx xx x xxxxxxxx$ xxxx xxxxxxxxx xxx xxxxxxxxxx xx xxxxx xxx xxxx xx xxxxxx xxxxxxx.
 Xxx xxxxxx xx x xxxxxxxx xxxxx xxxxxxxxxxxxx xx xxx xxxxxxxxx$ $$$xxxxxxxx$xxxxxxxx$$xxxx$xxxxxxxx$xxxx$ xxx xxxxxxx $$$xxxxxxx$xxxxx$. Xx xxxxxxx xx $XxxxxxXxxx$$$Xxxx$Xxxxxxxx XxXxxxx$.
 
@@ -170,7 +170,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxx
+### -TemplateFile
 Xxxxxxxxx x xxxx xxxx xxxxxxxx x xxxxxxxx xxx xxx xxxxxxx xxxxxxx xx xxx xxxxxx.
 Xx xxx xxxxxxxx xxxx$ xxxxxxxxxx xxx xxxxx xxxxxx xxx xxxxxxxx xx xxxxxxxx$ xx xxxxx xx xxx xxxxxxxxx xxxxxxx.
 Xx x xxxxxxxx $xxxx xx xxx Xxxx xxxxxxxx xx xxxx xxxxxxx$ $xxx xxx xxxxxxxxxx xxxxx xxxxxxxxxx$ xxx xxxxxx xxxxxxxx xxxxx$ xxx xx xxxxxxxx $$$ xx xxxxxxxx xxxx xxxx xxxxxxx xx xxxxxxxx xxxxxxx $xxxxxx xxxx xxxxxxxxxx xxxxxxxx xxxxxxxxxx xxxx x xxxxxx xxxxxx.
@@ -195,7 +195,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxx
+### -UpdateTemplate
 Xxxxx xxx xxxxxxx xx x xxxxxxxx xxxxxxxxx xxxx x xxxxxxx xx xxx xxxxxxxx xxxx.
 Xxxx xxxxx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx.
 Xx xxx XxxxxxXxxxxxxx$ xxx xxxx xxxx xxxxxxx x xxxxxxxx xxxx xxxx xxx XxxxxxxxXxxx xxxxxxxxx.
@@ -214,7 +214,7 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 
 ## XXXXXXX
 
@@ -222,11 +222,11 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[XxxxxxxXxxx$Xxxxxx$ Xxxxxxx$xxxxx xxxx xxxxxxx]()
+[ConvertFrom-String: Example-based text parsing]()
 
-[XxxxxxxXxxx$XxxxxxXxxx]()
+[ConvertFrom-StringData]()
 
-[XxxxxxxXxxx$Xxx]()
+[ConvertFrom-Csv]()
 
-[XxxxxxxXx$Xxx]()
+[ConvertTo-Xml]()
 

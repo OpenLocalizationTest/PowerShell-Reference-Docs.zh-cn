@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxxxxxxXxx
+# Get-AzureAvailabilitySet
 ## XXXXXXXX
 Xxx Xxxxxxxxxxxx Xxx xxxxxxxxxx
 
@@ -33,7 +33,7 @@ PS C:\> Get-AzureAvailabilitySet ?ResourceGroupName ?RG1?
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 Xxxx xx xxx Xxxxxxxxxxxx Xxx
 
 ```yaml
@@ -48,7 +48,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Profile
 ```yaml
 Type: AzureProfile
 Parameter Sets: (All)
@@ -61,7 +61,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxx xx xxx Xxxxxxxx Xxxxx xxxxxxxxxx xxx Xxxxxxxxxxxx Xxx
 
 ```yaml

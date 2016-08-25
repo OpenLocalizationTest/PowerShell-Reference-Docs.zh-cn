@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxXxxxxxx
+# Export-AzureRmAutomationDscNodeReportContent
 ## XXXXXXXX
 Xxxxxxx xxx xxx xxxxxxx xx x XXX xxxxxx xxxx xxxx x XXX xxxx xx Xxxxxxxxxx.
 
@@ -34,7 +34,7 @@ Xxxx xxx xx xxxxxxxx xxxxxxx xxx xxxxxx xxxxxx xxxx xxx XXX xxxx xxxxx Xxxxxxxx0
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx.
 Xxxx xxxxxx xxxxxxx xxxxxx xxxxxxx xxx x XXX xxxx xxxx xxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -50,7 +50,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx xx xxxxxxxx xxxxx xxxx xxxx x xxx xxxx xxxx xxx xxx xxxx xxxx.
 
 ```yaml
@@ -65,7 +65,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -NodeId
 Xxxxxxxxx xxx xxxxxx XX xx xxx XXX xxxx xxx xxxxx xxxx xxxxxx xxxxxxx xxxxxx xxxxxxxx.
 
 ```yaml
@@ -80,7 +80,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxx
+### -OutputFolder
 Xxxxxxxxx xxx xxxxxx xxxxxx xxxxx xxxx xxxxxx xxxxxxx xxxxxx xxxxxxxx.
 
 ```yaml
@@ -95,7 +95,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXx
+### -ReportId
 Xxxxxxxxx xxx xxxxxx XX xx xxx XXX xxxx xxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -110,7 +110,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx.
 Xxxx xxxxxx xxxxxxx xxx xxxxxxxx xx x xxxxxx xxx xxx XXX xxxx xxxx xxxxxxx xx xxx xxxxxxxx xxxxx xxxx xxxx xxxxxx xxxxxxxxx.
 
@@ -126,7 +126,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -141,7 +141,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -164,10 +164,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxXxxxxxx](0bfb6a70-3a4a-4e58-a0b9-e41eb52a90ef)
+[Export-AzureRmAutomationDscNodeReportContent](0bfb6a70-3a4a-4e58-a0b9-e41eb52a90ef)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxXxxx](19472f94-5827-4878-a17a-d7bb10932861)
+[Get-AzureRmAutomationDscNode](19472f94-5827-4878-a17a-d7bb10932861)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxx](4e614479-d8a1-41bb-a8eb-8d833a314b54)
+[Get-AzureRmAutomationDscNodeReport](4e614479-d8a1-41bb-a8eb-8d833a314b54)
 
 

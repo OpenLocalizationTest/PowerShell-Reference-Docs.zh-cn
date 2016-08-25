@@ -6,18 +6,18 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxXxxxxxxx
+# New-AzureRoleTemplate
 ## XXXXXXXX
 Xxxxxxx xxx xxx xxxxxx xxxx xxxxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 New-AzureRoleTemplate [-Web] [[-Output] <String>]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 New-AzureRoleTemplate [-Worker] [[-Output] <String>]
 ```
@@ -53,7 +53,7 @@ Xxxx xxxxxxx xxxxxxx x xxx xxx xxxx xxxxxxxx xx xxxxxxxxx xxxxx XxXxxXxxxXxxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxx
+### -Output
 Xxxxxxxxx xxx xxxxxx xxxx xx xxxxxxxxx xxxxxxxx.
 \<Xxxxxxx xx xx$$$xx xxxx xxxxx xxx xxxx xx xxxxx xxx xxxxxxxx xxxx xxx xxxxxx xxxxxxx$
 Xxxxx xx xx xxxxx xx xxx xxxxxxx.\>
@@ -70,7 +70,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxx
+### -Web
 Xxxxxxxxx xxxx xxx xxxx xx xxxxxx x xxx xxxx xxxxxxxx.
 
 ```yaml
@@ -85,7 +85,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Worker
 Xxxxxxxxx xxxx xxx xxxx xx xxxxxx x xxxxxx xxxx xxxxxxxx.
 
 ```yaml
@@ -108,8 +108,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxXxxx](e973ae60-0350-4440-a0ea-03ca4da295c5)
+[Add-AzureWebRole](e973ae60-0350-4440-a0ea-03ca4da295c5)
 
-[Xxx$XxxxxXxxxxxXxxx](77af980e-7b69-46b9-af3c-6d586710eff8)
+[Add-AzureWorkerRole](77af980e-7b69-46b9-af3c-6d586710eff8)
 
 

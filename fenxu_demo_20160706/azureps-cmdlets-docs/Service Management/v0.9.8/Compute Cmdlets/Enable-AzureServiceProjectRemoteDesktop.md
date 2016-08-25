@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxxxxxxXxxxxxxXxxxxxXxxxxxx
+# Enable-AzureServiceProjectRemoteDesktop
 ## XXXXXXXX
 Xxxxxxx xxxxxx xxxxxxx xxxxxx xx x xxxxx xxxxxxx.
 
@@ -32,7 +32,7 @@ Xxx xxxx xxxxxxx xxx xxxxxxx xxxxx xxx Xxxxxxx$XxxxxXxxxxxxXxxxxxx xxxxxx xxxxx 
 
 ## XXXXXXXXXX
 
-### $XxxxXxxx
+### -PassThru
 $$Xxxx$$
 
 ```yaml
@@ -47,7 +47,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Password
 $$Xxxx$$
 
 ```yaml
@@ -62,7 +62,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Username
 Xxxxxxxxx xxx xxxx xxxx xx xxx xxxx xxxxxxxxxx xx xxx xxxx xxxxxxxx xx Xxxxx xxx xxx Xxxxxx Xxxxxxx Xxxxxxxx $XXX$.
 
 ```yaml
@@ -85,8 +85,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxxx$XxxxxXxxxxxxXxxxxxxXxxxxxXxxxxxx](848333f0-4687-4e7c-a775-1c6f148aa111)
+[Disable-AzureServiceProjectRemoteDesktop](848333f0-4687-4e7c-a775-1c6f148aa111)
 
-[Xxxxxxx$XxxxxXxxxxxxXxxxxxx](4c0c0966-919e-49a6-9d38-c3c97355e281)
+[Publish-AzureServiceProject](4c0c0966-919e-49a6-9d38-c3c97355e281)
 
 

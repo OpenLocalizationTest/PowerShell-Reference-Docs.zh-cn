@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293948
 schema: 2.0.0
 ---
 
-# XxxxxxxXxxx$XxxxxxXxxx
+# ConvertFrom-StringData
 ## XXXXXXXX
 Xxxxxxxx x xxxxxx xxxxxxxxxx xxx xx xxxx xxx xxx xxxxx xxxxx xx x xxxx xxxxx.
 
@@ -212,7 +212,7 @@ Xxx xxxxxx xxxxxxxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxxxx xxxxxxxxxx xxxxxx xxxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxx xxxxx xx xxxx xxxxxxxxx xxxx xx x xxxxxx xxxx xx xxxxxxxx xx xxxxxx xxxxxxxxx xxxxx $x xxxxxx$xxxxxx xxxxxx$ xx x xxxxxx xxxx xx xxxxxxxx xx xxxxxx xxxxxxxxx xxxxx $x xxxxxx$xxxxxx xxxxxx$ xx x xxxx$xxxxxx xxxxxxxxxx xxx xx xxxx xxx$xxxxx xxxxx.
 Xxxx xxx$xxxxx xxxx xxxx xx xx x xxxxxxxx xxxx$ xx xxxx xxxx xxxx xx xxxxxxxxx xx xxxxxxx xxxxxxxxxx $$$x$.
 
@@ -235,7 +235,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxx xxxxx xx xxxx xxxxxxxxx xxxx xx x xxxxxx xxxx xx xxxxxxxx xx xxxxxx xxxxxxxxx xxxxx $x xxxxxx$xxxxxx xxxxxx$ xx x xxxxxx xxxx xx xxxxxxxx xx xxxxxx xxxxxxxxx xxxxx $x xxxxxx$xxxxxx xxxxxx$ xx x xxxx$xxxxxx xxxxxxxxxx xxx xx xxxx xxx$xxxxx xxxxx.
 Xxxx xxx$xxxxx xxxx xxxx xx xx x xxxxxxxx xxxx$ xx xxxx xxxx xxxx xx xxxxxxxxx xx xxxxxxx xxxxxxxxxx $$$x$.
 
@@ -257,7 +257,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -StringData
 Xxxxxxxxx xxx xxxxxx xx xx xxxxxxxxx.
 Xxx xxx xxx xxxx xxxxxxxxx xx xxxx x xxxxxx xx XxxxxxxXxxx$XxxxxxXxxx.
 Xxx xxxxxxxxx xxxx xx xxxxxxxx.
@@ -285,12 +285,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx x xxxxxx xxxxxxxxxx x xxx$xxxxx xxxx xx XxxxxxxXxxx$XxxxxxXxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxxx.Xxxxxxxxx
+### System.Collections.Hashtable
 XxxxxxxXxxx$XxxxxxXxxx xxxxxxx x xxxx xxxxx xxxx xx xxxxxxx xxxx xxx xxx$xxxxx xxxxx.
 
 ## XXXXX
@@ -302,9 +302,9 @@ Xxx xxx xxx xxx xxxxxxxxxx$xxxxx xxxx xxxxxx xx xxxxxxx xxxx xxxxxxx xxxx xxxx$ 
 
 ## XXXXXXX XXXXX
 
-[xxxxx$Xxxxxxx$Xxxxx]()
+[about_Quoting_Rules]()
 
-[xxxxx$Xxxxxx$Xxxxxxxxxxxxxxxxxxxx]()
+[about_Script_Internationalization]()
 
-[xxxxx$Xxxx$Xxxxxxxx]()
+[about_Data_Sections]()
 

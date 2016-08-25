@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx
+# New-AzureRMAutomationConnection
 ## XXXXXXXX
 Xxxxxxx xx Xxxxxxxxxx xxxxxxxxxx.
 
@@ -35,7 +35,7 @@ Xxx xxxxxxx xxxx xxx xxxxxxxxxx xxxxx xxxxxx xx $XxxxxXxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxx.
 
 ```yaml
@@ -50,7 +50,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxxXxxxxx
+### -ConnectionFieldValues
 Xxxxxxxxx x xxxx xxxxx xxxx xxxxxxxx xxx$xxxxx xxxxx.
 Xxx xxxx xxxxxxxxx xxx xxxxxxxxxx xxxxxx xxx xxx xxxxxxxxx xxxxxxxxxx xxxx.
 Xxx xxxxxx xxxxxxxxx xxx xxxxxxxx xxxxxx xx xxxx xxxxxxxxxx xxxxx xxx xxx xxxxxxxxxx xxxxxxxx.
@@ -67,7 +67,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxXxxx
+### -ConnectionTypeName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxx xxxx.
 
 ```yaml
@@ -82,7 +82,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Description
 Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxxxx.
 
 ```yaml
@@ -97,7 +97,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx xxxxxxxxxx.
 
 ```yaml
@@ -112,7 +112,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxx.
 
 ```yaml
@@ -131,14 +131,14 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.Xxxxxxxxxx
+### Microsoft.Azure.Commands.Automation.Model.Connection
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](68f56d1c-23a9-4cb5-8fe8-c3a1e7c2ac1a)
+[Get-AzureRmAutomationConnection](68f56d1c-23a9-4cb5-8fe8-c3a1e7c2ac1a)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](76dc3b3d-2dd3-49ad-a28c-afbfc754e020)
+[Remove-AzureRmAutomationConnection](76dc3b3d-2dd3-49ad-a28c-afbfc754e020)
 
 

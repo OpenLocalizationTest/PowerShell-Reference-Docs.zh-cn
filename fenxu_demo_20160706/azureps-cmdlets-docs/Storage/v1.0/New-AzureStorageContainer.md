@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxxxxx
+# New-AzureStorageContainer
 ## XXXXXXXX
 Xxxxxxx xx xxxxx$0 xxxxxxx xxxxxxxxx.
 
@@ -40,7 +40,7 @@ Xx xxxx xxx $$Xxxxx$$ xxxxxx xx xxx .XXX $$Xxxxxx$$ xxxxx xxx xxxx xxxxxx xxx xx
 
 ## XXXXXXXXXX
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ClientTimeoutPerRequest
 Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
 Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
 Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
@@ -57,7 +57,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxXxxxx
+### -ConcurrentTaskCount
 Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
 Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
 Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
@@ -76,7 +76,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx x xxxxxxx xxx xxx xxx xxxxxxxxx.
 
 ```yaml
@@ -91,7 +91,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx xxx xxxxxxxxx.
 
 ```yaml
@@ -106,7 +106,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxx
+### -Permission
 Xxxxxxxxx xxx xxxxx xx xxxxxx xxxxxx xx xxxx xxxxxxxxx.
 Xx xxxxxxx$ xxx xxxxxxxxx xxx xxx xxxxx xx xx xxx xx xxxxxxxx xxxx xx xxx xxxxx xx xxx xxxxxxx xxxxxxx.
 Xx xxxxx xxxxxxxxx xxxxx xxxx xxxxxxxxxxx xx x xxxxxxxxx xxx xxx xxxxx$ xxx xxx xxx xxx xxxxxxxxx xxxxxxxxxxx xx xxxxxx xxxxxx xxxxxx.
@@ -132,7 +132,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ServerTimeoutPerRequest
 Xxxxxxxxx xxx xxxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
 Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
 
@@ -156,10 +156,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxxxxxx](4880a1a4-c947-4310-8317-0a837b8acb7f)
+[Get-AzureStorageContainer](4880a1a4-c947-4310-8317-0a837b8acb7f)
 
-[Xxxxxx$XxxxxXxxxxxxXxxxxxxxx](89d7ed7c-1db6-4e01-8981-8f34483039fd)
+[Remove-AzureStorageContainer](89d7ed7c-1db6-4e01-8981-8f34483039fd)
 
-[Xxx$XxxxxXxxxxxxXxxxxxxxxXxx](20680af5-8145-4eab-94d3-d710a62a062b)
+[Set-AzureStorageContainerAcl](20680af5-8145-4eab-94d3-d710a62a062b)
 
 

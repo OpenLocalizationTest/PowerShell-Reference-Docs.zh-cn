@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxXxxXxxxxxxxxx
+# Backup-AzureRmApiManagement
 ## XXXXXXXX
 Xxxxx xx xx XXX Xxxxxxxxxx xxxxxxx.
 
@@ -32,7 +32,7 @@ Xxxx xxxxxxx xxxxx xx xx XXX Xxxxxxxxxx xxxxxxx xx x Xxxxxxx xxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx XXX Xxxxxxxxxx xxxxxxxxxx xxxx xxxx xxxxxx xxxxx xx.
 
 ```yaml
@@ -47,7 +47,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxxxxx xx $$XxXxxXxxxxxxxxx$$ xxxxxx$ xx xxx xxxxxxxxx xxxxxxxx.
 
 ```yaml
@@ -62,7 +62,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xx xxxxxxxx xxxxx xxxxx xxxxx xxx XXX Xxxxxxxxxx xxxxxxxxxx xxxxxx.
 
 ```yaml
@@ -77,7 +77,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxx
+### -StorageContext
 Xxxxxxxxx x xxxxxxx xxxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -92,7 +92,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxXxxx
+### -TargetBlobName
 Xxxxxxxxx xxx xxxx xx xxx xxxx xxx xxx xxxxxx.
 Xx xxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xx.
 Xxxx xxxxxx xxxxxxxxx x xxxxxxx xxxxx xxxxx xx xxx xxxxxxxxx xxxxxxx$ 
@@ -111,7 +111,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxxxXxxx
+### -TargetContainerName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxx xx xxx xxxx xxx xxx xxxxxx.
 Xx xxx xxxxxxxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xx.
 
@@ -135,12 +135,12 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxXxxxxxxxxx](e067ded3-a2e3-4d53-8628-0ebbafa62721)
+[Get-AzureRmApiManagement](e067ded3-a2e3-4d53-8628-0ebbafa62721)
 
-[Xxx$XxxxxXxXxxXxxxxxxxxx](6b5595ca-246e-4381-a37e-24dfae307109)
+[New-AzureRmApiManagement](6b5595ca-246e-4381-a37e-24dfae307109)
 
-[Xxxxxx$XxxxxXxXxxXxxxxxxxxx](9a2c4617-9870-4d9c-92fa-2af03211d931)
+[Remove-AzureRmApiManagement](9a2c4617-9870-4d9c-92fa-2af03211d931)
 
-[Xxxxxxx$XxxxxXxXxxXxxxxxxxxx](b0ff412d-269a-472f-8d79-9c0b9f0ebac2)
+[Restore-AzureRmApiManagement](b0ff412d-269a-472f-8d79-9c0b9f0ebac2)
 
 

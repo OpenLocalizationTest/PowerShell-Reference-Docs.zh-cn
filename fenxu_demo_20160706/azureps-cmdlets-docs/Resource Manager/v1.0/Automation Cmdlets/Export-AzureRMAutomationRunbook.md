@@ -7,33 +7,33 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Export-AzureRMAutomationRunbook
-## SYNOPSIS
-Exports an Automation runbook.
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Export-AzureRMAutomationRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-Force] [-OutputFolder <String>] [-Slot] [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Export-AzureRmAutomationRunbook** cmdlet exports an azure_2 Automation runbook to a wps_2 script (.ps1 ) file, for wps_2 or wps_2 Workflow runbooks, or to a graphical runbook (.graphrunbook) file, for graphical runbooks.
-The name of the runbook becomes the name of the exported file.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx xx x xxx$0 xxxxxx $.xx0 $ xxxx$ xxx xxx$0 xx xxx$0 Xxxxxxxx xxxxxxxx$ xx xx x xxxxxxxxx xxxxxxx $.xxxxxxxxxxxx$ xxxx$ xxx xxxxxxxxx xxxxxxxx.
+Xxx xxxx xx xxx xxxxxxx xxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Export a runbook
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx
 ```
 PS C:\>Export-AzureRmAutomationRunbook -ResourceGroupName "ResourceGroup01" -AutomationAccountName "ContosoAutomationAccount" -Name "Runbook03" -Slot "Published" -OutputFolder "C:\Users\PattiFuller\Desktop"
 ```
 
-This command exports the published version of an Automation runbook to a user desktop.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxx xxxxxxx xx xx Xxxxxxxxxx xxxxxxx xx x xxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account in which this cmdlet exports a runbook.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -48,7 +48,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-ps_force
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -63,8 +63,8 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the runbook that this cmdlet exports.
-The name of the runbook becomes the name of the export file.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxx xxxx xxxxxx xxxxxxx.
+Xxx xxxx xx xxx xxxxxxx xxxxxxx xxx xxxx xx xxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -OutputFolder
-Specifies the path of a folder in which this cmdlet creates the export file.
+Xxxxxxxxx xxx xxxx xx x xxxxxx xx xxxxx xxxx xxxxxx xxxxxxx xxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet exports a runbook.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -109,11 +109,10 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Specifies whether this cmdlet exports the draft or published content of the runbook.
-Valid values are: 
+Xxxxxxxxx xxxxxxx xxxx xxxxxx xxxxxxx xxx xxxxx xx xxxxxxxxx xxxxxxx xx xxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Published 
--- Draft
+$$ Xxxxxxxxx $$ Xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -129,7 +128,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -144,7 +143,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -158,13 +157,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationRunbook](71da0434-5c0f-498f-91f2-f09117dfa7ca)
 

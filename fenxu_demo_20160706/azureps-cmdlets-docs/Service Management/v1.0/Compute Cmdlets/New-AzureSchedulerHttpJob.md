@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureSchedulerHttpJob
-## SYNOPSIS
-Creates a scheduler job that has an HTTP action.
+## XXXXXXXX
+Xxxxxxx x xxxxxxxxx xxx xxxx xxx xx XXXX xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -41,35 +41,35 @@ New-AzureSchedulerHttpJob [-ErrorActionHeaders <Hashtable>] [-Headers <Hashtable
  [-RequestBody <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The New-AzureSchedulerHttpJob cmdlet creates a scheduler job that has an HTTP action.
+Xxx Xxx$XxxxxXxxxxxxxxXxxxXxx xxxxxx xxxxxxx x xxxxxxxxx xxx xxxx xxx xx XXXX xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create an HTTP job
+### Xxxxxxx 0$ Xxxxxx xx XXXX xxx
 ```
 PS C:\>New-AzureSchedulerHttpJob -JobCollectionName "JobCollection01" -JobName "Job01" -Location "North Central US" -Method "GET" -URI http://www.contoso.com
 ```
 
-This command creates a scheduler HTTP job in the job collection named JobCollection01.
-The command specifies a URI and specifies GET as the method.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxxx XXXX xxx xx xxx xxx xxxxxxxxxx xxxxx XxxXxxxxxxxxx00.
+Xxx xxxxxxx xxxxxxxxx x XXX xxx xxxxxxxxx XXX xx xxx xxxxxx.
 
-### Example 2: Create an HTTP job for a specific run count
+### Xxxxxxx 0$ Xxxxxx xx XXXX xxx xxx x xxxxxxxx xxx xxxxx
 ```
 PS C:\>New-AzureSchedulerHttpJob -JobCollectionName "JobCollection01 -JobName "Job23" -Location "North Central US" -Method "GET" -URI http://www.contoso.com -ExecutionCount 20
 ```
 
-This command creates scheduler http job in the job collection named JobCollection01.
-The command specifies a URI and specifies GET as the method.
-This command causes the job to run 20 times.
+Xxxx xxxxxxx xxxxxxx xxxxxxxxx xxxx xxx xx xxx xxx xxxxxxxxxx xxxxx XxxXxxxxxxxxx00.
+Xxx xxxxxxx xxxxxxxxx x XXX xxx xxxxxxxxx XXX xx xxx xxxxxx.
+Xxxx xxxxxxx xxxxxx xxx xxx xx xxx 00 xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -ClientCertificatePassword
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -84,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -ClientCertificatePfx
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: Object
@@ -99,9 +99,9 @@ Accept wildcard characters: False
 ```
 
 ### -EndTime
-Specifies a time, as a DateTime object, for the scheduler to stop initiating jobs.
-To obtain a DateTime object, use the Get-Date cmdlet.
-For more information, type Get-Help Get-Date.
+Xxxxxxxxx x xxxx$ xx x XxxxXxxx xxxxxx$ xxx xxx xxxxxxxxx xx xxxx xxxxxxxxxx xxxx.
+Xx xxxxxx x XxxxXxxx xxxxxx$ xxx xxx Xxx$Xxxx xxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxxx Xxx$Xxxx Xxx$Xxxx.
 
 ```yaml
 Type: DateTime
@@ -116,7 +116,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionHeaders
-Specifies headers as a hashtable.
+Xxxxxxxxx xxxxxxx xx x xxxxxxxxx.
 
 ```yaml
 Type: Hashtable
@@ -131,14 +131,10 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionMethod
-Specifies the method for HTTP and HTTPS action types.
-Valid values are: 
+Xxxxxxxxx xxx xxxxxx xxx XXXX xxx XXXXX xxxxxx xxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- GET
--- PUT
--- POST
--- HEAD
--- DELETE
+$$ XXX $$ XXX $$ XXXX $$ XXXX $$ XXXXXX
 
 ```yaml
 Type: String
@@ -153,7 +149,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionQueueMessageBody
-Specifies the body for storage job actions.
+Xxxxxxxxx xxx xxxx xxx xxxxxxx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -168,7 +164,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionRequestBody
-Specifies the body for PUT and POST job actions.
+Xxxxxxxxx xxx xxxx xxx XXX xxx XXXX xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -183,7 +179,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionSASToken
-Specifies the Shared Access Signature (SAS) token for the storage queue.
+Xxxxxxxxx xxx Xxxxxx Xxxxxx Xxxxxxxxx $XXX$ xxxxx xxx xxx xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -198,7 +194,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionStorageAccount
-Specifies the name of the storage account.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -213,7 +209,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionStorageQueue
-Specifies the name of the storage queue.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -228,7 +224,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorActionURI
-Specifies the URI for the error job action.
+Xxxxxxxxx xxx XXX xxx xxx xxxxx xxx xxxxxx.
 
 ```yaml
 Type: Uri
@@ -243,8 +239,8 @@ Accept wildcard characters: False
 ```
 
 ### -ExecutionCount
-Specifies the number occurrences of a job that run.
-By default, a job recurs indefinitely.
+Xxxxxxxxx xxx xxxxxx xxxxxxxxxxx xx x xxx xxxx xxx.
+Xx xxxxxxx$ x xxx xxxxxx xxxxxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -259,7 +255,7 @@ Accept wildcard characters: False
 ```
 
 ### -Frequency
-Specifies the maximum frequency for this scheduler job.
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxx xxxxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -274,7 +270,7 @@ Accept wildcard characters: False
 ```
 
 ### -Headers
-Specifies the headers as a hashtable.
+Xxxxxxxxx xxx xxxxxxx xx x xxxxxxxxx.
 
 ```yaml
 Type: Hashtable
@@ -289,7 +285,7 @@ Accept wildcard characters: False
 ```
 
 ### -HttpAuthenticationType
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: String
@@ -316,7 +312,7 @@ Accept wildcard characters: False
 ```
 
 ### -Interval
-Specifies the interval of recurrence at the frequency specified by using the Frequency parameter.
+Xxxxxxxxx xxx xxxxxxxx xx xxxxxxxxxx xx xxx xxxxxxxxx xxxxxxxxx xx xxxxx xxx Xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -331,7 +327,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobCollectionName
-Specifies the name of the collection to contain the scheduler job.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxx xx xxxxxxx xxx xxxxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -346,7 +342,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobName
-Specifies the name for the scheduler job.
+Xxxxxxxxx xxx xxxx xxx xxx xxxxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -361,7 +357,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobState
-Specifies the state for the scheduler job.
+Xxxxxxxxx xxx xxxxx xxx xxx xxxxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -376,20 +372,10 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the name of the location that hosts the cloud service.
-Valid values are: 
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxxx xxx xxxxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Anywhere Asia
--- Anywhere Europe
--- Anywhere US
--- East Asia
--- East US
--- North Central US
--- North Europe
--- South Central US
--- Southeast Asia
--- West Europe
--- West US
+$$ Xxxxxxxx Xxxx $$ Xxxxxxxx Xxxxxx $$ Xxxxxxxx XX $$ Xxxx Xxxx $$ Xxxx XX $$ Xxxxx Xxxxxxx XX $$ Xxxxx Xxxxxx $$ Xxxxx Xxxxxxx XX $$ Xxxxxxxxx Xxxx $$ Xxxx Xxxxxx $$ Xxxx XX
 
 ```yaml
 Type: String
@@ -404,14 +390,10 @@ Accept wildcard characters: False
 ```
 
 ### -Method
-Specifies the method for HTTP and HTTPS action types.
-Valid values are: 
+Xxxxxxxxx xxx xxxxxx xxx XXXX xxx XXXXX xxxxxx xxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- GET
--- PUT
--- POST
--- HEAD
--- DELETE
+$$ XXX $$ XXX $$ XXXX $$ XXXX $$ XXXXXX
 
 ```yaml
 Type: String
@@ -426,7 +408,7 @@ Accept wildcard characters: False
 ```
 
 ### -RequestBody
-Specifies the body for PUT and POST job actions.
+Xxxxxxxxx xxx xxxx xxx XXX xxx XXXX xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -441,7 +423,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartTime
-Specifies a time, as a DateTime object, for the job to start.
+Xxxxxxxxx x xxxx$ xx x XxxxXxxx xxxxxx$ xxx xxx xxx xx xxxxx.
 
 ```yaml
 Type: DateTime
@@ -456,7 +438,7 @@ Accept wildcard characters: False
 ```
 
 ### -URI
-Specifies a URI for a job action.
+Xxxxxxxxx x XXX xxx x xxx xxxxxx.
 
 ```yaml
 Type: Uri
@@ -470,13 +452,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Set-AzureSchedulerHttpJob](23b849a7-7403-491a-9d21-2104137052ec)
 

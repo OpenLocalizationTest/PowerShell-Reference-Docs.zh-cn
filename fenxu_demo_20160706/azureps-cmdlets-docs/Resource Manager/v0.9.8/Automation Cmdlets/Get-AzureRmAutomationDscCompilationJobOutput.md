@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxxXxxxxx
+# Get-AzureRmAutomationDscCompilationJobOutput
 ## XXXXXXXX
 Xxxx xxx xxxxxxx xxxxxxx xx xx Xxxxxxxxxx XXX xxxxxxxxxxx xxx.
 
@@ -35,7 +35,7 @@ Xxx xxxxxx xxxxxxx xxxx xxx xxxxxxxxxxx xxx xxxxxx xxx xxx xxxxxx xxx xxx xxxxx 
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxxxxx xxx XXX xxxxxxxxxxx xxx.
 
 ```yaml
@@ -50,7 +50,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xx
+### -Id
 Xxxxxxxxx xxx xxxxxx XX xx xxx XXX xxxxxxxxxxx xxx xxx xxxxx xxxx xxxxxx xxxx xxxxxx.
 
 ```yaml
@@ -65,7 +65,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxxx xxxxxxxx xxx XXX xxxxxxxxxxx xxx xxx xxxxx xxxx xxxxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -80,7 +80,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -StartTime
 Xxxxxxxxx x xxxxx xxxx.
 Xxxx xxxxxx xxxx xxxxxx xxxxxxx xxxx xxx XXX xxxxxxxxxxx xxx xxxxxxx xxxxx xxxx xxxx.
 
@@ -96,7 +96,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Stream
 Xxxxxxxxx xxx xxxx xx xxxxxx xxx xxx xxxxxx xxxx xxxx xxxxxx xxxx.
 Xxxxx xxxxxx xxx$ 
 
@@ -123,8 +123,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxx](cbd50659-1e44-425c-9b97-a58be040e3b9)
+[Get-AzureRmAutomationDscCompilationJob](cbd50659-1e44-425c-9b97-a58be040e3b9)
 
-[Xxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxx](d1d461ab-138f-42f2-8faf-e651a8310b08)
+[Start-AzureRmAutomationDscCompilationJob](d1d461ab-138f-42f2-8faf-e651a8310b08)
 
 

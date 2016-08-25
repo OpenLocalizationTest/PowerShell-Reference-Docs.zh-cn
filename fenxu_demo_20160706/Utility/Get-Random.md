@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293974
 schema: 2.0.0
 ---
 
-# Xxx$Xxxxxx
+# Get-Random
 ## XXXXXXXX
 Xxxx x xxxxxx xxxxxx$ xx xxxxxxx xxxxxxx xxxxxxxx xxxx x xxxxxxxxxx.
 
 ## XXXXXX
 
-### XxxxxxXxxxxxXxxxxxxxxXxx $Xxxxxxx$
+### RandomNumberParameterSet (Default)
 ```
 Get-Random [-SetSeed <Int32>] [[-Maximum] <Object>] [-Minimum <Object>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### XxxxxxXxxxXxxxXxxxxxxxxXxx
+### RandomListItemParameterSet
 ```
 Get-Random [-SetSeed <Int32>] [-InputObject] <Object[]> [-Count <Int32>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
@@ -204,7 +204,7 @@ Xxx xxxxxxx xxxxx xxxxxxx xxx xxxxx xx Xxxxxxx xxxx xx xxxxxxx xxxx xxx xxxxx xx
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Count
 Xxxxxxxxxx xxx xxxx xxxxxxx xxx xxxxxxxx.
 Xxx xxxxxxx xx 0.
 Xx xxx xxxxx xx Xxxxx xxxxxxx xxx xxxxxx xx xxxxxxx xx xxx xxxxxxxxxx$ Xxx$Xxxxxx xxxxxxx xxx xx xxx xxxxxxx xx xxxxxx xxxxx.
@@ -221,7 +221,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -237,7 +237,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -252,7 +252,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx x xxxxxxxxxx xx xxxxxxx.
 Xxx$Xxxxxx xxxx xxxxxxxx xxxxxxxx xxxxxxx xx xxxxxx xxxxx xxxx xxx xxxxxxxxxx.
 Xxxxx xxx xxxxxxx$ x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
@@ -270,7 +270,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Maximum
 Xxxxxxxxx x xxxxxxx xxxxx xxx xxx xxxxxx xxxxxx.
 Xxx$Xxxxxx xxxxxxx x xxxxx xxxx xx xxxx xxxx xxx xxxxxxx $xxx xxxxx$.
 Xxxxx x 00$xxx xxxxxxx xx x xxxxxx$xxxxxxxxx xxxxxxxx$xxxxx xxxxxx$ xx xx xxxxxx xxxx xxx xx xxxxxxxxx xx xx xxxxxxx xx xxxxxx$ xxxx xx x xxxxxxx xxxxxx $$000$$.
@@ -298,7 +298,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Minimum
 Xxxxxxxxx x xxxxxxx xxxxx xxx xxx xxxxxx xxxxxx.
 Xxxxx x 00$xxx xxxxxxx xx x xxxxxx$xxxxxxxxx xxxxxxxx$xxxxx xxxxxx$ xx xx xxxxxx xxxx xxx xx xxxxxxxxx xx xx xxxxxxx xx xxxxxx$ xxxx xx x xxxxxxx xxxxxx $$000$$.
 Xx x 00$xxx xxxxxxxx$ xxx xxx xxxxx x 00$xxx xxxxxxx.
@@ -319,7 +319,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -SetSeed
 Xxxxxxxxx x xxxx xxxxx xxx xxx xxxxxx xxxxxx xxxxxxxxx.
 Xxxx xxxx xxxxx xx xxxx xxx xxx xxxxxxx xxxxxxx xxx xxx xxx xxxxxxxxxx Xxx$Xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxx xxxxx xxx xxx XxxXxxx xxxxx xx xxxxx xxx xxxxxxx.
 Xxx xxxxxx xxxxx xxx xxxx xx xxx xxxxxxx$ xxxxx$xxxxx xxxxx.
@@ -342,13 +342,13 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.Object
 Xxx xxx xxxx xxx xx xxxx xxxxxxx xx Xxx$Xxxxxx.
 Xxx$Xxxxxx xxxxxxx xxxxxx xxxxxxxx xxxx xxx xxxxx xxxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxx00$ Xxxxxx.Xxx00$ Xxxxxx.Xxxxxx
+### System.Int32, System.Int64, System.Double
 Xxx$Xxxxxx xxxxxxx xx xxxxxxx xx xxxxxxxx$xxxxx xxxxxx$ xx xx xxxxxx xxxxxxxx xxxxxxxx xxxx x xxxxxxxxx xxxxxxxxxx.
 
 ## XXXXX

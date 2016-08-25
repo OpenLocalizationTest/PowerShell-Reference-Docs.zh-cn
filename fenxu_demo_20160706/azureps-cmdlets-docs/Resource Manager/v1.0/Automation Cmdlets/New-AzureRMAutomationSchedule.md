@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureRMAutomationSchedule
-## SYNOPSIS
-Creates an Automation schedule.
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -48,39 +48,39 @@ New-AzureRMAutomationSchedule [-DaysOfMonth <DaysOfMonth[]>] [-TimeZone <String>
 New-AzureRMAutomationSchedule [-DaysOfWeek <DayOfWeek[]>] [-TimeZone <String>] -WeekInterval <Byte>
 ```
 
-## DESCRIPTION
-The **New-AzureRmAutomationSchedule** cmdlet creates a schedule in azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx$$ xxxxxx xxxxxxx x xxxxxxxx xx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a one-time schedule in local time
+### Xxxxxxx 0$ Xxxxxx x xxx$xxxx xxxxxxxx xx xxxxx xxxx
 ```
 PS C:\>$TimeZone = ([System.TimeZoneInfo]::Local)Id
 PS C:\> New-AzureRmAutomationSchedule -AutomationAccountName "Contoso17" -Name "Schedule01" -StartTime "23:00" -OneTime -ResourceGroupName "ResourceGroup01" -TimeZone $TimeZone
 ```
 
-The first command gets the time zone ID from the system and stores it in the $TimeZone variable.
-The second command creates a schedule that runs one time on the current date at 11:00 PM in the specified time zone..
+Xxx xxxxx xxxxxxx xxxx xxx xxxx xxxx XX xxxx xxx xxxxxx xxx xxxxxx xx xx xxx $XxxxXxxx xxxxxxxx.
+Xxx xxxxxx xxxxxxx xxxxxxx x xxxxxxxx xxxx xxxx xxx xxxx xx xxx xxxxxxx xxxx xx 00$00 XX xx xxx xxxxxxxxx xxxx xxxx..
 
-### Example 2: Create a recurring schedule
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxxx xxxxxxxx
 ```
 PS C:\>$StartTime = Get-Date "13:00:00"
 PS C:\> $EndTime = $StartTime.AddYears(1)
 PS C:\> New-AzureRmAutomationSchedule -AutomationAccountName "Contoso17" -Name "Schedule02" -StartTime $StartTime -ExpiryTime $EndTime -DailyInterval 1 -ResourceGroupName "ResourceGroup01"
 ```
 
-The first command creates a date object by using the **Get-Date** cmdlet, and then stores the object in the $StartDate variable.
-Specify a time that is at least five minutes in the future.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxx xxxxxx xx xxxxx xxx $$Xxx$Xxxx$$ xxxxxx$ xxx xxxx xxxxxx xxx xxxxxx xx xxx $XxxxxXxxx xxxxxxxx.
+Xxxxxxx x xxxx xxxx xx xx xxxxx xxxx xxxxxxx xx xxx xxxxxx.
 
-The second command creates a date object by using the **Get-Date** cmdlet, and then stores the object in the $EndDate variable.
-The command specifies a future time.
+Xxx xxxxxx xxxxxxx xxxxxxx x xxxx xxxxxx xx xxxxx xxx $$Xxx$Xxxx$$ xxxxxx$ xxx xxxx xxxxxx xxx xxxxxx xx xxx $XxxXxxx xxxxxxxx.
+Xxx xxxxxxx xxxxxxxxx x xxxxxx xxxx.
 
-The final command creates a daily schedule named Schedule01 to begin at the time stored in $StartDate and expire at the time stored in $EndDate.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxx xxxxxxxx xxxxx Xxxxxxxx00 xx xxxxx xx xxx xxxx xxxxxx xx $XxxxxXxxx xxx xxxxxx xx xxx xxxx xxxxxx xx $XxxXxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of an Automation account for which this cmdlet creates a schedule.
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxx.
 
 ```yaml
 Type: String
@@ -95,8 +95,8 @@ Accept wildcard characters: False
 ```
 
 ### -DayInterval
-Specifies an interval, in days, for the schedule.
-If you do not specify this parameter, and you do not specify the *OneTime* parameter, the default value is one (1).
+Xxxxxxxxx xx xxxxxxxx$ xx xxxx$ xxx xxx xxxxxxxx.
+Xx xxx xx xxx xxxxxxx xxxx xxxxxxxxx$ xxx xxx xx xxx xxxxxxx xxx $XxxXxxx$ xxxxxxxxx$ xxx xxxxxxx xxxxx xx xxx $0$.
 
 ```yaml
 Type: Byte
@@ -111,7 +111,7 @@ Accept wildcard characters: False
 ```
 
 ### -DayOfWeek
-Specifies a list of days of the week for the weekly schedule.
+Xxxxxxxxx x xxxx xx xxxx xx xxx xxxx xxx xxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: Nullable [System.DayOfWeek]
@@ -126,19 +126,10 @@ Accept wildcard characters: False
 ```
 
 ### -DayOfWeekOccurrence
-Specifies the occurrence of the week within the month that the schedule runs.
-psdx_paramvalues
+Xxxxxxxxx xxx xxxxxxxxxx xx xxx xxxx xxxxxx xxx xxxxx xxxx xxx xxxxxxxx xxxx.
+xxxx$xxxxxxxxxxx
 
--- 1
--- 2
--- 3
--- 4
--- -1
--- First
--- Second
--- Third
--- Fourth
--- LastDay
+$$ 0 $$ 0 $$ 0 $$ 0 $$ $0 $$ Xxxxx $$ Xxxxxx $$ Xxxxx $$ Xxxxxx $$ XxxxXxx
 
 ```yaml
 Type: SwitchParameter
@@ -154,7 +145,7 @@ Accept wildcard characters: False
 ```
 
 ### -DaysOfMonth
-Specifies a list of days of the month for the monthly schedule.
+Xxxxxxxxx x xxxx xx xxxx xx xxx xxxxx xxx xxx xxxxxxx xxxxxxxx.
 
 ```yaml
 Type: DaysOfMonth[]
@@ -169,7 +160,7 @@ Accept wildcard characters: False
 ```
 
 ### -DaysOfWeek
-Specifies a list of days of the week for the weekly schedule.
+Xxxxxxxxx x xxxx xx xxxx xx xxx xxxx xxx xxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: DayOfWeek[]
@@ -184,7 +175,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-Specifies a description for the schedule.
+Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -199,8 +190,8 @@ Accept wildcard characters: False
 ```
 
 ### -ExpiryTime
-Specifies the expiry time of a schedule as a **DateTimeOffest** object.
-You can specify a string that can be converted to a valid **DateTimeOffset**.
+Xxxxxxxxx xxx xxxxxx xxxx xx x xxxxxxxx xx x $$XxxxXxxxXxxxxx$$ xxxxxx.
+Xxx xxx xxxxxxx x xxxxxx xxxx xxx xx xxxxxxxxx xx x xxxxx $$XxxxXxxxXxxxxx$$.
 
 ```yaml
 Type: DateTimeOffset
@@ -215,7 +206,7 @@ Accept wildcard characters: False
 ```
 
 ### -HourInterval
-Specifies an interval, in hours, for the schedule.
+Xxxxxxxxx xx xxxxxxxx$ xx xxxxx$ xxx xxx xxxxxxxx.
 
 ```yaml
 Type: Byte
@@ -230,7 +221,7 @@ Accept wildcard characters: False
 ```
 
 ### -MonthInterval
-Specifies an interval, in Months, for the schedule.
+Xxxxxxxxx xx xxxxxxxx$ xx Xxxxxx$ xxx xxx xxxxxxxx.
 
 ```yaml
 Type: Byte
@@ -245,7 +236,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies a name for the schedule.
+Xxxxxxxxx x xxxx xxx xxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -260,7 +251,7 @@ Accept wildcard characters: False
 ```
 
 ### -OneTime
-Specifies that the cmdlet creates a one-time schedule.
+Xxxxxxxxx xxxx xxx xxxxxx xxxxxxx x xxx$xxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -275,7 +266,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet creates a schedule.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxx.
 
 ```yaml
 Type: String
@@ -290,9 +281,9 @@ Accept wildcard characters: False
 ```
 
 ### -StartTime
-Specifies the start time of a schedule as a **DateTimeOffset** object.
-You can specify a string that can be converted to a valid **DateTimeOffset**.
-. If the *TimeZone* parameter is specified, the offset will be ignored and the time zone specified is used.
+Xxxxxxxxx xxx xxxxx xxxx xx x xxxxxxxx xx x $$XxxxXxxxXxxxxx$$ xxxxxx.
+Xxx xxx xxxxxxx x xxxxxx xxxx xxx xx xxxxxxxxx xx x xxxxx $$XxxxXxxxXxxxxx$$.
+. Xx xxx $XxxxXxxx$ xxxxxxxxx xx xxxxxxxxx$ xxx xxxxxx xxxx xx xxxxxxx xxx xxx xxxx xxxx xxxxxxxxx xx xxxx.
 
 ```yaml
 Type: DateTimeOffset
@@ -307,8 +298,8 @@ Accept wildcard characters: False
 ```
 
 ### -TimeZone
-Specifies the time zone for the schedule.
-This string can be the IANA ID or the Windows Time Zone ID.
+Xxxxxxxxx xxx xxxx xxxx xxx xxx xxxxxxxx.
+Xxxx xxxxxx xxx xx xxx XXXX XX xx xxx Xxxxxxx Xxxx Xxxx XX.
 
 ```yaml
 Type: String
@@ -323,7 +314,7 @@ Accept wildcard characters: False
 ```
 
 ### -WeekInterval
-Specifies an interval, in weeks, for the schedule.
+Xxxxxxxxx xx xxxxxxxx$ xx xxxxx$ xxx xxx xxxxxxxx.
 
 ```yaml
 Type: Byte
@@ -337,15 +328,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
 ### Microsoft.Azure.Commands.Automation.Model.Schedule
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationSchedule](73a4a9ba-477c-41e6-9193-2be97182e07d)
 

@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XXXxxxXxxxxXX
+# New-WAPackQuickVM
 ## XXXXXXXX
 Xxxxxxx x xxxxxxx xxxxxxx xxxxx xx x xxxxxxxx.
 
@@ -46,7 +46,7 @@ Xxx xxxxxxx xxxxx xxx xxxxxxx xxxxxxx xx xxx xxxxxxxx xxxxxx xx $XxxxxxxxXx.
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx xxxxxxx xxxxxxx.
 
 ```yaml
@@ -61,7 +61,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Template
 Xxxxxxxxx x xxxxxxxx.
 Xxx xxxxxx xxxxxxx x xxxxxxx xxxxxxx xxxxx xx xxx xxxxxxxx xxxx xxx xxxxxxx.
 Xx xxxxxx x xxxxxxxx xxxxxx$ xxx xxx Xxx$XXXxxxXXXxxxxxxx xxxxxx.
@@ -78,7 +78,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XXXxxxxxxxxx
+### -VMCredential
 Xxxxxxxxx xxx xxxxxxxxxx xxx xxx xxxxx Xxxxxxxxxxxxx xxxxxxx.
 Xx xxxxxx x XXXxxxxxxxxx xxxxxx$ xxx xxx Xxx$Xxxxxxxxxx xxxxxx.
 Xxx xxxx xxxxxxxxxxx$ xxxx Xxx$Xxxx Xxx$Xxxxxxxxxx.
@@ -103,8 +103,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XXXxxxXX](1f74deb4-e9b0-4aeb-8e13-b1554a4ebbec)
+[New-WAPackVM](1f74deb4-e9b0-4aeb-8e13-b1554a4ebbec)
 
-[Xxx$XXXxxxXXXxxxxxxx](1b16012f-1da0-42f0-8407-1601cf4168e8)
+[Get-WAPackVMTemplate](1b16012f-1da0-42f0-8407-1601cf4168e8)
 
 

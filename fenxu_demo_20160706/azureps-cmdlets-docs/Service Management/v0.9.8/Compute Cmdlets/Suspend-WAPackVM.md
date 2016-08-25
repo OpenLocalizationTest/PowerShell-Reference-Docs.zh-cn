@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxxx$XXXxxxXX
+# Suspend-WAPackVM
 ## XXXXXXXX
 Xxxxxxxx x xxxxxxx xxxxxxx.
 
@@ -37,7 +37,7 @@ Xxx xxxxxx xxxxxxx xxxxxxxx xxx xxxxxxx xxxxxxx xxxxxx xx $XxxxxxxXxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxx xxxx xxxxx xxx xxx xxxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -53,7 +53,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XX
+### -VM
 Xxxxxxxxx x xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XXXxxxXX xxxxxx.
 
@@ -77,20 +77,20 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XXXxxxXX](4b060a7d-da50-45ff-adb6-bcba63faa90b)
+[Get-WAPackVM](4b060a7d-da50-45ff-adb6-bcba63faa90b)
 
-[Xxx$XXXxxxXX](1f74deb4-e9b0-4aeb-8e13-b1554a4ebbec)
+[New-WAPackVM](1f74deb4-e9b0-4aeb-8e13-b1554a4ebbec)
 
-[Xxxxxx$XXXxxxXX](76b51795-43e6-45c3-ade1-aa8ea61efc23)
+[Remove-WAPackVM](76b51795-43e6-45c3-ade1-aa8ea61efc23)
 
-[Xxxxxxx$XXXxxxXX](fd89742d-0d21-41e9-b3b1-5d8c638f8c6d)
+[Restart-WAPackVM](fd89742d-0d21-41e9-b3b1-5d8c638f8c6d)
 
-[Xxxxxx$XXXxxxXX](d2594d2a-c0c6-4bca-8c81-9ed03b24d100)
+[Resume-WAPackVM](d2594d2a-c0c6-4bca-8c81-9ed03b24d100)
 
-[Xxx$XXXxxxXX](8b07e4cb-c677-4e6b-b034-25847da03dbf)
+[Set-WAPackVM](8b07e4cb-c677-4e6b-b034-25847da03dbf)
 
-[Xxxxx$XXXxxxXX](8cc5bf6b-bf5b-427f-922d-57e4a99b2d55)
+[Start-WAPackVM](8cc5bf6b-bf5b-427f-922d-57e4a99b2d55)
 
-[Xxxx$XXXxxxXX](7f3e6c33-2196-4e24-95fd-e5763c6f7402)
+[Stop-WAPackVM](7f3e6c33-2196-4e24-95fd-e5763c6f7402)
 
 

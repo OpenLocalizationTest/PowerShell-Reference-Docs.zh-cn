@@ -7,21 +7,21 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Add-AzureVMNetworkInterface
-## SYNOPSIS
-Add a Network Interface to the VM
+## XXXXXXXX
+Xxx x Xxxxxxx Xxxxxxxxx xx xxx XX
 
-## SYNTAX
+## XXXXXX
 
 ```
 Add-AzureVMNetworkInterface [-VM] <PSVirtualMachine> [-Id] <String> [-Profile <AzureProfile>]
 ```
 
-## DESCRIPTION
-This cmdlets allows you to add a NIC to the VM at creation time or to an existing VM
+## XXXXXXXXXXX
+Xxxx xxxxxxx xxxxxx xxx xx xxx x XXX xx xxx XX xx xxxxxxxx xxxx xx xx xx xxxxxxxx XX
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------------------  Add a Network Interface to a new VM  --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$  Xxx x Xxxxxxx Xxxxxxxxx xx x xxx XX  $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\> # Get the VM
           $vm = Get-AzureVM -ResourceGroupName "myRG" -Name "crpVM
@@ -30,7 +30,7 @@ PS C:\> # Get the VM
           Add-AzureVMNetworkInterface ?VM $vm ?Id "/subscriptions/subscriptionId/resourceGroups/resourceGroupName/providers/Microsoft.Network/NetworkAdapters/Nic1"
 ```
 
-### --------------------------  Add a Network Interface to an existing VM  --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$  Xxx x Xxxxxxx Xxxxxxxxx xx xx xxxxxxxx XX  $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\> # Get the VM
           $vm = Get-AzureVM -ResourceGroupName "myRG" -Name "crpVM"
@@ -42,11 +42,11 @@ PS C:\> # Get the VM
           Update-AzureVM -ResourceGroupName "myRG" -Name "crpVM" ?VM $vm
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Id
-Id of the Network Interface.
-This can be gotten using the Get-AzureNetworkInterface cmdlet.
+Xx xx xxx Xxxxxxx Xxxxxxxxx.
+Xxxx xxx xx xxxxxx xxxxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -74,8 +74,8 @@ Accept wildcard characters: False
 ```
 
 ### -VM
-Local VM Object to add the Network Interface to.
-The local VM object can be created with New-AzureVMConfig cmdlet or gotten through the Get-AzureVM cmdlet.
+Xxxxx XX Xxxxxx xx xxx xxx Xxxxxxx Xxxxxxxxx xx.
+Xxx xxxxx XX xxxxxx xxx xx xxxxxxx xxxx Xxx$XxxxxXXXxxxxx xxxxxx xx xxxxxx xxxxxxx xxx Xxx$XxxxxXX xxxxxx.
 
 ```yaml
 Type: PSVirtualMachine
@@ -89,12 +89,12 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 

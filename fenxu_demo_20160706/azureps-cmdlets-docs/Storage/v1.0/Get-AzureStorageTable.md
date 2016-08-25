@@ -6,18 +6,18 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxx
+# Get-AzureStorageTable
 ## XXXXXXXX
 Xxxxx xxx xxxxxxx xxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureStorageTable [[-Name] <String>] [-Context <AzureStorageContext>]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureStorageTable [-Context <AzureStorageContext>] -Prefix <String>
 ```
@@ -50,7 +50,7 @@ Xxxx xxxxxxx xxxx xxx $Xxxxxx$ xxxxxxxxx xx xxx xxxxxxx xxxxxx xxxxx xxxx xxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xxx xxxxxxx xxxxxxx.
 Xx xxxxxx xx$ xxx xxx xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -66,7 +66,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxxx xxxx.
 Xx xxx xxxxx xxxx xx xxxxx$ xxx xxxxxx xxxxx xxx xxx xxxxxx.
 Xxxxxxxxx$ xx xxxxx xxx xxxxxx xxxx xxxxx xxx xxxxxxxxx xxxx xx xxx xxxxxxx xxxx xxxxxxx.
@@ -83,7 +83,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Prefix
 Xxxxxxxxx x xxxxxx xxxx xx xxx xxxx xx xxx xxxxx xx xxxxxx xxx xxxx xx xxx.
 Xxx xxx xxx xxxx xx xxxx xxx xxxxxx xxxx xxxxx xxxx xxx xxxx xxxxxx$ xxxx xx xxxxx.
 
@@ -107,8 +107,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxx](36ff9a70-74d8-4b37-9962-c01b531c9a01)
+[New-AzureStorageTable](36ff9a70-74d8-4b37-9962-c01b531c9a01)
 
-[Xxxxxx$XxxxxXxxxxxxXxxxx](f287198d-609e-4ac1-9221-9ce5453a732e)
+[Remove-AzureStorageTable](f287198d-609e-4ac1-9221-9ce5453a732e)
 
 

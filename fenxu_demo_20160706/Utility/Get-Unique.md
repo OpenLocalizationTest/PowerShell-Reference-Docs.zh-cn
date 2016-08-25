@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293978
 schema: 2.0.0
 ---
 
-# Xxx$Xxxxxx
+# Get-Unique
 ## XXXXXXXX
 Xxxxxxx xxxxxx xxxxx xxxx x xxxxxx xxxx.
 
 ## XXXXXX
 
-### XxXxxxxx $Xxxxxxx$
+### AsString (Default)
 ```
 Get-Unique [-InputObject <PSObject>] [-AsString] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### XxxxxxXxXxxx
+### UniqueByType
 ```
 Get-Unique [-InputObject <PSObject>] [-OnType] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
@@ -83,7 +83,7 @@ Xxxxxxx xxxx xxxxxxxxx$ Xxx$Xxxxxx xxxxxx xxx XxxxxxxXxxx xxxxxx xx xxxxxxx xxx 
 
 ## XXXXXXXXXX
 
-### $XxXxxxxx
+### -AsString
 Xxxxxx xxx xxxx xx x xxxxxx.
 Xxxxxxx xxxx xxxxxxxxx$ xxxx xx xxxxxxx xx xx xxxxxx$ xx xxxx xxx xxxxxx x xxxxxxxxxx xx xxxxxxx xx xxx xxxx xxxx xx Xxx$Xxxxxx$ xxxx xx x xxxxxxxxxx xx xxxxx$ xx xxxxxxx xxxx xxx $xxx xxxxx$.
 Xxx xxx xxx xxxx xxxxxxxxx xx xxxx xxx xxxxxx xxxxxx xx xxxxxx xxxxxxxxxx$ xxxx xx xxx xxxx xxxxx.
@@ -100,7 +100,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -116,7 +116,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -131,7 +131,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxx xxxxx xxx Xxx$Xxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
@@ -150,7 +150,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxXxxx
+### -OnType
 Xxxxxxx xxxx xxx xxxxxx xx xxxx xxxx.
 
 ```yaml
@@ -167,12 +167,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxx xxxx xx xxxxxx xx Xxx$Xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxxx xx xxxxxx xxxx Xxx$Xxxxxx xxxxxxx xx xxxxxxxxxx xx xxx xxxxx.
 
 ## XXXXX
@@ -184,7 +184,7 @@ Xxx xxx xxxx xxx xxx Xxxxxx xxxxxxxxx xx Xxxx$Xxxxxx xx xxxx xxx xxxxxx xxxxx xx
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$Xxxxxx]()
+[Select-Object]()
 
-[Xxxx$Xxxxxx]()
+[Sort-Object]()
 

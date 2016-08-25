@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx
+# Remove-AzureRMAutomationWebhook
 ## XXXXXXXX
 Xxxxxxx x xxxxxxx xxxx xx Xxxxxxxxxx xxxxxxx.
 
@@ -34,7 +34,7 @@ Xxxxxxxxx$ xx xxxx xxx xxxxxx xxx xxx xxxxxxxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
@@ -49,7 +49,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -64,7 +64,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxx.
 
 ```yaml
@@ -79,7 +79,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -94,7 +94,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -117,10 +117,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](048bf33a-0bc1-4433-92e0-bd906f6edb8d)
+[Get-AzureRmAutomationWebhook](048bf33a-0bc1-4433-92e0-bd906f6edb8d)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](cca289e3-4c75-48af-9f25-f99b0c6965c4)
+[New-AzureRmAutomationWebhook](cca289e3-4c75-48af-9f25-f99b0c6965c4)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](b2f5cd9e-5886-4ccc-89ea-9e66e5c67818)
+[Set-AzureRmAutomationWebhook](b2f5cd9e-5886-4ccc-89ea-9e66e5c67818)
 
 

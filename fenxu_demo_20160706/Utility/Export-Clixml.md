@@ -4,20 +4,20 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293956
 schema: 2.0.0
 ---
 
-# Xxxxxx$Xxxxxx
+# Export-Clixml
 ## XXXXXXXX
 Xxxxxxx xx XXX$xxxxx xxxxxxxxxxxxxx xx xx xxxxxx xx xxxxxxx xxx xxxxxx xx xx x xxxx.
 
 ## XXXXXX
 
-### XxXxxx $Xxxxxxx$
+### ByPath (Default)
 ```
 Export-Clixml [-Depth <Int32>] [-Path] <String> -InputObject <PSObject> [-Force] [-NoClobber]
  [-Encoding <String>] [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf]
  [-Confirm]
 ```
 
-### XxXxxxxxxXxxx
+### ByLiteralPath
 ```
 Export-Clixml [-Depth <Int32>] -LiteralPath <String> -InputObject <PSObject> [-Force] [-NoClobber]
  [-Encoding <String>] [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf]
@@ -79,7 +79,7 @@ Xxxx xxxxxxxxxx xxx xxxx xx xxxxxxxx xxxxx$xxxx xxxxxxxxx xx xxxx xxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Depth
 Xxxxxxxxx xxx xxxx xxxxxx xx xxxxxxxxx xxxxxxx xxx xxxxxxxx xx xxx XXX xxxxxxxxxxxxxx.
 Xxx xxxxxxx xxxxx xx 0.
 
@@ -98,7 +98,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Encoding
 Xxxxxxxxx xxx xxxx xx xxxxxxxx xxx xxx xxxxxx xxxx.
 Xxxxx xxxxxx xxx XXXXX$ XXX0$ XXX0$ XXX00$ Xxxxxxx$ XxxXxxxxxXxxxxxx$ Xxxxxxx$ xxx XXX.
 Xxxxxxx xx xxx xxxxxxx.
@@ -116,7 +116,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 Xxxxxx xxx xxxxxx xx xxxxx xxx xxxx$xxxx xxxxxxxxx xx xxx xxxxxx xxxx xx xxxxxxxxx. Xxx xxxxxx xxxx xxxxxxx xx xxxxx xxx xxxx$xxxx xxxxxxxxx xxxx xxx xxxxxxx xxxxxxxxx.
 
 ```yaml
@@ -131,7 +131,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxx xxxxxxx xxxxx xxx xx xxxxxxxxxx xxx xxx xxxxxx xxxx xx xxx Xxxxx.xx0xxx xxxxx.
 Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxx.xx0xxx.
 
@@ -148,7 +148,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxx xxxxxxx xxxxx xxx xx xxxxxxxxxx xxx xxx xxxxxx xxxx xx xxx Xxxxx.xx0xxx xxxxx.
 Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxx.xx0xxx.
 
@@ -164,7 +164,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxx xxxxxx xx xx xxxxxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 Xxx xxx xxxx xxxx xxxxxxx xx Xxxxxx$Xxxxxx.
@@ -181,7 +181,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxXxxxxxx
+### -NoClobber
 Xxxxxxx xxxx xxx xxxxxx xxxx xxx xxxxxxxxx xxx xxxxxxxx xx xx xxxxxxxx xxxx.
 Xx xxxxxxx$ xx x xxxx xxxxxx xx xxx xxxxxxxxx xxxx$ Xxxxxx$Xxxxxx xxxxxxxxxx xxx xxxx xxxxxxx xxxxxxx.
 
@@ -197,7 +197,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx xxx XXX xxxxxxxxxxxxxx xx xxx xxxxxx xxxx xx xxxxxx.
 
 ```yaml
@@ -212,7 +212,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -LiteralPath
 Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx xxx XXX xxxxxxxxxxxxxx xx xxx xxxxxx xxxx xx xxxxxx.
 Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
 Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
@@ -231,7 +231,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -246,7 +246,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -265,27 +265,27 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxx xxxxxx xx Xxxxxx$Xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.XX.XxxxXxxx
+### System.IO.FileInfo
 Xxxxxx$Xxxxxx xxxxxxx x xxxx xxxx xxxxxxxx xxx XXX.
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx XxxxxXxxxx xx Xxxx Xxxxxxxxxxx xx Xxxxxx Xxxxxxx]()
+[Use PowerShell to Pass Credentials to Legacy Systems]()
 
-[Xxxxxxxx Xxxxx Xxxxxxxxxxx xx Xxxx]()
+[Securely Store Credentials on Disk]()
 
-[XxxxxxxXx$Xxxx]()
+[ConvertTo-Html]()
 
-[XxxxxxxXx$Xxx]()
+[ConvertTo-Xml]()
 
-[Xxxxxx$Xxx]()
+[Export-Csv]()
 
-[Xxxxxx$Xxxxxx]()
+[Import-Clixml]()
 

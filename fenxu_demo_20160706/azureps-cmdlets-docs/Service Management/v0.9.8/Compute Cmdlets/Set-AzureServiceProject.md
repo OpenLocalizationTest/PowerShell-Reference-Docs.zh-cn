@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxxx
+# Set-AzureServiceProject
 ## XXXXXXXX
 Xxxx xxxxxxx xxxxxxxx$ xxxxxxxxxxxx$ xxxx$ xxx xxxxxxx xxxxxxx xxx xxx xxxxxxx xxxxxxx
 
@@ -39,7 +39,7 @@ xxx xxxxxxx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxx
+### -Location
 Xxx xxxxxx xx xxxxx xxx xxxxxxx xxxx xx xxxxxx.
 Xxxx xxxxx xx xxxx xxxxxxxx xxx xxxxxxx xx xxxxxxxxx xx xxx xxxxx.
 Xxxxxxxx xxxxxx xxx$ Xxxxxxxx Xxxx$ Xxxxxxxx Xxxxxx$ Xxxxxxxx XX$ Xxxx Xxxx$ Xxxx XX$ Xxxxx Xxxxxxx XX$ Xxxxx Xxxxxx$ Xxxxx Xxxxxxx XX$ Xxxxxxxxx Xxxx$ Xxxx Xxxxxx$ Xxxx XX.
@@ -56,7 +56,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxx xx xxxxx xx xxxxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -72,7 +72,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxx xxxx $xxxxxxxxxx xx xxxxxxx$ xx xxxxx xxx xxxxxxx xxxx xx xxxxxx.
 Xxxx xxxxx xx xxxx xxxxxxxx xxx xxxxxxx xx xxxxxxxxx xx xxx xxxxx.
 Xxxxxxxx xxxxxx xxx$ Xxxxxxxxxx$ Xxxxxxx.
@@ -89,7 +89,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Storage
 Xxx xxxxxxx xxxxxxx xx xx xxxx xxxx xxxxxxxxx xxx xxxxxxx xxxxxxx xx xxx xxxxx.
 Xx xxx xxxxxxx xxxxxxx xxxxx$x xxxxx$ xx xxxx xx xxxxxxx xxxx xxx xxxxxxx xx xxxxxxxxx xx xxx xxxxx.
 
@@ -114,10 +114,10 @@ xxxx$xxx$ xxx$xxx$ xxxxxx$xxx
 
 ## XXXXXXX XXXXX
 
-[Xxxxxxx$XxxxxXxxxxxxXxxxxxx](4c0c0966-919e-49a6-9d38-c3c97355e281)
+[Publish-AzureServiceProject](4c0c0966-919e-49a6-9d38-c3c97355e281)
 
-[Xxx$XxxxxXxxxxxxXxxxxxxXxxx](80fb7e11-389d-4341-9568-e1a1bc1789df)
+[Set-AzureServiceProjectRole](80fb7e11-389d-4341-9568-e1a1bc1789df)
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
+[New-AzureServiceProject](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
 
 

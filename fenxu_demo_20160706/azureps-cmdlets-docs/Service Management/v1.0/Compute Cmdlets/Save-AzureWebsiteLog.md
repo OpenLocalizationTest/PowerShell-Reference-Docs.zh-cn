@@ -7,34 +7,34 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Save-AzureWebsiteLog
-## SYNOPSIS
-Downloads and saves the logs for a specified website.
+## XXXXXXXX
+Xxxxxxxxx xxx xxxxx xxx xxxx xxx x xxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Save-AzureWebsiteLog [[-Name] <String>] [[-Output] <String>] [-PassThru] [-Slot <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Save-AzureWebsiteLog cmdlet downloads the logs for a specified website.
+Xxx Xxxx$XxxxxXxxxxxxXxx xxxxxx xxxxxxxxx xxx xxxx xxx x xxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Download and save logs for a website
+### 0$ Xxxxxxxx xxx xxxx xxxx xxx x xxxxxxx
 ```
 PS C:\>Save-AzureWebsiteLogs -Name mySite -Output .\logs.zip
 ```
 
-This example downloads the runtime and deployment logs for website 'mySite' to the file 'logs.zip' in the current directory.
+Xxxx xxxxxxx xxxxxxxxx xxx xxxxxxx xxx xxxxxxxxxx xxxx xxx xxxxxxx $xxXxxx$ xx xxx xxxx $xxxx.xxx$ xx xxx xxxxxxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-Specifies the name of the website.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -49,7 +49,7 @@ Accept wildcard characters: False
 ```
 
 ### -Output
-Specifies the path to store the downloaded file.
+Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -64,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Specifies the slot name.
+Xxxxxxxxx xxx xxxx xxxx.
 
 ```yaml
 Type: String
@@ -93,13 +93,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureWebsiteDeployment](245ccf61-fa3e-41c8-98f7-0022e8f2ef3a)
 

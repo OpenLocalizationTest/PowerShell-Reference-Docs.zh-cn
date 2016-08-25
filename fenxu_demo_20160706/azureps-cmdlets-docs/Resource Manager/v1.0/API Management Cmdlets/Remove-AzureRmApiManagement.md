@@ -7,31 +7,31 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-AzureRmApiManagement
-## SYNOPSIS
-Removes an API Management service.
+## XXXXXXXX
+Xxxxxxx xx XXX Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureRmApiManagement [-PassThru] -Name <String> -ResourceGroupName <String> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Remove-AzureRmApiManagement** cmdlet removes an azure_2 API Management service.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxXxxxxxxxxx$$ xxxxxx xxxxxxx xx xxxxx$0 XXX Xxxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove an API Management service
+### Xxxxxxx 0$ Xxxxxx xx XXX Xxxxxxxxxx xxxxxxx
 ```
 PS C:\>Remove-AzureRmApiManagement -ResourceGroupName "ContosoGroup02" -Name "ContosoApi"
 ```
 
-This command removes the API Management service named ContosoApi.
+Xxxx xxxxxxx xxxxxxx xxx XXX Xxxxxxxxxx xxxxxxx xxxxx XxxxxxxXxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-Specifies the name of the API Management deployment that this cmdlet removes.
+Xxxxxxxxx xxx xxxx xx xxx XXX Xxxxxxxxxx xxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -46,7 +46,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Indicates that this cmdlet returns a value of $True if the operation succeeds.
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx x xxxxx xx $Xxxx xx xxx xxxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the of resource group under which the API Management deployment exists.
+Xxxxxxxxx xxx xxxx xx xxx xx xxxxxxxx xxxxx xxxxx xxxxx xxx XXX Xxxxxxxxxx xxxxxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -91,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -105,13 +105,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Backup-AzureRmApiManagement](b3b67164-7adf-4fe3-87ab-51dcd46ed084)
 

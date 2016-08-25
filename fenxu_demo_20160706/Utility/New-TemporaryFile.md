@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/?LinkId=526726
 schema: 2.0.0
 ---
 
-# Xxx$XxxxxxxxxXxxx
+# New-TemporaryFile
 ## XXXXXXXX
 $$Xxxx xx xxx Xxxxxxxx$$
 
@@ -28,7 +28,7 @@ $$ Xxx xxxxxxx xxxxxxxxxxx xxxx $$
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Confirm
 $$Xxxx Xxxxxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -43,7 +43,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 $$Xxxx XxxxXx Xxxxxxxxxxx$$
 
 ```yaml
@@ -60,17 +60,17 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 
 
 ## XXXXXXX
 
-### Xxxxxx.XX.XxxxXxxx
+### System.IO.FileInfo
 
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000](http://go.microsoft.com/fwlink/?LinkId=526726)
+[http://go.microsoft.com/fwlink/?LinkId=526726](http://go.microsoft.com/fwlink/?LinkId=526726)
 

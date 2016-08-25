@@ -7,42 +7,42 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Disable-AzureWebsiteApplicationDiagnostic
-## SYNOPSIS
-Disables application diagnostics for an Azure website.
+## XXXXXXXX
+Xxxxxxxx xxxxxxxxxxx xxxxxxxxxxx xxx xx Xxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Disable-AzureWebsiteApplicationDiagnostic [[-Name] <String>] [-File] [-PassThru] [-Slot <String>] [-Storage]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-Disables application diagnostics for an Azure website.
-Disables logging configured to be stored on a file system or on Azure.
+Xxxxxxxx xxxxxxxxxxx xxxxxxxxxxx xxx xx Xxxxx xxxxxxx.
+Xxxxxxxx xxxxxxx xxxxxxxxxx xx xx xxxxxx xx x xxxx xxxxxx xx xx Xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:  Disable application logging file
+### 0$  Xxxxxxx xxxxxxxxxxx xxxxxxx xxxx
 ```
 C:\PS>Disable-AzureWebsiteApplicationDiagnostic -Name MyWebsite -File
 ```
 
-The following example disables application logging on the file system.
+Xxx xxxxxxxxx xxxxxxx xxxxxxxx xxxxxxxxxxx xxxxxxx xx xxx xxxx xxxxxx.
 
-### 2:  Disable logging using Azure storage
+### 0$  Xxxxxxx xxxxxxx xxxxx Xxxxx xxxxxxx
 ```
 C:\PS>Disable-AzureWebsiteApplicationDiagnostic -Name MyWebsite -Storage
 ```
 
-The following example disables application logging using storage.
+Xxx xxxxxxxxx xxxxxxx xxxxxxxx xxxxxxxxxxx xxxxxxx xxxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -File
-Specifies that you want to use the file system to store the log files.
+Xxxxxxxxx xxxx xxx xxxx xx xxx xxx xxxx xxxxxx xx xxxxx xxx xxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -57,7 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the website.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -72,7 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Flag to return true if succeeded
+Xxxx xx xxxxxx xxxx xx xxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -87,7 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Specifies the name of slot.
+Xxxxxxxxx xxx xxxx xx xxxx.
 
 ```yaml
 Type: String
@@ -102,7 +102,7 @@ Accept wildcard characters: False
 ```
 
 ### -Storage
-Indicates using Azure Storage to store the log files.
+Xxxxxxxxx xxxxx Xxxxx Xxxxxxx xx xxxxx xxx xxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -116,13 +116,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Enable-AzureWebsiteApplicationDiagnostic](5e0e5009-a69f-4621-a317-68a8109aabf8)
 

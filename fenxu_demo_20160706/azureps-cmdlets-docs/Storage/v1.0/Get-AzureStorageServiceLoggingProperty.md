@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx
+# Get-AzureStorageServiceLoggingProperty
 ## XXXXXXXX
 Xxxx xxxxxxx xxxxxxxxxx xxx xxxxx$0 Xxxxxxx xxxxxxxx.
 
@@ -30,7 +30,7 @@ Xxxx xxxxxxx xxxx xxxxxxx xxxxxxxxxx xxx xxxx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -46,7 +46,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -ServiceType
 Xxxxxxxxx xxx xxxxxxx xxxxxxx xxxx.
 Xxxx xxxxxx xxxx xxx xxxxxxx xxxxxxxxxx xxx xxx xxxxxxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 xxxx$xxxxxxxxxxx
@@ -76,8 +76,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Xxx$XxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxx](3981e765-b861-4024-a1d2-2c60590ebe0e)
+[Set-AzureStorageServiceLoggingProperty](3981e765-b861-4024-a1d2-2c60590ebe0e)
 
 

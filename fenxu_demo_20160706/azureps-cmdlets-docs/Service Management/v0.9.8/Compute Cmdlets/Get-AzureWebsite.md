@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxx
+# Get-AzureWebsite
 ## XXXXXXXX
 Xxxx Xxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
 
@@ -83,7 +83,7 @@ $Xxx xxx xxx xxx Xxxxx xxxxxxxx xx xxx xxxxx.$
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 Xxxx xxxxxxxx xxxxxxxxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxxxx xxxxxxx.
 Xxxxx xxx xxxx xx xxx xxxxxxx xx xxx xxxxxxxxxxxx.
 Xx xxxxxxx$ Xxx$XxxxxXxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxxxxx.
@@ -101,7 +101,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxxx xxx xxxxxxxxx xxxxxxxxxx xxxx xx xxx xxxxxxx.
 Xxxxx xxx xxxx xxxx$ xxxx xx $Xxxxxxx$ xx $Xxxxxxxxxx$.
 Xxx xxxx xxxxxxxxxxx xxxxx xxxxxxxxxx xxxxx$ xxx Xxxxxx Xxxxxxxxxx xx Xxxxxxxxx Xxxxx Xxx Xxxxxxxxx$$$xxxxx.xxxxxxxxx.xxx$xx$xx$xxxxxxxxxxxxx$xxxxxxxx$xxx$xxxxx$xxxxxx$xxxxxxxxxx$.
@@ -121,29 +121,29 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxx xxxx xxxxx xx xxxx xxxxxx xx xxxxxxxx xxxx$ xxx xxx xx xxxxx.
 
 ## XXXXXXX
 
-### Xxxxxxxxx.XxxxxxxXxxxx.Xxxxxxxx.Xxxxxxxxx.Xxxxxxxx.Xxxxxxxx.XxxXxxxxxxx.Xxxx
+### Microsoft.WindowsAzure.Commands.Utilities.Websites.Services.WebEntities.Site
 Xx xxxxxxx$ Xxx$XxxxxXxxxxxx xxxxxxx xx xxxxx xx Xxxx xxxxxxx.
 
-### Xxxxxxxxx.XxxxxxxXxxxx.Xxxxxxxx.Xxxxxxxxx.Xxxxxxxx.Xxxxxxxx.XxxXxxxxxxx.XxxxXxxxXxxxxx
+### Microsoft.WindowsAzure.Commands.Utilities.Websites.Services.WebEntities.SiteWithConfig
 Xxxx xxx xxx xxx Xxxx xxxxxxxxx$ Xxx$XxxxxXxxxxxx xxxxxxx x XxxxXxxxXxxxxx xxxxxx.
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
+[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
 
-[Xxxxxx$XxxxxXxxxxxx](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
+[Remove-AzureWebsite](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
 
-[Xxxxx$XxxxxXxxxxxx](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
+[Start-AzureWebsite](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
 
-[Xxxx$XxxxxXxxxxxx](62c5de93-e58b-4e57-85d0-8b7e75df1f31)
+[Stop-AzureWebsite](62c5de93-e58b-4e57-85d0-8b7e75df1f31)
 
-[Xxxx$XxxxxXxxxxxx](3b828275-d62a-4c04-9767-15d6f743557c)
+[Show-AzureWebsite](3b828275-d62a-4c04-9767-15d6f743557c)
 
 

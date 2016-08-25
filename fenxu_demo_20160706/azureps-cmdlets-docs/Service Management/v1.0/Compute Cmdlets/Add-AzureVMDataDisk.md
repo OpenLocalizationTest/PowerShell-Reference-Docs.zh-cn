@@ -7,22 +7,22 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Add-AzureVMDataDisk
-## SYNOPSIS
-Add Data Disk to VM
+## XXXXXXXX
+Xxx Xxxx Xxxx xx XX
 
-## SYNTAX
+## XXXXXX
 
 ```
 Add-AzureVMDataDisk [-VM] <PSVirtualMachine> [-Name] <String> [[-VhdUri] <String>] [-Caching]
  [-DiskSizeInGB] <Int32> [[-Lun] <Int32>] [-Profile <AzureProfile>]
 ```
 
-## DESCRIPTION
-This cmdlets allows you to add a Data Disk to the VM at creation time or to an existing VM
+## XXXXXXXXXXX
+Xxxx xxxxxxx xxxxxx xxx xx xxx x Xxxx Xxxx xx xxx XX xx xxxxxxxx xxxx xx xx xx xxxxxxxx XX
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------------------  Add Data Disk to a new VM  --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$  Xxx Xxxx Xxxx xx x xxx XX  $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\> # Create the local VM Object
           $vm =  New-AzureVMConfig ?VMName ?myVM? ?VMSize ?Standard_A1" -AvailabilitySetID $as1.Id
@@ -31,7 +31,7 @@ PS C:\> # Create the local VM Object
           Add-AzureVMDataDisk ?VM $vm ?Name "disk1" ?VhdUri "http://storageaccountname.blob.core.windows.net/vhds/test2.vhd" ?LUN 0 ?Caching ReadOnly ?DiskSizeinGB 1
 ```
 
-### --------------------------  Add a Data Disk to an existing VM  --------------------------
+### $$$$$$$$$$$$$$$$$$$$$$$$$$  Xxx x Xxxx Xxxx xx xx xxxxxxxx XX  $$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 PS C:\> # Get the VM
           $vm = Get-AzureVM -ResourceGroupName "myRG" -Name "crpVM"
@@ -43,18 +43,15 @@ PS C:\> # Get the VM
           Update-AzureVM -ResourceGroupName "myRG" -Name "crpVM" ?VM $vm
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Caching
-Specifies the caching mode of the disk.
-This setting impacts the consistency and performance of the disk.
-Note: Changing this value causes the Virtual Machine to reboot.
-            Possible values are:
-            ?
-ReadOnly
-            ?
-ReadWrite
-          The default value is ReadWrite.
+Xxxxxxxxx xxx xxxxxxx xxxx xx xxx xxxx.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxxxx xxx xxxxxxxxxxx xx xxx xxxx.
+Xxxx$ Xxxxxxxx xxxx xxxxx xxxxxx xxx Xxxxxxx Xxxxxxx xx xxxxxx.
+Xxxxxxxx xxxxxx xxx$ $
+XxxxXxxx $
+XxxxXxxxx Xxx xxxxxxx xxxxx xx XxxxXxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -70,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -DiskSizeInGB
-Specifies the size, in GB, of an empty disk to be attached to the Virtual Machine.
+Xxxxxxxxx xxx xxxx$ xx XX$ xx xx xxxxx xxxx xx xx xxxxxxxx xx xxx Xxxxxxx Xxxxxxx.
 
 ```yaml
 Type: Int32
@@ -85,9 +82,9 @@ Accept wildcard characters: False
 ```
 
 ### -Lun
-Specifies the Logical Unit Number (LUN) for the data disk.
-If the disk is the first disk that is added, this element is optional and the default value of 0 is used.
-If more than one disk is being added, this element is required.
+Xxxxxxxxx xxx Xxxxxxx Xxxx Xxxxxx $XXX$ xxx xxx xxxx xxxx.
+Xx xxx xxxx xx xxx xxxxx xxxx xxxx xx xxxxx$ xxxx xxxxxxx xx xxxxxxxx xxx xxx xxxxxxx xxxxx xx 0 xx xxxx.
+Xx xxxx xxxx xxx xxxx xx xxxxx xxxxx$ xxxx xxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -102,7 +99,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Name of the Data Disk
+Xxxx xx xxx Xxxx Xxxx
 
 ```yaml
 Type: String
@@ -130,8 +127,8 @@ Accept wildcard characters: False
 ```
 
 ### -VhdUri
-Specifies the VHD file that needs to be created when a platform image or user image is used.
-This is where the image blob will be copied to start the VM from.
+Xxxxxxxxx xxx XXX xxxx xxxx xxxxx xx xx xxxxxxx xxxx x xxxxxxxx xxxxx xx xxxx xxxxx xx xxxx.
+Xxxx xx xxxxx xxx xxxxx xxxx xxxx xx xxxxxx xx xxxxx xxx XX xxxx.
 
 ```yaml
 Type: String
@@ -146,8 +143,8 @@ Accept wildcard characters: False
 ```
 
 ### -VM
-Local VM Object to add the Data Disk to.
-The local VM object can be created with New-AzureVMConfig cmdlet or gotten through the Get-AzureVM cmdlet.
+Xxxxx XX Xxxxxx xx xxx xxx Xxxx Xxxx xx.
+Xxx xxxxx XX xxxxxx xxx xx xxxxxxx xxxx Xxx$XxxxxXXXxxxxx xxxxxx xx xxxxxx xxxxxxx xxx Xxx$XxxxxXX xxxxxx.
 
 ```yaml
 Type: PSVirtualMachine
@@ -161,12 +158,12 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 

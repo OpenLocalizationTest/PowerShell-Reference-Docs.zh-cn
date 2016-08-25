@@ -4,18 +4,18 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294018
 schema: 2.0.0
 ---
 
-# Xxxxx$Xxxxx
+# Start-Sleep
 ## XXXXXXXX
 Xxxxxxxx xxx xxxxxxxx xx x xxxxxx xx xxxxxxx xxx xxx xxxxxxxxx xxxxxx xx xxxx.
 
 ## XXXXXX
 
-### Xxxxxxx $Xxxxxxx$
+### Seconds (Default)
 ```
 Start-Sleep [-Seconds] <Int32> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Xxxxxxxxxxxx
+### Milliseconds
 ```
 Start-Sleep -Milliseconds <Int32> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
@@ -42,7 +42,7 @@ Xxxx xxxxxxx xxxxx xxx xxx xxxxxxxx xx xxx xxxxxxx xxxxx xxx xxx$xxxx xx x xxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -58,7 +58,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -73,7 +73,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxxx
+### -Milliseconds
 Xxxxxxxxx xxx xxxx xxx xxxxxxxx xxxxxx xx xxxxxxxxxxxx.
 Xxx xxxxxxxxx xxx xx xxxxxxxxxxx xx $$x$.
 
@@ -89,7 +89,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Seconds
 Xxxxxxxxx xxx xxxx xxx xxxxxxxx xxxxxx xx xxxxxxx.
 Xxx xxx xxxx xxx xxxxxxxxx xxxx $$Xxxxxxx$$$ xx xxx xxx xxxxxxxxxx xx xx $$x$.
 
@@ -107,12 +107,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxx00
+### System.Int32
 Xxx xxx xxxx xxx xxxxxx xx xxxxxxx xx Xxxxx$Xxxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxxx xxxxxx xxxx xxx xxxxxx xxx xxxxxx.
 
 ## XXXXX

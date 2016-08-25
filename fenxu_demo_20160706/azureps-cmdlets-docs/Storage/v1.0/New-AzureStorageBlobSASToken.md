@@ -6,20 +6,20 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxXXXXxxxx
+# New-AzureStorageBlobSASToken
 ## XXXXXXXX
 Xxxxxxxxx xx XXX xxxxx xxx xx xxxxx$0 xxxxxxx xxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 New-AzureStorageBlobSASToken [-Container] <String> [-Blob] <String> [-Context <AzureStorageContext>]
  [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>] [-Permission <String>]
  [-Protocol <Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]>] [-StartTime <DateTime]>]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 New-AzureStorageBlobSASToken [-Container] <String> [-Blob] <String> [-Context <AzureStorageContext>]
  [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>]
@@ -27,7 +27,7 @@ New-AzureStorageBlobSASToken [-Container] <String> [-Blob] <String> [-Context <A
  -Policy <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 New-AzureStorageBlobSASToken [-Context <AzureStorageContext>] [-ExpiryTime <DateTime]>] [-FullUri]
  [-IPAddressOrRange <String>] [-Permission <String>]
@@ -35,7 +35,7 @@ New-AzureStorageBlobSASToken [-Context <AzureStorageContext>] [-ExpiryTime <Date
  -CloudBlob <CloudBlob>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_4
 ```
 New-AzureStorageBlobSASToken [-Context <AzureStorageContext>] [-ExpiryTime <DateTime]>] [-FullUri]
  [-IPAddressOrRange <String>] [-Protocol <Nullable [Microsoft.WindowsAzure.Storage.SharedAccessProtocol]>]
@@ -65,7 +65,7 @@ Xxxx xxxxxxx xxxxxxxxx x xxxx XXX xxxxx xxxx xxxx xxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Blob
 Xxxxxxxxx xxx xxxxxxx xxxx xxxx.
 
 ```yaml
@@ -80,7 +80,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -CloudBlob
 Xxxxxxxxx xxx $$XxxxxXxxx$$ xxxxxx.
 Xx xxxxxx x $$XxxxxXxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
@@ -96,7 +96,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Container
 Xxxxxxxxx xxx xxxxxxx xxxxxxxxx xxxx.
 
 ```yaml
@@ -111,7 +111,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xxx xxxxxxx xxxxxxx.
 
 ```yaml
@@ -126,7 +126,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -ExpiryTime
 Xxxxxxxxx xxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -141,7 +141,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxx
+### -FullUri
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxx xxx xxxx xxxx XXX xxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxx.
 
 ```yaml
@@ -156,7 +156,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXXxxxxxxXxXxxxx
+### -IPAddressOrRange
 $$Xxxx$$
 
 ```yaml
@@ -171,7 +171,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxx
+### -Permission
 Xxxxxxxxx xxx xxxxxxxxxxx xxx x xxxxxxx xxxx.
 
 ```yaml
@@ -186,7 +186,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Policy
 Xxxxxxxxx xx xxxxx$0 Xxxxxx Xxxxxx Xxxxxx.
 
 ```yaml
@@ -201,7 +201,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Protocol
 $$Xxxx$$
 
 ```yaml
@@ -216,7 +216,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -StartTime
 Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxx.
 
 ```yaml
@@ -239,8 +239,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxx](74bc4494-be41-4493-9939-e51e61dd09e6)
+[Get-AzureStorageBlob](74bc4494-be41-4493-9939-e51e61dd09e6)
 
-[Xxx$XxxxxXxxxxxxXxxxxxxxxXXXXxxxx](dc3564e2-9ede-4901-8d62-f49017a03281)
+[New-AzureStorageContainerSASToken](dc3564e2-9ede-4901-8d62-f49017a03281)
 
 

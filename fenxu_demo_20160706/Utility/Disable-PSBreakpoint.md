@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293953
 schema: 2.0.0
 ---
 
-# Xxxxxxx$XXXxxxxxxxxx
+# Disable-PSBreakpoint
 ## XXXXXXXX
 Xxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
 ## XXXXXX
 
-### Xxxxxxxxxx $Xxxxxxx$
+### Breakpoint (Default)
 ```
 Disable-PSBreakpoint [-PassThru] [-Breakpoint] <Breakpoint[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### Xx
+### Id
 ```
 Disable-PSBreakpoint [-PassThru] [-Id] <Int32[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
@@ -85,7 +85,7 @@ Xxx xxx xxxxxxxxxx xxxx xxxxxxx xx$ $xxx $ xxx$.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxxx
+### -Breakpoint
 Xxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx xxxxxxxxxx xxxxxxx xx x xxxxxxx xxxx xxxx xxxxxxxxxx xxxxxxx$ xxxx xx x Xxx$XXXxxxxxxxxx xxxxxxx.
 Xxx xxx xxxx xxxx xxxxxxxxxx xxxxxxx xx xxx Xxxxxxx$XXXxxxxxxxxx xxxxxx.
@@ -102,7 +102,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xx
+### -Id
 Xxxxxxxx xxx xxxxxxxxxxx xxxx xxx xxxxxxxxx xxxxxxxxxx XXx.
 Xxxxx xxx XXx xx x xxxxxxxx xxxx xxxxxxxx xxx XXx.
 Xxx xxxxxx xxxx XXx xx Xxxxxxx$XXXxxxxxxxxx.
@@ -119,7 +119,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -135,7 +135,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -150,7 +150,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxxxxx xxxxxxxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -166,7 +166,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -181,7 +181,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -200,12 +200,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxxx
+### System.Management.Automation.Breakpoint
 Xxx xxx xxxx x xxxxxxxxxx xxxxxx xx Xxxxxxx$XXXxxxxxxxxx.
 
 ## XXXXXXX
 
-### Xxxx xx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxxx
+### None or System.Management.Automation.Breakpoint
 Xxxx xxx xxx xxx XxxxXxxx xxxxxxxxx$ Xxxxxxx$XXXxxxxxxxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxxx xxxxxxxxxx.
 Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -213,15 +213,15 @@ Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XXXxxxxxxxxx]()
+[Enable-PSBreakpoint]()
 
-[Xxx$XXXxxxxxxxxx]()
+[Get-PSBreakpoint]()
 
-[Xxx$XXXxxxXxxxx]()
+[Get-PSCallStack]()
 
-[Xxxxxx$XXXxxxxxxxxx]()
+[Remove-PSBreakpoint]()
 
-[Xxx$XXXxxxxxxxxx]()
+[Set-PSBreakpoint]()
 
-[xxxxx$Xxxxxxxxx]()
+[about_Debuggers]()
 

@@ -7,39 +7,39 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureSchedulerLocation
-## SYNOPSIS
-Gets available scheduler locations.
+## XXXXXXXX
+Xxxx xxxxxxxxx xxxxxxxxx xxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureSchedulerLocation
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Get-AzureSchedulerLocation cmdlet gets available scheduler locations.
+Xxx Xxx$XxxxxXxxxxxxxxXxxxxxxx xxxxxx xxxx xxxxxxxxx xxxxxxxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get available scheduler locations
+### Xxxxxxx 0$ Xxx xxxxxxxxx xxxxxxxxx xxxxxxxxx
 ```
 PS C:\>Get-AzureSchedulerLocation
 ```
 
-This command gets available scheduler locations.
+Xxxx xxxxxxx xxxx xxxxxxxxx xxxxxxxxx xxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureSchedulerJob](aaed4c39-d209-4663-b058-b480553ee6a9)
 

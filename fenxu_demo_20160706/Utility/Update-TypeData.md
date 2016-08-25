@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294025
 schema: 2.0.0
 ---
 
-# Xxxxxx$XxxxXxxx
+# Update-TypeData
 ## XXXXXXXX
 Xxxxxxx xxx xxxxxxxx xxxx xxxx xx xxx xxxxxxx.
 
 ## XXXXXX
 
-### XxxxXxx $Xxxxxxx$
+### FileSet (Default)
 ```
 Update-TypeData [[-AppendPath] <String[]>] [-PrependPath <String[]>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### XxxxxxxXxxxXxx
+### DynamicTypeSet
 ```
 Update-TypeData [-MemberType <PSMemberTypes>] [-MemberName <String>] [-Value <Object>] [-SecondValue <Object>]
  [-TypeConverter <Type>] [-TypeAdapter <Type>] [-SerializationMethod <String>]
@@ -27,7 +27,7 @@ Update-TypeData [-MemberType <PSMemberTypes>] [-MemberName <String>] [-Value <Ob
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### XxxxXxxxXxx
+### TypeDataSet
 ```
 Update-TypeData [-Force] [-TypeData] <TypeData[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
@@ -157,7 +157,7 @@ Xxx xxxxxx xxxxxxx xxxxx xxx xxxxxx xxxxxxx xxxx Xxx$Xxxxxx xx xxx Xxxxxx$Xxxxx 
 
 ## XXXXXXXXXX
 
-### $XxxxxxXxxx
+### -AppendPath
 Xxxxxxxxx xxx xxxx xx xxxxxxxx .xx0xxx xxxxx.
 Xxx xxxxxxxxx xxxxx xxx xxxxxx xx xxx xxxxx xxxx xxxx xxx xxxxxx xxxxx xxx xxxxx$xx xxxxx xxx xxxxxx.
 Xxx xxx xxxx xxxx xx XxxxxxXxxx xxxxx xx Xxxxxx$XxxxXxxx.
@@ -174,7 +174,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -190,7 +190,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -205,7 +205,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -PrependPath
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx .xx0xxx xxxxx.
 Xxx xxxxxxxxx xxxxx xxx xxxxxx xx xxx xxxxx xxxx xxxx xxx xxxxxx xxxxxx xxx xxxxx$xx xxxxx xxx xxxxxx.
 
@@ -221,7 +221,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxXxxxxxxx
+### -DefaultDisplayProperty
 Xxxxxxxxx xxx xxxxxxxx xx xxx xxxx xxxx xx xxxxxxxxx xx xxx Xxxxxx$Xxxx xxxxxx xxxx xx xxxxx xxxxxxxxxx xxx xxxxxxxxx.
 
 Xxxx xxx xxxx xx x xxxxxxxx xx xxxxxxxx xxxxxxxx xx xxx xxxx.
@@ -243,7 +243,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxXxxxxxxxXxx
+### -DefaultDisplayPropertySet
 Xxxxxxxxx xxx xx xxxx xxxxxxxxxx xx xxx xxxx.
 Xxxxx xxxxxxxxxx xxx xxxxxxxxx xx xxx Xxxxxx$Xxxx xxxxxx xxxx xx xxxxx xxxxxxxxxx xxx xxxxxxxxx.
 
@@ -266,7 +266,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxXxxxxxxxXxx
+### -DefaultKeyPropertySet
 Xxxxxxxxx xxx xx xxxx xxxxxxxxxx xx xxx xxxx.
 Xxxxx xxxxxxxxxx xxx xxxx xx xxx Xxxxx$Xxxxxx xxx Xxxx$Xxxxxx xxxxxxx xxxx xx xxxxx xxxxxxxxxx xxx xxxxxxxxx.
 
@@ -287,7 +287,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 Xxxx xxx xxxxxxxxx xxxx xxxx$ xxxx xx xxxx xxxx xxx xxxxxxx xxxx xxxxxxxxx xxx xxxx xxxx.
 
 Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
@@ -304,7 +304,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxxXxxxxxxxxxxxxXxx
+### -InheritPropertySerializationSet
 Xxxxxxxxxx xxxxxxx xxx xxx xx xxxxxxxxxx xxxx xxx xxxxxxxxxx xx xxxxxxxxx.
 Xxx xxxxxxx xxxxx xx $Xxxx
 
@@ -333,7 +333,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -MemberName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xx xxxxxx.
 
 Xxx xxxx xxxxxxxxx xxxx xxx XxxxXxxx$ XxxxxxXxxx$ Xxxxx xxx XxxxxxXxxxx xxxxxxxxxx xx xxx xx xxxxxx x xxxxxxxx xx xxxxxx xx x xxxx.
@@ -352,7 +352,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -MemberType
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xx xxx xx xxxxxx.
 
 Xxx xxxx xxxxxxxxx xxxx xxx XxxxXxxx$ XxxxxxXxxx$ Xxxxx xxx XxxxxxXxxxx xxxxxxxxxx xx xxx xx xxxxxx x xxxxxxxx xx xxxxxx xx x xxxx.
@@ -376,7 +376,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxxxxxxxxxXxx
+### -PropertySerializationSet
 Xxxxxxxxx xxx xxxxx xx xxxxxxxxxx xxxx xxx xxxxxxxxxx.
 Xxx xxxx xxxxxxxxx xxxx xxx xxxxx xx xxx XxxxxxxxxxxxxXxxxxx xxxxxxxxx xx XxxxxxxxXxxxxxxxxx.
 
@@ -392,7 +392,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxx
+### -SecondValue
 Xxxxxxxxx xxxxxxxxxx xxxxxx xxx XxxxxXxxxxxxx$ XxxxxxXxxxxxxx$ XxxxXxxxxxxx$ xx XxxxXxxxxx xxxxxxx.
 
 Xxx xxxx xxxxxxxxx xxxx xxx XxxxXxxx$ XxxxxxXxxx$ Xxxxx xxx XxxxxxXxxxx xxxxxxxxxx xx xxx xx xxxxxx x xxxxxxxx xx xxxxxx xx x xxxx.
@@ -419,7 +419,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxxxXxxxx
+### -SerializationDepth
 Xxxxxxxxx xxx xxxx xxxxxx xx xxxx xxxxxxx xxx xxxxxxxxxx xx xxxxxxx.
 Xxx xxxxxxx xxxxx$ 0$ xxxxxxxxxx xxx xxxxxx xxx xxx xxxxxxxxxx.
 X xxxxx xx 0 xxxxxxxxxx xxx xxxxxx$ xxx xxx xxx xxxxxxxxxx.
@@ -439,7 +439,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxxxXxxxxx
+### -SerializationMethod
 Xxxxxxxxx x xxxxxxxxxxxxx xxxxxx xxx xxx xxxx.
 X xxxxxxxxxxxxx xxxxxx xxxxxxxxxx xxxxx xxxxxxxxxx xx xxx xxxx xxx xxxxxxxxxx xxx xxx xxxxxxxxx xxxx xx xxxx xx xxxxxxxxx xxxx.
 
@@ -465,7 +465,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxxxxxxxXxxxxx
+### -StringSerializationSource
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xx xxx xxxx.
 Xxx xxxxx xx xxxxxxxxx xxxxxxxx xx xxxx xx xxx xxxxxxxxxxxxx xxxxxx.
 Xxxx xxxxxxxxx xx xxxxx xxxx xxxx xxx xxxxx xx xxx XxxxxxxxxxxxxXxxxxx xxxxxxxxx xx Xxxxxx.
@@ -482,7 +482,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxXxxXxxxxxxxxxxxxxx
+### -TargetTypeForDeserialization
 Xxxxxxxxx xxx xxxx xx xxxxx xxxxxx xx xxxx xxxx xxx xxxxxxxxx xxxx xxxx xxx xxxxxxxxxxxx.
 
 Xxxx xxxxxxxxx xx xxxxxxxxxx xx Xxxxxxx XxxxxXxxxx 0.0.
@@ -499,7 +499,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxx
+### -TypeAdapter
 Xxxxxxxxx xxx xxxx xx x xxxx xxxxxxx$ xxxx xx Xxxxxxxxx.XxxxxXxxxx.Xxx.XxxXxxxxxxxXxxxxxx.
 X xxxx xxxxxxx xxxxxxx Xxxxxxx XxxxxXxxxx xx xxx xxx xxxxxxx xx x xxxx.
 
@@ -517,7 +517,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxxxx
+### -TypeConverter
 Xxxxxxxxx x xxxx xxxxxxxxx xx xxxxxxx xxxxxx xxxxxxx xxxxxxxxx xxxxx.
 Xx x xxxx xxxxxxxxx xx xxxxxxx xxx x xxxx$ xx xxxxxxxx xx xxx xxxx xxxxxxxxx xx xxxx xxx xxx xxxxxxxxxx.
 
@@ -537,7 +537,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -TypeData
 Xxxx xxx xxxxxxxxx xxxx xxxx xx xxx xxxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx x XxxxXxxx xxxxxx xx x xxxxxxx xxxx xxxx x XxxxXxxx xxxxxx$ xxxx xx x Xxx$XxxxXxxx xxxxxxx.
 Xxx xxx xxxx xxxx x XxxxXxxx xxxxxx xx Xxxxxx$XxxxXxxx.
@@ -556,7 +556,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -TypeName
 Xxxxxxxxx xxx xxxx xx xxx xxxx xx xxxxxx.
 
 Xxx xxxxx xx xxx Xxxxxx xxxxxxxxx$ xxxxx xxx xxxxx xxxx.
@@ -582,7 +582,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Value
 Xxxxxxxxx xxx xxxxx xx xxx xxxxxxxx xx xxxxxx.
 
 Xx xxx xxx xx XxxxxXxxxxxxx$ XxxxXxxxxxxx$ XxxxxxXxxxxxxx$ xx XxxxXxxxxx xxxxxx$ xxx xxx xxx xxx XxxxxxXxxxx xxxxxxxxx xx xxx xxxxxxxxxx xxxxxxxxxxx..
@@ -603,7 +603,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -618,7 +618,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -637,21 +637,21 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx xxx xxxxxx xx xxx XxxxxxXxxx$ XxxxXxxx$ xx XxxxXxxx xxxxxxxxxx xx Xxxxxx$XxxxXxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxxx xxxxxx xxxx xxx xxxxxx xxx xxxxxx.
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[xxxxx$Xxxxx.xx0xxx]()
+[about_Types.ps1xml]()
 
-[Xxx$XxxxXxxx]()
+[Get-TypeData]()
 
-[Xxxxxx$XxxxXxxx]()
+[Remove-TypeData]()
 

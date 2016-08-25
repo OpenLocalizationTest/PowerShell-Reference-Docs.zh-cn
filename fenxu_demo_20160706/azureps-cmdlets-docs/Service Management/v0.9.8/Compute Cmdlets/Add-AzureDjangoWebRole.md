@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxXxxXxxx
+# Add-AzureDjangoWebRole
 ## XXXXXXXX
 Xxxxxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx $xxxxxxxxx xxxxxxxx xx xx xxxxxxxxxxx$ xxx x Xxxxxx Xxxxxx xxxxxxxxxxx.
 
@@ -54,7 +54,7 @@ Xxxx xxxxxxx xxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx xxx x xxx xxx xxxx xx xxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxx
+### -Instances
 Xxxxxxxxx xxx xxxxxx xx xxxx xxxxxxxxx xxx xxxx xxx xxxx.
 Xxx xxxxxxx xx 0.
 
@@ -70,7 +70,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxx xxxx.
 Xxx xxxx xxxxxxxxxx xxx xxxx xx xxx xxxxxxxxx xxxx xxxxxxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx xxx xxx Xxxxxx Xxxxxx xxxxxxxxxxx.
 Xxx xxxxxxx xx XxxXxxx$$ xxxxx $ xx xxx xxxxxx xx xxx xxxxx xx xxx xxxxxxx.
@@ -96,6 +96,6 @@ Xxxx xxxxxxx xxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx xxx xxx xxx xxxx xx xxx x
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
+[New-AzureServiceProject](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
 
 

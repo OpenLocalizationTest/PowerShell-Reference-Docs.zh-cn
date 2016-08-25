@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XXXxxxXxxxxXxxxxxx
+# New-WAPackCloudService
 ## XXXXXXXX
 
 ## XXXXXX
@@ -35,7 +35,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Label
 $$Xxxx$$
 
 ```yaml
@@ -50,7 +50,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 $$Xxxx$$
 
 ```yaml

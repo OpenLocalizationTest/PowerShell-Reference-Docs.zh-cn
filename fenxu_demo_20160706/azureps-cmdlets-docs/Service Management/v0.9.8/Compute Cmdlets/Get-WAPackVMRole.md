@@ -6,17 +6,17 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XXXxxxXXXxxx
+# Get-WAPackVMRole
 ## XXXXXXXX
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-WAPackVMRole [-Name] <String> [-CloudServiceName] <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-WAPackVMRole [-Name] <String>
 ```
@@ -41,7 +41,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $XxxxxXxxxxxxXxxx
+### -CloudServiceName
 $$Xxxx$$
 
 ```yaml
@@ -56,7 +56,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 $$Xxxx$$
 
 ```yaml

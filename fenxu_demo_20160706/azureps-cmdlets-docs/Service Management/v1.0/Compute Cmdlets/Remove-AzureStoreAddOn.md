@@ -7,34 +7,34 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Remove-AzureStoreAddOn
-## SYNOPSIS
-Removes an existing add-on instance.
+## XXXXXXXX
+Xxxxxxx xx xxxxxxxx xxx$xx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Remove-AzureStoreAddOn [-Name] <String> [-PassThru]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-Removes an existing add-on instance from the current subscription.
+Xxxxxxx xx xxxxxxxx xxx$xx xxxxxxxx xxxx xxx xxxxxxx xxxxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1
+### Xxxxxxx 0
 ```
 PS C:\>Remove-AzureStoreAddOn MyAddOn
 ```
 
-This example removes an add-on named MyAddOn from the current subscription.
+Xxxx xxxxxxx xxxxxxx xx xxx$xx xxxxx XxXxxXx xxxx xxx xxxxxxx xxxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-Specifies the name of the add-on instance to remove.
+Xxxxxxxxx xxx xxxx xx xxx xxx$xx xxxxxxxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -49,7 +49,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -63,13 +63,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureStoreAddOn](ceb557b5-e9af-4797-8385-94078de84662)
 

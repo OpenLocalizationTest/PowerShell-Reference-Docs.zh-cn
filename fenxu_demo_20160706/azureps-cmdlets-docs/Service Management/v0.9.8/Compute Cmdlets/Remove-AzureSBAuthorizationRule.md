@@ -6,19 +6,19 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXXXxxxxxxxxxxxxXxxx
+# Remove-AzureSBAuthorizationRule
 ## XXXXXXXX
 Xxxxxxx xxxxxxxx Xxxxxxx Xxx xxxxxxxxxxxxx xxxx
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Remove-AzureSBAuthorizationRule [-Name] <String> [-Namespace] <String> [-EntityName] <String>
  [-EntityType] <ServiceBusEntityType> [-PassThru]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Remove-AzureSBAuthorizationRule [-Name] <String> [-Namespace] <String> [-PassThru]
 ```
@@ -44,7 +44,7 @@ Xxxxxxx xxxxxxxxxxxxx xxxx xxxxxx XxXxxx xxx x XxXxxxxx Xxxxx xx XxXxxxxxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxXxxx
+### -EntityName
 Xxx xxxxxx xxxx xx xxxxx xxxx xx.
 
 ```yaml
@@ -59,7 +59,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -EntityType
 Xxx xxxxxx xxxx $Xxxxx$ Xxxxx$ Xxxxx$ XxxxxxxxxxxxXxx$.
 
 ```yaml
@@ -74,7 +74,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxx xxxxxx xxxxxxxxxxxxx xxxx xxxx
 
 ```yaml
@@ -89,7 +89,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Namespace
 Xxx xxxxxxxxx xxxx xx xxxxx xxx xxxxxxxxxxxxx xxxx.
 Xx xx XxxxxxXxxx xxxxxxxx xxx xxxx xxxx xx xx xxx xxxxxxxxx xxxxx
 
@@ -105,7 +105,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxx xx xxxxx xx xxxxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -129,10 +129,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXXXxxxxxxxxxxxxXxxx](07ab8d50-c6de-45f1-8576-99b76f798bca)
+[Get-AzureSBAuthorizationRule](07ab8d50-c6de-45f1-8576-99b76f798bca)
 
-[Xxx$XxxxxXXXxxxxxxxxxxxxXxxx](3e60e1c8-7421-4762-befc-5c8974f684c4)
+[New-AzureSBAuthorizationRule](3e60e1c8-7421-4762-befc-5c8974f684c4)
 
-[Xxx$XxxxxXXXxxxxxxxxxxxxXxxx](c199f0d5-8f84-4106-ac4b-afc2192d1218)
+[Set-AzureSBAuthorizationRule](c199f0d5-8f84-4106-ac4b-afc2192d1218)
 
 

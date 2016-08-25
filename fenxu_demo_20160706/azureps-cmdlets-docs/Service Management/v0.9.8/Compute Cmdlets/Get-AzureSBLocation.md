@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxx
+# Get-AzureSBLocation
 ## XXXXXXXX
 Xxxx xxx xxxxxxxx xx xxx Xxxxxxx Xxx.
 
@@ -41,6 +41,6 @@ Xxxx xxxxxxx xxxx xxx xxxxxxxx xx xxx Xxxxxxx Xxx.
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXXXxxxxxxxx](1d1be2c9-46f9-4413-8766-77361f7f4116)
+[Get-AzureSBNamespace](1d1be2c9-46f9-4413-8766-77361f7f4116)
 
 

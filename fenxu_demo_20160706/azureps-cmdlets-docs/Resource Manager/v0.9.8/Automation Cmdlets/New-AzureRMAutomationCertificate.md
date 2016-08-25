@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxx
+# New-AzureRMAutomationCertificate
 ## XXXXXXXX
 Xxxxxxx xx Xxxxxxxxxx xxxxxxxxxxx.
 
@@ -38,7 +38,7 @@ Xxx xxxxxxx xxxxxxxxx xxx xxxxxxx xxxx xxx xxx xxxx xx xxx xxxx xxxx xx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxx xxx xxxxxxxxxxx.
 
 ```yaml
@@ -53,7 +53,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Description
 Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxxxxx.
 
 ```yaml
@@ -68,7 +68,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxx
+### -Exportable
 Xxxxxxxxx xxxxxxx xxx xxxxxxxxxxx xxx xx xxxxxxxx.
 
 ```yaml
@@ -83,7 +83,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xxx xxx xxxxxxxxxxx.
 
 ```yaml
@@ -98,7 +98,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Password
 Xxxxxxxxx xxx xxxxxxxx xxx xxx xxxxxxxxxxx xxxx.
 
 ```yaml
@@ -113,7 +113,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxxxx xxx xxxx xx x xxxxxx xxxx xxxx xxxx xxxxxx xxxxxxx.
 Xxx xxxx xxx xx x .xxx xx x .xxx xxxx.
 
@@ -129,7 +129,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxxx.
 
 ```yaml
@@ -148,16 +148,16 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.XxxxxxxxxxxXxxx
+### Microsoft.Azure.Commands.Automation.Model.CertificateInfo
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx](7e2d3105-ae14-40c6-a715-57d63c178cde)
+[Get-AzureRmAutomationCertificate](7e2d3105-ae14-40c6-a715-57d63c178cde)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx](1ed3a0d7-541d-4a07-b0d6-4538f98450f7)
+[Remove-AzureRmAutomationCertificate](1ed3a0d7-541d-4a07-b0d6-4538f98450f7)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx](77502783-0006-4288-917f-26f265ccfcbe)
+[Set-AzureRmAutomationCertificate](77502783-0006-4288-917f-26f265ccfcbe)
 
 

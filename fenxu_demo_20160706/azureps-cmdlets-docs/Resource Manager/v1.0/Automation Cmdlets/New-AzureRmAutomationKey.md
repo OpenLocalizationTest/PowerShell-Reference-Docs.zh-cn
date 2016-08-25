@@ -7,31 +7,31 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureRmAutomationKey
-## SYNOPSIS
-Regenerates registration keys for an Automation account.
+## XXXXXXXX
+Xxxxxxxxxxx xxxxxxxxxxxx xxxx xxx xx Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureRmAutomationKey [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-KeyType]
 ```
 
-## DESCRIPTION
-The **New-AzureRmAutomationKey** cmdlet regenerates registration keys for an azure_2 Automation account.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxx$$ xxxxxx xxxxxxxxxxx xxxxxxxxxxxx xxxx xxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Regenerate a key for an Automation account
+### Xxxxxxx 0$ Xxxxxxxxxx x xxx xxx xx Xxxxxxxxxx xxxxxxx
 ```
 PS C:\>New-AzureAutomationKey -KeyType Primary -ResourceGroup "ResourceGroup01" -AutomationAccountName "AutomationAccount01"
 ```
 
-This command regenerates the primary key for the azure_2 Automation account named AutomationAccount01 in the resource group named ResourceGroup01.
+Xxxx xxxxxxx xxxxxxxxxxx xxx xxxxxxx xxx xxx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxxx XxxxxxxxxxXxxxxxx00 xx xxx xxxxxxxx xxxxx xxxxx XxxxxxxxXxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of an Automation account for which this cmdlet regenerates keys.
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -46,11 +46,10 @@ Accept wildcard characters: False
 ```
 
 ### -KeyType
-Specifies the type of the agent registration key.
-Valid values are: 
+Xxxxxxxxx xxx xxxx xx xxx xxxxx xxxxxxxxxxxx xxx.
+Xxxxx xxxxxx xxx$ 
 
--- Primary 
--- Secondary
+$$ Xxxxxxx $$ Xxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -66,8 +65,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group.
-This cmdlet regenerates keys for an Automation account in the resource group that this parameter specifies.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx.
+Xxxx xxxxxx xxxxxxxxxxx xxxx xxx xx Xxxxxxxxxx xxxxxxx xx xxx xxxxxxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -81,12 +80,12 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 

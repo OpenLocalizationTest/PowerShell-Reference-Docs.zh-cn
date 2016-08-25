@@ -4,25 +4,25 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294005
 schema: 2.0.0
 ---
 
-# Xxxxxx$XxxxXxxx
+# Remove-TypeData
 ## XXXXXXXX
 Xxxxxxx xxxxxxxx xxxxx xxxx xxx xxxxxxx xxxxxxx
 
 ## XXXXXX
 
-### XxxxxxXxxxXxxxXxx $Xxxxxxx$
+### RemoveTypeDataSet (Default)
 ```
 Remove-TypeData -TypeData <TypeData> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-### XxxxxxXxxxXxx
+### RemoveTypeSet
 ```
 Remove-TypeData [-TypeName] <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-### XxxxxxXxxxXxx
+### RemoveFileSet
 ```
 Remove-TypeData -Path <String[]> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
@@ -99,7 +99,7 @@ Xxx xxxxxxx xxxx xxx Xxxxxx$Xxxxxxx xxxxxx xx xxxxxx xxxxxxxx xxxx xxxx xxx xxx 
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxxxx xxx xxxxx xxx xxxx xxxxx xx xxx xx xxxx Xxxxx.xx0xxx xxxxx.
 Xxxxxxxxx xxx xxx xxxxxxxxx.
 Xx xxx xxxx xxx xxxx$ xxx xxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
@@ -117,7 +117,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxxxx xxx xxxxx xxx xxxx xxxxx xx xxx xx xxxx Xxxxx.xx0xxx xxxxx.
 Xxxxxxxxx xxx xxx xxxxxxxxx.
 Xx xxx xxxx xxx xxxx$ xxx xxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
@@ -134,7 +134,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxx xxxx xxx xxxxxxx xxxxxxxx xxxx xxxx xxxx xx xxxxxxx xx xxx xxxxxxxxx xxxxx.
 Xxxx xxxxxxxxx xx xxxxxxxx.
 
@@ -154,7 +154,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -TypeData
 Xxxxxx xxx xxxxxxxxx xxxx xxxx xxxx xxx xxxxxxx.
 Xxxx xxxxxxxxx xx xxxxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx XxxxXxxx xxxxxxx $Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxx.XxxxXxxx$ xx x xxxxxxx xxxx xxxx XxxxXxxx xxxxxxx$ xxxx xx x Xxx$XxxxXxxx xxxxxxx.
@@ -172,7 +172,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -TypeName
 Xxxxxxx xxx xxxxxxxx xxxx xxxx xxx xxx xxxxxxxxx xxxxx.
 Xxx xxxxx xx xxx Xxxxxx xxxxxxxxx$ xxxxx xxx xxxxx xxxx.
 Xxxxxxxxx$ xxx xxxx xxxx xxxx xx xxxxxxxx.
@@ -193,7 +193,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -208,7 +208,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -227,16 +227,16 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxx.XxxxXxxx
+### System.Management.Automation.Runspaces.TypeData
 Xxx xxx xxxx XxxxXxxx xxxxxx$ xxxx xx xxx xxxx xxxx xxx Xxx$XxxxXxxx xxxxxx xxxxxxx$ xx Xxxxxx$XxxxXxxx.
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx xxx xxxx xxxxx xx Xxxxxx$XxxxXxxx.
 Xxxx xxx xxxx xx xxxxxx xx Xxxxxx$XxxxXxxx$ Xxxxxx$XxxxXxxx xxxx xxx xxxx xxxx xx xxx xxxxxx xxx xxxxxxx xxx xxxx xxxx xxx xxx xxxxxx xxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ## XXXXX
@@ -245,9 +245,9 @@ Xx xxxxxx xxxxxx xxxxxxxx xxxx xxxx xxxx xx xx xxx xxxxxxxx$ xxx xxx xxx xxxx xx
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxXxxx]()
+[Get-TypeData]()
 
-[Xxxxxx$XxxxXxxx]()
+[Update-TypeData]()
 
-[xxxxx$Xxxxx.xx0xxx]()
+[about_Types.ps1xml]()
 

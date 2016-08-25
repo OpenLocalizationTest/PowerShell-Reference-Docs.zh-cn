@@ -6,22 +6,22 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XXXxxxXXXxxxxx
+# Get-WAPackVMSubnet
 ## XXXXXXXX
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-WAPackVMSubnet [-VNet] <VMNetwork>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-WAPackVMSubnet [-VNet] <VMNetwork> [-ID] <Guid>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 Get-WAPackVMSubnet [-VNet] <VMNetwork> [-Name] <String>
 ```
@@ -46,7 +46,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $XX
+### -ID
 $$Xxxx$$
 
 ```yaml
@@ -61,7 +61,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 $$Xxxx$$
 
 ```yaml
@@ -76,7 +76,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXxx
+### -VNet
 $$Xxxx$$
 
 ```yaml

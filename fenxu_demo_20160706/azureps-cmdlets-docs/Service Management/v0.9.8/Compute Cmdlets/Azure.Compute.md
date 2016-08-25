@@ -8,7 +8,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxx.Xxxxxxx Xxxxxx
+# Azure.Compute Module
 ## Xxxxxxxxxxx
 $$Xxxxxxxx Xxxxx Xxxxxxxxxxx Xxxx$$
 

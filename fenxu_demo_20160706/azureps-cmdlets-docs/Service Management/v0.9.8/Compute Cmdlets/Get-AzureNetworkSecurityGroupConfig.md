@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxxxxXxxxxXxxxxx
+# Get-AzureNetworkSecurityGroupConfig
 ## XXXXXXXX
 
 ## XXXXXX
@@ -31,7 +31,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxx
+### -Detailed
 $$Xxxx$$
 
 ```yaml
@@ -46,7 +46,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XX
+### -VM
 $$Xxxx$$
 
 ```yaml

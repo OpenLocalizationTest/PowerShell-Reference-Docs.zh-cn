@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxx
+# Remove-AzureRmApiManagementRegion
 ## XXXXXXXX
 Xxxxxxx xx xxxxxxxx xxxxxxxxxx xxxxxx xxxx XxXxxXxxxxxxxxx xxxxxxxx.
 
@@ -40,7 +40,7 @@ Xxx xxxxx xxxxxxx xxxx xxxxxxx xxx xxxxxx xxxxx Xxxx XX xxxx xxxx xxxxxxxx xxxx 
 
 ## XXXXXXXXXX
 
-### $XxxXxxxxxxxxx
+### -ApiManagement
 Xxxxxxxxx xxx $$XxXxxXxxxxxxxxx$$ xxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxxxxxxxxx xxxxxxxxxx xxxxxx xxxx.
 
 ```yaml
@@ -55,7 +55,7 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Location
 Xxxxxxxxx xxx xxxxxxxx xx xxx xxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 Xxxxx xxxxxx xxx$ 
@@ -82,8 +82,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxx](a6e4fc8a-f5c6-4f8e-8ed9-5ee80150b119)
+[Add-AzureRmApiManagementRegion](a6e4fc8a-f5c6-4f8e-8ed9-5ee80150b119)
 
-[Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxx](bf37a79f-38a4-433e-b847-beb564ad781c)
+[Update-AzureRmApiManagementRegion](bf37a79f-38a4-433e-b847-beb564ad781c)
 
 

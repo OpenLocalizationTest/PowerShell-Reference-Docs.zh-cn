@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxx
+# New-AzureWebsite
 ## XXXXXXXX
 Xxxxxx x xxx xxxxxxx xx xxx xx Xxxxx.
 
@@ -43,7 +43,7 @@ Xxxxxxx xx xxx Xxxxxx xxxxxxxxxx xxx xxxxxx xx xxx xxxxxxx xx Xxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxx
+### -Git
 Xxxx xx x xxxxx Xxx xxxxxxxxxx xxx xxxxx xx xx xxx xxxxxxx.
 Xx xxxxxxxxx$ xxxx xxxxxxxxx xxxx xx x Xxx xxxxxxxxxx xx xxx xxxxx xxxxxxxxx xxx xxx x xxxxxx xxxxxxxxxx xxxxx $xxxxx$ xxxx xxxxx xx xxx xxxxxxx xx Xxxxx.
 
@@ -59,7 +59,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxx
+### -GitHub
 Xx xxxxxxx$ xxxx xxxxxxxxx xxxxx xxx xxx xxxxxxx xx xx xxxxxxxx Xxxxxx xxxxxxxxxx.
 Xxxxxxx xx xxx Xxxxxxx xxxxxxxxxx xxx xxxxxx xx xxx xxxxxxx xx Xxxxx.
 
@@ -75,7 +75,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxxxxx
+### -GithubCredentials
 Xxxxxxxxx xxx xxxx xxxx xxx xxxxxxxx xxxxxxxxxxx xx xxxxxxx xx Xxxxxx.
 
 ```yaml
@@ -90,7 +90,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxxxx
+### -GithubRepository
 Xxxxxxxxx xxx xxxx xxxx xx xxx Xxxxxx xxxxxxxxxx xx xxxx xx xxxx xxxxxxx.
 Xxx xxxxxxx$ xxxxxxxxx$xxxxxx.
 
@@ -106,7 +106,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Hostname
 Xxxxxxxxx xx xxxxxxxxxxx xxxx xxxx xxx xxx xxx xxxxxxx.
 
 ```yaml
@@ -121,7 +121,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Location
 Xxxxxxxxx xxx xxxxxxxx xx xxx xxxx xxxxxx xxxxx xxx xxxx xx xxxxxx xxx xxxxxxx.
 
 ```yaml
@@ -136,7 +136,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx xxxxxxx.
 
 ```yaml
@@ -151,7 +151,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxxxxx
+### -PublishingUsername
 Xxx xxxx xxxx xxx xxxx xxxxxxxxx xx xxx Xxxxx Xxxxxx xxx Xxx xxxxxxxxxx.
 
 ```yaml
@@ -166,7 +166,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxxxxxxxx x xxxx xxxx xxx xxx xxxxxxx.
 
 ```yaml
@@ -189,6 +189,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxx](7b386051-005d-499d-a106-1eb34d5c9f47)
+[Set-AzureWebsite](7b386051-005d-499d-a106-1eb34d5c9f47)
 
 

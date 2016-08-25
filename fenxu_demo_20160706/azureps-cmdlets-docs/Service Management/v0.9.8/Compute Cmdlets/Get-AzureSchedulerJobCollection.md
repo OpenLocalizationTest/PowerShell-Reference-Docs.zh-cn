@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx
+# Get-AzureSchedulerJobCollection
 ## XXXXXXXX
 Xxxx xxxxxxxxx xxx xxxxxxxxxxx.
 
@@ -47,7 +47,7 @@ Xxxx xxxxxxx xxxx xxx xxxxxxxxx xxx xxxxxxxxxx xxxxx XxxXxxxxxxxxx00.
 
 ## XXXXXXXXXX
 
-### $XxxXxxxxxxxxxXxxx
+### -JobCollectionName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxx xxx xxxxxxxxxx xx xxx.
 
 ```yaml
@@ -62,7 +62,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Location
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxxx xxx xxxxx xxxxxxx.
 Xxxxx xxxxxx xxx$ 
 
@@ -88,10 +88,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx](ac55e6be-eb22-4b33-afac-beb371fbbd32)
+[New-AzureSchedulerJobCollection](ac55e6be-eb22-4b33-afac-beb371fbbd32)
 
-[Xxxxxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx](fc46c4d9-4116-4760-9884-3e5ee1bc66f5)
+[Remove-AzureSchedulerJobCollection](fc46c4d9-4116-4760-9884-3e5ee1bc66f5)
 
-[Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx](154ab9dd-0d0a-4709-9e5a-716088bf59e0)
+[Set-AzureSchedulerJobCollection](154ab9dd-0d0a-4709-9e5a-716088bf59e0)
 
 

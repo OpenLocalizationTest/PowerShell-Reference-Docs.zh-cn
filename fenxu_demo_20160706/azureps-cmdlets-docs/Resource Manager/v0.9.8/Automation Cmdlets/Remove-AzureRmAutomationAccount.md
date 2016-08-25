@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx
+# Remove-AzureRmAutomationAccount
 ## XXXXXXXX
 Xxxxxxx xx Xxxxxxxxxx xxxxxxx.
 
@@ -32,7 +32,7 @@ Xxxx xxxxxxx xxxxxxx xx xxxxxxxxxx xxxxxxx xxxxx XxxxxxxXxxxxxxxxxXxxxxxx xxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 xx$xxxxx
 
 ```yaml
@@ -47,7 +47,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -62,7 +62,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxxx xxxxx xxxx xxxxxx xxxxxxx xx Xxxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -77,7 +77,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -92,7 +92,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -115,10 +115,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](c9ec226d-3a4f-49d1-9b9f-df9d57bdfa43)
+[Get-AzureRmAutomationAccount](c9ec226d-3a4f-49d1-9b9f-df9d57bdfa43)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](1a996e7a-1de8-4533-a39a-c17cf1ab18fd)
+[New-AzureRmAutomationAccount](1a996e7a-1de8-4533-a39a-c17cf1ab18fd)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](7e2254d6-c3c3-4ec5-8f7d-a3a2a6f24969)
+[Set-AzureRmAutomationAccount](7e2254d6-c3c3-4ec5-8f7d-a3a2a6f24969)
 
 

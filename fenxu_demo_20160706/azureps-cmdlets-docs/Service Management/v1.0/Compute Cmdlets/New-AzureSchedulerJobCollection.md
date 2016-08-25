@@ -7,45 +7,45 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureSchedulerJobCollection
-## SYNOPSIS
-Creates a scheduler job collection.
+## XXXXXXXX
+Xxxxxxx x xxxxxxxxx xxx xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureSchedulerJobCollection [-Frequency <String>] [-Interval <Int32>] [-MaxJobCount <Int32>]
  [-Plan <String>] -JobCollectionName <String> -Location <String>
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The New-AzureSchedulerJobCollection cmdlet creates a scheduler job collection.
-If you do not specify a value for the Plan parameter, the cmdlet creates a standard job collection.
+Xxx Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx xxxxxx xxxxxxx x xxxxxxxxx xxx xxxxxxxxxx.
+Xx xxx xx xxx xxxxxxx x xxxxx xxx xxx Xxxx xxxxxxxxx$ xxx xxxxxx xxxxxxx x xxxxxxxx xxx xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a scheduler job collection that includes default values
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxxx xxx xxxxxxxxxx xxxx xxxxxxxx xxxxxxx xxxxxx
 ```
 PS C:\>New-AzureSchedulerJobCollection -JobCollectionName "JobCollection01" -Location "North Central US" -Plan "Standard"
 ```
 
-This command creates a standard scheduler job collection named JobCollection01.
-The new collection has a default job count and maximum recurrence values for a standard scheduler job collection.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxx xxxxxxxxx xxx xxxxxxxxxx xxxxx XxxXxxxxxxxxx00.
+Xxx xxx xxxxxxxxxx xxx x xxxxxxx xxx xxxxx xxx xxxxxxx xxxxxxxxxx xxxxxx xxx x xxxxxxxx xxxxxxxxx xxx xxxxxxxxxx.
 
-### Example 2: Create a scheduler job collection with specified values
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxxx xxx xxxxxxxxxx xxxx xxxxxxxxx xxxxxx
 ```
 PS C:\>New-AzureSchedulerJobCollection -JobCollectionName "JobCollection02" -Location "North Central US" -Frequency "Hour" -Interval 12 -MaxJobCount 30 -Plan "Standard"
 ```
 
-This command creates a standard scheduler job collection named JobCollection02.
-The new collection has a maximum job count of 30 and a maximum recurrence of 12 per hour.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxx xxxxxxxxx xxx xxxxxxxxxx xxxxx XxxXxxxxxxxxx00.
+Xxx xxx xxxxxxxxxx xxx x xxxxxxx xxx xxxxx xx 00 xxx x xxxxxxx xxxxxxxxxx xx 00 xxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Frequency
-Specifies the maximum frequency that can be specified on any job in this scheduler job collection.
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxx xxxx xxx xx xxxxxxxxx xx xxx xxx xx xxxx xxxxxxxxx xxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -Interval
-Specifies the interval of recurrence at the frequency specified by using the Frequency parameter.
+Xxxxxxxxx xxx xxxxxxxx xx xxxxxxxxxx xx xxx xxxxxxxxx xxxxxxxxx xx xxxxx xxx Xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobCollectionName
-Specifies the name for the new scheduler job collection.
+Xxxxxxxxx xxx xxxx xxx xxx xxx xxxxxxxxx xxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -90,20 +90,10 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the name of the location that hosts the cloud service.
-Valid values are: 
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxxx xxx xxxxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Anywhere Asia
--- Anywhere Europe
--- Anywhere US
--- East Asia
--- East US
--- North Central US
--- North Europe
--- South Central US
--- Southeast Asia
--- West Europe
--- West US
+$$ Xxxxxxxx Xxxx $$ Xxxxxxxx Xxxxxx $$ Xxxxxxxx XX $$ Xxxx Xxxx $$ Xxxx XX $$ Xxxxx Xxxxxxx XX $$ Xxxxx Xxxxxx $$ Xxxxx Xxxxxxx XX $$ Xxxxxxxxx Xxxx $$ Xxxx Xxxxxx $$ Xxxx XX
 
 ```yaml
 Type: String
@@ -118,7 +108,7 @@ Accept wildcard characters: False
 ```
 
 ### -MaxJobCount
-Specifies the maximum number of jobs that can be created in the scheduler job collection.
+Xxxxxxxxx xxx xxxxxxx xxxxxx xx xxxx xxxx xxx xx xxxxxxx xx xxx xxxxxxxxx xxx xxxxxxxxxx.
 
 ```yaml
 Type: Int32
@@ -133,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -Plan
-Specifies the scheduler job collection plan.
+Xxxxxxxxx xxx xxxxxxxxx xxx xxxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -147,13 +137,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureSchedulerJobCollection](1f6e64a2-021e-4ad7-93a4-9e1138607f01)
 

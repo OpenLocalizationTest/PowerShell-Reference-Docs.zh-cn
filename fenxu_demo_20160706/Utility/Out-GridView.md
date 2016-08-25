@@ -4,25 +4,25 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293997
 schema: 2.0.0
 ---
 
-# Xxx$XxxxXxxx
+# Out-GridView
 ## XXXXXXXX
 Xxxxx xxxxxx xx xx xxxxxxxxxxx xxxxx xx x xxxxxxxx xxxxxx.
 
 ## XXXXXX
 
-### XxxxXxxx $Xxxxxxx$
+### PassThru (Default)
 ```
 Out-GridView [-InputObject <PSObject>] [-Title <String>] [-PassThru] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### Xxxx
+### Wait
 ```
 Out-GridView [-InputObject <PSObject>] [-Title <String>] [-Wait] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### XxxxxxXxxx
+### OutputMode
 ```
 Out-GridView [-InputObject <PSObject>] [-Title <String>] [-OutputMode <OutputModeOption>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
@@ -140,7 +140,7 @@ Xxxxxxx xxx Xxxx xxxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxx xxxx xx xxxx xx xxx Xxx$Xxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxx x xxxxxxxxxx $xxxx xxxx xxx$ xx xxxxxxx xx Xxx$XxxxXxxx$ Xxx$XxxxXxxx xxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xxxxxx$ xxx xx xxxxxxxx xxx xxx xxxx xxxxxxxxxx xxx xxxxxxxxxx. Xx xxxxxxx xxx xxxx xxxxxx xx xxx xxxxxxxxxx$ xxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxxxxxx xx Xxx$XxxxXxxx.
 
 ```yaml
@@ -156,7 +156,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxx x xxxxxxxxxx $xxxx xxxx xxx$ xx xxxxxxx xx Xxx$XxxxXxxx$ Xxx$XxxxXxxx xxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xxxxxx$ xxx xx xxxxxxxx xxx xxx xxxx xxxxxxxxxx xxx xxxxxxxxxx. Xx xxxxxxx xxx xxxx xxxxxx xx xxx xxxxxxxxxx$ xxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxxxxxx xx Xxx$XxxxXxxx.
 
 ```yaml
@@ -171,7 +171,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxx xxxxx xxx Xxx$XxxxXxxx.
 
 Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxx x xxxxxxxxxx $xxxx xxxx xxx$ xx xxxxxxx xx Xxx$XxxxXxxx$ Xxx$XxxxXxxx xxxxxx xxx xxxxxxxxxx xx xxx xxxxxxxxxx xxxxxx$ xxx xx xxxxxxxx xxx xxx xxxx xxxxxxxxxx xxx xxxxxxxxxx. Xx xxxxxxx xxx xxxx xxxxxx xx xxx xxxxxxxxxx$ xxx x xxxxxxxx xxxxxxxx $$$ xx xxxx xxxxxxx xx Xxx$XxxxXxxx.
@@ -188,7 +188,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Title
 Xxxxxxxxx xxx xxxx xxxx xxxxxxx xx xxx xxxxx xxx xx xxx Xxx$XxxxXxxx xxxxxx.
 
 Xx xxxxxxx$ xxx xxxxx xxx xxxxxxxx xxx xxxxxxx xxxx xxxxxxx Xxx$XxxxXxxx.
@@ -205,7 +205,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -OutputMode
 Xxxx xxxxx xxxx xxx xxxxxxxxxxx xxxxxx xxxx xxx xxxxxxxx xx xxxxx xx xxxxx xxxxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 Xx xxxx xxxxx xxxx xxx xxxxxxxxxxx xxxxxx xxxx xxx xxxxxxxx$ xxxxx xx xxxxxx xxx xxxxx xxx xxxx xxxxx XX.
@@ -231,7 +231,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxx xxxxx xxxx xxx xxxxxxxxxxx xxxxxx xxxx xxx xxxxxxxx xx xxxxx xx xxxxx xxxxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 Xxxx xxxxxxxxx xx xxxxxxxxxx xx xxxxx xxx Xxxxxxxx xxxxx xx xxx XxxxxxXxxx xxxxxxxxx.
@@ -253,7 +253,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Wait
 Xxxxxxxxxx xxx xxxxxxx xxxxxx xxx xxxxxxxx Xxxxxxx XxxxxXxxxx xxxx xxxxxxx xxxxx xxx  Xxx$XxxxXxxx xxxxxx xx xxxxxx.
 Xx xxxxxxx$ xxx xxxxxxx xxxxxx xxxxxxx xxxx xxx Xxx$XxxxXxxx xxxxxx xxxxx.
 
@@ -276,12 +276,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxx xxxxxx xx Xxx$XxxxXxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxx$XxxxXxxx xxxx xxx xxxxxx xxx xxxxxxx.
 
 ## XXXXX

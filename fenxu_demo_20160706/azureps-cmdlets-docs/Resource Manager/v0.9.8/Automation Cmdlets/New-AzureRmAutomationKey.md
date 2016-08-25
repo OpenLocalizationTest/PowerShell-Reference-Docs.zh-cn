@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxXxxxxxxxxxXxx
+# New-AzureRmAutomationKey
 ## XXXXXXXX
 Xxxxxxxxxxx xxxxxxxxxxxx xxxx xxx xx Xxxxxxxxxx xxxxxxx.
 
@@ -30,7 +30,7 @@ Xxxx xxxxxxx xxxxxxxxxxx xxx xxxxxxx xxx xxx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxxxxx xxxx.
 
 ```yaml
@@ -45,7 +45,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -KeyType
 Xxxxxxxxx xxx xxxx xx xxx xxxxx xxxxxxxxxxxx xxx.
 Xxxxx xxxxxx xxx$ 
 
@@ -64,7 +64,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx.
 Xxxx xxxxxx xxxxxxxxxxx xxxx xxx xx Xxxxxxxxxx xxxxxxx xx xxx xxxxxxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 

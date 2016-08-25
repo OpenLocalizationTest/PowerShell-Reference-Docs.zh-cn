@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxxx$XxxxxXXXxxxxxxxxxXxxxxxx
+# Publish-AzureRMAutomationRunbook
 ## XXXXXXXX
 Xxxxxxxxx x xxxxxxx.
 
@@ -31,7 +31,7 @@ Xxxx xxxxxxx xxxxxxxxx xxx xxxxxxx xxxxx Xxxxx00 xx xxx xxxxx$0 Xxxxxxxxxx xxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxxxx x xxxxxxx.
 
 ```yaml
@@ -46,7 +46,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxx xxxx xxxxxx xxxxxxxxx.
 
 ```yaml
@@ -61,7 +61,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxxx x xxxxxxx.
 
 ```yaml
@@ -84,20 +84,20 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](614eee0d-f18e-4843-bed6-6cf43db59f75)
+[Export-AzureRmAutomationRunbook](614eee0d-f18e-4843-bed6-6cf43db59f75)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](71da0434-5c0f-498f-91f2-f09117dfa7ca)
+[Get-AzureRmAutomationRunbook](71da0434-5c0f-498f-91f2-f09117dfa7ca)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](6e05b8c0-5782-4580-b4e3-778e951be608)
+[Import-AzureRmAutomationRunbook](6e05b8c0-5782-4580-b4e3-778e951be608)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](c0de19b6-68a5-46b0-8575-88f229fd2494)
+[New-AzureRmAutomationRunbook](c0de19b6-68a5-46b0-8575-88f229fd2494)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](c0de19b6-68a5-46b0-8575-88f229fd2494)
+[New-AzureRmAutomationRunbook](c0de19b6-68a5-46b0-8575-88f229fd2494)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](073fedf2-2bbd-4173-946a-b79f88dc3c92)
+[Remove-AzureRmAutomationRunbook](073fedf2-2bbd-4173-946a-b79f88dc3c92)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](80b64633-ceab-4609-bb58-e11ab99e9c35)
+[Set-AzureRmAutomationRunbook](80b64633-ceab-4609-bb58-e11ab99e9c35)
 
-[Xxxxx$XxxxxXxXxxxxxxxxxXxxxxxx](5c86545a-93dd-4b3c-96b2-fa6ed740448d)
+[Start-AzureRmAutomationRunbook](5c86545a-93dd-4b3c-96b2-fa6ed740448d)
 
 

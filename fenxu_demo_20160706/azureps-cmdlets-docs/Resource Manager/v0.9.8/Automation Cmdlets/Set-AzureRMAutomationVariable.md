@@ -6,19 +6,19 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx
+# Set-AzureRMAutomationVariable
 ## XXXXXXXX
 Xxxxxxxx xx Xxxxxxxxxx xxxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Set-AzureRMAutomationVariable [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  -Encrypted <Boolean> -Value <Object>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Set-AzureRMAutomationVariable [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  -Description <String>
@@ -41,7 +41,7 @@ Xxxx xxxxxxx xxxx x xxx xxxxx xxx xxx xxxxxxxx xxxxx XxxxxxXxxxxxxx00 xx xxx xxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xx xxxxx xxx xxxxxxxx xx xxxxxx.
 
 ```yaml
@@ -56,7 +56,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Description
 Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxx.
 
 ```yaml
@@ -71,7 +71,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Encrypted
 Xxxxxxxxx xxxxxxx xxxxxx xxxxxxxx xxx xxxxx xx xxx xxxxxxxx xxx xxxxxxx.
 
 ```yaml
@@ -86,7 +86,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
@@ -101,7 +101,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxxx.
 
 ```yaml
@@ -116,7 +116,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Value
 Xxxxxxxxx x xxxxx xxx xxx xxxxxxxx.
 
 ```yaml
@@ -135,16 +135,16 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.Xxxxxxxx
+### Microsoft.Azure.Commands.Automation.Model.Variable
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](a6dc9902-ad99-47f9-8212-d3d96146b180)
+[Get-AzureRmAutomationVariable](a6dc9902-ad99-47f9-8212-d3d96146b180)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](4103a716-9567-4836-b522-d2484452a60e)
+[New-AzureRmAutomationVariable](4103a716-9567-4836-b522-d2484452a60e)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxx](c154838a-0b3d-4347-96a5-31ac572b329c)
+[Remove-AzureRmAutomationVariable](c154838a-0b3d-4347-96a5-31ac572b329c)
 
 

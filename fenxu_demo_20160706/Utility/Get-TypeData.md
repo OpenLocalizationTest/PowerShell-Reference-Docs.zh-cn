@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293976
 schema: 2.0.0
 ---
 
-# Xxx$XxxxXxxx
+# Get-TypeData
 ## XXXXXXXX
 Xxxx xxx xxxxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
@@ -107,7 +107,7 @@ Xxx xxxxxxx xxxxx xxx Xxxxx.xx0xxx xxxxx xx xxx Xxxxxx$Xxxxxx xxxxxx$ xxxxx xxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxxxx xxxx xxxxx xx x xxxx xxxxxxxx.
 Xxxx xxxxx $xx xxxx xxxxxxxx xxxx xxxxxxxx xxxxxxxxxx$ xxx xxxxxxxx$ xxxx xxx xxxxx xx xxx Xxxxxx xxxxxxxxx.
 Xxxxxxxxx xxx xxxxxxxxx xxx xxx xxxxxxxxx xxxx $$XxxxXxxx$ xx xxxxxxxx.
@@ -126,7 +126,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxxxx xxxx xxxxx xx x xxxx xxxxxxxx.
 Xxxx xxxxx $xx xxxx xxxxxxxx xxxx xxxxxxxx xxxxxxxxxx$ xxx xxxxxxxx$ xxxx xxx xxxxx xx xxx Xxxxxx xxxxxxxxx.
 Xxxxxxxxx xxx xxxxxxxxx xxx xxx xxxxxxxxx xxxx $$XxxxXxxx$ xx xxxxxxxx.
@@ -144,7 +144,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -TypeName
 Xxxx xxxx xxxx xxxx xxx xxx xxxxx xxxx xxx xxxxxxxxx xxxxx.
 Xx xxxxxxx$ Xxx$XxxxXxxx xxxx xxx xxxxx xx xxx xxxxxxx.
 
@@ -167,12 +167,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx xxxx xxxxx xx Xxx$XxxxXxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxx.XxxxXxxx
+### System.Management.Automation.Runspaces.TypeData
 
 ## XXXXX
 Xxx$XxxxXxxx xxxx xxxx xxx xxxxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxxx.
@@ -180,9 +180,9 @@ Xx xxxx xxx xxx xxxxxxxx xxxx xxxx xxxx xx xx xxx xxxxxxxx$ xxx xxx xxx xxxx xxx
 
 ## XXXXXXX XXXXX
 
-[xxxxx$Xxxxx.xx0xxx]()
+[about_Types.ps1xml]()
 
-[Xxxxxx$XxxxXxxx]()
+[Remove-TypeData]()
 
-[Xxxxxx$XxxxXxxx]()
+[Update-TypeData]()
 

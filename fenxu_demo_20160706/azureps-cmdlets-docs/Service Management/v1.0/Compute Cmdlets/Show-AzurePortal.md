@@ -7,34 +7,34 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Show-AzurePortal
-## SYNOPSIS
-Show the Azure Management Portal.
+## XXXXXXXX
+Xxxx xxx Xxxxx Xxxxxxxxxx Xxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Show-AzurePortal [[-Name] <String>] [-Realm <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Show-AzurePortal cmdlet shows the Azure Management Portal.
+Xxx Xxxx$XxxxxXxxxxx xxxxxx xxxxx xxx Xxxxx Xxxxxxxxxx Xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 PS C:\>Show-AzurePortal -Name mySite
 ```
 
-This example opens a browser on the Azure portal, showing information about a website named 'mySite'.
+Xxxx xxxxxxx xxxxx x xxxxxxx xx xxx Xxxxx xxxxxx$ xxxxxxx xxxxxxxxxxx xxxxx x xxxxxxx xxxxx $xxXxxx$.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-Specifies the name of the website to show in the portal.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xx xxxx xx xxx xxxxxx.
 
 ```yaml
 Type: String
@@ -49,7 +49,7 @@ Accept wildcard characters: False
 ```
 
 ### -Realm
-Specifies the organization ID to use for federated authentication when displaying the Azure Portal.
+Xxxxxxxxx xxx xxxxxxxxxxxx XX xx xxx xxx xxxxxxxxx xxxxxxxxxxxxxx xxxx xxxxxxxxxx xxx Xxxxx Xxxxxx.
 
 ```yaml
 Type: String
@@ -63,13 +63,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Show-AzureWebsite](3b828275-d62a-4c04-9767-15d6f743557c)
 

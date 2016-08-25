@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293965
 schema: 2.0.0
 ---
 
-# Xxx$Xxxxxxx
+# Get-Culture
 ## XXXXXXXX
 Xxxx xxx xxxxxxx xxxxxxx xxx xx xxx xxxxxxxxx xxxxxx.
 
@@ -122,7 +122,7 @@ Xxx xxxxx xxxxxxx xxxx xxx xxxxxxxx xx xxxxxxx xxx xxxxx xx xxx XxxxxXxxXxXxxx x
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -138,7 +138,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -155,12 +155,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxxxxx.XxxxxxxXxxx
+### System.Globalization.CultureInfo
 Xxx$Xxxxxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xxxxxxx.
 
 ## XXXXX
@@ -169,7 +169,7 @@ Xxx $XxXxxxxxx xxxxxxxx xxxxxx xxx xxxx xx xxx xxxxxxx xxxxxxx xxx xxx $XxXXXxxx
 
 ## XXXXXXX XXXXX
 
-[Xxx$Xxxxxxx]()
+[Set-Culture]()
 
-[Xxx$XXXxxxxxx]()
+[Get-UICulture]()
 

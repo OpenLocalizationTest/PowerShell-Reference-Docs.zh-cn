@@ -6,50 +6,50 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxxx
+# New-AzureStorageContext
 ## XXXXXXXX
 Xxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 New-AzureStorageContext [-StorageAccountName] <String> [-Protocol] [-Anonymous] -Environment <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 New-AzureStorageContext [-StorageAccountName] <String> [-Endpoint <String>] [-Protocol] [-Anonymous]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 New-AzureStorageContext -ConnectionString <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_4
 ```
 New-AzureStorageContext [-StorageAccountName] <String> [-StorageAccountKey] <String> [-Endpoint <String>]
  [-Protocol]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_5
 ```
 New-AzureStorageContext [-StorageAccountName] <String> [-Endpoint <String>] [-Protocol] -SasToken <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_6
 ```
 New-AzureStorageContext [-StorageAccountName] <String> [-StorageAccountKey] <String> [-Protocol]
  -Environment <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_7
 ```
 New-AzureStorageContext [-StorageAccountName] <String> -Environment <String> -SasToken <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_8
 ```
 New-AzureStorageContext [-Local]
 ```
@@ -142,7 +142,7 @@ Xxx xxxxx xxxxxxx xxxxx xxx xxx xxxxx xxxxxxxxxx xxxx xxx xxxxxxxxx xxxxx Xxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxx
+### -Anonymous
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx xxx xxxxxxxxx xxxxx.
 
 ```yaml
@@ -157,7 +157,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxxx
+### -ConnectionString
 Xxxxxxxxx x xxxxxxxxxx xxxxxx xxx xxx xxxxx$0 Xxxxxxx xxxxxxx.
 
 ```yaml
@@ -172,7 +172,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Endpoint
 Xxxxxxxxx xxx xxxxxxxx xxx xxx xxxxx$0 Xxxxxxx xxxxxxx.
 
 ```yaml
@@ -187,7 +187,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Environment
 Xxxxxxxxx xxx xxxxx$0 xxxxxxxxxxx.
 xxxx$xxxxxxxxxxx XxxxxXxxxx xxx XxxxxXxxxxXxxxx.
 Xxx xxxx xxxxxxxxxxx$ xxxx $$XXXX$Xxxxxxx$$Xxx$Xxxx Xxx$XxxxxXxxxxxxxxxx$$XXXX$Xxxxxxx$$.
@@ -216,7 +216,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Local
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx x xxxxxxx xx xxxxx xxx xxxxx xxxxxxxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
@@ -231,7 +231,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Protocol
 Xxxxxxxxx xxx xxxxxxxx xxxxxxxxx xxx x xxxxxxx xxxx xxxx xxx xxxxxxx XXX.
 xxxx$xxxxxxxxxxx
 
@@ -252,7 +252,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxx
+### -SasToken
 Xxxxxxxxx x Xxxxxx Xxxxxx Xxxxxxxxx $XXX$ xxxxx xxx xxx xxxxxxx.
 
 ```yaml
@@ -267,7 +267,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxXxx
+### -StorageAccountKey
 Xxxxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx xxx.
 Xxxx xxxxxx xxxxxxx x xxxxxxx xxx xxx xxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -283,7 +283,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxXxxx
+### -StorageAccountName
 Xxxxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx xxxx.
 Xxxx xxxxxx xxxxxxx x xxxxxxx xxx xxx xxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -303,14 +303,14 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### XxxxxXxxxxxxXxxxxxx
+### AzureStorageContext
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxx](74bc4494-be41-4493-9939-e51e61dd09e6)
+[Get-AzureStorageBlob](74bc4494-be41-4493-9939-e51e61dd09e6)
 
-[Xxx$XxxxxXxxxxxxXxxxxxxxxXXXXxxxx](dc3564e2-9ede-4901-8d62-f49017a03281)
+[New-AzureStorageContainerSASToken](dc3564e2-9ede-4901-8d62-f49017a03281)
 
 

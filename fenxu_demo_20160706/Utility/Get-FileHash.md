@@ -4,23 +4,23 @@ online version: http://go.microsoft.com/fwlink/?LinkId=517145
 schema: 2.0.0
 ---
 
-# Xxx$XxxxXxxx
+# Get-FileHash
 ## XXXXXXXX
 $$Xxxx xx xxx Xxxxxxxx$$
 
 ## XXXXXX
 
-### Xxxx $Xxxxxxx$
+### Path (Default)
 ```
 Get-FileHash [-Path] <String[]> [-Algorithm <String>]
 ```
 
-### XxxxxxxXxxx
+### LiteralPath
 ```
 Get-FileHash -LiteralPath <String[]> [-Algorithm <String>]
 ```
 
-### Xxxxxx
+### Stream
 ```
 Get-FileHash -InputStream <Stream> [-Algorithm <String>]
 ```
@@ -39,7 +39,7 @@ $$ Xxx xxxxxxx xxxxxxxxxxx xxxx $$
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxx
+### -Algorithm
 $$Xxxx Xxxxxxxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -55,7 +55,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputStream
 $$Xxxx XxxxxXxxxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -70,7 +70,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -LiteralPath
 $$Xxxx XxxxxxxXxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -85,7 +85,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 $$Xxxx Xxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -102,16 +102,16 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx$$
+### System.String[]
 
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.Object
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000](http://go.microsoft.com/fwlink/?LinkId=517145)
+[http://go.microsoft.com/fwlink/?LinkId=517145](http://go.microsoft.com/fwlink/?LinkId=517145)
 

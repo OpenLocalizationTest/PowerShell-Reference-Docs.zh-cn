@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293984
 schema: 2.0.0
 ---
 
-# Xxxxxx$XxxxxxxxxXxxx
+# Import-LocalizedData
 ## XXXXXXXX
 Xxxxxxx xxxxxxxx$xxxxxxxx xxxx xxxx xxxxxxx xxx xxxxxxxxx xxxxx xx xxx XX xxxxxxx xxxx xx xxxxxxxx xxx xxx xxxxxxxxx xxxxxx.
 
@@ -164,7 +164,7 @@ Xxx0.xx0 xxxx xxxxxxxx xxx Xxxxxxx xxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxXxxxxxxxx
+### -BaseDirectory
 Xxxxxxxxx xxx xxxx xxxxxxxxx xxxxx xxx .xxx0 xxxxx xxx xxxxxxx.
 Xxx xxxxxxx xx xxx xxxxxxxxx xxxxx xxx xxxxxx xx xxxxxxx.
 Xxxxxx$XxxxxxxxxXxxx xxxxxxxx xxx xxx .xxx0 xxxx xxx xxx xxxxxx xx x xxxxxxxx$xxxxxxxx xxxxxxxxxxxx xx xxx xxxx xxxxxxxxx.
@@ -181,7 +181,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxx
+### -BindingVariable
 Xxxxxxxxx xxx xxxxxxxx xxxx xxxxx xxx xxxx xxxxxxx xxx xxxxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxx x xxxxxx xxxx $$$.
 
@@ -206,7 +206,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -FileName
 Xxxxxxxxx xxx xxxx xx xxx xxxx xxxx $.xxx0$ xx xx xxxxxxxx.
 Xxxxx x xxxx xxxx.
 Xxx xxx xxxxxxx x xxxx xxxx xxxx xxxx xxx xxxxxxx xxx .xxx0 xxxx xxxx xxxxxxxxx$ xx xxx xxx xxxxxxx xxx xxxx xxxx xxxxxxxxx xxx .xxx0 xxxx xxxx xxxxxxxxx.
@@ -229,7 +229,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -245,7 +245,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -260,7 +260,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxXxxxxxx
+### -SupportedCommand
 Xxxxxxxxx xxxxxxx xxx xxxxxxxxx xxxx xxxxxxxx xxxx xxxx.
 
 Xxx xxxx xxxxxxxxx xx xxxxxxx xxxxxxx xxx xxxxxxxxx xxxx xxx xxxx xxxxxxx xx xxxxxx.
@@ -278,7 +278,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXXxxxxxx
+### -UICulture
 Xxxxxxxxx xx xxxxxxxxx XX xxxxxxx.
 Xxx xxxxxxx xx xxx xxxxx xx xxx $XxXXXxxxxxx xxxxxxxxx xxxxxxxx.
 Xxxxx x XX xxxxxxx xx $$$xxxxxxxx$$$$$xxxxxx$$$ xxxxxx$ xxxx xx xx$XX$ xx$XX$ xx xx$XX.
@@ -303,12 +303,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxxx.Xxxxxxxxx
+### System.Collections.Hashtable
 Xxxxxx$XxxxxxxxxXxxx xxxxx xxx xxxx xxxxx xx xxx xxxxxxxx xxxx xx xxxxxxxxx xx xxx xxxxx xx xxx XxxxxxxXxxxxxxx xxxxxxxxx.
 
 ## XXXXX
@@ -338,5 +338,5 @@ Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxx$Xxxxxxxxxxxxxxxxxxxx $xxxx$$$xx.xxxxxxxxx
 
 ## XXXXXXX XXXXX
 
-[xxxxx$Xxxxxx$Xxxxxxxxxxxxxxxxxxxx]()
+[about_Script_Internationalization]()
 

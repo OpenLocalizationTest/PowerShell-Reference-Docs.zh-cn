@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XXXxxxXXXxxx
+# Set-WAPackVMRole
 ## XXXXXXXX
 
 ## XXXXXX
@@ -35,7 +35,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxXxxxx
+### -InstanceCount
 $$Xxxx$$
 
 ```yaml
@@ -50,7 +50,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 $$Xxxx$$
 
 ```yaml
@@ -65,7 +65,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXXxxx
+### -VMRole
 $$Xxxx$$
 
 ```yaml

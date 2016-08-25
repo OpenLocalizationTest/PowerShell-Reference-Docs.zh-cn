@@ -7,33 +7,33 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureMediaServicesAccount
-## SYNOPSIS
-Creates a new Azure Media Services account.
+## XXXXXXXX
+Xxxxxxx x xxx Xxxxx Xxxxx Xxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureMediaServicesAccount [-Name] <String> [-Location] <String> [-StorageAccountName] <String>
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The New-AzureMediaServicesAccount cmdlet creates a new Media Services account with the specified Media Services account name, datacenter location where you want to create the account, and an existing storage account name.
-The storage account has to be located in the same data center as the new Media Services account.
+Xxx Xxx$XxxxxXxxxxXxxxxxxxXxxxxxx xxxxxx xxxxxxx x xxx Xxxxx Xxxxxxxx xxxxxxx xxxx xxx xxxxxxxxx Xxxxx Xxxxxxxx xxxxxxx xxxx$ xxxxxxxxxx xxxxxxxx xxxxx xxx xxxx xx xxxxxx xxx xxxxxxx$ xxx xx xxxxxxxx xxxxxxx xxxxxxx xxxx.
+Xxx xxxxxxx xxxxxxx xxx xx xx xxxxxxx xx xxx xxxx xxxx xxxxxx xx xxx xxx Xxxxx Xxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Create a new Media Services account
+### 0$ Xxxxxx x xxx Xxxxx Xxxxxxxx xxxxxxx
 ```
 PS C:\> New-AzureMediaServicesAccount -Name "mediaserviceaccount" -StorageAccountName "storageaccount " -Location "West US"
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Location
-The Media Services datacenter location.
+Xxx Xxxxx Xxxxxxxx xxxxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -48,7 +48,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The Media Services account name.
+Xxx Xxxxx Xxxxxxxx xxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -63,8 +63,8 @@ Accept wildcard characters: False
 ```
 
 ### -StorageAccountName
-The storage account name.
-The storage account must already exist in the same datacenter as the new Media Services account.
+Xxx xxxxxxx xxxxxxx xxxx.
+Xxx xxxxxxx xxxxxxx xxxx xxxxxxx xxxxx xx xxx xxxx xxxxxxxxxx xx xxx xxx Xxxxx Xxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -78,13 +78,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [How to use Azure PowerShell for Media Services](http://go.microsoft.com/fwlink/?LinkId=324179)
 

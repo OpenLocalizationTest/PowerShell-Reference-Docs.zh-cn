@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxx$XxxxxXxxxxxx
+# Start-AzureService
 ## XXXXXXXX
 Xxxxxx xxx xxxxxxxxx xxxxxx xxxxxxx xx Xxxxxxx Xxxxx.
 
@@ -32,7 +32,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $XxxxXxxx
+### -PassThru
 $$Xxxx$$
 
 ```yaml
@@ -47,7 +47,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -ServiceName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxxxxx xx xxxxx.
 Xx xx xxxx xx xxxxxxxxx$ xxx xxxxxx xxxxxx xxx xxxxxxx xxxxxx xxxxxxx.
 
@@ -63,7 +63,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxxxxxxxx xxx xxxxxxxxxx xxxx xx xxxxx xx xxxxx xxx xxxxxxx$ xxxxxx Xxxxxxx xx Xxxxxxxxxx.
 
 ```yaml
@@ -78,7 +78,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxxx
+### -Subscription
 Xxxxxxxxx xxx xxxxxxxxxxxx xx xxx xxxx xxxxxxxx xxx xxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -101,10 +101,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxxx$XxxxxXxxxxxxXxxxxxx](4c0c0966-919e-49a6-9d38-c3c97355e281)
+[Publish-AzureServiceProject](4c0c0966-919e-49a6-9d38-c3c97355e281)
 
-[Xxxxxx$XxxxxXxxxxxx](19376209-6c0d-46e0-ad98-b8e2f13c0893)
+[Remove-AzureService](19376209-6c0d-46e0-ad98-b8e2f13c0893)
 
-[Xxxx$XxxxxXxxxxxx](82d56ef9-9651-4224-9ba0-498750f6f551)
+[Stop-AzureService](82d56ef9-9651-4224-9ba0-498750f6f551)
 
 

@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx
+# Get-AzureStorageTableStoredAccessPolicy
 ## XXXXXXXX
 Xxxx xxx xxxxxx xxxxxx xxxxxx xx xxxxxxxx xxx xx xxxxx$0 xxxxxxx xxxxx.
 
@@ -37,7 +37,7 @@ Xxxx xxxxxxx xxxx xxx xxxxxx xxxxxxxx xx xxx xxxxx xxxxx Xxxxx00.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -53,7 +53,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Policy
 Xxxxxxxxx x xxxxxx xxxxxx xxxxxx$ xxxxx xxxxxxxx xxx xxxxxxxxxxx xxx xxxx Xxxxxx Xxxxxx Xxxxxxxxx $XXX$ xxxxx.
 
 ```yaml
@@ -68,7 +68,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Table
 Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxx xxxx.
 
 ```yaml
@@ -91,12 +91,12 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](27f043ca-0c6b-4952-afd7-a2e12e73b402)
+[New-AzureStorageTableStoredAccessPolicy](27f043ca-0c6b-4952-afd7-a2e12e73b402)
 
-[Xxxxxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](e9ed3edb-61eb-4547-8228-968601cfbee5)
+[Remove-AzureStorageTableStoredAccessPolicy](e9ed3edb-61eb-4547-8228-968601cfbee5)
 
-[Xxx$XxxxxXxxxxxxXxxxxXxxxxxXxxxxxXxxxxx](cd4016e4-c0aa-4963-beb7-144a5bd2d619)
+[Set-AzureStorageTableStoredAccessPolicy](cd4016e4-c0aa-4963-beb7-144a5bd2d619)
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
 

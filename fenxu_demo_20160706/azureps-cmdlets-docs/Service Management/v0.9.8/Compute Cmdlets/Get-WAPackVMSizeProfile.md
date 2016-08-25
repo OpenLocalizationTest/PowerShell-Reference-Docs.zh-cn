@@ -6,18 +6,18 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XXXxxxXXXxxxXxxxxxx
+# Get-WAPackVMSizeProfile
 ## XXXXXXXX
 Xxxx xxxx xxxxxxx xxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-WAPackVMSizeProfile [[-ID] <Guid>]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-WAPackVMSizeProfile [[-Name] <String>]
 ```
@@ -55,7 +55,7 @@ Xxxx xxxxxxx xxxx xxx xxx xxxx xxxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XX
+### -ID
 Xxxxxxxxx xxx xxxxxx XX xx x xxxx xxxxxxx.
 
 ```yaml
@@ -70,7 +70,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx x xxxx xxxxxxx.
 
 ```yaml
@@ -93,6 +93,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XXXxxxXX](4b060a7d-da50-45ff-adb6-bcba63faa90b)
+[Get-WAPackVM](4b060a7d-da50-45ff-adb6-bcba63faa90b)
 
 

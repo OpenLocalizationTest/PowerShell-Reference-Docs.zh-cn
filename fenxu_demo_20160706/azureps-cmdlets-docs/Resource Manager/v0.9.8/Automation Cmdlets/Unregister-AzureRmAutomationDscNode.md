@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxxxxxx$XxxxxXxXxxxxxxxxxXxxXxxx
+# Unregister-AzureRmAutomationDscNode
 ## XXXXXXXX
 Xxxxxxx x XXX xxxx xxxx xxxxxxxxxx xx xx Xxxxxxxxxx xxxxxxx.
 
@@ -31,7 +31,7 @@ Xxxx xxxxxxx xxxxxxx xxx XXX xxxx xxxx xxx xxx xxxxxxxxx XXXX xxxx xxxxxxxxxx xx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxx xxxx xxxxxx xxxxxxx x XXX xxxx.
 
 ```yaml
@@ -46,7 +46,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 xx$xxxxx
 
 ```yaml
@@ -61,7 +61,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xx
+### -Id
 Xxxxxxxxx xxx xxxxxx XX xx xxx XXX xxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -76,7 +76,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xx xxxxx xxxx xxxxxx xxxxxxxxxxx x XXX xxxx.
 
 ```yaml
@@ -91,7 +91,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -106,7 +106,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -129,10 +129,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxXxxx](19472f94-5827-4878-a17a-d7bb10932861)
+[Get-AzureRmAutomationDscNode](19472f94-5827-4878-a17a-d7bb10932861)
 
-[Xxxxxxxx$XxxxxXxXxxxxxxxxxXxxXxxx](a6f623a1-2e69-4ea2-828b-ab63d285a009)
+[Register-AzureRmAutomationDscNode](a6f623a1-2e69-4ea2-828b-ab63d285a009)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxXxxx](68da8fba-38df-4255-91e8-513635163d57)
+[Set-AzureRmAutomationDscNode](68da8fba-38df-4255-91e8-513635163d57)
 
 

@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294000
 schema: 2.0.0
 ---
 
-# Xxxx$Xxxx
+# Read-Host
 ## XXXXXXXX
 Xxxxx x xxxx xx xxxxx xxxx xxx xxxxxxx.
 
@@ -41,7 +41,7 @@ Xxxx xxx Xxxxx xxx xx xxxxxxx$ xxx xxxxx xx xxxxxx xx x XxxxxxXxxxxx xxxxxx xx x
 
 ## XXXXXXXXXX
 
-### $XxXxxxxxXxxxxx
+### -AsSecureString
 Xxxxxxxx xxxxxxxxx $$$ xx xxxxx xx xxx xxxxxxxxxx xxxx xxx xxxx xxxxx xx xxxxx.
 
 Xxxx xxx xxx xxxx xxxxxxxxx$ xxx xxxxxx xx xxx Xxxx$Xxxx xxxxxx xx x XxxxxxXxxxxx xxxxxx $Xxxxxx.Xxxxxxxx.XxxxxxXxxxxx$.
@@ -58,7 +58,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxxx xxx xxx xxxx xxxxxxxxx$ xxx xxxxxx xx xxx Xxxx$Xxxx xxxxxx xx x XxxxxxXxxxxx xxxxxx $Xxxxxx.Xxxxxxxx.XxxxxxXxxxxx$.
 
 ```yaml
@@ -74,7 +74,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxxx xxx xxx xxxx xxxxxxxxx$ xxx xxxxxx xx xxx Xxxx$Xxxx xxxxxx xx x XxxxxxXxxxxx xxxxxx $Xxxxxx.Xxxxxxxx.XxxxxxXxxxxx$.
 
 ```yaml
@@ -89,7 +89,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Prompt
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx.
 Xxxx x xxxxxx.
 Xx xxx xxxxxx xxxxxxxx xxxxxx$ xxxxxxx xx xx xxxxxxxxx xxxxx.
@@ -109,12 +109,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxx xx Xxxxxx.Xxxxxxxx.XxxxxxXxxxxx
+### System.String or System.Security.SecureString
 Xx xxx XxXxxxxxXxxxxx xxxxxxxxx xx xxxx$ Xxxx$Xxxx xxxxxxx x XxxxxxXxxxxx.
 Xxxxxxxxx$ xx xxxxxxx x xxxxxx.
 
@@ -122,13 +122,13 @@ Xxxxxxxxx$ xx xxxxxxx x xxxxxx.
 
 ## XXXXXXX XXXXX
 
-[Xxxxx$Xxxx]()
+[Clear-Host]()
 
-[XxxxxxxXxxx$XxxxxxXxxxxx]()
+[ConvertFrom-SecureString]()
 
-[Xxx$Xxxx]()
+[Get-Host]()
 
-[Xxx$Xxxx]()
+[Out-Host]()
 
-[Xxxxx$Xxxx]()
+[Write-Host]()
 

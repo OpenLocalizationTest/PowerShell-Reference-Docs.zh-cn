@@ -7,41 +7,41 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Add-AzureRmApiManagementRegion
-## SYNOPSIS
-Adds new deployment regions to a PsApiManagement instance.
+## XXXXXXXX
+Xxxx xxx xxxxxxxxxx xxxxxxx xx x XxXxxXxxxxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Add-AzureRmApiManagementRegion [-Capacity <Int32]>] [-Sku <PsApiManagementSku]>]
  [-VirtualNetwork <PsApiManagementVirtualNetwork>] -ApiManagement <PsApiManagement> -Location <String>
 ```
 
-## DESCRIPTION
-The **Add-AzureRmApiManagementRegion** cmdlet adds new instance of type **PsApiManagementRegion** to the collection of **AdditionalRegions** of provided instance of type **Microsoft.Azure.Commands.ApiManagement.Models.PsApiManagement**.
-This cmdlet does not deploy anything by itself but updates instance of **PsApiManagement** in-memory.
-To update a deployment of an API Management pass the modified **PsApiManagement** Instance to Update-AzureRmApiManagementDeployment.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxx$$ xxxxxx xxxx xxx xxxxxxxx xx xxxx $$XxXxxXxxxxxxxxxXxxxxx$$ xx xxx xxxxxxxxxx xx $$XxxxxxxxxxXxxxxxx$$ xx xxxxxxxx xxxxxxxx xx xxxx $$Xxxxxxxxx.Xxxxx.Xxxxxxxx.XxxXxxxxxxxxx.Xxxxxx.XxXxxXxxxxxxxxx$$.
+Xxxx xxxxxx xxxx xxx xxxxxx xxxxxxxx xx xxxxxx xxx xxxxxxx xxxxxxxx xx $$XxXxxXxxxxxxxxx$$ xx$xxxxxx.
+Xx xxxxxx x xxxxxxxxxx xx xx XXX Xxxxxxxxxx xxxx xxx xxxxxxxx $$XxXxxXxxxxxxxxx$$ Xxxxxxxx xx Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Add new deployment regions to a PsApiManagement instance
+### Xxxxxxx 0$ Xxx xxx xxxxxxxxxx xxxxxxx xx x XxXxxXxxxxxxxxx xxxxxxxx
 ```
 PS C:\>Add-AzureRmApiManagementRegion -ApiManagement $ApiManagement -Location "East US" -Sku "Premium" -Capacity 2
 ```
 
-This command adds two premium SKU units and the region named East US to the **PsApiManagement** instance.
+Xxxx xxxxxxx xxxx xxx xxxxxxx XXX xxxxx xxx xxx xxxxxx xxxxx Xxxx XX xx xxx $$XxXxxXxxxxxxxxx$$ xxxxxxxx.
 
-### Example 2: Add new deployment regions to a PsApiManagement instance and then update deployment
+### Xxxxxxx 0$ Xxx xxx xxxxxxxxxx xxxxxxx xx x XxXxxXxxxxxxxxx xxxxxxxx xxx xxxx xxxxxx xxxxxxxxxx
 ```
 PS C:\>Get-AzureRmApiManagement -ResourceGroupName "Contoso" -Name "ContosoApi" | Add-AzureRmApiManagementRegion -Location "East US" -Sku "Premium" -Capacity 2 | Update-AzureRmApiManagementDeployments
 ```
 
-This command gets a **PsApiManagement** object, adds two premium SKU units for the region named East US, and then updates deployment.
+Xxxx xxxxxxx xxxx x $$XxXxxXxxxxxxxxx$$ xxxxxx$ xxxx xxx xxxxxxx XXX xxxxx xxx xxx xxxxxx xxxxx Xxxx XX$ xxx xxxx xxxxxxx xxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -ApiManagement
-Specifies the **PsApiManagement** instance that this cmdlet adds additional deployment regions to.
+Xxxxxxxxx xxx $$XxXxxXxxxxxxxxx$$ xxxxxxxx xxxx xxxx xxxxxx xxxx xxxxxxxxxx xxxxxxxxxx xxxxxxx xx.
 
 ```yaml
 Type: PsApiManagement
@@ -56,7 +56,7 @@ Accept wildcard characters: False
 ```
 
 ### -Capacity
-Specifies the SKU capacity of the deployment region.
+Xxxxxxxxx xxx XXX xxxxxxxx xx xxx xxxxxxxxxx xxxxxx.
 
 ```yaml
 Type: Int32]
@@ -71,25 +71,11 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the location of the new deployment region.
+Xxxxxxxxx xxx xxxxxxxx xx xxx xxx xxxxxxxxxx xxxxxx.
 
-Valid values are: 
+Xxxxx xxxxxx xxx$ 
 
--- North Central US
--- South Central US
--- Central US
--- West Europe
--- North Europe
--- West US
--- East US
--- East US 2
--- Japan East
--- Japan West
--- Brazil South
--- Southeast Asia
--- East Asia
--- Australia East
--- Australia Southeast
+$$ Xxxxx Xxxxxxx XX $$ Xxxxx Xxxxxxx XX $$ Xxxxxxx XX $$ Xxxx Xxxxxx $$ Xxxxx Xxxxxx $$ Xxxx XX $$ Xxxx XX $$ Xxxx XX 0 $$ Xxxxx Xxxx $$ Xxxxx Xxxx $$ Xxxxxx Xxxxx $$ Xxxxxxxxx Xxxx $$ Xxxx Xxxx $$ Xxxxxxxxx Xxxx $$ Xxxxxxxxx Xxxxxxxxx
 
 ```yaml
 Type: String
@@ -104,12 +90,10 @@ Accept wildcard characters: False
 ```
 
 ### -Sku
-Specifies the tier of the deployment region.
-Valid values are: 
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxx xxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Developer
--- Standard
--- Premium
+$$ Xxxxxxxxx $$ Xxxxxxxx $$ Xxxxxxx
 
 ```yaml
 Type: PsApiManagementSku]
@@ -124,7 +108,7 @@ Accept wildcard characters: False
 ```
 
 ### -VirtualNetwork
-Specifies a virtual network configuration.
+Xxxxxxxxx x xxxxxxx xxxxxxx xxxxxxxxxxxxx.
 
 ```yaml
 Type: PsApiManagementVirtualNetwork
@@ -138,14 +122,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
-The cmdlet writes updated **PsApiManagement** instance to pipeline.
+## XXXXX
+Xxx xxxxxx xxxxxx xxxxxxx $$XxXxxXxxxxxxxxx$$ xxxxxxxx xx xxxxxxxx.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Remove-AzureRmApiManagementRegion](6df0b014-03b0-47aa-9d34-9d0fceee2247)
 

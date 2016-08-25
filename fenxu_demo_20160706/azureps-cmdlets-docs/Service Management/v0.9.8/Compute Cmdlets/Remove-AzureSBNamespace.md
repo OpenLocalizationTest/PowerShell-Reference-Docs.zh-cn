@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXXXxxxxxxxx
+# Remove-AzureSBNamespace
 ## XXXXXXXX
 Xxxxxxx x xxxxxxxxx.
 
@@ -31,7 +31,7 @@ Xxx Xxxxxx$XxxxxXXXxxxxxxxx xxxxxx xxxxxxx x xxxxxxx xxxxxxxxx xxx Xxxxxxx Xxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 Xx xxxxxxx$ xxxxxxx xxx xxxxxxxxx xxxxxxx xxxxxxxxx xxx xxxxxxxxxxxx.
 
 ```yaml
@@ -46,7 +46,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxx xx xx xxxxxxx.
 
 ```yaml
@@ -61,7 +61,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxx xxx xxxxxxxxx xx xxxxxx xxxx xx xx xxxxxxxx.
 
 ```yaml
@@ -76,7 +76,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -91,7 +91,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -116,6 +116,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXXXxxxxxxxx](456cf667-2f12-42f0-9e88-050ff7900244)
+[New-AzureSBNamespace](456cf667-2f12-42f0-9e88-050ff7900244)
 
 

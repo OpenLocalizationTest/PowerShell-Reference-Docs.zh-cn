@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294022
 schema: 2.0.0
 ---
 
-# Xxxxxxxxxx$Xxxxx
+# Unregister-Event
 ## XXXXXXXX
 Xxxxxxx xx xxxxx xxxxxxxxxxxx.
 
 ## XXXXXX
 
-### XxXxxxxx $Xxxxxxx$
+### BySource (Default)
 ```
 Unregister-Event [-SourceIdentifier] <String> [-Force] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### XxXx
+### ById
 ```
 Unregister-Event [-SubscriptionId] <Int32> [-Force] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
@@ -66,7 +66,7 @@ Xx xxxxxxxx xxx xxxx$ xxx Xxxxx xxxxxxxxx xx xxxx xxxxxxxx xx Xxxxxxxxxx$Xxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 Xxxxxxx xxx xxxxx xxxxxxxxxxxxx$ xxxxxxxxx xxxxxxxxxxxxx xxxx xxxx xxxxxx xx xxxxx xxx XxxxxxxXxxxx xxxxxxxxx xx Xxxxxxxx$XxxxxxXxxxx$ Xxxxxxxx$XxxXxxxx$ xxx Xxxxxxxx$XxxxxxXxxxx.
 
 ```yaml
@@ -81,7 +81,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -97,7 +97,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -112,7 +112,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxxxx
+### -SourceIdentifier
 Xxxxxxx xxxxx xxxxxxxxxxxxx xxxx xxxx xxx xxxxxxxxx xxxxxx xxxxxxxxxx.
 
 X XxxxxxXxxxxxxxxx xx XxxxxxxxxxxxXx xxxxxxxxx xxxx xx xxxxxxxx xx xxxxx xxxxxxx.
@@ -129,7 +129,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxxXx
+### -SubscriptionId
 Xxxxxxx xxxxx xxxxxxxxxxxxx xxxx xxxx xxx xxxxxxxxx xxxxxxxxxxxx xxxxxxxxxx.
 
 X XxxxxxXxxxxxxxxx xx XxxxxxxxxxxxXx xxxxxxxxx xxxx xx xxxxxxxx xx xxxxx xxxxxxx.
@@ -146,7 +146,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -161,7 +161,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -180,12 +180,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxxxxxxxx
+### System.Management.Automation.PSEventSubscriber
 Xxx xxx xxxx xxx xxxxxx xxxx Xxx$XxxxxXxxxxxxxxx xx Xxxxxxxxxx$Xxxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxxx xxxxxx xxxx xxx xxxxxx xxx xxxxxx.
 
 ## XXXXX
@@ -197,21 +197,21 @@ Xx xxxxxx x xxxxxx xxxxx xxxx xxx xxxxxxx$ xxx xxxx xxxxxx xx xxxxxxxxxxxxxxxx x
 
 ## XXXXXXX XXXXX
 
-[Xxx$Xxxxx]()
+[Get-Event]()
 
-[Xxx$XxxxxXxxxxxxxxx]()
+[Get-EventSubscriber]()
 
-[Xxx$Xxxxx]()
+[New-Event]()
 
-[Xxxxxxxx$XxxxxxXxxxx]()
+[Register-EngineEvent]()
 
-[Xxxxxxxx$XxxxxxXxxxx]()
+[Register-ObjectEvent]()
 
-[Xxxxxxxx$XxxXxxxx]()
+[Register-WmiEvent]()
 
-[Xxxxxx$Xxxxx]()
+[Remove-Event]()
 
-[Xxxxxxxxxx$Xxxxx]()
+[Unregister-Event]()
 
-[Xxxx$Xxxxx]()
+[Wait-Event]()
 

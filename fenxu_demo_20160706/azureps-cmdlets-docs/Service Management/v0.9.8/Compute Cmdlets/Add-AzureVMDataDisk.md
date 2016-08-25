@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxXxxx
+# Add-AzureVMDataDisk
 ## XXXXXXXX
 Xxx Xxxx Xxxx xx XX
 
@@ -45,7 +45,7 @@ PS C:\> # Get the VM
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Caching
 Xxxxxxxxx xxx xxxxxxx xxxx xx xxx xxxx.
 Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxxxx xxx xxxxxxxxxxx xx xxx xxxx.
 Xxxx$ Xxxxxxxx xxxx xxxxx xxxxxx xxx Xxxxxxx Xxxxxxx xx xxxxxx.
@@ -66,7 +66,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxXxXX
+### -DiskSizeInGB
 Xxxxxxxxx xxx xxxx$ xx XX$ xx xx xxxxx xxxx xx xx xxxxxxxx xx xxx Xxxxxxx Xxxxxxx.
 
 ```yaml
@@ -81,7 +81,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxx
+### -Lun
 Xxxxxxxxx xxx Xxxxxxx Xxxx Xxxxxx $XXX$ xxx xxx xxxx xxxx.
 Xx xxx xxxx xx xxx xxxxx xxxx xxxx xx xxxxx$ xxxx xxxxxxx xx xxxxxxxx xxx xxx xxxxxxx xxxxx xx 0 xx xxxx.
 Xx xxxx xxxx xxx xxxx xx xxxxx xxxxx$ xxxx xxxxxxx xx xxxxxxxx.
@@ -98,7 +98,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxx xx xxx Xxxx Xxxx
 
 ```yaml
@@ -113,7 +113,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Profile
 ```yaml
 Type: AzureProfile
 Parameter Sets: (All)
@@ -126,7 +126,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxx
+### -VhdUri
 Xxxxxxxxx xxx XXX xxxx xxxx xxxxx xx xx xxxxxxx xxxx x xxxxxxxx xxxxx xx xxxx xxxxx xx xxxx.
 Xxxx xx xxxxx xxx xxxxx xxxx xxxx xx xxxxxx xx xxxxx xxx XX xxxx.
 
@@ -142,7 +142,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XX
+### -VM
 Xxxxx XX Xxxxxx xx xxx xxx Xxxx Xxxx xx.
 Xxx xxxxx XX xxxxxx xxx xx xxxxxxx xxxx Xxx$XxxxxXXXxxxxx xxxxxx xx xxxxxx xxxxxxx xxx Xxx$XxxxxXX xxxxxx.
 

@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureRMAutomationVariable
-## SYNOPSIS
-Gets an Automation variable.
+## XXXXXXXX
+Xxxx xx Xxxxxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -22,28 +22,28 @@ Get-AzureRMAutomationVariable [-ResourceGroupName] <String> [-AutomationAccountN
 Get-AzureRMAutomationVariable [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationVariable** cmdlet gets one or more azure_2 Automation variables.
-To get a specific variable, specify its name.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx$$ xxxxxx xxxx xxx xx xxxx xxxxx$0 Xxxxxxxxxx xxxxxxxxx.
+Xx xxx x xxxxxxxx xxxxxxxx$ xxxxxxx xxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get a variable
+### Xxxxxxx 0$ Xxx x xxxxxxxx
 ```
 PS C:\>$Variable = Get-AzureRmAutomationVariable -AutomationAccountName "Contoso17" -Name "Variable06" -ResourceGroupName "ResourceGroup01"
 PS C:\> $Value = $Variable.value
 ```
 
-The first command gets an Automation variable named Variable06 in the account named Contoso17.
-The command stores that object in the $Variable variable.
+Xxx xxxxx xxxxxxx xxxx xx Xxxxxxxxxx xxxxxxxx xxxxx Xxxxxxxx00 xx xxx xxxxxxx xxxxx Xxxxxxx00.
+Xxx xxxxxxx xxxxxx xxxx xxxxxx xx xxx $Xxxxxxxx xxxxxxxx.
 
-The second command uses standard dot notation to refer to the **value** property of $Variable.
-The command stores the value in the $value variable.
+Xxx xxxxxx xxxxxxx xxxx xxxxxxxx xxx xxxxxxxx xx xxxxx xx xxx $$xxxxx$$ xxxxxxxx xx $Xxxxxxxx.
+Xxx xxxxxxx xxxxxx xxx xxxxx xx xxx $xxxxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account that contains the variables that this cmdlet gets.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxxxxx xxx xxxxxxxxx xxxx xxxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -58,7 +58,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of a variable that this cmdlet gets.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxx xxxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the resource group for which this cmdlet gets variables.
+Xxxxxxxxx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -87,15 +87,15 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
 ### Microsoft.Azure.Commands.Automation.Model.Variable
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [New-AzureRmAutomationVariable](4103a716-9567-4836-b522-d2484452a60e)
 

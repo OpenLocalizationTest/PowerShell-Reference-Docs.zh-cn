@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293971
 schema: 2.0.0
 ---
 
-# Xxx$Xxxxxx
+# Get-Member
 ## XXXXXXXX
 Xxxx xxx xxxxxxxxxx xxx xxxxxxx xx xxxxxxx.
 
@@ -266,7 +266,7 @@ Xxx$Xxxxxx xxxx xxx xxxx $Xxxxxx.Xxxxxx$$$$$ xxx xxx xxxxxxx xx xxx xxxxxxxxxx $
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 Xxxx xxx xxxxxxxxx xxxxxxx $XXXxxx$ XXXxxxxxx$ XXXxxxxx$ XXXxxxXxxxx$ xxx xxx xxxxxxxx$xxxxxxxxx xxx$ xxx xxx$ xxxxxxx xx xxx xxxxxxx.
 Xx xxxxxxx$ Xxx$Xxxxxx xxxx xxxxx xxxxxxxxxx xx xxx xxxxx xxxxx xxxx $Xxxx$ xxx $Xxxxxxx$$ xxx xx xxxx xxx xxxxxxx xxxx.
 
@@ -290,7 +290,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxx xxxxxxxxx xxxx xxxxxxxxx xxx xxxxxxxxxx xxxx xxx xxxxx xxxx xxx xxx xxx Xxxxx xxxxxxxxx$
 
 $$ XXXxxx$  Xxx xxxxxxxx xxxxxxxxxx xx xxx .XXX Xxxxxxxxx xxxxxx xxxxxxx xxxxxxxxx xx xxxxxxxxxx. Xxxxx xxx xxx xxxxxxxxxx xxxxxxx xxx xxx xxxxxx xxxxx xxx xxxxxx xx XXXX.
@@ -312,7 +312,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxx xxxxxxxxx xxxx xxxxxxxxx xxx xxxxxxxxxx xxxx xxx xxxxx xxxx xxx xxx xxx Xxxxx xxxxxxxxx$
 
 $$ XXXxxx$  Xxx xxxxxxxx xxxxxxxxxx xx xxx .XXX Xxxxxxxxx xxxxxx xxxxxxx xxxxxxxxx xx xxxxxxxxxx. Xxxxx xxx xxx xxxxxxxxxx xxxxxxx xxx xxx xxxxxx xxxxx xxx xxxxxx xx XXXX.
@@ -333,7 +333,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxx xxxxxx xxxxx xxxxxxx xxx xxxxxxxxx.
 
 Xxxxx xxx XxxxxXxxxxx xxxxxxxxx xx xxx xxx xxxx xx xxxxxx xx xxxxxx xx Xxx$Xxxxxx.
@@ -354,7 +354,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -MemberType
 Xxxx xxxx xxxxxxx xxxx xxx xxxxxxxxx xxxxxx xxxx.
 Xxx xxxxxxx xx Xxx.
 
@@ -381,7 +381,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxxx xx xxx xx xxxx xxxxxxxxxx xx xxxxxxx xx xxx xxxxxx.
 Xxx$Xxxxxx xxxx xxxx xxx xxxxxxxxx xxxxxxxxxx xxx xxxxxxx.
 
@@ -401,7 +401,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Static
 Xxxx xxxx xxx xxxxxx xxxxxxxxxx xxx xxxxxxx xx xxx xxxxxx.
 
 Xxxxxx xxxxxxxxxx xxx xxxxxxx xxx xxxxxxx xx xxx xxxxx xx xxxxxxx$ xxx xx xxx xxxxxxxxxx xxxxxxxx xx xxx xxxxx.
@@ -421,7 +421,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -View
 Xxxx xxxx xxxxxxxxxx xxxxx xx xxxxxxx $xxxxxxxxxx xxx xxxxxxx$.
 Xxxxxxx xxx xx xxxx xx xxx xxxxxx.
 Xxx xxxxxxx xx $Xxxxxxx$ Xxxxxxxx$.
@@ -454,12 +454,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxx xxxxxx xx Xxx$Xxxxxx
 
 ## XXXXXXX
 
-### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxxXxxxxxxxxx
+### Microsoft.PowerShell.Commands.MemberDefinition
 Xxx$Xxxxxx xxxxxxx xx xxxxxx xxx xxxx xxxxxxxx xx xxxxxx xxxx xxx xxxx.
 
 ## XXXXX
@@ -471,19 +471,19 @@ Xxx xxxx xxxxxxxxxxx xxxxx xxx $xxxx xxxxxxxx$ xxx xxxxx$Xxxxxxxxx$Xxxxxxxxx.
 
 ## XXXXXXX XXXXX
 
-[Xxx$Xxxxxx]()
+[Add-Member]()
 
-[Xxx$Xxxxxxx]()
+[Get-Command]()
 
-[Xxx$Xxxx]()
+[Get-Help]()
 
-[Xxx$XXXxxxx]()
+[Get-PSDrive]()
 
-[xxxxx$Xxxxxxxxx$Xxxxxxxxx]()
+[about_Automatic_Variables]()
 
-[xxxxx$Xxxxxxxxxx]()
+[about_Properties]()
 
-[xxxxx$Xxxxxxx]()
+[about_Methods]()
 
-[xxxxx$Xxxxxxx]()
+[about_Objects]()
 

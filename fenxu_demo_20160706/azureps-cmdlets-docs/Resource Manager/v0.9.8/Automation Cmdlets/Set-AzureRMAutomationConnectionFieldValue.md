@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxXxxxxXxxxx
+# Set-AzureRMAutomationConnectionFieldValue
 ## XXXXXXXX
 Xxxxxxxx xxx xxxxx xx x xxxxx xx xx Xxxxxxxxxx xxxxxxxxxx.
 
@@ -31,7 +31,7 @@ Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxxxxx XX xxx xxx xxxxx$0 xxxxxxxxxx xxxxx Xxxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxx xx x xxxxxxxxxx.
 
 ```yaml
@@ -46,7 +46,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxxXxxx
+### -ConnectionFieldName
 Xxxxxxxxx x xxxx xxx xxx xxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
@@ -61,7 +61,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx xxxxxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxx.
 
 ```yaml
@@ -76,7 +76,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxx xx x xxxxxxxxxx.
 
 ```yaml
@@ -91,7 +91,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Value
 Xxxxxxxxx x xxxxx xx xxxxxx xx xxx xxxxxxxxxx xxxxx.
 
 ```yaml
@@ -114,6 +114,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](7fed73b4-73cf-4642-8e10-167ea6158372)
+[New-AzureRmAutomationConnection](7fed73b4-73cf-4642-8e10-167ea6158372)
 
 

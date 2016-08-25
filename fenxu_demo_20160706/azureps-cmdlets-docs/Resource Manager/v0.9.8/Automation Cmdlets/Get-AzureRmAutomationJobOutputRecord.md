@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxXxxxxx
+# Get-AzureRmAutomationJobOutputRecord
 ## XXXXXXXX
 Xxxx xxx xxxx xxxxxx xx xx Xxxxxxxxxx xxx xxxxxx xxxxxx.
 
@@ -36,7 +36,7 @@ Xxxx xxxxxxx xxxx xxx xxxx xxxxxx xx xxx xxx xxxx xxx xxx xxxxxxxxx xxx XX.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxx x xxx xxxxxx xxxxxx.
 
 ```yaml
@@ -51,7 +51,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xx
+### -Id
 Xxxxxxxxx xxx XX xx x xxx xxxxxx xxxxxx xxx xxxx xxxxxx xx xxxxxxxx.
 
 ```yaml
@@ -66,7 +66,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXx
+### -JobId
 Xxxxxxxxx xxx XX xx x xxx xxx xxxxx xxxx xxxxxx xxxx xx xxxxxx xxxxxx.
 
 ```yaml
@@ -81,7 +81,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxx x xxx xxxxxx xxxxxx.
 
 ```yaml
@@ -104,6 +104,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxx](03d80a68-8443-42e0-87bc-5d0e22ac3a57)
+[Get-AzureRmAutomationJobOutput](03d80a68-8443-42e0-87bc-5d0e22ac3a57)
 
 

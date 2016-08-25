@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureRMAutomationCredential
-## SYNOPSIS
-Gets Automation credentials.
+## XXXXXXXX
+Xxxx Xxxxxxxxxx xxxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -23,33 +23,33 @@ Get-AzureRMAutomationCredential [-ResourceGroupName] <String> [-AutomationAccoun
  [-Name] <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationCredential** cmdlet gets one or more azure_2 Automation credentials.
-By default, all credentials are returned.
-Specify the name of a credential to get a specific credential.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx$$ xxxxxx xxxx xxx xx xxxx xxxxx$0 Xxxxxxxxxx xxxxxxxxxxx.
+Xx xxxxxxx$ xxx xxxxxxxxxxx xxx xxxxxxxx.
+Xxxxxxx xxx xxxx xx x xxxxxxxxxx xx xxx x xxxxxxxx xxxxxxxxxx.
 
-For security purposes, this cmdlet does not return credential passwords.
+Xxx xxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx xxxxxxxxxx xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all credentials
+### Xxxxxxx 0$ Xxx xxx xxxxxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationCredential -ResourceGroupName "ResourceGroup01" -AutomationAccountName "Contoso17"
 ```
 
-This command gets metadata for all credentials in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxxxxxxx xxx xxx xxxxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 2: Get a credential
+### Xxxxxxx 0$ Xxx x xxxxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationCredential -ResourceGroupName "ResourceGroup01" -AutomationAccountName "Contoso17" -Name "ContosoCredential"
 ```
 
-This command gets metadata for the credential named ContosoCredential in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxxxxxxx xxx xxx xxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account for which this cmdlet retrieves credentials.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -64,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of a credential to retrieve.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the resource group for which this cmdlet retrieves credentials.
+Xxxxxxxxx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -93,15 +93,15 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
 ### Microsoft.Azure.Commands.Automation.Model.CredentialInfo
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [New-AzureRmAutomationCredential](2e0b5b0e-df2b-4747-bb42-8e6b94f397e0)
 

@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx
+# New-AzureRMAutomationCredential
 ## XXXXXXXX
 Xxxxxxx xx Xxxxxxxxxx xxxxxxxxxx.
 
@@ -41,7 +41,7 @@ Xxx xxxxx xxxxxxx xxxxxxx xx Xxxxxxxxxx xxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxx xxxx 
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxx xxx xxxxxxxxxx.
 
 ```yaml
@@ -56,7 +56,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Description
 Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxxxx.
 
 ```yaml
@@ -71,7 +71,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx xxxxxxxxxx.
 
 ```yaml
@@ -86,7 +86,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxx.
 
 ```yaml
@@ -101,7 +101,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Value
 Xxxxxxxxx xxx xxxxxxxxxxx xx x $$XXXxxxxxxxxx$$ xxxxxx.
 
 ```yaml
@@ -120,16 +120,16 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.XxxxxxxxxxXxxx
+### Microsoft.Azure.Commands.Automation.Model.CredentialInfo
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](ea09d4b6-ff25-4b91-b957-328222844689)
+[Get-AzureRmAutomationCredential](ea09d4b6-ff25-4b91-b957-328222844689)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](6a171b2b-1fdc-4642-a3d5-495b39fa7cff)
+[Remove-AzureRmAutomationCredential](6a171b2b-1fdc-4642-a3d5-495b39fa7cff)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](f0f039fd-2b0b-4993-8408-471e0f7ad10b)
+[Set-AzureRmAutomationCredential](f0f039fd-2b0b-4993-8408-471e0f7ad10b)
 
 

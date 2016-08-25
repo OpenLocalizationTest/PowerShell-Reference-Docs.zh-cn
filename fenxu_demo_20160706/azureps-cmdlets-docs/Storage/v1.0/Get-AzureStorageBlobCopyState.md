@@ -6,27 +6,27 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx
+# Get-AzureStorageBlobCopyState
 ## XXXXXXXX
 Xxxx xxx xxxx xxxxxx xx xx Xxxxx Xxxxxxx xxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureStorageBlobCopyState [-Blob] <String> [-Container] <String> [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-ServerTimeoutPerRequest <Int32]>]
  [-WaitForComplete]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureStorageBlobCopyState [-Blob] <String> [-ClientTimeoutPerRequest <Int32]>]
  [-ConcurrentTaskCount <Int32]>] [-Context <AzureStorageContext>] [-ServerTimeoutPerRequest <Int32]>]
  [-WaitForComplete] -CloudBlobContainer <CloudBlobContainer>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 Get-AzureStorageBlobCopyState [-ClientTimeoutPerRequest <Int32]>] [-ConcurrentTaskCount <Int32]>]
  [-Context <AzureStorageContext>] [-ServerTimeoutPerRequest <Int32]>] [-WaitForComplete] -CloudBlob <CloudBlob>
@@ -62,7 +62,7 @@ Xxx $$Xxx$XxxxxXxxxxxxXxxxxxxxx$$ xxxxxx xxxx xxx xxxx xxxxxx xxx xxx xxxx xxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Blob
 Xxxxxxxxx xxx xxxx xx x xxxx.
 Xxxx xxxxxx xxxx xxx xxxxx xx xxx xxxx xxxx xxxxxxxxx xxx xxx xxxxx$0 Xxxxxxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -78,7 +78,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ClientTimeoutPerRequest
 Xxxxxxxxx xxx xxxxxx$xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx xxx xxxxxxx xxxxxxx.
 Xx xxx xxxxxxxx xxxx xxxxx xx xxx xxxxxxxxx xxxxxxxx$ xxxx xxxxxx xxxxxxx xxx xxxxxxx.
 Xx xxxx xxxxxx xxxx xxx xxxxxxx x xxxxxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxx xxxxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
@@ -95,7 +95,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -CloudBlob
 Xxxxxxxxx x $$XxxxxXxxx$$ xxxxxx xxxx xxxxx$0 Xxxxxxx Xxxxxx xxxxxxx.
 Xx xxxxxx x $$XxxxxXxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
@@ -111,7 +111,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxXxxxxxxxx
+### -CloudBlobContainer
 Xxxxxxxxx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx xxxx xxx xxxxx$0 Xxxxxxx Xxxxxx xxxxxxx.
 Xxxx xxxxxx xxxx xxx xxxx xxxxxx xx x xxxx xx xxx xxxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 Xx xxxxxx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
@@ -128,7 +128,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxXxxxx
+### -ConcurrentTaskCount
 Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx xxxxx.
 Xxx xxx xxx xxxx xxxxxxxxx xx xxxxx xxx xxxxxxxxxxx xx xxxxxxxx xxxxx XXX xxx xxxxxxxxx xxxxx xx xxxxxxxxxx xxx xxxxxxx xxxxxx xx xxxxxxxxxx xxxxxxx xxxxx.
 Xxx xxxxxxxxx xxxxx xx xx xxxxxxxx xxxxx xxx xx xxx xxxxxxxxxx xx xxx xxxx xxxxx.
@@ -147,7 +147,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Container
 Xxxxxxxxx xxx xxxx xx x xxxxxxxxx.
 Xxxx xxxxxx xxxx xxx xxxx xxxxxx xxx x xxxx xx xxx xxxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -163,7 +163,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -179,7 +179,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ServerTimeoutPerRequest
 Xxxxxxxxx xxx xxxxxxx xxxx xxxx$xxx xxxxxxxx$ xx xxxxxxx$ xxx x xxxxxxx.
 Xx xxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxxxx xxx xxxxxxx$ xxx xxxxxxx xxxxxxx xxxxxxx xx xxxxx.
 
@@ -195,7 +195,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxXxxxxxxx
+### -WaitForComplete
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxx xxx xxx xxxx xx xxxxxx.
 Xx xxx xx xxx xxxxxxx xxxx xxxxxxxxx$ xxxx xxxxxx xxxxxxx x xxxxxx xxxxxxxxxxx.
 
@@ -215,14 +215,14 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### XxxxXxxxx
+### CopyState
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxxxx$XxxxxXxxxxxxXxxxXxxx](606cb5d3-e7fd-4647-b980-329334abc795)
+[Start-AzureStorageBlobCopy](606cb5d3-e7fd-4647-b980-329334abc795)
 
-[Xxxx$XxxxxXxxxxxxXxxxXxxx](c75b9de9-597d-4986-980e-10e49eeef4a7)
+[Stop-AzureStorageBlobCopy](c75b9de9-597d-4986-980e-10e49eeef4a7)
 
 

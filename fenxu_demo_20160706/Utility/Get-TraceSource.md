@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293975
 schema: 2.0.0
 ---
 
-# Xxx$XxxxxXxxxxx
+# Get-TraceSource
 ## XXXXXXXX
 Xxxx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxxx xxxx xxx xxxxxxxxxxxx xxx xxxxxxx.
 
@@ -39,7 +39,7 @@ Xxxx xxxxxxx xxxx xxx xx xxx Xxxxxxx XxxxxXxxxx xxxxxxxxxx xxxx xxx xx xxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -55,7 +55,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -70,7 +70,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxx xxxx xxx xxxxxxxxx xxxxx xxxxxxx.
 Xxxxxxxxx xxx xxxxxxxxx.
 Xxx xxxxxxxxx xxxx $$Xxxx$$ xx xxxxxxxx.
@@ -89,19 +89,19 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx xxx xxxx xx x xxxxx xxxxxx xx Xxx$XxxxxXxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxxxx
+### System.Management.Automation.PSTraceSource
 Xxx$XxxxxXxxxxx xxxxxxx xxxxxxx xxxx xxxxxxxxx xxx xxxxx xxxxxxx.
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxx]()
+[Set-TraceSource]()
 
-[Xxxxx$Xxxxxxx]()
+[Trace-Command]()
 

@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293968
 schema: 2.0.0
 ---
 
-# Xxx$XxxxxXxxxxxxxxx
+# Get-EventSubscriber
 ## XXXXXXXX
 Xxxx xxx xxxxx xxxxxxxxxxx xx xxx xxxxxxx xxxxxxx.
 
 ## XXXXXX
 
-### XxXxxxxx $Xxxxxxx$
+### BySource (Default)
 ```
 Get-EventSubscriber [[-SourceIdentifier] <String>] [-Force] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### XxXx
+### ById
 ```
 Get-EventSubscriber [-SubscriptionId] <Int32> [-Force] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
@@ -139,7 +139,7 @@ Xxx xxxx xxxxxxxxxxx xxxxx xxxxxxx$ xxx xxxxx$Xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 Xxxx xxx xxxxx xxxxxxxxxxx$ xxxxxxxxx xxxxxxxxxxx xxx xxxxxx xxxx xxx xxxxxx xx xxxxx xxx XxxxxxxXxxxx xxxxxxxxx xx Xxxxxxxx$XxxxxxXxxxx$ Xxxxxxxx$XxxXxxxx$ xxx Xxxxxxxx$XxxxxxXxxxx.
 
 ```yaml
@@ -154,7 +154,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -170,7 +170,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -185,7 +185,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxxxx
+### -SourceIdentifier
 Xxxx xxxx xxx xxxxx xxxxxxxxxxx xxxx xxx xxxxxxxxx XxxxxxXxxxxxxxxx xxxxxxxx xxxxx.
 Xx xxxxxxx$ Xxx$XxxxxXxxxxxxxxx xxxx xxx xxxxx xxxxxxxxxxx xx xxx xxxxxxx.
 Xxxxxxxxx xxx xxx xxxxxxxxx.
@@ -203,7 +203,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxxXx
+### -SubscriptionId
 Xxxx xxxx xxx xxxxxxxxx xxxxxxxxxxxx xxxxxxxxxx.
 Xx xxxxxxx$ Xxx$XxxxxXxxxxxxxxx xxxx xxx xxxxx xxxxxxxxxxx xx xxx xxxxxxx.
 
@@ -221,12 +221,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxxxxxxxx
+### System.Management.Automation.PSEventSubscriber
 Xxx$XxxxxXxxxxxxxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxxx xxxxx xxxxxxxxxx.
 
 ## XXXXX
@@ -239,19 +239,19 @@ Xx xxx xxxxx xxx xxxxxxx xxxxxxx$ xxx xxxxx xxxxx xx xxxxxxxxx xxx xxx xxxxx xxx
 
 ## XXXXXXX XXXXX
 
-[Xxx$Xxxxx]()
+[Get-Event]()
 
-[Xxx$Xxxxx]()
+[New-Event]()
 
-[Xxxxxxxx$XxxxxxXxxxx]()
+[Register-EngineEvent]()
 
-[Xxxxxxxx$XxxxxxXxxxx]()
+[Register-ObjectEvent]()
 
-[Xxxxxxxx$XxxXxxxx]()
+[Register-WmiEvent]()
 
-[Xxxxxx$Xxxxx]()
+[Remove-Event]()
 
-[Xxxxxxxxxx$Xxxxx]()
+[Unregister-Event]()
 
-[Xxxx$Xxxxx]()
+[Wait-Event]()
 

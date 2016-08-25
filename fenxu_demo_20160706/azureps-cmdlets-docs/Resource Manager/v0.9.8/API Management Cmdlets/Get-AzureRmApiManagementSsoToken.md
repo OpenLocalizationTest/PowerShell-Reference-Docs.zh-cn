@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxXxxXxxxxxxxxxXxxXxxxx
+# Get-AzureRmApiManagementSsoToken
 ## XXXXXXXX
 Xxxx x xxxx xxxx xx XXX xxxxx xx x xxxxxxxx xxxxxxxxxx xxxxxx xx xx XXX Xxxxxxxxxx xxxxxxx.
 
@@ -30,7 +30,7 @@ Xxxx xxxxxxx xxxx xxx XXX xxxxx xx xx XXX Xxxxxxxxxx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx XXX Xxxxxxxxxx xxxxxxxx.
 
 ```yaml
@@ -45,7 +45,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxxxxxxx xxxxx xxxxx xxxxx XXX Xxxxxxxxxx xxxxxx.
 
 ```yaml
@@ -68,6 +68,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxXxxxxxxxxx](e067ded3-a2e3-4d53-8628-0ebbafa62721)
+[Get-AzureRmApiManagement](e067ded3-a2e3-4d53-8628-0ebbafa62721)
 
 

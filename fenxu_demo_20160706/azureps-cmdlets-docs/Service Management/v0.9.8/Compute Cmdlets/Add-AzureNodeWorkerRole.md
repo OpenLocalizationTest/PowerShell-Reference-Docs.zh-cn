@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxXxxxxxXxxx
+# Add-AzureNodeWorkerRole
 ## XXXXXXXX
 Xxxxxxx xxx xxxxxxxx xxxxx xxx xxxxxxx xxx x Xxxx.xx xxxxxxxxxxx xx xx xxxxxx xx xxx xxxxx xxx xxxx.xxx
 
@@ -40,7 +40,7 @@ Xxxx xxxxxxx xxxx xxxxxxxxxxx xxx x xxxxxx xxxxxx xxxx xxxxx XxXxxxxxXxxx xx xxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxx
+### -Instances
 Xxxxxxxxx xxx xxxxxx xx xxxx xxxxxxxxx xxx xxxx xxxxxx xxxx.
 Xxxxxxx xx 0.
 
@@ -56,7 +56,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx.
 Xxx xxxxx xxxxxxxxxx xxx xxxxxx xxxx xxxx xxxxxxxx xxx xxxxxxxxxxx xxx xxx xxxx.xx xxxxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxxxxxx xx XxxxxxXxxx0.
@@ -81,8 +81,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxXxxXxxx](72be1e83-84e2-49fc-aa52-b3d3dd0490a3)
+[Add-AzureNodeWebRole](72be1e83-84e2-49fc-aa52-b3d3dd0490a3)
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
+[New-AzureServiceProject](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
 
 

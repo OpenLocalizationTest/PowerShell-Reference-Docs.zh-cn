@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureRMAutomationCertificate
-## SYNOPSIS
-Gets Automation certificates.
+## XXXXXXXX
+Xxxx Xxxxxxxxxx xxxxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -23,31 +23,31 @@ Get-AzureRMAutomationCertificate [-ResourceGroupName] <String> [-AutomationAccou
  [-Name] <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationCertificate** cmdlet gets one or more azure_2 Automation certificates.
-By default, this cmdlet gets all certificates.
-Specify the name of a certificate to get a specific certificate.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx$$ xxxxxx xxxx xxx xx xxxx xxxxx$0 Xxxxxxxxxx xxxxxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxxxxxx.
+Xxxxxxx xxx xxxx xx x xxxxxxxxxxx xx xxx x xxxxxxxx xxxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all certificates
+### Xxxxxxx 0$ Xxx xxx xxxxxxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationCertificate -ResourceGroupName "ResourceGroup07" -AutomationAccountName "Contoso17"
 ```
 
-This command gets metadata for all certificates in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxxxxxxx xxx xxx xxxxxxxxxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 2: Get a certificate
+### Xxxxxxx 0$ Xxx x xxxxxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationCertificate -ResourceGroupName "ResourceGroup07" -AutomationAccountName "Contoso17" -Name "ContosoCertificate"
 ```
 
-This command gets metadata for the certificate named ContosoCertificate.
+Xxxx xxxxxxx xxxx xxxxxxxx xxx xxx xxxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account for which this cmdlet retrieves a certificate.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxxx x xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of a certificate to retrieve.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxxxxx xx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -77,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet gets an Automation certificate.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxx xx Xxxxxxxxxx xxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -91,15 +91,15 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
 ### Microsoft.Azure.Commands.Automation.Model.CertificateInfo
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [New-AzureRmAutomationCertificate](4316d596-2954-42e8-905f-840853dab7d5)
 

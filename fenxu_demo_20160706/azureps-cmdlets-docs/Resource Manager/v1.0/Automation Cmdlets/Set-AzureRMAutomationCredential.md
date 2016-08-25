@@ -7,22 +7,22 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureRMAutomationCredential
-## SYNOPSIS
-Modifies an Automation credential.
+## XXXXXXXX
+Xxxxxxxx xx Xxxxxxxxxx xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureRMAutomationCredential [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-Description <String>] [-Value <PSCredential>]
 ```
 
-## DESCRIPTION
-The **Set-AzureRmAutomationCredential** cmdlet modifies a credential as a **PSCredential** object in azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx$$ xxxxxx xxxxxxxx x xxxxxxxxxx xx x $$XXXxxxxxxxxx$$ xxxxxx xx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Update a credential
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxxxx
 ```
 PS C:\>$User = "Contoso\DChew"
 PS C:\> $Password = ConvertTo-SecureString "Password" -AsPlainText -Force
@@ -30,19 +30,19 @@ PS C:\> $Credential = New-Object -TypeName System.Management.Automation.PSCreden
 PS C:\> Set-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -Name "ContosoCredential" -ResourceGroupName "ResourceGroup01" -Value $Credential
 ```
 
-The first command assigns a user name to the $User variable.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxx xxxx xx xxx $Xxxx xxxxxxxx.
 
-The second command converts a plain text password into a secure string by using the ConvertTo-SecureString cmdlet.
-The command stores that object in the $Password variable.
+Xxx xxxxxx xxxxxxx xxxxxxxx x xxxxx xxxx xxxxxxxx xxxx x xxxxxx xxxxxx xx xxxxx xxx XxxxxxxXx$XxxxxxXxxxxx xxxxxx.
+Xxx xxxxxxx xxxxxx xxxx xxxxxx xx xxx $Xxxxxxxx xxxxxxxx.
 
-The third command creates a credential based on $User and $Password, and then stores it in the $Credential variable.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxxxxxxx xxxxx xx $Xxxx xxx $Xxxxxxxx$ xxx xxxx xxxxxx xx xx xxx $Xxxxxxxxxx xxxxxxxx.
 
-The final command modifies the Automation credential named ContosoCredential to use the credential in $Credential.
+Xxx xxxxx xxxxxxx xxxxxxxx xxx Xxxxxxxxxx xxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxx xx xxx xxx xxxxxxxxxx xx $Xxxxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account for which this cmdlet modifies a credential.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -57,7 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-Specifies a description for the credential that this cmdlet modifies.
+Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -72,7 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the credential that this cmdlet modifies.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -87,7 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet modifies a credential.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -102,7 +102,7 @@ Accept wildcard characters: False
 ```
 
 ### -Value
-Specifies the credentials as a **PSCredential** object.
+Xxxxxxxxx xxx xxxxxxxxxxx xx x $$XXXxxxxxxxxx$$ xxxxxx.
 
 ```yaml
 Type: PSCredential
@@ -116,15 +116,15 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
 ### Microsoft.Azure.Commands.Automation.Model.CredentialInfo
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationCredential](ea09d4b6-ff25-4b91-b957-328222844689)
 

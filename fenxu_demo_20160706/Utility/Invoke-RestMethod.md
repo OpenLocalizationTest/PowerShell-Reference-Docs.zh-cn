@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293987
 schema: 2.0.0
 ---
 
-# Xxxxxx$XxxxXxxxxx
+# Invoke-RestMethod
 ## XXXXXXXX
 Xxxxx xx XXXX xx XXXXX xxxxxxx xx x XXXXxxx xxx xxxxxxx.
 
@@ -95,7 +95,7 @@ Xx xxx xxxxxxxxx xxxxxxx$ x xxxx xxxx Xxxxxx$XxxxXxxxxx xx xxxxxxx x XXXX xxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Body
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx.
 Xxx xxxx xx xxx xxxxxxx xx xxx xxxxxxx xxxx xxxxxxx xxx xxxxxxx.
 Xxx xxx xxxx xxxx x xxxx xxxxx xx Xxxxxx$XxxxXxxxxx.
@@ -127,7 +127,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Certificate
 Xxxxxxxxx xxx xxxxxx xxxxxxxxxxx xxxx xx xxxx xxx x xxxxxx xxx xxxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx x xxxxxxxxxxx xx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxxxxxx.
 
@@ -146,7 +146,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxxxx
+### -CertificateThumbprint
 Xxxxxxxxx xxx xxxxxxx xxxxxx xxx xxxxxxxxxxx $X000$ xx x xxxx xxxxxxx xxxx xxx xxxxxxxxxx xx xxxx xxx xxxxxxx.
 Xxxxx xxx xxxxxxxxxxx xxxxxxxxxx xx xxx xxxxxxxxxxx.
 
@@ -167,7 +167,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -ContentType
 Xxxxxxxxx xxx xxxxxxx xxxx xx xxx xxx xxxxxxx.
 
 Xx xxxx xxxxxxxxx xx xxxxxxx xxx xxx xxxxxxx xxxxxx xx XXXX$ Xxxxxx$XxxxXxxxxx xxxx xxx xxxxxxx xxxx xx $xxxxxxxxxxx$x$xxx$xxxx$xxxxxxxxxx$.
@@ -185,7 +185,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxx
+### -Credential
 Xxxxxxxxx x xxxx xxxxxxx xxxx xxx xxxxxxxxxx xx xxxx xxx xxxxxxx.
 Xxx xxxxxxx xx xxx xxxxxxx xxxx.
 
@@ -203,7 +203,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxXxxxx
+### -DisableKeepAlive
 Xxxx xxx XxxxXxxxx xxxxx xx xxx XXXX xxxxxx xx Xxxxx.
 Xx xxxxxxx$ XxxxXxxxx xx Xxxx.
 XxxxXxxxx xxxxxxxxxxx x xxxxxxxxxx xxxxxxxxxx xx xxx xxxxxx xx xxxxxxxxxx xxxxxxxxxx xxxxxxxx.
@@ -220,7 +220,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Headers
 Xxxxxxxxx xxx xxxxxxx xx xxx xxx xxxxxxx.
 Xxxxx x xxxx xxxxx xx xxxxxxxxxx.
 
@@ -239,7 +239,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxXxxx
+### -InFile
 Xxxx xxx xxxxxxx xx xxx xxx xxxxxxx xxxx x xxxx.
 
 Xxxxx x xxxx xxx xxxx xxxx.
@@ -257,7 +257,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxx Xxxx xxxxxxxxx xxx xx xxxx xx xxxxxxx x xxxx xx xxxxx xxxxxxxxxx xx xxxxxxx xxx xxxxxxx xx xxx xxxxxxxx.
 
 Xxxx xxx xxxxx xx x XXX xxxxxxx$ xxx xxx xxxx xx xx XXxxxxxxxxx $xxxxxxxxx$ x xxxx xxxxx$$ xxx xxxx xx xxxxx xx xxx XXX xx xxxxx xxxxxxxxxx.
@@ -286,7 +286,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxx Xxxx xxxxxxxxx xxx xx xxxx xx xxxxxxx x xxxx xx xxxxx xxxxxxxxxx xx xxxxxxx xxx xxxxxxx xx xxx xxxxxxxx.
 
 Xxxx xxx xxxxx xx x XXX xxxxxxx$ xxx xxx xxxx xx xx XXxxxxxxxxx $xxxxxxxxx$ x xxxx xxxxx$$ xxx xxxx xx xxxxx xx xxx XXX xx xxxxx xxxxxxxxxx.
@@ -314,7 +314,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxxxxx
+### -MaximumRedirection
 Xxxxxxxxxx xxx xxxx xxxxx Xxxxxxx XxxxxXxxxx xxxxxxxxx x xxxxxxxxxx xx xx xxxxxxxxx Xxxxxxx Xxxxxxxx Xxxxxxxxxx $XXX$ xxxxxx xxx xxxxxxxxxx xxxxx.
 Xxx xxxxxxx xxxxx xx 0.
 X xxxxx xx 0 $xxxx$ xxxxxxxx xxx xxxxxxxxxxx.
@@ -331,7 +331,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Method
 Xxxxxxxxx xxx xxxxxx xxxx xxx xxx xxx xxxxxxx.
 Xxxxx xxxxxx xxx Xxxxxxx$ Xxxxxx$ Xxx$ Xxxx$ Xxxxx$ Xxxxxxx$ Xxxxx$ Xxxx$ Xxx$ xxx Xxxxx.
 
@@ -348,7 +348,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -OutFile
 Xxxxx xxx xxxxxxxx xxxx xx xxx xxxxxxxxx xxxxxx xxxx.
 Xxxxx x xxxx xxx xxxx xxxx.
 Xx xxx xxxx xxx xxxx$ xxx xxxxxxx xx xxx xxxxxxx xxxxxxxx.
@@ -368,7 +368,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxx xxx xxxxxxx$ xx xxxxxxxx xx xxxxxxx xxxx xx x xxxx.
 Xxxx xxxxxxxxx xx xxxxx xxxx xxxx xxx XxxXxxx xxxxxxxxx xx xxxx xxxx xx xxx xxxxxxx.
 
@@ -384,7 +384,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Proxy
 Xxxx x xxxxx xxxxxx xxx xxx xxxxxxx$ xxxxxx xxxx xxxxxxxxxx xxxxxxxx xx xxx Xxxxxxxx xxxxxxxx.
 Xxxxx xxx XXX xx x xxxxxxx xxxxx xxxxxx.
 
@@ -400,7 +400,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxxxxx
+### -ProxyCredential
 Xxxxxxxxx x xxxx xxxxxxx xxxx xxx xxxxxxxxxx xx xxx xxx xxxxx xxxxxx xxxx xx xxxxxxxxx xx xxx Xxxxx xxxxxxxxx.
 Xxx xxxxxxx xx xxx xxxxxxx xxxx.
 
@@ -421,7 +421,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxXxxxxxxXxxxxxxxxxx
+### -ProxyUseDefaultCredentials
 Xxxx xxx xxxxxxxxxxx xx xxx xxxxxxx xxxx xx xxxxxx xxx xxxxx xxxxxx xxxx xx xxxxxxxxx xx xxx Xxxxx xxxxxxxxx.
 
 Xxxx xxxxxxxxx xx xxxxx xxxx xxxx xxx Xxxxx xxxxxxxxx xx xxxx xxxx xx xxx xxxxxxx.
@@ -439,7 +439,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxx
+### -SessionVariable
 Xxxxxxx x xxx xxxxxxx xxxxxxx xxx xxxxx xx xx xxx xxxxx xx xxx xxxxxxxxx xxxxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxx xxx xxxxxx xxxx $$$ xxxxxx.
 
@@ -469,7 +469,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxx
+### -TimeoutSec
 Xxxxxxxxx xxx xxxx xxx xxxxxxx xxx xx xxxxxxx xxxxxx xx xxxxx xxx.
 Xxxxx x xxxxx xx xxxxxxx.
 Xxx xxxxxxx xxxxx$ 0$ xxxxxxxxx xx xxxxxxxxxx xxxx$xxx.
@@ -489,7 +489,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxxxx
+### -TransferEncoding
 Xxxxxxxxx x xxxxx xxx xxx xxxxxxxx$xxxxxxxx XXXX xxxxxxxx xxxxxx.
 Xxxxx xxxxxx xxx Xxxxxxx$ Xxxxxxxx$ Xxxxxxx$ XXxx xxx Xxxxxxxx.
 
@@ -506,7 +506,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxx
+### -Uri
 Xxxxxxxxx xxx Xxxxxxx Xxxxxxxx Xxxxxxxxxx $XXX$ xx xxx Xxxxxxxx xxxxxxxx xx xxxxx xxx xxx xxxxxxx xx xxxx.
 Xxxx xxxxxxxxx xxxxxxxx XXXX$ XXXXX$ XXX$ xxx XXXX xxxxxx.
 
@@ -525,7 +525,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxxXxxxxxxxxxx
+### -UseDefaultCredentials
 Xxxx xxx xxxxxxxxxxx xx xxx xxxxxxx xxxx xx xxxx xxx xxx xxxxxxx.
 
 ```yaml
@@ -540,7 +540,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxx
+### -UserAgent
 Xxxxxxxxx x xxxx xxxxx xxxxxx xxx xxx xxx xxxxxxx.
 
 Xxx xxxxxxx xxxx xxxxx xx xxxxxxx xx $Xxxxxxx$0.0 $Xxxxxxx XX$ Xxxxxxx XX 0.0$ xx$XX$ XxxxxxxXxxxxXxxxx$0.0$ xxxx xxxxxx xxxxxxxxxx xxx xxxx xxxxxxxxx xxxxxx xxx xxxxxxxx.
@@ -563,7 +563,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxx
+### -WebSession
 Xxxxxxxxx x xxx xxxxxxx xxxxxxx.
 Xxxxx xxx xxxxxxxx xxxx$ xxxxxxxxx xxx xxxxxx xxxx $$$.
 
@@ -592,7 +592,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxXxxxxxx
+### -UseBasicParsing
 $$Xxxx XxxXxxxxXxxxxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -609,24 +609,24 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.Object
 Xxx xxx xxxx xxx xxxx xx x xxx xxxxxxx xx Xxxxxx$Xxxx$Xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxx.XxxXxxxxxxx$ Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxXxxXxxxxxxxXxxxxx$ Xxxxxx.Xxxxxx
+### System.Xml.XmlDocument, Microsoft.PowerShell.Commands.HtmlWebResponseObject, System.String
 Xxx xxxxxx xx xxx xxxxxx xxxxxxx xxxx xxx xxxxxx xx xxx xxxxxxx xxxx xx xxxxxxxxx.
 
-### XXXxxxxx
+### PSObject
 Xx xxx xxxxxxx xxxxxxx XXXX xxxxxxx$ Xxxxxx$XxxxXxxxxx xxxxxxx x XXXxxxxx xxxx xxxxxxxxxx xxx xxxxxxx.
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[XxxxxxxXx$Xxxx]()
+[ConvertTo-Json]()
 
-[XxxxxxxXxxx$Xxxx]()
+[ConvertFrom-Json]()
 
-[Xxxxxx$XxxXxxxxxx]()
+[Invoke-WebRequest]()
 

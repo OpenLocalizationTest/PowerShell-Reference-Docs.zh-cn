@@ -7,38 +7,37 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Import-AzureRmApiManagementHostnameCertificate
-## SYNOPSIS
-Imports a certificate in a PFX format for an API Management Service.
+## XXXXXXXX
+Xxxxxxx x xxxxxxxxxxx xx x XXX xxxxxx xxx xx XXX Xxxxxxxxxx Xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Import-AzureRmApiManagementHostnameCertificate [-PassThru] [-HostnameType] -Name <String> -PfxPassword <String>
  -PfxPath <String> -ResourceGroupName <String>
 ```
 
-## DESCRIPTION
-The **Import-AzureRmApiManagementHostnameCertificate** cmdlet imports a certificate in a PFX format for an API Management Service.
-The certificate is to be used for custom hostnames configuration.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxxXxxxxxxxxxx$$ xxxxxx xxxxxxx x xxxxxxxxxxx xx x XXX xxxxxx xxx xx XXX Xxxxxxxxxx Xxxxxxx.
+Xxx xxxxxxxxxxx xx xx xx xxxx xxx xxxxxx xxxxxxxxx xxxxxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Import a API Management hostname certificate
+### Xxxxxxx 0$ Xxxxxx x XXX Xxxxxxxxxx xxxxxxxx xxxxxxxxxxx
 ```
 PS C:\>Import-AzureRmApiManagementHostnameCertificate -Name "ContosoApi" -ResourceGroupName Contoso -HostnameType "Proxy" -PfxPath "C:\proxycert.pfx" -PfxPassword "CertSecret"
 ```
 
-This command imports a certificate for a proxy custom hostname.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxxxxx xxx x xxxxx xxxxxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -HostnameType
-Specifies the host name type that this cmdlet loads the certificate for.
+Xxxxxxxxx xxx xxxx xxxx xxxx xxxx xxxx xxxxxx xxxxx xxx xxxxxxxxxxx xxx.
 
-Valid values are: 
+Xxxxx xxxxxx xxx$ 
 
--- Proxy
--- Portal
+$$ Xxxxx $$ Xxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -54,7 +53,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the API Management deployment that this cmdlet imports.
+Xxxxxxxxx xxx xxxx xx xxx XXX Xxxxxxxxxx xxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -69,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-passthru
+xxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -84,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -PfxPassword
-Specifies the password for the .pfx certificate file.
+Xxxxxxxxx xxx xxxxxxxx xxx xxx .xxx xxxxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -99,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -PfxPath
-Specifies the path to a .pfx certificate file.
+Xxxxxxxxx xxx xxxx xx x .xxx xxxxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -114,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the of resource group under which the API Management deployment exists.
+Xxxxxxxxx xxx xxxx xx xxx xx xxxxxxxx xxxxx xxxxx xxxxx xxx XXX Xxxxxxxxxx xxxxxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -128,13 +127,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [New-AzureRmApiManagementHostnameConfiguration](73f73a6f-470c-4dd6-95c4-a1302fabb0dd)
 

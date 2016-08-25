@@ -6,25 +6,25 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxxxxxxxx
+# Get-AzureRmAutomationDscNodeConfiguration
 ## XXXXXXXX
 Xxxx xxxxxxxx xxx XXX xxxx xxxxxxxxxxxxxx xx Xxxxxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureRmAutomationDscNodeConfiguration [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-RollupStatus]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureRmAutomationDscNodeConfiguration [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  -Name <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 Get-AzureRmAutomationDscNodeConfiguration [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-RollupStatus] -ConfigurationName <String>
@@ -59,7 +59,7 @@ Xxxx xxxxxxx xxxx xxxxxxxx xxx x XXX xxxx xxxxxxxxxxxxx xxxx xxx xxxx XxxxxxxXxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxxx xxxxxxxx xxx XXX xxxx xxxxxxxxxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxx.
 
 ```yaml
@@ -74,7 +74,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxxxXxxx
+### -ConfigurationName
 Xxxxxxxxx xxx xxxx xx XXX xxxxxxxxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxx xxxxxxxxxxxxx xxxxxxxx.
 
 ```yaml
@@ -89,7 +89,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx XXX xxxx xxxxxxxxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxx.
 
 ```yaml
@@ -104,7 +104,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx.
 Xxxx xxxxxx xxxx xxxxxxxx xxx XXX xxxx xxxxxxxxxxxxxx xx xxx xxxxxxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -120,7 +120,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxx
+### -RollupStatus
 Xxxxxxxxx xxx xxxxxx xxxxxx xx XXX xxxx xxxxxxxxxxxxxx xxxx xxxx xxxxxx xxxx.
 Xxxxx xxxxxx xxx$ 
 
@@ -147,6 +147,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxxxxxxxx](0ef99c72-89fd-478d-850e-50ed5a0aba17)
+[Import-AzureRmAutomationDscNodeConfiguration](0ef99c72-89fd-478d-850e-50ed5a0aba17)
 
 

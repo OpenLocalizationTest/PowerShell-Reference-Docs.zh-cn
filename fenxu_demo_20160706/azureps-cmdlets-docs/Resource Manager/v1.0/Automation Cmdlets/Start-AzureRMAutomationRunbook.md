@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Start-AzureRMAutomationRunbook
-## SYNOPSIS
-Starts a runbook job.
+## XXXXXXXX
+Xxxxxx x xxxxxxx xxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -25,23 +25,23 @@ Start-AzureRMAutomationRunbook [-ResourceGroupName] <System.String> [-Automation
  [-RunOn <System.String>] [-Wait]
 ```
 
-## DESCRIPTION
-The **Start-AzureRmAutomationRunbook** cmdlet starts an azure_2 Automation runbook job.
-Specify the ID or name of a runbook.
+## XXXXXXXXXXX
+Xxx $$Xxxxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxxxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx xxx.
+Xxxxxxx xxx XX xx xxxx xx x xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Start a runbook job
+### Xxxxxxx 0$ Xxxxx x xxxxxxx xxx
 ```
 PS C:\>Start-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbk01" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command starts a runbook job for the runbook named Runbk01 in the Azure Automation account named Contoso17.
+Xxxx xxxxxxx xxxxxx x xxxxxxx xxx xxx xxx xxxxxxx xxxxx Xxxxx00 xx xxx Xxxxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: System.String
@@ -56,7 +56,7 @@ Accept wildcard characters: False
 ```
 
 ### -MaxWaitSeconds
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: System.Int32
@@ -71,7 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: System.String
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -Parameters
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: System.Collections.IDictionary
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: System.String
@@ -116,7 +116,7 @@ Accept wildcard characters: False
 ```
 
 ### -RunOn
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: System.String
@@ -131,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -Wait
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -145,15 +145,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
 ### Microsoft.Azure.Commands.Automation.Model.Job
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Export-AzureRmAutomationRunbook](614eee0d-f18e-4843-bed6-6cf43db59f75)
 

@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxxxxxxXxxxx
+# Remove-AzureStorageQueue
 ## XXXXXXXX
 Xxxxxxx x xxxxxxx xxxxx.
 
@@ -38,7 +38,7 @@ Xxxx xxxxxxx xxxxxxx xxx xxxxxx xxxx xxxxx xxxx xxxxx xxxx Xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xxx xxxxx$0 xxxxxxx xxxxxxx.
 Xx xxxxxx xxx xxxxxxx xxxxxxx$ xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -54,7 +54,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 xx$xxxxx
 
 ```yaml
@@ -69,7 +69,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxx xx xxxxxx.
 
 ```yaml
@@ -84,7 +84,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx x $$Xxxxxxx$$ xxxx xxxxxxxx xxx xxxxxxx xx xxx xxxxxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx x xxxxx.
 
@@ -100,7 +100,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -115,7 +115,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -138,8 +138,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxx](a89aa1b2-cabd-4048-a84d-2b37da287c05)
+[Get-AzureStorageQueue](a89aa1b2-cabd-4048-a84d-2b37da287c05)
 
-[Xxx$XxxxxXxxxxxxXxxxx](4b1216b7-40c6-418b-806e-63302d8ba4a1)
+[New-AzureStorageQueue](4b1216b7-40c6-418b-806e-63302d8ba4a1)
 
 

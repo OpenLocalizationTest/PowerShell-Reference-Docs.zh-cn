@@ -7,43 +7,43 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureRmAutomationAccount
-## SYNOPSIS
-Modifies an Automation account.
+## XXXXXXXX
+Xxxxxxxx xx Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureRmAutomationAccount [-ResourceGroupName] <String> [-Name] <String> [-Plan] [-Tags <IDictionary>]
 ```
 
-## DESCRIPTION
-The **Set-AzureRmAutomationAccount** cmdlet modifies an azure_2 Automation account.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx.
 
-For more information about Automation accounts, see the New-AzureRmAutomationAccount cmdlet.
+Xxx xxxx xxxxxxxxxxx xxxxx Xxxxxxxxxx xxxxxxxx$ xxx xxx Xxx$XxxxxXxXxxxxxxxxxXxxxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Set the tags for an Automation account
+### Xxxxxxx 0$ Xxx xxx xxxx xxx xx Xxxxxxxxxx xxxxxxx
 ```
 PS C:\>$Tags = @{"tag01"="value01";"tag02"="value02"}
 PS C:\> Set-AzureRmAutomationAccount -Name "AutomationAccount01" -ResourceGroupName "ResourceGroup01" -Tags $Tags
 ```
 
-The first command assigns two key/value pairs to the $Tags variable.
+Xxx xxxxx xxxxxxx xxxxxxx xxx xxx$xxxxx xxxxx xx xxx $Xxxx xxxxxxxx.
 
-The second command sets tags in $Tags for the Automation account named AutomationAccount01.
+Xxx xxxxxx xxxxxxx xxxx xxxx xx $Xxxx xxx xxx Xxxxxxxxxx xxxxxxx xxxxx XxxxxxxxxxXxxxxxx00.
 
-### Example 2: Change the plan for an Automation account
+### Xxxxxxx 0$ Xxxxxx xxx xxxx xxx xx Xxxxxxxxxx xxxxxxx
 ```
 PS C:\>Set-AzureRmAutomationAccount -Name "AutomationAccount01" -ResourceGroupName "ResourceGroup01" -Plan Basic
 ```
 
-This command changes the plan to Basic for the Automation account named AutomationAccount01.
+Xxxx xxxxxxx xxxxxxx xxx xxxx xx Xxxxx xxx xxx Xxxxxxxxxx xxxxxxx xxxxx XxxxxxxxxxXxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-Specifies the name of the Automation account that this cmdlet modifies.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -58,11 +58,10 @@ Accept wildcard characters: False
 ```
 
 ### -Plan
-Specifies the plan for the Automation account.
-Valid values are: 
+Xxxxxxxxx xxx xxxx xxx xxx Xxxxxxxxxx xxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Basic 
--- Free
+$$ Xxxxx $$ Xxxx
 
 ```yaml
 Type: SwitchParameter
@@ -78,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group that contains the Automation account that this cmdlet modifies.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxxx xxxxxxxx xxx Xxxxxxxxxx xxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -93,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-Specifies Automation account tags for the Automation account.
+Xxxxxxxxx Xxxxxxxxxx xxxxxxx xxxx xxx xxx Xxxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: IDictionary
@@ -107,13 +106,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationAccount](c9ec226d-3a4f-49d1-9b9f-df9d57bdfa43)
 

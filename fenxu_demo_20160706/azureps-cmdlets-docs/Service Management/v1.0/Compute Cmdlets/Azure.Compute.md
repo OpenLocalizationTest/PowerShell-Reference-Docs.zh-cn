@@ -9,398 +9,398 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Azure.Compute Module
-## Description
-{{Manually Enter Description Here}}
+## Xxxxxxxxxxx
+$$Xxxxxxxx Xxxxx Xxxxxxxxxxx Xxxx$$
 
-## Azure.Compute Cmdlets
-### [Add-AzureCacheWorkerRole](Add-AzureCacheWorkerRole.md)
-{{Manually Enter Add-AzureCacheWorkerRole Description Here}}
+## Xxxxx.Xxxxxxx Xxxxxxx
+### [Xxx$XxxxxXxxxxXxxxxxXxxx](Add-AzureCacheWorkerRole.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxXxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Add-AzureDjangoWebRole](Add-AzureDjangoWebRole.md)
-{{Manually Enter Add-AzureDjangoWebRole Description Here}}
+### [Xxx$XxxxxXxxxxxXxxXxxx](Add-AzureDjangoWebRole.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxXxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Add-AzureNodeWebRole](Add-AzureNodeWebRole.md)
-{{Manually Enter Add-AzureNodeWebRole Description Here}}
+### [Xxx$XxxxxXxxxXxxXxxx](Add-AzureNodeWebRole.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxXxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Add-AzureNodeWorkerRole](Add-AzureNodeWorkerRole.md)
-{{Manually Enter Add-AzureNodeWorkerRole Description Here}}
+### [Xxx$XxxxxXxxxXxxxxxXxxx](Add-AzureNodeWorkerRole.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxXxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Add-AzurePHPWebRole](Add-AzurePHPWebRole.md)
-{{Manually Enter Add-AzurePHPWebRole Description Here}}
+### [Xxx$XxxxxXXXXxxXxxx](Add-AzurePHPWebRole.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXXxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Add-AzurePHPWorkerRole](Add-AzurePHPWorkerRole.md)
-{{Manually Enter Add-AzurePHPWorkerRole Description Here}}
+### [Xxx$XxxxxXXXXxxxxxXxxx](Add-AzurePHPWorkerRole.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXXxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Add-AzureVMDataDisk](Add-AzureVMDataDisk.md)
-{{Manually Enter Add-AzureVMDataDisk Description Here}}
+### [Xxx$XxxxxXXXxxxXxxx](Add-AzureVMDataDisk.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Add-AzureVMNetworkInterface](Add-AzureVMNetworkInterface.md)
-{{Manually Enter Add-AzureVMNetworkInterface Description Here}}
+### [Xxx$XxxxxXXXxxxxxxXxxxxxxxx](Add-AzureVMNetworkInterface.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxXxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Add-AzureWebRole](Add-AzureWebRole.md)
-{{Manually Enter Add-AzureWebRole Description Here}}
+### [Xxx$XxxxxXxxXxxx](Add-AzureWebRole.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Add-AzureWorkerRole](Add-AzureWorkerRole.md)
-{{Manually Enter Add-AzureWorkerRole Description Here}}
+### [Xxx$XxxxxXxxxxxXxxx](Add-AzureWorkerRole.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Disable-AzureServiceProjectRemoteDesktop](Disable-AzureServiceProjectRemoteDesktop.md)
-{{Manually Enter Disable-AzureServiceProjectRemoteDesktop Description Here}}
+### [Xxxxxxx$XxxxxXxxxxxxXxxxxxxXxxxxxXxxxxxx](Disable-AzureServiceProjectRemoteDesktop.md)
+$$Xxxxxxxx Xxxxx Xxxxxxx$XxxxxXxxxxxxXxxxxxxXxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Disable-AzureWebsiteApplicationDiagnostic](Disable-AzureWebsiteApplicationDiagnostic.md)
-{{Manually Enter Disable-AzureWebsiteApplicationDiagnostic Description Here}}
+### [Xxxxxxx$XxxxxXxxxxxxXxxxxxxxxxxXxxxxxxxxx](Disable-AzureWebsiteApplicationDiagnostic.md)
+$$Xxxxxxxx Xxxxx Xxxxxxx$XxxxxXxxxxxxXxxxxxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Disable-AzureWebsiteDebug](Disable-AzureWebsiteDebug.md)
-{{Manually Enter Disable-AzureWebsiteDebug Description Here}}
+### [Xxxxxxx$XxxxxXxxxxxxXxxxx](Disable-AzureWebsiteDebug.md)
+$$Xxxxxxxx Xxxxx Xxxxxxx$XxxxxXxxxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Enable-AzureMemcacheRole](Enable-AzureMemcacheRole.md)
-{{Manually Enter Enable-AzureMemcacheRole Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxxXxxx](Enable-AzureMemcacheRole.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Enable-AzureServiceProjectRemoteDesktop](Enable-AzureServiceProjectRemoteDesktop.md)
-{{Manually Enter Enable-AzureServiceProjectRemoteDesktop Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxxxxxXxxxxxXxxxxxx](Enable-AzureServiceProjectRemoteDesktop.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxxxxxXxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Enable-AzureWebsiteApplicationDiagnostic](Enable-AzureWebsiteApplicationDiagnostic.md)
-{{Manually Enter Enable-AzureWebsiteApplicationDiagnostic Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxxxxxxxxxXxxxxxxxxx](Enable-AzureWebsiteApplicationDiagnostic.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxxxxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Enable-AzureWebsiteDebug](Enable-AzureWebsiteDebug.md)
-{{Manually Enter Enable-AzureWebsiteDebug Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxxx](Enable-AzureWebsiteDebug.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureAvailabilitySet](Get-AzureAvailabilitySet.md)
-{{Manually Enter Get-AzureAvailabilitySet Description Here}}
+### [Xxx$XxxxxXxxxxxxxxxxxXxx](Get-AzureAvailabilitySet.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureLocation](Get-AzureLocation.md)
-{{Manually Enter Get-AzureLocation Description Here}}
+### [Xxx$XxxxxXxxxxxxx](Get-AzureLocation.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureMediaServicesAccount](Get-AzureMediaServicesAccount.md)
-{{Manually Enter Get-AzureMediaServicesAccount Description Here}}
+### [Xxx$XxxxxXxxxxXxxxxxxxXxxxxxx](Get-AzureMediaServicesAccount.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxXxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureNetworkSecurityGroupConfig](Get-AzureNetworkSecurityGroupConfig.md)
-{{Manually Enter Get-AzureNetworkSecurityGroupConfig Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxxXxxxxXxxxxx](Get-AzureNetworkSecurityGroupConfig.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxxXxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureSBAuthorizationRule](Get-AzureSBAuthorizationRule.md)
-{{Manually Enter Get-AzureSBAuthorizationRule Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxxxxXxxx](Get-AzureSBAuthorizationRule.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureSBLocation](Get-AzureSBLocation.md)
-{{Manually Enter Get-AzureSBLocation Description Here}}
+### [Xxx$XxxxxXXXxxxxxxx](Get-AzureSBLocation.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureSBNamespace](Get-AzureSBNamespace.md)
-{{Manually Enter Get-AzureSBNamespace Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxx](Get-AzureSBNamespace.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureSchedulerJobCollection](Get-AzureSchedulerJobCollection.md)
-{{Manually Enter Get-AzureSchedulerJobCollection Description Here}}
+### [Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx](Get-AzureSchedulerJobCollection.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureSchedulerJobHistory](Get-AzureSchedulerJobHistory.md)
-{{Manually Enter Get-AzureSchedulerJobHistory Description Here}}
+### [Xxx$XxxxxXxxxxxxxxXxxXxxxxxx](Get-AzureSchedulerJobHistory.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxxxXxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureSchedulerJob](Get-AzureSchedulerJob.md)
-{{Manually Enter Get-AzureSchedulerJob Description Here}}
+### [Xxx$XxxxxXxxxxxxxxXxx](Get-AzureSchedulerJob.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureSchedulerLocation](Get-AzureSchedulerLocation.md)
-{{Manually Enter Get-AzureSchedulerLocation Description Here}}
+### [Xxx$XxxxxXxxxxxxxxXxxxxxxx](Get-AzureSchedulerLocation.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureServiceAntimalwareConfig](Get-AzureServiceAntimalwareConfig.md)
-{{Manually Enter Get-AzureServiceAntimalwareConfig Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxxxxxXxxxxx](Get-AzureServiceAntimalwareConfig.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureServiceProjectRoleRuntime](Get-AzureServiceProjectRoleRuntime.md)
-{{Manually Enter Get-AzureServiceProjectRoleRuntime Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxXxxxXxxxxxx](Get-AzureServiceProjectRoleRuntime.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxXxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-Cmdlet](New-Cmdlet.md)
-{{Manually Enter New-Cmdlet Description Here}}
+### [Xxx$Xxxxxx](New-Cmdlet.md)
+$$Xxxxxxxx Xxxxx Xxx$Xxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-Cmdlet](New-Cmdlet.md)
-{{Manually Enter New-Cmdlet Description Here}}
+### [Xxx$Xxxxxx](New-Cmdlet.md)
+$$Xxxxxxxx Xxxxx Xxx$Xxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureStoreAddOn](Get-AzureStoreAddOn.md)
-{{Manually Enter Get-AzureStoreAddOn Description Here}}
+### [Xxx$XxxxxXxxxxXxxXx](Get-AzureStoreAddOn.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxXxxXx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureWebHostingPlanMetric](Get-AzureWebHostingPlanMetric.md)
-{{Manually Enter Get-AzureWebHostingPlanMetric Description Here}}
+### [Xxx$XxxxxXxxXxxxxxxXxxxXxxxxx](Get-AzureWebHostingPlanMetric.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxXxxxxxxXxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureWebHostingPlan](Get-AzureWebHostingPlan.md)
-{{Manually Enter Get-AzureWebHostingPlan Description Here}}
+### [Xxx$XxxxxXxxXxxxxxxXxxx](Get-AzureWebHostingPlan.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxXxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureWebsiteDeployment](Get-AzureWebsiteDeployment.md)
-{{Manually Enter Get-AzureWebsiteDeployment Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxxxx](Get-AzureWebsiteDeployment.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureWebsiteJobHistory](Get-AzureWebsiteJobHistory.md)
-{{Manually Enter Get-AzureWebsiteJobHistory Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxXxxxxxx](Get-AzureWebsiteJobHistory.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureWebsiteJob](Get-AzureWebsiteJob.md)
-{{Manually Enter Get-AzureWebsiteJob Description Here}}
+### [Xxx$XxxxxXxxxxxxXxx](Get-AzureWebsiteJob.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureWebsiteLocation](Get-AzureWebsiteLocation.md)
-{{Manually Enter Get-AzureWebsiteLocation Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxx](Get-AzureWebsiteLocation.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureWebsiteLog](Get-AzureWebsiteLog.md)
-{{Manually Enter Get-AzureWebsiteLog Description Here}}
+### [Xxx$XxxxxXxxxxxxXxx](Get-AzureWebsiteLog.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureWebsiteMetric](Get-AzureWebsiteMetric.md)
-{{Manually Enter Get-AzureWebsiteMetric Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxx](Get-AzureWebsiteMetric.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-AzureWebsite](Get-AzureWebsite.md)
-{{Manually Enter Get-AzureWebsite Description Here}}
+### [Xxx$XxxxxXxxxxxx](Get-AzureWebsite.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-WAPackCloudService](Get-WAPackCloudService.md)
-{{Manually Enter Get-WAPackCloudService Description Here}}
+### [Xxx$XXXxxxXxxxxXxxxxxx](Get-WAPackCloudService.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-WAPackLogicalNetwork](Get-WAPackLogicalNetwork.md)
-{{Manually Enter Get-WAPackLogicalNetwork Description Here}}
+### [Xxx$XXXxxxXxxxxxxXxxxxxx](Get-WAPackLogicalNetwork.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-WAPackStaticIPAddressPool](Get-WAPackStaticIPAddressPool.md)
-{{Manually Enter Get-WAPackStaticIPAddressPool Description Here}}
+### [Xxx$XXXxxxXxxxxxXXXxxxxxxXxxx](Get-WAPackStaticIPAddressPool.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXxxxxxXXXxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-WAPackVMOSDisk](Get-WAPackVMOSDisk.md)
-{{Manually Enter Get-WAPackVMOSDisk Description Here}}
+### [Xxx$XXXxxxXXXXXxxx](Get-WAPackVMOSDisk.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXXXXXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-WAPackVMRole](Get-WAPackVMRole.md)
-{{Manually Enter Get-WAPackVMRole Description Here}}
+### [Xxx$XXXxxxXXXxxx](Get-WAPackVMRole.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXXXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-WAPackVMSizeProfile](Get-WAPackVMSizeProfile.md)
-{{Manually Enter Get-WAPackVMSizeProfile Description Here}}
+### [Xxx$XXXxxxXXXxxxXxxxxxx](Get-WAPackVMSizeProfile.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXXXxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-WAPackVMSubnet](Get-WAPackVMSubnet.md)
-{{Manually Enter Get-WAPackVMSubnet Description Here}}
+### [Xxx$XXXxxxXXXxxxxx](Get-WAPackVMSubnet.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXXXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-WAPackVMTemplate](Get-WAPackVMTemplate.md)
-{{Manually Enter Get-WAPackVMTemplate Description Here}}
+### [Xxx$XXXxxxXXXxxxxxxx](Get-WAPackVMTemplate.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXXXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Get-WAPackVM](Get-WAPackVM.md)
-{{Manually Enter Get-WAPackVM Description Here}}
+### [Xxx$XXXxxxXX](Get-WAPackVM.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXX Xxxxxxxxxxx Xxxx$$
 
-### [Get-WAPackVNet](Get-WAPackVNet.md)
-{{Manually Enter Get-WAPackVNet Description Here}}
+### [Xxx$XXXxxxXXxx](Get-WAPackVNet.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXXxx Xxxxxxxxxxx Xxxx$$
 
-### [New-Cmdlet](New-Cmdlet.md)
-{{Manually Enter New-Cmdlet Description Here}}
+### [Xxx$Xxxxxx](New-Cmdlet.md)
+$$Xxxxxxxx Xxxxx Xxx$Xxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureMediaServicesAccount](New-AzureMediaServicesAccount.md)
-{{Manually Enter New-AzureMediaServicesAccount Description Here}}
+### [Xxx$XxxxxXxxxxXxxxxxxxXxxxxxx](New-AzureMediaServicesAccount.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxXxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureMediaServicesKey](New-AzureMediaServicesKey.md)
-{{Manually Enter New-AzureMediaServicesKey Description Here}}
+### [Xxx$XxxxxXxxxxXxxxxxxxXxx](New-AzureMediaServicesKey.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxXxxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureRoleTemplate](New-AzureRoleTemplate.md)
-{{Manually Enter New-AzureRoleTemplate Description Here}}
+### [Xxx$XxxxxXxxxXxxxxxxx](New-AzureRoleTemplate.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureSBAuthorizationRule](New-AzureSBAuthorizationRule.md)
-{{Manually Enter New-AzureSBAuthorizationRule Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxxxxXxxx](New-AzureSBAuthorizationRule.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureSBNamespace](New-AzureSBNamespace.md)
-{{Manually Enter New-AzureSBNamespace Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxx](New-AzureSBNamespace.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureSchedulerHttpJob](New-AzureSchedulerHttpJob.md)
-{{Manually Enter New-AzureSchedulerHttpJob Description Here}}
+### [Xxx$XxxxxXxxxxxxxxXxxxXxx](New-AzureSchedulerHttpJob.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxxxXxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureSchedulerJobCollection](New-AzureSchedulerJobCollection.md)
-{{Manually Enter New-AzureSchedulerJobCollection Description Here}}
+### [Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx](New-AzureSchedulerJobCollection.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureSchedulerStorageQueueJob](New-AzureSchedulerStorageQueueJob.md)
-{{Manually Enter New-AzureSchedulerStorageQueueJob Description Here}}
+### [Xxx$XxxxxXxxxxxxxxXxxxxxxXxxxxXxx](New-AzureSchedulerStorageQueueJob.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxxxXxxxxxxXxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureServiceProject](New-AzureServiceProject.md)
-{{Manually Enter New-AzureServiceProject Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxx](New-AzureServiceProject.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-Cmdlet](New-Cmdlet.md)
-{{Manually Enter New-Cmdlet Description Here}}
+### [Xxx$Xxxxxx](New-Cmdlet.md)
+$$Xxxxxxxx Xxxxx Xxx$Xxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureStoreAddOn](New-AzureStoreAddOn.md)
-{{Manually Enter New-AzureStoreAddOn Description Here}}
+### [Xxx$XxxxxXxxxxXxxXx](New-AzureStoreAddOn.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxXxxXx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureWebsiteJob](New-AzureWebsiteJob.md)
-{{Manually Enter New-AzureWebsiteJob Description Here}}
+### [Xxx$XxxxxXxxxxxxXxx](New-AzureWebsiteJob.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [New-AzureWebsite](New-AzureWebsite.md)
-{{Manually Enter New-AzureWebsite Description Here}}
+### [Xxx$XxxxxXxxxxxx](New-AzureWebsite.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-WAPackCloudService](New-WAPackCloudService.md)
-{{Manually Enter New-WAPackCloudService Description Here}}
+### [Xxx$XXXxxxXxxxxXxxxxxx](New-WAPackCloudService.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-WAPackQuickVM](New-WAPackQuickVM.md)
-{{Manually Enter New-WAPackQuickVM Description Here}}
+### [Xxx$XXXxxxXxxxxXX](New-WAPackQuickVM.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXxxxxXX Xxxxxxxxxxx Xxxx$$
 
-### [New-WAPackStaticIPAddressPool](New-WAPackStaticIPAddressPool.md)
-{{Manually Enter New-WAPackStaticIPAddressPool Description Here}}
+### [Xxx$XXXxxxXxxxxxXXXxxxxxxXxxx](New-WAPackStaticIPAddressPool.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXxxxxxXXXxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-WAPackVMRole](New-WAPackVMRole.md)
-{{Manually Enter New-WAPackVMRole Description Here}}
+### [Xxx$XXXxxxXXXxxx](New-WAPackVMRole.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXXXxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-WAPackVMSubnet](New-WAPackVMSubnet.md)
-{{Manually Enter New-WAPackVMSubnet Description Here}}
+### [Xxx$XXXxxxXXXxxxxx](New-WAPackVMSubnet.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXXXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-WAPackVM](New-WAPackVM.md)
-{{Manually Enter New-WAPackVM Description Here}}
+### [Xxx$XXXxxxXX](New-WAPackVM.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXX Xxxxxxxxxxx Xxxx$$
 
-### [New-WAPackVNet](New-WAPackVNet.md)
-{{Manually Enter New-WAPackVNet Description Here}}
+### [Xxx$XXXxxxXXxx](New-WAPackVNet.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXXxx Xxxxxxxxxxx Xxxx$$
 
-### [Publish-AzureServiceProject](Publish-AzureServiceProject.md)
-{{Manually Enter Publish-AzureServiceProject Description Here}}
+### [Xxxxxxx$XxxxxXxxxxxxXxxxxxx](Publish-AzureServiceProject.md)
+$$Xxxxxxxx Xxxxx Xxxxxxx$XxxxxXxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Publish-AzureWebsiteProject](Publish-AzureWebsiteProject.md)
-{{Manually Enter Publish-AzureWebsiteProject Description Here}}
+### [Xxxxxxx$XxxxxXxxxxxxXxxxxxx](Publish-AzureWebsiteProject.md)
+$$Xxxxxxxx Xxxxx Xxxxxxx$XxxxxXxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureMediaServicesAccount](Remove-AzureMediaServicesAccount.md)
-{{Manually Enter Remove-AzureMediaServicesAccount Description Here}}
+### [Xxxxxx$XxxxxXxxxxXxxxxxxxXxxxxxx](Remove-AzureMediaServicesAccount.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxXxxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureSBAuthorizationRule](Remove-AzureSBAuthorizationRule.md)
-{{Manually Enter Remove-AzureSBAuthorizationRule Description Here}}
+### [Xxxxxx$XxxxxXXXxxxxxxxxxxxxXxxx](Remove-AzureSBAuthorizationRule.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXXXxxxxxxxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureSBNamespace](Remove-AzureSBNamespace.md)
-{{Manually Enter Remove-AzureSBNamespace Description Here}}
+### [Xxxxxx$XxxxxXXXxxxxxxxx](Remove-AzureSBNamespace.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXXXxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureSchedulerJobCollection](Remove-AzureSchedulerJobCollection.md)
-{{Manually Enter Remove-AzureSchedulerJobCollection Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx](Remove-AzureSchedulerJobCollection.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureSchedulerJob](Remove-AzureSchedulerJob.md)
-{{Manually Enter Remove-AzureSchedulerJob Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxxxXxx](Remove-AzureSchedulerJob.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureService](Remove-AzureService.md)
-{{Manually Enter Remove-AzureService Description Here}}
+### [Xxxxxx$XxxxxXxxxxxx](Remove-AzureService.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-Cmdlet](New-Cmdlet.md)
-{{Manually Enter New-Cmdlet Description Here}}
+### [Xxx$Xxxxxx](New-Cmdlet.md)
+$$Xxxxxxxx Xxxxx Xxx$Xxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureStoreAddOn](Remove-AzureStoreAddOn.md)
-{{Manually Enter Remove-AzureStoreAddOn Description Here}}
+### [Xxxxxx$XxxxxXxxxxXxxXx](Remove-AzureStoreAddOn.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxXxxXx Xxxxxxxxxxx Xxxx$$
 
-### [New-Cmdlet](New-Cmdlet.md)
-{{Manually Enter New-Cmdlet Description Here}}
+### [Xxx$Xxxxxx](New-Cmdlet.md)
+$$Xxxxxxxx Xxxxx Xxx$Xxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureVMMicrosoftAntimalwareExtension](Remove-AzureVMMicrosoftAntimalwareExtension.md)
-{{Manually Enter Remove-AzureVMMicrosoftAntimalwareExtension Description Here}}
+### [Xxxxxx$XxxxxXXXxxxxxxxxXxxxxxxxxxxXxxxxxxxx](Remove-AzureVMMicrosoftAntimalwareExtension.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXXXxxxxxxxxXxxxxxxxxxxXxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureWebsiteJob](Remove-AzureWebsiteJob.md)
-{{Manually Enter Remove-AzureWebsiteJob Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxx](Remove-AzureWebsiteJob.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-AzureWebsite](Remove-AzureWebsite.md)
-{{Manually Enter Remove-AzureWebsite Description Here}}
+### [Xxxxxx$XxxxxXxxxxxx](Remove-AzureWebsite.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-WAPackCloudService](Remove-WAPackCloudService.md)
-{{Manually Enter Remove-WAPackCloudService Description Here}}
+### [Xxxxxx$XXXxxxXxxxxXxxxxxx](Remove-WAPackCloudService.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XXXxxxXxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-WAPackStaticIPAddressPool](Remove-WAPackStaticIPAddressPool.md)
-{{Manually Enter Remove-WAPackStaticIPAddressPool Description Here}}
+### [Xxxxxx$XXXxxxXxxxxxXXXxxxxxxXxxx](Remove-WAPackStaticIPAddressPool.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XXXxxxXxxxxxXXXxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-WAPackVMRole](Remove-WAPackVMRole.md)
-{{Manually Enter Remove-WAPackVMRole Description Here}}
+### [Xxxxxx$XXXxxxXXXxxx](Remove-WAPackVMRole.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XXXxxxXXXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-WAPackVMSubnet](Remove-WAPackVMSubnet.md)
-{{Manually Enter Remove-WAPackVMSubnet Description Here}}
+### [Xxxxxx$XXXxxxXXXxxxxx](Remove-WAPackVMSubnet.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XXXxxxXXXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Remove-WAPackVM](Remove-WAPackVM.md)
-{{Manually Enter Remove-WAPackVM Description Here}}
+### [Xxxxxx$XXXxxxXX](Remove-WAPackVM.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XXXxxxXX Xxxxxxxxxxx Xxxx$$
 
-### [Remove-WAPackVNet](Remove-WAPackVNet.md)
-{{Manually Enter Remove-WAPackVNet Description Here}}
+### [Xxxxxx$XXXxxxXXxx](Remove-WAPackVNet.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XXXxxxXXxx Xxxxxxxxxxx Xxxx$$
 
-### [Restart-AzureWebsite](Restart-AzureWebsite.md)
-{{Manually Enter Restart-AzureWebsite Description Here}}
+### [Xxxxxxx$XxxxxXxxxxxx](Restart-AzureWebsite.md)
+$$Xxxxxxxx Xxxxx Xxxxxxx$XxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Restart-WAPackVM](Restart-WAPackVM.md)
-{{Manually Enter Restart-WAPackVM Description Here}}
+### [Xxxxxxx$XXXxxxXX](Restart-WAPackVM.md)
+$$Xxxxxxxx Xxxxx Xxxxxxx$XXXxxxXX Xxxxxxxxxxx Xxxx$$
 
-### [Restore-AzureWebsiteDeployment](Restore-AzureWebsiteDeployment.md)
-{{Manually Enter Restore-AzureWebsiteDeployment Description Here}}
+### [Xxxxxxx$XxxxxXxxxxxxXxxxxxxxxx](Restore-AzureWebsiteDeployment.md)
+$$Xxxxxxxx Xxxxx Xxxxxxx$XxxxxXxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Resume-WAPackVM](Resume-WAPackVM.md)
-{{Manually Enter Resume-WAPackVM Description Here}}
+### [Xxxxxx$XXXxxxXX](Resume-WAPackVM.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XXXxxxXX Xxxxxxxxxxx Xxxx$$
 
-### [Save-AzureServiceProjectPackage](Save-AzureServiceProjectPackage.md)
-{{Manually Enter Save-AzureServiceProjectPackage Description Here}}
+### [Xxxx$XxxxxXxxxxxxXxxxxxxXxxxxxx](Save-AzureServiceProjectPackage.md)
+$$Xxxxxxxx Xxxxx Xxxx$XxxxxXxxxxxxXxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Save-AzureWebsiteLog](Save-AzureWebsiteLog.md)
-{{Manually Enter Save-AzureWebsiteLog Description Here}}
+### [Xxxx$XxxxxXxxxxxxXxx](Save-AzureWebsiteLog.md)
+$$Xxxxxxxx Xxxxx Xxxx$XxxxxXxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureSBAuthorizationRule](Set-AzureSBAuthorizationRule.md)
-{{Manually Enter Set-AzureSBAuthorizationRule Description Here}}
+### [Xxx$XxxxxXXXxxxxxxxxxxxxXxxx](Set-AzureSBAuthorizationRule.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXXXxxxxxxxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureSchedulerHttpJob](Set-AzureSchedulerHttpJob.md)
-{{Manually Enter Set-AzureSchedulerHttpJob Description Here}}
+### [Xxx$XxxxxXxxxxxxxxXxxxXxx](Set-AzureSchedulerHttpJob.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxxxXxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureSchedulerJobCollection](Set-AzureSchedulerJobCollection.md)
-{{Manually Enter Set-AzureSchedulerJobCollection Description Here}}
+### [Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx](Set-AzureSchedulerJobCollection.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureSchedulerStorageQueueJob](Set-AzureSchedulerStorageQueueJob.md)
-{{Manually Enter Set-AzureSchedulerStorageQueueJob Description Here}}
+### [Xxx$XxxxxXxxxxxxxxXxxxxxxXxxxxXxx](Set-AzureSchedulerStorageQueueJob.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxxxXxxxxxxXxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [New-Cmdlet](New-Cmdlet.md)
-{{Manually Enter New-Cmdlet Description Here}}
+### [Xxx$Xxxxxx](New-Cmdlet.md)
+$$Xxxxxxxx Xxxxx Xxx$Xxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureServiceProjectRole](Set-AzureServiceProjectRole.md)
-{{Manually Enter Set-AzureServiceProjectRole Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxxXxxx](Set-AzureServiceProjectRole.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureServiceProject](Set-AzureServiceProject.md)
-{{Manually Enter Set-AzureServiceProject Description Here}}
+### [Xxx$XxxxxXxxxxxxXxxxxxx](Set-AzureServiceProject.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureStoreAddOn](Set-AzureStoreAddOn.md)
-{{Manually Enter Set-AzureStoreAddOn Description Here}}
+### [Xxx$XxxxxXxxxxXxxXx](Set-AzureStoreAddOn.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxXxxXx Xxxxxxxxxxx Xxxx$$
 
-### [New-Cmdlet](New-Cmdlet.md)
-{{Manually Enter New-Cmdlet Description Here}}
+### [Xxx$Xxxxxx](New-Cmdlet.md)
+$$Xxxxxxxx Xxxxx Xxx$Xxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-Cmdlet](New-Cmdlet.md)
-{{Manually Enter New-Cmdlet Description Here}}
+### [Xxx$Xxxxxx](New-Cmdlet.md)
+$$Xxxxxxxx Xxxxx Xxx$Xxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-Cmdlet](New-Cmdlet.md)
-{{Manually Enter New-Cmdlet Description Here}}
+### [Xxx$Xxxxxx](New-Cmdlet.md)
+$$Xxxxxxxx Xxxxx Xxx$Xxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-AzureWebsite](Set-AzureWebsite.md)
-{{Manually Enter Set-AzureWebsite Description Here}}
+### [Xxx$XxxxxXxxxxxx](Set-AzureWebsite.md)
+$$Xxxxxxxx Xxxxx Xxx$XxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-WAPackVMRole](Set-WAPackVMRole.md)
-{{Manually Enter Set-WAPackVMRole Description Here}}
+### [Xxx$XXXxxxXXXxxx](Set-WAPackVMRole.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXXXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Set-WAPackVM](Set-WAPackVM.md)
-{{Manually Enter Set-WAPackVM Description Here}}
+### [Xxx$XXXxxxXX](Set-WAPackVM.md)
+$$Xxxxxxxx Xxxxx Xxx$XXXxxxXX Xxxxxxxxxxx Xxxx$$
 
-### [Show-AzurePortal](Show-AzurePortal.md)
-{{Manually Enter Show-AzurePortal Description Here}}
+### [Xxxx$XxxxxXxxxxx](Show-AzurePortal.md)
+$$Xxxxxxxx Xxxxx Xxxx$XxxxxXxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Show-AzureWebsite](Show-AzureWebsite.md)
-{{Manually Enter Show-AzureWebsite Description Here}}
+### [Xxxx$XxxxxXxxxxxx](Show-AzureWebsite.md)
+$$Xxxxxxxx Xxxxx Xxxx$XxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Start-AzureEmulator](Start-AzureEmulator.md)
-{{Manually Enter Start-AzureEmulator Description Here}}
+### [Xxxxx$XxxxxXxxxxxxx](Start-AzureEmulator.md)
+$$Xxxxxxxx Xxxxx Xxxxx$XxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Start-AzureService](Start-AzureService.md)
-{{Manually Enter Start-AzureService Description Here}}
+### [Xxxxx$XxxxxXxxxxxx](Start-AzureService.md)
+$$Xxxxxxxx Xxxxx Xxxxx$XxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Start-AzureWebsiteJob](Start-AzureWebsiteJob.md)
-{{Manually Enter Start-AzureWebsiteJob Description Here}}
+### [Xxxxx$XxxxxXxxxxxxXxx](Start-AzureWebsiteJob.md)
+$$Xxxxxxxx Xxxxx Xxxxx$XxxxxXxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Start-AzureWebsite](Start-AzureWebsite.md)
-{{Manually Enter Start-AzureWebsite Description Here}}
+### [Xxxxx$XxxxxXxxxxxx](Start-AzureWebsite.md)
+$$Xxxxxxxx Xxxxx Xxxxx$XxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Start-WAPackVM](Start-WAPackVM.md)
-{{Manually Enter Start-WAPackVM Description Here}}
+### [Xxxxx$XXXxxxXX](Start-WAPackVM.md)
+$$Xxxxxxxx Xxxxx Xxxxx$XXXxxxXX Xxxxxxxxxxx Xxxx$$
 
-### [Stop-AzureEmulator](Stop-AzureEmulator.md)
-{{Manually Enter Stop-AzureEmulator Description Here}}
+### [Xxxx$XxxxxXxxxxxxx](Stop-AzureEmulator.md)
+$$Xxxxxxxx Xxxxx Xxxx$XxxxxXxxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Stop-AzureService](Stop-AzureService.md)
-{{Manually Enter Stop-AzureService Description Here}}
+### [Xxxx$XxxxxXxxxxxx](Stop-AzureService.md)
+$$Xxxxxxxx Xxxxx Xxxx$XxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Stop-AzureWebsiteJob](Stop-AzureWebsiteJob.md)
-{{Manually Enter Stop-AzureWebsiteJob Description Here}}
+### [Xxxx$XxxxxXxxxxxxXxx](Stop-AzureWebsiteJob.md)
+$$Xxxxxxxx Xxxxx Xxxx$XxxxxXxxxxxxXxx Xxxxxxxxxxx Xxxx$$
 
-### [Stop-AzureWebsite](Stop-AzureWebsite.md)
-{{Manually Enter Stop-AzureWebsite Description Here}}
+### [Xxxx$XxxxxXxxxxxx](Stop-AzureWebsite.md)
+$$Xxxxxxxx Xxxxx Xxxx$XxxxxXxxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Stop-WAPackVM](Stop-WAPackVM.md)
-{{Manually Enter Stop-WAPackVM Description Here}}
+### [Xxxx$XXXxxxXX](Stop-WAPackVM.md)
+$$Xxxxxxxx Xxxxx Xxxx$XXXxxxXX Xxxxxxxxxxx Xxxx$$
 
-### [Suspend-WAPackVM](Suspend-WAPackVM.md)
-{{Manually Enter Suspend-WAPackVM Description Here}}
+### [Xxxxxxx$XXXxxxXX](Suspend-WAPackVM.md)
+$$Xxxxxxxx Xxxxx Xxxxxxx$XXXxxxXX Xxxxxxxxxxx Xxxx$$
 
-### [Switch-AzureWebsiteSlot](Switch-AzureWebsiteSlot.md)
-{{Manually Enter Switch-AzureWebsiteSlot Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxx](Switch-AzureWebsiteSlot.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [Test-AzureName](Test-AzureName.md)
-{{Manually Enter Test-AzureName Description Here}}
+### [Xxxx$XxxxxXxxx](Test-AzureName.md)
+$$Xxxxxxxx Xxxxx Xxxx$XxxxxXxxx Xxxxxxxxxxx Xxxx$$
 
-### [New-Cmdlet](New-Cmdlet.md)
-{{Manually Enter New-Cmdlet Description Here}}
+### [Xxx$Xxxxxx](New-Cmdlet.md)
+$$Xxxxxxxx Xxxxx Xxx$Xxxxxx Xxxxxxxxxxx Xxxx$$
 
-### [Update-AzureWebsiteRepository](Update-AzureWebsiteRepository.md)
-{{Manually Enter Update-AzureWebsiteRepository Description Here}}
+### [Xxxxxx$XxxxxXxxxxxxXxxxxxxxxx](Update-AzureWebsiteRepository.md)
+$$Xxxxxxxx Xxxxx Xxxxxx$XxxxxXxxxxxxXxxxxxxxxx Xxxxxxxxxxx Xxxx$$
 
 

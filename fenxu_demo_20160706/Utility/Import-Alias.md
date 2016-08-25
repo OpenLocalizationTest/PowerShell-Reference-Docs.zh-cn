@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293981
 schema: 2.0.0
 ---
 
-# Xxxxxx$Xxxxx
+# Import-Alias
 ## XXXXXXXX
 Xxxxxxx xx xxxxx xxxx xxxx x xxxx.
 
 ## XXXXXX
 
-### XxXxxx $Xxxxxxx$
+### ByPath (Default)
 ```
 Import-Alias [-Path] <String> [-Scope <String>] [-PassThru] [-Force] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### XxXxxxxxxXxxx
+### ByLiteralPath
 ```
 Import-Alias -LiteralPath <String> [-Scope <String>] [-PassThru] [-Force]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf] [-Confirm]
@@ -39,7 +39,7 @@ Xxxx xxxxxxx xxxxxxx xxxxx xxxxxxxxxxx xxxx x xxxx xxxxx xxxx.xxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 Xxxxxx xxx xxxxxx xx xxxxxx xx xxxxx xxxx xx xxxxxxx xxxxxxx xx xx xxxx xxxx.
 Xxx xxx xxx xxx xxxxxxxxx xxxxxxx xx xxxxxxx xxxxxxxxxxx xxxxx xxx xxxxxxxxx$xxxxxxx xxxxxxx$
 
@@ -59,7 +59,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 xxx$xxxxx $ xxxxxx$xxxxxx xxxx$Xxxxxxx
 
 Xx xxx xxxxxxxxxxxxx xxxxx xx xxxx$xxxx$ xx xxxx xx xxxxxxxxx xx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx.
@@ -77,7 +77,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 xxx$xxxxx $ xxxxxx$xxxxxx xxxx$Xxxxxxx
 
 Xx xxx xxxxxxxxxxxxx xxxxx xx xxxx$xxxx$ xx xxxx xx xxxxxxxxx xx xxx xxxxx xx xxx Xxxxxxx xxxxxxxx.
@@ -94,7 +94,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -110,7 +110,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxxxx xxx xxxx xx x xxxx xxxx xxxxxxxx xxxxxxxx xxxxx xxxxxxxxxxx.
 Xxxxxxxxx xxx xxxxxxx xxx xxxx xxxx xxxxxxx xx x xxxxxx xxxx.
 
@@ -126,7 +126,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Scope
 Xxxxxxxxx xxx xxxxx xxxx xxxxx xxx xxxxxxx xxx xxxxxxxx.
 Xxxxx xxxxxx xxx $Xxxxxx$$ $Xxxxx$$ xx $Xxxxxx$$ xx x xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxx $0 xxxxxxx xxx xxxxxx xx xxxxxx$ xxxxx 0 xx xxx xxxxxxx xxxxx xxx 0 xx xxx xxxxxx$.
 $Xxxxx$ xx xxx xxxxxxx.
@@ -144,7 +144,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -LiteralPath
 Xxxxxxxxx xxx xxxx xx x xxxx xxxx xxxxxxxx xxxxxxxx xxxxx xxxxxxxxxxx.
 Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
 Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
@@ -163,7 +163,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -178,7 +178,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -197,12 +197,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx x xxxx xx Xxxxxx$Xxxxx.
 
 ## XXXXXXX
 
-### Xxxx xx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxXxxx
+### None or System.Management.Automation.AliasInfo
 Xxxx xxx xxx xxx Xxxxxxxx xxxxxxxxx$ Xxxxxx$Xxxxx xxxxxxx x Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxXxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxx.
 Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -210,11 +210,11 @@ Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$Xxxxx]()
+[Export-Alias]()
 
-[Xxx$Xxxxx]()
+[Get-Alias]()
 
-[Xxx$Xxxxx]()
+[New-Alias]()
 
-[Xxx$Xxxxx]()
+[Set-Alias]()
 

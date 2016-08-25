@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294017
 schema: 2.0.0
 ---
 
-# Xxxx$Xxxxxx
+# Sort-Object
 ## XXXXXXXX
 Xxxxx xxxxxxx xx xxxxxxxx xxxxxx.
 
@@ -181,7 +181,7 @@ Xxx xxxxxx xxxxxxx xxxx xxx Xxxx$Xxxxxx xxxxxx xxxx xxx Xxxxxx xxxxxxxxx xx xxxx
 
 ## XXXXXXXXXX
 
-### $XxxxXxxxxxxxx
+### -CaseSensitive
 Xxxxxxxxx xxxx xxx xxxx xxxxxx xx xxxx xxxxxxxxx.
 Xx xxxxxxx$ xxxxxxx xx xxx xxxx xxxxxxxxx.
 
@@ -197,7 +197,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Culture
 Xxxxxxxxx xxx xxxxxxxx xxxxxxxxxxxxx xx xxx xxxx xxxxxxx.
 
 ```yaml
@@ -212,7 +212,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxx
+### -Descending
 Xxxxx xxx xxxxxxx xx xxxxxxxxxx xxxxx.
 Xxx xxxxxxx xx xxxxxxxxx xxxxx.
 
@@ -234,7 +234,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -250,7 +250,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -265,7 +265,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxx xxxxxxx xx xx xxxxxx.
 
 Xxxx xxx xxx xxx XxxxxXxxxxx xxxxxxxxx xx xxxxxx x xxxxxxxxxx xx xxxxx$ Xxxx$Xxxxxx xxxxxxxx xxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxxxxx.
@@ -285,7 +285,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Property
 Xxxxxxxxx xxx xxxxxxxxxx xx xxx xxxx xxxxxxx.
 Xxxxxxx xxx xxxxxx xxxxx xx xxx xxxxxx xx xxxxx xxxxxxxxxx.
 Xxxxx xxx xxxxx xx xxx xxxxxxxxxx.
@@ -315,7 +315,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Unique
 Xxxxxxxxxx xxxxxxxxxx xxx xxxxxxx xxxx xxx xxxxxx xxxxxxx xx xxx xxxxxxxxxx.
 Xxx xxx xxx xxxx xxxxxxxxx xxxxxxx xx xxxxx xxx Xxx$Xxxxxx xxxxxx.
 
@@ -336,12 +336,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxx xxxxxxx xx xx xxxxxx xx Xxxx$Xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxxx$Xxxxxx xxxxxxx xxx xxxxxx xxxxxxx.
 
 ## XXXXX
@@ -359,5 +359,5 @@ Xxx xxxxxxx$ xx xxx xxxx xxxxxxxx xx xxxxxx$ xxxxxxxx xxxx x xxxxxx xx $Xxxxxxx$
 
 ## XXXXXXX XXXXX
 
-[Xxxxx$Xxxxxx]()
+[Group-Object]()
 

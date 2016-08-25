@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxXxxxxxxxXxxxxxx
+# Get-AzureMediaServicesAccount
 ## XXXXXXXX
 Xxxx xxx xxxxxxxxx Xxxxx Xxxxx Xxxxxxxx xxxxxxxx.
 
@@ -41,7 +41,7 @@ Xxxx xxxxxxx xxxxxxxx xxxxxxxxxx xx x Xxxxx Xxxxxxxx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 Xxx Xxxxx Xxxxxxxx xxxxxxx xxxx.
 
 ```yaml
@@ -64,6 +64,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx xx xxx Xxxxx XxxxxXxxxx xxx Xxxxx Xxxxxxxx](http://go.microsoft.com/fwlink/?LinkId=324179)
+[How to use Azure PowerShell for Media Services](http://go.microsoft.com/fwlink/?LinkId=324179)
 
 

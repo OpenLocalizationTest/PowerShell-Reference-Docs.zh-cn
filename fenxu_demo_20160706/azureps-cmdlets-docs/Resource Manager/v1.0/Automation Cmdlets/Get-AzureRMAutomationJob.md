@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureRMAutomationJob
-## SYNOPSIS
-Gets Automation runbook jobs.
+## XXXXXXXX
+Xxxx Xxxxxxxxxx xxxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -29,36 +29,36 @@ Get-AzureRMAutomationJob [-ResourceGroupName] <String> [-AutomationAccountName] 
  [-EndTime <DateTimeOffset]>] [-StartTime <DateTimeOffset]>] [-Status] -RunbookName <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationJob** cmdlet gets runbook jobs in azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxx$$ xxxxxx xxxx xxxxxxx xxxx xx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get a specific runbook job
+### Xxxxxxx 0$ Xxx x xxxxxxxx xxxxxxx xxx
 ```
 PS C:\>Get-AzureRmAutomationJob -AutomationAccountName "Contoso17" -Id 2989b069-24fe-40b9-b3bd-cb7e5eac4b647
 ```
 
-This command gets the job that has the specified GUID.
+Xxxx xxxxxxx xxxx xxx xxx xxxx xxx xxx xxxxxxxxx XXXX.
 
-### Example 2: Get all jobs for a runbook
+### Xxxxxxx 0$ Xxx xxx xxxx xxx x xxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationJob -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01" -RunbookName "Runbook02"
 ```
 
-This command gets all jobs associated with a runbook named Runbook02.
+Xxxx xxxxxxx xxxx xxx xxxx xxxxxxxxxx xxxx x xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 3: Get all running jobs
+### Xxxxxxx 0$ Xxx xxx xxxxxxx xxxx
 ```
 PS C:\>Get-AzureRmAutomationJob -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01" -Status "Running"
 ```
 
-This command gets all running jobs in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of an Automation account for which this cmdlet gets jobs.
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxx.
 
 ```yaml
 Type: String
@@ -73,9 +73,9 @@ Accept wildcard characters: False
 ```
 
 ### -EndTime
-Specifies the end time for a job as a **DateTimeOffset** object.
-You can specify a string that can be converted to a valid **DateTimeOffset**.
-This cmdlet gets jobs that have an end time at or before the value that this parameter specifies.
+Xxxxxxxxx xxx xxx xxxx xxx x xxx xx x $$XxxxXxxxXxxxxx$$ xxxxxx.
+Xxx xxx xxxxxxx x xxxxxx xxxx xxx xx xxxxxxxxx xx x xxxxx $$XxxxXxxxXxxxxx$$.
+Xxxx xxxxxx xxxx xxxx xxxx xxxx xx xxx xxxx xx xx xxxxxx xxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: DateTimeOffset]
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-Specifies the ID of a job that this cmdlet gets.
+Xxxxxxxxx xxx XX xx x xxx xxxx xxxx xxxxxx xxxx.
 
 ```yaml
 Type: Guid
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group in which this cmdlet gets jobs.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xx xxxxx xxxx xxxxxx xxxx xxxx.
 
 ```yaml
 Type: String
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -RunbookName
-Specifies the name of a runbook for which this cmdlet gets jobs.
+Xxxxxxxxx xxx xxxx xx x xxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxx.
 
 ```yaml
 Type: String
@@ -135,8 +135,8 @@ Accept wildcard characters: False
 ```
 
 ### -StartTime
-Specifies the start time of a job as a **DateTimeOffset** object.
-This cmdlet gets jobs that have a start time at or after the value that this parameter specifies.
+Xxxxxxxxx xxx xxxxx xxxx xx x xxx xx x $$XxxxXxxxXxxxxx$$ xxxxxx.
+Xxxx xxxxxx xxxx xxxx xxxx xxxx x xxxxx xxxx xx xx xxxxx xxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: DateTimeOffset]
@@ -151,21 +151,11 @@ Accept wildcard characters: False
 ```
 
 ### -Status
-Specifies the status of a job.
-This cmdlet gets jobs that have a status matching this parameter.
-Valid values are: 
+Xxxxxxxxx xxx xxxxxx xx x xxx.
+Xxxx xxxxxx xxxx xxxx xxxx xxxx x xxxxxx xxxxxxxx xxxx xxxxxxxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Activating
--- Completed
--- Failed
--- Queued
--- Resuming
--- Running
--- Starting
--- Stopped
--- Stopping
--- Suspended
--- Suspending
+$$ Xxxxxxxxxx $$ Xxxxxxxxx $$ Xxxxxx $$ Xxxxxx $$ Xxxxxxxx $$ Xxxxxxx $$ Xxxxxxxx $$ Xxxxxxx $$ Xxxxxxxx $$ Xxxxxxxxx $$ Xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -180,15 +170,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
 ### Microsoft.Azure.Commands.Automation.Model.Job
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationJobOutput](03d80a68-8443-42e0-87bc-5d0e22ac3a57)
 

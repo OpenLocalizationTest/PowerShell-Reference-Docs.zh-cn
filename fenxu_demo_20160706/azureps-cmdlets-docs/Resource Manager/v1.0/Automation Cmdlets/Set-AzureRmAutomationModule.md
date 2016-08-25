@@ -7,49 +7,48 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureRmAutomationModule
-## SYNOPSIS
-Updates a module in Automation.
+## XXXXXXXX
+Xxxxxxx x xxxxxx xx Xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Set-AzureRmAutomationModule [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  [-ContentLinkUri <Uri>] [-ContentLinkVersion <String>]
 ```
 
-## DESCRIPTION
-The **Set-AzureRmAutomationModule** cmdlet updates a module in azure_2 Automation.
-This command accepts a compressed file that has a .zip file name extension.
-The file contains a folder that includes a file that is one of the following types: 
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxx$$ xxxxxx xxxxxxx x xxxxxx xx xxxxx$0 Xxxxxxxxxx.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxxxx xxxx xxxx xxx x .xxx xxxx xxxx xxxxxxxxx.
+Xxx xxxx xxxxxxxx x xxxxxx xxxx xxxxxxxx x xxxx xxxx xx xxx xx xxx xxxxxxxxx xxxxx$ 
 
--- wps_2 module, which has a .psm1 or .dll file name extension 
--- wps_2 module manifest, which has a .psd1 file name extension
+$$ xxx$0 xxxxxx$ xxxxx xxx x .xxx0 xx .xxx xxxx xxxx xxxxxxxxx $$ xxx$0 xxxxxx xxxxxxxx$ xxxxx xxx x .xxx0 xxxx xxxx xxxxxxxxx
 
-The name of the .zip file, the name of the folder, and the name of the file in the folder must be the same.
+Xxx xxxx xx xxx .xxx xxxx$ xxx xxxx xx xxx xxxxxx$ xxx xxx xxxx xx xxx xxxx xx xxx xxxxxx xxxx xx xxx xxxx.
 
-Specify the .zip file as a URL that the Automation service can access.
+Xxxxxxx xxx .xxx xxxx xx x XXX xxxx xxx Xxxxxxxxxx xxxxxxx xxx xxxxxx.
 
-If you import a wps_2 module into Automation by using this cmdlet or the New-AzureRmAutomationModule cmdlet, the operation is asynchronous.
-The command finishes whether the import succeeds or fails.
-To check whether it succeeded, run the following command:
+Xx xxx xxxxxx x xxx$0 xxxxxx xxxx Xxxxxxxxxx xx xxxxx xxxx xxxxxx xx xxx Xxx$XxxxxXxXxxxxxxxxxXxxxxx xxxxxx$ xxx xxxxxxxxx xx xxxxxxxxxxxx.
+Xxx xxxxxxx xxxxxxxx xxxxxxx xxx xxxxxx xxxxxxxx xx xxxxx.
+Xx xxxxx xxxxxxx xx xxxxxxxxx$ xxx xxx xxxxxxxxx xxxxxxx$
 
-\[CODE_Snippit\]PS C:\\\> $ModuleInstance = Get-AzureRmAutomationModule -Name \[CODE_Snippit\]ModuleName
+\[XXXX$Xxxxxxx$$XX X$$$$$ $XxxxxxXxxxxxxx $ Xxx$XxxxxXxXxxxxxxxxxXxxxxx $Xxxx $$XXXX$Xxxxxxx$$XxxxxxXxxx
 
-Check the **ProvisioningState** property for a value of Succeeded.
+Xxxxx xxx $$XxxxxxxxxxxxXxxxx$$ xxxxxxxx xxx x xxxxx xx Xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Update a module
+### Xxxxxxx 0$ Xxxxxx x xxxxxx
 ```
 PS C:\>Set-AzureRmAutomationModule -AutomationAccountName "Contoso17" -Name "ContosoModule" -ContentLinkUri ".\ContosoModule.zip" -ContentLinkVersion "1.1" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command imports an updated version of an existing module named ContosoModule into the Automation account named Contoso17.
+Xxxx xxxxxxx xxxxxxx xx xxxxxxx xxxxxxx xx xx xxxxxxxx xxxxxx xxxxx XxxxxxxXxxxxx xxxx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account for which this cmdlet updates a module.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxx.
 
 ```yaml
 Type: String
@@ -64,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -ContentLinkUri
-Specifies the URL of the .zip file that contains the new version of a module that this cmdlet imports.
+Xxxxxxxxx xxx XXX xx xxx .xxx xxxx xxxx xxxxxxxx xxx xxx xxxxxxx xx x xxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: Uri
@@ -79,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -ContentLinkVersion
-Specifies the version of the module to which this cmdlet updates Automation.
+Xxxxxxxxx xxx xxxxxxx xx xxx xxxxxx xx xxxxx xxxx xxxxxx xxxxxxx Xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -94,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the module that this cmdlet imports.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -109,7 +108,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet updates a module.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxx.
 
 ```yaml
 Type: String
@@ -123,13 +122,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationModule](68762a05-73e2-4987-aac6-1021282cdad7)
 

@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx
+# Set-AzureSchedulerJobCollection
 ## XXXXXXXX
 Xxxxxxx x xxxxxxxxx xxx xxxxxxxxxx.
 
@@ -34,7 +34,7 @@ Xxxx xxxxxxx xxxxxxx xxx xxxxxxx xxx xxxxx xx 00 xx xxx xxxxxxxx xxxxxxxxx xxx x
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxx
+### -Frequency
 Xxxxxxxxx xxx xxxxxxx xxxxxxxxx xxxx xxx xx xxxxxxxxx xx xxx xxx xx xxxx xxxxxxxxx xxx xxxxxxxxxx.
 
 ```yaml
@@ -49,7 +49,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Interval
 Xxxxxxxxx xxx xxxxxxxx xx xxxxxxxxxx xx xxx xxxxxxxxx xxxxxxxxx xx xxxxx xxx Xxxxxxxxx xxxxxxxxx.
 
 ```yaml
@@ -64,7 +64,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxxxxxXxxx
+### -JobCollectionName
 Xxxxxxxxx xxx xxxx xx xxxxxxxxx xxx xxxxxxxxxx xx xxxxxx.
 
 ```yaml
@@ -79,7 +79,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Location
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxxx xxx xxxxx xxxxxxx.
 Xxxxx xxxxxx xxx$ 
 
@@ -97,7 +97,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxXxxxx
+### -MaxJobCount
 Xxxxxxxxx xxx xxxxxxx xxxxxx xx xxxx xxxx xxx xx xxxxxxx xx xxx xxxxxxxxx xxx xxxxxxxxxx.
 
 ```yaml
@@ -112,7 +112,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxx xx xxxxx xx xxxxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -128,7 +128,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Plan
 Xxxxxxxxx xxx xxxxxxxxx xxx xxxxxxxxxx xxxx.
 
 ```yaml
@@ -151,10 +151,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx](1f6e64a2-021e-4ad7-93a4-9e1138607f01)
+[Get-AzureSchedulerJobCollection](1f6e64a2-021e-4ad7-93a4-9e1138607f01)
 
-[Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx](ac55e6be-eb22-4b33-afac-beb371fbbd32)
+[New-AzureSchedulerJobCollection](ac55e6be-eb22-4b33-afac-beb371fbbd32)
 
-[Xxxxxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx](fc46c4d9-4116-4760-9884-3e5ee1bc66f5)
+[Remove-AzureSchedulerJobCollection](fc46c4d9-4116-4760-9884-3e5ee1bc66f5)
 
 

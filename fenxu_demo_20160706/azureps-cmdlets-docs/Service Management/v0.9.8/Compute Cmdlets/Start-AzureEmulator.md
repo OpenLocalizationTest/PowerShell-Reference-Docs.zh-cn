@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxx$XxxxxXxxxxxxx
+# Start-AzureEmulator
 ## XXXXXXXX
 Xxxxxx xxx xxxxxxx xxx xxxxxxx xxxxxxxxx.
 
@@ -33,7 +33,7 @@ Xxxx xxxxxxx xxxx xxx xxxxxxx xx xxx Xxxxx xxxxxxxx xxx xxxxxxxx x xxx xxxxxxx x
 
 ## XXXXXXXXXX
 
-### $Xxxxxx
+### -Launch
 Xxxxx x xxx xxxxxxx xxxxxx xx xxx xxxxxxx xxxxx xxxxxxx xx xx xxx xxxxxxxx.
 
 ```yaml
@@ -48,7 +48,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Mode
 Xxxxxxxxx xxx xxxxxxxx xxxx.
 Xxxxx xxxxxx xxx$ Xxxx xxx Xxxxxxx.
 Xxx xxxxxxx xxxxx xx Xxxxxxx.
@@ -74,10 +74,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
+[New-AzureServiceProject](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
 
-[Xxxxxxx$XxxxxXxxxxxxXxxxxxx](4c0c0966-919e-49a6-9d38-c3c97355e281)
+[Publish-AzureServiceProject](4c0c0966-919e-49a6-9d38-c3c97355e281)
 
-[Xxxx$XxxxxXxxxxxxx](91532648-9270-4b03-bd43-6fb7259a0df3)
+[Stop-AzureEmulator](91532648-9270-4b03-bd43-6fb7259a0df3)
 
 

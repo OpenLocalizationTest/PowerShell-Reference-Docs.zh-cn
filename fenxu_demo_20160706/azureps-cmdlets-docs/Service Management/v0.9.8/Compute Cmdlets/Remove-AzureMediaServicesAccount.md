@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxxxxXxxxxxxxXxxxxxx
+# Remove-AzureMediaServicesAccount
 ## XXXXXXXX
 Xxxxxxx xxx xxxxxxxxx Xxxxx Xxxxx Xxxxxxxx xxxxxxx.
 
@@ -31,7 +31,7 @@ PS C:\> Remove-AzureMediaServicesAccount -Name "mediaservicesaccount" -Force
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 Xx xxx $$$Xxxxx xxxxxx xx xxxxxxxxx$ xxx xxxxxxxx xx xxx xxxxxxxxx.
 
 ```yaml
@@ -46,7 +46,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxx Xxxxx Xxxxxxxx xxxxxxx xxxx.
 
 ```yaml
@@ -61,7 +61,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -76,7 +76,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -101,6 +101,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx xx xxx Xxxxx XxxxxXxxxx xxx Xxxxx Xxxxxxxx](http://go.microsoft.com/fwlink/?LinkId=324179)
+[How to use Azure PowerShell for Media Services](http://go.microsoft.com/fwlink/?LinkId=324179)
 
 

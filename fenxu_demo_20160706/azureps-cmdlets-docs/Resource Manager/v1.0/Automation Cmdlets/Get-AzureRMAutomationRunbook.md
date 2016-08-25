@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureRMAutomationRunbook
-## SYNOPSIS
-Gets a runbook.
+## XXXXXXXX
+Xxxx x xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -22,23 +22,23 @@ Get-AzureRMAutomationRunbook [-ResourceGroupName] <String> [-AutomationAccountNa
 Get-AzureRMAutomationRunbook [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationRunbook** cmdlet gets azure_2 Automation runbooks.
-To get a specific runbook, specify its name.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxx xxxxx$0 Xxxxxxxxxx xxxxxxxx.
+Xx xxx x xxxxxxxx xxxxxxx$ xxxxxxx xxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all runbooks
+### Xxxxxxx 0$ Xxx xxx xxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command gets all runbooks in the azure_2 Automation account named Contoso17.
+Xxxx xxxxxxx xxxx xxx xxxxxxxx xx xxx xxxxx$0 Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of an Automation account in which this cmdlet gets runbooks.
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -53,7 +53,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of a runbook that this cmdlet gets.
+Xxxxxxxxx xxx xxxx xx x xxxxxxx xxxx xxxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -68,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet gets runbooks.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -82,15 +82,15 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
 ### Microsoft.Azure.Commands.Automation.Model.Runbook
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Export-AzureRmAutomationRunbook](614eee0d-f18e-4843-bed6-6cf43db59f75)
 

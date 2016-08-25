@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxx$XxxxxXxxxxxxx
+# Stop-AzureEmulator
 ## XXXXXXXX
 Xxxxx xxx xxxxxxx xxxxxxxx.
 
@@ -32,7 +32,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $XxxxXxxx
+### -PassThru
 $$Xxxx$$
 
 ```yaml
@@ -55,6 +55,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxx$XxxxxXxxxxxxx](219045a4-a7b6-4c26-9e5f-8656fde0764b)
+[Start-AzureEmulator](219045a4-a7b6-4c26-9e5f-8656fde0764b)
 
 

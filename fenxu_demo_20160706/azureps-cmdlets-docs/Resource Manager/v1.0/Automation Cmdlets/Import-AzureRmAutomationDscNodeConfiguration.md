@@ -7,35 +7,35 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Import-AzureRmAutomationDscNodeConfiguration
-## SYNOPSIS
-Imports a MOF document as a DSC node configuration in Automation.
+## XXXXXXXX
+Xxxxxxx x XXX xxxxxxxx xx x XXX xxxx xxxxxxxxxxxxx xx Xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Import-AzureRmAutomationDscNodeConfiguration [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Force] -ConfigurationName <String> -Path <String> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Import-AzureRmAutomationDscConfiguration** cmdlet imports a Managed Object Format (MOF) configuration document into azure_2 Automation as a Desired State Configuration (DSC) node configuration.
-Specify the path of a .mof file.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx$$ xxxxxx xxxxxxx x Xxxxxxx Xxxxxx Xxxxxx $XXX$ xxxxxxxxxxxxx xxxxxxxx xxxx xxxxx$0 Xxxxxxxxxx xx x Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxx xxxxxxxxxxxxx.
+Xxxxxxx xxx xxxx xx x .xxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Import a DSC node configuration into Automation
+### Xxxxxxx 0$ Xxxxxx x XXX xxxx xxxxxxxxxxxxx xxxx Xxxxxxxxxx
 ```
 PS C:\>Import-AzureRmAutomationDscConfiguration -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01" -ConfigurationName "ContosoConfiguration" -Path "C:\DSC\webserver.mof" -Force
 ```
 
-This command imports a DSC node configuration from the file named webserver.mof into the Automation account named Contoso17, under the DSC configuration ContosoConfiguration.
-The command specifies the *Force* parameter.
-If there is an existing DSC node configuration named ContosoConfiguration.webserver, this command replaces it.
+Xxxx xxxxxxx xxxxxxx x XXX xxxx xxxxxxxxxxxxx xxxx xxx xxxx xxxxx xxxxxxxxx.xxx xxxx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00$ xxxxx xxx XXX xxxxxxxxxxxxx XxxxxxxXxxxxxxxxxxxx.
+Xxx xxxxxxx xxxxxxxxx xxx $Xxxxx$ xxxxxxxxx.
+Xx xxxxx xx xx xxxxxxxx XXX xxxx xxxxxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxxxxx.xxxxxxxxx$ xxxx xxxxxxx xxxxxxxx xx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account into which this cmdlet imports a DSC node configuration.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxx xxxx xxxxxx xxxxxxx x XXX xxxx xxxxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -50,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConfigurationName
-Specifies the name of a DSC configuration in Automation to use as the namespace and container for the node configuration to import.
+Xxxxxxxxx xxx xxxx xx x XXX xxxxxxxxxxxxx xx Xxxxxxxxxx xx xxx xx xxx xxxxxxxxx xxx xxxxxxxxx xxx xxx xxxx xxxxxxxxxxxxx xx xxxxxx.
 
 ```yaml
 Type: String
@@ -65,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-Indicates that this cmdlet replaces an existing DSC node configuration in Automation.
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx xx xxxxxxxx XXX xxxx xxxxxxxxxxxxx xx Xxxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -80,7 +80,7 @@ Accept wildcard characters: False
 ```
 
 ### -Path
-Specifies the path of the MOF configuration document that this cmdlet imports.
+Xxxxxxxxx xxx xxxx xx xxx XXX xxxxxxxxxxxxx xxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -95,7 +95,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet imports a DSC node configuration.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x XXX xxxx xxxxxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -125,7 +125,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -139,13 +139,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Export-AzureRmAutomationDscConfiguration](091cd841-4aaf-45de-a8f2-6f973fb9c91b)
 

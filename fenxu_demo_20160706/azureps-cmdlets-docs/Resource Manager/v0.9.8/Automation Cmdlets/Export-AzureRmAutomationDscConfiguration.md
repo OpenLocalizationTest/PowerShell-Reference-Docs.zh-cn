@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx
+# Export-AzureRmAutomationDscConfiguration
 ## XXXXXXXX
 Xxxxxxx x XXX xxxxxxxxxxxxx xxxx Xxxxxxxxxx xx x xxxxx xxxx.
 
@@ -32,7 +32,7 @@ Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxx xxxxxxx xx x XXX xxxxxxxxxxxxx xx Xxxxxxxxxx 
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxxxxx xxx XXX xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -47,7 +47,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx xx xxxxxxxx xxxxx xxxx xxxx x xxx xxxx xxxx xxx xxx xxxx xxxx.
 
 ```yaml
@@ -62,7 +62,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx XXX xxxxxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -77,7 +77,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxx
+### -OutputFolder
 Xxxxxxxxx xxx xxxxxx xxxxxx xxxxx xxxx xxxxxx xxxxxxx xxx XXX xxxxxxxxxxxxx.
 
 ```yaml
@@ -92,7 +92,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x XXX xxxxxxxxxxxxx.
 
 ```yaml
@@ -107,7 +107,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxxxxxxxx xxxxx xxxxxxx xx xxx XXX xxxxxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 Xxxxx xxxxxx xxx$ 
 
@@ -128,7 +128,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -143,7 +143,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -166,8 +166,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](cd411497-be17-46f7-8708-519f02312553)
+[Get-AzureRmAutomationDscConfiguration](cd411497-be17-46f7-8708-519f02312553)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](9e316628-0101-4da8-8a9f-843f8442e52d)
+[Import-AzureRmAutomationDscConfiguration](9e316628-0101-4da8-8a9f-843f8442e52d)
 
 

@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXXxxXxxx
+# Add-AzurePHPWebRole
 ## XXXXXXXX
 Xxxxxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx $xxxxxxxxx xxxxxxxx xx xx xxxxxxxxxxx$ xxx x XXX xxxxxxxxxxx.
 
@@ -40,7 +40,7 @@ Xxxx xxxxxxx xxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx xxx x xxx xxx xxxx xx xxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxx
+### -Instances
 Xxxxxxxxx xxx xxxxxx xx xxxx xxxxxxxxx xxx xxxx xxx xxxx.
 Xxx xxxxxxx xx 0.
 
@@ -56,7 +56,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxx xxxx.
 Xxx xxxx xxxxxxxxxx xxx xxxx xx xxx xxxxxxxxx xxxx xxxxxxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx xxx xxx XXX xxxxxxxxxxx.
 Xxx xxxxxxx xx XxxXxxx$$ xxxxx $ xx xxx xxxxxx xx xxx xxxxx xx xxx xxxxxxx.
@@ -81,8 +81,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXXXXxxxxxXxxx](4759ce95-bb7a-46f0-8125-2a1966f572d4)
+[Add-AzurePHPWorkerRole](4759ce95-bb7a-46f0-8125-2a1966f572d4)
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
+[New-AzureServiceProject](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
 
 

@@ -7,31 +7,31 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Start-AzureWebsiteJob
-## SYNOPSIS
-Starts a web job for a website
+## XXXXXXXX
+Xxxxxx x xxx xxx xxx x xxxxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 Start-AzureWebsiteJob [[-Name] <String>] [-PassThru] [-Slot <String>] -JobName <String> [-JobType]
 ```
 
-## DESCRIPTION
-Starts a web job for a website
+## XXXXXXXXXXX
+Xxxxxx x xxx xxx xxx x xxxxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Start a web job for a website --------------
+### $$$$$$$$$$$$$$  Xxxxx x xxx xxx xxx x xxxxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Start-AzureWebsiteJob -Name MyWebsite -JobName MyWebJob -JobType Continuous
 ```
 
-Starts a web job called MyWebJob for MyWebSite
+Xxxxxx x xxx xxx xxxxxx XxXxxXxx xxx XxXxxXxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -JobName
-The web job name
+Xxx xxx xxx xxxx
 
 ```yaml
 Type: String
@@ -46,8 +46,8 @@ Accept wildcard characters: False
 ```
 
 ### -JobType
-The web job type.
-Can be 'triggered' or 'continuous'
+Xxx xxx xxx xxxx.
+Xxx xx $xxxxxxxxx$ xx $xxxxxxxxxx$
 
 ```yaml
 Type: SwitchParameter
@@ -63,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the Azure website
+Xxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -78,8 +78,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Returns a boolean value indicating that the job started successfully.
-By default, this cmdlet does not return any output.
+Xxxxxxx x xxxxxxx xxxxx xxxxxxxxxx xxxx xxx xxx xxxxxxx xxxxxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-The slot name of the Azure website
+Xxx xxxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -108,13 +108,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Start-AzureWebsite](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
 

@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxxxXxxx
+# Get-AzureRmAutomationRegistrationInfo
 ## XXXXXXXX
 Xxxx xxxxxxxxxxxx xxxxxxxxxxx xxx xxxxxxxxxx x XXX xxxx xx xxxxxx xxxxxx xx Xxxxxxxxxx.
 
@@ -30,7 +30,7 @@ Xxxx xxxxxxx xxxx xxx xxxxxxxxxxxx xxxxxxxxxxx xxx xxx Xxxxxxxxxx xxxxxxx xxxxx 
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxxxxxxx xxxxxxxxxxx.
 
 ```yaml
@@ -45,7 +45,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx.
 Xxxx xxxxxx xxxx xxxxxxxxxxxx xxxxxxxxxxx xxx xxx xxxxxxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -69,10 +69,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxx](c9ec226d-3a4f-49d1-9b9f-df9d57bdfa43)
+[Get-AzureRmAutomationAccount](c9ec226d-3a4f-49d1-9b9f-df9d57bdfa43)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxXxxx](19472f94-5827-4878-a17a-d7bb10932861)
+[Get-AzureRmAutomationDscNode](19472f94-5827-4878-a17a-d7bb10932861)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxx](3af84baf-d40e-43eb-a709-6f7caf657846)
+[New-AzureRmAutomationKey](3af84baf-d40e-43eb-a709-6f7caf657846)
 
 

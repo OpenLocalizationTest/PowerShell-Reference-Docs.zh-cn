@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294006
 schema: 2.0.0
 ---
 
-# Xxxxxx$Xxxxxxxx
+# Remove-Variable
 ## XXXXXXXX
 Xxxxxxx x xxxxxxxx xxx xxx xxxxx.
 
@@ -30,7 +30,7 @@ Xxxx xxxxxxx xxxxxxx xxx $Xxx xxxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Exclude
 Xxxxx xxx xxxxxxxxx xxxxx.
 Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx Xxxx xxxxxxxxx.
 Xxxxx x xxxx xxxxxxx xx xxxxxxx$ xxxx xx $x$$.
@@ -48,7 +48,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 Xxxxxx xxx xxxxxx xx xxxxxx x xxxxxxxx xxxx xx xx xx xxxx$xxxx.
 Xxxx xxxxx xxx Xxxxx xxxxxxxxx$ xxx xxxxxx xxxxxx xxxxxx x xxxxxxxx.
 
@@ -64,7 +64,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Include
 Xxxxxxx xxxx xxx xxxxxxxxx xxxxx.
 Xxx xxxxx xx xxxx xxxxxxxxx xxxxxxxxx xxx Xxxx xxxxxxxxx.
 Xxxxx x xxxx xxxxxxx xx xxxxxxx$ xxxx xx $x$$.
@@ -82,7 +82,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -98,7 +98,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -113,7 +113,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xx xx xxxxxxx.
 Xxx xxxxxxxxx xxxx $$Xxxx$$ xx xxxxxxxx.
 
@@ -129,7 +129,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Scope
 Xxxxxxxxx xxx xxxxx xx xxxxx xxxx xxxxx xx xxxxx.
 Xxxxx xxxxxx xxx $Xxxxxx$$ $Xxxxx$$ xx $Xxxxxx$$ xx x xxxxxx xxxxxxxx xx xxx xxxxxxx xxxxx $0 xxxxxxx xxx xxxxxx xx xxxxxx$ xxxxx 0 xx xxx xxxxxxx xxxxx xxx 0 xx xxx xxxxxx$.
 $Xxxxx$ xx xxx xxxxxxx.
@@ -147,7 +147,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -162,7 +162,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -181,12 +181,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxxxx
+### System.Management.Automation.PSVariable
 Xxx xxx xxxx x xxxxxxxx xxxxxx xx Xxxxxx$Xxxxxxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxxx xxxxxx xxxx xxx xxxxxx xxx xxxxxx.
 
 ## XXXXX
@@ -198,13 +198,13 @@ Xxx xxxx xxxxxxxxxxx$ xxx xxxxx$Xxxxxxx.
 
 ## XXXXXXX XXXXX
 
-[Xxxxx$Xxxxxxxx]()
+[Clear-Variable]()
 
-[Xxx$Xxxxxxxx]()
+[Get-Variable]()
 
-[Xxx$Xxxxxxxx]()
+[New-Variable]()
 
-[Xxx$Xxxxxxxx]()
+[Set-Variable]()
 
-[xxxxx$Xxxxxxxx]()
+[about_Profiles]()
 

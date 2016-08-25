@@ -6,25 +6,25 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxx
+# Get-AzureRmAutomationDscNodeReport
 ## XXXXXXXX
 Xxxx xxxxxxx xxxx xxxx x XXX xxxx xx Xxxxxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureRmAutomationDscNodeReport [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-EndTime <DateTimeOffset]>] [-StartTime <DateTimeOffset]>] -NodeId <Guid>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureRmAutomationDscNodeReport [-ResourceGroupName] <String> [-AutomationAccountName] <String> -Id <Guid>
  -NodeId <Guid>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 Get-AzureRmAutomationDscNodeReport [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Latest]
  -NodeId <Guid>
@@ -71,7 +71,7 @@ Xxx xxxxxx xxxxxxx xxxx xxxxxxxx xxx xxx xxxxxx xxxxxx xxxx xxxx xxx XXX xxxx xx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx.
 Xxxx xxxxxx xxxxxxx xxxxxxx xxx x XXX xxxx xxxx xxxxxxx xx xxx xxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -87,7 +87,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -EndTime
 Xxxxxxxxx xx xxx xxxx.
 Xxxx xxxxxx xxxx xxxxxxx xxxx Xxxxxxxxxx xxxxxxxx xxxxxx xxxx xxxx.
 
@@ -103,7 +103,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xx
+### -Id
 Xxxxxxxxx xxx xxxxxx XX xx xxx XXX xxxx xxxxxx xxx xxxx xxxxxx xx xxx.
 
 ```yaml
@@ -118,7 +118,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Latest
 Xxxxxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx XXX xxxxxx xxx xxx xxxxxxxxx xxxx xxxx.
 
 ```yaml
@@ -133,7 +133,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -NodeId
 Xxxxxxxxx xxx xxxxxx XX xx xxx XXX xxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxx.
 
 ```yaml
@@ -148,7 +148,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxxx xxxxxxxx xxx XXX xxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxx.
 
 ```yaml
@@ -163,7 +163,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -StartTime
 Xxxxxxxxx x xxxxx xxxx.
 Xxxx xxxxxx xxxx xxxxxxx xxxx Xxxxxxxxxx xxxxxxxx xxxxx xxxx xxxx.
 
@@ -187,8 +187,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxXxxx](19472f94-5827-4878-a17a-d7bb10932861)
+[Get-AzureRmAutomationDscNode](19472f94-5827-4878-a17a-d7bb10932861)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxxXxxxxxx](0bfb6a70-3a4a-4e58-a0b9-e41eb52a90ef)
+[Export-AzureRmAutomationDscNodeReportContent](0bfb6a70-3a4a-4e58-a0b9-e41eb52a90ef)
 
 

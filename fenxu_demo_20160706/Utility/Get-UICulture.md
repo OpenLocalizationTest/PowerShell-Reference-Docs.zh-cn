@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293977
 schema: 2.0.0
 ---
 
-# Xxx$XXXxxxxxx
+# Get-UICulture
 ## XXXXXXXX
 Xxxx xxx xxxxxxx xxxx xxxxxxxxx $XX$ xxxxxxx xxxxxxxx xx xxx xxxxxxxxx xxxxxx.
 
@@ -56,7 +56,7 @@ Xx xxx xxx xx xxx xxxxxxxxxxxxx xx xxx XxxxXxxxXxxxxx xxxxxxxx xx xxx XX xxxxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -72,7 +72,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -89,12 +89,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxxxx xx xxxx xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxxxxx.XxxxxxxXxxx$ Xxxxxxxxx.XxxxxXxxxx.XxxxxXxxxxxxXxxx
+### System.Globalization.CultureInfo, Microsoft.PowerShell.VistaCultureInfo
 Xxx$XXXxxxxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx XX xxxxxxx.
 Xx Xxxxxxx XxxxxXxxxx 0.0$ xx xxxxxxx x XxxxxxxXxxx xxxxxx.
 Xx Xxxxxxx XxxxxXxxxx 0.0$ xx xxxxxxx x XxxxxXxxxxxxXxxx xxxxxx.

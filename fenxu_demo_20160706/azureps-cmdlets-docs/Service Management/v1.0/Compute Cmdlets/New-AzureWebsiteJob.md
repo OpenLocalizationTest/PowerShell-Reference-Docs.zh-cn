@@ -7,31 +7,31 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureWebsiteJob
-## SYNOPSIS
-Creates new web job for a website
+## XXXXXXXX
+Xxxxxxx xxx xxx xxx xxx x xxxxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureWebsiteJob [[-Name] <String>] [-Slot <String>] -JobFile <String> -JobName <String> [-JobType]
 ```
 
-## DESCRIPTION
-Creates new web job for a website
+## XXXXXXXXXXX
+Xxxxxxx xxx xxx xxx xxx x xxxxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Create new web job for a website --------------
+### $$$$$$$$$$$$$$  Xxxxxx xxx xxx xxx xxx x xxxxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>New-AzureWebsiteJob -Name MyWebsite -JobName MyWebJob -JobType Continuous -JobFile job.bat
 ```
 
-Creates a continuous job to call job.bat on website MyWebsite
+Xxxxxxx x xxxxxxxxxx xxx xx xxxx xxx.xxx xx xxxxxxx XxXxxxxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -JobFile
-The web job file
+Xxx xxx xxx xxxx
 
 ```yaml
 Type: String
@@ -46,7 +46,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobName
-The web job name
+Xxx xxx xxx xxxx
 
 ```yaml
 Type: String
@@ -61,8 +61,8 @@ Accept wildcard characters: False
 ```
 
 ### -JobType
-The web job type.
-Can be 'triggered' or 'continuous'
+Xxx xxx xxx xxxx.
+Xxx xx $xxxxxxxxx$ xx $xxxxxxxxxx$
 
 ```yaml
 Type: SwitchParameter
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the Azure website
+Xxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-The slot name of the Azure website
+Xxx xxxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -107,13 +107,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
 

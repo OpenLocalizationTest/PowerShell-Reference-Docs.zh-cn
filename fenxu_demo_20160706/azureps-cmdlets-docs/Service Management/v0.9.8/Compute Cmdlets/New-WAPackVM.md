@@ -6,25 +6,25 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XXXxxxXX
+# New-WAPackVM
 ## XXXXXXXX
 Xxxxxxx x xxxxxxx xxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 New-WAPackVM [-ProductKey <String>] [-VNet <VMNetwork>] -Name <String> -Template <VMTemplate>
  -VMCredential <PSCredential> [-Windows]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 New-WAPackVM [-AdministratorSSHKey <String>] [-VNet <VMNetwork>] [-Linux] -Name <String> -Template <VMTemplate>
  -VMCredential <PSCredential>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 New-WAPackVM [-VNet <VMNetwork>] -Name <String> -OSDisk <VirtualHardDisk> -VMSizeProfile <HardwareProfile>
 ```
@@ -78,7 +78,7 @@ Xxx xxxxx xxxxxxx xxxxxxx x xxxxxxx xxxxxxx xxxxx XxxxxxxX000 xxxx xxx xxxxxxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxxxXXXXxx
+### -AdministratorSSHKey
 Xxxxxxxxx xxx Xxxxxx Xxxxx $XXX$ xxx xxx xxx Xxxxxxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -93,7 +93,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Linux
 Xxxxxxxxx xxxx xxx xxxxxx xxxxxxx x xxxxxxx xxxxxxx xx xxx xxx Xxxxx xxxxxxxxx xxxxxx.
 
 ```yaml
@@ -108,7 +108,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx xxxxxxx xxxxxxx.
 
 ```yaml
@@ -123,7 +123,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XXXxxx
+### -OSDisk
 Xxxxxxxxx xx xxxxxxxxx xxxxxx xxxx xx x XxxxxxxXxxxXxxx xxxxxx.
 Xx xxxxxx xx xxxxxxxxx xxxxxx xxxx$ xxx xxx Xxx$XXXxxxXXXXXxxx xxxxxx.
 
@@ -139,7 +139,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxx
+### -ProductKey
 Xxxxxxxxx x xxxxxxx xxx.
 Xxx xxxxxxx xxx xx x 00 xxxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xxxxxxx.
 Xxx x xxxxxxx xxx xxx xx xxxxxxxxx xxxxxx xxxx xxx xxxx xx xxxxxxx xx x xxxxxxx xxxxxxx xx xxxx.
@@ -156,7 +156,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Template
 Xxxxxxxxx x xxxxxxxx.
 Xxx xxxxxx xxxxxxx x xxxxxxx xxxxxxx xxxxx xx xxx xxxxxxxx xxxx xxx xxxxxxx.
 Xx xxxxxx x xxxxxxxx xxxxxx$ xxx xxx Xxx$XXXxxxXXXxxxxxxx xxxxxx.
@@ -173,7 +173,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XXXxxxxxxxxx
+### -VMCredential
 Xxxxxxxxx xxx xxxxxxxxxx xxx xxx xxxxx Xxxxxxxxxxxxx xxxxxxx.
 Xx xxxxxx x XXXxxxxxxxxx xxxxxx$ xxx xxx Xxx$Xxxxxxxxxx xxxxxx.
 Xxx xxxx xxxxxxxxxxx$ xxxx Xxx$Xxxx Xxx$Xxxxxxxxxx.
@@ -190,7 +190,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XXXxxxXxxxxxx
+### -VMSizeProfile
 Xxxxxxxxx x xxxx xxxxxxx xxx x xxxxxxx xxxxxxx xx x XxxxxxxxXxxxxxx xxxxxx.
 Xx xxxxxx x xxxx xxxxxxx$ xxx xxx Xxx$XXXxxxXXXxxxXxxxxxx xxxxxx.
 
@@ -206,7 +206,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XXxx
+### -VNet
 Xxxxxxxxx x xxxxxxx xxxxxxx.
 Xxx xxxxxx xxxxxxxx xxx xxxxxxx xxxxxxx xx xxx xxxxxxx xxxxxxx xxxx xxx xxxxxxx.
 Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XXXxxxXXxx xxxxxx.
@@ -223,7 +223,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Windows
 Xxxxxxxxx xxxx xxx xxxxxx xxxxxxx x xxxxxxx xxxxxxx xx xxx xxx Xxxxxxx xxxxxxxxx xxxxxx.
 
 ```yaml
@@ -246,28 +246,28 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XXXxxxXX](4b060a7d-da50-45ff-adb6-bcba63faa90b)
+[Get-WAPackVM](4b060a7d-da50-45ff-adb6-bcba63faa90b)
 
-[Xxxxxx$XXXxxxXX](76b51795-43e6-45c3-ade1-aa8ea61efc23)
+[Remove-WAPackVM](76b51795-43e6-45c3-ade1-aa8ea61efc23)
 
-[Xxxxxxx$XXXxxxXX](fd89742d-0d21-41e9-b3b1-5d8c638f8c6d)
+[Restart-WAPackVM](fd89742d-0d21-41e9-b3b1-5d8c638f8c6d)
 
-[Xxxxxx$XXXxxxXX](d2594d2a-c0c6-4bca-8c81-9ed03b24d100)
+[Resume-WAPackVM](d2594d2a-c0c6-4bca-8c81-9ed03b24d100)
 
-[Xxx$XXXxxxXX](8b07e4cb-c677-4e6b-b034-25847da03dbf)
+[Set-WAPackVM](8b07e4cb-c677-4e6b-b034-25847da03dbf)
 
-[Xxxxx$XXXxxxXX](8cc5bf6b-bf5b-427f-922d-57e4a99b2d55)
+[Start-WAPackVM](8cc5bf6b-bf5b-427f-922d-57e4a99b2d55)
 
-[Xxxx$XXXxxxXX](7f3e6c33-2196-4e24-95fd-e5763c6f7402)
+[Stop-WAPackVM](7f3e6c33-2196-4e24-95fd-e5763c6f7402)
 
-[Xxxxxxx$XXXxxxXX](d8041113-5a71-447d-9bbe-dc6405aa6029)
+[Suspend-WAPackVM](d8041113-5a71-447d-9bbe-dc6405aa6029)
 
-[Xxx$XXXxxxXXXxxxXxxxxxx](6dd436e0-b366-4a6b-adde-0aa6cdbfc3c6)
+[Get-WAPackVMSizeProfile](6dd436e0-b366-4a6b-adde-0aa6cdbfc3c6)
 
-[Xxx$XXXxxxXXXxxxxxxx](1b16012f-1da0-42f0-8407-1601cf4168e8)
+[Get-WAPackVMTemplate](1b16012f-1da0-42f0-8407-1601cf4168e8)
 
-[Xxx$XXXxxxXXXXXxxx](31ae72c2-c1d7-4c8d-b8be-61a46bfd6289)
+[Get-WAPackVMOSDisk](31ae72c2-c1d7-4c8d-b8be-61a46bfd6289)
 
-[Xxx$XXXxxxXXx](3a6cfd0e-530b-42fb-a105-179559e91f3d)
+[Get-WAPackVNe](3a6cfd0e-530b-42fb-a105-179559e91f3d)
 
 

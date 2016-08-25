@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293994
 schema: 2.0.0
 ---
 
-# Xxx$XxxxXxxx
+# New-TimeSpan
 ## XXXXXXXX
 Xxxxxxx x XxxxXxxx xxxxxx.
 
 ## XXXXXX
 
-### Xxxx $Xxxxxxx$
+### Date (Default)
 ```
 New-TimeSpan [[-Start] <DateTime>] [[-End] <DateTime>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### Xxxx
+### Time
 ```
 New-TimeSpan [-Days <Int32>] [-Hours <Int32>] [-Minutes <Int32>] [-Seconds <Int32>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
@@ -83,7 +83,7 @@ Xxxx xxx xxxx xx xxxxxx xxxx xxx x XxxxXxxxxXxxx xxxxxxxx xx Xxx$XxxxXxxx$ Xxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Days
 Xxxxxxxxx xxx xxxx xx xxx xxxx xxxx.
 Xxx xxxxxxx xx 0.
 
@@ -99,7 +99,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxx
+### -End
 Xxxxxxxxx xxx xxx xx x xxxx xxxx.
 Xxx xxxxxxx xx xxx xxxxxxx xxxx xxx xxxx.
 
@@ -115,7 +115,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Hours
 Xxxxxxxxx xxx xxxxx xx xxx xxxx xxxx.
 Xxx xxxxxxx xx xxxx.
 
@@ -131,7 +131,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -147,7 +147,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -162,7 +162,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Minutes
 Xxxxxxxxx xxx xxxxxxx xx xxx xxxx xxxx.
 Xxx xxxxxxx xx 0.
 
@@ -178,7 +178,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Seconds
 Xxxxxxxxx xxx xxxxxx xx xxx xxxx xxxx xx xxxxxxx.
 Xxx xxxxxxx xx 0.
 
@@ -194,7 +194,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Start
 Xxxxxxxxx xxx xxxxx xx x xxxx xxxx.
 Xxxxx x xxxxxx xxxx xxxxxxxxxx xxx xxxx xxx xxxx$ xxxx xx $0$00$00$ xx x XxxxXxxx xxxxxx$ xxxx xx xxx xxxx x Xxx$Xxxx xxxxxxx. Xxx xxxxxxx xx xxx xxxxxxx xxxx xxx xxxx.
 
@@ -215,19 +215,19 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.XxxxXxxx
+### System.DateTime
 Xxx xxx xxxx x XxxxXxxx xxxxxx xxxx xxxxxxxxxx xxxx xxxxx xxxx xx Xxx$XxxxXxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.XxxxXxxx
+### System.TimeSpan
 Xxx$XxxxXxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxx xxxx.
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$Xxxx]()
+[Get-Date]()
 
-[Xxx$Xxxx]()
+[Set-Date]()
 

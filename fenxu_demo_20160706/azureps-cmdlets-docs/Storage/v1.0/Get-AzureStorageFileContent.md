@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxXxxxxxx
+# Get-AzureStorageFileContent
 ## XXXXXXXX
 Xxxxxxxxx xxx xxxxxxxx xx x xxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureStorageFileContent [-ShareName] <String> [-Path] <String> [[-Destination] <String>] [-CheckMd5]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
@@ -20,14 +20,14 @@ Get-AzureStorageFileContent [-ShareName] <String> [-Path] <String> [[-Destinatio
  [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureStorageFileContent [-Share] <CloudFileShare> [-Path] <String> [[-Destination] <String>] [-CheckMd5]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>] [-Force]
  [-PassThru] [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 Get-AzureStorageFileContent [-Directory] <CloudFileDirectory> [-Path] <String> [[-Destination] <String>]
  [-CheckMd5] [-ClientTimeoutPerRequest <Nullable [System.Int32]>]
@@ -35,7 +35,7 @@ Get-AzureStorageFileContent [-Directory] <CloudFileDirectory> [-Path] <String> [
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_4
 ```
 Get-AzureStorageFileContent [-File] <CloudFile> [[-Destination] <String>] [-CheckMd5]
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>] [-Force]
@@ -57,7 +57,7 @@ Xxxx xxxxxxx xxxxxxxxx x xxxx xxxx xx xxxxx XxxxxxxXxxxXxxx xx xxx xxxxxx Xxxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxXx0
+### -CheckMd5
 Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
@@ -76,7 +76,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ClientTimeoutPerRequest
 Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
@@ -95,7 +95,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxXxxxx
+### -ConcurrentTaskCount
 Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
@@ -114,7 +114,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Context
 Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
@@ -133,7 +133,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Destination
 Xxxxxxxxx xxx xxxxxxxxxxx xxxx.
 Xxxx xxxxxx xxxxxxxxx xxx xxxx xxxxxxxx xx xxx xxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -155,7 +155,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Directory
 Xxxxxxxxx x xxxxxx xx x $$XxxxxXxxxXxxxxxxxx$$ xxxxxx.
 Xxxx xxxxxx xxxx xxxxxxx xxx x xxxx xx xxx xxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 Xx xxxxxx x xxxxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxxxx xxxxxx.
@@ -173,7 +173,7 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -File
 Xxxxxxxxx x xxxx xx x $$XxxxxXxxx$$ xxxxxx.
 Xxxx xxxxxx xxxx xxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 Xx xxxxxx x $$XxxxxXxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
@@ -190,7 +190,7 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
@@ -209,7 +209,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
@@ -228,7 +228,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxxxx xxx xxxx xx x xxxx.
 Xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 Xx xxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xx xxxxx.
@@ -245,7 +245,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ServerTimeoutPerRequest
 Xx xxx xxxxxxx xxx xxxx xx x xxxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xxxx xxxx$ xxx xxxxx xxx xxxxxxxx xx xxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx x xxxx xxxx xxxxxxx xxxxxx xxx xxx xxxxxxx xxx $Xxxxx$ xxxxxxxxx$ xxx xxxxxx xxxxxxxxxx xxx xxxx.
 Xx xxx xxxxxxx x xxxx xx xx xxxxxxxx xxxx xxx xxx xx xxx xxxxxxx $Xxxxx$$ xxx xxxxxx xxxxxxx xxx xxxxxx xx xxxxxxxxx.
@@ -264,7 +264,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Share
 Xxxxxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx.
 Xxxx xxxxxx xxxxxxxxx xxx xxxxxxxx xx xxx xxxx xx xxx xxxxx xxxx xxxxxxxxx xxxxxxxxx.
 Xx xxxxxx x $$XxxxxXxxxXxxxx$$ xxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxx xxxxxx.
@@ -283,7 +283,7 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -ShareName
 Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx.
 Xxxx xxxxxx xxxxxxxxx xxx xxxxxxxx xx xxx xxxx xx xxx xxxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -299,7 +299,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -314,7 +314,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -337,8 +337,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxx](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
+[Get-AzureStorageFile](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
 
-[Xxx$XxxxxXxxxxxxXxxxXxxxxxx](cd2e0aa7-3259-4aa5-8494-c432063d34e7)
+[Set-AzureStorageFileContent](cd2e0aa7-3259-4aa5-8494-c432063d34e7)
 
 

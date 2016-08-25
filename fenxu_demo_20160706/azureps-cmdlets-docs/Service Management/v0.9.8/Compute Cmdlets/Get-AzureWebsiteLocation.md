@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxxxx
+# Get-AzureWebsiteLocation
 ## XXXXXXXX
 Xxxx xxx xxxxxxxxx xxxxxxx xxxxxxxxx.
 
@@ -41,6 +41,6 @@ Xxxx xxxxxxx xxxx xxx xx xxx xxxxxxxxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxx xxxxxxx
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
+[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
 
 

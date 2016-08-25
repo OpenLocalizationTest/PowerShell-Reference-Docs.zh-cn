@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxXxxxxxxxxx
+# Get-AzureRmAutomationDscOnboardingMetaconfig
 ## XXXXXXXX
 Xxxxxxx xxxx$xxxxxxxxxxxxx .xxx xxxxx.
 
@@ -38,7 +38,7 @@ Xxx xxxxxx xxxxxxx xxxx xxx $$Xxx$XxxXxxxxXxxxxxxxxxxxxXxxxxxx$$ xxxxxx xx xxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx.
 Xxx xxx xxxxxxx xxx xxxxxxxxx xxxx xxx $XxxxxxxxXxxx$ xxxxxxxxx xxxxxxxxx xx xxx xxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -54,7 +54,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxx
+### -ComputerName
 Xxxxxxxxx xx xxxxx xx xxxxx xx xxxxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxxx .xxx xxxxx.
 Xx xxx xx xxx xxxxxxx xxxx xxxxxxxxx$ xxx xxxxxx xxxxxxxxx xx .xxx xxxx xxx xxx xxxxxxx xxxxxxxx $xxxxxxxxx$.
 
@@ -70,7 +70,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 Xxxxxx xxx xxxxxxx xx xxx xxxxxxx xxxxxxxxx xxx xxx xxxxxxxxxxxx$ xxx xx xxxxxxx xxxxxxxx .xxx xxxxx xxxx xxxx xxx xxxx xxxx.
 
 ```yaml
@@ -85,7 +85,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxx
+### -OutputFolder
 Xxxxxxxxx xxx xxxx xx x xxxxxx xxxxx xxxx xxxxxx xxxxxx .xxx xxxxx.
 
 ```yaml
@@ -100,7 +100,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx.
 Xxxx xxxxxx xxxxxxx .xxx xxxxx xx xxxxxxx xxxxxxxxx xx xxx xxxxxxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -116,7 +116,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -131,7 +131,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml

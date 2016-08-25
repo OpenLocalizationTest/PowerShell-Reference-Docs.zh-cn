@@ -7,32 +7,32 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Show-AzureWebsite
-## SYNOPSIS
-Opens a browser on a specified website.
+## XXXXXXXX
+Xxxxx x xxxxxxx xx x xxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Show-AzureWebsite [[-Name] <String>] [-Slot <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Show-AzureWebsite cmdlet opens a browser on a specified website.
+Xxx Xxxx$XxxxxXxxxxxx xxxxxx xxxxx x xxxxxxx xx x xxxxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-Specifies the name of the site to open in the browser.
+Xxxxxxxxx xxx xxxx xx xxx xxxx xx xxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -47,7 +47,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Specifies the slot name of the website.
+Xxxxxxxxx xxx xxxx xxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -61,13 +61,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Show-AzurePortal](ad7a9990-36d0-4ae5-82d8-8c0faa159782)
 

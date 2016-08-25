@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx
+# New-AzureStorageShareSASToken
 ## XXXXXXXX
 Xxxxxxxx Xxxxxx Xxxxxx Xxxxxxxxx xxxxx xxx xxxxx$0 Xxxxxxx xxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 New-AzureStorageShareSASToken [-ShareName] <String> [-Context <AzureStorageContext>] [-ExpiryTime <DateTime]>]
  [-FullUri] [-IPAddressOrRange <String>]
@@ -20,7 +20,7 @@ New-AzureStorageShareSASToken [-ShareName] <String> [-Context <AzureStorageConte
  -Policy <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 New-AzureStorageShareSASToken [-ShareName] <String> [-Context <AzureStorageContext>] [-ExpiryTime <DateTime]>]
  [-FullUri] [-IPAddressOrRange <String>] [-Permission <String>]
@@ -57,7 +57,7 @@ Xxxx xxxxxxx xxxxxxx x xxxxxx xxxxxx xxxxxxxxx xxxxx xxx xxx Xxxxxxx xxxxx xxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xx xxxxx$0 Xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -73,7 +73,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -ExpiryTime
 Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
@@ -88,7 +88,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxx
+### -FullUri
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxx xxx xxxx xxxx XXX xxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxx.
 
 ```yaml
@@ -103,7 +103,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXXxxxxxxXxXxxxx
+### -IPAddressOrRange
 $$Xxxx$$
 
 ```yaml
@@ -118,7 +118,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxx
+### -Permission
 Xxxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxx xx xxxxxx xxx xxxxx xxx xxxxx xxxxx xxx xxxxx.
 
 ```yaml
@@ -133,7 +133,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Policy
 Xxxxxxxxx xxx xxxxxx xxxxxx xxxxxx xxx x xxxxx.
 
 ```yaml
@@ -148,7 +148,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Protocol
 $$Xxxx$$
 
 ```yaml
@@ -163,7 +163,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -ShareName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxx xxxxx.
 
 ```yaml
@@ -178,7 +178,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -StartTime
 Xxxxxxxxx xxx xxxx xx xxxxx xxx xxxxxx xxxxxx xxxxxxxxx xxxxxxx xxxxx.
 
 ```yaml
@@ -202,8 +202,8 @@ Xxxxxxxx$ xxxxxx$ xxxxx$ xxxxxxxx$ xxxx$ xxxxxxx$ xxxx$ xxxxx$ xxxxx
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxx](10a13c83-d545-4729-99f9-048c774f32d7)
+[Get-AzureStorageShare](10a13c83-d545-4729-99f9-048c774f32d7)
 
-[Xxx$XxxxxXxxxxxxXxxxXXXXxxxx](4fb064f5-94bc-4d8f-9ef6-2611f8aab99c)
+[New-AzureStorageFileSASToken](4fb064f5-94bc-4d8f-9ef6-2611f8aab99c)
 
 

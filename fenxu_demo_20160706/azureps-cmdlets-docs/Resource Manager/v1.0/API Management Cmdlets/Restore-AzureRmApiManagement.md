@@ -7,32 +7,32 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Restore-AzureRmApiManagement
-## SYNOPSIS
-Restores an API Management Service from the specified azure_2 storage blob.
+## XXXXXXXX
+Xxxxxxxx xx XXX Xxxxxxxxxx Xxxxxxx xxxx xxx xxxxxxxxx xxxxx$0 xxxxxxx xxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Restore-AzureRmApiManagement [-StorageContext] <AzureStorageContext> [-PassThru] -Name <String>
  -ResourceGroupName <String> -SourceBlobName <String> -SourceContainerName <String>
 ```
 
-## DESCRIPTION
-The **Restore-AzureRmApiManagement** cmdlet restores an API Management Service from the specified backup residing in an azure_2storage blob.
+## XXXXXXXXXXX
+Xxx $$Xxxxxxx$XxxxxXxXxxXxxxxxxxxx$$ xxxxxx xxxxxxxx xx XXX Xxxxxxxxxx Xxxxxxx xxxx xxx xxxxxxxxx xxxxxx xxxxxxxx xx xx xxxxx$0xxxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Restore an API Management service
+### Xxxxxxx 0$ Xxxxxxx xx XXX Xxxxxxxxxx xxxxxxx
 ```
 PS C:\>Restore-AzureRmApiManagement -ResourceGroupName "ContosoGroup" -Name "RestoredContosoApi" -StorageContext $StorageContext -SourceContainerName "ContosoBackups" -SourceBlobName "ContosoBackup.apimbackup"
 ```
 
-This command restores an API Management service from azure_2 storage blob.
+Xxxx xxxxxxx xxxxxxxx xx XXX Xxxxxxxxxx xxxxxxx xxxx xxxxx$0 xxxxxxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-Specifies the name of the API Management instance that this cmdlet restores.
+Xxxxxxxxx xxx xxxx xx xxx XXX Xxxxxxxxxx xxxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -47,7 +47,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-passthru
+xxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of resource group under which API Management exists.
+Xxxxxxxxx xxx xxxx xx xxxxxxxx xxxxx xxxxx xxxxx XXX Xxxxxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -77,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -SourceBlobName
-Specifies the name of the azure_2 storage backup source blob.
+Xxxxxxxxx xxx xxxx xx xxx xxxxx$0 xxxxxxx xxxxxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -92,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -SourceContainerName
-Specifies the name of the azure_2 storage backup source container.
+Xxxxxxxxx xxx xxxx xx xxx xxxxx$0 xxxxxxx xxxxxx xxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -107,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageContext
-Specifies the storage connection context.
+Xxxxxxxxx xxx xxxxxxx xxxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -121,13 +121,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Backup-AzureRmApiManagement](b3b67164-7adf-4fe3-87ab-51dcd46ed084)
 

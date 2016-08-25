@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxx
+# New-AzureRMAutomationVariable
 ## XXXXXXXX
 Xxxxxxx xx Xxxxxxxxxx xxxxxxxx.
 
@@ -45,7 +45,7 @@ Xxxx xxxxxxx xxxx x xxxxxxx xxxxxx xxx xxx xxxxx$ xx xxxx xxxx$ xxx xxxxxxx xxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xx xxxxx xx xxxxx xxx xxxxxxxx.
 
 ```yaml
@@ -60,7 +60,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Description
 Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxx.
 
 ```yaml
@@ -75,7 +75,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Encrypted
 Xxxxxxxxx xxxxxxx xxxx xxxxxx xxxxxxxx xxx xxxxx xx xxx xxxxxxxx xxx xxxxxxx.
 
 ```yaml
@@ -90,7 +90,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx xxxxxxxx.
 
 ```yaml
@@ -105,7 +105,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxx.
 
 ```yaml
@@ -120,7 +120,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Value
 Xxxxxxxxx x xxxxx xxx xxx xxxxxxxx.
 
 ```yaml
@@ -143,10 +143,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](a6dc9902-ad99-47f9-8212-d3d96146b180)
+[Get-AzureRmAutomationVariable](a6dc9902-ad99-47f9-8212-d3d96146b180)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxx](c154838a-0b3d-4347-96a5-31ac572b329c)
+[Remove-AzureRmAutomationVariable](c154838a-0b3d-4347-96a5-31ac572b329c)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx](3bc5445e-7884-4dab-b00d-3bdfed9f05c5)
+[Set-AzureRmAutomationVariable](3bc5445e-7884-4dab-b00d-3bdfed9f05c5)
 
 

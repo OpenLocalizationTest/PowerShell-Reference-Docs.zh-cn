@@ -6,18 +6,18 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxXxxXxxxxxxxxx
+# Get-AzureRmApiManagement
 ## XXXXXXXX
 Xxxx x xxxx xx x xxxxxxxxxx XXX Xxxxxxxxxx Xxxxxxx xxxxxxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureRmApiManagement -Name <String> -ResourceGroupName <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureRmApiManagement -ResourceGroupName <String>
 ```
@@ -43,7 +43,7 @@ Xxxx xxxxxxx xxxx xxx XXX Xxxxxxxxxx xxxxxxx xx xxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx XXX Xxxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -58,7 +58,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxxxx xx xxxxx xxxx xxxxxx xxxx xxx XXX Xxxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -93,12 +93,12 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxXxxXxxxxxxxxx](b3b67164-7adf-4fe3-87ab-51dcd46ed084)
+[Backup-AzureRmApiManagement](b3b67164-7adf-4fe3-87ab-51dcd46ed084)
 
-[Xxx$XxxxxXxXxxXxxxxxxxxx](6b5595ca-246e-4381-a37e-24dfae307109)
+[New-AzureRmApiManagement](6b5595ca-246e-4381-a37e-24dfae307109)
 
-[Xxxxxx$XxxxxXxXxxXxxxxxxxxx](9a2c4617-9870-4d9c-92fa-2af03211d931)
+[Remove-AzureRmApiManagement](9a2c4617-9870-4d9c-92fa-2af03211d931)
 
-[Xxxxxxx$XxxxxXxXxxXxxxxxxxxx](b0ff412d-269a-472f-8d79-9c0b9f0ebac2)
+[Restore-AzureRmApiManagement](b0ff412d-269a-472f-8d79-9c0b9f0ebac2)
 
 

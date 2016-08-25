@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294030
 schema: 2.0.0
 ---
 
-# Xxxxx$Xxxxxx
+# Write-Output
 ## XXXXXXXX
 Xxxxx xxx xxxxxxxxx xxxxxxx xx xxx xxxx xxxxxxx xx xxx xxxxxxxx.
 Xx xxx xxxxxxx xx xxx xxxx xxxxxxx xx xxx xxxxxxxx$ xxx xxxxxxx xxx xxxxxxxxx xx xxx xxxxxxx.
@@ -60,7 +60,7 @@ Xxxx xxxxxxx xxxx xxx XxXxxxxxxxx xxxxxxxxx xx xxxxx x xxxxxxxxxx xx xxxxx xx x 
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -76,7 +76,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -91,7 +91,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxx xxxxxxx xx xxxx xxxx xxx xxxxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
@@ -107,7 +107,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxXxxxxxxxx
+### -NoEnumerate
 Xx xxxxxxx$ xxx Xxxxx$Xxxxxx xxxxxx xxxxxx xxxxxxxxxx xxx xxxxxx.
 Xxx XxXxxxxxxxx xxxxxxxxx xxxxxxxxxx xxx xxxxxxx xxxxxxxx$ xxx xxxxxxxx Xxxxx$Xxxxxx xxxx xxxxxxxxxxx xxxxxx.
 Xxx XxXxxxxxxxx xxxxxxxxx xxx xx xxxxxx xx xxxxxxxxxxx xxxx xxxx xxxxxxx xx xxxxxxxx xxxxxxxx xx xxxxxxxxxxx$ xxxxxxx xxx xxxxxxxxxxx xxxxx xxxxxxxxxxx.
@@ -126,29 +126,29 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxxxxxx xx Xxxxx$Xxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxxxx$Xxxxxx xxxxxxx xxx xxxxxxx xxxx xxx xxxxxxxxx xx xxxxx.
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$Xxxxxx]()
+[Tee-Object]()
 
-[Xxxxx$Xxxxx]()
+[Write-Debug]()
 
-[Xxxxx$Xxxxx]()
+[Write-Error]()
 
-[Xxxxx$Xxxx]()
+[Write-Host]()
 
-[Xxxxx$Xxxxxxxx]()
+[Write-Progress]()
 
-[Xxxxx$Xxxxxxx]()
+[Write-Verbose]()
 
-[Xxxxx$Xxxxxxx]()
+[Write-Warning]()
 

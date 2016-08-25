@@ -7,33 +7,33 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Enable-AzureServiceProjectRemoteDesktop
-## SYNOPSIS
-Enables remote desktop access to a cloud service.
+## XXXXXXXX
+Xxxxxxx xxxxxx xxxxxxx xxxxxx xx x xxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Enable-AzureServiceProjectRemoteDesktop [-Username] <String> [-Password] <SecureString> [-PassThru]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Enable-AzureServiceProjectRemoteDesktop cmdlet enables Remote Desktop access to a cloud service.
-You must publish the service using the Publish-AzureServiceProject cmdlet after enabling Remote Desktop access for the change to take effect.
+Xxx Xxxxxx$XxxxxXxxxxxxXxxxxxxXxxxxxXxxxxxx xxxxxx xxxxxxx Xxxxxx Xxxxxxx xxxxxx xx x xxxxx xxxxxxx.
+Xxx xxxx xxxxxxx xxx xxxxxxx xxxxx xxx Xxxxxxx$XxxxxXxxxxxxXxxxxxx xxxxxx xxxxx xxxxxxxx Xxxxxx Xxxxxxx xxxxxx xxx xxx xxxxxx xx xxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1:
+### 0$
 ```
 
 ```
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -PassThru
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: SwitchParameter
@@ -48,7 +48,7 @@ Accept wildcard characters: False
 ```
 
 ### -Password
-@{Text=}
+$$Xxxx$$
 
 ```yaml
 Type: SecureString
@@ -63,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -Username
-Specifies the user name to use when connecting to the role instance in Azure via the Remote Desktop Protocol (RDP).
+Xxxxxxxxx xxx xxxx xxxx xx xxx xxxx xxxxxxxxxx xx xxx xxxx xxxxxxxx xx Xxxxx xxx xxx Xxxxxx Xxxxxxx Xxxxxxxx $XXX$.
 
 ```yaml
 Type: String
@@ -77,13 +77,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Disable-AzureServiceProjectRemoteDesktop](848333f0-4687-4e7c-a775-1c6f148aa111)
 

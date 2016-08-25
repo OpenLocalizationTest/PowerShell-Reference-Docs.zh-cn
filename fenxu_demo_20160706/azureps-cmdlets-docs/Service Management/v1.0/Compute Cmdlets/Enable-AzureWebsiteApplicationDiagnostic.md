@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Enable-AzureWebsiteApplicationDiagnostic
-## SYNOPSIS
-Enables application diagnostics on an Azure website.
+## XXXXXXXX
+Xxxxxxx xxxxxxxxxxx xxxxxxxxxxx xx xx Xxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -23,32 +23,32 @@ Enable-AzureWebsiteApplicationDiagnostic [[-Name] <String>] [-PassThru] [-Slot <
  [-StorageAccountName <String>] [-LogLevel] [-Storage]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-Enables application diagnostics on an Azure website, and allows you to configure storage of logs on a file system or on Azure storage.
+Xxxxxxx xxxxxxxxxxx xxxxxxxxxxx xx xx Xxxxx xxxxxxx$ xxx xxxxxx xxx xx xxxxxxxxx xxxxxxx xx xxxx xx x xxxx xxxxxx xx xx Xxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Enable diagnostics using file system
+### 0$ Xxxxxx xxxxxxxxxxx xxxxx xxxx xxxxxx
 ```
 C:\PS>Enable-AzureWebsiteApplicationDiagnostic -Name MyWebsite -File -LogLevel Verbose
 ```
 
-This example enables application logging on file system with verbose level.
+Xxxx xxxxxxx xxxxxxx xxxxxxxxxxx xxxxxxx xx xxxx xxxxxx xxxx xxxxxxx xxxxx.
 
-### 2: Enable logging using Azure Storage
+### 0$ Xxxxxx xxxxxxx xxxxx Xxxxx Xxxxxxx
 ```
 C:\PS>Enable-AzureWebsiteApplicationDiagnostic -Name MyWebsite -Storage -LogLevel Information -StorageAccountName myaccount
 ```
 
-This example enables application logging using storage account named â€œmyaccountâ€ with logging level set to â€œinformationâ€.
+Xxxx xxxxxxx xxxxxxx xxxxxxxxxxx xxxxxxx xxxxx xxxxxxx xxxxxxx xxxxx $$$xxxxxxxxx$$$ xxxx xxxxxxx xxxxx xxx xx $$$xxxxxxxxxxx$$$.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -File
-Specifies that you want to use a file system to store the log files.
+Xxxxxxxxx xxxx xxx xxxx xx xxx x xxxx xxxxxx xx xxxxx xxx xxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -63,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -LogLevel
-The log level to store.
+Xxx xxx xxxxx xx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the Azure website.
+Xxx xxxx xx xxx Xxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Flag to return true if the command succeeds.
+Xxxx xx xxxxxx xxxx xx xxx xxxxxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -109,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Specifies the name of slot.
+Xxxxxxxxx xxx xxxx xx xxxx.
 
 ```yaml
 Type: String
@@ -124,7 +124,7 @@ Accept wildcard characters: False
 ```
 
 ### -Storage
-Specifies that you want to use Azure to store the log files.
+Xxxxxxxxx xxxx xxx xxxx xx xxx Xxxxx xx xxxxx xxx xxx xxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -139,8 +139,8 @@ Accept wildcard characters: False
 ```
 
 ### -StorageAccountName
-The storage account to use for storing the logs.
-If not specified, the CurrentStorageAccount is used.
+Xxx xxxxxxx xxxxxxx xx xxx xxx xxxxxxx xxx xxxx.
+Xx xxx xxxxxxxxx$ xxx XxxxxxxXxxxxxxXxxxxxx xx xxxx.
 
 ```yaml
 Type: String
@@ -154,13 +154,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Disable-AzureWebsiteApplicationDiagnostic](40b3665f-ec67-4ee7-9349-d16c0b2e2495)
 

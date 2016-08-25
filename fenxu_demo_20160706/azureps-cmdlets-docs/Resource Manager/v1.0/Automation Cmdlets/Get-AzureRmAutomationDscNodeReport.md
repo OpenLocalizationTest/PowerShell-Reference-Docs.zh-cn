@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureRmAutomationDscNodeReport
-## SYNOPSIS
-Gets reports sent from a DSC node to Automation.
+## XXXXXXXX
+Xxxx xxxxxxx xxxx xxxx x XXX xxxx xx Xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -30,50 +30,50 @@ Get-AzureRmAutomationDscNodeReport [-ResourceGroupName] <String> [-AutomationAcc
  -NodeId <Guid>
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationDscNodeReport** cmdlet gets reports sent from an APS Desired State Configuration (DSC) node to azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxXxxxXxxxxx$$ xxxxxx xxxx xxxxxxx xxxx xxxx xx XXX Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxx xx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all reports for a DSC node
+### Xxxxxxx 0$ Xxx xxx xxxxxxx xxx x XXX xxxx
 ```
 PS C:\>$Node = Get-AzureRmAutomationDscNode -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17" -Name "Computer14"
 PS C:\> Get-AzureRmAutomationDscNodeReport -ResourceGroupName "ResourceGroup14" -AutomationAccountName "Contoso17" -NodeId $Node.Id
 ```
 
-The first command gets the DSC node for the computer named Computer14 in the Automation account named Contoso17.
-The command stores this object in the $Node variable.
+Xxx xxxxx xxxxxxx xxxx xxx XXX xxxx xxx xxx xxxxxxxx xxxxx Xxxxxxxx00 xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
+Xxx xxxxxxx xxxxxx xxxx xxxxxx xx xxx $Xxxx xxxxxxxx.
 
-The second command gets metadata for all reports sent from the DSC node named Computer14 to the Automation account named Contoso17.
-The command specifies the node by using the **Id** property of the $Node object.
+Xxx xxxxxx xxxxxxx xxxx xxxxxxxx xxx xxx xxxxxxx xxxx xxxx xxx XXX xxxx xxxxx Xxxxxxxx00 xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
+Xxx xxxxxxx xxxxxxxxx xxx xxxx xx xxxxx xxx $$Xx$$ xxxxxxxx xx xxx $Xxxx xxxxxx.
 
-### Example 2: Get a report for a DSC node by report ID
+### Xxxxxxx 0$ Xxx x xxxxxx xxx x XXX xxxx xx xxxxxx XX
 ```
 PS C:\>$Node = Get-AzureRmAutomationDscNode -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17" -Name "Computer14"
 PS C:\> Get-AzureRmAutomationDscNodeReport -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17" -NodeId $Node.Id -Id c0a1718e-d8be-4fa3-91b6-82e1d3a36298
 ```
 
-The first command gets the DSC node for the computer named Computer14 in the Automation account named Contoso17.
-The command stores this object in the $Node variable.
+Xxx xxxxx xxxxxxx xxxx xxx XXX xxxx xxx xxx xxxxxxxx xxxxx Xxxxxxxx00 xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
+Xxx xxxxxxx xxxxxx xxxx xxxxxx xx xxx $Xxxx xxxxxxxx.
 
-The second command gets metadata for the report identified by the specified ID sent from the DSC node named Computer14 to the Automation account named Contoso17.
+Xxx xxxxxx xxxxxxx xxxx xxxxxxxx xxx xxx xxxxxx xxxxxxxxxx xx xxx xxxxxxxxx XX xxxx xxxx xxx XXX xxxx xxxxx Xxxxxxxx00 xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 3: Get the latest report for a DSC node
+### Xxxxxxx 0$ Xxx xxx xxxxxx xxxxxx xxx x XXX xxxx
 ```
 PS C:\>$Node = Get-AzureRmAutomationDscNode -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17" -Name "Computer14"
 PS C:\> Get-AzureRmAutomationDscNodeReport -ResourceGroupName "ResourceGroup03" -AutomationAccountName "Contoso17" -NodeId $Node.Id -Latest
 ```
 
-The first command gets the DSC node for the computer named Computer14 in the Automation account named Contoso17.
-The command stores this object in the $Node variable.
+Xxx xxxxx xxxxxxx xxxx xxx XXX xxxx xxx xxx xxxxxxxx xxxxx Xxxxxxxx00 xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
+Xxx xxxxxxx xxxxxx xxxx xxxxxx xx xxx $Xxxx xxxxxxxx.
 
-The second command gets metadata for the latest report sent from the DSC node named Computer14 to the Automation account named Contoso17.
+Xxx xxxxxx xxxxxxx xxxx xxxxxxxx xxx xxx xxxxxx xxxxxx xxxx xxxx xxx XXX xxxx xxxxx Xxxxxxxx00 xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of an Automation account.
-This cmdlet exports reports for a DSC node that belongs to the account that this parameter specifies.
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx.
+Xxxx xxxxxx xxxxxxx xxxxxxx xxx x XXX xxxx xxxx xxxxxxx xx xxx xxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
 ```yaml
 Type: String
@@ -88,8 +88,8 @@ Accept wildcard characters: False
 ```
 
 ### -EndTime
-Specifies an end time.
-This cmdlet gets reports that Automation received before this time.
+Xxxxxxxxx xx xxx xxxx.
+Xxxx xxxxxx xxxx xxxxxxx xxxx Xxxxxxxxxx xxxxxxxx xxxxxx xxxx xxxx.
 
 ```yaml
 Type: DateTimeOffset]
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-Specifies the unique ID of the DSC node report for this cmdlet to get.
+Xxxxxxxxx xxx xxxxxx XX xx xxx XXX xxxx xxxxxx xxx xxxx xxxxxx xx xxx.
 
 ```yaml
 Type: Guid
@@ -119,7 +119,7 @@ Accept wildcard characters: False
 ```
 
 ### -Latest
-Indicates that this cmdlet gets the latest DSC report for the specified node only.
+Xxxxxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx XXX xxxxxx xxx xxx xxxxxxxxx xxxx xxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -134,7 +134,7 @@ Accept wildcard characters: False
 ```
 
 ### -NodeId
-Specifies the unique ID of the DSC node for which this cmdlet gets reports.
+Xxxxxxxxx xxx xxxxxx XX xx xxx XXX xxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxx.
 
 ```yaml
 Type: Guid
@@ -149,7 +149,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group that contains the DSC node for which this cmdlet gets reports.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxxx xxxxxxxx xxx XXX xxxx xxx xxxxx xxxx xxxxxx xxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -164,8 +164,8 @@ Accept wildcard characters: False
 ```
 
 ### -StartTime
-Specifies a start time.
-This cmdlet gets reports that Automation received after this time.
+Xxxxxxxxx x xxxxx xxxx.
+Xxxx xxxxxx xxxx xxxxxxx xxxx Xxxxxxxxxx xxxxxxxx xxxxx xxxx xxxx.
 
 ```yaml
 Type: DateTimeOffset]
@@ -179,13 +179,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationDscNode](19472f94-5827-4878-a17a-d7bb10932861)
 

@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293980
 schema: 2.0.0
 ---
 
-# Xxxxx$Xxxxxx
+# Group-Object
 ## XXXXXXXX
 Xxxxxx xxxxxxx xxxx xxxxxxx xxx xxxx xxxxx xxx xxxxxxxxx xxxxxxxxxx.
 
@@ -213,7 +213,7 @@ Xxx XxXxxxxx xxxxxxxxx xxxx xxx xxxxxxx xxx xxxxxxx xx xxx xxxxxx xx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxXxxxXxxxx
+### -AsHashTable
 Xxxxxxx xxx xxxxx xx x xxxx xxxxx. Xxx xxxx xx xxx xxxx xxxxx xxx xxx xxxxxxxx xxxxxx xx xxxxx xxx xxxxxxx xxx xxxxxxx.
 Xxx xxxxxx xx xxx xxxx xxxxx xxx xxx xxxxxxx xxxx xxxx xxxx xxxxxxxx xxxxx.
 
@@ -232,7 +232,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxXxxxxx
+### -AsString
 Xxxxxxxx xxx xxxx xxxxx xxxx xx xxxxxxx.
 Xx xxxxxxx$ xxx xxxx xxxxx xxxx xxx xxxxxxxxx xx xxx xxxxxxx xxxxxx.
 Xxxx xxxxxxxxx xx xxxxx xxxx xxxx xxxx xxxx xxx XxXxxxXxxxx xxxxxxxxx.
@@ -249,7 +249,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxxxx
+### -CaseSensitive
 Xxxxx xxx xxxxxxxx xxxx$xxxxxxxxx.
 Xxxxxxx xxxx xxxxxxxxx$ xxx xxxxxxxx xxxxxx xx xxxxxxx xx x xxxxx xxxxx xxxx xxxxxxxxx xxxxx.
 
@@ -265,7 +265,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Culture
 Xxxxxxxxx xxx xxxxxxx xx xxx xxxx xxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -280,7 +280,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xx xxxxxx$ xxx XxXxxxXxxxx xxxxxxxxx xxxxxxx xxxx xxxx xxxxx xx xxxxx xxxx xxx xx xx xxxxxxxx xx xxx xxxxxxx xxxxxx.
 Xxxx xxxx xxxx xxx  XxXxxxxx xxxxxxxxx$ xxx xxxx xx xxx xxxx xxxxx xxx xxxxxxx.
 
@@ -297,7 +297,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xx xxxxxx$ xxx XxXxxxXxxxx xxxxxxxxx xxxxxxx xxxx xxxx xxxxx xx xxxxx xxxx xxx xx xx xxxxxxxx xx xxx xxxxxxx xxxxxx.
 Xxxx xxxx xxxx xxx  XxXxxxxx xxxxxxxxx$ xxx xxxx xx xxx xxxx xxxxx xxx xxxxxxx.
 
@@ -313,7 +313,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxx xxxxxxx xx xxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
@@ -334,7 +334,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxXxxxxxx
+### -NoElement
 Xxxxx xxx xxxxxxx xx x xxxxx xxxx xxx xxxxxxx.
 
 ```yaml
@@ -349,7 +349,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Property
 Xxxxxxxxx xxx xxxxxxxxxx xxx xxxxxxxx.
 Xxx xxxxxxx xxx xxxxxxxx xxxx xxxxxx xxxxx xx xxx xxxxx xx xxx xxxxxxxxx xxxxxxxx.
 
@@ -370,12 +370,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxx xxxxxx xx Xxxxx$Xxxxxx
 
 ## XXXXXXX
 
-### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxXxxx xx Xxxxxx.Xxxxxxxxxxx.Xxxxxxxxx
+### Microsoft.PowerShell.Commands.GroupInfo or System.Collections.Hashtable
 Xxxx xxx xxx xxx XxXxxxXxxxx xxxxxxxxx$ Xxxxx$Xxxxxx xxxxxxx x xxxx xxxxx.
 Xxxxxxxxx$ xx xxxxxxx x XxxxxXxxx xxxxxx.
 

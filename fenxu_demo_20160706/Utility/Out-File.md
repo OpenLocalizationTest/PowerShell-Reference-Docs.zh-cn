@@ -4,20 +4,20 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293996
 schema: 2.0.0
 ---
 
-# Xxx$Xxxx
+# Out-File
 ## XXXXXXXX
 Xxxxx xxxxxx xx x xxxx.
 
 ## XXXXXX
 
-### XxXxxx $Xxxxxxx$
+### ByPath (Default)
 ```
 Out-File [-FilePath] <String> [[-Encoding] <String>] [-Append] [-Force] [-NoClobber] [-Width <Int32>]
  [-NoNewline] [-InputObject <PSObject>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-### XxXxxxxxxXxxx
+### ByLiteralPath
 ```
 Out-File -LiteralPath <String> [[-Encoding] <String>] [-Append] [-Force] [-NoClobber] [-Width <Int32>]
  [-NoNewline] [-InputObject <PSObject>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
@@ -89,7 +89,7 @@ Xxx xxxxxx xxx xxxxx xxxxxxxx xxxxxxxxxxx xxxxx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxx
+### -Append
 Xxxx xxx xxxxxx xx xxx xxx xx xx xxxxxxxx xxxx$ xxxxxxx xx xxxxxxxxx xxx xxxx xxxxxxxx.
 
 ```yaml
@@ -104,7 +104,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Encoding
 Xxxxxxxxx xxx xxxx xx xxxxxxxxx xxxxxxxx xxxx xx xxx xxxx.
 Xxxxx xxxxxx xxx $Xxxxxxx$$ $XXX0$$ $XXX0$$ $XXX00$$ $XXXXX$$ $XxxXxxxxxXxxxxxx$$ $Xxxxxxx$$ xxx $XXX$.
 $Xxxxxxx$ xx xxx xxxxxxx.
@@ -126,7 +126,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -FilePath
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx.
 
 ```yaml
@@ -141,7 +141,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 Xxxxxx xxx xxxxxx xx xxxxxxxxx xx xxxxxxxx xxxx$xxxx xxxx.
 Xxxx xxxxx xxx Xxxxx xxxxxxxxx$ xxx xxxxxx xxxxxx xxxxxxxx xxxxxxxx xxxxxxxxxxxx.
 
@@ -157,7 +157,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -173,7 +173,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -188,7 +188,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxx xxxxxxx xx xx xxxxxxx xx xxx xxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
@@ -204,7 +204,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxXxxxxxx
+### -NoClobber
 Xxxx xxx xxxxxxxxx $xxxxxxx xxx xxxxxxxx$ xx xx xxxxxxxx xxxx.
 Xx xxxxxxx$ xx x xxxx xxxxxx xx xxx xxxxxxxxx xxxx$ Xxx$Xxxx xxxxxxxxxx xxx xxxx xxxxxxx xxxxxxx.
 Xx xxxx Xxxxxx xxx XxXxxxxxx xxx xxxx$ xxx xxxxxx xx xxxxxxxx xx xxx xxxxxxxx xxxx.
@@ -221,7 +221,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Width
 Xxxxxxxxx xxx xxxxxx xx xxxxxxxxxx xx xxxx xxxx xx xxxxxx.
 Xxx xxxxxxxxxx xxxxxxxxxx xxx xxxxxxxxx$ xxx xxxxxxx.
 Xx xxx xxxx xxxx xxxxxxxxx$ xxx xxxxx xx xxxxxxxxxx xx xxx xxxxxxxxxxxxxxx xx xxx xxxx.
@@ -239,7 +239,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -LiteralPath
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx.
 Xxxxxx XxxxXxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
 Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
@@ -258,7 +258,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -273,7 +273,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -290,7 +290,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxXxxxxxx
+### -NoNewline
 $$Xxxx XxXxxxxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -307,12 +307,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxx xxxxxx xx Xxx$Xxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxx$Xxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ## XXXXX
@@ -329,15 +329,15 @@ Xx xxx xxxx xxx xxxxxx xx Xxx$Xxxx xx Xxx$Xxxxxx$ Xxx$Xxxxxx xxxxxxx xxxx xx xxx
 
 ## XXXXXXX XXXXX
 
-[Xxx$Xxxxxxx]()
+[Out-Default]()
 
-[Xxx$Xxxx]()
+[Out-Host]()
 
-[Xxx$Xxxx]()
+[Out-Null]()
 
-[Xxx$Xxxxxxx]()
+[Out-Printer]()
 
-[Xxx$Xxxxxx]()
+[Out-String]()
 
-[Xxx$Xxxxxx]()
+[Tee-Object]()
 

@@ -6,28 +6,28 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxx$XxxxxXxxx
+# Test-AzureName
 ## XXXXXXXX
 Xxxxx xxxxxxx x Xxxxxxxxx Xxxxx xxxxx xxxxxxx xxxx$ xxxxxxx xxxxxxx xxxx xx xxxxxxx xxx xxxxxxxxx xxxx xxxxxx xx xxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Test-AzureName [-Service] [-Name] <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Test-AzureName [-Storage] [-Name] <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_3
 ```
 Test-AzureName [-ServiceBusNamespace] [-Name] <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_4
 ```
 Test-AzureName [-Website] [-Name] <String>
 ```
@@ -61,7 +61,7 @@ Xxxx xxxxxxx xxxxx xx xxx xx xxx $xxxxxxxxxxx$ xx xx xxxxxxxx Xxxxxxxxx Xxxxx xx
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xx xxxxxxx xxxxxxx xx xxxx.
 
 ```yaml
@@ -76,7 +76,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Service
 Xxxxxxxxx xx xxxx xxx xx xxxxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
@@ -91,7 +91,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxXxxxxxxxx
+### -ServiceBusNamespace
 Xxxxxxxxx xx xxxx xxx xx xxxxxxxx xxxxxxx xxx xxxxxxxxx.
 
 ```yaml
@@ -106,7 +106,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Storage
 Xxxxxxxxx xx xxxx xxx xx xxxxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
@@ -121,7 +121,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Website
 Xxxxxxxxx xx xxxx xxx xx xxxxxxxx xxxxxxx.
 
 ```yaml

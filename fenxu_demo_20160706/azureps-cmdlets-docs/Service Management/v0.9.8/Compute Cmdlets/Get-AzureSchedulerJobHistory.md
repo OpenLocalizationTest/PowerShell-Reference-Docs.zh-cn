@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxxxXxxXxxxxxx
+# Get-AzureSchedulerJobHistory
 ## XXXXXXXX
 Xxxx xxxxxxx xxx x xxxxxxxxx xxx.
 
@@ -43,7 +43,7 @@ Xxxx xxx xxxxxxx xx xxx xxx xxxxxxxxxx xxxxx XxxXxxxxxxxxx00 xx xxx xxxxxxxxx xx
 
 ## XXXXXXXXXX
 
-### $XxxXxxxxxxxxxXxxx
+### -JobCollectionName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxxx xxx xxxxxxxxxx.
 Xxxx xxxxxx xxxx xxx xxxxxxx xxx x xxx xxxx xxxxxxx xx xxx xxxxxxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -59,7 +59,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxx
+### -JobName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxxx xxx xxx xxxxx xx xxx xxx xxxxxxx.
 
 ```yaml
@@ -74,7 +74,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxx
+### -JobStatus
 Xxxxxxxxx xxx xxxxxx xx xxxxxxxxx xxx xxx xxxxx xx xxx xxx xxxxxxx.
 
 ```yaml
@@ -89,7 +89,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Location
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxxx xxx xxxxx xxxxxxx.
 Xxxxx xxxxxx xxx$ 
 
@@ -107,7 +107,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -First
 Xxxx xxxx xxx xxxxxxxxx xxxxxx xx xxxxxxx.
 Xxxxx xxx xxxxxx xx xxxxxxx xx xxx.
 
@@ -123,7 +123,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Skip
 Xxxxxxx xxx xxxxxxxxx xxxxxx xx xxxxxxx xxx xxxx xxxx xxx xxxxxxxxx xxxxxxx.
 Xxxxx xxx xxxxxx xx xxxxxxx xx xxxx.
 
@@ -139,7 +139,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxXxxxx
+### -IncludeTotalCount
 Xxxxxxx xxx xxxxx xxxxxx xx xxxxxxx xx xxx xxxx xxx $xx xxxxxxx$ xxxxxxxx xx xxx xxxxxxxx xxxxxxx.
 Xx xxx xxxxxx xxxxxx xxxxxxxxx xxx xxxxx xxxxx$ xx xxxxxxxx $Xxxxxxx xxxxx xxxxx.$ Xxx xxxxxxx xxx xx Xxxxxxxx xxxxxxxx xxxx xxxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxx xxxxx xxxxx.
 Xxx xxxxx xx Xxxxxxxx xxxxxx xxxx 0.0 xx 0.0 xxxxx 0.0 xxxxx xxxx xxx xxxxxx xxxxx xxx xxxxx xxx xxxxxxx$ 0.0 xxxxx xxxx xxx xxxxx xx xxxxx$ xxx x xxxxx xxxxxxx 0.0 xxx 0.0 xxxxxxxxx xx xxxxxxxxxxxx xxxxxxxx xxxxxxxx.
@@ -164,8 +164,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxxxXxx](aaed4c39-d209-4663-b058-b480553ee6a9)
+[Get-AzureSchedulerJob](aaed4c39-d209-4663-b058-b480553ee6a9)
 
-[Xxx$XxxxxXxxxxxxxxXxxXxxxxxxxxx](1f6e64a2-021e-4ad7-93a4-9e1138607f01)
+[Get-AzureSchedulerJobCollection](1f6e64a2-021e-4ad7-93a4-9e1138607f01)
 
 

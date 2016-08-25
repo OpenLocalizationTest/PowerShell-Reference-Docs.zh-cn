@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxxxxxx
+# Remove-AzureService
 ## XXXXXXXX
 Xxxxxxx xxx xxxxxxx xxxxx xxxxxxx.
 
@@ -32,7 +32,7 @@ Xxx Xxxxxx$XxxxxXxxxxxx xxxxxx xxxxx xxx xxxxxxx xxx xxxxxxx xxxxx xxxxxxx$ xx x
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 Xxxxxxx xxx xxxxxxx xxxxxxx xxxxxxxxx xxx xxxxxxxxxxxx.
 
 ```yaml
@@ -47,7 +47,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 $$Xxxx$$
 
 ```yaml
@@ -62,7 +62,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -ServiceName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xx xx xxxxxxx.
 Xx xxx xxxxxxx xx xxx xxxx x xxxxxxx xxxxxxxxx xxx xx xxxx xx xxxxxxxxx$ xxxx xxx xxxxxxx xxxxxxx xxxx.
 
@@ -78,7 +78,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxxx
+### -Subscription
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxxxx xxxx xxx xxxx xx xxxx xxx xxxxxxx.
 Xx xx xxxxxxxxxxxx xx xxxxxxxxx$ xxxx xxx xxxxxxxxxxxx xxxxxxxxx xx xxx xxxx xxxx xx Xxx$XxxxxXxxxxxxxxxXxxxxxxxxxxx.
 Xx xx xxxxxxxxxxxx xxx xxxx xxxx xxxxxxxxx$ xxxx xxx xxxxx xxxxxxxxxxxx xx xxx xxxxxxx Xxxxxxx Xxxxx xxxxxxx xxxxxxx.
@@ -95,7 +95,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -110,7 +110,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -135,10 +135,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxxx$XxxxxXxxxxxxXxxxxxx](4c0c0966-919e-49a6-9d38-c3c97355e281)
+[Publish-AzureServiceProject](4c0c0966-919e-49a6-9d38-c3c97355e281)
 
-[Xxxx$XxxxxXxxxxxx](82d56ef9-9651-4224-9ba0-498750f6f551)
+[Stop-AzureService](82d56ef9-9651-4224-9ba0-498750f6f551)
 
-[Xxxxx$XxxxxXxxxxxx](56e58937-4763-467c-a98c-c89ae4326e84)
+[Start-AzureService](56e58937-4763-467c-a98c-c89ae4326e84)
 
 

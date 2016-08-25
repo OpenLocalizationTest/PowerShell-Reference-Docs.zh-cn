@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294004
 schema: 2.0.0
 ---
 
-# Xxxxxx$XXXxxxxxxxxx
+# Remove-PSBreakpoint
 ## XXXXXXXX
 Xxxxxxx xxxxxxxxxxx xxxx xxx xxxxxxx xxxxxxx.
 
 ## XXXXXX
 
-### Xxxxxxxxxx $Xxxxxxx$
+### Breakpoint (Default)
 ```
 Remove-PSBreakpoint [-Breakpoint] <Breakpoint[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### Xx
+### Id
 ```
 Remove-PSBreakpoint [-Id] <Int32[]> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
@@ -80,7 +80,7 @@ Xx xxxx xxx xxxxxxxx$ xxx xx xx xxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxxxx
+### -Breakpoint
 Xxxxxxxxx xxx xxxxxxxxxxx xx xxxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx xxxxxxxxxx xxxxxxx xx x xxxxxxx xxxx xxxx xxxxxxxxxx xxxxxxx$ xxxx xx x Xxx$XXXxxxxxxxxx xxxxxxx.
 Xxx xxx xxxx xxxx xxxxxxxxxx xxxxxxx xx Xxxxxx$XXXxxxxxxxxx.
@@ -97,7 +97,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xx
+### -Id
 Xxxxxxx xxxxxxxxxxx xxxx xxx xxxxxxxxx xxxxxxxxxx XXx.
 
 ```yaml
@@ -112,7 +112,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -128,7 +128,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -143,7 +143,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -158,7 +158,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -177,27 +177,27 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxxx
+### System.Management.Automation.Breakpoint
 Xxx xxx xxxx xxxxxxxxxx xxxxxxx xx Xxxxxx$XXXxxxxxxxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxxxxxx$XXXxxxxxxxxx]()
+[Disable-PSBreakpoint]()
 
-[Xxxxxx$XXXxxxxxxxxx]()
+[Enable-PSBreakpoint]()
 
-[Xxx$XXXxxxxxxxxx]()
+[Get-PSBreakpoint]()
 
-[Xxx$XXXxxxXxxxx]()
+[Get-PSCallStack]()
 
-[Xxx$XXXxxxxxxxxx]()
+[Set-PSBreakpoint]()
 
-[xxxxx$Xxxxxxxxx]()
+[about_Debuggers]()
 

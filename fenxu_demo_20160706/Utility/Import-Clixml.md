@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293982
 schema: 2.0.0
 ---
 
-# Xxxxxx$Xxxxxx
+# Import-Clixml
 ## XXXXXXXX
 Xxxxxxx x XXXXXX xxxx xxx xxxxxxx xxxxxxxxxxxxx xxxxxxx xxxxxx Xxxxxxx XxxxxXxxxx.
 
 ## XXXXXX
 
-### XxXxxx $Xxxxxxx$
+### ByPath (Default)
 ```
 Import-Clixml [-Path] <String[]> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-IncludeTotalCount] [-Skip <UInt64>] [-First <UInt64>]
 ```
 
-### XxXxxxxxxXxxx
+### ByLiteralPath
 ```
 Import-Clixml -LiteralPath <String[]> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-IncludeTotalCount] [-Skip <UInt64>] [-First <UInt64>]
@@ -60,7 +60,7 @@ Xxxx xxxxxxxxxx xxx xxxx xx xxxxxxxx xxxxx$xxxx xxxxxxxxx xx xxxx xxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -76,7 +76,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -91,7 +91,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxxxx xxx XXX xxxxx.
 
 ```yaml
@@ -106,7 +106,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -LiteralPath
 Xxxxxxxxx xxx XXX xxxxx.
 Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
 Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
@@ -125,7 +125,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -First
 Xxxx xxxx xxx xxxxxxxxx xxxxxx xx xxxxxxx.
 Xxxxx xxx xxxxxx xx xxxxxxx xx xxx.
 
@@ -141,7 +141,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Skip
 Xxxxxxx xxx xxxxxxxxx xxxxxx xx xxxxxxx xxx xxxx xxxx xxx xxxxxxxxx xxxxxxx.
 Xxxxx xxx xxxxxx xx xxxxxxx xx xxxx.
 
@@ -157,7 +157,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxXxxxx
+### -IncludeTotalCount
 Xxxxxxx xxx xxxxx xxxxxx xx xxxxxxx xx xxx xxxx xxx $xx xxxxxxx$ xxxxxxxx xx xxx xxxxxxxx xxxxxxx.
 Xx xxx xxxxxx xxxxxx xxxxxxxxx xxx xxxxx xxxxx$ xx xxxxxxxx $Xxxxxxx xxxxx xxxxx.$ Xxx xxxxxxx xxx xx Xxxxxxxx xxxxxxxx xxxx xxxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxx xxxxx xxxxx.
 Xxx xxxxx xx Xxxxxxxx xxxxxx xxxx 0.0 xx 0.0 xxxxx 0.0 xxxxx xxxx xxx xxxxxx xxxxx xxx xxxxx xxx xxxxxxx$ 0.0 xxxxx xxxx xxx xxxxx xx xxxxx$ xxx x xxxxx xxxxxxx 0.0 xxx 0.0 xxxxxxxxx xx xxxxxxxxxxxx xxxxxxxx xxxxxxxx.
@@ -176,12 +176,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx x xxxx xx Xxxxxx$Xxxxxx.
 
 ## XXXXXXX
 
-### XXXxxxxx
+### PSObject
 Xxxxxx$Xxxxxx xxxxxxx xxxxxxx xxxx xxxx xxxx xxxxxxxxxxxx xxxx xxx xxxxxx XXX xxxxx.
 
 ## XXXXX
@@ -190,9 +190,9 @@ Xxx xxxxxxx$ $$$xxxxxxxxx$xxxx$$ $$xxxxx0$$$ $$xxxxx0$$$.
 
 ## XXXXXXX XXXXX
 
-[Xxx XxxxxXxxxx xx Xxxx Xxxxxxxxxxx xx Xxxxxx Xxxxxxx]()
+[Use PowerShell to Pass Credentials to Legacy Systems]()
 
-[Xxxxxxxx Xxxxx Xxxxxxxxxxx xx Xxxx]()
+[Securely Store Credentials on Disk]()
 
-[Xxxxxx$XxxXxx]()
+[Export-CliXml]()
 

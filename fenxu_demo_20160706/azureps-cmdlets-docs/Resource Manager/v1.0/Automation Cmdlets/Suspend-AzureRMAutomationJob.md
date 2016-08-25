@@ -7,34 +7,34 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Suspend-AzureRMAutomationJob
-## SYNOPSIS
-Suspends an Automation job.
+## XXXXXXXX
+Xxxxxxxx xx Xxxxxxxxxx xxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Suspend-AzureRMAutomationJob [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Id] <Guid>
 ```
 
-## DESCRIPTION
-The **Suspend-AzureRmAutomationJob** cmdlet suspends an azure_2 Automation job.
-Specify a running Automation job.
+## XXXXXXXXXXX
+Xxx $$Xxxxxxx$XxxxxXxXxxxxxxxxxXxx$$ xxxxxx xxxxxxxx xx xxxxx$0 Xxxxxxxxxx xxx.
+Xxxxxxx x xxxxxxx Xxxxxxxxxx xxx.
 
-To resume a suspended job, use the Resume-AzureRmAutomationJob cmdlet.
+Xx xxxxxx x xxxxxxxxx xxx$ xxx xxx Xxxxxx$XxxxxXxXxxxxxxxxxXxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Suspend a job
+### Xxxxxxx 0$ Xxxxxxx x xxx
 ```
 PS C:\>Suspend-AzureRmAutomationJob -AutomationAccountName "Contoso17" -Id 2989b069-24fe-40b9-b3bd-cb7e5eac4b64 -ResourceGroupName "ResourceGroup01"
 ```
 
-This command suspends the job that has the specified ID.
+Xxxx xxxxxxx xxxxxxxx xxx xxx xxxx xxx xxx xxxxxxxxx XX.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of an Automation account in which this cmdlet suspends a job.
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxxx x xxx.
 
 ```yaml
 Type: String
@@ -49,7 +49,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-Specifies the ID of a job that this cmdlet suspends.
+Xxxxxxxxx xxx XX xx x xxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: Guid
@@ -64,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the ID of a job that this cmdlet suspends.
+Xxxxxxxxx xxx XX xx x xxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -78,13 +78,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationJob](e41c8823-9e6a-4535-b90c-0e2de7634c47)
 

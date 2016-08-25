@@ -7,31 +7,31 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Stop-AzureWebsiteJob
-## SYNOPSIS
-Stops a web job for a website
+## XXXXXXXX
+Xxxxx x xxx xxx xxx x xxxxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 Stop-AzureWebsiteJob [[-Name] <String>] [-PassThru] [-Slot <String>] -JobName <String>
 ```
 
-## DESCRIPTION
-Stops a web job for a website
+## XXXXXXXXXXX
+Xxxxx x xxx xxx xxx x xxxxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Stop a web job for a website --------------
+### $$$$$$$$$$$$$$  Xxxx x xxx xxx xxx x xxxxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Stop-AzureWebsiteJob -Name MyWebsite -JobName MyWebJob -JobType Continuous
 ```
 
-Stops a web job called MyWebJob for MyWebSite
+Xxxxx x xxx xxx xxxxxx XxXxxXxx xxx XxXxxXxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -JobName
-The web job name
+Xxx xxx xxx xxxx
 
 ```yaml
 Type: String
@@ -46,7 +46,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the Azure website
+Xxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -61,8 +61,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Returns a boolean value indicating that the job stopped successfully.
-By default, this cmdlet does not return any output.
+Xxxxxxx x xxxxxxx xxxxx xxxxxxxxxx xxxx xxx xxx xxxxxxx xxxxxxxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -77,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-The slot name of the Azure website
+Xxx xxxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -91,13 +91,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Stop-AzureWebsite](62c5de93-e58b-4e57-85d0-8b7e75df1f31)
 

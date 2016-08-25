@@ -7,42 +7,42 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureMediaServicesAccount
-## SYNOPSIS
-Gets the available Azure Media Services accounts.
+## XXXXXXXX
+Xxxx xxx xxxxxxxxx Xxxxx Xxxxx Xxxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureMediaServicesAccount [[-Name] <String>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-To list all the accounts, use the Get-AzureMediaServicesAccount cmdlet.
-To get more detailed information about a specific account, use the Get-AzureMediaServicesAccount -Name YourAccountName cmdlet.
+Xx xxxx xxx xxx xxxxxxxx$ xxx xxx Xxx$XxxxxXxxxxXxxxxxxxXxxxxxx xxxxxx.
+Xx xxx xxxx xxxxxxxx xxxxxxxxxxx xxxxx x xxxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxXxxxxxxxXxxxxxx $Xxxx XxxxXxxxxxxXxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: List all Media Services accounts
+### Xxxxxxx 0$ Xxxx xxx Xxxxx Xxxxxxxx xxxxxxxx
 ```
 PS C:\> Get-AzureMediaServicesAccount
 ```
 
-This command lists all available Media Services accounts.
+Xxxx xxxxxxx xxxxx xxx xxxxxxxxx Xxxxx Xxxxxxxx xxxxxxxx.
 
-### Example 2: Get detailed information about a Media Services account
+### Xxxxxxx 0$ Xxx xxxxxxxx xxxxxxxxxxx xxxxx x Xxxxx Xxxxxxxx xxxxxxx
 ```
 PS C:\> Get-AzureMediaServicesAccount -Name accountname
 ```
 
-This command displays properties of a Media Services account.
+Xxxx xxxxxxx xxxxxxxx xxxxxxxxxx xx x Xxxxx Xxxxxxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-The Media Services account name.
+Xxx Xxxxx Xxxxxxxx xxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -56,13 +56,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [How to use Azure PowerShell for Media Services](http://go.microsoft.com/fwlink/?LinkId=324179)
 

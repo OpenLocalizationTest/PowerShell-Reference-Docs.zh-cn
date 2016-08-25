@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx
+# Import-AzureRmAutomationDscConfiguration
 ## XXXXXXXX
 Xxxxxxx x XXX xxxxxxxxxxxxx xxxx Xxxxxxxxxx.
 
@@ -35,7 +35,7 @@ Xx xxxxx xx xx xxxxxxxx XXX xxxxxxxxxxxxx$ xxxx xxxxxxx xxxxxxxx xx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxx xxxx xxxxxx xxxxxxx x XXX xxxxxxxxxxxxx.
 
 ```yaml
@@ -50,7 +50,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Description
 Xxxxxxxxx x xxxxxxxxxxx xx xxx xxxxxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -65,7 +65,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx xx xxxxxxxx XXX xxxxxxxxxxxxx xx Xxxxxxxxxx.
 
 ```yaml
@@ -80,7 +80,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxx
+### -LogVerbose
 Xxxxxxxxx xxxxxxx xxxx xxxxxx xxxxx xxxxxxx xxxxxxx xx xx xxx xxx xxxxxxxxxxx xxxx xx xxxx XXX xxxxxxxxxxxxx.
 Xxxxxxx x xxxxx xx $Xxxx xx xxxx xxxxxxx xxxxxxx xx xx $Xxxxx xx xxxx xx xxx.
 
@@ -96,7 +96,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Published
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx XXX xxxxxxxxxxxxx xx xxx xxxxxxxxx xxxxx.
 
 ```yaml
@@ -111,7 +111,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x XXX xxxxxxxxxxxxx.
 
 ```yaml
@@ -126,7 +126,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -SourcePath
 Xxxxxxxxx xxx xxxx xx xxx xxx$0 xxxxxx xxxx xxxxxxxx xxx XXX xxxxxxxxxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -141,7 +141,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Tags
 Xxxxxxxxx x xxxxxxxxxx xx xxxx.
 
 ```yaml
@@ -156,7 +156,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -171,7 +171,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -194,8 +194,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](091cd841-4aaf-45de-a8f2-6f973fb9c91b)
+[Export-AzureRmAutomationDscConfiguration](091cd841-4aaf-45de-a8f2-6f973fb9c91b)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxxx](cd411497-be17-46f7-8708-519f02312553)
+[Get-AzureRmAutomationDscConfiguration](cd411497-be17-46f7-8708-519f02312553)
 
 

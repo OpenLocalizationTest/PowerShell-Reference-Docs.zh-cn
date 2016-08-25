@@ -7,46 +7,46 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureRMAutomationVariable
-## SYNOPSIS
-Creates an Automation variable.
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureRMAutomationVariable [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  [-Description <String>] [-Value <Object>] -Encrypted <Boolean>
 ```
 
-## DESCRIPTION
-The **New-AzureRmAutomationVariable** cmdlet creates a variable in azure_2 Automation.
-To encrypt the variable, specify the *Encrypted* parameter.
-You cannot modify the encrypted state of a variable after creation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxx$$ xxxxxx xxxxxxx x xxxxxxxx xx xxxxx$0 Xxxxxxxxxx.
+Xx xxxxxxx xxx xxxxxxxx$ xxxxxxx xxx $Xxxxxxxxx$ xxxxxxxxx.
+Xxx xxxxxx xxxxxx xxx xxxxxxxxx xxxxx xx x xxxxxxxx xxxxx xxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a variable with a simple value
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxx xxxx x xxxxxx xxxxx
 ```
 PS C:\>New-AzureRmAutomationVariable -AutomationAccountName "Contoso17" -Name "StringVariable22" -Encrypted $False -Value "My String" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command creates a variable named StringVariable22 with a string value in the Automation account named Contoso17.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxx xxxxx XxxxxxXxxxxxxx00 xxxx x xxxxxx xxxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
 
-### Example 2: Create a variable with a complex value
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxx xxxx x xxxxxxx xxxxx
 ```
 PS C:\>$VirtualMachine = Get-AzureVM -ServiceName "VirtualMachine" -Name "VirtualMachine03"
 PS C:\> New-AzureRmAutomationVariable -AutomationAccountName "Contoso17" -Name "ComplexVariable01" -Encrypted $False -Value $VirtualMachine -ResourceGroupName "ResourceGroup01"
 ```
 
-The first command gets a virtual machine by using the Get-AzureVM cmdlet.
-The command stores it in the $VirtualMachine variable.
+Xxx xxxxx xxxxxxx xxxx x xxxxxxx xxxxxxx xx xxxxx xxx Xxx$XxxxxXX xxxxxx.
+Xxx xxxxxxx xxxxxx xx xx xxx $XxxxxxxXxxxxxx xxxxxxxx.
 
-The second command creates a variable named ComplexVariable01 in the Automation account named Contoso17.
-This command uses a complex object for its value, in this case, the virtual machine in $VirtualMachine.
+Xxx xxxxxx xxxxxxx xxxxxxx x xxxxxxxx xxxxx XxxxxxxXxxxxxxx00 xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
+Xxxx xxxxxxx xxxx x xxxxxxx xxxxxx xxx xxx xxxxx$ xx xxxx xxxx$ xxx xxxxxxx xxxxxxx xx $XxxxxxxXxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account in which to store the variable.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xx xxxxx xx xxxxx xxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-Specifies a description for the variable.
+Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -Encrypted
-Specifies whether this cmdlet encrypts the value of the variable for storage.
+Xxxxxxxxx xxxxxxx xxxx xxxxxx xxxxxxxx xxx xxxxx xx xxx xxxxxxxx xxx xxxxxxx.
 
 ```yaml
 Type: Boolean
@@ -91,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies a name for the variable.
+Xxxxxxxxx x xxxx xxx xxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -106,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the resource group for which this cmdlet creates a variable.
+Xxxxxxxxx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxx.
 
 ```yaml
 Type: String
@@ -121,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -Value
-Specifies a value for the variable.
+Xxxxxxxxx x xxxxx xxx xxx xxxxxxxx.
 
 ```yaml
 Type: Object
@@ -135,13 +135,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationVariable](a6dc9902-ad99-47f9-8212-d3d96146b180)
 

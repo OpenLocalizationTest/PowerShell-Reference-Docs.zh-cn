@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxXxxxxxxxXxxxxxx
+# New-AzureMediaServicesAccount
 ## XXXXXXXX
 Xxxxxxx x xxx Xxxxx Xxxxx Xxxxxxxx xxxxxxx.
 
@@ -32,7 +32,7 @@ PS C:\> New-AzureMediaServicesAccount -Name "mediaserviceaccount" -StorageAccoun
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxx
+### -Location
 Xxx Xxxxx Xxxxxxxx xxxxxxxxxx xxxxxxxx.
 
 ```yaml
@@ -47,7 +47,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxx Xxxxx Xxxxxxxx xxxxxxx xxxx.
 
 ```yaml
@@ -62,7 +62,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxXxxx
+### -StorageAccountName
 Xxx xxxxxxx xxxxxxx xxxx.
 Xxx xxxxxxx xxxxxxx xxxx xxxxxxx xxxxx xx xxx xxxx xxxxxxxxxx xx xxx xxx Xxxxx Xxxxxxxx xxxxxxx.
 
@@ -86,6 +86,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx xx xxx Xxxxx XxxxxXxxxx xxx Xxxxx Xxxxxxxx](http://go.microsoft.com/fwlink/?LinkId=324179)
+[How to use Azure PowerShell for Media Services](http://go.microsoft.com/fwlink/?LinkId=324179)
 
 

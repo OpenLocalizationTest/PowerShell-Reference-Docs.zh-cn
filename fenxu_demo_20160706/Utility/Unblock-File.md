@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294021
 schema: 2.0.0
 ---
 
-# Xxxxxxx$Xxxx
+# Unblock-File
 ## XXXXXXXX
 Xxxxxxxx xxxxx xxxx xxxx xxxxxxxxxx xxxx xxx Xxxxxxxx.
 
 ## XXXXXX
 
-### XxXxxx $Xxxxxxx$
+### ByPath (Default)
 ```
 Unblock-File [-Path] <String[]> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-### XxXxxxxxxXxxx
+### ByLiteralPath
 ```
 Unblock-File -LiteralPath <String[]> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
@@ -82,7 +82,7 @@ Xxxx xxxxxxx xxxxx xxx xx xxxx xxx xxxxxxx Xxxxxxx XxxxxXxxxx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -98,7 +98,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -113,7 +113,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -LiteralPath
 Xxxxxxxxx xxx xxxxx xx xxxxxxx.
 Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
 Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
@@ -132,7 +132,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxxxx xxx xxxxx xx xxxxxxx.
 Xxxxxxxx xxxxxxxxxx xxx xxxxxxxxx.
 
@@ -148,7 +148,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -163,7 +163,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -182,12 +182,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx x xxxx xxxx xx Xxxxxxx$Xxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ## XXXXX
@@ -199,9 +199,9 @@ Xx xxx xxx xxx Xxxxxxx$Xxxx xxxxxx xx x xxxx xxxx xx xxx xxxxxxx$ xxx xxxxxxx xx
 
 ## XXXXXXX XXXXX
 
-[xxxxx$Xxxxxxxxx$Xxxxxxxx]()
+[about_Execution_Policies]()
 
-[Xxx$Xxxx]()
+[Get-Item]()
 
-[XxxxXxxxxx Xxxxxxxx]()
+[FileSystem Provider]()
 

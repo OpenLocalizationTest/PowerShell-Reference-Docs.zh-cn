@@ -6,18 +6,18 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxxx
+# Get-AzureRMAutomationCertificate
 ## XXXXXXXX
 Xxxx Xxxxxxxxxx xxxxxxxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureRMAutomationCertificate [-ResourceGroupName] <String> [-AutomationAccountName] <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureRMAutomationCertificate [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String>
@@ -46,7 +46,7 @@ Xxxx xxxxxxx xxxx xxxxxxxx xxx xxx xxxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxxx x xxxxxxxxxxx.
 
 ```yaml
@@ -61,7 +61,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx x xxxxxxxxxxx xx xxxxxxxx.
 
 ```yaml
@@ -76,7 +76,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxx xx Xxxxxxxxxx xxxxxxxxxxx.
 
 ```yaml
@@ -95,16 +95,16 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.XxxxxxxxxxxXxxx
+### Microsoft.Azure.Commands.Automation.Model.CertificateInfo
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx](4316d596-2954-42e8-905f-840853dab7d5)
+[New-AzureRmAutomationCertificate](4316d596-2954-42e8-905f-840853dab7d5)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx](1ed3a0d7-541d-4a07-b0d6-4538f98450f7)
+[Remove-AzureRmAutomationCertificate](1ed3a0d7-541d-4a07-b0d6-4538f98450f7)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxxx](77502783-0006-4288-917f-26f265ccfcbe)
+[Set-AzureRmAutomationCertificate](77502783-0006-4288-917f-26f265ccfcbe)
 
 

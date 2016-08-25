@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Unregister-AzureRMAutomationScheduledRunbook
-## SYNOPSIS
-Removes an association between a runbook and a schedule.
+## XXXXXXXX
+Xxxxxxx xx xxxxxxxxxxx xxxxxxx x xxxxxxx xxx x xxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -24,23 +24,23 @@ Unregister-AzureRMAutomationScheduledRunbook [-ResourceGroupName] <String> [-Aut
  [-Force] -RunbookName <String> -ScheduleName <String> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-The **Unregister-AzureRmAutomationScheduledRunbook** cmdlet removes the association between an azure_2 Automation runbook and a schedule.
-The schedule no longer starts the runbook.
+## XXXXXXXXXXX
+Xxx $$Xxxxxxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxXxxxxxx$$ xxxxxx xxxxxxx xxx xxxxxxxxxxx xxxxxxx xx xxxxx$0 Xxxxxxxxxx xxxxxxx xxx x xxxxxxxx.
+Xxx xxxxxxxx xx xxxxxx xxxxxx xxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Remove the association between a runbook and a schedule
+### Xxxxxxx 0$ Xxxxxx xxx xxxxxxxxxxx xxxxxxx x xxxxxxx xxx x xxxxxxxx
 ```
 PS C:\>Unregister-AzureRmAutomationScheduledRunbook -AutomationAccountName "Contoso17" -Name "Runbk01" -ResourceGroupName "ResourceGroup01" -ScheduleName "Runbk01Sched"
 ```
 
-This command removes the association between the runbook named Runbk01 and the schedule named Runbk01Sched.
+Xxxx xxxxxxx xxxxxxx xxx xxxxxxxxxxx xxxxxxx xxx xxxxxxx xxxxx Xxxxx00 xxx xxx xxxxxxxx xxxxx Xxxxx00Xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies an Automation account for the runbook on which this cmdlet operates.
+Xxxxxxxxx xx Xxxxxxxxxx xxxxxxx xxx xxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-ps_force
+xx$xxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -70,7 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobScheduleId
-Specifies the ID of a scheduled runbook.
+Xxxxxxxxx xxx XX xx x xxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: Guid]
@@ -85,7 +85,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group for the scheduled runbook.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxx xxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -RunbookName
-Specifies the name of the runbook that this cmdlet dissociates from a schedule.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xxxx xxxx xxxxxx xxxxxxxxxxx xxxx x xxxxxxxx.
 
 ```yaml
 Type: String
@@ -115,7 +115,7 @@ Accept wildcard characters: False
 ```
 
 ### -ScheduleName
-Specifies the name of the schedule from which this cmdlet dissociates a runbook.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxx xxxxx xxxx xxxxxx xxxxxxxxxxx x xxxxxxx.
 
 ```yaml
 Type: String
@@ -130,7 +130,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+xxxx$xxxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -145,7 +145,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+xxxx$xxxxxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -159,13 +159,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationScheduledRunbook](cfac4e12-2a1f-4b2c-873b-f5a3f9c4a2ce)
 

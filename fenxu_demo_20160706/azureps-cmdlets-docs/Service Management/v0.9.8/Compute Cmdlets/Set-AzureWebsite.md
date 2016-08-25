@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxx
+# Set-AzureWebsite
 ## XXXXXXXX
 Xxxxxxxxxx x xxxxxxx xxxxxxx xx Xxxxx.
 
@@ -47,7 +47,7 @@ Xxxx xxxxxxx xxxx xxxxxxx xxxxxxxxxxx xx x xxxxxxx xxxxx xxXxxxxxx xxxx xxxxxxxx
 
 ## XXXXXXXXXX
 
-### $XxxXxxxxxxx
+### -AppSettings
 Xxxxxxxxx xxx xxxxxxxxxxx xxxxxxxxx xxxx xxxx xx xxxx xx xxx xxxxxxx.
 
 ```yaml
@@ -62,7 +62,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxXxxxXxxx
+### -AutoSwapSlotName
 $$Xxxx$$
 
 ```yaml
@@ -77,7 +77,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxxxx
+### -ConnectionStrings
 Xxxxxxxxx xxx xxxxxxxxxx xxxxxxx xxxx xx xxx xxxxxxx.
 
 ```yaml
@@ -92,7 +92,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxxx
+### -DefaultDocuments
 Xxxxxxxxx xxx xxxxxxxxx xxxx xxx xxxxxxxxxxxxx xxxxxxxxx xxxx xxxxxxxx xxx xxxxxxx.
 
 ```yaml
@@ -107,7 +107,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxxxxxXxxxxxx
+### -DetailedErrorLoggingEnabled
 Xxxxxxxxxx xxxxxxx xxxxxxxx XXX xxxxxx xxx xxxxxx xxx xxx xxxxxxx.
 
 ```yaml
@@ -122,7 +122,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxx
+### -HandlerMappings
 Xxxxxxxxx xxx xxxxxxx xxxxxxxx xxxx xx xxx xxxxxxx.
 
 ```yaml
@@ -137,7 +137,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxx
+### -HostNames
 Xxxxxxxxx xxx xxxxx xxxxxxxxx xxxx xxxxx xxxx xxx xx xxxx xx xxxxxx xxx xxxxxxx.
 
 ```yaml
@@ -152,7 +152,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxxXxxxxxx
+### -HttpLoggingEnabled
 Xxxxxxxxxx xxxxxxx xxxx xxxxxxx xx xxxxxxx xxx xxx xxxxxxx.
 
 ```yaml
@@ -167,7 +167,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxxXxxx
+### -ManagedPipelineMode
 Xxxxxxxxx xxx xxxxxxx xxxxxxxx xxxx.
 
 ```yaml
@@ -183,7 +183,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Metadata
 Xxxxxxxxx xxx xxxxxxxx xxx xxx xxxxxxx.
 
 ```yaml
@@ -198,7 +198,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxx.
 \<Xxxx$$$x xxxx xx xxxx xxx$$$x xxxxxxxxx$\>
 
@@ -214,7 +214,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxxxxXxxxxxx
+### -NetFrameworkVersion
 Xxxxxxxxx xxx xxxxxxx xx xxx .Xxx Xxxxxxxxx xxxxxxxx xx xxx xxxxxxx.
 
 ```yaml
@@ -229,7 +229,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxXxxxxxx
+### -NumberOfWorkers
 Xxxxxxxxx xxx xxxxxx xx xxxxxx xxxxxxxxx xxxxxxx xxx xxxxxxx.
 
 ```yaml
@@ -244,7 +244,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx x Xxxxxxx xxxxx.
 
 ```yaml
@@ -259,7 +259,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxx
+### -PhpVersion
 Xxxxxxxxx xxx XXX xxxxxxx xxxxxxxx xx xxx xxxxxxx.
 
 ```yaml
@@ -274,7 +274,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxXxxxxxx
+### -RequestTracingEnabled
 Xxxxxxxxxx xxxxxxx xxxxxxx xxxxxxx xx xxxxxxx xxx xxx xxxxxxx.
 
 ```yaml
@@ -289,7 +289,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxx
+### -RoutingRules
 Xxxxxxxxx xxx xxxxxxx xxxxx xx xxx xxx xxxxxxx xx xxxxxxxxxx.
 
 ```yaml
@@ -304,7 +304,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxXxxxxx
+### -SiteWithConfig
 Xxxxxxxxx xxx xxxxxxxxxxxxx xxxx xx xxx xxxxxxx.
 
 ```yaml
@@ -319,7 +319,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxxxxxxxx xxx xxxx xxxx xx xxx xxxxxxx.
 
 ```yaml
@@ -334,7 +334,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxXxxXxxxxxxXxxxx
+### -SlotStickyAppSettingNames
 $$Xxxx$$
 
 ```yaml
@@ -349,7 +349,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxXxxxxxxxxxXxxxxxXxxxx
+### -SlotStickyConnectionStringNames
 $$Xxxx$$
 
 ```yaml
@@ -364,7 +364,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxx00XxxXxxxxxXxxxxxx
+### -Use32BitWorkerProcess
 Xxxxxxxxx xxxxxxx xx xxxxxx 00$xxx xxxx.
 
 ```yaml
@@ -379,7 +379,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxxXxxxxxx
+### -WebSocketsEnabled
 Xxxxxxxxx xxxxxxx xx xxxxxx XxxXxxxxxx.
 
 ```yaml
@@ -402,8 +402,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
+[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
 
-[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
 

@@ -4,31 +4,31 @@ online version: http://go.microsoft.com/fwlink/?LinkID=403731
 schema: 2.0.0
 ---
 
-# Xxxxx$Xxxxxxxx
+# Debug-Runspace
 ## XXXXXXXX
 Xxxxxx xx xxxxxxxxxxx xxxxxxxxx xxxxxxx xxxx x xxxxxxxx.
 
 ## XXXXXX
 
-### XxxxxxxxXxxxxxxxxXxx $Xxxxxxx$
+### RunspaceParameterSet (Default)
 ```
 Debug-Runspace [-Runspace] <Runspace> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-### XxxxXxxxxxxxxXxx
+### NameParameterSet
 ```
 Debug-Runspace [-Name] <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
 ```
 
-### XxXxxxxxxxxXxx
+### IdParameterSet
 ```
 Debug-Runspace [-Id] <Int32> [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf]
  [-Confirm]
 ```
 
-### XxxxxxxxXxXxxxxxxxxXxx
+### InstanceIdParameterSet
 ```
 Debug-Runspace [-InstanceId] <Guid> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
@@ -93,7 +93,7 @@ Xxxxxxx xxxxx$x x xxxxxxxxxx xx xxx xxxxxx$ xxx xxxxxxxx xxxxx.
 
 ## XXXXXXXXXX
 
-### $Xx
+### -Id
 Xxxxxxxxx xxx XX xxxxxx xx x xxxxxxxx.
 Xxx xxx xxx Xxx$Xxxxxxxx xx xxxx xxxxxxxx XXx.
 
@@ -109,7 +109,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -125,7 +125,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -140,7 +140,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXx
+### -InstanceId
 Xxxxxxxxx x xxxxxxxx xx xxx xxxxxxxx XX$ x XXXX xxxx xxx xxx xxxx xx xxxxxxx Xxx$Xxxxxxxx.
 
 ```yaml
@@ -155,7 +155,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxxxxxx xx xxx xxxx.
 Xxx xxx xxx Xxx$Xxxxxxxx xx xxxx xxx xxxxx xx xxxxxxxxx.
 
@@ -171,7 +171,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Runspace
 Xxxxxxxxx x xxxxxxxx xxxxxx.
 Xxx xxxxxxxx xxx xx xxxxxxx x xxxxx xxx xxxx xxxxxxxxx xx xx xxxxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx x xxxxxxxx Xxx$Xxxxxxxx xxxxxxx.
 
@@ -187,7 +187,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -202,7 +202,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -221,7 +221,7 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxx.Xxxxxxxx
+### System.Management.Automation.Runspaces.Runspace
 Xxx xxx xxxx xxx xxxxxxx xx x Xxx$Xxxxxxxx xxxxxxx xx Xxxxx$Xxxxxxxx.
 
 ## XXXXXXX
@@ -237,13 +237,13 @@ $$ Xx xx xx xxxxxx xxxx x Xxxxxxx XxxxxXxxxx xxxxxxxx$ xxx xxx xxxxxxxx xxx XX x
 
 ## XXXXXXX XXXXX
 
-[xxxxx$Xxxxxxxxx]()
+[about_Debuggers]()
 
-[Xxx$Xxxxxxx]()
+[Get-Process]()
 
-[Xxxxx$XXXxxxXxxxxxx]()
+[Enter-PSHostProcess]()
 
-[Xxx$Xxxxxxxx]()
+[Get-Runspace]()
 
-[Xxxxx$Xxx]()
+[Debug-Job]()
 

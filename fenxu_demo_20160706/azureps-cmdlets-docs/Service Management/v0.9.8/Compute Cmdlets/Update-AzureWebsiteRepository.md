@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxxxxxxXxxxxxxxxx
+# Update-AzureWebsiteRepository
 ## XXXXXXXX
 Xxxxxx xxx xxxxxx xxxxxxxxxxxx xx x xxxxx xxx xxxxxxxxxx xxx xxx xxx xxxxx
 
@@ -30,7 +30,7 @@ Xxxxxxx xxx xxxxxx xxxxxxxxxxxx xx x xxxxx xxx xxxxxxxxxx xxx xxx xxx xxxxx xxx 
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 Xxx xxxx xx xxx xxxxxxx
 
 ```yaml
@@ -45,7 +45,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxxxxx
+### -PublishingUsername
 Xxx xxxxxxxx xxx xxxx xxxxxxxxx xx xxx Xxxxxxxxx Xxxxx Xxxxxx xxx Xxx xxxxxxxxxx
 
 ```yaml
@@ -60,7 +60,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -75,7 +75,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -100,12 +100,12 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
-[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
+[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
 
-[Xxxxx$XxxxxXxxxxxx](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
+[Start-AzureWebsite](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
 
-[Xxxx$XxxxxXxxxxxx](62c5de93-e58b-4e57-85d0-8b7e75df1f31)
+[Stop-AzureWebsite](62c5de93-e58b-4e57-85d0-8b7e75df1f31)
 
 

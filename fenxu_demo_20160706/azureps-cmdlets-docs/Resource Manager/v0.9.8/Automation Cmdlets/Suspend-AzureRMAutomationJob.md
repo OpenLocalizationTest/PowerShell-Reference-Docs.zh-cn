@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxxx$XxxxxXXXxxxxxxxxxXxx
+# Suspend-AzureRMAutomationJob
 ## XXXXXXXX
 Xxxxxxxx xx Xxxxxxxxxx xxx.
 
@@ -33,7 +33,7 @@ Xxxx xxxxxxx xxxxxxxx xxx xxx xxxx xxx xxx xxxxxxxxx XX.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxxxxx x xxx.
 
 ```yaml
@@ -48,7 +48,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xx
+### -Id
 Xxxxxxxxx xxx XX xx x xxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
@@ -63,7 +63,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx XX xx x xxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
@@ -86,12 +86,12 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxx](e41c8823-9e6a-4535-b90c-0e2de7634c47)
+[Get-AzureRmAutomationJob](e41c8823-9e6a-4535-b90c-0e2de7634c47)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxx](03d80a68-8443-42e0-87bc-5d0e22ac3a57)
+[Get-AzureRmAutomationJobOutput](03d80a68-8443-42e0-87bc-5d0e22ac3a57)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxx](4b289017-5b98-45bc-87c4-86b08e1ac322)
+[Resume-AzureRmAutomationJob](4b289017-5b98-45bc-87c4-86b08e1ac322)
 
-[Xxxx$XxxxxXxXxxxxxxxxxXxx](1b580598-1087-4a10-9bc3-747ec5d7604a)
+[Stop-AzureRmAutomationJob](1b580598-1087-4a10-9bc3-747ec5d7604a)
 
 

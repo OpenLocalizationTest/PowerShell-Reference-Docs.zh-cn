@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Set-AzureSBAuthorizationRule
-## SYNOPSIS
-Updates existing Service Bus authorization rule
+## XXXXXXXX
+Xxxxxxx xxxxxxxx Xxxxxxx Xxx xxxxxxxxxxxxx xxxx
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -24,29 +24,29 @@ Set-AzureSBAuthorizationRule [-Name] <String> [-Permission] [-Namespace] <String
  [[-SecondaryKey] <String>]
 ```
 
-## DESCRIPTION
-Updates existing Service Bus authorization rule
+## XXXXXXXXXXX
+Xxxxxxx xxxxxxxx Xxxxxxx Xxx xxxxxxxxxxxxx xxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### -------------- Renew primary key for authorization rule at namespace level --------------
+### $$$$$$$$$$$$$$ Xxxxx xxxxxxx xxx xxx xxxxxxxxxxxxx xxxx xx xxxxxxxxx xxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Set-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace -Permission $("Send")
 ```
 
-The primary key is renewed
+Xxx xxxxxxx xxx xx xxxxxxx
 
-### -------------- Update authorization rule permission --------------
+### $$$$$$$$$$$$$$ Xxxxxx xxxxxxxxxxxxx xxxx xxxxxxxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Set-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace -Permission $("Listen", "Send") -EntityName MyEntity -EntityType Queue
 ```
 
-Updates the permissions
+Xxxxxxx xxx xxxxxxxxxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -EntityName
-The entity name to apply rule at.
+Xxx xxxxxx xxxx xx xxxxx xxxx xx.
 
 ```yaml
 Type: String
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -EntityType
-The entity type (Queue, Topic, Relay, NotificationHub).
+Xxx xxxxxx xxxx $Xxxxx$ Xxxxx$ Xxxxx$ XxxxxxxxxxxxXxx$.
 
 ```yaml
 Type: ServiceBusEntityType
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The unique authorization rule name
+Xxx xxxxxx xxxxxxxxxxxxx xxxx xxxx
 
 ```yaml
 Type: String
@@ -91,8 +91,8 @@ Accept wildcard characters: False
 ```
 
 ### -Namespace
-The namespace name to apply the authorization rule.
-If no EntityName provided the rule will be on the namespace level
+Xxx xxxxxxxxx xxxx xx xxxxx xxx xxxxxxxxxxxxx xxxx.
+Xx xx XxxxxxXxxx xxxxxxxx xxx xxxx xxxx xx xx xxx xxxxxxxxx xxxxx
 
 ```yaml
 Type: String
@@ -107,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -Permission
-The authorization permissions (Send, Manage, Listen)
+Xxx xxxxxxxxxxxxx xxxxxxxxxxx $Xxxx$ Xxxxxx$ Xxxxxx$
 
 ```yaml
 Type: SwitchParameter
@@ -123,8 +123,8 @@ Accept wildcard characters: False
 ```
 
 ### -PrimaryKey
-The Shared Access Signature primary key.
-Will be generated if not provided
+Xxx Xxxxxx Xxxxxx Xxxxxxxxx xxxxxxx xxx.
+Xxxx xx xxxxxxxxx xx xxx xxxxxxxx
 
 ```yaml
 Type: String
@@ -139,7 +139,7 @@ Accept wildcard characters: False
 ```
 
 ### -SecondaryKey
-The Shared Access Signature secondary key
+Xxx Xxxxxx Xxxxxx Xxxxxxxxx xxxxxxxxx xxx
 
 ```yaml
 Type: String
@@ -153,13 +153,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureSBAuthorizationRule](07ab8d50-c6de-45f1-8576-99b76f798bca)
 

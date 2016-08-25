@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XXXxxxXxxxxxxXxxxxxx
+# Get-WAPackLogicalNetwork
 ## XXXXXXXX
 
 ## XXXXXX
@@ -35,7 +35,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 $$Xxxx$$
 
 ```yaml

@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Test-AzureName
-## SYNOPSIS
-Tests whether a Microsoft Azure cloud service name, storage service name or service bus namespace name exists or not.
+## XXXXXXXX
+Xxxxx xxxxxxx x Xxxxxxxxx Xxxxx xxxxx xxxxxxx xxxx$ xxxxxxx xxxxxxx xxxx xx xxxxxxx xxx xxxxxxxxx xxxx xxxxxx xx xxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -32,37 +32,37 @@ Test-AzureName [-ServiceBusNamespace] [-Name] <String>
 Test-AzureName [-Website] [-Name] <String>
 ```
 
-## DESCRIPTION
-If the name exists, the cmdlet returns $True.
-If the name does not exist, it returns $False.
+## XXXXXXXXXXX
+Xx xxx xxxx xxxxxx$ xxx xxxxxx xxxxxxx $Xxxx.
+Xx xxx xxxx xxxx xxx xxxxx$ xx xxxxxxx $Xxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Example 1 --------------
+### $$$$$$$$$$$$$$  Xxxxxxx 0 $$$$$$$$$$$$$$
 ```
 C:\PS>Test-AzureName â€"Service "MyNameService1"
 ```
 
-This command tests to see if the "MyNameService1" is an existing Microsoft Azure cloud service name.
+Xxxx xxxxxxx xxxxx xx xxx xx xxx $XxXxxxXxxxxxx0$ xx xx xxxxxxxx Xxxxxxxxx Xxxxx xxxxx xxxxxxx xxxx.
 
-### --------------  Example 2 --------------
+### $$$$$$$$$$$$$$  Xxxxxxx 0 $$$$$$$$$$$$$$
 ```
 C:\PS>Test-AzureName â€"Storage "mystorename1"
 ```
 
-This command tests to see if the "mystorename1" is an existing Microsoft Azure storage service name.
+Xxxx xxxxxxx xxxxx xx xxx xx xxx $xxxxxxxxxxx0$ xx xx xxxxxxxx Xxxxxxxxx Xxxxx xxxxxxx xxxxxxx xxxx.
 
-### --------------  Example 3 --------------
+### $$$$$$$$$$$$$$  Xxxxxxx 0 $$$$$$$$$$$$$$
 ```
 C:\PS>Test-AzureName â€"ServiceBusNamespace "mynamespace"
 ```
 
-This command tests to see if the "mynamespace" is an existing Microsoft Azure service bus namespace name.
+Xxxx xxxxxxx xxxxx xx xxx xx xxx $xxxxxxxxxxx$ xx xx xxxxxxxx Xxxxxxxxx Xxxxx xxxxxxx xxx xxxxxxxxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-Specifies the name of the service or storage account to test.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxx xx xxxxxxx xxxxxxx xx xxxx.
 
 ```yaml
 Type: String
@@ -77,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -Service
-Specifies to test for an existing service account.
+Xxxxxxxxx xx xxxx xxx xx xxxxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -92,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceBusNamespace
-Specifies to test for an existing service bus namespace.
+Xxxxxxxxx xx xxxx xxx xx xxxxxxxx xxxxxxx xxx xxxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -107,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -Storage
-Specifies to test for an existing storage account.
+Xxxxxxxxx xx xxxx xxx xx xxxxxxxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -122,7 +122,7 @@ Accept wildcard characters: False
 ```
 
 ### -Website
-Specifies to test for an existing website.
+Xxxxxxxxx xx xxxx xxx xx xxxxxxxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -136,13 +136,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
-node-dev, php-dev, python-dev
+## XXXXX
+xxxx$xxx$ xxx$xxx$ xxxxxx$xxx
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 

@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxXxxxxxxx
+# Set-AzureRmApiManagementVirtualNetworks
 ## XXXXXXXX
 Xxxx xxx XXX xxxxxxxxxxxxx xxx xx XXX Xxxxxxxxxx Xxxxxxx.
 
@@ -31,7 +31,7 @@ Xxxx xxxxxxx xxxx xxxxxxx xxxxxxxx xxx xx XXX Xxxxxxxxxx xxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xx XXX Xxxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -46,7 +46,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 xxxxxxxx
 
 ```yaml
@@ -61,7 +61,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxxxx xxxxx xxx XXX Xxxxxxxxxx xxxxxxx xxxxxx.
 
 ```yaml
@@ -76,7 +76,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxx
+### -VirtualNetworks
 Xxxxxxxxx xx xxxxx xx xxxxxxx xxxxxxxx xxxxxxxxxxxxxx.
 Xxxxxxx $xxxx xxxx xxxxxx xxx xxxxxxx xxxxxxx xxxxxxxxxxxxx.
 
@@ -100,6 +100,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxXxxxxxxxxxXxxxxxxXxxxxxx](ec96b443-15bf-4b19-b518-decb18c64749)
+[New-AzureRmApiManagementVirtualNetwork](ec96b443-15bf-4b19-b518-decb18c64749)
 
 

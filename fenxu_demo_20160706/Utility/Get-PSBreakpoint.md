@@ -4,36 +4,36 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293972
 schema: 2.0.0
 ---
 
-# Xxx$XXXxxxxxxxxx
+# Get-PSBreakpoint
 ## XXXXXXXX
 Xxxx xxx xxxxxxxxxxx xxxx xxx xxx xx xxx xxxxxxx xxxxxxx.
 
 ## XXXXXX
 
-### Xxxxxx $Xxxxxxx$
+### Script (Default)
 ```
 Get-PSBreakpoint [[-Script] <String[]>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Xxxx
+### Type
 ```
 Get-PSBreakpoint [[-Script] <String[]>] [-Type] <BreakpointType[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### Xxxxxxxx
+### Variable
 ```
 Get-PSBreakpoint [[-Script] <String[]>] -Variable <String[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### Xxxxxxx
+### Command
 ```
 Get-PSBreakpoint [[-Script] <String[]>] -Command <String[]> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### Xx
+### Id
 ```
 Get-PSBreakpoint [-Id] <Int32[]> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
@@ -157,7 +157,7 @@ Xxxx xxxxxxx xxxx xxx xxxx xxx xxxxxxxx xxxxxxxxxxx xx xxx Xxxxxx.xx0 xxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Command
 Xxxx xxxxxxx xxxxxxxxxxx xxxx xxx xxx xx xxx xxxxxxxxx xxxxxxx xxxxx.
 Xxxxx xxx xxxxxxx xxxxx$ xxxx xx xxx xxxx xx x xxxxxx xx xxxxxxxx.
 
@@ -173,7 +173,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xx
+### -Id
 Xxxx xxx xxxxxxxxxxx xxxx xxx xxxxxxxxx xxxxxxxxxx XXx.
 Xxxxx xxx XXx xx x xxxxx$xxxxxxxxx xxxx.
 Xxx xxx xxxx xxxx xxxxxxxxxx XXx xx Xxx$XXXxxxxxxxxx.
@@ -190,7 +190,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -206,7 +206,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -221,7 +221,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Script
 Xxxx xxxx xxx xxxxxxxxxxx xx xxx xxxxxxxxx xxxxxxx.
 Xxxxx xxx  xxxx $xxxxxxxx$ xxx xxxxx xx xxx xx xxxx xxxxxx xxxxx.
 Xx xxx xxxx xxx xxxx$ xxx xxxxxxx xxxxxxxx xx xxx xxxxxxx xxxxxxxxx.
@@ -250,7 +250,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Type
 Xxxx xxxx xxxxxxxxxxx xx xxx xxxxxxxxx xxxxx.
 Xxxxx xxx xx xxxx xxxxx.
 Xxxxx xxxxxx xxx Xxxx$ Xxxxxxx$ xxx Xxxxxxxx.
@@ -268,7 +268,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Variable
 Xxxx xxxxxxxx xxxxxxxxxxx xxxx xxx xxx xx xxx xxxxxxxxx xxxxxxxx xxxxx.
 Xxxxx xxx xxxxxxxx xxxxx xxxxxxx xxxxxx xxxxx.
 
@@ -286,12 +286,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxx00$ Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxxxxxxXxxx
+### System.Int32, Microsoft.PowerShell.Commands.BreakpointType
 Xxx xxx xxxx xxxxxxxxxx XXx xxx xxxxxxxxxx xxxxx xx Xxx$XXXxxxxxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.Xxxxxxxxxx
+### System.Management.Automation.Breakpoint
 Xxx$XXXxxxxXxxxx xxxxxxx xxxxxxx xxxx xxxxxxxxx xxx xxxxxxxxxxx xx xxx xxxxxxx.
 
 ## XXXXX
@@ -299,15 +299,15 @@ Xxx xxx xxx Xxx$XXXxxxxxxxxx xx xxx xxxxx$ $xxx$.
 
 ## XXXXXXX XXXXX
 
-[Xxxxxxx$XXXxxxxxxxxx]()
+[Disable-PSBreakpoint]()
 
-[Xxxxxx$XXXxxxxxxxxx]()
+[Enable-PSBreakpoint]()
 
-[Xxx$XXXxxxXxxxx]()
+[Get-PSCallStack]()
 
-[Xxxxxx$XXXxxxxxxxxx]()
+[Remove-PSBreakpoint]()
 
-[Xxx$XXXxxxxxxxxx]()
+[Set-PSBreakpoint]()
 
-[xxxxx$Xxxxxxxxx]()
+[about_Debuggers]()
 

@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxXxxXxxxxxxxxx
+# New-AzureRmApiManagement
 ## XXXXXXXX
 Xxxxxxx xx XXX Xxxxxxxxxx xxxxxxxxxx.
 
@@ -42,7 +42,7 @@ Xxxx xxxxxxx xxxxxxx x Xxxxxxxx xxxx XXX Xxxxxxxxxx xxxxxxx xxxx xxx xxxxx xxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxXxxxx
+### -AdminEmail
 Xxxxxxxxx xxx xxxxxxxxxxx xxxxx xxxxxxx xxx xxx xxxxxxxxxxxxx xxxx xxx XXX Xxxxxxxxxx xxxxxx xxxxx.
 
 ```yaml
@@ -57,7 +57,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Capacity
 Xxxxxxxxx xxx XXX xxxxxxxx xx xxx xxxxx$0 XXX Xxxxxxxxxx xxxxxxx.
 Xxx xxxxxxx xx xxx $0$.
 
@@ -73,7 +73,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Location
 Xxxxxxxxx xxx xxxxxxxx xx xxxxx xxxx xxxxxx xxxxxxx xx XXX Xxxxxxxxxx xxxxxxxxxx.
 Xx xxxxxx xxxxx xxxxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxx xxxxxxx.
 
@@ -93,7 +93,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx x xxxx xxx xxx XXX Xxxxxxxxxx xxxxxxxxxx.
 
 ```yaml
@@ -108,7 +108,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxxx
+### -Organization
 Xxxxxxxxx xxx xxxx xx xx xxxxxxxxxxxx.
 XXX Xxxxxxxxxx xxxx xxxx xxxxxxx xx xxx xxxxxxxxx xxxxxx xx xxxxx xxxxxxxxxxxxx.
 
@@ -124,7 +124,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xx xxxxxxxx xxxxx xxxxx xxxxx xxxx xxxxxx xxxxxxx xx XXX Xxxxxxxxxx xxxxxxxxxx.
 
 ```yaml
@@ -139,7 +139,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxx
+### -Sku
 Xxxxxxxxx xxx xxxx xx xxx XXX Xxxxxxxxxx xxxxxxx.
 Xxxxx xxxxxx xxx$ 
 
@@ -159,7 +159,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Tags
 Xxxxxxxxx x xxxxxxxxxx xx xxxx.
 
 ```yaml
@@ -182,12 +182,12 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$XxxxxXxXxxXxxxxxxxxx](b3b67164-7adf-4fe3-87ab-51dcd46ed084)
+[Backup-AzureRmApiManagement](b3b67164-7adf-4fe3-87ab-51dcd46ed084)
 
-[Xxx$XxxxxXxXxxXxxxxxxxxx](e067ded3-a2e3-4d53-8628-0ebbafa62721)
+[Get-AzureRmApiManagement](e067ded3-a2e3-4d53-8628-0ebbafa62721)
 
-[Xxxxxx$XxxxxXxXxxXxxxxxxxxx](9a2c4617-9870-4d9c-92fa-2af03211d931)
+[Remove-AzureRmApiManagement](9a2c4617-9870-4d9c-92fa-2af03211d931)
 
-[Xxxxxxx$XxxxxXxXxxXxxxxxxxxx](b0ff412d-269a-472f-8d79-9c0b9f0ebac2)
+[Restore-AzureRmApiManagement](b0ff412d-269a-472f-8d79-9c0b9f0ebac2)
 
 

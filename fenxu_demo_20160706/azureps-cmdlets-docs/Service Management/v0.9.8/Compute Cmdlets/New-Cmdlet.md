@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$Xxxxxx
+# New-Cmdlet
 ## XXXXXXXX
 Xxxxxx Xxxxxxxx
 
@@ -32,12 +32,12 @@ Xxxx Xxxxxxx Xxxxxxxxxxx
 
 ## XXXXXX
 
-### XxxxxXxxx
+### InputType
 Xxx XxxxxXxxx
 
 ## XXXXXXX
 
-### XxxxxxXxxx
+### OutputType
 Xxx XxxxxxXxxx
 
 ## XXXXX

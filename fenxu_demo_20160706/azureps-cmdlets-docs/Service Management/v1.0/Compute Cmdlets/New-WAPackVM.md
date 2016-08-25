@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-WAPackVM
-## SYNOPSIS
-Creates a virtual machine.
+## XXXXXXXX
+Xxxxxxx x xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -29,57 +29,57 @@ New-WAPackVM [-AdministratorSSHKey <String>] [-VNet <VMNetwork>] [-Linux] -Name 
 New-WAPackVM [-VNet <VMNetwork>] -Name <String> -OSDisk <VirtualHardDisk> -VMSizeProfile <HardwareProfile>
 ```
 
-## DESCRIPTION
-These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
-This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+## XXXXXXXXXXX
+Xxxxx xxxxxx xxx xxxxxxxxxx xxx xxxx xx xxxxxxx xx xxx xxxxxx.
+Xxx xxx xxxxxxx xxxxxx$ xxx  Xxxxx XXXxxx Xxxxxxxxxxx$$$xxxx.xxxxxxxxx.xxx$xxxxxxx$xx000000.xxxx.
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.0 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxxx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xxxx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $xxx$xxxxxx xxxxx$.xxxxxxx.
 
-The New-WAPackVM cmdlet creates a virtual machine.
+Xxx Xxx$XXXxxxXX xxxxxx xxxxxxx x xxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a virtual machine for the Windows operating system by using a template
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxxxxxx xxx xxx Xxxxxxx xxxxxxxxx xxxxxx xx xxxxx x xxxxxxxx
 ```
 PS C:\>$Credentials = Get-Credential PS C:\> $Template = Get-WAPackVMTemplate -Name "ContosoTemplate04"PS C:\> New-WAPackVM -Name "ContosoV023" -Template $Template -VMCredential $Credentials -Windows
 ```
 
-The first command creates a PSCredential object, and then stores it in the $Credentials variable.
-The cmdlet prompts you for an account and password.
-For more information, type Get-Help Get-Credential.
+Xxx xxxxx xxxxxxx xxxxxxx x XXXxxxxxxxxx xxxxxx$ xxx xxxx xxxxxx xx xx xxx $Xxxxxxxxxxx xxxxxxxx.
+Xxx xxxxxx xxxxxxx xxx xxx xx xxxxxxx xxx xxxxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxxx Xxx$Xxxx Xxx$Xxxxxxxxxx.
 
-The second command gets the virtual machine template named ContosoTemplate04 by using the Get-WAPackVMTemplate cmdlet, and then stores it in the $Template variable.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx xxxxxxxx xxxxx XxxxxxxXxxxxxxx00 xx xxxxx xxx Xxx$XXXxxxXXXxxxxxxx xxxxxx$ xxx xxxx xxxxxx xx xx xxx $Xxxxxxxx xxxxxxxx.
 
-The final command creates a virtual machine named ContosoV023, based on the template stored in the $Template variable.
-The command specifies the Windows parameter, and, therefore, the virtual machine must run a version of the Windows operating system.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxxxx xxxxxxx xxxxx XxxxxxxX000$ xxxxx xx xxx xxxxxxxx xxxxxx xx xxx $Xxxxxxxx xxxxxxxx.
+Xxx xxxxxxx xxxxxxxxx xxx Xxxxxxx xxxxxxxxx$ xxx$ xxxxxxxxx$ xxx xxxxxxx xxxxxxx xxxx xxx x xxxxxxx xx xxx Xxxxxxx xxxxxxxxx xxxxxx.
 
-### Example 2: Create a virtual machine for the Linux operating system by using a template
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxxxxxx xxx xxx Xxxxx xxxxxxxxx xxxxxx xx xxxxx x xxxxxxxx
 ```
 PS C:\>$Credentials = Get-Credential PS C:\> $Template = Get-WAPackVMTemplate -Name "ContosoTemplate19"PS C:\> New-WAPackVM -Linux -Name "ContosoV028" -Template $Template -VMCredential $Credentials
 ```
 
-The first command creates a PSCredential object, and then stores it in the $Credentials variable.
+Xxx xxxxx xxxxxxx xxxxxxx x XXXxxxxxxxxx xxxxxx$ xxx xxxx xxxxxx xx xx xxx $Xxxxxxxxxxx xxxxxxxx.
 
-The second command gets the virtual machine template named ContosoTemplate19 by using the Get-WAPackVMTemplate cmdlet, and then stores it in the $Template variable.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx xxxxxxxx xxxxx XxxxxxxXxxxxxxx00 xx xxxxx xxx Xxx$XXXxxxXXXxxxxxxx xxxxxx$ xxx xxxx xxxxxx xx xx xxx $Xxxxxxxx xxxxxxxx.
 
-The final command creates a virtual machine named ContosoV028, based on the template stored in the $Template variable.
-The command specifies the Linux parameter, and, therefore, the virtual machine must run a version of the Linux operating system.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxxxx xxxxxxx xxxxx XxxxxxxX000$ xxxxx xx xxx xxxxxxxx xxxxxx xx xxx $Xxxxxxxx xxxxxxxx.
+Xxx xxxxxxx xxxxxxxxx xxx Xxxxx xxxxxxxxx$ xxx$ xxxxxxxxx$ xxx xxxxxxx xxxxxxx xxxx xxx x xxxxxxx xx xxx Xxxxx xxxxxxxxx xxxxxx.
 
-### Example 3: Create a virtual machine from an operating system disk and size profile
+### Xxxxxxx 0$ Xxxxxx x xxxxxxx xxxxxxx xxxx xx xxxxxxxxx xxxxxx xxxx xxx xxxx xxxxxxx
 ```
 PS C:\>$OSDisk = Get-WAPackVMOSDisk -Name "ContosoDiskOS"PS C:\> $SizeProfile = Get-WAPackVMSizeProfile -Name "MediumSizeVM"PS C:\> New-WAPackVM -Name "ContosoV073" -OSDisk $OSDisk -VMSizeProfile $SizeProfile
 ```
 
-The first command gets an operating system disk named ContosoDiskOS by using the Get-WAPackVMOSDisk cmdlet, and then stores it in the $OSDisk variable.
+Xxx xxxxx xxxxxxx xxxx xx xxxxxxxxx xxxxxx xxxx xxxxx XxxxxxxXxxxXX xx xxxxx xxx Xxx$XXXxxxXXXXXxxx xxxxxx$ xxx xxxx xxxxxx xx xx xxx $XXXxxx xxxxxxxx.
 
-The second command gets the size profile named MediumSizeVM by using the Get-WAPackVMSizeProfile cmdlet, and then stores it in the $SizeProfile variable.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxx xxxxxxx xxxxx XxxxxxXxxxXX xx xxxxx xxx Xxx$XXXxxxXXXxxxXxxxxxx xxxxxx$ xxx xxxx xxxxxx xx xx xxx $XxxxXxxxxxx xxxxxxxx.
 
-The final command creates a virtual machine named ContosoV073 from the operating system disk stored in $OSDisk and the size profile stored in $SizeProfile.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxxxxx xxxxxxx xxxxx XxxxxxxX000 xxxx xxx xxxxxxxxx xxxxxx xxxx xxxxxx xx $XXXxxx xxx xxx xxxx xxxxxxx xxxxxx xx $XxxxXxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AdministratorSSHKey
-Specifies the Secure Shell (SSH) key for the Administrator account.
+Xxxxxxxxx xxx Xxxxxx Xxxxx $XXX$ xxx xxx xxx Xxxxxxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -Linux
-Indicates that the cmdlet creates a virtual machine to run the Linux operating system.
+Xxxxxxxxx xxxx xxx xxxxxx xxxxxxx x xxxxxxx xxxxxxx xx xxx xxx Xxxxx xxxxxxxxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -109,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies a name for the virtual machine.
+Xxxxxxxxx x xxxx xxx xxx xxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -124,8 +124,8 @@ Accept wildcard characters: False
 ```
 
 ### -OSDisk
-Specifies an operating system disk as a VirtualHardDisk object.
-To obtain an operating system disk, use the Get-WAPackVMOSDisk cmdlet.
+Xxxxxxxxx xx xxxxxxxxx xxxxxx xxxx xx x XxxxxxxXxxxXxxx xxxxxx.
+Xx xxxxxx xx xxxxxxxxx xxxxxx xxxx$ xxx xxx Xxx$XXXxxxXXXXXxxx xxxxxx.
 
 ```yaml
 Type: VirtualHardDisk
@@ -140,9 +140,9 @@ Accept wildcard characters: False
 ```
 
 ### -ProductKey
-Specifies a product key.
-The product key is a 25 digit number that identifies the product license.
-Use a product key for an operating system that you plan to install on a virtual machine or host.
+Xxxxxxxxx x xxxxxxx xxx.
+Xxx xxxxxxx xxx xx x 00 xxxxx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xxxxxxx.
+Xxx x xxxxxxx xxx xxx xx xxxxxxxxx xxxxxx xxxx xxx xxxx xx xxxxxxx xx x xxxxxxx xxxxxxx xx xxxx.
 
 ```yaml
 Type: String
@@ -157,9 +157,9 @@ Accept wildcard characters: False
 ```
 
 ### -Template
-Specifies a template.
-The cmdlet creates a virtual machine based on the template that you specify.
-To obtain a template object, use the Get-WAPackVMTemplate cmdlet.
+Xxxxxxxxx x xxxxxxxx.
+Xxx xxxxxx xxxxxxx x xxxxxxx xxxxxxx xxxxx xx xxx xxxxxxxx xxxx xxx xxxxxxx.
+Xx xxxxxx x xxxxxxxx xxxxxx$ xxx xxx Xxx$XXXxxxXXXxxxxxxx xxxxxx.
 
 ```yaml
 Type: VMTemplate
@@ -174,9 +174,9 @@ Accept wildcard characters: False
 ```
 
 ### -VMCredential
-Specifies the credential for the local Administrator account.
-To obtain a PSCredential object, use the Get-Credential cmdlet.
-For more information, type Get-Help Get-Credential.
+Xxxxxxxxx xxx xxxxxxxxxx xxx xxx xxxxx Xxxxxxxxxxxxx xxxxxxx.
+Xx xxxxxx x XXXxxxxxxxxx xxxxxx$ xxx xxx Xxx$Xxxxxxxxxx xxxxxx.
+Xxx xxxx xxxxxxxxxxx$ xxxx Xxx$Xxxx Xxx$Xxxxxxxxxx.
 
 ```yaml
 Type: PSCredential
@@ -191,8 +191,8 @@ Accept wildcard characters: False
 ```
 
 ### -VMSizeProfile
-Specifies a size profile for a virtual machine as a HardwareProfile object.
-To obtain a size profile, use the Get-WAPackVMSizeProfile cmdlet.
+Xxxxxxxxx x xxxx xxxxxxx xxx x xxxxxxx xxxxxxx xx x XxxxxxxxXxxxxxx xxxxxx.
+Xx xxxxxx x xxxx xxxxxxx$ xxx xxx Xxx$XXXxxxXXXxxxXxxxxxx xxxxxx.
 
 ```yaml
 Type: HardwareProfile
@@ -207,9 +207,9 @@ Accept wildcard characters: False
 ```
 
 ### -VNet
-Specifies a virtual network.
-The cmdlet connects the virtual machine to the virtual network that you specify.
-To obtain a virtual network, use the Get-WAPackVNet cmdlet.
+Xxxxxxxxx x xxxxxxx xxxxxxx.
+Xxx xxxxxx xxxxxxxx xxx xxxxxxx xxxxxxx xx xxx xxxxxxx xxxxxxx xxxx xxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XXXxxxXXxx xxxxxx.
 
 ```yaml
 Type: VMNetwork
@@ -224,7 +224,7 @@ Accept wildcard characters: False
 ```
 
 ### -Windows
-Indicates that the cmdlet creates a virtual machine to run the Windows operating system.
+Xxxxxxxxx xxxx xxx xxxxxx xxxxxxx x xxxxxxx xxxxxxx xx xxx xxx Xxxxxxx xxxxxxxxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -238,13 +238,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-WAPackVM](4b060a7d-da50-45ff-adb6-bcba63faa90b)
 

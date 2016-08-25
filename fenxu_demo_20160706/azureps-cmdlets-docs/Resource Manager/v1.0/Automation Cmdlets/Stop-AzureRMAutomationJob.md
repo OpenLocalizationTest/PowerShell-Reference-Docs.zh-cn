@@ -7,32 +7,32 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Stop-AzureRMAutomationJob
-## SYNOPSIS
-Stops an Automation job.
+## XXXXXXXX
+Xxxxx xx Xxxxxxxxxx xxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Stop-AzureRMAutomationJob [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Id] <Guid>
 ```
 
-## DESCRIPTION
-The **Stop-AzureRmAutomationJob** cmdlet stops an azure_2 Automation job.
-Specify a running Automation job.
+## XXXXXXXXXXX
+Xxx $$Xxxx$XxxxxXxXxxxxxxxxxXxx$$ xxxxxx xxxxx xx xxxxx$0 Xxxxxxxxxx xxx.
+Xxxxxxx x xxxxxxx Xxxxxxxxxx xxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Stop a job
+### Xxxxxxx 0$ Xxxx x xxx
 ```
 PS C:\>Stop-AzureRmAutomationJob -AutomationAccountName "Contoso17" -Id 2989b069-24fe-40b9-b3bd-cb7e5eac4b64 -ResourceGroupName "ResourceGroup01"
 ```
 
-This command stops the job that has the specified ID.
+Xxxx xxxxxxx xxxxx xxx xxx xxxx xxx xxx xxxxxxxxx XX.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of an Automation account in which this cmdlet stops a job.
+Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx xx xxxxx xxxx xxxxxx xxxxx x xxx.
 
 ```yaml
 Type: String
@@ -47,7 +47,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-Specifies the ID of a job that this cmdlet stops.
+Xxxxxxxxx xxx XX xx x xxx xxxx xxxx xxxxxx xxxxx.
 
 ```yaml
 Type: Guid
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx.
 
 ```yaml
 Type: String
@@ -76,13 +76,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationJob](e41c8823-9e6a-4535-b90c-0e2de7634c47)
 

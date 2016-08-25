@@ -7,50 +7,49 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureRmAutomationModule
-## SYNOPSIS
-Imports a module into Automation.
+## XXXXXXXX
+Xxxxxxx x xxxxxx xxxx Xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureRmAutomationModule [-ResourceGroupName] <String> [-AutomationAccountName] <String> [-Name] <String>
  [-ContentLink] <Uri>
 ```
 
-## DESCRIPTION
-The **New-AzureRmAutomationModule** cmdlet imports a module into azure_2 Automation.
-This command accepts a compressed file that has a .zip file name extension.
-The file contains a folder that includes a file that is one of the following types: 
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxx$$ xxxxxx xxxxxxx x xxxxxx xxxx xxxxx$0 Xxxxxxxxxx.
+Xxxx xxxxxxx xxxxxxx x xxxxxxxxxx xxxx xxxx xxx x .xxx xxxx xxxx xxxxxxxxx.
+Xxx xxxx xxxxxxxx x xxxxxx xxxx xxxxxxxx x xxxx xxxx xx xxx xx xxx xxxxxxxxx xxxxx$ 
 
--- wps_2 module, which has a .psm1 or .dll file name extension 
--- wps_2 module manifest, which has a .psd1 file name extension
+$$ xxx$0 xxxxxx$ xxxxx xxx x .xxx0 xx .xxx xxxx xxxx xxxxxxxxx $$ xxx$0 xxxxxx xxxxxxxx$ xxxxx xxx x .xxx0 xxxx xxxx xxxxxxxxx
 
-The name of the .zip file, the name of the folder, and the name of the file in the folder must be the same.
+Xxx xxxx xx xxx .xxx xxxx$ xxx xxxx xx xxx xxxxxx$ xxx xxx xxxx xx xxx xxxx xx xxx xxxxxx xxxx xx xxx xxxx.
 
-Specify the .zip file as a URL that the Automation service can access.
+Xxxxxxx xxx .xxx xxxx xx x XXX xxxx xxx Xxxxxxxxxx xxxxxxx xxx xxxxxx.
 
-If you import a wps_2 module into Automation by using this cmdlet or the Set-AzureRmAutomationModule cmdlet, the operation is asynchronous.
-The command finishes whether the import succeeds or fails.
-To check whether it succeeded, run the following command:
+Xx xxx xxxxxx x xxx$0 xxxxxx xxxx Xxxxxxxxxx xx xxxxx xxxx xxxxxx xx xxx Xxx$XxxxxXxXxxxxxxxxxXxxxxx xxxxxx$ xxx xxxxxxxxx xx xxxxxxxxxxxx.
+Xxx xxxxxxx xxxxxxxx xxxxxxx xxx xxxxxx xxxxxxxx xx xxxxx.
+Xx xxxxx xxxxxxx xx xxxxxxxxx$ xxx xxx xxxxxxxxx xxxxxxx$
 
-\[CODE_Snippit\]PS C:\\\> $ModuleInstance = Get-AzureRmAutomationModule -Name \[CODE_Snippit\]ModuleName
+\[XXXX$Xxxxxxx$$XX X$$$$$ $XxxxxxXxxxxxxx $ Xxx$XxxxxXxXxxxxxxxxxXxxxxx $Xxxx $$XXXX$Xxxxxxx$$XxxxxxXxxx
 
-Check the **ProvisioningState** property for a value of Succeeded.
+Xxxxx xxx $$XxxxxxxxxxxxXxxxx$$ xxxxxxxx xxx x xxxxx xx Xxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Import a module
+### Xxxxxxx 0$ Xxxxxx x xxxxxx
 ```
 PS C:\>New-AzureRmAutomationModule -AutomationAccountName "Contoso17" -Name "ContosoModule" -ContentLink "http://contosostorage.blob.core.windows.net/modules/ContosoModule.zip" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command imports a module named ContosoModule into the Automation account named Contoso17.
-The module is stored in an azure_2 blob in a storage account named contosostorage and a container named modules.
+Xxxx xxxxxxx xxxxxxx x xxxxxx xxxxx XxxxxxxXxxxxx xxxx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00.
+Xxx xxxxxx xx xxxxxx xx xx xxxxx$0 xxxx xx x xxxxxxx xxxxxxx xxxxx xxxxxxxxxxxxxx xxx x xxxxxxxxx xxxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account for which this cmdlet imports a module.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxx.
 
 ```yaml
 Type: String
@@ -65,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -ContentLink
-Specifies the URL of the .zip file that contains a module that this cmdlet imports.
+Xxxxxxxxx xxx XXX xx xxx .xxx xxxx xxxx xxxxxxxx x xxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: Uri
@@ -80,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the module that this cmdlet imports.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -95,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group for which this cmdlet imports a module.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxx.
 
 ```yaml
 Type: String
@@ -109,13 +108,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationModule](68762a05-73e2-4987-aac6-1021282cdad7)
 

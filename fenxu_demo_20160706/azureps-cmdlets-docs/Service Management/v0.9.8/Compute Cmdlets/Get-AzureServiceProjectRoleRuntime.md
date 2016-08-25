@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxxxXxxxXxxxxxx
+# Get-AzureServiceProjectRoleRuntime
 ## XXXXXXXX
 Xxx xxx xxxxxxxx xxxxxxxxx xx xxxxxxx xx x xxxx.
 
@@ -31,7 +31,7 @@ Xxxx xxx xxxxxxxx xxxxxxxxx xx xxxxxxx xx x xxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Runtime
 Xxx xxxx xx xxx xxxxxxx.
 Xx x xxxxxxx xxxxxxxxx$ xxxx xxx xxxxxxxx xxxxxxxx xx xxxx xxxxxxx xxxxxxxxx xx xxxxxxx xx xxxx xxxx xx Xxxxxxx Xxxxx xxxx xx xxxxxxxx.
 
@@ -55,12 +55,12 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxXxxXxxx](72be1e83-84e2-49fc-aa52-b3d3dd0490a3)
+[Add-AzureNodeWebRole](72be1e83-84e2-49fc-aa52-b3d3dd0490a3)
 
-[Xxx$XxxxxXxxxXxxxxxXxxx](97649579-ead5-45c6-8bb3-e718c007e771)
+[Add-AzureNodeWorkerRole](97649579-ead5-45c6-8bb3-e718c007e771)
 
-[Xxx$XxxxxXxxxxxxXxxxxxxXxxx](80fb7e11-389d-4341-9568-e1a1bc1789df)
+[Set-AzureServiceProjectRole](80fb7e11-389d-4341-9568-e1a1bc1789df)
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](c3baa783-e57a-46bd-abe4-6d06130eaaf0)
+[Set-AzureServiceProject](c3baa783-e57a-46bd-abe4-6d06130eaaf0)
 
 

@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294023
 schema: 2.0.0
 ---
 
-# Xxxxxx$XxxxxxXxxx
+# Update-FormatData
 ## XXXXXXXX
 Xxxxxxx xxx xxxxxxxxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
@@ -72,7 +72,7 @@ Xxxxxxx xxx XxxXxxxx.xxxxxx.xx0xxx xxxx xxx xxxxxxxxxx xxxxxx$ Xxxxxx$XxxxxxXxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxXxxx
+### -AppendPath
 Xxxx xxx xxxxxxxxx xxxxxxxxxx xxxxx xx xxx xxxxxxx.
 Xxx xxxxx xxx xxxxxx xxxxx Xxxxxxx XxxxxXxxxx xxxxx xxx xxxxx$xx xxxxxxxxxx xxxxx.
 
@@ -93,7 +93,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xxxx xxxxxxxxxx .XXX xxxxxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxx xxxxxxxxxx xxxxxxxxxx xxxx xx xxxxx xxx xxxx .XXX xxxx.
 Xx xxx xxx xxx XxxxxxXxxx xxxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxxxxx xxx xxxx xxxx xxx xxxxx$xx xxxxx xxxxxx xx xxxxxxxxxx xxx xxxxxxxxxx xxxx xxxx xxx xxx xxxxxx.
 
@@ -112,7 +112,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xxxx xxxxxxxxxx .XXX xxxxxxx$ Xxxxxxx XxxxxXxxxx xxxx xxx xxxxx xxxxxxxxxx xxxxxxxxxx xxxx xx xxxxx xxx xxxx .XXX xxxx.
 Xx xxx xxx xxx XxxxxxXxxx xxxxxxxxx$ Xxxxxxx XxxxxXxxxx xxxxxxxx xxx xxxx xxxx xxx xxxxx$xx xxxxx xxxxxx xx xxxxxxxxxx xxx xxxxxxxxxx xxxx xxxx xxx xxx xxxxxx.
 
@@ -130,7 +130,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -PrependPath
 Xxxx xxx xxxxxxxxx xxxxxxxxxx xxxxx xx xxx xxxxxxx.
 Xxx xxxxx xxx xxxxxx xxxxxx Xxxxxxx XxxxxXxxxx xxxxx xxx xxxxx$xx xxxxxxxxxx xxxxx.
 
@@ -151,7 +151,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -166,7 +166,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -185,12 +185,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 Xxx xxx xxxx x xxxxxx xxxx xxxxxxxx xxx xxxxxx xxxx xx Xxxxxx$XxxxxxXxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxx xxxxxx xxx xxxxxx.
 
 ## XXXXX

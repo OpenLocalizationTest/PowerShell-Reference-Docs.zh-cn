@@ -7,31 +7,31 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Update-AzureWebsiteRepository
-## SYNOPSIS
-Update the remote repositories of a local git repository for all the slots
+## XXXXXXXX
+Xxxxxx xxx xxxxxx xxxxxxxxxxxx xx x xxxxx xxx xxxxxxxxxx xxx xxx xxx xxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 Update-AzureWebsiteRepository [[-Name] <String>] -PublishingUsername <String> [-Confirm] [-WhatIf]
 ```
 
-## DESCRIPTION
-Update the remote repositories of a local git repository for all the slots
+## XXXXXXXXXXX
+Xxxxxx xxx xxxxxx xxxxxxxxxxxx xx x xxxxx xxx xxxxxxxxxx xxx xxx xxx xxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Update Website Remote Repositories --------------
+### $$$$$$$$$$$$$$  Xxxxxx Xxxxxxx Xxxxxx Xxxxxxxxxxxx $$$$$$$$$$$$$$
 ```
 C:\PS>Update-AzureWebsiteRepository -Name MyWebsite
 ```
 
-Updates the remote repositories of a local git repository for all the slots for website MyWebsite
+Xxxxxxx xxx xxxxxx xxxxxxxxxxxx xx x xxxxx xxx xxxxxxxxxx xxx xxx xxx xxxxx xxx xxxxxxx XxXxxxxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-The name of the website
+Xxx xxxx xx xxx xxxxxxx
 
 ```yaml
 Type: String
@@ -46,7 +46,7 @@ Accept wildcard characters: False
 ```
 
 ### -PublishingUsername
-The username you have specified in the Microsoft Azure Portal for Git deployment
+Xxx xxxxxxxx xxx xxxx xxxxxxxxx xx xxx Xxxxxxxxx Xxxxx Xxxxxx xxx Xxx xxxxxxxxxx
 
 ```yaml
 Type: String
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -76,9 +76,9 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
+Xxx xxxxxx xx xxx xxx.
 
 ```yaml
 Type: SwitchParameter
@@ -92,13 +92,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 

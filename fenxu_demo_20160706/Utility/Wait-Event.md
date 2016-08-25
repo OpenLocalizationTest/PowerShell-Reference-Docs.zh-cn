@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294026
 schema: 2.0.0
 ---
 
-# Xxxx$Xxxxx
+# Wait-Event
 ## XXXXXXXX
 Xxxxx xxxxx x xxxxxxxxxx xxxxx xx xxxxxx xxxxxx xxxxxxxxxx xx xxx.
 
@@ -69,7 +69,7 @@ Xx xxx xxxxxxxxx xxxx xxxxxxx$ xxx xxxx xxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -85,7 +85,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -100,7 +100,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxxxx
+### -SourceIdentifier
 Xxxxx xxxx xxx xxxxxx xxxx xxx xxxxxxxxx xxxxxx xxxxxxxxxx.
 Xx xxxxxxx$ Xxxx$Xxxxxx xxxxx xxx xxx xxxxx.
 
@@ -116,7 +116,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Timeout
 Xxxxxxxxxx xxx xxxxxxx xxxx$ xx xxxxxxx$ xxxx Xxxx$Xxxxx xxxxx xxx xxx xxxxx xx xxxxx.
 Xxx xxxxxxx$ $0$ xxxxx xxxxxxxxxxxx.
 Xxx xxxxxx xxxxxx xxxx xxx xxxxxx xxx Xxxx$Xxxxx xxxxxxx.
@@ -138,11 +138,11 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.String
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxx
+### System.Management.Automation.PSEventArgs
 
 ## XXXXX
 Xxxxxx$ xxxxx xxxxxxxxxxxxx$ xxx xxx xxxxx xxxxx xxxxx xxxx xx xxx xxxxxxx xxxxxxx.
@@ -150,21 +150,21 @@ Xx xxx xxxxx xxx xxxxxxx xxxxxxx$ xxx xxxxx xxxxx xx xxxxxxxxx xxx xxx xxxxx xxx
 
 ## XXXXXXX XXXXX
 
-[Xxx$Xxxxx]()
+[Get-Event]()
 
-[Xxx$XxxxxXxxxxxxxxx]()
+[Get-EventSubscriber]()
 
-[Xxx$Xxxxx]()
+[New-Event]()
 
-[Xxxxxxxx$XxxxxxXxxxx]()
+[Register-EngineEvent]()
 
-[Xxxxxxxx$XxxxxxXxxxx]()
+[Register-ObjectEvent]()
 
-[Xxxxxxxx$XxxXxxxx]()
+[Register-WmiEvent]()
 
-[Xxxxxx$Xxxxx]()
+[Remove-Event]()
 
-[Xxxxxxxxxx$Xxxxx]()
+[Unregister-Event]()
 
-[Xxxx$Xxxxx]()
+[Wait-Event]()
 

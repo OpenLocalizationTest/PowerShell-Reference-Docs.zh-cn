@@ -7,56 +7,56 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Add-AzureDjangoWebRole
-## SYNOPSIS
-Creates the required files and configuration (sometimes referred to as scaffolding) for a Python Django application.
+## XXXXXXXX
+Xxxxxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx $xxxxxxxxx xxxxxxxx xx xx xxxxxxxxxxx$ xxx x Xxxxxx Xxxxxx xxxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Add-AzureDjangoWebRole [[-Name] <String>] [[-Instances] <Int32>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-Creates the required files and configuration (sometimes referred to as scaffolding) for a Python Django application that will be hosted in Azure through IIS.
+Xxxxxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx $xxxxxxxxx xxxxxxxx xx xx xxxxxxxxxxx$ xxx x Xxxxxx Xxxxxx xxxxxxxxxxx xxxx xxxx xx xxxxxx xx Xxxxx xxxxxxx XXX.
 
-## EXAMPLES
+## XXXXXXXX
 
-### 1: Add a web role using default values
+### 0$ Xxx x xxx xxxx xxxxx xxxxxxx xxxxxx
 ```
 PS C:\>Add-AzureDjangoWebRole
 ```
 
-This example adds the required files and configuration for new web role using the default values of a service named WebRole1 with 1 instance.
+Xxxx xxxxxxx xxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx xxx xxx xxx xxxx xxxxx xxx xxxxxxx xxxxxx xx x xxxxxxx xxxxx XxxXxxx0 xxxx 0 xxxxxxxx.
 
-### 2: Add a web role using default values
+### 0$ Xxx x xxx xxxx xxxxx xxxxxxx xxxxxx
 ```
 PS C:\>Add-AzureDjangoWebRole
 ```
 
-This example adds the required files and configuration for new web role using the default values of a service named WebRole1 with 1 instance.
+Xxxx xxxxxxx xxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx xxx xxx xxx xxxx xxxxx xxx xxxxxxx xxxxxx xx x xxxxxxx xxxxx XxxXxxx0 xxxx 0 xxxxxxxx.
 
-### 3: Single Instance Web Role
+### 0$ Xxxxxx Xxxxxxxx Xxx Xxxx
 ```
 PS C:\>Add-AzureDjangoWebRole -Name MyWebRole
 ```
 
-\<Iâ€™d cut this one, since the previous example included this by default, and the next one shows multiple instances\>
+\<X$$$x xxx xxxx xxx$ xxxxx xxx xxxxxxxx xxxxxxx xxxxxxxx xxxx xx xxxxxxx$ xxx xxx xxxx xxx xxxxx xxxxxxxx xxxxxxxxx\>
 
-### 4: Add a web role with multiple instances
+### 0$ Xxx x xxx xxxx xxxx xxxxxxxx xxxxxxxxx
 ```
 PS C:\>Add-AzureDjangoWebRole MyWebRole -I 2
 ```
 
-This example adds the required files and configuration for a new web role to the current application, using the name "MyWebRole" and a role instance count of 2.
+Xxxx xxxxxxx xxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx xxx x xxx xxx xxxx xx xxx xxxxxxx xxxxxxxxxxx$ xxxxx xxx xxxx $XxXxxXxxx$ xxx x xxxx xxxxxxxx xxxxx xx 0.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Instances
-Specifies the number of role instances for this web role.
-The default is 1.
+Xxxxxxxxx xxx xxxxxx xx xxxx xxxxxxxxx xxx xxxx xxx xxxx.
+Xxx xxxxxxx xx 0.
 
 ```yaml
 Type: Int32
@@ -71,9 +71,9 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the web role.
-The name determines the name of the directory that contains the required files and configuration for the Python Django application.
-The default is WebRole#, where # is the number of web roles in the service.
+Xxxxxxxxx xxx xxxx xx xxx xxx xxxx.
+Xxx xxxx xxxxxxxxxx xxx xxxx xx xxx xxxxxxxxx xxxx xxxxxxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx xxx xxx Xxxxxx Xxxxxx xxxxxxxxxxx.
+Xxx xxxxxxx xx XxxXxxx$$ xxxxx $ xx xxx xxxxxx xx xxx xxxxx xx xxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -87,14 +87,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
-This example adds the required files and configuration for new web role to the current application, using the name â€œMyWebRoleâ€ with a role instance count of 2.
+## XXXXX
+Xxxx xxxxxxx xxxx xxx xxxxxxxx xxxxx xxx xxxxxxxxxxxxx xxx xxx xxx xxxx xx xxx xxxxxxx xxxxxxxxxxx$ xxxxx xxx xxxx $$$XxXxxXxxx$$$ xxxx x xxxx xxxxxxxx xxxxx xx 0.
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [New-AzureServiceProject](68b3e4a9-7aff-4274-bd8c-0f664cb6e65d)
 

@@ -8,7 +8,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# XxxxxXX.XXX Xxxxxxxxxx Xxxxxx
+# AzureRM.API Management Module
 ## Xxxxxxxxxxx
 $$Xxxxxxxx Xxxxx Xxxxxxxxxxx Xxxx$$
 

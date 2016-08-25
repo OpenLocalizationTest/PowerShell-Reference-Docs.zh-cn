@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxxxxXxxXx
+# Remove-AzureStoreAddOn
 ## XXXXXXXX
 Xxxxxxx xx xxxxxxxx xxx$xx xxxxxxxx.
 
@@ -33,7 +33,7 @@ Xxxx xxxxxxx xxxxxxx xx xxx$xx xxxxx XxXxxXx xxxx xxx xxxxxxx xxxxxxxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxx$xx xxxxxxxx xx xxxxxx.
 
 ```yaml
@@ -48,7 +48,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 $$Xxxx$$
 
 ```yaml
@@ -71,10 +71,10 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxXxxXx](ceb557b5-e9af-4797-8385-94078de84662)
+[Get-AzureStoreAddOn](ceb557b5-e9af-4797-8385-94078de84662)
 
-[Xxx$XxxxxXxxxxXxxXx](a293ef75-d822-4392-8af4-1bb50d0461f6)
+[New-AzureStoreAddOn](a293ef75-d822-4392-8af4-1bb50d0461f6)
 
-[Xxx$XxxxxXxxxxXxxXx](545b82f5-330f-48c7-b2b1-d6a1c630ac28)
+[Set-AzureStoreAddOn](545b82f5-330f-48c7-b2b1-d6a1c630ac28)
 
 

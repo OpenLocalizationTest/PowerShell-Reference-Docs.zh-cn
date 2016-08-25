@@ -6,18 +6,18 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxxxxxXxxxxxXxxxx
+# Get-AzureRMAutomationHybridWorkerGroup
 ## XXXXXXXX
 Xxxx xxxxxx xxxxxxx xxxxxx xxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureRMAutomationHybridWorkerGroup [-ResourceGroupName] <String> [-AutomationAccountName] <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureRMAutomationHybridWorkerGroup [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [[-Name] <String>]
@@ -52,7 +52,7 @@ Xxxx xxxxxxx xxxx xxx xxxxxx xxxxxxx xxxxxxx xx xxx xxxxxx xxxxxxx xxxxxx xxxxx 
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xx Xxxxxxxxxx xxxxxxx.
 
 ```yaml
@@ -67,7 +67,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxxxx xxxxxxx xxxxxx xxxxx xxxx.
 
 ```yaml
@@ -82,7 +82,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx.
 
 ```yaml
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.XxxxxxXxxxxxxXxxxxx
+### Microsoft.Azure.Commands.Automation.Model.HybridRunbookWorker
 
 ## XXXXX
 

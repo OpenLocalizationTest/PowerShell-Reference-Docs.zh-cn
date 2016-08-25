@@ -7,36 +7,36 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-AzureRMAutomationConnection
-## SYNOPSIS
-Creates an Automation connection.
+## XXXXXXXX
+Xxxxxxx xx Xxxxxxxxxx xxxxxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-AzureRMAutomationConnection [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Name] <String> [-ConnectionTypeName] <String> [-ConnectionFieldValues] <IDictionary> [-Description <String>]
 ```
 
-## DESCRIPTION
-The **New-AzureRmAutomationConnection** cmdlet creates a connection in azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx$$ xxxxxx xxxxxxx x xxxxxxxxxx xx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Create a connection
+### Xxxxxxx 0$ Xxxxxx x xxxxxxxxxx
 ```
 PS C:\>$FieldValues = @{"AutomationCertificateName"="ContosoCertificate";"SubscriptionID"="81b59010-dc55-45b7-89cd-5ca26db62472"}
 PS C:\> New-AzureRmAutomationConnection -Name "Connection12" -ConnectionTypeName Azure -ConnectionFieldValues $FieldValues -ResourceGroupName "ResourceGroup01" -AutomationAccountName "AutomationAccount01"
 ```
 
-The first command assigns a hash table of field values to the $FieldValue variable.
+Xxx xxxxx xxxxxxx xxxxxxx x xxxx xxxxx xx xxxxx xxxxxx xx xxx $XxxxxXxxxx xxxxxxxx.
 
-The second command creates an azure_2 connection named Connection12 in the Automation account named AutomationAccount01.
-The command uses the connection field values in $FieldValues.
+Xxx xxxxxx xxxxxxx xxxxxxx xx xxxxx$0 xxxxxxxxxx xxxxx Xxxxxxxxxx00 xx xxx Xxxxxxxxxx xxxxxxx xxxxx XxxxxxxxxxXxxxxxx00.
+Xxx xxxxxxx xxxx xxx xxxxxxxxxx xxxxx xxxxxx xx $XxxxxXxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account for which this cmdlet creates a connection.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -51,9 +51,9 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionFieldValues
-Specifies a hash table that contains key/value pairs.
-The keys represent the connection fields for the specified connection type.
-The values represent the specific values of each connection field for the connection instance.
+Xxxxxxxxx x xxxx xxxxx xxxx xxxxxxxx xxx$xxxxx xxxxx.
+Xxx xxxx xxxxxxxxx xxx xxxxxxxxxx xxxxxx xxx xxx xxxxxxxxx xxxxxxxxxx xxxx.
+Xxx xxxxxx xxxxxxxxx xxx xxxxxxxx xxxxxx xx xxxx xxxxxxxxxx xxxxx xxx xxx xxxxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: IDictionary
@@ -68,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionTypeName
-Specifies the name of the connection type.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -83,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-Specifies a description for the connection.
+Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -98,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies a name for the connection.
+Xxxxxxxxx x xxxx xxx xxx xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -113,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet creates a connection.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxx x xxxxxxxxxx.
 
 ```yaml
 Type: String
@@ -127,15 +127,15 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
 ### Microsoft.Azure.Commands.Automation.Model.Connection
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationConnection](68f56d1c-23a9-4cb5-8fe8-c3a1e7c2ac1a)
 

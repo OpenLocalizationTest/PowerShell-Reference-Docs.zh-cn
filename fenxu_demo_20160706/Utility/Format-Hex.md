@@ -4,23 +4,23 @@ online version: http://go.microsoft.com/fwlink/?LinkId=526919
 schema: 2.0.0
 ---
 
-# Xxxxxx$Xxx
+# Format-Hex
 ## XXXXXXXX
 $$Xxxx xx xxx Xxxxxxxx$$
 
 ## XXXXXX
 
-### Xxxx $Xxxxxxx$
+### Path (Default)
 ```
 Format-Hex [-Path] <String[]>
 ```
 
-### XxxxxxxXxxx
+### LiteralPath
 ```
 Format-Hex -LiteralPath <String[]>
 ```
 
-### XxXxxxxXxxxxx
+### ByInputObject
 ```
 Format-Hex -InputObject <Object> [-Encoding <String>]
 ```
@@ -39,7 +39,7 @@ $$ Xxx xxxxxxx xxxxxxxxxxx xxxx $$
 
 ## XXXXXXXXXX
 
-### $Xxxxxxxx
+### -Encoding
 $$Xxxx Xxxxxxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -55,7 +55,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 $$Xxxx XxxxxXxxxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -70,7 +70,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -LiteralPath
 $$Xxxx XxxxxxxXxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -85,7 +85,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 $$Xxxx Xxxx Xxxxxxxxxxx$$
 
 ```yaml
@@ -102,17 +102,17 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.Object
 
 
 ## XXXXXXX
 
-### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxXxxxxxxxxx
+### Microsoft.PowerShell.Commands.ByteCollection
 
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000](http://go.microsoft.com/fwlink/?LinkId=526919)
+[http://go.microsoft.com/fwlink/?LinkId=526919](http://go.microsoft.com/fwlink/?LinkId=526919)
 

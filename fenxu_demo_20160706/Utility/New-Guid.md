@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/?LinkId=526920
 schema: 2.0.0
 ---
 
-# Xxx$Xxxx
+# New-Guid
 ## XXXXXXXX
 $$Xxxx xx xxx Xxxxxxxx$$
 
@@ -30,17 +30,17 @@ $$ Xxx xxxxxxx xxxxxxxxxxx xxxx $$
 
 ## XXXXXX
 
-### Xxxx
+### None
 
 
 ## XXXXXXX
 
-### Xxxxxx.Xxxx
+### System.Guid
 
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx$$XxxxXx$000000](http://go.microsoft.com/fwlink/?LinkId=526920)
+[http://go.microsoft.com/fwlink/?LinkId=526920](http://go.microsoft.com/fwlink/?LinkId=526920)
 

@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-WAPackVM
-## SYNOPSIS
-Gets virtual machine objects.
+## XXXXXXXX
+Xxxx xxxxxxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -22,41 +22,41 @@ Get-WAPackVM [[-ID] <Guid>]
 Get-WAPackVM [[-Name] <String>]
 ```
 
-## DESCRIPTION
-These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
-This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+## XXXXXXXXXXX
+Xxxxx xxxxxx xxx xxxxxxxxxx xxx xxxx xx xxxxxxx xx xxx xxxxxx.
+Xxx xxx xxxxxxx xxxxxx$ xxx  Xxxxx XXXxxx Xxxxxxxxxxx$$$xxxx.xxxxxxxxx.xxx$xxxxxxx$xx000000.xxxx.
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.0 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxxx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xxxx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $xxx$xxxxxx xxxxx$.xxxxxxx.
 
-The Get-WAPackVM cmdlet gets virtual machine objects.
+Xxx Xxx$XXXxxxXX xxxxxx xxxx xxxxxxx xxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get a virtual machine by using a name
+### Xxxxxxx 0$ Xxx x xxxxxxx xxxxxxx xx xxxxx x xxxx
 ```
 PS C:\>Get-WAPackVM -Name "ContosoV126"
 ```
 
-This command gets the virtual machine named ContosoV126.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx xxxxx XxxxxxxX000.
 
-### Example 2: Get a virtual machine by using an ID
+### Xxxxxxx 0$ Xxx x xxxxxxx xxxxxxx xx xxxxx xx XX
 ```
 PS C:\>Get-WAPackVM -Id 66242D17-189F-480D-87CF-8E1D749998C8
 ```
 
-This command gets the virtual machine that has the specified ID.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx xxxx xxx xxx xxxxxxxxx XX.
 
-### Example 3: Get all virtual machines
+### Xxxxxxx 0$ Xxx xxx xxxxxxx xxxxxxxx
 ```
 PS C:\>Get-WAPackVM
 ```
 
-This command gets all virtual machines.
+Xxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -ID
-Specifies the unique ID of a virtual machine.
+Xxxxxxxxx xxx xxxxxx XX xx x xxxxxxx xxxxxxx.
 
 ```yaml
 Type: Guid
@@ -71,7 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of a virtual machine.
+Xxxxxxxxx xxx xxxx xx x xxxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -85,13 +85,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [New-WAPackVM](1f74deb4-e9b0-4aeb-8e13-b1554a4ebbec)
 

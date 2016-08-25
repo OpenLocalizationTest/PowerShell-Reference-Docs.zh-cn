@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxx$XxxxxXxxxxxxXxxxXxxx
+# Stop-AzureStorageFileCopy
 ## XXXXXXXX
 Xxxxx x xxxx xxxxxxxxx xx xxx xxxxxxxxx xxxxxxxxxxx xxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Stop-AzureStorageFileCopy [-ShareName] <String> [-FilePath] <String>
  [-ClientTimeoutPerRequest <Nullable [System.Int32]>] [-ConcurrentTaskCount <Nullable [System.Int32]>]
@@ -20,7 +20,7 @@ Stop-AzureStorageFileCopy [-ShareName] <String> [-FilePath] <String>
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>] [-Confirm] [-WhatIf]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Stop-AzureStorageFileCopy [-File] <CloudFile> [-ClientTimeoutPerRequest <Nullable [System.Int32]>]
  [-ConcurrentTaskCount <Nullable [System.Int32]>] [-CopyId <String>] [-Force]
@@ -41,7 +41,7 @@ Xxxx xxxxxxx xxxxx xxxxxxx x xxxx xxxx xxx xxx xxxxxxxxx xxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ClientTimeoutPerRequest
 $$Xxxx$$
 
 ```yaml
@@ -56,7 +56,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxXxxxx
+### -ConcurrentTaskCount
 $$Xxxx$$
 
 ```yaml
@@ -71,7 +71,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Context
 $$Xxxx$$
 
 ```yaml
@@ -86,7 +86,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -CopyId
 $$Xxxx$$
 
 ```yaml
@@ -101,7 +101,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -File
 Xxxxxxxxx x $$XxxxxXxxx$$ xxxxxx.
 Xxx xxx xxxxxx x xxxxx xxxx xx xxxxxx xxx xx xxxxx xxx Xxx$XxxxxXxxxxxxXxxx xxxxxx.
 
@@ -117,7 +117,7 @@ Accept pipeline input: True(ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -FilePath
 Xxxxxxxxx xxx xxxx xx x xxxx.
 
 ```yaml
@@ -132,7 +132,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Force
 $$Xxxx$$
 
 ```yaml
@@ -147,7 +147,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ServerTimeoutPerRequest
 $$Xxxx$$
 
 ```yaml
@@ -162,7 +162,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -ShareName
 Xxxxxxxxx xxx xxxx xx x xxxxx.
 
 ```yaml
@@ -177,7 +177,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 xxxx$xxxxxxxxxxx
 
 ```yaml
@@ -192,7 +192,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 xxxx$xxxxxxxxxx
 
 ```yaml
@@ -215,12 +215,12 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxx](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
+[Get-AzureStorageFile](d9ec4b6f-fb17-4f29-b209-a3d5f212a6f1)
 
-[Xxx$XxxxxXxxxxxxXxxxXxxxXxxxx](248556e1-291f-4d27-b2e1-e00cc895b3a9)
+[Get-AzureStorageFileCopyState](248556e1-291f-4d27-b2e1-e00cc895b3a9)
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
-[Xxxxx$XxxxxXxxxxxxXxxxXxxx](66445d9f-72a9-44e3-9f1b-72ec0888357a)
+[Start-AzureStorageFileCopy](66445d9f-72a9-44e3-9f1b-72ec0888357a)
 
 

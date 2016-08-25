@@ -6,18 +6,18 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxxxxx$XxxxxXxxxxxxXxxxxxxxxxxXxxxxxxxxx
+# Enable-AzureWebsiteApplicationDiagnostic
 ## XXXXXXXX
 Xxxxxxx xxxxxxxxxxx xxxxxxxxxxx xx xx Xxxxx xxxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Enable-AzureWebsiteApplicationDiagnostic [[-Name] <String>] [-PassThru] [-Slot <String>] [-File] [-LogLevel]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Enable-AzureWebsiteApplicationDiagnostic [[-Name] <String>] [-PassThru] [-Slot <String>]
  [-StorageAccountName <String>] [-LogLevel] [-Storage]
@@ -47,7 +47,7 @@ Xxxx xxxxxxx xxxxxxx xxxxxxxxxxx xxxxxxx xxxxx xxxxxxx xxxxxxx xxxxx $$$xxxxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxx
+### -File
 Xxxxxxxxx xxxx xxx xxxx xx xxx x xxxx xxxxxx xx xxxxx xxx xxx xxxxx.
 
 ```yaml
@@ -62,7 +62,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxx
+### -LogLevel
 Xxx xxx xxxxx xx xxxxx.
 
 ```yaml
@@ -78,7 +78,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxx xxxx xx xxx Xxxxx xxxxxxx.
 
 ```yaml
@@ -93,7 +93,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxx xx xxxxxx xxxx xx xxx xxxxxxx xxxxxxxx.
 
 ```yaml
@@ -108,7 +108,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Slot
 Xxxxxxxxx xxx xxxx xx xxxx.
 
 ```yaml
@@ -123,7 +123,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Storage
 Xxxxxxxxx xxxx xxx xxxx xx xxx Xxxxx xx xxxxx xxx xxx xxxxx.
 
 ```yaml
@@ -138,7 +138,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxxxxxXxxx
+### -StorageAccountName
 Xxx xxxxxxx xxxxxxx xx xxx xxx xxxxxxx xxx xxxx.
 Xx xxx xxxxxxxxx$ xxx XxxxxxxXxxxxxxXxxxxxx xx xxxx.
 
@@ -162,14 +162,14 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxxxxxx$XxxxxXxxxxxxXxxxxxxxxxxXxxxxxxxxx](40b3665f-ec67-4ee7-9349-d16c0b2e2495)
+[Disable-AzureWebsiteApplicationDiagnostic](40b3665f-ec67-4ee7-9349-d16c0b2e2495)
 
-[Xxx$XxxxxXxxxxxx](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
+[Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 
-[Xxx$XxxxxXxxxxxx](498c1abd-298b-43e9-ac53-bc57054a5387)
+[New-AzureWebsite](498c1abd-298b-43e9-ac53-bc57054a5387)
 
-[Xxxxxx$XxxxxXxxxxxx](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
+[Remove-AzureWebsite](3997c3b8-37ce-4135-a17d-63ae3bdd8e74)
 
-[Xxxxx$XxxxxXxxxxxx](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
+[Start-AzureWebsite](d6ee400f-4a92-4f2f-83bb-70188bb2000d)
 
 

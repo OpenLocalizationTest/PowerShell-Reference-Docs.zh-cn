@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureRmAutomationAccount
-## SYNOPSIS
-Gets Automation accounts in a resource group.
+## XXXXXXXX
+Xxxx Xxxxxxxxxx xxxxxxxx xx x xxxxxxxx xxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -22,31 +22,31 @@ Get-AzureRmAutomationAccount [-ResourceGroupName] <String> [-Name] <String>
 Get-AzureRmAutomationAccount [[-ResourceGroupName] <String>]
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationAccount** cmdlet gets azure_2 Automation accounts in a resource group.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxxxxx$$ xxxxxx xxxx xxxxx$0 Xxxxxxxxxx xxxxxxxx xx x xxxxxxxx xxxxx.
 
-For more information about Automation accounts, see the New-AzureRmAutomationAccount cmdlet.
+Xxx xxxx xxxxxxxxxxx xxxxx Xxxxxxxxxx xxxxxxxx$ xxx xxx Xxx$XxxxxXxXxxxxxxxxxXxxxxxx xxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get all accounts
+### Xxxxxxx 0$ Xxx xxx xxxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationAccount -ResourceGroupName "ResourceGroup03"
 ```
 
-This command gets all Automation accounts in the resource group named ResourceGroup03.
+Xxxx xxxxxxx xxxx xxx Xxxxxxxxxx xxxxxxxx xx xxx xxxxxxxx xxxxx xxxxx XxxxxxxxXxxxx00.
 
-### Example 2: Get an account
+### Xxxxxxx 0$ Xxx xx xxxxxxx
 ```
 PS C:\>Get-AzureRmAutomationAccount -ResourceGroupName "ResourceGroup03" -Name "ContosoAutomationAccount"
 ```
 
-This command gets the Automation account named ContosoAutomationAccount in the resource group named ContosoResourceGroup.
+Xxxx xxxxxxx xxxx xxx Xxxxxxxxxx xxxxxxx xxxxx XxxxxxxXxxxxxxxxxXxxxxxx xx xxx xxxxxxxx xxxxx xxxxx XxxxxxxXxxxxxxxXxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-Specifies the name of the Automation account that this cmdlet gets.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group in which this cmdlet gets Automation accounts.
+Xxxxxxxxx xxx xxxx xx x xxxxxxxx xxxxx xx xxxxx xxxx xxxxxx xxxx Xxxxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: String
@@ -87,13 +87,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [New-AzureRmAutomationAccount](1a996e7a-1de8-4533-a39a-c17cf1ab18fd)
 

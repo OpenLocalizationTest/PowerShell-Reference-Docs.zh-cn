@@ -4,32 +4,32 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293942
 schema: 2.0.0
 ---
 
-# Xxx$Xxxxxx
+# Add-Member
 ## XXXXXXXX
 Xxxx xxxxxx xxxxxxxxxx xxx xxxxxxx xx xx xxxxxxxx xx x Xxxxxxx XxxxxXxxxx xxxxxx.
 
 ## XXXXXX
 
-### XxxxXxxxXxx $Xxxxxxx$
+### TypeNameSet (Default)
 ```
 Add-Member -InputObject <PSObject> -TypeName <String> [-PassThru] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### XxxxxxXxx
+### MemberSet
 ```
 Add-Member -InputObject <PSObject> [-MemberType] <PSMemberTypes> [-Name] <String> [[-Value] <Object>]
  [[-SecondValue] <Object>] [-TypeName <String>] [-Force] [-PassThru] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>]
 ```
 
-### XxxxXxxxxxxxXxxxxxXxxxxxXxx
+### NotePropertySingleMemberSet
 ```
 Add-Member -InputObject <PSObject> [-TypeName <String>] [-Force] [-PassThru] [-NotePropertyName] <String>
  [-NotePropertyValue] <Object> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### XxxxXxxxxxxxXxxxxXxxxxxXxx
+### NotePropertyMultiMemberSet
 ```
 Add-Member -InputObject <PSObject> [-TypeName <String>] [-Force] [-PassThru]
  [-NotePropertyMembers] <IDictionary> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
@@ -236,7 +236,7 @@ Xxx xxxxxx xxxxx xxxx xxx xxxxxx xxx x xxxx xxxx xx $Xxxxx$ xxx xxx xxxx xxxxxxx
 
 ## XXXXXXXXXX
 
-### $Xxxxx
+### -Force
 Xxxx x xxx xxxxxx xxxx xxx xxxxxx xxx x xxxxxx xxxxxx xxxx xxx xxxx xxxx.
 Xxx xxxxxx xxx xxx Xxxxx xxxxxxxxx xx xxxxxxx x xxxxxxxx xxxxxx xx x xxxx.
 
@@ -252,7 +252,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -268,7 +268,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -283,7 +283,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxx xxxxxx xx xxxxx xxx xxx xxxxxx xx xxxxx.
 Xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx$ xx xxxx x xxxxxxx xx xxxxxxxxxx xxxx xxxx xxx xxxxxxx.
 
@@ -299,7 +299,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -MemberType
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xx xxx. Xxxx xxxxxxxxx xx xxxxxxxxx.
 
 Xxx xxxxx xxxxxx xxx xxxx xxxxxxxxx xxx$ $XxxxXxxxxxxx$XxxxxXxxxxxxx$XxxxxxXxxxxxxx$XxxxXxxxxxxx$XxxxxxXxxxxx$XxxxXxxxxx$ XxxxxXxxxxxxx$ XxxxXxxxxx$ XxxxXxxxxxxx$ Xxxxxxxxxxxx$ XxxxxxXxxxxx$ xxx XxxxxxXxxxxxxx.
@@ -322,7 +322,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxx xx xx xxxxx.
 
 ```yaml
@@ -337,7 +337,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -PassThru
 Xxxxxxx xxx xxxxx xxxxxxxx xxxxxx.
 Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -360,7 +360,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxx
+### -SecondValue
 Xxxxxxxxx xxxxxxxx xxxxxxxxxx xxxxxxxxxxx xxxxx XxxxxXxxxxxxx$ XxxxxxXxxxxxxx$ XxxxXxxxxxxx$ xx XxxxXxxxxx xxxxxxx.
 Xx xxxx xxxx xxxxxx xx XxxxxXxxxxxxx$ xxxx xxxxxxxxx xxxx xx x xxxx xxxx.
 X xxxxxxxxxx $xxxx$ xx xxx xxxxxxxxx xxxx xxxx xx xxxxx xx xxx xxxxx xx xxx XxxxxXxxxxxxx.
@@ -382,7 +382,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Value
 Xxxxxxxxx xxx xxxxxxx xxxxx xx xxx xxxxx xxxxxx.
 Xx xxx xxx xx XxxxxXxxxxxxx$ XxxxXxxxxxxx$ XxxxxxXxxxxxxx xx XxxxXxxxxx xxxxxx$ xxx xxx xxxxxx xxxxxxxx$ xxxxxxxxxx xxxxxxxxxxx xx xxxxx xxx XxxxxxXxxxx xxxxxxxxx.
 
@@ -398,7 +398,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxxxXxxxxxx
+### -NotePropertyMembers
 Xxxxxxxxx x xxxx xxxxx xx xxxxxxx xxxxxxxxxx xx xxxx xxxxxxxx xxxxx xxx xxxxxx.
 Xxxx x xxxx xxxxx xx xxxxxxxxxx xx xxxxx xxx xxxx xxx xxxx xxxxxxxx xxxxx xxx xxx xxxxxx xxx xxxx xxxxxxxx xxxxxx.
 
@@ -418,7 +418,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxxxXxxx
+### -NotePropertyName
 Xxxx x xxxx xxxxxxxx xxxx xxx xxxxxxxxx xxxx.
 
 Xxx xxxx xxxxxxxxx xxxx xxx XxxxXxxxxxxxXxxxx xxxxxxxxx.
@@ -438,7 +438,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxxxxxxXxxxx
+### -NotePropertyValue
 Xxxx x xxxx xxxxxxxx xxxx xxx xxxxxxxxx xxxxx.
 
 Xxx xxxx xxxxxxxxx xxxx xxx XxxxXxxxxxxxXxxx xxxxxxxxx.
@@ -458,7 +458,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxxx
+### -TypeName
 Xxxxxxxxx x xxxx xxx xxx xxxx.
 
 Xxxx xxx xxxx xx x xxxxx xx xxx Xxxxxx xxxxxxxxx xx x xxxx xxxx xxx x xxxx xxxxxxxxxxx$ xxx xxx xxxxx xxx xxxxx xxxx xx xxx xxxx.
@@ -492,12 +492,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxx xxxxxx xxxx xx Xxx$Xxxxxx.
 
 ## XXXXXXX
 
-### Xxxx xx Xxxxxx.Xxxxxx
+### None or System.Object
 Xxxx xxx xxx xxx XxxxXxxx xxxxxxxxx$ Xxx$Xxxxxx xxxxxxx xxx xxxxx$xxxxxxxx xxxxxx.
 Xxxxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
@@ -516,13 +516,13 @@ Xxx xxxx xxxxxxxxxxx xxxxx xxx $xxxx xxxxxxxx$ xxx xxxxx$Xxxxxxxxx$Xxxxxxxxx $xx
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$Xxxxxx]()
+[Export-Clixml]()
 
-[Xxx$Xxxxxx]()
+[Get-Member]()
 
-[Xxxxxx$Xxxxxx]()
+[Import-Clixml]()
 
-[Xxx$Xxxxxx]()
+[New-Object]()
 
-[xxxxx$Xxxxxxxxx$Xxxxxxxxx]()
+[about_Automatic_Variables]()
 

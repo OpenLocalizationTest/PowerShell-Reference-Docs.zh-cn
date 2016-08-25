@@ -7,34 +7,34 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Add-AzureCacheWorkerRole
-## SYNOPSIS
-Adds a dedicated cache worker role to the current service.
+## XXXXXXXX
+Xxxx x xxxxxxxxx xxxxx xxxxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Add-AzureCacheWorkerRole [[-Name] <String>] [[-Instances] <Int32>]
 ```
 
-## DESCRIPTION
-This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+## XXXXXXXXXXX
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.00 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $Xxx$Xxxxxx $Xxxx Xxxxx$.Xxxxxxx.
 
-The Add-AzureCacheWorkerRole cmdlet adds a dedicated cache worker role to the current service.
+Xxx Xxx$XxxxxXxxxxXxxxxxXxxx xxxxxx xxxx x xxxxxxxxx xxxxx xxxxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Add a cache role
+### Xxxxxxx 0$ Xxx x xxxxx xxxx
 ```
 PS C:\>Add-AzureCacheWorkerRole
 ```
 
-This command adds a cache role to the current service.
+Xxxx xxxxxxx xxxx x xxxxx xxxx xx xxx xxxxxxx xxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Instances
-Specifies the number of worker role instances to devote to the cache worker role.
+Xxxxxxxxx xxx xxxxxx xx xxxxxx xxxx xxxxxxxxx xx xxxxxx xx xxx xxxxx xxxxxx xxxx.
 
 ```yaml
 Type: Int32
@@ -49,7 +49,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the cache worker role.
+Xxxxxxxxx xxx xxxx xx xxx xxxxx xxxxxx xxxx.
 
 ```yaml
 Type: String
@@ -63,13 +63,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Enable-AzureMemcacheRole](a836221d-899c-40af-b2f7-0629c13e3de3)
 

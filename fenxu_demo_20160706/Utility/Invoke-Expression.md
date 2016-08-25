@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=293986
 schema: 2.0.0
 ---
 
-# Xxxxxx$Xxxxxxxxxx
+# Invoke-Expression
 ## XXXXXXXX
 Xxxx xxxxxxxx xx xxxxxxxxxxx xx xxx xxxxx xxxxxxxx.
 
@@ -85,7 +85,7 @@ Xxx xxxxxxx xxxx xxxx xx xxx xxxxxxx xxxxxx xx xxx xxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Command
 Xxxxxxxxx xxx xxxxxxx xx xxxxxxxxxx xx xxx.
 Xxxx xxx xxxxxxx xx xxxxxxxxxx xx xxxxx x xxxxxxxx xxxx xxxxxxxx xxx xxxxxxx xx xxxxxxxxxx.
 Xxx Xxxxxxx xxxxxxxxx xx xxxxxxxx.
@@ -102,7 +102,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -118,7 +118,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -135,13 +135,13 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx xx XXXxxxxx
+### System.String or PSObject
 Xxx xxx xxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxxx xx Xxxxxx$Xxxxxxxxxx.
 Xxx xxx $xxxxx xxxxxxxxx xxxxxxxx xx xxxxxxxxx xxx xxxxx xxxxxxx xx xxx xxxxxxx.
 
 ## XXXXXXX
 
-### XXXxxxxx
+### PSObject
 Xxxxxxx xxx xxxxxx xxxx xx xxxxxxxxx xx xxx xxxxxxx xxxxxxx $xxx xxxxx xx xxx Xxxxxxx xxxxxxxxx$.
 
 ## XXXXX
@@ -150,5 +150,5 @@ $$ Xxxx xxxxxxxxxx xxxxxxxxxxx xxxx xxxxx xxx Xxxxxx$Xxxxxxxxxx xxxxxx xx xxxxxx
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$Xxxxxxx]()
+[Invoke-Command]()
 

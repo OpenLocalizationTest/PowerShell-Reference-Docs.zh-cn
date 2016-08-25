@@ -4,31 +4,31 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294009
 schema: 2.0.0
 ---
 
-# Xxxxxx$Xxx
+# Select-Xml
 ## XXXXXXXX
 Xxxxx xxxx xx xx XXX xxxxxx xx xxxxxxxx.
 
 ## XXXXXX
 
-### Xxx $Xxxxxxx$
+### Xml (Default)
 ```
 Select-Xml [-Xml] <XmlNode[]> [-XPath] <String> [-Namespace <Hashtable>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Xxxx
+### Path
 ```
 Select-Xml [-Path] <String[]> [-XPath] <String> [-Namespace <Hashtable>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### XxxxxxxXxxx
+### LiteralPath
 ```
 Select-Xml -LiteralPath <String[]> [-XPath] <String> [-Namespace <Hashtable>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Xxxxxxx
+### Content
 ```
 Select-Xml -Content <String[]> [-XPath] <String> [-Namespace <Hashtable>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
@@ -175,7 +175,7 @@ Xxx xxxxxxxxxxx xxxxx xxxxxxxx$ xxx Xxx$XxxXxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Content
 Xxxxxxxxx x xxxxxx xxxx xxxxxxxx xxx XXX xx xxxxxx.
 Xxx xxx xxxx xxxx xxxxxxx xx Xxxxxx$Xxx.
 
@@ -191,7 +191,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -207,7 +207,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -222,7 +222,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Namespace
 Xxxxxxxxx x xxxx xxxxx xx xxx xxxxxxxxxx xxxx xx xxx XXX.
 Xxx xxx xxxxxx $$$$xxxxxxxxxXxxx$$ $ $$xxxxxxxxxXxxxx$$$.
 
@@ -242,7 +242,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Path
 Xxxxxxxxx xxx xxxx xxx xxxx xxxxx xx xxx XXX xxxxx xx xxxxxx.
 Xxxxxxxx xxxxxxxxxx xxx xxxxxxxxx.
 
@@ -258,7 +258,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XXxxx
+### -XPath
 Xxxxxxxxx xx XXxxx xxxxxx xxxxx.
 Xxx xxxxx xxxxxxxx xx xxxx$xxxxxxxxx.
 Xxxx xxxxxxxxx xx xxxxxxxx.
@@ -275,7 +275,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxx
+### -Xml
 Xxxxxxxxx xxx xx xxxx XXX xxxxx.
 
 Xx XXX xxxxxxxx xxxx xx xxxxxxxxx xx x xxxxxxxxxx xx XXX xxxxx.
@@ -293,7 +293,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -LiteralPath
 Xxxxxxxxx xxx xxxxx xxx xxxx xxxxx xx xxx XXX xxxxx xx xxxxxx.
 Xxxxxx Xxxx$ xxx xxxxx xx xxx XxxxxxxXxxx xxxxxxxxx xx xxxx xxxxxxx xx xx xx xxxxx.
 Xx xxxxxxxxxx xxx xxxxxxxxxxx xx xxxxxxxxx.
@@ -314,12 +314,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx xx Xxxxxx.Xxx.XxxXxxx
+### System.String or System.Xml.XmlNode
 Xxx xxx xxxx x xxxx xx XXX xxxx xx Xxxxxx$Xxx.
 
 ## XXXXXXX
 
-### Xxxxxxxxx.XxxxxXxxxx.Xxxxxxxx.XxxxxxXxxXxxx
+### Microsoft.PowerShell.Commands.SelectXmlInfo
 
 ## XXXXX
 XXxxx xx x xxxxxxxx xxxxxxxx xxxx xx xxxxxxxx xx xxxxxxxx xxxxx xx xx XXX xxxxxxxx.
@@ -328,5 +328,5 @@ Xxx$ xxx $XXxxx Xxxxxxxxx$ xx xxx XXXX xxxxxxx xx xxxx$$$xx.xxxxxxxxx.xxx$xxxxxx
 
 ## XXXXXXX XXXXX
 
-[XxxxxxxXx$Xxx]()
+[ConvertTo-Xml]()
 

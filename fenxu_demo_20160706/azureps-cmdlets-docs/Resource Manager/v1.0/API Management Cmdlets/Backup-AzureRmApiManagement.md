@@ -7,33 +7,33 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Backup-AzureRmApiManagement
-## SYNOPSIS
-Backs up an API Management service.
+## XXXXXXXX
+Xxxxx xx xx XXX Xxxxxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Backup-AzureRmApiManagement [-PassThru] [-TargetBlobName <String>] -Name <String> -ResourceGroupName <String>
  -StorageContext <AzureStorageContext> -TargetContainerName <String>
 ```
 
-## DESCRIPTION
-The **Backup-AzureRmApiManagement** cmdlet backs up an instance of an azure_2 API Management service.
-This cmdlet stores the backup as an azure_2 Storage blob.
+## XXXXXXXXXXX
+Xxx $$Xxxxxx$XxxxxXxXxxXxxxxxxxxx$$ xxxxxx xxxxx xx xx xxxxxxxx xx xx xxxxx$0 XXX Xxxxxxxxxx xxxxxxx.
+Xxxx xxxxxx xxxxxx xxx xxxxxx xx xx xxxxx$0 Xxxxxxx xxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Back up an API Management service
+### Xxxxxxx 0$ Xxxx xx xx XXX Xxxxxxxxxx xxxxxxx
 ```
 PS C:\>Backup-AzureRmApiManagement -ResourceGroupName "ContosoGroup02" -Name "ContosoApi" -StorageContext $StorageContext -TargetContainerName "ContosoBackups" -TargetBlobName "ContosoBackup.apimbackup"
 ```
 
-This command backs up an API Management service to a Storage blob.
+Xxxx xxxxxxx xxxxx xx xx XXX Xxxxxxxxxx xxxxxxx xx x Xxxxxxx xxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -Name
-Specifies the name of the API Management deployment that this cmdlet backs up.
+Xxxxxxxxx xxx xxxx xx xxx XXX Xxxxxxxxxx xxxxxxxxxx xxxx xxxx xxxxxx xxxxx xx.
 
 ```yaml
 Type: String
@@ -48,7 +48,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Indicates that this cmdlet returns the backed up **PsApiManagement** object, if the operation succeeds.
+Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxxxxx xx $$XxXxxXxxxxxxxxx$$ xxxxxx$ xx xxx xxxxxxxxx xxxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -63,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the of resource group under which the API Management deployment exists.
+Xxxxxxxxx xxx xxxx xx xxx xx xxxxxxxx xxxxx xxxxx xxxxx xxx XXX Xxxxxxxxxx xxxxxxxxxx xxxxxx.
 
 ```yaml
 Type: String
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageContext
-Specifies a storage connection context.
+Xxxxxxxxx x xxxxxxx xxxxxxxxxx xxxxxxx.
 
 ```yaml
 Type: AzureStorageContext
@@ -93,11 +93,11 @@ Accept wildcard characters: False
 ```
 
 ### -TargetBlobName
-Specifies the name of the blob for the backup.
-If the blob does not exist, this cmdlet creates it.
-This cmdlet generates a default value based on the following pattern: 
+Xxxxxxxxx xxx xxxx xx xxx xxxx xxx xxx xxxxxx.
+Xx xxx xxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xx.
+Xxxx xxxxxx xxxxxxxxx x xxxxxxx xxxxx xxxxx xx xxx xxxxxxxxx xxxxxxx$ 
 
-{Name}-{yyyy-MM-dd-HH-mm}.apimbackup
+$Xxxx$$$xxxx$XX$xx$XX$xx$.xxxxxxxxxx
 
 ```yaml
 Type: String
@@ -112,8 +112,8 @@ Accept wildcard characters: False
 ```
 
 ### -TargetContainerName
-Specifies the name of the container of the blob for the backup.
-If the container does not exist, this cmdlet creates it.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxx xx xxx xxxx xxx xxx xxxxxx.
+Xx xxx xxxxxxxxx xxxx xxx xxxxx$ xxxx xxxxxx xxxxxxx xx.
 
 ```yaml
 Type: String
@@ -127,13 +127,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmApiManagement](e067ded3-a2e3-4d53-8628-0ebbafa62721)
 

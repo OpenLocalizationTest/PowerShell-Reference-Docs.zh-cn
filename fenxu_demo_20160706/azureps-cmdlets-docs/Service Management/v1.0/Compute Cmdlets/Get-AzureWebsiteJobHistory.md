@@ -7,10 +7,10 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureWebsiteJobHistory
-## SYNOPSIS
-Gets a web job history
+## XXXXXXXX
+Xxxx x xxx xxx xxxxxxx
 
-## SYNTAX
+## XXXXXX
 
 ### UNNAMED_PARAMETER_SET_1
 ```
@@ -27,36 +27,36 @@ Get-AzureWebsiteJobHistory [[-Name] <String>] [-Slot <String>] -JobName <String>
 Get-AzureWebsiteJobHistory [[-Name] <String>] [-Slot <String>] -JobName <String> -RunId <String>
 ```
 
-## DESCRIPTION
-Gets a web job history
+## XXXXXXXXXXX
+Xxxx x xxx xxx xxxxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### --------------  Get complete history for a web job --------------
+### $$$$$$$$$$$$$$  Xxx xxxxxxxx xxxxxxx xxx x xxx xxx $$$$$$$$$$$$$$
 ```
 C:\PS>Get-AzureWebsiteJobHistory -Name MyWebsite -JobName MyWebJob
 ```
 
-Gets complete history for MyWebJob
+Xxxx xxxxxxxx xxxxxxx xxx XxXxxXxx
 
-### --------------  Get latest run for a web job --------------
+### $$$$$$$$$$$$$$  Xxx xxxxxx xxx xxx x xxx xxx $$$$$$$$$$$$$$
 ```
 C:\PS>Get-AzureWebsiteJobHistory -Name MyWebsite -JobName MyWebJob -Latest
 ```
 
-Gets latest run info for MyWebJob
+Xxxx xxxxxx xxx xxxx xxx XxXxxXxx
 
-### --------------  Get specific run for a web job --------------
+### $$$$$$$$$$$$$$  Xxx xxxxxxxx xxx xxx x xxx xxx $$$$$$$$$$$$$$
 ```
 C:\PS>Get-AzureWebsiteJobHistory -Name MyWebsite -JobName MyWebJob -RunId 10
 ```
 
-Gets all info about run with id 10 for MyWebJob
+Xxxx xxx xxxx xxxxx xxx xxxx xx 00 xxx XxXxxXxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -JobName
-The web job name
+Xxx xxx xxx xxxx
 
 ```yaml
 Type: String
@@ -71,7 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -Latest
-If specified, return the latest run history.
+Xx xxxxxxxxx$ xxxxxx xxx xxxxxx xxx xxxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the Azure website
+Xxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -RunId
-The id of the run history you want to see
+Xxx xx xx xxx xxx xxxxxxx xxx xxxx xx xxx
 
 ```yaml
 Type: String
@@ -116,7 +116,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-The slot name of the Azure website
+Xxx xxxx xxxx xx xxx Xxxxx xxxxxxx
 
 ```yaml
 Type: String
@@ -130,13 +130,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureWebsite](0c2a5092-db45-4ce7-b39b-d1e499b4a867)
 

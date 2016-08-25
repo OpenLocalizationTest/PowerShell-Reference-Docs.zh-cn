@@ -6,7 +6,7 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXXXxxxxxxxxxXxxxxxxxxx
+# Set-AzureRMAutomationCredential
 ## XXXXXXXX
 Xxxxxxxx xx Xxxxxxxxxx xxxxxxxxxx.
 
@@ -41,7 +41,7 @@ Xxx xxxxx xxxxxxx xxxxxxxx xxx Xxxxxxxxxx xxxxxxxxxx xxxxx XxxxxxxXxxxxxxxxx xx 
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxxxxXxxx
+### -AutomationAccountName
 Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxxxxx.
 
 ```yaml
@@ -56,7 +56,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxxx
+### -Description
 Xxxxxxxxx x xxxxxxxxxxx xxx xxx xxxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
@@ -71,7 +71,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxxxx xxxx xxxx xxxxxx xxxxxxxx.
 
 ```yaml
@@ -86,7 +86,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxXxxxxXxxx
+### -ResourceGroupName
 Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxx xxxxx xxxx xxxxxx xxxxxxxx x xxxxxxxxxx.
 
 ```yaml
@@ -101,7 +101,7 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxx
+### -Value
 Xxxxxxxxx xxx xxxxxxxxxxx xx x $$XXXxxxxxxxxx$$ xxxxxx.
 
 ```yaml
@@ -120,16 +120,16 @@ Accept wildcard characters: False
 
 ## XXXXXXX
 
-### Xxxxxxxxx.Xxxxx.Xxxxxxxx.Xxxxxxxxxx.Xxxxx.XxxxxxxxxxXxxx
+### Microsoft.Azure.Commands.Automation.Model.CredentialInfo
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](ea09d4b6-ff25-4b91-b957-328222844689)
+[Get-AzureRmAutomationCredential](ea09d4b6-ff25-4b91-b957-328222844689)
 
-[Xxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](2e0b5b0e-df2b-4747-bb42-8e6b94f397e0)
+[New-AzureRmAutomationCredential](2e0b5b0e-df2b-4747-bb42-8e6b94f397e0)
 
-[Xxxxxx$XxxxxXxXxxxxxxxxxXxxxxxxxxx](6a171b2b-1fdc-4642-a3d5-495b39fa7cff)
+[Remove-AzureRmAutomationCredential](6a171b2b-1fdc-4642-a3d5-495b39fa7cff)
 
 

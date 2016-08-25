@@ -7,39 +7,39 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Start-WAPackVM
-## SYNOPSIS
-Starts a virtual machine.
+## XXXXXXXX
+Xxxxxx x xxxxxxx xxxxxxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Start-WAPackVM [-VM] <VirtualMachine> [-PassThru]
 ```
 
-## DESCRIPTION
-These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
-This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+## XXXXXXXXXXX
+Xxxxx xxxxxx xxx xxxxxxxxxx xxx xxxx xx xxxxxxx xx xxx xxxxxx.
+Xxx xxx xxxxxxx xxxxxx$ xxx  Xxxxx XXXxxx Xxxxxxxxxxx$$$xxxx.xxxxxxxxx.xxx$xxxxxxx$xx000000.xxxx.
+Xxxx xxxxx xxxxxxxxx xxx xxxxxx xx xxx 0.0.0 xxxxxxx xx xxx Xxxxxxxxx Xxxxx XxxxxXxxxx xxxxxx.
+Xx xxxx xxx xxx xxxxxxx xx xxx xxxxxx xxx$xx xxxxx$ xxxx xxx Xxxxx XxxxxXxxxx xxxxxxx$ xxxx $xxx$xxxxxx xxxxx$.xxxxxxx.
 
-The Start-WAPackVM cmdlet starts a virtual machine.
+Xxx Xxxxx$XXXxxxXX xxxxxx xxxxxx x xxxxxxx xxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Start a virtual machine
+### Xxxxxxx 0$ Xxxxx x xxxxxxx xxxxxxx
 ```
 PS C:\>$VirtualMachine = Get-WAPackVM -Name "ContosoV126"PS C:\> Start-WAPackVM -VM $VirtualMachine
 ```
 
-The first command gets the virtual machine named ContosoV126 by using the Get-WAPackVM cmdlet, and then stores that object in the $VirtualMachine variable.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxx xxxxxxx xxxxx XxxxxxxX000 xx xxxxx xxx Xxx$XXXxxxXX xxxxxx$ xxx xxxx xxxxxx xxxx xxxxxx xx xxx $XxxxxxxXxxxxxx xxxxxxxx.
 
-The second command starts the virtual machine stored in $VirtualMachine.
+Xxx xxxxxx xxxxxxx xxxxxx xxx xxxxxxx xxxxxxx xxxxxx xx $XxxxxxxXxxxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -PassThru
-Returns an object representing the item with which you are working.
-By default, this cmdlet does not generate any output.
+Xxxxxxx xx xxxxxx xxxxxxxxxxxx xxx xxxx xxxx xxxxx xxx xxx xxxxxxx.
+Xx xxxxxxx$ xxxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ```yaml
 Type: SwitchParameter
@@ -54,8 +54,8 @@ Accept wildcard characters: False
 ```
 
 ### -VM
-Specifies a virtual machine.
-To obtain a virtual machine, use the Get-WAPackVM cmdlet.
+Xxxxxxxxx x xxxxxxx xxxxxxx.
+Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XXXxxxXX xxxxxx.
 
 ```yaml
 Type: VirtualMachine
@@ -69,13 +69,13 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-WAPackVM](4b060a7d-da50-45ff-adb6-bcba63faa90b)
 

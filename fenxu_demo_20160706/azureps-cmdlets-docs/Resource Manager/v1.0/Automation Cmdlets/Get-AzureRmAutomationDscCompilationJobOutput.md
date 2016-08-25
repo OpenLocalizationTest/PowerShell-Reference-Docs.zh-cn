@@ -7,36 +7,36 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # Get-AzureRmAutomationDscCompilationJobOutput
-## SYNOPSIS
-Gets the logging streams of an Automation DSC compilation job.
+## XXXXXXXX
+Xxxx xxx xxxxxxx xxxxxxx xx xx Xxxxxxxxxx XXX xxxxxxxxxxx xxx.
 
-## SYNTAX
+## XXXXXX
 
 ```
 Get-AzureRmAutomationDscCompilationJobOutput [-ResourceGroupName] <String> [-AutomationAccountName] <String>
  [-Id] <Guid> [-StartTime <DateTimeOffset]>] [-Stream]
 ```
 
-## DESCRIPTION
-The **Get-AzureRmAutomationDscCompilationJobOutput** cmdlet gets the stream records of an APS Desired State Configuration (DSC) compilation job in azure_2 Automation.
+## XXXXXXXXXXX
+Xxx $$Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxxXxxxxx$$ xxxxxx xxxx xxx xxxxxx xxxxxxx xx xx XXX Xxxxxxx Xxxxx Xxxxxxxxxxxxx $XXX$ xxxxxxxxxxx xxx xx xxxxx$0 Xxxxxxxxxx.
 
-## EXAMPLES
+## XXXXXXXX
 
-### Example 1: Get the logs for a DSC compilation job
+### Xxxxxxx 0$ Xxx xxx xxxx xxx x XXX xxxxxxxxxxx xxx
 ```
 PS C:\>$Jobs = Get-AzureRmAutomationDscCompilationJob -ResourceGroupName "ResourceGroup01" -AutomationAccountName "Contoso17"
 PS C:\> $Jobs[0] | Get-AzureRmAutomationDscCompilationJobOutput -Stream "Any"
 ```
 
-The first command gets the compilation jobs in the Automation account named Contoso17 by using the Get-AzureRmAutomationDscCompilationJob cmdlet.
-The command stores those objects in the $Jobs variable.
+Xxx xxxxx xxxxxxx xxxx xxx xxxxxxxxxxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxxx Xxxxxxx00 xx xxxxx xxx Xxx$XxxxxXxXxxxxxxxxxXxxXxxxxxxxxxxXxx xxxxxx.
+Xxx xxxxxxx xxxxxx xxxxx xxxxxxx xx xxx $Xxxx xxxxxxxx.
 
-The second command gets the compilation job output for any stream for the first member of the $Jobs array.
+Xxx xxxxxx xxxxxxx xxxx xxx xxxxxxxxxxx xxx xxxxxx xxx xxx xxxxxx xxx xxx xxxxx xxxxxx xx xxx $Xxxx xxxxx.
 
-## PARAMETERS
+## XXXXXXXXXX
 
 ### -AutomationAccountName
-Specifies the name of the Automation account that contains the DSC compilation job.
+Xxxxxxxxx xxx xxxx xx xxx Xxxxxxxxxx xxxxxxx xxxx xxxxxxxx xxx XXX xxxxxxxxxxx xxx.
 
 ```yaml
 Type: String
@@ -51,7 +51,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-Specifies the unique ID of the DSC compilation job for which this cmdlet gets output.
+Xxxxxxxxx xxx xxxxxx XX xx xxx XXX xxxxxxxxxxx xxx xxx xxxxx xxxx xxxxxx xxxx xxxxxx.
 
 ```yaml
 Type: Guid
@@ -66,7 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group that contains the DSC compilation job for which this cmdlet gets stream records.
+Xxxxxxxxx xxx xxxx xx xxx xxxxxxxx xxxxx xxxx xxxxxxxx xxx XXX xxxxxxxxxxx xxx xxx xxxxx xxxx xxxxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
 Type: String
@@ -81,8 +81,8 @@ Accept wildcard characters: False
 ```
 
 ### -StartTime
-Specifies a start time.
-This cmdlet gets stream records that the DSC compilation job outputs after this time.
+Xxxxxxxxx x xxxxx xxxx.
+Xxxx xxxxxx xxxx xxxxxx xxxxxxx xxxx xxx XXX xxxxxxxxxxx xxx xxxxxxx xxxxx xxxx xxxx.
 
 ```yaml
 Type: DateTimeOffset]
@@ -97,13 +97,10 @@ Accept wildcard characters: False
 ```
 
 ### -Stream
-Specifies the type of stream for the output that this cmdlet gets.
-Valid values are: 
+Xxxxxxxxx xxx xxxx xx xxxxxx xxx xxx xxxxxx xxxx xxxx xxxxxx xxxx.
+Xxxxx xxxxxx xxx$ 
 
--- Any 
--- Warning 
--- Error 
--- Verbose
+$$ Xxx $$ Xxxxxxx $$ Xxxxx $$ Xxxxxxx
 
 ```yaml
 Type: SwitchParameter
@@ -118,13 +115,13 @@ Accept pipeline input: True(ByPropertyName)
 Accept wildcard characters: False
 ```
 
-## INPUTS
+## XXXXXX
 
-## OUTPUTS
+## XXXXXXX
 
-## NOTES
+## XXXXX
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 [Get-AzureRmAutomationDscCompilationJob](cbd50659-1e44-425c-9b97-a58be040e3b9)
 

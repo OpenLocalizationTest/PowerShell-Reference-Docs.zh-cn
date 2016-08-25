@@ -7,42 +7,42 @@ source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
 # New-Cmdlet
-## SYNOPSIS
-Cmdlet Synopsis
+## XXXXXXXX
+Xxxxxx Xxxxxxxx
 
-## SYNTAX
+## XXXXXX
 
 ```
 New-Cmdlet
 ```
 
-## DESCRIPTION
-New Cmdlet detailed description
+## XXXXXXXXXXX
+Xxx Xxxxxx xxxxxxxx xxxxxxxxxxx
 
-## EXAMPLES
+## XXXXXXXX
 
-### Code Example
+### Xxxx Xxxxxxx
 ```
 PS C:\>Get-Help New-Cmdlet
 ```
 
-Code Example Description
+Xxxx Xxxxxxx Xxxxxxxxxxx
 
-## PARAMETERS
+## XXXXXXXXXX
 
-## INPUTS
+## XXXXXX
 
 ### InputType
-New InputType
+Xxx XxxxxXxxx
 
-## OUTPUTS
+## XXXXXXX
 
 ### OutputType
-New OutputType
+Xxx XxxxxxXxxx
 
-## NOTES
-Cmdlet Remark
+## XXXXX
+Xxxxxx Xxxxxx
 
-## RELATED LINKS
+## XXXXXXX XXXXX
 
 

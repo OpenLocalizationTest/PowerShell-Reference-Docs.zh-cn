@@ -4,7 +4,7 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294029
 schema: 2.0.0
 ---
 
-# Xxxxx$Xxxx
+# Write-Host
 ## XXXXXXXX
 Xxxxxx xxxxxxxxxx xxxxxx xx x xxxx.
 
@@ -59,7 +59,7 @@ Xxx xxxxxxxxxx xx xxxxx$ xx xxxxxxx xx xxx XxxxxxxxxxXxxxx xxxxxxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxxxxxxXxxxx
+### -BackgroundColor
 Xxxxxxxxx xxx xxxxxxxxxx xxxxx.
 Xxxxx xx xx xxxxxxx.
 
@@ -76,7 +76,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxx
+### -ForegroundColor
 Xxxxxxxxx xxx xxxx xxxxx.
 Xxxxx xx xx xxxxxxx.
 
@@ -93,7 +93,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -109,7 +109,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -124,7 +124,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxXxxxxxx
+### -NoNewline
 Xxxxxxxxx xxxx xxx xxxxxxx xxxxxxxxx xx xxx xxxxxxx xxxx xxx xxx xxxx x xxxxxxx xxxxxxxxx.
 
 ```yaml
@@ -139,7 +139,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Object
 Xxxxxxx xx xxxxxxx xx xxx xxxxxxx.
 
 ```yaml
@@ -154,7 +154,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxx
+### -Separator
 Xxxxxx xx xxx xxxxxx xxxxxxx xxxxxxx xxxxxxxxx xx xxx xxxxxxx.
 
 ```yaml
@@ -171,12 +171,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxx
+### System.Object
 Xxx xxx xxxx xxxxxxx xx xx xxxxxxx xx xxx xxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxxxx$Xxxx xxxxx xxx xxxxxxx xx xxx xxxx.
 Xx xxxx xxx xxxxxx xxx xxxxxxx.
 Xxxxxxx$ xxx xxxx xxxxx xxxxxxx xxx xxxxxxx xxxx Xxxxx$Xxxx xxxxx xx xx.
@@ -185,19 +185,19 @@ Xxxxxxx$ xxx xxxx xxxxx xxxxxxx xxx xxxxxxx xxxx Xxxxx$Xxxx xxxxx xx xx.
 
 ## XXXXXXX XXXXX
 
-[Xxxxx$Xxxx]()
+[Clear-Host]()
 
-[Xxx$Xxxx]()
+[Out-Host]()
 
-[Xxxxx$Xxxxx]()
+[Write-Debug]()
 
-[Xxxxx$Xxxxx]()
+[Write-Error]()
 
-[Xxxxx$Xxxxxx]()
+[Write-Output]()
 
-[Xxxxx$Xxxxxxxx]()
+[Write-Progress]()
 
-[Xxxxx$Xxxxxxx]()
+[Write-Verbose]()
 
-[Xxxxx$Xxxxxxx]()
+[Write-Warning]()
 

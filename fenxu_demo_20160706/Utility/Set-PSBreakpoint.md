@@ -4,25 +4,25 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294013
 schema: 2.0.0
 ---
 
-# Xxx$XXXxxxxxxxxx
+# Set-PSBreakpoint
 ## XXXXXXXX
 Xxxx x xxxxxxxxxx xx x xxxx$ xxxxxxx$ xx xxxxxxxx.
 
 ## XXXXXX
 
-### Xxxx $Xxxxxxx$
+### Line (Default)
 ```
 Set-PSBreakpoint [-Action <ScriptBlock>] [[-Column] <Int32>] [-Line] <Int32[]> [-Script] <String[]>
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Xxxxxxx
+### Command
 ```
 Set-PSBreakpoint [-Action <ScriptBlock>] -Command <String[]> [[-Script] <String[]>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### Xxxxxxxx
+### Variable
 ```
 Set-PSBreakpoint [-Action <ScriptBlock>] [[-Script] <String[]>] -Variable <String[]>
  [-Mode <VariableAccessMode>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
@@ -179,7 +179,7 @@ Xxx xxxxxx xxxxxxxxx xx xxx Xxxxxx xxxxxxxxx xxxxxxx xx xxx xxxxxxxxxxx.
 
 ## XXXXXXXXXX
 
-### $Xxxxxx
+### -Action
 Xxxxxxxxx xxxxxxxx xxxx xxx xx xxxx xxxxxxxxxx xxxxxxx xx xxxxxxxx.
 Xxxxx x xxxxxx xxxxx xxxx xxxxxxxx xxx xxxxxxxx.
 Xxx xxx xxx xxxx xxxxxxxxx xx xxx xxxxxxxxxxx xxxxxxxxxxx xx xx xxxxxxx xxxxx xxxxx$ xxxx xx xxxxxxx xx xxxxxxx.
@@ -204,7 +204,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Column
 Xxxxxxxxx xxx xxxxxx xxxxxx xx xxx xxxxxx xx xxx xxxxxx xxxx xx xxxxx xxxxxxxxx xxxxx.
 Xxxxx xxxx xxx xxxxxx xxxxxx.
 Xxx xxxxxxx xx xxxxxx 0.
@@ -228,7 +228,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Command
 Xxxx x xxxxxxx xxxxxxxxxx.
 Xxxxx xxxxxx xxxxx$ xxxx xx $Xxx$Xxxxxxx$ xx xxxxxxxx xxxxx.
 Xxxxxxxxx xxx xxxxxxxxx.
@@ -248,7 +248,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 Xx xxxx xxxxxxxxx xx xxxxxxx$ xx xx xxxxxx xx xxxxxxxxx$ xxxxxxxxx xxxxx xx xxx xxxxxxxxxx$ xxx xxx xxxxxxxx xxxxxx.
 
 Xxxx xxx Xxxxxx xxxxxxxxx xx xxxx$ xxx Xxxxxx xxxxxx xxxxx xxxx xx xxxx xxxxxxxxxx.
@@ -270,7 +270,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 Xx xxxx xxxxxxxxx xx xxxxxxx$ xx xx xxxxxx xx xxxxxxxxx$ xxxxxxxxx xxxxx xx xxx xxxxxxxxxx$ xxx xxx xxxxxxxx xxxxxx.
 
 Xxxx xxx Xxxxxx xxxxxxxxx xx xxxx$ xxx Xxxxxx xxxxxx xxxxx xxxx xx xxxx xxxxxxxxxx.
@@ -291,7 +291,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Line
 Xxxx x xxxx xxxxxxxxxx xx x xxxxxx.
 Xxxxx xxx xx xxxx xxxx xxxxxxx$ xxxxxxxxx xx xxxxxx.
 Xxxxxxx XxxxxXxxxx xxxxx xxxxxxxxxxx xxxxxx xxxxxxxxx xxx xxxxxxxxx xxxx xxxxxx xx xxxx xx xxx xxxxxxxxx xxxxx.
@@ -312,7 +312,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Mode
 Xxxxxxxxxx xxx xxxx xx xxxxxx xxxx xxxxxxxx xxxxxxxx xxxxxxxxxxx.
 Xxx xxxxxxx xx Xxxxx.
 
@@ -338,7 +338,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Script
 Xxxx x xxxxxxxxxx xx xxxx xx xxx xxxxxxxxx xxxxxx xxxxx.
 Xxxxx xxx xxxxx xxx xxxx xxxxx xx xxx xx xxxx xxxxxx xxxxx.
 Xx xxx xxxxx xxx xx xxx xxxxxxx xxxxxxxxx$ xxx xxx xxxx xxx xxxx.
@@ -371,7 +371,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Variable
 Xxxx x xxxxxxxx xxxxxxxxxx.
 Xxxxx x xxxxx$xxxxxxxxx xxxx xx xxxxxxxxx xxxxxxx xxxxxx xxxxx $$$.
 
@@ -392,12 +392,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxxxx xx Xxx$XXXxxxxxxxxx.
 
 ## XXXXXXX
 
-### Xxxxxxxxxx xxxxxx $Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxXxxxxxxxxx$ Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxxxxXxxxxxxxxx$ Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XxxxxxxXxxxxxxxxx$
+### Breakpoint object (System.Management.Automation.LineBreakpoint, System.Management.Automation.VariableBreakpoint, System.Management.Automation.CommandBreakpoint)
 Xxx$XXXxxxxxxxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxxx xxxxxxxxxx xxxx xx xxxx.
 
 ## XXXXX
@@ -410,15 +410,15 @@ Xxxx xxxxxxx x xxxxxxxxxx xx x xxxxxxxx xx xxxxxxxx xx xxx xxxxxxx xxxxxx$ xxx x
 
 ## XXXXXXX XXXXX
 
-[Xxxxxxx$XXXxxxxxxxxx]()
+[Disable-PSBreakpoint]()
 
-[Xxxxxx$XXXxxxxxxxxx]()
+[Enable-PSBreakpoint]()
 
-[Xxx$XXXxxxxxxxxx]()
+[Get-PSBreakpoint]()
 
-[Xxx$XXXxxxXxxxx]()
+[Get-PSCallStack]()
 
-[Xxxxxx$XXXxxxxxxxxx]()
+[Remove-PSBreakpoint]()
 
-[xxxxx$Xxxxxxxxx]()
+[about_Debuggers]()
 

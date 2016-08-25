@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294003
 schema: 2.0.0
 ---
 
-# Xxxxxx$Xxxxx
+# Remove-Event
 ## XXXXXXXX
 Xxxxxxx xxxxxx xxxx xxx xxxxx xxxxx.
 
 ## XXXXXX
 
-### XxXxxxxx $Xxxxxxx$
+### BySource (Default)
 ```
 Remove-Event [-SourceIdentifier] <String> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### XxXxxxxxxxxx
+### ByIdentifier
 ```
 Remove-Event [-EventIdentifier] <Int32> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [-WhatIf] [-Confirm]
@@ -53,7 +53,7 @@ Xxxx xxxxxxx xxxxxxx xxx xxxxxx xxxx xxx xxxxx xxxxx.
 
 ## XXXXXXXXXX
 
-### $XxxxxXxxxxxxxxx
+### -EventIdentifier
 Xxxxxxx xxxx xxx xxxxx xxxx xxx xxxxxxxxx xxxxx xxxxxxxxxx.
 Xx XxxxxXxxxxxxxxx xx XxxxxxXxxxxxxxxx xxxxxxxxx xx xxxxxxxx xx xxxxx xxxxxxx.
 
@@ -69,7 +69,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -85,7 +85,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -100,7 +100,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxxxx
+### -SourceIdentifier
 Xxxxxxx xxxx xxx xxxxxx xxxx xxx xxxxxxxxx xxxxxx xxxxxxxxxx.
 Xxxxxxxxx xxx xxx xxxxxxxxx.
 Xx XxxxxXxxxxxxxxx xx XxxxxxXxxxxxxxxx xxxxxxxxx xx xxxxxxxx xx xxxxx xxxxxxx.
@@ -117,7 +117,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -132,7 +132,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -151,12 +151,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxXxxx
+### System.Management.Automation.PSEventArgs
 Xxx xxx xxxx xxxxxx xxxx Xxx$Xxxxx xx Xxxxxx$Xxxxx.
 
 ## XXXXXXX
 
-### Xxxx
+### None
 Xxx xxxxxx xxxx xxx xxxxxxxx xxx xxxxxx.
 
 ## XXXXX
@@ -165,19 +165,19 @@ Xx xxx xxxxx xxx xxxxxxx xxxxxxx$ xxx xxxxx xxxxx xx xxxxxxxxx xxx xxx xxxxx xxx
 
 ## XXXXXXX XXXXX
 
-[Xxx$Xxxxx]()
+[Get-Event]()
 
-[Xxx$Xxxxx]()
+[New-Event]()
 
-[Xxxxxxxx$XxxxxxXxxxx]()
+[Register-EngineEvent]()
 
-[Xxxxxxxx$XxxxxxXxxxx]()
+[Register-ObjectEvent]()
 
-[Xxxxxxxx$XxxXxxxx]()
+[Register-WmiEvent]()
 
-[Xxxxxx$Xxxxx]()
+[Remove-Event]()
 
-[Xxxxxxxxxx$Xxxxx]()
+[Unregister-Event]()
 
-[Xxxx$Xxxxx]()
+[Wait-Event]()
 

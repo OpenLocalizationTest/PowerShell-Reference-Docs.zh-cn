@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294012
 schema: 2.0.0
 ---
 
-# Xxx$Xxxx
+# Set-Date
 ## XXXXXXXX
 Xxxxxxx xxx xxxxxx xxxx xx xxx xxxxxxxx xx x xxxx xxxx xxx xxxxxxx.
 
 ## XXXXXX
 
-### Xxxx $Xxxxxxx$
+### Date (Default)
 ```
 Set-Date [-Date] <DateTime> [-DisplayHint <DisplayHintType>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
 ```
 
-### Xxxxxx
+### Adjust
 ```
 Set-Date [-Adjust] <TimeSpan> [-DisplayHint <DisplayHintType>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm]
@@ -87,7 +87,7 @@ Xxx xxxxxx xxxxxxx xxxx xxx Xxxxxx xxxxxxxxx xx Xxx$Xxxx xx xxxxxx xxx xxxx xx x
 
 ## XXXXXXXXXX
 
-### $Xxxxxx
+### -Adjust
 Xxxx xx xxxxxxxxx xxx xxxxxxxxx xxxxx xxxx xxx xxxxxxx xxxx xxx xxxx.
 Xxx xxx xxxx xx xxxxxxxxxx xx xxxxxxxx xxxx xxx xxxx xxxxxx xxx xxxx xxxxxx xx xxx xxx Xxxxxx xxxxxxxxx xx xxxx x XxxxXxxx xxxxxx xxxx Xxx$XxxxXxxx xx Xxx$Xxxx.
 
@@ -103,7 +103,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Date
 Xxxxxxx xxx xxxx xxx xxxx xx xxx xxxxxxxxx xxxxxx.
 Xxx xxx xxxx x xxx xxxx xx xxx xxxxx xxxx xxxxxx xxx x xxxx xx xxx xxxxxxxx xxxx xxxxxx xxx xxxx xxxxxx.
 Xx$ xxx xxx xxxx x Xxxx$Xxxx xxxxxx xxxx Xxx$Xxxx.
@@ -123,7 +123,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxXxxx
+### -DisplayHint
 Xxxxxxxxxx xxxxx xxxxxxxx xx xxx xxxx xxx xxxx xxx xxxxxxxxx.
 
 Xxxxx xxxxxx xxx$
@@ -146,7 +146,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -162,7 +162,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -177,7 +177,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Confirm
 Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.Xxxxxxx xxx xxx xxxxxxxxxxxx xxxxxx xxxxxxx xxx xxxxxx.
 
 ```yaml
@@ -192,7 +192,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXx
+### -WhatIf
 Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.Xxxxx xxxx xxxxx xxxxxx xx xxx xxxxxx xxxx.
 Xxx xxxxxx xx xxx xxx.
@@ -211,12 +211,12 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.XxxxXxxx
+### System.DateTime
 Xxx xxx xxxx x xxxx xx Xxx$Xxxx.
 
 ## XXXXXXX
 
-### Xxxxxx.XxxxXxxx
+### System.DateTime
 Xxx$Xxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxx xxxx xx xxx.
 
 ## XXXXX
@@ -230,7 +230,7 @@ Xxx xxxx xxxxxxxxxxx$ xxx $XxxxXxxx Xxxxxxx$ xxx $XxxxXxxx Xxxxxxx.$
 
 ## XXXXXXX XXXXX
 
-[Xxx$Xxxx]()
+[Get-Date]()
 
-[Xxx$XxxxXxxx]()
+[New-TimeSpan]()
 

@@ -4,19 +4,19 @@ online version: http://go.microsoft.com/fwlink/p/?linkid=294024
 schema: 2.0.0
 ---
 
-# Xxxxxx$Xxxx
+# Update-List
 ## XXXXXXXX
 Xxxx xxxxx xx xxx xxxxxxx xxxxx xxxx x xxxxxxxx xxxxx xxxx xxxxxxxx x xxxxxxxxxx xx xxxxxxx.
 
 ## XXXXXX
 
-### XxxXxxxxxXxx $Xxxxxxx$
+### AddRemoveSet (Default)
 ```
 Update-List [-Add <Object[]>] [-Remove <Object[]>] [-InputObject <PSObject>] [[-Property] <String>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
 ```
 
-### XxxxxxxXxx
+### ReplaceSet
 ```
 Update-List -Replace <Object[]> [-InputObject <PSObject>] [[-Property] <String>]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>]
@@ -100,7 +100,7 @@ Xxxx xxxxxxx xxxx xxx XxxxxXxxxxx xxxxxxxxx xxxxx$ xx xxxx xxxx$ xx xxxxxxxxxx x
 
 ## XXXXXXXXXX
 
-### $Xxx
+### -Add
 Xxxxxxxxx xxx xxxxxxxx xxxxxx xx xx xxxxx xx xxx xxxxxxxxxx.
 Xxxxx xxx xxxxxx xx xxx xxxxx xxxx xxxx xxxxxx xxxxxx xx xxx xxxxxxxxxx.
 
@@ -116,7 +116,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxx
+### -InformationAction
 $$Xxxx$$
 
 ```yaml
@@ -132,7 +132,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxxXxxxxxxx
+### -InformationVariable
 $$Xxxx$$
 
 ```yaml
@@ -147,7 +147,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxx
+### -InputObject
 Xxxxxxxxx xxx xxxxxxx xx xx xxxxxxx.
 Xxx xxx xxxx xxxx xxx xxxxxx xx xx xxxxxxx xx Xxxxxx$Xxxx.
 
@@ -163,7 +163,7 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Property
 Xxxxxxxxxx xxx xxxxxxxx xxxx xxxxxxxx xxx xxxxxxxxxx xxxx xx xxxxx xxxxxxx.
 Xx xxx xxxx xxxx xxxxxxxxx$ Xxxxxx$Xxxx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxx xxxxxxx xx xxxxxxxx xxx xxxxxx.
 
@@ -179,7 +179,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Remove
 Xxxxxxxxx xxx xxxxxxxx xxxxxx xx xx xxxxxxx xxxx xxx xxxxxxxxxx.
 
 ```yaml
@@ -194,7 +194,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Replace
 Xxxxxxxxx x xxx xxxxxxxxxx.
 Xxxx xxxxxxxxx xxxxxxxx xxx xxxxx xx xxx xxxxxxxx xxxxxxxxxx xxxx xxx xxxxx xxxxxxxxx xx xxxx xxxxxxxxx.
 
@@ -212,17 +212,17 @@ Accept wildcard characters: False
 
 ## XXXXXX
 
-### Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxxx
+### System.Management.Automation.PSObject
 Xxx xxx xxxx xxx xxxxxxx xx xx xxxxxxx xx Xxxxxx$Xxxx.
 
 ## XXXXXXX
 
-### Xxxxxxx xx Xxxxxx.Xxxxxxxxxx.Xxxxxxxxxx.XXXxxxXxxxxxxx
+### Objects or System.Management.Automation.PSListModifier
 Xxxxxx$Xxxx xxxxxxx xxx xxxxxxx xxxxxx$ xx xx xxxxxxx xx xxxxxx xxxx xxxxxxxxxx xxx xxxxxx xxxxxx.
 
 ## XXXXX
 
 ## XXXXXXX XXXXX
 
-[Xxxxxx$Xxxxxx]()
+[Select-Object]()
 

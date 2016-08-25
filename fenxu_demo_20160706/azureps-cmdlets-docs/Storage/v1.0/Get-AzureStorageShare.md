@@ -6,20 +6,20 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxx
+# Get-AzureStorageShare
 ## XXXXXXXX
 Xxxx x xxxx xx xxxx xxxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-AzureStorageShare [[-Prefix] <String>] [-ClientTimeoutPerRequest <Nullable [System.Int32]>]
  [-ConcurrentTaskCount <Nullable [System.Int32]>] [-Context <AzureStorageContext>]
  [-ServerTimeoutPerRequest <Nullable [System.Int32]>]
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-AzureStorageShare [-Name] <String> [-ClientTimeoutPerRequest <Nullable [System.Int32]>]
  [-ConcurrentTaskCount <Nullable [System.Int32]>] [-Context <AzureStorageContext>]
@@ -57,7 +57,7 @@ Xxx xxxxxx xxxxxxx xxxx xxx xxxx xxxxxx xxx xxx xxxxxxx xxxxxx xxxxxx xx $Xxxxxx
 
 ## XXXXXXXXXX
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ClientTimeoutPerRequest
 $$Xxxx$$
 
 ```yaml
@@ -72,7 +72,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxxxxxXxxxXxxxx
+### -ConcurrentTaskCount
 $$Xxxx$$
 
 ```yaml
@@ -87,7 +87,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxx
+### -Context
 $$Xxxx$$
 
 ```yaml
@@ -102,7 +102,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xxx xxxx xxxxx.
 Xxxx xxxxxx xxxx xxx xxxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx$ xx xxxxxxx xx xxx xxxxxxx xxx xxxx xx x xxxx xxxxx xxxx xxxx xxx xxxxx.
 
@@ -118,7 +118,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Prefix
 Xxxxxxxxx xxx xxxxxx xxx xxxx xxxxxx.
 Xxxx xxxxxx xxxx xxxx xxxxxx xxxx xxxxx xxx xxxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx$ xx xx xxxx xxxxxx xx xx xxxx xxxxxx xxxxx xxx xxxxxxxxx xxxxxx.
 
@@ -134,7 +134,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxxxxxXxxXxxxxxx
+### -ServerTimeoutPerRequest
 $$Xxxx$$
 
 ```yaml
@@ -157,8 +157,8 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxx](17c0253c-c7b6-4c78-92ce-77277e156396)
+[New-AzureStorageShare](17c0253c-c7b6-4c78-92ce-77277e156396)
 
-[Xxxxxx$XxxxxXxxxxxxXxxxx](f9a0f4e1-3677-4786-bd84-d3645c61baca)
+[Remove-AzureStorageShare](f9a0f4e1-3677-4786-bd84-d3645c61baca)
 
 

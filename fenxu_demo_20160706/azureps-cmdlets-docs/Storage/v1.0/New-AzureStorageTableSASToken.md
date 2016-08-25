@@ -6,13 +6,13 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XxxxxXxxxxxxXxxxxXXXXxxxx
+# New-AzureStorageTableSASToken
 ## XXXXXXXX
 Xxxxxxxxx xx XXX xxxxx xxx xx xxxxx$0 Xxxxxxx xxxxx.
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 New-AzureStorageTableSASToken [-Name] <String> [-Context <AzureStorageContext>] [-EndPartitionKey <String>]
  [-EndRowKey <String>] [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>]
@@ -20,7 +20,7 @@ New-AzureStorageTableSASToken [-Name] <String> [-Context <AzureStorageContext>] 
  [-StartRowKey <String>] [-StartTime <DateTime]>] -Policy <String>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 New-AzureStorageTableSASToken [-Name] <String> [-Context <AzureStorageContext>] [-EndPartitionKey <String>]
  [-EndRowKey <String>] [-ExpiryTime <DateTime]>] [-FullUri] [-IPAddressOrRange <String>] [-Permission <String>]
@@ -59,7 +59,7 @@ Xxx xxxxxxx xxxxxxxxx xxx xxxxxx xxxxxx xxxxxx xxxxx XxxxxxXxxxxx00.
 
 ## XXXXXXXXXX
 
-### $Xxxxxxx
+### -Context
 Xxxxxxxxx xx xxxxx$0 xxxxxxx xxxxxxx.
 Xx xxxxxx x xxxxxxx xxxxxxx$ xxx xxx Xxx$XxxxxXxxxxxxXxxxxxx xxxxxx.
 
@@ -75,7 +75,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $XxxXxxxxxxxxXxx
+### -EndPartitionKey
 Xxxxxxxxx xxx xxxxxxxxx xxx xx xxx xxx xx xxx xxxxx xxx xxx xxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -90,7 +90,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxXxxXxx
+### -EndRowKey
 Xxxxxxxxx xxx xxx xxx xxx xxx xxx xx xxx xxxxx xxx xxx xxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -105,7 +105,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxxXxxx
+### -ExpiryTime
 Xxxxxxxxx xxxx xxx XXX xxxxx xxxxxxx.
 
 ```yaml
@@ -120,7 +120,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxXxx
+### -FullUri
 Xxxxxxxxx xxxx xxxx xxxxxx xxxxxxx xxx xxxx xxxxx XXX xxxx xxx XXX xxxxx.
 
 ```yaml
@@ -135,7 +135,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XXXxxxxxxXxXxxxx
+### -IPAddressOrRange
 $$Xxxx$$
 
 ```yaml
@@ -150,7 +150,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 Xxxxxxxxx xxx xxxx xx xx xxxxx$0 Xxxxxxx xxxxx.
 Xxxx xxxxxx xxxxxxx xx XXX xxxxx xxx xxx xxxxx xxxx xxxx xxxxxxxxx xxxxxxxxx.
 
@@ -166,7 +166,7 @@ Accept pipeline input: True(ByValue,ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxxxx
+### -Permission
 Xxxxxxxxx xxxxxxxxxxx xxx xx xxxxx$0 Xxxxxxx xxxxx.
 
 ```yaml
@@ -181,7 +181,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxx
+### -Policy
 Xxxxxxxxx x xxxxxx xxxxxx xxxxxx$ xxxxx xxxxxxxx xxx xxxxxxxxxxx xxx xxxx XXX xxxxx.
 
 ```yaml
@@ -196,7 +196,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $Xxxxxxxx
+### -Protocol
 $$Xxxx$$
 
 ```yaml
@@ -211,7 +211,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxxxxxxxXxx
+### -StartPartitionKey
 Xxxxxxxxx xxx xxxxxxxxx xxx xx xxx xxxxx xx xxx xxxxx xxx xxx xxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -226,7 +226,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxXxx
+### -StartRowKey
 Xxxxxxxxx xxx xxx xxx xxx xxx xxxxx xx xxx xxxxx xxx xxx xxxxx xxxx xxxx xxxxxx xxxxxxx.
 
 ```yaml
@@ -241,7 +241,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### $XxxxxXxxx
+### -StartTime
 Xxxxxxxxx xxxx xxx XXX xxxxx xxxxxxx xxxxx.
 
 ```yaml
@@ -264,6 +264,6 @@ Accept wildcard characters: False
 
 ## XXXXXXX XXXXX
 
-[Xxx$XxxxxXxxxxxxXxxxxxx](671aeec8-b7f9-49c5-866f-da84f189ab5b)
+[New-AzureStorageContext](671aeec8-b7f9-49c5-866f-da84f189ab5b)
 
 

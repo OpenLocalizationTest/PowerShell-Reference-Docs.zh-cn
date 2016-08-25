@@ -6,17 +6,17 @@ source_branch: master
 source_repo: https://github.com/Visual-Studio-China/azure-powershell-docs-int
 ---
 
-# Xxx$XXXxxxXXxx
+# Get-WAPackVNet
 ## XXXXXXXX
 
 ## XXXXXX
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_1
 ```
 Get-WAPackVNet [-ID] <Guid>
 ```
 
-### XXXXXXX$XXXXXXXXX$XXX$0
+### UNNAMED_PARAMETER_SET_2
 ```
 Get-WAPackVNet [-Name] <String>
 ```
@@ -37,7 +37,7 @@ PS C:\>
 
 ## XXXXXXXXXX
 
-### $XX
+### -ID
 $$Xxxx$$
 
 ```yaml
@@ -52,7 +52,7 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### $Xxxx
+### -Name
 $$Xxxx$$
 
 ```yaml
