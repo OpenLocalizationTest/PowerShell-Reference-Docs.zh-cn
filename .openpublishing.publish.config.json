@@ -5,7 +5,7 @@
   "docsets_to_publish": [
     {
       "docset_name": "powershell-ref-doc",
-      "build_source_folder": "powershell-ref-doc",
+      "build_source_folder": "fenxu_demo_20160706",
       "build_output_subfolder": "ol-ps",
       "locale": "zh-cn",
       "version": 0,
