@@ -4,21 +4,18 @@
   "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
-      "docset_name": "powershell-ref-doc",
+      "docset_name": "fenxu_demo_20160706",
       "build_source_folder": "fenxu_demo_20160706",
-      "build_output_subfolder": "ol-ps",
+      "build_output_subfolder": "fenxu_demo_20160706",
       "locale": "zh-cn",
       "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content",
-        "AzureCli": "Content"
+        "RestApi": "Content"
       },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "customized_template_paths": ["azurecli/azurecli"]
+      "build_entry_point": "docs"
     }
   ],
   "notification_subscribers": [],
@@ -28,16 +25,7 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft.zh-cn",
-      "branch": "master",
-      "branch_mapping": {}
-    }
-  ],
-  "dependent_packages": [
-    {
-      "path_to_root": "azurecli",
-      "id": "opbuild.templates.azurecli",
-      "version": "1.16.0-alpha-083-g9bef3a5",
-      "nuget_feed": "https://www.myget.org/F/op-dev/api/v2"
+      "branch": "master"
     }
   ]
 }
