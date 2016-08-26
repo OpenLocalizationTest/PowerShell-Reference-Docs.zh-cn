@@ -6,7 +6,7 @@
     {
       "docset_name": "powershell-ref-doc",
       "build_source_folder": "powershell-ref-doc",
-      "build_output_subfolder": ".",
+      "build_output_subfolder": "ol-ps",
       "locale": "zh-cn",
       "version": 0,
       "open_to_public_contributors": true,
