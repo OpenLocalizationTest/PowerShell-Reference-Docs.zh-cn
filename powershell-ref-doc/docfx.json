@@ -3,11 +3,11 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md", "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
-          "./**",
+          "fenxu_demo_20160706/**",
           "**/includes/**"
         ]
       }
@@ -16,20 +16,25 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "breadcrumb.json"
         ],
         "exclude": [
           "**/obj/**",
-          "./**",
+          "fenxu_demo_20160706/**",
           "**/includes/**"
         ]
       }
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+        "breadcrumb_path": "/fenxu_demo_20160706/breadcrumb.json"
+    },
     "fileMetadata": {},
-    "template": [],
-    "dest": "."
+    "template": [
+      null
+    ],
+    "dest": "fenxu_demo_20160706"
   }
 }
