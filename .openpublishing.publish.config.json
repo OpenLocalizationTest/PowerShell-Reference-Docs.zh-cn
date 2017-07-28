@@ -8,18 +8,19 @@
       "build_source_folder": "fenxu_demo_20160706",
       "build_output_subfolder": "fenxu_demo_20160706",
       "locale": "zh-cn",
-      "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "build_entry_point": "docs"
+      "build_entry_point": "docs",
+      "version": 0
     }
   ],
   "notification_subscribers": [],
   "branches_to_filter": [],
+  "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "dependent_repositories": [
     {
@@ -27,5 +28,6 @@
       "url": "https://github.com/Microsoft/templates.docs.msft.zh-cn",
       "branch": "master"
     }
-  ]
+  ],
+  "need_generate_pdf_url_template": false
 }
